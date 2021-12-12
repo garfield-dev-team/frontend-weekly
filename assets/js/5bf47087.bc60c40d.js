@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[6800],{5973:function(e){e.exports=JSON.parse('{"allTagsPath":"/frontend-weekly/build/blog/tags","slug":"/frontend-weekly/build/blog/tags/docusaurus","name":"docusaurus","count":3,"permalink":"/frontend-weekly/build/blog/tags/docusaurus"}')}}]);
