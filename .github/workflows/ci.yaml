@@ -24,5 +24,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: main
+          publish_branch: gh-pages
           full_commit_message: ${{ github.event.head_commit.message }}
