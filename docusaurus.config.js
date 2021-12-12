@@ -9,7 +9,7 @@ const config = {
   title: 'Frontend Weekly',
   tagline: '⭐️ 每周更新优质技术文章，欢迎点赞关注！',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/frontend-weekly/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
