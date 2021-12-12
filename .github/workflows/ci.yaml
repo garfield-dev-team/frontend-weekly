@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   build_and_deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +20,7 @@ jobs:
           yarn
           yarn build
       - name: Deploy
-        use: peaceiris/actions-gh-pages@main
+        uses: peaceiris/actions-gh-pages@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
