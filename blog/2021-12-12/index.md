@@ -184,7 +184,9 @@ import normalizePackageData from 'normalize-package-data';
 [从 vue-cli 源码中，我发现27行读取 json 文件有趣的 npm 包](https://juejin.cn/post/7037270522236764167)
 
 📒 gradient-string: 在终端中输出漂亮的渐变色
-![请添加图片描述](https://img-blog.csdnimg.cn/abe2bb16f3494809badaaa6fe3075a2a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5aSp54yr57K-54G1OTk4,size_20,color_FFFFFF,t_70,g_se,x_16)
+
+![image](./gradient-string.png)
+
 > https://github.com/bokub/gradient-string
 
 📒 [手写系列-实现一个铂金段位的 React](https://juejin.cn/post/6978654109893132318)
