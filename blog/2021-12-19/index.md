@@ -5,6 +5,33 @@ authors: [garfield]
 tags: [Golang, NPM, React]
 ---
 
+⭐️ Webpack 分包最佳实践
+
+SplitChunksPlugin 进行分包的三要素:
+
+1. `minChunks`: 一个模块是否最少被 minChunks 个 chunk 所引用
+2. `maxInitialRequests/maxAsyncRequests`: 最多只能有 maxInitialRequests/maxAsyncRequests 个 chunk 需要同时加载 (如一个 Chunk 依赖 VendorChunk 才可正常工作，此时同时加载 chunk 数为 2)
+3. `minSize/maxSize`: chunk 的体积必须介于 (minSize, maxSize) 之间
+
+哪些应该单独分包：
+
+1. Webpack 运行时
+2. React Framework 运行时，包括 React/React-DOM 及它们所有的依赖
+3. 大型库，体积特别大的库
+4. 公共库，至少被 4 个 Chunk 所引用的公共模块
+
+:::tip
+
+Webpack 配置最佳实践，除了 Vue-cli 和 CRA 源码，还可以参考 `next.js` 源码：
+
+https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack-config.ts
+
+:::
+
+[Webpack 性能系列四：分包优化](https://mp.weixin.qq.com/s/LrASIdA19iwIwng29G5HpA)
+
+📒 [【内部分享】看向未来 - 近期 TC39 提案汇总](https://mp.weixin.qq.com/s/AxwT588VKRxnlkBlXICMpQ)
+
 📒 Go 1.18 Beta 1 已经正支持泛型
 
 - [Go 1.18 Beta 1 is available, with generics](https://go.dev/blog/go1.18beta1)
@@ -24,3 +51,26 @@ tags: [Golang, NPM, React]
 📒 [用 CSS 来代替 JS 的实现](https://github.com/you-dont-need/You-Dont-Need-JavaScript)
 
 📒 [React18 新特性：transition](https://juejin.cn/post/7027995169211285512)
+
+📒 [「2021」我给Vue.js生态贡献代码的这一年](https://juejin.cn/post/7038370502926139399)
+
+⭐️ ⭐️ fiber：受到 Express 启发的 Web 应用框架，使用 Go 开发，与 Express 的 API 非常接近
+
+```go
+package main
+
+import "github.com/gofiber/fiber/v2"
+
+func main() {
+  app := fiber.New()
+
+  app.Get("/", func(c *fiber.Ctx) error {
+    return c.SendString("Hello, World 👋!")
+  })
+
+  app.Listen(":3000")
+}
+```
+
+> https://github.com/gofiber/fiber
+
