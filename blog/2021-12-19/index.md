@@ -32,6 +32,20 @@ https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack-config
 
 📒 [【内部分享】看向未来 - 近期 TC39 提案汇总](https://mp.weixin.qq.com/s/AxwT588VKRxnlkBlXICMpQ)
 
+📒 WebRTC 录屏技术
+
+WebRTC 是一套基于音视轨的实时数据流传播的技术方案。通过浏览器原生 API `navigator.mediaDevices.getDisplayMedia` 方法实现提示用户选择和授权捕获展示的窗口，进而获取 stream (录制的屏幕音视流)。我们可以对 stream 进行转化处理，转成相对应的媒体数据，并将其数据存储。
+
+```js
+var promise = navigator.mediaDevices.getDisplayMedia(constraints);
+```
+
+> https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia
+
+- [浅析Web录屏技术方案与实现](https://juejin.cn/post/7028723258019020836)
+- [从0到1打造一个 WebRTC 应用](https://juejin.cn/post/6896045087659130894)
+- [浅聊WebRTC视频通话](https://juejin.cn/post/7010954456548245541)
+
 📒 Go 1.18 Beta 1 已经正支持泛型
 
 - [Go 1.18 Beta 1 is available, with generics](https://go.dev/blog/go1.18beta1)
