@@ -32,6 +32,29 @@ https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack-config
 
 📒 [【内部分享】看向未来 - 近期 TC39 提案汇总](https://mp.weixin.qq.com/s/AxwT588VKRxnlkBlXICMpQ)
 
+📒 如何移除代码中的 `console`
+
+1. 使用 `uglifyjs-webpack-plugin` 或 `terser-webpack-plugin` 中的 `drop_console` 配置；
+2. 使用 Babel 插件 `babel-plugin-transform-remove-console`；
+3. 简单粗暴删除，直接重写 `console.log` 方法；
+
+  ```js
+  console.log = function() {};
+  ```
+
+4. 手写 webpack loader 删除；
+
+  ```js
+  // clearConsole.js
+  const reg = /(console.log\()(.*)(\))/g;
+  module.exports = function(source) {
+      source = source.replace(reg, "")
+      return source;
+  }
+  ```
+
+  > 基于正则匹配还是有一些问题，例如 `const { log } = console` 或者 `const log = console.log.bind(console)` 这种就匹配不到
+
 📒 WebRTC 录屏技术
 
 WebRTC 是一套基于音视轨的实时数据流传播的技术方案。通过浏览器原生 API `navigator.mediaDevices.getDisplayMedia` 方法实现提示用户选择和授权捕获展示的窗口，进而获取 stream (录制的屏幕音视流)。我们可以对 stream 进行转化处理，转成相对应的媒体数据，并将其数据存储。
