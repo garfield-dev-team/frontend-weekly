@@ -177,6 +177,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 📒 掘金大佬汇总
 
 - Vue 源码、响应式机制：[ssh](https://juejin.cn/user/2330620350708823/posts) 、[黄轶](https://juejin.cn/user/2137106333044861/posts)
+- React 进阶系列：[我不是外星人](https://juejin.cn/user/2418581313687390/posts)
 - Webpack 相关：[Tecvan](https://juejin.cn/user/1820446985555544/posts)
 - 设计模式：[DYBOY](https://juejin.cn/user/3544481219495806/posts)
 - 手写源码、设计模式：[蒋鹏飞](https://juejin.cn/user/2295436011645655/posts)
