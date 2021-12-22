@@ -26,7 +26,7 @@
         <updated>2021-12-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 如何对 webpack 打包产物进行分析]]></summary>
         <content type="html"><![CDATA[<p>📒 如何对 webpack 打包产物进行分析</p><p>经常需要分析打包产物的体积，看哪个包体积过大，做针对性优化。可以使用 Webpack Bundle Analyzer：</p><pre><code class="language-bash">$ yarn add webpack-bundle-analyzer -D
-</code></pre><p>在 <code>weboack.config.js</code> 中添加如下配置：</p><pre><code class="language-js">const { BundleAnalyzerPlugin } = require(&#x27;webpack-bundle-analyzer&#x27;);
+</code></pre><p>在 <code>webpack.config.js</code> 中添加如下配置：</p><pre><code class="language-js">const { BundleAnalyzerPlugin } = require(&#x27;webpack-bundle-analyzer&#x27;);
 
 module.exports = {
   plugins: [
