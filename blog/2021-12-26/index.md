@@ -13,7 +13,7 @@ tags: [Webpack, Golang, NPM, React]
 $ yarn add webpack-bundle-analyzer -D
 ```
 
-在 `weboack.config.js` 中添加如下配置：
+在 `webpack.config.js` 中添加如下配置：
 
 ```js
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
