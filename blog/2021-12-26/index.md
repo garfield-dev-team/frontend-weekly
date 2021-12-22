@@ -5,6 +5,34 @@ authors: [garfield]
 tags: [Webpack, Golang, NPM, React]
 ---
 
+📒 如何对 webpack 打包产物进行分析
+
+经常需要分析打包产物的体积，看哪个包体积过大，做针对性优化。可以使用 Webpack Bundle Analyzer：
+
+```bash
+$ yarn add webpack-bundle-analyzer -D
+```
+
+在 `weboack.config.js` 中添加如下配置：
+
+```js
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+
+module.exports = {
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ]
+}
+```
+
+然后执行打包构建命令：
+
+```bash
+$ yarn build --report
+```
+
+> https://github.com/webpack-contrib/webpack-bundle-analyzer
+
 📒 create-react-app 发布 5.0 版本
 
 本次的 5.0 版本优化了快速刷新(Fast Refresh)，支持了 Tailwind，并更新了不少内部依赖库，如 Webpack 5、Jest 27 和 EsLint 8 等。
