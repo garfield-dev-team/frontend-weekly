@@ -20,8 +20,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/12月26日内容汇总</link>
             <guid>12月26日内容汇总</guid>
             <pubDate>Sun, 26 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 使用 webpack-chain 对 vue-cli 默认配置进行修改]]></description>
-            <content:encoded><![CDATA[<p>📒 使用 webpack-chain 对 vue-cli 默认配置进行修改</p><blockquote><p><a href="https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans">https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans</a></p></blockquote><p>📒 如何对 webpack 打包产物进行分析</p><p>经常需要分析打包产物的体积，看哪个包体积过大，做针对性优化。可以使用 Webpack Bundle Analyzer：</p><pre><code class="language-bash">$ yarn add webpack-bundle-analyzer -D
+            <description><![CDATA[📒 看火焰图分析调用栈的时候，看到一个 asyncGeneratorStep 的函数，一直没搞清楚这个在哪里用到了]]></description>
+            <content:encoded><![CDATA[<p>📒 看火焰图分析调用栈的时候，看到一个 <code>asyncGeneratorStep</code> 的函数，一直没搞清楚这个在哪里用到了</p><p><img src="./POPO20211223-201441.png" alt="image"/></p><p>事后才想到这是 babel 语法转换引入的 helper 函数</p><p><img src="./POPO20211223-113701.png" alt="image"/></p><p>📒 使用 webpack-chain 对 vue-cli 默认配置进行修改</p><blockquote><p><a href="https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans">https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans</a></p></blockquote><p>📒 如何对 webpack 打包产物进行分析</p><p>经常需要分析打包产物的体积，看哪个包体积过大，做针对性优化。可以使用 Webpack Bundle Analyzer：</p><pre><code class="language-bash">$ yarn add webpack-bundle-analyzer -D
 </code></pre><p>在 <code>webpack.config.js</code> 中添加如下配置：</p><pre><code class="language-js">const { BundleAnalyzerPlugin } = require(&#x27;webpack-bundle-analyzer&#x27;);
 
 module.exports = {
