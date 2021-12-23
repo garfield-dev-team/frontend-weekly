@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [Webpack, Golang, NPM, React]
 ---
 
+📒 看火焰图分析调用栈的时候，看到一个 `asyncGeneratorStep` 的函数，一直没搞清楚这个在哪里用到了
+
+![image](./POPO20211223-201441.png)
+
+事后才想到这是 babel 语法转换引入的 helper 函数
+
+![image](./POPO20211223-113701.png)
+
 📒 使用 webpack-chain 对 vue-cli 默认配置进行修改
 
 > https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans
