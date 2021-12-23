@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [Webpack, Golang, NPM, React]
 ---
 
+📒 使用 webpack-chain 对 vue-cli 默认配置进行修改
+
+> https://github.com/Yatoo2018/webpack-chain/tree/zh-cmn-Hans
+
 📒 如何对 webpack 打包产物进行分析
 
 经常需要分析打包产物的体积，看哪个包体积过大，做针对性优化。可以使用 Webpack Bundle Analyzer：
