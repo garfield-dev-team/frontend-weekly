@@ -5,6 +5,15 @@ authors: [garfield]
 tags: [Webpack, Golang, NPM, React]
 ---
 
+📒 腾讯技术工程相关文章
+
+- [14W 行代码量的前端页面长什么样](https://zhuanlan.zhihu.com/p/334617737)
+- [万字长文轻松彻底入门 Flutter，秒变大前端](https://zhuanlan.zhihu.com/p/90836859)
+- [Git 分支操作&存储原理浅谈](https://zhuanlan.zhihu.com/p/444802648)
+- [QUIC 协议详解](https://zhuanlan.zhihu.com/p/405387352)
+
+⭐️ [收藏 | 腾讯技术 2020 年精华文章合集](https://zhuanlan.zhihu.com/p/340814811)
+
 🐛 生产环境如何 debug
 
 - 定位错误是前端还是后端接口返回的
