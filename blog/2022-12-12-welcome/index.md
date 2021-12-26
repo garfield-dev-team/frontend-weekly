@@ -153,6 +153,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
 - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
 - [Golang 单元测试指引](https://zhuanlan.zhihu.com/p/267341653)
+- ⭐️ [使用Golang、Gin和React、esbuild开发的Blog](https://juejin.cn/post/7041846339189080101)
+- ⭐️ [fiber：受到 Express 启发的 Web 应用框架](https://github.com/gofiber/fiber)
 - [Golang 官方文档](https://go.dev/)
 - [Golang 编程思维和工程实战](https://zhuanlan.zhihu.com/p/426368274)
 - ⭐️ [Go by example](https://gobyexample.com/)
@@ -229,10 +231,13 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 搭建脚手架工具（Webpack5 新特性实践）；
 - VS Code extension ；
 - cocos 游戏开发；
--  手写 redux 源码；
+- 手写 redux 源码；
 - 手写 redux-thunk 源码；
 - 手写 Promise/A+ ；
 - 排序算法，桶排序、计数排序，时间复杂度 O(n) ；
+- 每日算法
+  - https://labuladong.gitee.io/algo/（国内速度快，体验好，推荐）
+  - https://labuladong.github.io/algo/
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
 	- [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
