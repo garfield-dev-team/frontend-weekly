@@ -20,8 +20,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总</link>
             <guid>1月2日内容汇总</guid>
             <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 ES 新语法 Array.prototype.groupBy]]></description>
-            <content:encoded><![CDATA[<p>📒 ES 新语法 <code>Array.prototype.groupBy</code></p><p>一个专门用来做数据分组的提案 <code>Array.prototype.groupBy</code> 已经到达 <code>Stage 3</code>：</p><pre><code class="language-js">const array = [1, 2, 3, 4, 5];
+            <description><![CDATA[📒 老板：你来弄一个团队代码规范！？]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7033210664844066853">老板：你来弄一个团队代码规范！？</a></p><p>📒 前端工程化系列文章</p><blockquote><p><a href="https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i">https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i</a></p></blockquote><p>📒 ES 新语法 <code>Array.prototype.groupBy</code></p><p>一个专门用来做数据分组的提案 <code>Array.prototype.groupBy</code> 已经到达 <code>Stage 3</code>：</p><pre><code class="language-js">const array = [1, 2, 3, 4, 5];
 
 // groupBy groups items by arbitrary key.
 // In this case, we&#x27;re grouping by even/odd keys
