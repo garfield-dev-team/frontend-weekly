@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 [老板：你来弄一个团队代码规范！？](https://juejin.cn/post/7033210664844066853)
+
+📒 前端工程化系列文章
+
+> https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i
+
 📒 ES 新语法 `Array.prototype.groupBy`
 
 一个专门用来做数据分组的提案 `Array.prototype.groupBy` 已经到达 `Stage 3`：
