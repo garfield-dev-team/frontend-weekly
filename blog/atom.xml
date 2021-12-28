@@ -24,8 +24,30 @@
         <id>1月2日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总"/>
         <updated>2022-01-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 老板：你来弄一个团队代码规范！？]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7033210664844066853">老板：你来弄一个团队代码规范！？</a></p><p>📒 前端工程化系列文章</p><blockquote><p><a href="https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i">https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i</a></p></blockquote><p>📒 ES 新语法 <code>Array.prototype.groupBy</code></p><p>一个专门用来做数据分组的提案 <code>Array.prototype.groupBy</code> 已经到达 <code>Stage 3</code>：</p><pre><code class="language-js">const array = [1, 2, 3, 4, 5];
+        <summary type="html"><![CDATA[📒 useCallback 使用场景]]></summary>
+        <content type="html"><![CDATA[<p>📒 <code>useCallback</code> 使用场景</p><p>在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作父组件状态提升到子组件），例如：</p><pre><code class="language-jsx">const Parent = () =&gt; {
+  const handleSearch = (val) =&gt; {
+    console.log(&quot;搜索结果：&quot;, val);
+  }
+  
+  return &lt;Input onSearch={handleSearch} /&gt;
+}
+
+const Input = React.memo(({ onSearch }) =&gt; {
+  return (
+    &lt;div class=&quot;search-input__div&quot;&gt;
+      &lt;input type=&quot;text&quot; onChange={(e) =&gt; onSearch(e.target.value)} /&gt;
+    &lt;/div&gt;
+  )
+})
+</code></pre><p>在上面的代码中，如果父组件重新渲染，则会导致 <code>handleSearch</code> 方法重新生成，进而导致 <code>onSearch</code> prop 改变，即使子组件用了 <code>React.memo</code>，子组件还是会重新渲染。在这种情况下，就可以使用 <code>useCallback</code> 缓存函数，避免函数重复生成，进而避免子组件重复渲染，提高性能：</p><pre><code class="language-jsx">const Parent = () =&gt; {
+  const handleSearch = React.useCallback((val) =&gt; {
+    console.log(&quot;搜索结果：&quot;, val);
+  }, []);
+  
+  return &lt;Input onSearch={handleSearch} /&gt;
+}
+</code></pre><p>:::tip</p><p>注意 <code>useCallback</code> 需要和 <code>React.memo</code> 一起使用。如果不用 <code>React.memo</code>，只要父组件重新渲染，即使 prop 没有改变，子组件还是会重新渲染</p><p><a href="https://juejin.cn/post/6844903985338400782">React Hooks 详解 【近 1W 字】+ 项目实战</a></p><p>:::</p><p>📒 <a href="https://juejin.cn/post/7033210664844066853">老板：你来弄一个团队代码规范！？</a></p><p>📒 前端工程化系列文章</p><blockquote><p><a href="https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i">https://shanyue.tech/frontend-engineering/npm-install.html#%E4%BD%BF%E7%94%A8-npm-ci-%E6%9B%BF%E4%BB%A3-npm-i</a></p></blockquote><p>📒 ES 新语法 <code>Array.prototype.groupBy</code></p><p>一个专门用来做数据分组的提案 <code>Array.prototype.groupBy</code> 已经到达 <code>Stage 3</code>：</p><pre><code class="language-js">const array = [1, 2, 3, 4, 5];
 
 // groupBy groups items by arbitrary key.
 // In this case, we&#x27;re grouping by even/odd keys
