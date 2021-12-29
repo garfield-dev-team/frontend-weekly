@@ -7,7 +7,7 @@ tags: [NPM, Webpack, React]
 
 📒 `useCallback` 使用场景
 
-在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作父组件状态提升到子组件），例如：
+在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作子组件状态提升到父组件），例如：
 
 ```jsx
 const Parent = () => {
@@ -20,9 +20,15 @@ const Parent = () => {
 
 const Input = React.memo(({ onSearch }) => {
   return (
-    <div class="search-input__div">
-      <input type="text" onChange={(e) => onSearch(e.target.value)} />
-    </div>
+    <form onSubmit={(e) => {
+      const submitData = Array.from(
+        e.target.childNodes,
+        item => ({ name: item.name, value: item.value })
+      );
+      onSearch(submitData);
+    }}>
+      <input type="text" name="search" />
+    </form>
   )
 })
 ```
