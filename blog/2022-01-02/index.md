@@ -5,6 +5,26 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 如何指定一个项目所需的 node 最小版本
+
+指定一个项目所需的 node 最小版本，这属于一个项目的质量工程。我们可以在 `package.json` 中的 `engines` 字段中指定 Node 版本号：
+
+```json
+{
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+```
+
+如果本地运行的 Node 版本不匹配，yarn 将会报错，npm 则会打印警告信息。`engines` 字段不仅可以用于前端项目，也可用于第三方库。
+
+:::tip
+
+如果项目的 `package.json` 中没用 `engines` 字段，可查看 Dockerfile 中 node 镜像确定项目所需的 node 版本号。
+
+:::
+
 📒 Vue SFC playground
 
 https://sfc.vuejs.org/
