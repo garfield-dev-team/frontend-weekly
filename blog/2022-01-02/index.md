@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 Vue SFC playground
+
+https://sfc.vuejs.org/
+
+> 研究下插槽的实现
+
 📒 写一个 Vue3 自定义指令
 
 Vue 自定义指令的范式：
