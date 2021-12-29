@@ -5,6 +5,43 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 写一个 Vue3 自定义指令
+
+Vue 自定义指令的范式：
+
+```js
+const lazyPlugin = {
+  install (app, options) {
+    app.directive('lazy', {
+      // install 方法的第一个参数可以拿到 Vue 构造器
+      // 这块可以参考 Vue.use 源码
+    })
+  }
+}
+
+export default lazyPlugin
+```
+
+在项目中使用如下：
+
+```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import lazyPlugin from 'vue3-lazy'
+
+createApp(App).use(lazyPlugin, {
+  // 添加一些配置参数
+})
+```
+
+[手把手带你写一个 Vue3 的自定义指令](https://juejin.cn/post/7035916879092776968)
+
+📒 [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
+
+📒 [2020最新React Hooks+TS项目最佳实践](https://juejin.cn/post/6898865634982297613)
+
+📒 [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
+
 📒 `useCallback` 使用场景
 
 在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作子组件状态提升到父组件），例如：
