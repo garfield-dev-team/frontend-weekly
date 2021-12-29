@@ -20,8 +20,13 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总</link>
             <guid>1月2日内容汇总</guid>
             <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 Vue SFC playground]]></description>
-            <content:encoded><![CDATA[<p>📒 Vue SFC playground</p><p><a href="https://sfc.vuejs.org/">https://sfc.vuejs.org/</a></p><blockquote><p>研究下插槽的实现</p></blockquote><p>📒 写一个 Vue3 自定义指令</p><p>Vue 自定义指令的范式：</p><pre><code class="language-js">const lazyPlugin = {
+            <description><![CDATA[📒 如何指定一个项目所需的 node 最小版本]]></description>
+            <content:encoded><![CDATA[<p>📒 如何指定一个项目所需的 node 最小版本</p><p>指定一个项目所需的 node 最小版本，这属于一个项目的质量工程。我们可以在 <code>package.json</code> 中的 <code>engines</code> 字段中指定 Node 版本号：</p><pre><code class="language-json">{
+  &quot;engines&quot;: {
+    &quot;node&quot;: &quot;&gt;=14.0.0&quot;
+  }
+}
+</code></pre><p>如果本地运行的 Node 版本不匹配，yarn 将会报错，npm 则会打印警告信息。<code>engines</code> 字段不仅可以用于前端项目，也可用于第三方库。</p><p>:::tip</p><p>如果项目的 <code>package.json</code> 中没用 <code>engines</code> 字段，可查看 Dockerfile 中 node 镜像确定项目所需的 node 版本号。</p><p>:::</p><p>📒 Vue SFC playground</p><p><a href="https://sfc.vuejs.org/">https://sfc.vuejs.org/</a></p><blockquote><p>研究下插槽的实现</p></blockquote><p>📒 写一个 Vue3 自定义指令</p><p>Vue 自定义指令的范式：</p><pre><code class="language-js">const lazyPlugin = {
   install (app, options) {
     app.directive(&#x27;lazy&#x27;, {
       // install 方法的第一个参数可以拿到 Vue 构造器
