@@ -20,8 +20,25 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总</link>
             <guid>1月2日内容汇总</guid>
             <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 useCallback 使用场景]]></description>
-            <content:encoded><![CDATA[<p>📒 <code>useCallback</code> 使用场景</p><p>在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作子组件状态提升到父组件），例如：</p><pre><code class="language-jsx">const Parent = () =&gt; {
+            <description><![CDATA[📒 写一个 Vue3 自定义指令]]></description>
+            <content:encoded><![CDATA[<p>📒 写一个 Vue3 自定义指令</p><p>Vue 自定义指令的范式：</p><pre><code class="language-js">const lazyPlugin = {
+  install (app, options) {
+    app.directive(&#x27;lazy&#x27;, {
+      // install 方法的第一个参数可以拿到 Vue 构造器
+      // 这块可以参考 Vue.use 源码
+    })
+  }
+}
+
+export default lazyPlugin
+</code></pre><p>在项目中使用如下：</p><pre><code class="language-js">import { createApp } from &#x27;vue&#x27;
+import App from &#x27;./App.vue&#x27;
+import lazyPlugin from &#x27;vue3-lazy&#x27;
+
+createApp(App).use(lazyPlugin, {
+  // 添加一些配置参数
+})
+</code></pre><p><a href="https://juejin.cn/post/7035916879092776968">手把手带你写一个 Vue3 的自定义指令</a></p><p>📒 <a href="https://juejin.cn/post/6922641008106668045">揭秘 Vue.js 九个性能优化技巧</a></p><p>📒 <a href="https://juejin.cn/post/6898865634982297613">2020最新React Hooks+TS项目最佳实践</a></p><p>📒 <a href="https://juejin.cn/post/6944863057000529933">「react进阶」一文吃透react-hooks原理</a></p><p>📒 <code>useCallback</code> 使用场景</p><p>在 React 中经常需要将父组件定义的方法传入子组件（即事件钩子，也可以看作子组件状态提升到父组件），例如：</p><pre><code class="language-jsx">const Parent = () =&gt; {
   const handleSearch = (val) =&gt; {
     console.log(&quot;搜索结果：&quot;, val);
   }
