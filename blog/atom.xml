@@ -24,8 +24,8 @@
         <id>1月2日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总"/>
         <updated>2022-01-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 写一个 Vue3 自定义指令]]></summary>
-        <content type="html"><![CDATA[<p>📒 写一个 Vue3 自定义指令</p><p>Vue 自定义指令的范式：</p><pre><code class="language-js">const lazyPlugin = {
+        <summary type="html"><![CDATA[📒 Vue SFC playground]]></summary>
+        <content type="html"><![CDATA[<p>📒 Vue SFC playground</p><p><a href="https://sfc.vuejs.org/">https://sfc.vuejs.org/</a></p><blockquote><p>研究下插槽的实现</p></blockquote><p>📒 写一个 Vue3 自定义指令</p><p>Vue 自定义指令的范式：</p><pre><code class="language-js">const lazyPlugin = {
   install (app, options) {
     app.directive(&#x27;lazy&#x27;, {
       // install 方法的第一个参数可以拿到 Vue 构造器
