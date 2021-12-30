@@ -20,8 +20,13 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月2日内容汇总</link>
             <guid>1月2日内容汇总</guid>
             <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 如何指定一个项目所需的 node 最小版本]]></description>
-            <content:encoded><![CDATA[<p>📒 如何指定一个项目所需的 node 最小版本</p><p>指定一个项目所需的 node 最小版本，这属于一个项目的质量工程。我们可以在 <code>package.json</code> 中的 <code>engines</code> 字段中指定 Node 版本号：</p><pre><code class="language-json">{
+            <description><![CDATA[📒 关于数组遍历方法的比较]]></description>
+            <content:encoded><![CDATA[<p>📒 关于数组遍历方法的比较</p><ul><li>相比 <code>forEach</code>，<code>map</code> 性能略差一些，因为需要创建新数组</li><li>数据量大的时候，手写 <code>for</code> 循环性能明显优于 <code>forEach</code> 和 <code>map</code><ul><li>倒序 <code>for</code> 循环性能最好，因为只访问了一次 <code>array.length</code></li></ul><pre><code class="language-js">// 正序
+for (let i=0; i&lt;arr.length; i++)
+// 倒序
+for (let i=arr.length-1; i&gt;=0; i--)
+</code></pre><ul><li>如果想提升正序遍历性能，可以这样写</li></ul><pre><code class="language-js">for (let i=0, len=arr.length-1; i&lt;len; i++)
+</code></pre><ul><li>无论遍历数组还是对象，都尽量少用 <code>for...in</code> 循环，性能比较烂</li></ul></li><li>无论 <code>new Array()</code> 还是 <code>Array.from()</code> 性能都不如写一个 <code>for</code> 循环往空数组里面 <code>push</code></li><li>另外不推荐使用 <code>[].fill()</code> 方法，TS 无法推导类型，建议使用 <code>Array.from({length: 10}, () =&gt; 1)</code> 的方式</li></ul><p>📒 如何指定一个项目所需的 node 最小版本</p><p>指定一个项目所需的 node 最小版本，这属于一个项目的质量工程。我们可以在 <code>package.json</code> 中的 <code>engines</code> 字段中指定 Node 版本号：</p><pre><code class="language-json">{
   &quot;engines&quot;: {
     &quot;node&quot;: &quot;&gt;=14.0.0&quot;
   }
