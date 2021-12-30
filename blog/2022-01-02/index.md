@@ -5,6 +5,25 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 关于数组遍历方法的比较
+
+- 相比 `forEach`，`map` 性能略差一些，因为需要创建新数组
+- 数据量大的时候，手写 `for` 循环性能明显优于 `forEach` 和 `map`
+  - 倒序 `for` 循环性能最好，因为只访问了一次 `array.length`
+  ```js
+  // 正序
+  for (let i=0; i<arr.length; i++)
+  // 倒序
+  for (let i=arr.length-1; i>=0; i--)
+  ```
+  - 如果想提升正序遍历性能，可以这样写
+  ```js
+  for (let i=0, len=arr.length-1; i<len; i++)
+  ```
+  - 无论遍历数组还是对象，都尽量少用 `for...in` 循环，性能比较烂
+- 无论 `new Array()` 还是 `Array.from()` 性能都不如写一个 `for` 循环往空数组里面 `push`
+- 另外不推荐使用 `[].fill()` 方法，TS 无法推导类型，建议使用 `Array.from({length: 10}, () => 1)` 的方式
+
 📒 如何指定一个项目所需的 node 最小版本
 
 指定一个项目所需的 node 最小版本，这属于一个项目的质量工程。我们可以在 `package.json` 中的 `engines` 字段中指定 Node 版本号：
