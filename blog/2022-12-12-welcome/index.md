@@ -192,6 +192,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
+- 前端九条 bug 分享：[lulu_up](https://segmentfault.com/u/lulu_up)
 - 前端工程化、学习 Golang：洛竹
 - Node.js 相关：五月君
 
