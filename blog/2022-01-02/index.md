@@ -5,21 +5,45 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+📒 [升级Yarn 2，摆脱node_modules](https://segmentfault.com/a/1190000040520326)
+
+📒 什么是 `inode`
+
+`inode` (index nodes) 是操作系统中重要的概念，是一种文件数据结构，用于存储有关除名称和数据之外的任何 Linux 文件的信息。
+
+[软链接&硬链接在前端中的应用](https://juejin.cn/post/7047429181021356062)
+
+📒 [gitlab上代码回滚把自己坑了后, 陷入思考🤔"bug是谁"?](https://segmentfault.com/a/1190000041182817)
+
+⭐️ 提交代码的时候使用 rebase
+
+一般提交代码都是先本地 `commit`，然后执行 `git pull` 将仓库的代码拉取到本地 merge，然后再 `push` 到仓库。这样会导致时间线很不干净，提交记录中混杂很多 merge 分支的无用记录。
+
+在拉取仓库代码的时候，我们可以不进行合并，而是使用 rebase（变基），直接把我们原先的基础变掉，变成以别人修改过后的新代码为基础，把我们的修改在这个新的基础之上重新进行。使用变基之后，就可以使我们的时间线变得非常干净。
+
+[两条命令让你的git自动变基](https://segmentfault.com/a/1190000040712052)
+
+📒 如何使用 VS Code 任务
+
+开发经典模式：从主仓库 fork => 从个人仓库提 Merge Request
+
+[【手把手】学会VS Code"任务"神技，成为项目组最靓的崽！](https://juejin.cn/post/7035448197883363359)
+
 📒 关于数组遍历方法的比较
 
 - 相比 `forEach`，`map` 性能略差一些，因为需要创建新数组
 - 数据量大的时候，手写 `for` 循环性能明显优于 `forEach` 和 `map`
   - 倒序 `for` 循环性能最好，因为只访问了一次 `array.length`
-  ```js
-  // 正序
-  for (let i=0; i<arr.length; i++)
-  // 倒序
-  for (let i=arr.length-1; i>=0; i--)
-  ```
+    ```js
+    // 正序
+    for (let i=0; i<arr.length; i++)
+    // 倒序
+    for (let i=arr.length-1; i>=0; i--)
+    ```
   - 如果想提升正序遍历性能，可以这样写
-  ```js
-  for (let i=0, len=arr.length-1; i<len; i++)
-  ```
+    ```js
+    for (let i=0, len=arr.length-1; i<len; i++)
+    ```
   - 无论遍历数组还是对象，都尽量少用 `for...in` 循环，性能比较烂
 - 无论 `new Array()` 还是 `Array.from()` 性能都不如写一个 `for` 循环往空数组里面 `push`
 - 另外不推荐使用 `[].fill()` 方法，TS 无法推导类型，建议使用 `Array.from({length: 10}, () => 1)` 的方式
