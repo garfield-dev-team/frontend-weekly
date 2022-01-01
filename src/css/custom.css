@@ -26,3 +26,165 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/**
+ * antd 组件的默认样式
+ * Image 组件动画效果需要
+ */
+.ant-fade-enter,
+.ant-fade-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.ant-fade-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.ant-fade-enter.ant-fade-enter-active,
+.ant-fade-appear.ant-fade-appear-active {
+  -webkit-animation-name: antFadeIn;
+          animation-name: antFadeIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.ant-fade-leave.ant-fade-leave-active {
+  -webkit-animation-name: antFadeOut;
+          animation-name: antFadeOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.ant-fade-enter,
+.ant-fade-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.ant-fade-leave {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes antFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes antFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes antFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ant-zoom-enter,
+.ant-zoom-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.ant-zoom-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.ant-zoom-enter.ant-zoom-enter-active,
+.ant-zoom-appear.ant-zoom-appear-active {
+  -webkit-animation-name: antZoomIn;
+          animation-name: antZoomIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.ant-zoom-leave.ant-zoom-leave-active {
+  -webkit-animation-name: antZoomOut;
+          animation-name: antZoomOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.ant-zoom-enter,
+.ant-zoom-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.ant-zoom-enter-prepare,
+.ant-zoom-appear-prepare {
+  transform: none;
+}
+.ant-zoom-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+@-webkit-keyframes antZoomIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes antZoomIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antZoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
+@keyframes antZoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
