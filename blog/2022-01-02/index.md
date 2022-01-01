@@ -5,7 +5,7 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
-🌛 [前端 Code Review 不完全指北(万字长文，50+case)](https://zhuanlan.zhihu.com/p/396010993)
+⭐️ [前端 Code Review 不完全指北(万字长文，50+case)](https://zhuanlan.zhihu.com/p/396010993)
 
 📒 Node.js 相关
 
