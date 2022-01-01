@@ -2,8 +2,46 @@
 slug: 1月2日内容汇总
 title: 1月2日内容汇总
 authors: [garfield]
-tags: [NPM, Webpack, React]
+tags: [Next.js, ESNext, React, Vue, Node.js, Performance, VS Code, Git, Yarn2, Code Review]
 ---
+
+import Illustration from "../../src/components/MDXComponents/Illustration";
+import performanceImg from "./performance.png";
+import performance2Img from "./performance2.png";
+import renderingImg from "./rendering.png"
+
+📒 [clsx：classnames 的替代方案](https://github.com/lukeed/clsx)
+
+📒 [盘点那些让开发效率翻倍的React Hook](https://juejin.cn/post/7046566841522585636#heading-3)
+
+⭐️ [ESM 与 CJS 的 Interop 来世今生](https://mp.weixin.qq.com/s/3TKcUeoyzXvH3MGVI6Dj9A)
+
+📒 浏览器渲染中的合成层与 `will-change`
+
+合成就是将页面的各个部分分成多个层、单独 `光栅化`（浏览器根据文档的结构、每个元素的样式、页面的几何形状和绘制顺序转换为屏幕上的像素的过程）它们并在合成器线程中合成为一个页面的技术。
+
+一般来说，拥有一些特定属性的渲染层，会被浏览器自动提升为合成层。合成层拥有单独的图层（GraphicsLayer），和其他图层之间无不影响。而其它不是合成层的渲染层，则和第一个拥有图层的父层共用一个，也就是普通文档流中的内容，我们看一些常见的提升为合成层的属性。
+
+- 设置 `transform: translateZ(0)`
+- `backface-visibility: hidden` 指定当元素背面朝向观察者时是否可见
+- `will-change` 该属性告诉浏览器该元素会有哪些变化，这样浏览器可以提前做好对应的优化准备工作
+- `video`、`canvas`、`iframe` 等元素
+
+:::tip
+
+**使用 transform 和 opacity 来实现动画**
+
+在开发中经常会实现一些动画，有时候我们可能会选择改变 top/left 去实现，那么这个节点的渲染会发生在普通文档流中。而使用 `transform` 和 `opacity` 实现动画能够让节点被放置到一个独立合成层中进行渲染绘制，动画不会影响其他图层，并且 GPU 渲染相比 CPU 能够更快，这会让你的动画变的更加流畅。
+
+按照下面的操作打开查看帧率的界面：
+
+<Illustration src={renderingImg} />
+
+通过 `transform` 来实现动画，页面的 `fps` 能够稳定在 60 左右，而通过 `left` 来实现存在波动，`fps` 大概稳定在 30 左右，这会影响你的用户体验指标。
+
+:::
+
+[浏览器渲染魔法之合成层](https://juejin.cn/post/7047006440623439880)
 
 ⭐️ [前端 Code Review 不完全指北(万字长文，50+case)](https://zhuanlan.zhihu.com/p/396010993)
 
@@ -45,11 +83,11 @@ Node.js 不适合 CPU 密集型任务，例如 MD5、SHA 加密算法等；
 
 在火焰图中找到长任务，点击顶部 Task，点击 Button-Up，这时候可以看到根据耗时列出的调用栈：
 
-![image](./performance.png)
+<Illustration src={performanceImg} />
 
 找到那个执行耗时最长的，然后点击右侧源码地址，可以跳到 source 对应的源码：
 
-![image](./performance2.png)
+<Illustration src={performance2Img} />
 
 📒 关于数组遍历方法的比较
 
