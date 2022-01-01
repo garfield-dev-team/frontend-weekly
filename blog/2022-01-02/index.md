@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [NPM, Webpack, React]
 ---
 
+🌛 [前端 Code Review 不完全指北(万字长文，50+case)](https://zhuanlan.zhihu.com/p/396010993)
+
+📒 Node.js 相关
+
+Node.js 适合 IO 密集型任务，例如处理网络请求、文件 IO 等等；
+
+Node.js 不适合 CPU 密集型任务，例如 MD5、SHA 加密算法等；
+
 📒 [升级Yarn 2，摆脱node_modules](https://segmentfault.com/a/1190000040520326)
 
 📒 什么是 `inode`
@@ -28,6 +36,20 @@ tags: [NPM, Webpack, React]
 开发经典模式：从主仓库 fork => 从个人仓库提 Merge Request
 
 [【手把手】学会VS Code"任务"神技，成为项目组最靓的崽！](https://juejin.cn/post/7035448197883363359)
+
+📒 如何分析每行代码的执行耗时
+
+首先使用 Performance 工具分析页面性能。
+
+> 在分析性能的时候，为排除插件的影响，需要启用无痕模式
+
+在火焰图中找到长任务，点击顶部 Task，点击 Button-Up，这时候可以看到根据耗时列出的调用栈：
+
+![image](./performance.png)
+
+找到那个执行耗时最长的，然后点击右侧源码地址，可以跳到 source 对应的源码：
+
+![image](./performance2.png)
 
 📒 关于数组遍历方法的比较
 
