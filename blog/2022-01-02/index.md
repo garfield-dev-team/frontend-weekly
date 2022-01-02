@@ -12,6 +12,12 @@ import renderingImg from "./rendering.png"
 
 📒 [clsx：classnames 的替代方案](https://github.com/lukeed/clsx)
 
+📒 TS 类型系统实现大数相加
+
+一位数相加，总共只有 100 种情况，为了提高性能，可以选择 **打表** 。
+
+[用 TS 类型系统实现大数加法](https://juejin.cn/post/7020663312393764871)
+
 📒 [盘点那些让开发效率翻倍的React Hook](https://juejin.cn/post/7046566841522585636#heading-3)
 
 ⭐️ [ESM 与 CJS 的 Interop 来世今生](https://mp.weixin.qq.com/s/3TKcUeoyzXvH3MGVI6Dj9A)
