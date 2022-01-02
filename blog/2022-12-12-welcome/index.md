@@ -79,6 +79,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Webpack 系列
 
+- [超硬核｜带你畅游在 Webpack 插件开发者的世界](https://juejin.cn/post/7047777251949019173)
 - ⭐️ [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
 - [Webpack5 实践 - 构建效率倍速提升！](https://mp.weixin.qq.com/s/gwHwVxA4zh59SBvq-onM-g)
 - 🌛 [Webpack 性能系列一: 使用 Cache 提升构建性能](https://mp.weixin.qq.com/s/mpF6W-4dElu0UPed03oJQw)
@@ -242,6 +243,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 手写 redux 源码；
 - 手写 redux-thunk 源码；
 - 手写 Promise/A+ ；
+  - [手写一个Promise/A+,完美通过官方872个测试用例](https://juejin.cn/post/6844904116913700877)
 - 排序算法，桶排序、计数排序，时间复杂度 O(n) ；
 - 每日算法
   - https://labuladong.gitee.io/algo/（国内速度快，体验好，推荐）
