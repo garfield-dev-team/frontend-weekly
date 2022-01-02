@@ -5,7 +5,7 @@ authors: [garfield]
 tags: [Next.js, ESNext, React, Vue, Node.js, Performance, VS Code, Git, Yarn2, Code Review]
 ---
 
-import Illustration from "../../src/components/MDXComponents/Illustration";
+import Illustration from "@site/src/components/MDXComponents/Illustration";
 import performanceImg from "./performance.png";
 import performance2Img from "./performance2.png";
 import renderingImg from "./rendering.png"

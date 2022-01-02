@@ -12,14 +12,45 @@ import React from "react";
 type IProps = {
   src: string;
   width?: number;
+  alt?: string;
 }
 
-const Illustration: React.FC<IProps> = ({ src, width }) => {
+const Illustration: React.FC<IProps> = ({ src, width, alt }) => {
+  const [imageSrc, setImageSrc] = React.useState<string>();
+  const imageRef = React.useRef<HTMLDivElement>();
+
+  React.useEffect(() => {
+    // 注意这里实现存在一定的问题
+    // IntersectionObserver 创建了多个实例
+    // 后期可以改用单例模式
+    // 将下面的逻辑抽离到自定义 hook 中
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setImageSrc(src);
+        // observer.unobserve(imageRef.current);
+        observer.disconnect();
+        imageRef.current = null;
+      }
+    });
+    observer.observe(imageRef.current);
+    return () => observer.disconnect();
+  }, [imageRef]);
+
+  // 函数组件不能像类组件一样接受 ref
+  // 函数组件的 ref 只能用在 dom 元素上
+  // 如果想在父组件中获取子组件的 ref
+  // 可以使用 React.forwardRef 转发
+  // 由于 antd 的 Image 组件没有 forwardRef
+  // 因此这边在外面包裹了一个 div 用于获取 ref
+
   return (
-    <Image
-      width={width}
-      src={src}
-    />
+    <div className="image-wrapper" ref={imageRef}>
+      <Image
+        width={width}
+        src={imageSrc}
+        alt={alt}
+      />
+    </div>
   )
 }
 
