@@ -49,7 +49,12 @@ const config = {
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
+            label: '技术交流群',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/garfield-dev-team/frontend-weekly',
             label: 'GitHub',
             position: 'right',
           },
