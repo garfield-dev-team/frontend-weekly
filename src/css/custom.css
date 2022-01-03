@@ -28,6 +28,22 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /**
+ * 顶部 navbar 增加毛玻璃效果
+ * 使用 backdrop-filter 属性实现，注意不支持火狐浏览器
+ */
+.navbar--fixed-top {
+  backdrop-filter: blur(10px);
+}
+
+.navbar {
+  --ifm-navbar-background-color: #ffffff4a;
+}
+
+html[data-theme='dark'] .navbar {
+  --ifm-navbar-background-color: #2425264a;
+}
+
+/**
  * antd 组件的默认样式
  * Image 组件动画效果需要
  */
