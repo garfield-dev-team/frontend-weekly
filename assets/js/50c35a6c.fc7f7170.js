@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9080],{6582:function(e){e.exports=JSON.parse('{"allTagsPath":"/frontend-weekly/blog/tags","slug":"/frontend-weekly/blog/tags/post-css","name":"PostCSS","count":1,"permalink":"/frontend-weekly/blog/tags/post-css"}')}}]);
