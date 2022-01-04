@@ -20,8 +20,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月9日内容汇总</link>
             <guid>1月9日内容汇总</guid>
             <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 如何盘点出掘金的年度高赞文章？]]></description>
-            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7048253632055083022">如何盘点出掘金的年度高赞文章？</a></p><p>📒 <a href="https://juejin.cn/post/7047705995534925832">盘点掘金 2021 高赞 Vue 文章</a></p><p>📒 <a href="https://juejin.cn/post/7047690546417565733">盘点掘金 2021 高赞 React 文章</a></p><p>📒 <a href="https://juejin.cn/post/7047153016771706916">盘点掘金 2021 点赞高达 6000，收藏过万的文章</a></p><p>📒 <a href="https://juejin.cn/post/7036318575165964325">如何测试驱动开发 React 组件？</a></p><p>📒 <a href="https://juejin.cn/post/7030250953215311908">一起来写 VS Code 插件:为你的团队提供常用代码片段</a></p><p>📒 黑暗模式常用换肤方案</p><p><strong>CSS Variables</strong></p><p>css variables 是 Web 标准实现了对深色模式的支持，以下代码通过 CSS 媒体查询：</p><pre><code class="language-css">:root {
+            <description><![CDATA[📒 自动发布脚本]]></description>
+            <content:encoded><![CDATA[<p>📒 自动发布脚本</p><p><a href="https://github.com/release-it/release-it">https://github.com/release-it/release-it</a></p><p>📒 diff 算法相关</p><p><a href="https://github.com/snabbdom/snabbdom">https://github.com/snabbdom/snabbdom</a></p><p><a href="https://juejin.cn/post/7000266544181674014">DIff算法看不懂就一起来砍我(带图)</a></p><p>📒 <a href="https://juejin.cn/post/7048253632055083022">如何盘点出掘金的年度高赞文章？</a></p><p>📒 <a href="https://juejin.cn/post/7047705995534925832">盘点掘金 2021 高赞 Vue 文章</a></p><p>📒 <a href="https://juejin.cn/post/7047690546417565733">盘点掘金 2021 高赞 React 文章</a></p><p>📒 <a href="https://juejin.cn/post/7047153016771706916">盘点掘金 2021 点赞高达 6000，收藏过万的文章</a></p><p>📒 <a href="https://juejin.cn/post/7036318575165964325">如何测试驱动开发 React 组件？</a></p><p>📒 <a href="https://juejin.cn/post/7030250953215311908">一起来写 VS Code 插件:为你的团队提供常用代码片段</a></p><p>📒 黑暗模式常用换肤方案</p><p><strong>CSS Variables</strong></p><p>css variables 是 Web 标准实现了对深色模式的支持，以下代码通过 CSS 媒体查询：</p><pre><code class="language-css">:root {
   color-scheme: light dark;
   --nav-bg-color: #F7F7F7;
   --content-bg-color: #FFFFFF;
