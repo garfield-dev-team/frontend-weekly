@@ -5,6 +5,16 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 自动发布脚本
+
+https://github.com/release-it/release-it
+
+📒 diff 算法相关
+
+https://github.com/snabbdom/snabbdom
+
+[DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
+
 📒 [如何盘点出掘金的年度高赞文章？](https://juejin.cn/post/7048253632055083022)
 
 📒 [盘点掘金 2021 高赞 Vue 文章](https://juejin.cn/post/7047705995534925832)
