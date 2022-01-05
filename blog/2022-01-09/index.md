@@ -5,6 +5,16 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
+
+📒 [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
+
+📒 [聊一聊前端算法面试——递归](https://juejin.cn/post/6844903942074138637)
+
+📒 [前端单元测试入门与最佳实践](https://juejin.cn/post/7049293284883038238)
+
+📒 [淘宝店铺的 TypeScript ESLint 规则集考量](https://juejin.cn/post/7049335008917454855)
+
 📒 自动发布脚本
 
 https://github.com/release-it/release-it
