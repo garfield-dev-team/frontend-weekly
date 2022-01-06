@@ -5,6 +5,20 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 如何在 JB 全家桶中使用 VS Code 的快捷键
+
+JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要使用 VS Code 的快捷键，只需要安装对应的 Keymap 即可：
+
+![image](./vs_code_keymap.png)
+
+安装后应用即可：
+
+![image](./apply_keymap.png)
+
+同理主题也可以安装，在 JB 全家桶中推荐使用 One Dark Theme，安装完成后点击 apply 即可：
+
+![image](./one_dark_theme.png)
+
 📒 [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
 
 📒 [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
