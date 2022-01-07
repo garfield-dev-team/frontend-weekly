@@ -9,6 +9,16 @@ tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方
 
 [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
 
+📒 TypeScript 类型体操
+
+[TypeScript 类型编程: 从基础到编译器实战](https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A)
+
+[知其然，知其所以然：TypeScript 中的协变与逆变](https://juejin.cn/post/7050099282317148174)
+
+📒 monorepo 项目
+
+[One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
+
 📒 React 16 架构
 
 React16架构可以分为三层：
