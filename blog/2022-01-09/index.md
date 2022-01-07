@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 工程化方案总结下
+
+[2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
+
 📒 React 16 架构
 
 React16架构可以分为三层：
@@ -29,7 +33,17 @@ JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要�
 
 ![image](./one_dark_theme.png)
 
-📒 [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
+📒 静态页面部署方案
+
+[一篇教你代码同步 Github 和 Gitee](https://juejin.cn/post/7041870446576271368)
+
+[教你如何使用vercel服务免费部署前端项目和serverless api](https://mp.weixin.qq.com/s/rfyqQgpylFT7slukkbi6rw)
+
+📒 webpack 热模块替换看下源码
+
+[webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
+
+[Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
 
 📒 [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
 
