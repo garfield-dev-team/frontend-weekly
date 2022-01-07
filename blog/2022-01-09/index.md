@@ -19,6 +19,14 @@ tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方
 
 [One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
 
+📒 [漫画图解 Chrome 浏览器从输入到渲染的原理（7000 字）](https://mp.weixin.qq.com/s/Yo-W7CbkOrBMSfK75qrAhg)
+
+📒 QUIC 协议
+
+推荐看看 QUIC 101 视频以及 [The QUIC transport protocol: design and Internet-scale deployment](https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf) 论文
+
+📒 [ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
+
 📒 React 16 架构
 
 React16架构可以分为三层：
