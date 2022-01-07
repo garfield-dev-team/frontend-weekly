@@ -5,6 +5,16 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 React 16 架构
+
+React16架构可以分为三层：
+- Scheduler（调度器）—— 核心职责只有 1 个, 就是执行回调。把react-reconciler提供的回调函数, 包装到一个任务对象中.在内部维护一个任务队列, 优先级高的排在最前面。循环消费任务队列, 直到队列清空
+- Reconciler（协调器）—— 负责找出变化的组件，16版本主要是Fiber，15版本是stack。区别在于增加了优先级系统，通过遍历的方式实现可中断的递归，将fiber树的构造过程包装在一个回调函数中, 并将此回调函数传入到scheduler包等待调度
+- Renderer（渲染器）—— 负责将变化的组件渲染到页面上，能够将react-reconciler包构造出来的fiber树表现出来, 生成 dom 节点(浏览器中), 生成字符串(ssr)，比如说react-dom、react-native。
+所以react-native的作用主要是将react提供的节点，渲染到app页面上
+
+我们书写的react-native组件，比如说View、Text等，需要通过react-native-web来变成react-dom可以识别的节点
+
 📒 如何在 JB 全家桶中使用 VS Code 的快捷键
 
 JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要使用 VS Code 的快捷键，只需要安装对应的 Keymap 即可：
