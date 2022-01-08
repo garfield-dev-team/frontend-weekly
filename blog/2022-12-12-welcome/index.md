@@ -82,6 +82,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Webpack 系列
 
+- [Webpack 案例 —— vue-loader 原理分析](https://juejin.cn/post/6937125495439900685)
+  - 通过编写一个 plugin，在预处理阶段通过插件 apply 函数动态修改 webpack 配置，注入 vue-loader 专用的 rules
 - [超硬核｜带你畅游在 Webpack 插件开发者的世界](https://juejin.cn/post/7047777251949019173)
 - ⭐️ [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
 - [Webpack5 实践 - 构建效率倍速提升！](https://mp.weixin.qq.com/s/gwHwVxA4zh59SBvq-onM-g)
