@@ -9,6 +9,8 @@ tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方
 
 [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
 
+[2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
+
 📒 TypeScript 类型体操
 
 [TypeScript 类型编程: 从基础到编译器实战](https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A)
@@ -62,8 +64,6 @@ JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要�
 [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
 
 [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
-
-📒 [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
 
 📒 [聊一聊前端算法面试——递归](https://juejin.cn/post/6844903942074138637)
 
