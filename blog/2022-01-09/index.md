@@ -29,6 +29,8 @@ tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方
 
 📒 [ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
 
+📒 [如何避免 React 组件重复渲染](https://mp.weixin.qq.com/s/RCBHBtAFaeR6wqsyuGI_hQ)
+
 📒 React 16 架构
 
 React16架构可以分为三层：
