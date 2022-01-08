@@ -1,6 +1,7 @@
 import Image from "antd/lib/image";
 import "antd/lib/image/style/index.css";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 // 使用按需加载方式引入 antd 组件
 // 引入 Image 组件的时候，除了组件本身的样式
@@ -17,24 +18,11 @@ type IProps = {
 
 const Illustration: React.FC<IProps> = ({ src, width, alt }) => {
   const [imageSrc, setImageSrc] = React.useState<string>();
-  const imageRef = React.useRef<HTMLDivElement>();
+  const [ref, inView, entry] = useInView({ triggerOnce: true })
 
   React.useEffect(() => {
-    // 注意这里实现存在一定的问题
-    // IntersectionObserver 创建了多个实例
-    // 后期可以改用单例模式
-    // 将下面的逻辑抽离到自定义 hook 中
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setImageSrc(src);
-        // observer.unobserve(imageRef.current);
-        observer.disconnect();
-        imageRef.current = null;
-      }
-    });
-    observer.observe(imageRef.current);
-    return () => observer.disconnect();
-  }, [imageRef]);
+    inView && setImageSrc(src);
+  }, [inView]);
 
   // 函数组件不能像类组件一样接受 ref
   // 函数组件的 ref 只能用在 dom 元素上
@@ -44,7 +32,7 @@ const Illustration: React.FC<IProps> = ({ src, width, alt }) => {
   // 因此这边在外面包裹了一个 div 用于获取 ref
 
   return (
-    <div className="image-wrapper" ref={imageRef}>
+    <div className="image-wrapper" ref={ref}>
       <Image
         width={width}
         src={imageSrc}
