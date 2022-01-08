@@ -5,6 +5,37 @@ authors: [garfield]
 tags: [Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
 ---
 
+📒 今年最受欢迎的项目：谷歌的 **zx**
+
+使用 zx 可以编写简单的命令行脚本：
+
+```js
+#!/usr/bin/env zx
+
+await $`cat package.json | grep name`
+
+let branch = await $`git branch --show-current`
+await $`dep deploy --branch=${branch}`
+
+await Promise.all([
+  $`sleep 1; echo 1`,
+  $`sleep 2; echo 2`,
+  $`sleep 3; echo 3`,
+])
+
+let name = 'foo bar'
+await $`mkdir /tmp/${name}`
+```
+
+zx 涵盖了多个软件包提供的功能：
+
+- `node-fetch`：使用与浏览器中相同的 API 发出 HTTP 请求
+- `fs-extra`：运行文件系统
+
+这块源码不是很多，推荐看一下：
+
+https://github.com/google/zx
+
 📒 工程化方案总结下
 
 [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
