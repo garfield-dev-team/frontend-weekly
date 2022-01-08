@@ -60,6 +60,30 @@ https://github.com/google/zx
 
 📒 [ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
 
+📒 React 组件懒加载实现思路
+
+项目中经常需要长列表渲染，一般都使用懒加载，滚动到底部时渲染下一屏数据，需要判断元素是否在 viewport 内。过去通常会监听滚动事件，然后调用 `Element.getBoundingClientRect()` 方法以获取元素的边界信息。由于滚动事件触发非常频繁，频繁调用会导致性能问题。
+
+这种情况下可以使用 `Intersection Observer API`，仅在被监听元素进入或者退出 viewport 时触发回调，这样就不会大量占用主线程。
+
+```js
+let observer = new IntersectionObserver(callback, options);
+let target = document.querySelector('#listItem');
+observer.observe(target);
+```
+
+:::tip
+
+在 React 项目中，还可以使用 `react-intersection-observer` 这个库。
+
+[react-intersection-observer - npm](https://www.npmjs.com/package/react-intersection-observer/v/8.28.3)
+
+:::
+
+[Intersection Observer API - MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Intersection_Observer_API)
+
+[懒加载 React 长页面 - 动态渲染组件](https://juejin.cn/post/6955287500311150605)
+
 📒 [如何避免 React 组件重复渲染](https://mp.weixin.qq.com/s/RCBHBtAFaeR6wqsyuGI_hQ)
 
 📒 React 16 架构
