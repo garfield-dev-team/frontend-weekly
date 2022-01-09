@@ -40,7 +40,46 @@ await Promise.all([
 
 let name = &#x27;foo bar&#x27;
 await $`mkdir /tmp/${name}`
-</code></pre><p>zx 涵盖了多个软件包提供的功能：</p><ul><li><code>node-fetch</code>：使用与浏览器中相同的 API 发出 HTTP 请求</li><li><code>fs-extra</code>：运行文件系统</li></ul><p>这块源码不是很多，推荐看一下：</p><p><a href="https://github.com/google/zx">https://github.com/google/zx</a></p><p>📒 工程化方案总结下</p><p><a href="https://zhuanlan.zhihu.com/p/403970666">2021 年 TypeScript + React 工程化指南</a></p><p><a href="https://juejin.cn/post/7017710911443959839">2021 年当我们聊前端部署时，我们在聊什么</a></p><p>📒 TypeScript 类型体操</p><p><a href="https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A">TypeScript 类型编程: 从基础到编译器实战</a></p><p><a href="https://juejin.cn/post/7050099282317148174">知其然，知其所以然：TypeScript 中的协变与逆变</a></p><p>📒 monorepo 项目</p><p><a href="https://juejin.cn/post/7043998041786810398">One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/Yo-W7CbkOrBMSfK75qrAhg">漫画图解 Chrome 浏览器从输入到渲染的原理（7000 字）</a></p><p>📒 QUIC 协议</p><p>推荐看看 QUIC 101 视频以及 <a href="https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf">The QUIC transport protocol: design and Internet-scale deployment</a> 论文</p><p>📒 <a href="https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA">ES6 以上版本代码要不要转码成 ES5?</a></p><p>📒 React 组件懒加载实现思路</p><p>项目中经常需要长列表渲染，一般都使用懒加载，滚动到底部时渲染下一屏数据，需要判断元素是否在 viewport 内。过去通常会监听滚动事件，然后调用 <code>Element.getBoundingClientRect()</code> 方法以获取元素的边界信息。由于滚动事件触发非常频繁，频繁调用会导致性能问题。</p><p>这种情况下可以使用 <code>Intersection Observer API</code>，仅在被监听元素进入或者退出 viewport 时触发回调，这样就不会大量占用主线程。</p><pre><code class="language-js">let observer = new IntersectionObserver(callback, options);
+</code></pre><p>zx 涵盖了多个软件包提供的功能：</p><ul><li><code>node-fetch</code>：使用与浏览器中相同的 API 发出 HTTP 请求</li><li><code>fs-extra</code>：运行文件系统</li></ul><p>这块源码不是很多，推荐看一下：</p><p><a href="https://github.com/google/zx">https://github.com/google/zx</a></p><p>📒 工程化方案总结下</p><p><a href="https://zhuanlan.zhihu.com/p/403970666">2021 年 TypeScript + React 工程化指南</a></p><p><a href="https://juejin.cn/post/7017710911443959839">2021 年当我们聊前端部署时，我们在聊什么</a></p><p>📒 TypeScript 类型体操</p><p><a href="https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A">TypeScript 类型编程: 从基础到编译器实战</a></p><p><a href="https://juejin.cn/post/7050099282317148174">知其然，知其所以然：TypeScript 中的协变与逆变</a></p><p>📒 monorepo 项目</p><p><a href="https://juejin.cn/post/7043998041786810398">One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/Yo-W7CbkOrBMSfK75qrAhg">漫画图解 Chrome 浏览器从输入到渲染的原理（7000 字）</a></p><p>📒 QUIC 协议</p><p>推荐看看 QUIC 101 视频以及 <a href="https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf">The QUIC transport protocol: design and Internet-scale deployment</a> 论文</p><p>📒 <a href="https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA">ES6 以上版本代码要不要转码成 ES5?</a></p><p>📒 如何覆盖 CRA 默认 webpack 配置</p><p>在 CRA 创建的项目中，经常需要修改默认 webpack 配置。但是 CRA 不像 Vue-cli 可以提供自定义 webpack 配置，而 <code>eject</code> 又会把全部配置暴露出来，很麻烦。这种情况下可以使用 <code>react-app-rewired</code> 这个库：</p><pre><code class="language-bash">$ yarn add react-app-rewired -D
+</code></pre><p>在项目根目录创建一个 <code>config-overrides.js</code> 文件，添加自定义 webpack 配置：</p><pre><code class="language-js">/* config-overrides.js */
+
+module.exports = function override(config, env) {
+  //do stuff with the webpack config...
+  return config;
+}
+</code></pre><p>最后在 <code>package.json</code> 中修改 npm scripts：</p><pre><code class="language-json" metastring="{5,7,9}">/* package.json */
+
+  &quot;scripts&quot;: {
+-   &quot;start&quot;: &quot;react-scripts start&quot;,
++   &quot;start&quot;: &quot;react-app-rewired start&quot;,
+-   &quot;build&quot;: &quot;react-scripts build&quot;,
++   &quot;build&quot;: &quot;react-app-rewired build&quot;,
+-   &quot;test&quot;: &quot;react-scripts test&quot;,
++   &quot;test&quot;: &quot;react-app-rewired test&quot;,
+    &quot;eject&quot;: &quot;react-scripts eject&quot;
+}
+</code></pre><p>这个库源码不是很多，推荐看一下：</p><p><a href="https://github.com/timarney/react-app-rewired">https://github.com/timarney/react-app-rewired</a></p><p>:::tip</p><p>通常 <code>react-app-rewired</code> 会搭配 <code>customize-cra</code> 这个库一起用：</p><pre><code class="language-bash">$ yarn add customize-cra react-app-rewired -D
+</code></pre><p>支持在 <code>config-overrides.js</code> 中编写函数式的 API 去修改 webpack 配置：</p><pre><code class="language-js">const {
+  override,
+  addDecoratorsLegacy,
+  disableEsLint,
+  addWebpackAlias
+} = require(&quot;customize-cra&quot;);
+const path = require(&quot;path&quot;);
+
+module.exports = override(
+  // enable legacy decorators babel plugin
+  addDecoratorsLegacy(),
+
+  // disable eslint in webpack
+  disableEsLint(),
+
+  // add an alias for &quot;ag-grid-react&quot; imports
+  addWebpackAlias({
+    [&quot;ag-grid-react$&quot;]: path.resolve(__dirname, &quot;src/shared/agGridWrapper.js&quot;)
+  }),
+);
+</code></pre><p><a href="https://github.com/arackaf/customize-cra">https://github.com/arackaf/customize-cra</a></p><p>:::</p><p>📒 React 组件懒加载实现思路</p><p>项目中经常需要长列表渲染，一般都使用懒加载，滚动到底部时渲染下一屏数据，需要判断元素是否在 viewport 内。过去通常会监听滚动事件，然后调用 <code>Element.getBoundingClientRect()</code> 方法以获取元素的边界信息。由于滚动事件触发非常频繁，频繁调用会导致性能问题。</p><p>这种情况下可以使用 <code>Intersection Observer API</code>，仅在被监听元素进入或者退出 viewport 时触发回调，这样就不会大量占用主线程。</p><pre><code class="language-js">let observer = new IntersectionObserver(callback, options);
 let target = document.querySelector(&#x27;#listItem&#x27;);
 observer.observe(target);
 </code></pre><p>:::tip</p><p>在 React 项目中，还可以使用 <code>react-intersection-observer</code> 这个库。</p><p><a href="https://www.npmjs.com/package/react-intersection-observer/v/8.28.3">react-intersection-observer - npm</a></p><p>:::</p><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Intersection_Observer_API">Intersection Observer API - MDN</a></p><p><a href="https://juejin.cn/post/6955287500311150605">懒加载 React 长页面 - 动态渲染组件</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/RCBHBtAFaeR6wqsyuGI_hQ">如何避免 React 组件重复渲染</a></p><p>📒 React 16 架构</p><p>React16架构可以分为三层：</p><ul><li>Scheduler（调度器）—— 核心职责只有 1 个, 就是执行回调。把react-reconciler提供的回调函数, 包装到一个任务对象中.在内部维护一个任务队列, 优先级高的排在最前面。循环消费任务队列, 直到队列清空</li><li>Reconciler（协调器）—— 负责找出变化的组件，16版本主要是Fiber，15版本是stack。区别在于增加了优先级系统，通过遍历的方式实现可中断的递归，将fiber树的构造过程包装在一个回调函数中, 并将此回调函数传入到scheduler包等待调度</li><li>Renderer（渲染器）—— 负责将变化的组件渲染到页面上，能够将react-reconciler包构造出来的fiber树表现出来, 生成 dom 节点(浏览器中), 生成字符串(ssr)，比如说react-dom、react-native。
