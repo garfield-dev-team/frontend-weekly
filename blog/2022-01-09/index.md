@@ -2,8 +2,14 @@
 slug: 1月9日内容汇总
 title: 1月9日内容汇总
 authors: [garfield]
-tags: [工程化方案, TypeScript, QUIC, 懒加载, IDEA, 静态页面部署, Webpack HMR, Diff, Vue, React, 年度高赞文章, VS Code, PostCSS, NextJS, 前端技术方向]
+tags: [工程化方案, TypeScript, monorepo, QUIC, CRA, 懒加载, IDEA, 静态页面部署, Webpack HMR, Diff, Vue, React, 年度高赞文章, VS Code, 黑暗模式适配, PostCSS, NextJS, 前端技术方向]
 ---
+
+import Illustration from "@site/src/components/MDXComponents/Illustration";
+import keyMapImg from "./vs_code_keymap.png";
+import applyKeyMapImg from "./apply_keymap.png";
+import oneDarkThemeImg from "./one_dark_theme.png";
+
 
 📒 今年最受欢迎的项目：谷歌的 **zx**
 
@@ -186,15 +192,15 @@ React16架构可以分为三层：
 
 JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要使用 VS Code 的快捷键，只需要安装对应的 Keymap 即可：
 
-![image](./vs_code_keymap.png)
+<Illustration src={keyMapImg} />
 
 安装后应用即可：
 
-![image](./apply_keymap.png)
+<Illustration src={applyKeyMapImg} />
 
 同理主题也可以安装，在 JB 全家桶中推荐使用 One Dark Theme，安装完成后点击 apply 即可：
 
-![image](./one_dark_theme.png)
+<Illustration src={oneDarkThemeImg} />
 
 </details>
 
