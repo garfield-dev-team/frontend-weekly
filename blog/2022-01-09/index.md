@@ -60,6 +60,82 @@ https://github.com/google/zx
 
 📒 [ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
 
+📒 如何覆盖 CRA 默认 webpack 配置
+
+在 CRA 创建的项目中，经常需要修改默认 webpack 配置。但是 CRA 不像 Vue-cli 可以提供自定义 webpack 配置，而 `eject` 又会把全部配置暴露出来，很麻烦。这种情况下可以使用 `react-app-rewired` 这个库：
+
+```bash
+$ yarn add react-app-rewired -D
+```
+
+在项目根目录创建一个 `config-overrides.js` 文件，添加自定义 webpack 配置：
+
+```js
+/* config-overrides.js */
+
+module.exports = function override(config, env) {
+  //do stuff with the webpack config...
+  return config;
+}
+```
+
+最后在 `package.json` 中修改 npm scripts：
+
+```json {5,7,9}
+/* package.json */
+
+  "scripts": {
+-   "start": "react-scripts start",
++   "start": "react-app-rewired start",
+-   "build": "react-scripts build",
++   "build": "react-app-rewired build",
+-   "test": "react-scripts test",
++   "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+}
+```
+
+这个库源码不是很多，推荐看一下：
+
+https://github.com/timarney/react-app-rewired
+
+:::tip
+
+通常 `react-app-rewired` 会搭配 `customize-cra` 这个库一起用：
+
+```bash
+$ yarn add customize-cra react-app-rewired -D
+```
+
+支持在 `config-overrides.js` 中编写函数式的 API 去修改 webpack 配置：
+
+```js
+const {
+  override,
+  addDecoratorsLegacy,
+  disableEsLint,
+  addWebpackAlias
+} = require("customize-cra");
+const path = require("path");
+
+module.exports = override(
+  // enable legacy decorators babel plugin
+  addDecoratorsLegacy(),
+
+  // disable eslint in webpack
+  disableEsLint(),
+
+  // add an alias for "ag-grid-react" imports
+  addWebpackAlias({
+    ["ag-grid-react$"]: path.resolve(__dirname, "src/shared/agGridWrapper.js")
+  }),
+);
+```
+
+https://github.com/arackaf/customize-cra
+
+:::
+
 📒 React 组件懒加载实现思路
 
 项目中经常需要长列表渲染，一般都使用懒加载，滚动到底部时渲染下一屏数据，需要判断元素是否在 viewport 内。过去通常会监听滚动事件，然后调用 `Element.getBoundingClientRect()` 方法以获取元素的边界信息。由于滚动事件触发非常频繁，频繁调用会导致性能问题。
