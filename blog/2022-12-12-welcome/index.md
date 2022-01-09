@@ -113,10 +113,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Node.js 系列
 
-- [zx - 谷歌开发的命令行脚本工具](https://github.com/google/zx)
-- [node-fetch - node 环境下进行网络请求](https://github.com/node-fetch/node-fetch)
 - ⭐️ ⭐️ [大厂是如何用DevCloud流水线实现自动化部署Web应用的？](https://juejin.cn/post/6887961766170066951)
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
+- 🌛 [zx - 谷歌开发的命令行脚本工具](https://github.com/google/zx)
+- 🌛 [node-fetch - node 环境下进行网络请求](https://github.com/node-fetch/node-fetch)
+- [release-it - 自动发布脚本](https://github.com/release-it/release-it)
 - ⭐️ [Tasuku - 面向 Node 的最小任务运行器](https://github.com/privatenumber/tasuku)
 - 🌛 [Node.js的底层原理](https://juejin.cn/post/7008504029277847565)
 - ⭐️ [认真写了个快速创建 Node 服务的CLI，看看对小伙伴们有帮忙吗？](https://mp.weixin.qq.com/s/Gcx6E4cYo6WPB8PLI72NWg)
@@ -130,6 +131,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 网络相关
 
+- 推荐看看 QUIC 101 视频以及 [The QUIC transport protocol: design and Internet-scale deployment](https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf) 论文
 - ⭐️ [一文彻底搞懂加密、数字签名和数字证书！](https://segmentfault.com/a/1190000024523772)
 - ⭐️ [一个Response Header引发的血案(包含CDN的相关概念)](https://juejin.cn/post/6944420222757503006)
 
@@ -268,6 +270,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
   - 这篇做的 demo 类似 Java 中的 lambok
   - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
+- diff 算法相关
+  - https://github.com/snabbdom/snabbdom
+  - [DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
 - webpack 热模块替换看下源码
   - [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
   - [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
