@@ -62,6 +62,10 @@ https://github.com/google/zx
 
 📒 如何覆盖 CRA 默认 webpack 配置
 
+<details>
+
+<summary>查看详情</summary>
+
 在 CRA 创建的项目中，经常需要修改默认 webpack 配置。但是 CRA 不像 Vue-cli 可以提供自定义 webpack 配置，而 `eject` 又会把全部配置暴露出来，很麻烦。这种情况下可以使用 `react-app-rewired` 这个库：
 
 ```bash
@@ -136,6 +140,8 @@ https://github.com/arackaf/customize-cra
 
 :::
 
+</details>
+
 📒 React 组件懒加载实现思路
 
 项目中经常需要长列表渲染，一般都使用懒加载，滚动到底部时渲染下一屏数据，需要判断元素是否在 viewport 内。过去通常会监听滚动事件，然后调用 `Element.getBoundingClientRect()` 方法以获取元素的边界信息。由于滚动事件触发非常频繁，频繁调用会导致性能问题。
@@ -174,6 +180,10 @@ React16架构可以分为三层：
 
 📒 如何在 JB 全家桶中使用 VS Code 的快捷键
 
+<details>
+
+<summary>查看详情</summary>
+
 JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要使用 VS Code 的快捷键，只需要安装对应的 Keymap 即可：
 
 ![image](./vs_code_keymap.png)
@@ -185,6 +195,8 @@ JB 全家桶，例如 IDEA、WebStorm、GoLand 等支持多种 keymap，如要�
 同理主题也可以安装，在 JB 全家桶中推荐使用 One Dark Theme，安装完成后点击 apply 即可：
 
 ![image](./one_dark_theme.png)
+
+</details>
 
 📒 静态页面部署方案
 

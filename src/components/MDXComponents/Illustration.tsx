@@ -1,6 +1,6 @@
 import Image from "antd/lib/image";
 import "antd/lib/image/style/index.css";
-import React from "react";
+import * as React from "react";
 import { useInView } from "react-intersection-observer";
 
 // 使用按需加载方式引入 antd 组件
