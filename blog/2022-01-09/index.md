@@ -10,6 +10,28 @@ import keyMapImg from "./vs_code_keymap.png";
 import applyKeyMapImg from "./apply_keymap.png";
 import oneDarkThemeImg from "./one_dark_theme.png";
 
+📒 Golang 模拟 JS 的 Promise
+
+https://www.bilibili.com/video/BV11v411h7t5
+
+📒 Golang 如何通过 WebAssembly 调用 JS API
+
+https://github.com/elliotforbes/go-webassembly-framework
+
+📒 [「目前全网唯一&2万字长文」从JS上下文到Chromium源码的极限拉扯！!兄弟姐妹们接好了！！](https://juejin.cn/post/7039850183244382216)
+
+📒 [浅谈 Vite 2.0 原理，依赖预编译，插件机制是如何兼容 Rollup 的？](https://juejin.cn/post/6932367804108800007)
+
+📒 JS 两个注意点
+
+- 判断对象是否存在某属性，通常都用 `Object.prototype.hasOwnProperty.call()`。有同学问为什么不能直接 `obj.hasOwnProperty()` 去判断，因为有些对象是通过 `Object.create(null)` 创建的，这种情况下原型上就访问不到 `hasOwnProperty`，必须通过 `Object.prototype.hasOwnProperty.call()`
+- ES2016 新增的 `Array.prototype.includes()` 可以识别 `NaN`，而 `Array.prototype.indexOf()` 不能识别：
+
+  ```js
+  const arr = ['es6', 'es7', NaN, 'es8'];
+  arr.includes(NaN); // true
+  arr.indexOf(NaN); // -1
+  ```
 
 📒 今年最受欢迎的项目：谷歌的 **zx**
 

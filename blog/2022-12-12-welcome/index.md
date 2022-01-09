@@ -254,6 +254,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 手写 redux-thunk 源码；
 - 手写 Promise/A+ ；
   - [手写一个Promise/A+,完美通过官方872个测试用例](https://juejin.cn/post/6844904116913700877)
+  - [从一道让我失眠的 Promise 面试题开始，深入分析 Promise 实现细节](https://juejin.cn/post/6945319439772434469)
+  - [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
+  - [手把手一行一行代码教你“手写Promise“，完美通过 Promises/A+ 官方872个测试用例](https://juejin.cn/post/7043758954496655397)
 - 排序算法，桶排序、计数排序，时间复杂度 O(n) ；
 - 每日算法
   - https://labuladong.gitee.io/algo/（国内速度快，体验好，推荐）
