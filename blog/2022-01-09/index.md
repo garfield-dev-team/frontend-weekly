@@ -86,7 +86,11 @@ https://github.com/google/zx
 
 推荐看看 QUIC 101 视频以及 [The QUIC transport protocol: design and Internet-scale deployment](https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf) 论文
 
-📒 [ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
+📒 ES2015+ 的代码要不要转为 ES5
+
+Babel 主要做了两件事，一是语法转换，二是 api 兼容，其中 api 兼容是通过引入 core-js 的 polyfill 实现的。一般来说转换之后体积肯定会增大，并且很多语法转换的时候会引入 helper 函数，这就产生了副作用，导致无法 Tree-Shaking。
+
+[ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
 
 📒 如何覆盖 CRA 默认 webpack 配置
 
