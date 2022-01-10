@@ -25,7 +25,32 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月16日内容汇总"/>
         <updated>2022-01-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 实现一个 WebAssembily 版本的 Python 解释器]]></summary>
-        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>📒 命令行工具开发技术栈</p><ul><li><code>chalk</code></li><li><code>inquirer</code></li><li><code>ora</code></li><li><code>commander/yargs</code></li><li><code>execa</code>（个人觉得 Node 原生 <code>child_process</code> 的 <code>exec</code> 就够用了）</li></ul><p>现在开发已经不需要自己组装 pick 了，<code>common-bin</code>、<code>oclif</code> 这两个，约定式路由。</p><p>另外脚手架工具，可以看看 <code>plop</code>和 <code>yeoman</code>，一个是基于 <code>action</code> 和 <code>inquirer</code> 的生态，一个是内核加自定义模板项目。</p><p>其实最简单的脚手架，不是通过cli界面选择模板，然后到 github 上去下载对应的模板文件，而是 <code>start-kit</code> 。</p><blockquote><p><a href="https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs">https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs</a></p></blockquote><p>📒 <a href="https://juejin.cn/post/7051355444341637128">「前端基建」探索不同项目场景下Babel最佳实践方案</a></p><p>📒 <a href="https://juejin.cn/post/7051236803344334862">说不清rollup能输出哪6种格式😥差点被鄙视</a></p><p>📒 <a href="https://juejin.cn/post/7035448197883363359">【手把手】学会VS Code&quot;任务&quot;神技，成为项目组最靓的崽！</a></p>]]></content>
+        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>📒 如何开发一个 CLI 工具</p><p>参考下尤大的项目：</p><pre><code class="language-js">const templateDir = path.join(__dirname, `template-${template}`)
+
+const write = (file, content) =&gt; {
+  const targetPath = renameFiles[file]
+    ? path.join(root, renameFiles[file])
+    : path.join(root, file)
+  if (content) {
+    fs.writeFileSync(targetPath, content)
+  } else {
+    copy(path.join(templateDir, file), targetPath)
+  }
+}
+
+const files = fs.readdirSync(templateDir)
+for (const file of files.filter((f) =&gt; f !== &#x27;package.json&#x27;)) {
+  write(file)
+}
+</code></pre><p>注意这里有两个文件要处理下，一个是给 <code>package.json</code> 修改包名：</p><pre><code class="language-js">const pkg = require(path.join(templateDir, `package.json`))
+
+pkg.name = packageName || targetDir
+
+write(&#x27;package.json&#x27;, JSON.stringify(pkg, null, 2))
+</code></pre><p>还有是 <code>.gitignore</code> 修改文件名：</p><pre><code class="language-js">const renameFiles = {
+  _gitignore: &#x27;.gitignore&#x27;
+}
+</code></pre><blockquote><p><a href="https://github.com/vitejs/vite/blob/main/packages/create-vite/index.js">https://github.com/vitejs/vite/blob/main/packages/create-vite/index.js</a></p></blockquote><p>📒 命令行工具开发技术栈</p><ul><li><code>chalk/kolorist</code></li><li><code>inquirer/prompts</code></li><li><code>ora</code></li><li><code>commander/yargs</code></li><li><code>execa</code>（个人觉得 Node 原生 <code>child_process</code> 的 <code>exec</code> 就够用了）</li></ul><p>现在开发已经不需要自己组装 pick 了，<code>common-bin</code>、<code>oclif</code> 这两个，约定式路由。</p><p>另外脚手架工具，可以看看 <code>plop</code>和 <code>yeoman</code>，一个是基于 <code>action</code> 和 <code>inquirer</code> 的生态，一个是内核加自定义模板项目。</p><p>其实最简单的脚手架，不是通过cli界面选择模板，然后到 github 上去下载对应的模板文件，而是 <code>start-kit</code> 。</p><blockquote><p><a href="https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs">https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs</a></p></blockquote><p>📒 <a href="https://juejin.cn/post/7051355444341637128">「前端基建」探索不同项目场景下Babel最佳实践方案</a></p><p>📒 <a href="https://juejin.cn/post/7051236803344334862">说不清rollup能输出哪6种格式😥差点被鄙视</a></p><p>📒 <a href="https://juejin.cn/post/7035448197883363359">【手把手】学会VS Code&quot;任务&quot;神技，成为项目组最靓的崽！</a></p>]]></content>
         <author>
             <name>加菲猫</name>
             <uri>https://github.com/Jiacheng787</uri>
