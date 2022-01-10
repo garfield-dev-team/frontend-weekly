@@ -16,10 +16,54 @@ tags: [Babel, Rollup, VS Code]
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
 
+📒 如何开发一个 CLI 工具
+
+参考下尤大的项目：
+
+```js
+const templateDir = path.join(__dirname, `template-${template}`)
+
+const write = (file, content) => {
+  const targetPath = renameFiles[file]
+    ? path.join(root, renameFiles[file])
+    : path.join(root, file)
+  if (content) {
+    fs.writeFileSync(targetPath, content)
+  } else {
+    copy(path.join(templateDir, file), targetPath)
+  }
+}
+
+const files = fs.readdirSync(templateDir)
+for (const file of files.filter((f) => f !== 'package.json')) {
+  write(file)
+}
+```
+
+注意这里有两个文件要处理下，一个是给 `package.json` 修改包名：
+
+```js
+const pkg = require(path.join(templateDir, `package.json`))
+
+pkg.name = packageName || targetDir
+
+write('package.json', JSON.stringify(pkg, null, 2))
+```
+
+还有是 `.gitignore` 修改文件名：
+
+```js
+const renameFiles = {
+  _gitignore: '.gitignore'
+}
+```
+
+> https://github.com/vitejs/vite/blob/main/packages/create-vite/index.js
+
 📒 命令行工具开发技术栈
 
-- `chalk`
-- `inquirer`
+- `chalk/kolorist`
+- `inquirer/prompts`
 - `ora`
 - `commander/yargs`
 - `execa`（个人觉得 Node 原生 `child_process` 的 `exec` 就够用了）
