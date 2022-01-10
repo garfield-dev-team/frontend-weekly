@@ -20,6 +20,14 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[index]]></title>
+        <id>/2022/01/16/index</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2022/01/16/index"/>
+        <updated>2022-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「前端基建」探索不同项目场景下Babel最佳实践方案]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://juejin.cn/post/7051355444341637128">「前端基建」探索不同项目场景下Babel最佳实践方案</a></p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1月9日内容汇总]]></title>
         <id>1月9日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月9日内容汇总"/>
