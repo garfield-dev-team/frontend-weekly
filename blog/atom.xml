@@ -25,7 +25,7 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月16日内容汇总"/>
         <updated>2022-01-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 实现一个 WebAssembily 版本的 Python 解释器]]></summary>
-        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>📒 GitHub 定时任务</p><p>下面的代码中，<code>on</code> 字段指定了两种触发条件，一个是代码 <code>push</code> 进仓库，另一种是定时任务，每天在国际标准时间21点（北京时间早上5点）运行。</p><pre><code class="language-yaml">on:
+        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>⭐️ <a href="https://juejin.cn/post/7034419410706104356">2022年如何成为一名优秀的大前端Leader？</a></p><p>📒 GitHub 定时任务</p><p>下面的代码中，<code>on</code> 字段指定了两种触发条件，一个是代码 <code>push</code> 进仓库，另一种是定时任务，每天在国际标准时间21点（北京时间早上5点）运行。</p><pre><code class="language-yaml">on:
   push:
   schedule:
     - cron: &#x27;0 21 * * *&#x27;
