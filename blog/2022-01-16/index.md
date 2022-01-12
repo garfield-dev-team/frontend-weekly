@@ -86,8 +86,23 @@ const renameFiles = {
 - `chalk/kolorist`
 - `inquirer/prompts`
 - `ora`
+- `semver`
+- `pkg-install`
+- `ncp`
 - `commander/yargs`
 - `execa`（个人觉得 Node 原生 `child_process` 的 `exec` 就够用了）
+
+:::tip
+
+网上一些文章也都实现了递归拷贝文件，但是是否考虑到了跨平台，可以看下 `ncp` 的实现
+
+https://github.com/AvianFlu/ncp
+
+Node.js 原生的 `child_process.exec` 也可以执行命令，看下 `execa` 是如何支持 Promise 的
+
+https://github.com/sindresorhus/execa
+
+:::
 
 现在开发已经不需要自己组装 pick 了，`common-bin`、`oclif` 这两个，约定式路由。
 
