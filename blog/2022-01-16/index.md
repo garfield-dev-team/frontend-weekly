@@ -18,6 +18,46 @@ tags: [Babel, Rollup, VS Code]
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
 
+📒 Golang 中的 `struct`
+
+注意 `struct` 与 `array`、`map` 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：
+
+```go {15}
+package main
+
+import (
+  "fmt"
+)
+
+type Doctor struct {
+  name string
+}
+
+func main() {
+  aDoctor := Doctor{
+    name: "John Pertwee"
+  }
+  anotherDoctor := aDoctor
+  anotherDoctor.name = "Tom Baker"
+  fmt.Println(aDoctor) // {John Pertwee}
+  fmt.Println(anotherDoctor) // {Tom Baker}
+}
+```
+
+可以使用 `&` 操作符拿到对象的指针进行赋值，这时候两边就是联动的：
+
+```go {5}
+func main() {
+  aDoctor := Doctor{
+    name: "John Pertwee"
+  }
+  anotherDoctor := &aDoctor
+  anotherDoctor.name = "Tom Baker"
+  fmt.Println(aDoctor) // {Tom Baker}
+  fmt.Println(anotherDoctor) // &{Tom Baker}
+}
+```
+
 ⭐️ [2022年如何成为一名优秀的大前端Leader？](https://juejin.cn/post/7034419410706104356)
 
 📒 GitHub 定时任务
