@@ -12,6 +12,8 @@ tags: [Babel, Rollup, VS Code]
 
 > https://github.com/pyodide/pyodide
 
+📒 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
+
 📒 Webpack5 配置了 `devServer.hot = true` 是否会自动配置 `HotModuleReplacementPlugin`
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
