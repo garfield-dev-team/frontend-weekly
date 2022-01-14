@@ -25,7 +25,54 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月16日内容汇总"/>
         <updated>2022-01-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 实现一个 WebAssembily 版本的 Python 解释器]]></summary>
-        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>📒 <a href="https://juejin.cn/post/7051535411042058271">不优雅的 React Hooks</a></p><p>📒 Webpack 中 loader 处理流程</p><p>有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 <code>call</code> 方法让每个 loader 内部可以获取到 loaderAPI：</p><pre><code class="language-js">import { readFileSync } from &#x27;node:fs&#x27;;
+        <content type="html"><![CDATA[<p>📒 实现一个 WebAssembily 版本的 Python 解释器</p><ul><li>wasm 可以把代码编译出来，但是能否执行</li><li>如果 Python 代码涉及系统调用，例如代码中经常需要进行文件 IO，这种情况下 wasm 能否实现</li></ul><blockquote><p><a href="https://github.com/pyodide/pyodide">https://github.com/pyodide/pyodide</a></p></blockquote><p>📒 Webpack5 配置了 <code>devServer.hot = true</code> 是否会自动配置 <code>HotModuleReplacementPlugin</code></p><p>📒 看下 axios 源码，响应拦截中第一个回调 <code>reject</code> 能否进入第二个回调</p><p>📒 webpack-dev-server 如何配置代理</p><p>在 CRA 搭建的项目中，我们知道可以在 <code>src/setupProxy.js</code> 文件中写入代理配置：</p><pre><code class="language-js">const proxy = require(&#x27;http-proxy-middleware&#x27;);
+
+module.exports = function(app) {
+  app.use(
+    proxy(
+      &#x27;/course&#x27;,
+      {
+        target: &#x27;https://ke.study.163.com&#x27;,
+        changeOrigin: true,
+      },
+    ),
+  )
+}
+</code></pre><p>那么手动搭建的项目该如何配置代理呢？我们看一下 CRA 源码：</p><pre><code class="language-js">// react-scripts/config/paths.js:87
+
+module.exports = {
+  // ...
+  proxySetup: resolveApp(&#x27;src/setupProxy.js&#x27;),
+  // ...
+}
+</code></pre><p>然后去找哪里用到了 <code>proxySetup</code> ：</p><pre><code class="language-js">// react-scripts/config/webpackDevServer.config.js:112
+
+// ...
+onBeforeSetupMiddleware(devServer) {
+  // Keep `evalSourceMapMiddleware`
+  // middlewares before `redirectServedPath` otherwise will not have any effect
+  // This lets us fetch source contents from webpack for the error overlay
+  devServer.app.use(evalSourceMapMiddleware(devServer));
+
+  if (fs.existsSync(paths.proxySetup)) {
+    // This registers user provided middleware for proxy reasons
+    require(paths.proxySetup)(devServer.app);
+  }
+},
+// ...
+</code></pre><p>根据上面的配置，说明应该是这么用的：</p><pre><code class="language-js">const compiler = webpack(config);
+const devServer = new WebpackDevServer(options, compiler);
+
+devServer.app.use(
+  proxy(
+    &#x27;/course&#x27;,
+    {
+      target: &#x27;https://ke.study.163.com&#x27;,
+      changeOrigin: true,
+    },
+  ),
+)
+</code></pre><p>📒 <a href="https://juejin.cn/post/7051535411042058271">不优雅的 React Hooks</a></p><p>📒 Webpack 中 loader 处理流程</p><p>有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 <code>call</code> 方法让每个 loader 内部可以获取到 loaderAPI：</p><pre><code class="language-js">import { readFileSync } from &#x27;node:fs&#x27;;
 
 const loaders = [];
 const raw = readFileSync(&#x27;xxx&#x27;);
