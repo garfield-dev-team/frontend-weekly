@@ -105,7 +105,7 @@ const parsed = loaders.reduce(
   *b = 14
   fmt.Println(a, *b) // 14 14
 }
-</code></pre><p>📒 Golang 中的 <code>struct</code></p><p>注意 <code>struct</code> 与 <code>array</code>、<code>map</code> 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：</p><pre><code class="language-go" metastring="{15}">package main
+</code></pre><p>📒 Golang 中的 <code>struct</code></p><p>注意 <code>struct</code> 与 <code>slice</code>、<code>map</code> 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：</p><pre><code class="language-go" metastring="{15}">package main
 
 import (
   &quot;fmt&quot;
@@ -132,6 +132,20 @@ func main() {
   anotherDoctor.name = &quot;Tom Baker&quot;
   fmt.Println(aDoctor) // {Tom Baker}
   fmt.Println(anotherDoctor) // &amp;{Tom Baker}
+}
+</code></pre><p>注意 <code>array</code> 进行赋值也会 copy：</p><pre><code class="language-go" metastring="{2}">func main() {
+  a := [3]int{1, 2, 3}
+  b := a
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
+  a[1] = 42
+  fmt.Println(a, b) // [1, 42, 3] [1, 2, 3]
+}
+</code></pre><p>但如果将 <code>array</code> 改为 <code>slice</code>，赋值传递的就是指针：</p><pre><code class="language-go" metastring="{2}">func main() {
+  a := []int{1, 2, 3}
+  b := a
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
+  a[1] = 42
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
 }
 </code></pre><p>⭐️ <a href="https://juejin.cn/post/7034419410706104356">2022年如何成为一名优秀的大前端Leader？</a></p><p>📒 GitHub 定时任务</p><p>下面的代码中，<code>on</code> 字段指定了两种触发条件，一个是代码 <code>push</code> 进仓库，另一种是定时任务，每天在国际标准时间21点（北京时间早上5点）运行。</p><pre><code class="language-yaml">on:
   push:
