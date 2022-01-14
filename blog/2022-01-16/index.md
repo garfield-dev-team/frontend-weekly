@@ -164,7 +164,7 @@ func main() {
 
 📒 Golang 中的 `struct`
 
-注意 `struct` 与 `array`、`map` 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：
+注意 `struct` 与 `slice`、`map` 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：
 
 ```go {15}
 package main
@@ -199,6 +199,30 @@ func main() {
   anotherDoctor.name = "Tom Baker"
   fmt.Println(aDoctor) // {Tom Baker}
   fmt.Println(anotherDoctor) // &{Tom Baker}
+}
+```
+
+注意 `array` 进行赋值也会 copy：
+
+```go {2}
+func main() {
+  a := [3]int{1, 2, 3}
+  b := a
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
+  a[1] = 42
+  fmt.Println(a, b) // [1, 42, 3] [1, 2, 3]
+}
+```
+
+但如果将 `array` 改为 `slice`，赋值传递的就是指针：
+
+```go {2}
+func main() {
+  a := []int{1, 2, 3}
+  b := a
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
+  a[1] = 42
+  fmt.Println(a, b) // [1, 2, 3] [1, 2, 3]
 }
 ```
 
