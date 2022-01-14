@@ -55,12 +55,14 @@ const parsed = loaders.reduce(
   var b *int = &amp;a
   fmt.Println(a, *b) // 42 42
 }
-</code></pre><p>由于 <code>b</code> 实际是 <code>a</code> 的指针引用，因此修改 <code>a</code> 会导致 <code>b</code> 指向的值发生变化：</p><pre><code class="language-go">func main() {
+</code></pre><p>由于 <code>b</code> 实际持有的是 <code>a</code> 的指针引用，因此修改 <code>a</code> 会导致 <code>b</code> 指向的值发生变化：</p><pre><code class="language-go">func main() {
   var a int = 42
   var b *int = &amp;a
   fmt.Println(a, *b) // 42 42
   a = 27
   fmt.Println(a, *b) // 27 27
+  *b = 14
+  fmt.Println(a, *b) // 14 14
 }
 </code></pre><p>📒 Golang 中的 <code>struct</code></p><p>注意 <code>struct</code> 与 <code>array</code>、<code>map</code> 不同，下面这个操作实际上是完整 copy 了一个对象，内存开销较大：</p><pre><code class="language-go" metastring="{15}">package main
 
