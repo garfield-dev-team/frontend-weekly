@@ -81,7 +81,7 @@ func main() {
 }
 ```
 
-由于 `b` 实际是 `a` 的指针引用，因此修改 `a` 会导致 `b` 指向的值发生变化：
+由于 `b` 实际持有的是 `a` 的指针引用，因此修改 `a` 会导致 `b` 指向的值发生变化：
 
 ```go
 func main() {
@@ -90,6 +90,8 @@ func main() {
   fmt.Println(a, *b) // 42 42
   a = 27
   fmt.Println(a, *b) // 27 27
+  *b = 14
+  fmt.Println(a, *b) // 14 14
 }
 ```
 
