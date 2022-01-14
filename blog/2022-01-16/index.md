@@ -53,7 +53,6 @@ module.exports = {
 ```js
 // react-scripts/config/webpackDevServer.config.js:112
 
-// ...
 onBeforeSetupMiddleware(devServer) {
   // Keep `evalSourceMapMiddleware`
   // middlewares before `redirectServedPath` otherwise will not have any effect
@@ -65,10 +64,9 @@ onBeforeSetupMiddleware(devServer) {
     require(paths.proxySetup)(devServer.app);
   }
 },
-// ...
 ```
 
-根据上面的配置，说明应该是这么用的：
+看了下上面的配置，说明应该是这么用的：
 
 ```js
 const compiler = webpack(config);
@@ -120,7 +118,7 @@ const parsed = loaders.reduce(
 
 对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：
 
-```go
+```go {3}
 func main() {
   a := 42
   b := a
@@ -132,7 +130,7 @@ func main() {
 
 可以通过 `&` 操作符取到内存地址：
 
-```go
+```go {3}
 func main() {
   var a int = 42
   var b *int = &a
@@ -142,7 +140,7 @@ func main() {
 
 还可以通过 `*` 操作符根据内存地址访问对应的值：
 
-```go
+```go {4}
 func main() {
   var a int = 42
   var b *int = &a
@@ -152,7 +150,7 @@ func main() {
 
 由于 `b` 实际持有的是 `a` 的指针引用，因此修改 `a` 会导致 `b` 指向的值发生变化：
 
-```go
+```go {5,7}
 func main() {
   var a int = 42
   var b *int = &a
