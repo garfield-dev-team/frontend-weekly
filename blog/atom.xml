@@ -47,7 +47,6 @@ module.exports = {
 }
 </code></pre><p>然后去找哪里用到了 <code>proxySetup</code> ：</p><pre><code class="language-js">// react-scripts/config/webpackDevServer.config.js:112
 
-// ...
 onBeforeSetupMiddleware(devServer) {
   // Keep `evalSourceMapMiddleware`
   // middlewares before `redirectServedPath` otherwise will not have any effect
@@ -59,8 +58,7 @@ onBeforeSetupMiddleware(devServer) {
     require(paths.proxySetup)(devServer.app);
   }
 },
-// ...
-</code></pre><p>根据上面的配置，说明应该是这么用的：</p><pre><code class="language-js">const compiler = webpack(config);
+</code></pre><p>看了下上面的配置，说明应该是这么用的：</p><pre><code class="language-js">const compiler = webpack(config);
 const devServer = new WebpackDevServer(options, compiler);
 
 devServer.app.use(
@@ -85,24 +83,24 @@ const parsed = loaders.reduce(
   (accu, cur) =&gt; cur.call(loaderAPI, accu),
   raw
 );
-</code></pre><p>📒 字体文件的 hash 是如何生成的，<code>file-loader</code> 中如何处理的</p><p><a href="https://www.cnblogs.com/shiyunfront/articles/8944940.html">webpack 源码解析:file-loader 和 url-loader</a></p><p><a href="https://github.com/webpack-contrib/file-loader/blob/master/src/index.js">file-loader - GitHub</a></p><p><a href="https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js">loader-utils - GitHub</a></p><p>📒 Golang 中的指针</p><p>对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：</p><pre><code class="language-go">func main() {
+</code></pre><p>📒 字体文件的 hash 是如何生成的，<code>file-loader</code> 中如何处理的</p><p><a href="https://www.cnblogs.com/shiyunfront/articles/8944940.html">webpack 源码解析:file-loader 和 url-loader</a></p><p><a href="https://github.com/webpack-contrib/file-loader/blob/master/src/index.js">file-loader - GitHub</a></p><p><a href="https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js">loader-utils - GitHub</a></p><p>📒 Golang 中的指针</p><p>对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：</p><pre><code class="language-go" metastring="{3}">func main() {
   a := 42
   b := a
   fmt.Println(a, b) // 42 42
   a = 27
   fmt.Println(a, b) // 27 42
 }
-</code></pre><p>可以通过 <code>&amp;</code> 操作符取到内存地址：</p><pre><code class="language-go">func main() {
+</code></pre><p>可以通过 <code>&amp;</code> 操作符取到内存地址：</p><pre><code class="language-go" metastring="{3}">func main() {
   var a int = 42
   var b *int = &amp;a
   fmt.Println(a, b) // 42 0×1040a124
 }
-</code></pre><p>还可以通过 <code>*</code> 操作符根据内存地址访问对应的值：</p><pre><code class="language-go">func main() {
+</code></pre><p>还可以通过 <code>*</code> 操作符根据内存地址访问对应的值：</p><pre><code class="language-go" metastring="{4}">func main() {
   var a int = 42
   var b *int = &amp;a
   fmt.Println(a, *b) // 42 42
 }
-</code></pre><p>由于 <code>b</code> 实际持有的是 <code>a</code> 的指针引用，因此修改 <code>a</code> 会导致 <code>b</code> 指向的值发生变化：</p><pre><code class="language-go">func main() {
+</code></pre><p>由于 <code>b</code> 实际持有的是 <code>a</code> 的指针引用，因此修改 <code>a</code> 会导致 <code>b</code> 指向的值发生变化：</p><pre><code class="language-go" metastring="{5,7}">func main() {
   var a int = 42
   var b *int = &amp;a
   fmt.Println(a, *b) // 42 42
