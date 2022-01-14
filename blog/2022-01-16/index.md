@@ -16,6 +16,8 @@ tags: [Babel, Rollup, VS Code]
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
 
+📒 [不优雅的 React Hooks](https://juejin.cn/post/7051535411042058271)
+
 📒 Webpack 中 loader 处理流程
 
 有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 `call` 方法让每个 loader 内部可以获取到 loaderAPI：
@@ -39,8 +41,57 @@ const parsed = loaders.reduce(
 📒 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
 
 [webpack 源码解析:file-loader 和 url-loader](https://www.cnblogs.com/shiyunfront/articles/8944940.html)
+
 [file-loader - GitHub](https://github.com/webpack-contrib/file-loader/blob/master/src/index.js)
+
 [loader-utils - GitHub](https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js)
+
+
+📒 Golang 中的指针
+
+对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：
+
+```go
+func main() {
+  a := 42
+  b := a
+  fmt.Println(a, b) // 42 42
+  a = 27
+  fmt.Println(a, b) // 27 42
+}
+```
+
+可以通过 `&` 操作符取到内存地址：
+
+```go
+func main() {
+  var a int = 42
+  var b *int = &a
+  fmt.Println(a, b) // 42 0×1040a124
+}
+```
+
+还可以通过 `*` 操作符根据内存地址访问对应的值：
+
+```go
+func main() {
+  var a int = 42
+  var b *int = &a
+  fmt.Println(a, *b) // 42 42
+}
+```
+
+由于 `b` 实际是 `a` 的指针引用，因此修改 `a` 会导致 `b` 指向的值发生变化：
+
+```go
+func main() {
+  var a int = 42
+  var b *int = &a
+  fmt.Println(a, *b) // 42 42
+  a = 27
+  fmt.Println(a, *b) // 27 27
+}
+```
 
 📒 Golang 中的 `struct`
 
