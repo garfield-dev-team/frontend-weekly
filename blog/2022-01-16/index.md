@@ -16,6 +16,75 @@ tags: [Babel, Rollup, VS Code]
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
 
+📒 webpack-dev-server 如何配置代理
+
+在 CRA 搭建的项目中，我们知道可以在 `src/setupProxy.js` 文件中写入代理配置：
+
+```js
+const proxy = require('http-proxy-middleware');
+
+module.exports = function(app) {
+  app.use(
+    proxy(
+      '/course',
+      {
+        target: 'https://ke.study.163.com',
+        changeOrigin: true,
+      },
+    ),
+  )
+}
+```
+
+那么手动搭建的项目该如何配置代理呢？我们看一下 CRA 源码：
+
+```js
+// react-scripts/config/paths.js:87
+
+module.exports = {
+  // ...
+  proxySetup: resolveApp('src/setupProxy.js'),
+  // ...
+}
+```
+
+然后去找哪里用到了 `proxySetup` ：
+
+```js
+// react-scripts/config/webpackDevServer.config.js:112
+
+// ...
+onBeforeSetupMiddleware(devServer) {
+  // Keep `evalSourceMapMiddleware`
+  // middlewares before `redirectServedPath` otherwise will not have any effect
+  // This lets us fetch source contents from webpack for the error overlay
+  devServer.app.use(evalSourceMapMiddleware(devServer));
+
+  if (fs.existsSync(paths.proxySetup)) {
+    // This registers user provided middleware for proxy reasons
+    require(paths.proxySetup)(devServer.app);
+  }
+},
+// ...
+```
+
+根据上面的配置，说明应该是这么用的：
+
+```js
+const compiler = webpack(config);
+const devServer = new WebpackDevServer(options, compiler);
+
+devServer.app.use(
+  proxy(
+    '/course',
+    {
+      target: 'https://ke.study.163.com',
+      changeOrigin: true,
+    },
+  ),
+)
+```
+
 📒 [不优雅的 React Hooks](https://juejin.cn/post/7051535411042058271)
 
 📒 Webpack 中 loader 处理流程
