@@ -12,11 +12,35 @@ tags: [Babel, Rollup, VS Code]
 
 > https://github.com/pyodide/pyodide
 
-📒 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
-
 📒 Webpack5 配置了 `devServer.hot = true` 是否会自动配置 `HotModuleReplacementPlugin`
 
 📒 看下 axios 源码，响应拦截中第一个回调 `reject` 能否进入第二个回调
+
+📒 Webpack 中 loader 处理流程
+
+有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 `call` 方法让每个 loader 内部可以获取到 loaderAPI：
+
+```js
+import { readFileSync } from 'node:fs';
+
+const loaders = [];
+const raw = readFileSync('xxx');
+
+const loaderAPI = {
+  emitFile: () => {},
+}
+
+const parsed = loaders.reduce(
+  (accu, cur) => cur.call(loaderAPI, accu),
+  raw
+);
+```
+
+📒 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
+
+[webpack 源码解析:file-loader 和 url-loader](https://www.cnblogs.com/shiyunfront/articles/8944940.html)
+[file-loader - GitHub](https://github.com/webpack-contrib/file-loader/blob/master/src/index.js)
+[loader-utils - GitHub](https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js)
 
 📒 Golang 中的 `struct`
 
