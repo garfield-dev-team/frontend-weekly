@@ -66,7 +66,31 @@ devServer.app.use(
     },
   ),
 )
-</code></pre></details><p>📒 <a href="https://juejin.cn/post/7051535411042058271">不优雅的 React Hooks</a></p><p>📒 Webpack 中 loader 处理流程</p><p>有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 <code>call</code> 方法让每个 loader 内部可以获取到 loaderAPI：</p><pre><code class="language-js">import { readFileSync } from &#x27;node:fs&#x27;;
+</code></pre></details><p>📒 <a href="https://juejin.cn/post/7051535411042058271">不优雅的 React Hooks</a></p><p>📒 为什么可以用函数模拟一个模块</p><p>在一个模块中，有一些属性和方法是私有的，另外一些是对外暴露的：</p><pre><code class="language-js">// main.js
+let foo = 1;
+let bar = 2;
+
+export const getFoo = () =&gt; foo;
+export const getBar = () =&gt; bar;
+const defaultExport = () =&gt; foo + bar;
+export default defaultExport;
+
+// index.js
+import main, { getFoo, getBar } from &quot;./main&quot;;
+</code></pre><p>这种行为就可以通过函数模拟出来，其中私有变量、方法以闭包的形式实现，这样只有模块内部才能访问：</p><pre><code class="language-js">const main = (function() {
+  let foo = 1;
+  let bar = 2;
+  const getFoo = () =&gt; foo;
+  const getBar = () =&gt; bar;
+  const defaultExport = () =&gt; foo + bar;
+
+  return {
+    getFoo,
+    getBar,
+    default: defaultExport
+  }
+})();
+</code></pre><p>:::tip</p><p>可以看到给默认导出加了一个 <code>deafult</code> 属性。</p><p>:::</p><p>另外推荐看看 <code>browserify</code> 这个库，如何在浏览器端实现 CommonJS 模块机制：</p><blockquote><p><a href="https://browserify.org/">https://browserify.org/</a></p></blockquote><p>📒 Webpack 中 loader 处理流程</p><p>有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 <code>call</code> 方法让每个 loader 内部可以获取到 loaderAPI：</p><pre><code class="language-js">import { readFileSync } from &#x27;node:fs&#x27;;
 
 const loaders = [];
 const raw = readFileSync(&#x27;xxx&#x27;);
@@ -79,7 +103,31 @@ const parsed = loaders.reduce(
   (accu, cur) =&gt; cur.call(loaderAPI, accu),
   raw
 );
-</code></pre><p>📒 字体文件的 hash 是如何生成的，<code>file-loader</code> 中如何处理的</p><p>写一篇文章：《你不知道的 Webpack loader —— file-loader 源码探秘》</p><p><a href="https://www.cnblogs.com/shiyunfront/articles/8944940.html">webpack 源码解析:file-loader 和 url-loader</a></p><p><a href="https://github.com/webpack-contrib/file-loader/blob/master/src/index.js">file-loader - GitHub</a></p><p><a href="https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js">loader-utils - GitHub</a></p><p>📒 Golang 中的指针</p><p>对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：</p><pre><code class="language-go" metastring="{3}">func main() {
+</code></pre><p>📒 字体文件的 hash 是如何生成的，<code>file-loader</code> 中如何处理的</p><p>写一篇文章：《你不知道的 Webpack loader —— file-loader 源码探秘》</p><p><a href="https://www.cnblogs.com/shiyunfront/articles/8944940.html">webpack 源码解析:file-loader 和 url-loader</a></p><p><a href="https://github.com/webpack-contrib/file-loader/blob/master/src/index.js">file-loader - GitHub</a></p><p><a href="https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js">loader-utils - GitHub</a></p><p>📒 Golang 编译为 WebAssembly</p><p>在 Golang 中可以使用 <code>syscall/js</code> 这个库与 JS 环境进行交互，可以调用 JS 的 API，以及传递 JSON 数据：</p><pre><code class="language-go">package main
+ 
+import (
+    &quot;encoding/json&quot;
+    &quot;fmt&quot;
+    &quot;syscall/js&quot;
+)
+ 
+type Person struct {
+    Name string `json:&quot;name&quot;`
+    Age  int    `json:&quot;age&quot;`
+}
+
+func main() {
+  // Work around for passing structs to JS
+  frank := &amp;Person{Name: &quot;Frank&quot;, Age: 28}
+  p, err := json.Marshal(frank)
+  if err != nil {
+      fmt.Println(err)
+      return
+  }
+  obj := js.Global().Get(&quot;JSON&quot;).Call(&quot;parse&quot;, string(p))
+  js.Global().Set(&quot;aObject&quot;, obj)
+}
+</code></pre><p><a href="https://www.sitepen.com/blog/compiling-go-to-webassembly">Compiling Go to WebAssembly</a></p><p>📒 Golang 中的指针</p><p>对于原始类型来说，赋值就等于 copy，相当于在内存中创建一个一模一样的值，具有不同的内存地址：</p><pre><code class="language-go" metastring="{3}">func main() {
   a := 42
   b := a
   fmt.Println(a, b) // 42 42
