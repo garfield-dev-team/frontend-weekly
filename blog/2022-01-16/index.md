@@ -91,6 +91,52 @@ devServer.app.use(
 
 📒 [不优雅的 React Hooks](https://juejin.cn/post/7051535411042058271)
 
+📒 为什么可以用函数模拟一个模块
+
+在一个模块中，有一些属性和方法是私有的，另外一些是对外暴露的：
+
+```js
+// main.js
+let foo = 1;
+let bar = 2;
+
+export const getFoo = () => foo;
+export const getBar = () => bar;
+const defaultExport = () => foo + bar;
+export default defaultExport;
+
+// index.js
+import main, { getFoo, getBar } from "./main";
+```
+
+这种行为就可以通过函数模拟出来，其中私有变量、方法以闭包的形式实现，这样只有模块内部才能访问：
+
+```js
+const main = (function() {
+  let foo = 1;
+  let bar = 2;
+  const getFoo = () => foo;
+  const getBar = () => bar;
+  const defaultExport = () => foo + bar;
+
+  return {
+    getFoo,
+    getBar,
+    default: defaultExport
+  }
+})();
+```
+
+:::tip
+
+可以看到给默认导出加了一个 `deafult` 属性。
+
+:::
+
+另外推荐看看 `browserify` 这个库，如何在浏览器端实现 CommonJS 模块机制：
+
+> https://browserify.org/
+
 📒 Webpack 中 loader 处理流程
 
 有点像责任链模式，上一个函数的返回值会作为参数传入下一个函数。需要注意使用 `call` 方法让每个 loader 内部可以获取到 loaderAPI：
@@ -121,6 +167,38 @@ const parsed = loaders.reduce(
 
 [loader-utils - GitHub](https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js)
 
+📒 Golang 编译为 WebAssembly
+
+在 Golang 中可以使用 `syscall/js` 这个库与 JS 环境进行交互，可以调用 JS 的 API，以及传递 JSON 数据：
+
+```go
+package main
+ 
+import (
+    "encoding/json"
+    "fmt"
+    "syscall/js"
+)
+ 
+type Person struct {
+    Name string `json:"name"`
+    Age  int    `json:"age"`
+}
+
+func main() {
+  // Work around for passing structs to JS
+  frank := &Person{Name: "Frank", Age: 28}
+  p, err := json.Marshal(frank)
+  if err != nil {
+      fmt.Println(err)
+      return
+  }
+  obj := js.Global().Get("JSON").Call("parse", string(p))
+  js.Global().Set("aObject", obj)
+}
+```
+
+[Compiling Go to WebAssembly](https://www.sitepen.com/blog/compiling-go-to-webassembly)
 
 📒 Golang 中的指针
 
