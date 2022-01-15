@@ -18,6 +18,10 @@ tags: [Babel, Rollup, VS Code]
 
 📒 webpack-dev-server 如何配置代理
 
+<details>
+
+<summary>查看详情</summary>
+
 在 CRA 搭建的项目中，我们知道可以在 `src/setupProxy.js` 文件中写入代理配置：
 
 ```js
@@ -83,6 +87,8 @@ devServer.app.use(
 )
 ```
 
+</details>
+
 📒 [不优雅的 React Hooks](https://juejin.cn/post/7051535411042058271)
 
 📒 Webpack 中 loader 处理流程
@@ -106,6 +112,8 @@ const parsed = loaders.reduce(
 ```
 
 📒 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
+
+写一篇文章：《你不知道的 Webpack loader —— file-loader 源码探秘》
 
 [webpack 源码解析:file-loader 和 url-loader](https://www.cnblogs.com/shiyunfront/articles/8944940.html)
 
