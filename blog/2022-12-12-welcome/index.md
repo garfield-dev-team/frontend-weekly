@@ -94,6 +94,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [手把手带你入门 Webpack4](https://juejin.cn/post/6844903912588181511)
 - ⭐️ ⭐️ [\[万字总结\] 一文吃透 Webpack 核心原理](https://juejin.cn/post/6949040393165996040)
 
+## Rollup 系列
+
+- [一文带你快速上手Rollup](https://juejin.cn/post/6869551115420041229)
+
 ## 前端工程化
 
 - ⭐️ [2022 前端技术领域会有哪些新的变化？](https://www.zhihu.com/question/493891614/answer/2269197391)
@@ -195,6 +199,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [前端测试集锦——如何写好前端测试保证代码质量？](https://juejin.cn/post/6999445868550029319)
 
 ## 开发环境相关
+
+- [【手把手】学会VS Code"任务"神技，成为项目组最靓的崽！](https://juejin.cn/post/7035448197883363359)
 - [聊聊开发日常的效率提升工具（全）](https://juejin.cn/post/7019183422320934948)
 - [打造舒适搬砖环境，这些是我最想推介的桌面好物](https://juejin.cn/post/6844904193828880391)
 - [干货满满！推介几款 Mac 下非常好用的软件（第一弹）](https://juejin.cn/post/6844904012920127495)
@@ -266,6 +272,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [手把手刷二叉树系列完结篇](https://mp.weixin.qq.com/s/AzQzw-pC8A-0kS0NJn2eWw)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
+  - [今天，我们来实现一个基础版的webpack](https://juejin.cn/post/6987036612035084296)
 	- [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
 	- [跟着源码了解Webpack编译流程](https://juejin.cn/post/7026658230365323301)
 	- [面试官：webpack原理都不会？](https://juejin.cn/post/6859538537830858759)
@@ -278,6 +285,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - diff 算法相关
   - https://github.com/snabbdom/snabbdom
   - [DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
+  - [关于Virtual DOM理解和Snabbdom源码浅析](https://juejin.cn/post/6966215704634720287)
 - webpack 热模块替换看下源码
   - [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
   - [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
@@ -285,6 +293,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
   - [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
   - [🔥【万字】透过分析 webpack 面试题，构建 webpack5.x 知识体系](https://juejin.cn/post/7023242274876162084)
+- 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
+  - 写一篇文章：《你不知道的 Webpack loader —— file-loader 源码探秘》
+  - [webpack 源码解析:file-loader 和 url-loader](https://www.cnblogs.com/shiyunfront/articles/8944940.html)
+  - [file-loader - GitHub](https://github.com/webpack-contrib/file-loader/blob/master/src/index.js)
+  - [loader-utils - GitHub](https://github.com/webpack/loader-utils/blob/master/lib/interpolateName.js)
 - [面向未来的前端开发模式 - 写于2021年](https://juejin.cn/post/6992172458748936222)
 - [从零搭建Webpack5-react脚手架(附源码)](https://juejin.cn/post/6990538424545443854)
 - [手写各种源码](https://github.com/JinJieTan/Peter-)
