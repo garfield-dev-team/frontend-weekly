@@ -20,6 +20,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[1月23日内容汇总]]></title>
+        <id>1月23日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月23日内容汇总"/>
+        <updated>2022-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 现代配置指南——YAML 比 JSON 高级在哪？]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7040849488998563848">现代配置指南——YAML 比 JSON 高级在哪？</a></p><p>📒 <a href="https://juejin.cn/post/7029512357428592648">前端架构师神技，三招统一团队代码风格</a></p><p>📒 <a href="https://juejin.cn/post/7024043015794589727">前端架构师的 git 功力，你有几成火候？</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1月16日内容汇总]]></title>
         <id>1月16日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月16日内容汇总"/>
