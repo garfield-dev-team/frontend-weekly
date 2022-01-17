@@ -96,6 +96,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Monorepo 系列
 
+- [年终盘点：2022基于Monorepo的首个大趋势-TurboRepo](https://juejin.cn/post/7051929587852247077)
+- [One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
 - [【我要做开源】Vue DevUI开源指南08：Monorepo改造](https://juejin.cn/post/7029262501833359368)
 
 ## Rollup 系列
