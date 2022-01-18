@@ -24,8 +24,22 @@
         <id>1月23日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月23日内容汇总"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 现代配置指南——YAML 比 JSON 高级在哪？]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7040849488998563848">现代配置指南——YAML 比 JSON 高级在哪？</a></p><p>📒 <a href="https://juejin.cn/post/7029512357428592648">前端架构师神技，三招统一团队代码风格</a></p><p>📒 <a href="https://juejin.cn/post/7024043015794589727">前端架构师的 git 功力，你有几成火候？</a></p>]]></content>
+        <summary type="html"><![CDATA[📒 Golang 创建对象指针的三种方式]]></summary>
+        <content type="html"><![CDATA[<p>📒 Golang 创建对象指针的三种方式</p><pre><code class="language-go">// 第一种：对已有的值类型使用 `&amp;` 操作符
+ms := myStruct{foo: 42}
+p := &amp;ms
+
+// 第二种：在初始化的时候使用 `&amp;` 操作符
+p := &amp;myStruct{foo: 42}
+
+// 第三种：使用 `new` 关键字，这种方法不能在初始化的时候进行赋值
+var ms *myStruct = new(myStruct)
+</code></pre><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
+/* Example */
+.menu__link--blue {
+  ...
+}
+</code></pre><p>📒 <a href="https://juejin.cn/post/7040849488998563848">现代配置指南——YAML 比 JSON 高级在哪？</a></p><p>📒 <a href="https://juejin.cn/post/7029512357428592648">前端架构师神技，三招统一团队代码风格</a></p><p>📒 <a href="https://juejin.cn/post/7024043015794589727">前端架构师的 git 功力，你有几成火候？</a></p>]]></content>
         <author>
             <name>加菲猫</name>
             <uri>https://github.com/Jiacheng787</uri>
