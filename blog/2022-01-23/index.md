@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml]
 ---
 
+📒 [easyjson：Golang 中的序列化库，比 `encoding/json` 快 4-5 倍](https://github.com/mailru/easyjson)
+
+📒 [fast-json-stringify：比 `JSON.stringify` 快两倍](https://github.com/fastify/fast-json-stringify)
+
 📒 Golang 创建对象指针的三种方式
 
 ```go
