@@ -20,8 +20,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月23日内容汇总</link>
             <guid>1月23日内容汇总</guid>
             <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 Golang 创建对象指针的三种方式]]></description>
-            <content:encoded><![CDATA[<p>📒 Golang 创建对象指针的三种方式</p><pre><code class="language-go">// 第一种：对已有的值类型使用 `&amp;` 操作符
+            <description><![CDATA[📒 easyjson：Golang 中的序列化库，比 encoding/json 快 4-5 倍]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 Golang 创建对象指针的三种方式</p><pre><code class="language-go">// 第一种：对已有的值类型使用 `&amp;` 操作符
 ms := myStruct{foo: 42}
 p := &amp;ms
 
