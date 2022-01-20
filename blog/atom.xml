@@ -24,8 +24,18 @@
         <id>1月23日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月23日内容汇总"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 easyjson：Golang 中的序列化库，比 encoding/json 快 4-5 倍]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 Golang 创建对象指针的三种方式</p><pre><code class="language-go">// 第一种：对已有的值类型使用 `&amp;` 操作符
+        <summary type="html"><![CDATA[📒 Golang 如何根据指针访问对应的值]]></summary>
+        <content type="html"><![CDATA[<p>📒 Golang 如何根据指针访问对应的值</p><p>原始类型需要手动使用 <code>*</code> 操作符，复杂对象会自动解除指针引用：</p><pre><code class="language-go">num := &amp;42
+fmt.Println(num) // 打印的是内存地址
+fmt.Println(*num) // 42
+
+ms := &amp;myStruct{foo: 42}
+(*ms).foo = 17
+fmt.Println((*ms).foo) // 17
+// 对于复杂对象，直接操作就行
+ms.foo = 17
+fmt.Println(ms.foo) // 17
+</code></pre><p>📒 Golang 创建对象指针的三种方式</p><p>Golang 中所有的赋值操作都是 copy，例如原始类型、<code>array</code>、<code>struct</code>，有两种例外：<code>map</code> 和 <code>slice</code>，它们具有内部指针，在赋值的时候传递指针类型。</p><pre><code class="language-go">// 第一种：对已有的值类型使用 `&amp;` 操作符
 ms := myStruct{foo: 42}
 p := &amp;ms
 
@@ -34,7 +44,7 @@ p := &amp;myStruct{foo: 42}
 
 // 第三种：使用 `new` 关键字，这种方法不能在初始化的时候进行赋值
 var ms *myStruct = new(myStruct)
-</code></pre><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
+</code></pre><p>📒 <a href="https://github.com/luciopaiva/heapify">heapify：最快的 JavaScript 优先级队列库</a></p><p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
 /* Example */
 .menu__link--blue {
   ...
