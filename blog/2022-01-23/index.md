@@ -38,6 +38,8 @@ p := &myStruct{foo: 42}
 var ms *myStruct = new(myStruct)
 ```
 
+📒 [能用js实现的最终用js实现，Shell脚本也不例外](https://juejin.cn/post/7054034318594850823)
+
 📒 [heapify：最快的 JavaScript 优先级队列库](https://github.com/luciopaiva/heapify)
 
 📒 [easyjson：Golang 中的序列化库，比 `encoding/json` 快 4-5 倍](https://github.com/mailru/easyjson)
