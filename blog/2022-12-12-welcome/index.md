@@ -229,6 +229,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
 - 前端九条 bug 分享：[lulu_up](https://segmentfault.com/u/lulu_up)
+- Vue3 源码共读：[前端杨村长](https://www.bilibili.com/video/BV1bS4y1T7ng)
 - 前端工程化、学习 Golang：洛竹
 - Node.js 相关：五月君
 
