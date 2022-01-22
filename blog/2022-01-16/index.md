@@ -389,6 +389,7 @@ const renameFiles = {
 - `ncp`
 - `commander/yargs`
 - `execa`（个人觉得 Node 原生 `child_process` 的 `exec` 就够用了）
+- `minimist`
 
 :::tip
 
