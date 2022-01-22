@@ -57,6 +57,16 @@ String.fromCharCode(...Array.from({ length: 26 }, (_, index) => 97 + index));
 
 📒 [六千字详解！vue3 响应式是如何实现的？](https://juejin.cn/post/7048970987500470279)
 
+📒 项目常用工具库
+
+- `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
+- `qs`：解析 URL query 参数的库；
+- `js-cookie`：简单、轻量的处理 cookie 的库；
+- `flv.js`：bilibili 开源的 HTML5 flash 播放器，使浏览器在不借助 flash 插件的情况下可以播放 flv；
+- `vConsole`：一个轻量、可拓展、针对手机网页的前端开发者调试面板；
+- `animate.css`：一个跨浏览器的 css3 动画库，内置了很多典型的 css3 动画，兼容性好，使用方便；
+- `lodash`：一个一致性、模块化、高性能的 JavaScript 实用工具库；
+
 ⭐️ [elf: 使用 RxJs 的响应式状态管理](https://github.com/ngneat/elf)
 
 📒 如何防止 CSS 样式污染
