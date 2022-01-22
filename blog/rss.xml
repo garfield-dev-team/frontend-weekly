@@ -40,6 +40,8 @@ p := &amp;myStruct{foo: 42}
 
 // 第三种：使用 `new` 关键字，这种方法不能在初始化的时候进行赋值
 var ms *myStruct = new(myStruct)
+</code></pre><p>📒 如何打印 26 个字母的字符串</p><p>一行代码搞定：</p><pre><code class="language-js">String.fromCharCode(...Array.from({ length: 26 }, (_, index) =&gt; 97 + index));
+// &#x27;abcdefghijklmnopqrstuvwxyz&#x27;
 </code></pre><p>📒 <a href="https://juejin.cn/post/7054034318594850823">能用js实现的最终用js实现，Shell脚本也不例外</a></p><p>📒 <a href="https://github.com/luciopaiva/heapify">heapify：最快的 JavaScript 优先级队列库</a></p><p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
 /* Example */
 .menu__link--blue {
