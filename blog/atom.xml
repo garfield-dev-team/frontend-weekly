@@ -486,4 +486,100 @@ import normalizePackageData from &#x27;normalize-package-data&#x27;;
             <uri>https://github.com/Jiacheng787</uri>
         </author>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[11月21日内容汇总]]></title>
+        <id>11月21日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/11月21日内容汇总"/>
+        <updated>2021-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 垂直居中小技巧]]></summary>
+        <content type="html"><![CDATA[<p>📒 垂直居中小技巧</p><p>相对父元素绝对定位，先向下偏移父元素高度的 <code>50%</code> ，在向上移动自身高度的 <code>50%</code> ：</p><pre><code class="language-css">.icon-common {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+</code></pre><p>📒 <a href="https://juejin.cn/post/7030441979645263909">Git 几点小知识技巧</a></p><p>📒 <a href="https://juejin.cn/post/7025809061660590087">工程化知识卡片 014: 发包篇之 package.json 中 main、export、module 的区别何在</a></p><p>📒 第三方库如何解决潜在的间接依赖不可控问题</p><p><code>lockfile</code> 对于第三方库仍然必不可少，像 <code>react</code> 、<code>next.js</code> 、<code>webpack</code> 等均有 <code>yarn.lock</code> 。第三方库的 <code>devDependencies</code> 必须锁定，这样 Contributor 可根据 lockfile 很容易将项目跑起来。第三方库的 <code>dependencies</code> 有可能存在不可控问题，可参考 <code>next.js</code> 的解决方案：</p><ol><li><p>将依赖版本在 <code>package.json</code> 中锁死</p><pre><code class="language-javascript">{
+    &quot;dependencies&quot;: {
+        &quot;@babel/runtime&quot;: &quot;7.15.4&quot;,
+        &quot;@hapi/accept&quot;: &quot;5.0.2&quot;,
+        &quot;@napi-rs/triples&quot;: &quot;1.0.3&quot;
+    }
+}
+</code></pre></li><li><p>将部分依赖直接编译后直接引入，而非通过依赖的方式；</p></li></ol><p>📒 语义化版本</p><p><code>semver</code>，<code>Semantic Versioning</code> 语义化版本的缩写，文档可见 semver.org/，它由 <code>[major, minor, patch]</code> 三部分组成，其中</p><ul><li><code>major</code>: 当你发了一个含有 Breaking Change 的 API</li><li><code>minor</code>:  当你新增了一个向后兼容的功能时</li><li><code>patch</code>: 当你修复了一个向后兼容的 Bug 时</li></ul><p>对于 <code>~1.2.3</code> 而言，它的版本号范围是 <code>&gt;=1.2.3  &lt;1.3.0</code>
+对于 <code>^1.2.3</code> 而言，它的版本号范围是 <code>&gt;=1.2.3  &lt;2.0.0</code></p><p>当我们 <code>npm i</code> 时，默认的版本号是 <code>^</code>，可最大限度地在向后兼容与新特性之间做取舍，但是有些库有可能不遵循该规则，我们在项目时应当使用 <code>yarn.lock/package-lock.json</code> 锁定版本号。</p><p>📒 Vue 3.2 响应式优化相关</p><p><code>Object.defineProperty</code> 处理深度嵌套对象需要进行递归，而 <code>Proxy</code> 同样也只能监听当前层级的对象，如果深度嵌套也需要递归的，所以才有了 <code>reactive</code> 和 <code>shallowReactive</code> 。</p><p>之前看了黄轶老师写的 Vue3.2 响应式优化，<code>Proxy</code>  实际上比 <code>Object.defineProperty</code> 要慢，Vue 2.x 是直接在初始化阶段就进行深度递归，而 Vue3 的响应式优化就体现在只有访问对象属性的时候，再递归响应式，也就是延迟处理子对象，所以在初始化阶段性能较好。</p><p>📒 手把手实现一个 babel 插件</p><p>这篇做的 demo 是一个简单的 babel-plugin-import
+<a href="https://juejin.cn/post/6844903746804137991">深入Babel，这一篇就够了</a></p><p>这篇做的 demo 类似 Java 中的 lambok
+<a href="https://juejin.cn/post/7012424646247055390">保姆级教学！这次一定学会babel插件开发！</a></p><p>📒 <a href="https://juejin.cn/post/7025524870842679310#heading-58">从 16 个方向逐步搭建基于 vue3 的前端架构</a></p><p>📒 <a href="https://juejin.cn/post/6844903869558816781">VuePress + Travis CI + Github Pages 全自动上线文档</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11月14日内容汇总]]></title>
+        <id>11月14日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/11月14日内容汇总"/>
+        <updated>2021-11-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 构建提效]]></summary>
+        <content type="html"><![CDATA[<p>📒 构建提效</p><ul><li>打包工具：webpack -&gt; rollup</li><li>生成 AST ：babel -&gt; acorn</li><li>语法转换：babel -&gt; swc</li><li>代码压缩：terser -&gt; esbuild</li></ul><p>📒 代码规范相关</p><ul><li>ESLint 用于代码规范检查，在开发阶段提前规避问题，提升代码健壮性</li><li>Prettier 用于代码风格校验，统一团队编码风格</li></ul><blockquote><p>实际上编写文档、单元测试、类型声明、tsconfig.json 、ESLint 、Prettier 、lint-staged 、husky 这些对实现功能上来说没有任何作用，但是可以保障代码交付质量</p></blockquote><p>📒 生成自增 ID ：</p><p>看到一个通过 generator 函数生成自增 ID 的方法：</p><pre><code class="language-javascript">function *customIdGenerator() {
+  let i = 0;
+  while (true) {
+    yield i++;
+  }
+}
+</code></pre><p>看了下其实还可以通过闭包实现：</p><pre><code class="language-javascript">function customIdGenerator() {
+  let i = 0;
+  return {
+    next() {
+      return i++;
+    }
+  }
+}
+
+const IDGenerator = customIdGenerator();
+IDGenerator.next(); // 0
+IDGenerator.next(); // 1
+IDGenerator.next(); // 2
+IDGenerator.next(); // 3
+IDGenerator.next(); // 4
+IDGenerator.next(); // 5
+</code></pre><p>:::tip</p><p>注意：</p><p><code>++i</code> 是先加再作为表达式的值去赋值，相当于 <code>(i = i + 1)</code></p><p><code>i++</code> 是先把原来的值作为表达式的值赋值再加</p><p>:::</p><p>📒 专业名词</p><p>缓存命中
+规则命中
+增量构建</p><p>📒 Promise 四种常用工具方法</p><ul><li><code>Promise.all()</code> ：接收一个 <code>Promise</code> 数组，如果所有 <code>Promise</code> 都 <code>fulfilled</code> 则返回结果数组，只要有一个 <code>Promise</code> 变为 <code>rejected</code> ，则返回最先 rejected 的 <code>Promise</code> ，通常<strong>用于并发请求</strong>；</li><li><code>Promise.race()</code> ：接收一个 <code>Promise</code> 数组，race 意思就是比谁快，返回状态最先改变的 <code>Promise</code> ，不管成功还是失败，通常<strong>用于请求超时处理</strong>；</li><li><code>Promise.any()</code> ：接收一个 <code>Promise</code> 数组，返回最先 <code>fulfilled</code> 的 <code>Promise</code> ，如果没有 <code>Promise</code> 状态转为 <code>fulfilled</code> ，则抛出一个 <code>AggregateError</code> ；</li><li><code>Promise.allSettled()</code> ：接收一个 <code>Promise</code> 数组，在所有 <code>Promise</code> 状态改变（<code>fulfilled</code> 或者 <code>rejected</code>）之后返回结果数组。<code>Promise.allSettled</code> 适用于异步任务互相不依赖，<code>Promise.all</code> 适用于异步任务互相之间需要依赖其他任务的结果；</li></ul><p>📒 什么时候不能使用箭头函数</p><ul><li>需要函数提升时（箭头函数只能写成表达式形式）；</li><li>需要使用函数的 <code>this</code> 、<code>arguments</code> 、<code>prototype</code> 时；</li><li>需要使用命名函数时（箭头函数是匿名的）；</li><li>需要作为构造函数时（箭头函数不能作为构造函数）；</li><li>需要在对象方法中访问当前对象时;</li></ul><pre><code class="language-javascript">let obj = {
+  a: 1,
+  fn1: () =&gt; {
+    console.log(this)
+  },
+  fn2: function() {
+    console.log(this)
+  }
+}
+obj.fn1(); // Window
+obj.fn2(); // {a: 1, fn1: ƒ, fn2: ƒ} ，这是 this 的隐式绑定
+
+const f1 = obj.fn1;
+const f2 = obj.fn2;
+f1(); // Window
+f2(); // Window ，隐式绑定取决于谁来调用，谁调用就指向谁
+</code></pre><p>使用箭头函数之所以会指向 <code>Window</code> 是因为箭头函数等价于下面的代码：</p><pre><code class="language-javascript">var that = this; // 直接使用闭包缓存 this
+let obj = {
+  a: 1,
+  fn1: function() {
+        console.log(that);
+    }
+}
+</code></pre><p>在对象方法（例如 Vue Options API）的异步回调中经常会遇到 <code>this</code> 丢失的情况，一般会使用闭包进行缓存：</p><pre><code class="language-javascript">// 使用 _this 变量进行缓存
+const _this = this;
+api.get(&quot;/api/xxx&quot;, function(res) {
+    _this.tableData = res;
+})
+
+// 除了使用闭包缓存 this ，还可以使用箭头函数
+api.get(&quot;/api/xxx&quot;, (res) =&gt; {
+    this.tableData = res;
+})
+</code></pre><blockquote><p>总结一下：箭头函数没有自己的 <code>this</code> ，没有 <code>argument</code> 对象，没有 <code>prototype</code> ，不能作为构造函数（用 new 调用会报错）。箭头函数会自动捕获上级词法作用域的 <code>this</code> ，并且箭头函数的 <code>this</code> 在声明的时候就已经确定了，不能通过 <code>call</code> 或者 <code>apply</code> 修改</p></blockquote>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
 </feed>
