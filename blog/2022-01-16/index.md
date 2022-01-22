@@ -2,7 +2,7 @@
 slug: 1月16日内容汇总
 title: 1月16日内容汇总
 authors: [garfield]
-tags: [Babel, Rollup, VS Code]
+tags: [Babel, Rollup, VS Code, 命令行工具, CLI 工具, GitHub 定时任务, Golang, Webpack loader]
 ---
 
 📒 实现一个 WebAssembily 版本的 Python 解释器
