@@ -57,6 +57,14 @@ String.fromCharCode(...Array.from({ length: 26 }, (_, index) => 97 + index));
 
 📒 [六千字详解！vue3 响应式是如何实现的？](https://juejin.cn/post/7048970987500470279)
 
+📒 方法重载与参数默认值
+
+为了支持可变参数，在 Java 中通过 **方法重载** 实现，通过定义多个方法签名，根据实际调用传递的参数去匹配签名。在 TypeScript 中也提供了方法重载特性，但在开发中很少用到，一般都通过 **参数默认值** 实现可变参数：
+
+```ts
+type showToast = (message, ?time=1000) => void
+```
+
 📒 项目常用工具库
 
 - `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
