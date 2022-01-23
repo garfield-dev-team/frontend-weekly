@@ -40,10 +40,73 @@ p := &amp;myStruct{foo: 42}
 
 // 第三种：使用 `new` 关键字，这种方法不能在初始化的时候进行赋值
 var ms *myStruct = new(myStruct)
-</code></pre><p>📒 如何打印 26 个字母的字符串</p><p>一行代码搞定：</p><pre><code class="language-js">String.fromCharCode(...Array.from({ length: 26 }, (_, index) =&gt; 97 + index));
+</code></pre><p>📒 如何渲染虚拟 DOM</p><p>所谓虚拟 DOM 其实就是一棵多叉树，可以使用下面的结构表示：</p><pre><code class="language-ts">class VDOM {
+  type: ElementTagName;
+  props: ElementProps;
+  children: VDOM[];
+}
+</code></pre><p>渲染虚拟 DOM，很明显要用递归，对不同的类型做不同的处理：</p><ul><li>如果是文本类型，就要用 <code>document.createTextNode</code> 创建文本节点；</li><li>如果是元素类型，就要用 <code>document.createElement</code> 创建元素节点，元素节点还有属性要处理，并且要递归渲染子节点；</li></ul><p>实现 <code>render</code> 函数如下：</p><pre><code class="language-js">const render = (vdom, parent = null) =&gt; {
+  const mount = (el) =&gt; {
+    if (!parent) return el;
+    // 如有父节点则挂载到父节点，组装为 DOM 树
+    return parent.appendChild(el);
+  }
+  if (isTextVdom(vdom)) {
+    // 创建文本节点
+    return mount(document.createTextNode(vdom));
+  } else if (isElementVdom(vdom)) {
+    // 创建元素节点
+    const dom = mount(document.createElement(vdom.type));
+    // 递归渲染子节点，这里使用深度优先遍历
+    for (const child of vdom.children) {
+      render(child, dom);
+    }
+    // 给元素添加属性
+    for (const prop in vdom.props) {
+      setAttribute(dom, prop, vdom.props[prop]);
+    }
+    return dom;
+  }
+};
+</code></pre><p>如何判断文本节点：</p><pre><code class="language-js">function isTextVdom(vdom) {
+  return typeof vdom == &#x27;string&#x27; || typeof vdom == &#x27;number&#x27;;
+}
+</code></pre><p>如何判断元素节点：</p><pre><code class="language-js">function isElementVdom(vdom) {
+  return typeof vdom == &#x27;object&#x27; &amp;&amp; typeof vdom.type == &#x27;string&#x27;;
+}
+</code></pre><p>如何处理样式、事件、属性：</p><pre><code class="language-js">const setAttribute = (dom, key, value) =&gt; {
+  if (typeof value == &#x27;function&#x27; &amp;&amp; key.startsWith(&#x27;on&#x27;)) {
+    // 事件处理，使用 `addEventListener` 设置
+    const eventType = key.slice(2).toLowerCase();
+    dom.addEventListener(eventType, value);
+  } else if (key == &#x27;style&#x27; &amp;&amp; typeof value == &#x27;object&#x27;) {
+    // 样式处理，合并样式
+    Object.assign(dom.style, value);
+  } else if (typeof value != &#x27;object&#x27; &amp;&amp; typeof value != &#x27;function&#x27;) {
+    // 属性处理，使用 `setAttribute` 设置
+    dom.setAttribute(key, value);
+  }
+}
+</code></pre><p>📒 <a href="https://juejin.cn/post/7054034318594850823">能用js实现的最终用js实现，Shell脚本也不例外</a></p><p>📒 <a href="https://github.com/luciopaiva/heapify">heapify：最快的 JavaScript 优先级队列库</a></p><p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>📒 Nodejs 如何将图片转为 base64</p><p>使用 Buffer 对象：</p><pre><code class="language-js">import fs from &quot;node:fs&quot;;
+import path from &quot;node:path&quot;;
+
+const raw = fs.readFileSync(path.join(__dirname, &#x27;./2333.png&#x27;), &#x27;binary&#x27;);
+const buf = Buffer.from(raw, &#x27;binary&#x27;);
+const string = buf.toString(&#x27;base64&#x27;);
+</code></pre><p>同理可以将 base64 转回图片：</p><pre><code class="language-js">const raw =  Buffer.from(string, &#x27;base64&#x27;).toString(&#x27;binary&#x27;);
+</code></pre><p>📒 Nodejs 如何实现图片处理</p><p>推荐使用 <code>sharp</code> 这个库，可以实现图片压缩，转 JPEG、PNG、WebP 等格式：</p><blockquote><p><a href="https://github.com/lovell/sharp">https://github.com/lovell/sharp</a></p></blockquote><p>📒 如何打印 26 个字母的字符串</p><p>一行代码搞定：</p><pre><code class="language-js">String.fromCharCode(...Array.from({ length: 26 }, (_, index) =&gt; 97 + index));
 // &#x27;abcdefghijklmnopqrstuvwxyz&#x27;
-</code></pre><p>📒 <a href="https://juejin.cn/post/7054034318594850823">能用js实现的最终用js实现，Shell脚本也不例外</a></p><p>📒 <a href="https://github.com/luciopaiva/heapify">heapify：最快的 JavaScript 优先级队列库</a></p><p>📒 <a href="https://github.com/mailru/easyjson">easyjson：Golang 中的序列化库，比 <code>encoding/json</code> 快 4-5 倍</a></p><p>📒 <a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify：比 <code>JSON.stringify</code> 快两倍</a></p><p>📒 <a href="https://juejin.cn/post/7048970987500470279">六千字详解！vue3 响应式是如何实现的？</a></p><p>📒 方法重载与参数默认值</p><p>为了支持可变参数，在 Java 中通过 <strong>方法重载</strong> 实现，通过定义多个方法签名，根据实际调用传递的参数去匹配签名。在 TypeScript 中也提供了方法重载特性，但在开发中很少用到，一般都通过 <strong>参数默认值</strong> 实现可变参数：</p><pre><code class="language-ts">type showToast = (message, ?time=1000) =&gt; void
-</code></pre><p>📒 项目常用工具库</p><ul><li><code>dayjs</code>：与 <code>moment</code> 的 API 设计保持一样，但体积仅有 2KB；</li><li><code>qs</code>：解析 URL query 参数的库；</li><li><code>js-cookie</code>：简单、轻量的处理 cookie 的库；</li><li><code>flv.js</code>：bilibili 开源的 HTML5 flash 播放器，使浏览器在不借助 flash 插件的情况下可以播放 flv；</li><li><code>vConsole</code>：一个轻量、可拓展、针对手机网页的前端开发者调试面板；</li><li><code>animate.css</code>：一个跨浏览器的 css3 动画库，内置了很多典型的 css3 动画，兼容性好，使用方便；</li><li><code>lodash</code>：一个一致性、模块化、高性能的 JavaScript 实用工具库；</li></ul><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
+</code></pre><p>📒 如何用 Map 实现 Set</p><p>关于 Map 和 Set 是两个抽象数据结构，Map 存储一个键值对集合，其中键不重复，Set 存储一个不重复的元素集合。本质上 Set 可以视为一种特殊的 Map，Set 其实就是 Map 中的键：</p><pre><code class="language-ts">class NewSet&lt;T extends unknown&gt; {
+  private collection: Map&lt;T, undefined&gt;;
+  
+  constructor(iterable: T[] = []) {
+    this.collection = new Map(
+      iterable.map(it =&gt; [it, undefined])
+    );
+  }
+}
+</code></pre><p>📒 方法重载与参数默认值</p><p>为了支持可变参数，在 Java 中通过 <strong>方法重载</strong> 实现，通过定义多个方法签名，根据实际调用传递的参数去匹配签名。在 TypeScript 中也提供了方法重载特性，但在开发中很少用到，一般都通过 <strong>参数默认值</strong> 实现可变参数：</p><pre><code class="language-ts">type NewSet&lt;T&gt; = (iterable: T[] = []) =&gt; void
+</code></pre><blockquote><p>注意使用参数默认值之后，TS 会自动将这个参数推导为可变参数，例如上面这个会推导为 <code>NewSet&lt;T&gt;(iterable?: T[]): void</code></p></blockquote><p>📒 项目常用工具库</p><ul><li><code>dayjs</code>：与 <code>moment</code> 的 API 设计保持一样，但体积仅有 2KB；</li><li><code>qs</code>：解析 URL query 参数的库；</li><li><code>js-cookie</code>：简单、轻量的处理 cookie 的库；</li><li><code>flv.js</code>：bilibili 开源的 HTML5 flash 播放器，使浏览器在不借助 flash 插件的情况下可以播放 flv；</li><li><code>vConsole</code>：一个轻量、可拓展、针对手机网页的前端开发者调试面板；</li><li><code>animate.css</code>：一个跨浏览器的 css3 动画库，内置了很多典型的 css3 动画，兼容性好，使用方便；</li><li><code>lodash</code>：一个一致性、模块化、高性能的 JavaScript 实用工具库；</li></ul><p>⭐️ <a href="https://github.com/ngneat/elf">elf: 使用 RxJs 的响应式状态管理</a></p><p>📒 如何防止 CSS 样式污染</p><ul><li>使用命名约定</li><li>CSS Modules</li><li>CSS in JS</li></ul><p>其中命名约定最流行的方式是 BEM 101。它代表了 <code>Block</code>、<code>Element</code>、<code>Modifier</code> 方法。</p><pre><code class="language-css">[block]__[element]--[modifier]
 /* Example */
 .menu__link--blue {
   ...
