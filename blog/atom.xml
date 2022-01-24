@@ -20,6 +20,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[1月30日内容汇总]]></title>
+        <id>1月30日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月30日内容汇总"/>
+        <updated>2022-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 V8 Promise源码全面解读，其实你对Promise一无所知]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7055202073511460895">V8 Promise源码全面解读，其实你对Promise一无所知</a></p><p>⭐️ <a href="https://juejin.cn/post/7036162494573838367">60+ 实用 React 工具库，助力你高效开发！</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw">写好 JSX 条件语句的几个建议</a></p><p>📒 <a href="https://juejin.cn/post/7056753455074902053">Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU</a></p><p>📒 <a href="https://juejin.cn/post/7056612950412361741">为什么说 WebAssembly 是 Web 的未来？</a></p><p>📒 <a href="https://juejin.cn/post/7047329886502912030">浅析TypeScript Compiler 原理</a></p><p>📒 <a href="https://juejin.cn/post/7056018952098414605">TypeScript 4.6 beta 发布：递归类型检查增强、参数的控制流分析支持、索引访问的类型推导</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1月23日内容汇总]]></title>
         <id>1月23日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月23日内容汇总"/>
