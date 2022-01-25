@@ -24,8 +24,25 @@
         <id>1月30日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月30日内容汇总"/>
         <updated>2022-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 V8 Promise源码全面解读，其实你对Promise一无所知]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7055202073511460895">V8 Promise源码全面解读，其实你对Promise一无所知</a></p><p>⭐️ <a href="https://juejin.cn/post/7036162494573838367">60+ 实用 React 工具库，助力你高效开发！</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw">写好 JSX 条件语句的几个建议</a></p><p>📒 <a href="https://juejin.cn/post/7056753455074902053">Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU</a></p><p>📒 <a href="https://juejin.cn/post/7056612950412361741">为什么说 WebAssembly 是 Web 的未来？</a></p><p>📒 <a href="https://juejin.cn/post/7047329886502912030">浅析TypeScript Compiler 原理</a></p><p>📒 <a href="https://juejin.cn/post/7056018952098414605">TypeScript 4.6 beta 发布：递归类型检查增强、参数的控制流分析支持、索引访问的类型推导</a></p>]]></content>
+        <summary type="html"><![CDATA[📒 数组的 flatMap 方法]]></summary>
+        <content type="html"><![CDATA[<p>📒 数组的 <code>flatMap</code> 方法</p><p>数组的 <code>[].map()</code> 可以实现一对一的映射，映射后的数组长度与原数组相同。有时候需要过滤掉一些元素，或者实现一对多的映射，这时候只用 <code>map</code> 就无法实现了。这种情况下就可以使用 <code>flatMap</code>：</p><pre><code class="language-js">// 需要过滤掉 0，并且使其余各元素的值翻倍
+const numbers = [0, 3, 6];
+
+// 常规方法是 map 和 filter 搭配
+const doubled = numbers
+  .filter(n =&gt; n !== 0)
+  .map(n =&gt; n * 2)
+
+// 使用 flatMap 实现
+const doubled = numbers.flatMap(number =&gt; {
+  return number === 0 ? [] : [2 * number];
+})
+</code></pre><p>此外还可以实现一对多的映射：</p><pre><code class="language-js">const numbers = [1, 4];
+const trippled = numbers.flatMap(number =&gt; {
+  return [number, 2 * number, 3 * number];
+})
+console.log(trippled); // [1, 2, 3, 4, 8, 12]
+</code></pre><p>:::tip</p><p><code>flatMap</code> 实际上是先 <code>map</code> 再 <code>flat</code>，理解了这一点就能掌握了</p><p>:::</p><p>📒 <a href="https://blog.appsignal.com/2022/01/19/how-to-set-up-a-nodejs-project-with-typescript.html">如何用 TypeScript 配置一个 Node 项目</a></p><p>📒 <a href="https://remix.run/blog/remix-vs-next">Remix vs Next.js</a></p><p>📒 <a href="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about/">你应该知道的三个 React 组件设计模式</a></p><p>📒 <a href="https://juejin.cn/post/7055202073511460895">V8 Promise源码全面解读，其实你对Promise一无所知</a></p><p>⭐️ <a href="https://juejin.cn/post/7036162494573838367">60+ 实用 React 工具库，助力你高效开发！</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw">写好 JSX 条件语句的几个建议</a></p><p>📒 <a href="https://juejin.cn/post/7056753455074902053">Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU</a></p><p>📒 <a href="https://juejin.cn/post/7056612950412361741">为什么说 WebAssembly 是 Web 的未来？</a></p><p>📒 <a href="https://juejin.cn/post/7047329886502912030">浅析TypeScript Compiler 原理</a></p><p>📒 <a href="https://juejin.cn/post/7056018952098414605">TypeScript 4.6 beta 发布：递归类型检查增强、参数的控制流分析支持、索引访问的类型推导</a></p>]]></content>
         <author>
             <name>加菲猫</name>
             <uri>https://github.com/Jiacheng787</uri>
