@@ -5,6 +5,47 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 数组的 `flatMap` 方法
+
+数组的 `[].map()` 可以实现一对一的映射，映射后的数组长度与原数组相同。有时候需要过滤掉一些元素，或者实现一对多的映射，这时候只用 `map` 就无法实现了。这种情况下就可以使用 `flatMap`：
+
+```js
+// 需要过滤掉 0，并且使其余各元素的值翻倍
+const numbers = [0, 3, 6];
+
+// 常规方法是 map 和 filter 搭配
+const doubled = numbers
+  .filter(n => n !== 0)
+  .map(n => n * 2)
+
+// 使用 flatMap 实现
+const doubled = numbers.flatMap(number => {
+  return number === 0 ? [] : [2 * number];
+})
+```
+
+此外还可以实现一对多的映射：
+
+```js
+const numbers = [1, 4];
+const trippled = numbers.flatMap(number => {
+  return [number, 2 * number, 3 * number];
+})
+console.log(trippled); // [1, 2, 3, 4, 8, 12]
+```
+
+:::tip
+
+`flatMap` 实际上是先 `map` 再 `flat`，理解了这一点就能掌握了
+
+:::
+
+📒 [如何用 TypeScript 配置一个 Node 项目](https://blog.appsignal.com/2022/01/19/how-to-set-up-a-nodejs-project-with-typescript.html)
+
+📒 [Remix vs Next.js](https://remix.run/blog/remix-vs-next)
+
+📒 [你应该知道的三个 React 组件设计模式](https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about/)
+
 📒 [V8 Promise源码全面解读，其实你对Promise一无所知](https://juejin.cn/post/7055202073511460895)
 
 ⭐️ [60+ 实用 React 工具库，助力你高效开发！](https://juejin.cn/post/7036162494573838367)
