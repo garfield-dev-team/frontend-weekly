@@ -70,7 +70,7 @@ console.log(trippled); // [1, 2, 3, 4, 8, 12]
 
 ⭐️ [写好 JSX 条件语句的几个建议](https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw)
 
-📒 [Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU](https://juejin.cn/post/7056753455074902053)
+📒 [Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU](https://www.youtube.com/watch?v=M3BM9TB-8yA)
 
 📒 [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 
