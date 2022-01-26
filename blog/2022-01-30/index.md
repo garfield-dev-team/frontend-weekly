@@ -9,7 +9,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 [React Hooks 核心实现](https://juejin.cn/post/6976903535191392270)
 
-[React Fiber](https://www.yuque.com/liangxinchao/react/qimukg)
+[深入浅出 React](https://www.yuque.com/liangxinchao/react/qimukg)
 
 [React 技术揭秘](https://react.iamkasong.com/process/fiber-mental.html#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A3%E6%95%B0%E6%95%88%E5%BA%94)
 
