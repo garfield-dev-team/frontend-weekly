@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+⭐️ [编译技术在前端的实践（二）—— Antlr 及其应用](https://juejin.cn/post/7057354419888717855)
+
+⭐️ [编译技术在前端的实践（一）—— 编译原理基础](https://juejin.cn/post/6989509925844041742)
+
+📒 [从零实现husky](https://juejin.cn/post/7057345959402930183)
+
 📒 为什么 React Hook 底层使用链表而不是数组
 
 [React Hooks 核心实现](https://juejin.cn/post/6976903535191392270)
