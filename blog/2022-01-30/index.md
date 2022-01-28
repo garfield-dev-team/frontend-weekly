@@ -21,6 +21,32 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 [从零实现husky](https://juejin.cn/post/7057345959402930183)
 
+📒 如何让一个构造函数只能用 `new` 调用
+
+使用 ES6 class 会检查是否通过 `new` 调用，而普通构造函数不会检查是否通过 `new` 调用，这种情况下需要手动进行判断，通常都会这样做：
+
+```js
+function MyClass() {
+  if (!(this instanceof MyClass)) {
+    throw new Error("MyClass must call with new");
+  }
+  // ...
+}
+```
+
+这样的话，如果不通过 `new` 调用，就会抛出异常。其实更好的方案是进行兼容处理，即不使用 `new` 调用，自动改用 `new` 调用：
+
+```js
+function MyClass() {
+  if (!(this instanceof MyClass)) {
+    // 如果没有使用 `new` 调用，自动改用 `new` 调用
+    // 通过 `return` 中断函数执行，并返回创建的实例
+    return new MyClass();
+  }
+  // ...
+}
+```
+
 📒 为什么 React Hook 底层使用链表而不是数组
 
 [React Hooks 核心实现](https://juejin.cn/post/6976903535191392270)
