@@ -25,7 +25,21 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月30日内容汇总"/>
         <updated>2022-01-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 从头开始，彻底理解服务端渲染原理(8千字汇总长文)]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/6844903881390964744">从头开始，彻底理解服务端渲染原理(8千字汇总长文)</a></p><p>📒 <a href="https://juejin.cn/post/7039036362653171742">【7000字】一晚上爆肝浏览器从输入到渲染完毕原理</a></p><p>📒 <a href="https://juejin.cn/post/7055101823442485255">爆肝三天，学习Scss-看这篇就够了</a></p><p>⭐️ <a href="https://juejin.cn/post/7057354419888717855">编译技术在前端的实践（二）—— Antlr 及其应用</a></p><p>⭐️ <a href="https://juejin.cn/post/6989509925844041742">编译技术在前端的实践（一）—— 编译原理基础</a></p><p>📒 如何实从零实现 husky</p><p>看下如何做 <strong>测试驱动开发</strong></p><p><a href="https://juejin.cn/post/7057345959402930183">从零实现husky</a></p><p>📒 为什么 React Hook 底层使用链表而不是数组</p><p><a href="https://juejin.cn/post/6976903535191392270">React Hooks 核心实现</a></p><p><a href="https://www.yuque.com/liangxinchao/react/qimukg">深入浅出 React</a></p><p><a href="https://react.iamkasong.com/process/fiber-mental.html#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A3%E6%95%B0%E6%95%88%E5%BA%94">React 技术揭秘</a></p><p>📒 数组的 <code>flatMap</code> 方法</p><p>数组的 <code>[].map()</code> 可以实现一对一的映射，映射后的数组长度与原数组相同。有时候需要过滤掉一些元素，或者实现一对多的映射，这时候只用 <code>map</code> 就无法实现了。这种情况下就可以使用 <code>flatMap</code>：</p><pre><code class="language-js">// 需要过滤掉 0，并且使其余各元素的值翻倍
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/6844903881390964744">从头开始，彻底理解服务端渲染原理(8千字汇总长文)</a></p><p>📒 <a href="https://juejin.cn/post/7039036362653171742">【7000字】一晚上爆肝浏览器从输入到渲染完毕原理</a></p><p>📒 <a href="https://juejin.cn/post/7055101823442485255">爆肝三天，学习Scss-看这篇就够了</a></p><p>⭐️ <a href="https://juejin.cn/post/7057354419888717855">编译技术在前端的实践（二）—— Antlr 及其应用</a></p><p>⭐️ <a href="https://juejin.cn/post/6989509925844041742">编译技术在前端的实践（一）—— 编译原理基础</a></p><p>📒 如何实从零实现 husky</p><p>看下如何做 <strong>测试驱动开发</strong></p><p><a href="https://juejin.cn/post/7057345959402930183">从零实现husky</a></p><p>📒 如何让一个构造函数只能用 <code>new</code> 调用</p><p>使用 ES6 class 会检查是否通过 <code>new</code> 调用，而普通构造函数不会检查是否通过 <code>new</code> 调用，这种情况下需要手动进行判断，通常都会这样做：</p><pre><code class="language-js">function MyClass() {
+  if (!(this instanceof MyClass)) {
+    throw new Error(&quot;MyClass must call with new&quot;);
+  }
+  // ...
+}
+</code></pre><p>这样的话，如果不通过 <code>new</code> 调用，就会抛出异常。其实更好的方案是进行兼容处理，即不使用 <code>new</code> 调用，自动改用 <code>new</code> 调用：</p><pre><code class="language-js">function MyClass() {
+  if (!(this instanceof MyClass)) {
+    // 如果没有使用 `new` 调用，自动改用 `new` 调用
+    // 通过 `return` 中断函数执行，并返回创建的实例
+    return new MyClass();
+  }
+  // ...
+}
+</code></pre><p>📒 为什么 React Hook 底层使用链表而不是数组</p><p><a href="https://juejin.cn/post/6976903535191392270">React Hooks 核心实现</a></p><p><a href="https://www.yuque.com/liangxinchao/react/qimukg">深入浅出 React</a></p><p><a href="https://react.iamkasong.com/process/fiber-mental.html#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A3%E6%95%B0%E6%95%88%E5%BA%94">React 技术揭秘</a></p><p>📒 数组的 <code>flatMap</code> 方法</p><p>数组的 <code>[].map()</code> 可以实现一对一的映射，映射后的数组长度与原数组相同。有时候需要过滤掉一些元素，或者实现一对多的映射，这时候只用 <code>map</code> 就无法实现了。这种情况下就可以使用 <code>flatMap</code>：</p><pre><code class="language-js">// 需要过滤掉 0，并且使其余各元素的值翻倍
 const numbers = [0, 3, 6];
 
 // 常规方法是 map 和 filter 搭配
