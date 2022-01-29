@@ -112,6 +112,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 前端工程化
 
+- ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [前端架构师神技，三招统一团队代码风格](https://juejin.cn/post/7029512357428592648)
 - 🌛 [手把手教你搭建一个灰度发布环境](https://juejin.cn/post/6844904110601273357)
 - ⭐️ [2022 前端技术领域会有哪些新的变化？](https://www.zhihu.com/question/493891614/answer/2269197391)
@@ -316,6 +317,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
   - [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
   - [🔥【万字】透过分析 webpack 面试题，构建 webpack5.x 知识体系](https://juejin.cn/post/7023242274876162084)
+  - [Next.js webpack 配置](https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack-config.ts)
 - 字体文件的 hash 是如何生成的，`file-loader` 中如何处理的
   - 写一篇文章：《你不知道的 Webpack loader —— file-loader 源码探秘》
   - [webpack 源码解析:file-loader 和 url-loader](https://www.cnblogs.com/shiyunfront/articles/8944940.html)
