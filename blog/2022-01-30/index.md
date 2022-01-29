@@ -55,6 +55,12 @@ function MyClass() {
 
 [React 技术揭秘](https://react.iamkasong.com/process/fiber-mental.html#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A3%E6%95%B0%E6%95%88%E5%BA%94)
 
+📒 React 17 架构
+
+[图解 React 原理系列](https://github.com/7kms/react-illustration-series/tree/v17.0.1)
+
+[React16架构](https://react.iamkasong.com/preparation/newConstructure.html)
+
 📒 数组的 `flatMap` 方法
 
 数组的 `[].map()` 可以实现一对一的映射，映射后的数组长度与原数组相同。有时候需要过滤掉一些元素，或者实现一对多的映射，这时候只用 `map` 就无法实现了。这种情况下就可以使用 `flatMap`：
