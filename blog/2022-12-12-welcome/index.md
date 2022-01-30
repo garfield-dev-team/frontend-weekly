@@ -55,7 +55,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 开源项目
 
 - ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
-
+- [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
+- [prisma - 下一代 Nodejs ORM 工具，支持各种数据库](https://github.com/prisma/prisma)
+- [astro - 静态站点构建工具](https://github.com/withastro/astro)
+- [zustand - 小型、快速可扩展的状态管理解决方案](https://github.com/pmndrs/zustand)
+- [tauri - 将前端项目打包为桌面应用，用于替代 electron](https://github.com/tauri-apps/tauri)
 ## 业务成长
 
 - ⭐️ [精读《前端职业规划 - 2021 年》](https://juejin.cn/post/6965675185890394119)
