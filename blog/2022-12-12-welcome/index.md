@@ -52,6 +52,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [「React进阶」探案揭秘六种React‘灵异’现象](https://juejin.cn/post/6963053793613185031)
 - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
+## 开源项目
+
+- ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
+
 ## 业务成长
 
 - ⭐️ [精读《前端职业规划 - 2021 年》](https://juejin.cn/post/6965675185890394119)
