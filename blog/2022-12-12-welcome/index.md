@@ -177,6 +177,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [《深入理解计算机系统》- bilibili](https://www.bilibili.com/video/BV1cD4y1D7uR)
 - [《计算机网络自顶向下方法》- bilibili](https://www.bilibili.com/video/BV1mb4y1d7K7)
   - 这本书重点章节是第2、3、4、5、6章，其他章节可以跳过
+- 学习资源
+  - https://github.com/ossu/computer-science
+  - https://github.com/Snailclimb/JavaGuide
+  - https://github.com/QSCTech/zju-icicles
 - [一天学会 MySQL 数据库](https://www.bilibili.com/video/BV1Vt411z7wy)
 - [吴恩达《深度学习》](https://www.bilibili.com/video/BV1FT4y1E74V)
 - [推荐系统算法基础+综合项目实战](https://www.bilibili.com/video/BV1qK4y1479r)
