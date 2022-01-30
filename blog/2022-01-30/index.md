@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 页面性能优化技巧
+
+分析代码执行耗时可以通过 **火焰图**，分析内存占用情况可以通过 **堆快照**。
+
 ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
 
 📒 Next.js 提供的渲染方式
