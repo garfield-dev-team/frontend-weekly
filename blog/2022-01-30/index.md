@@ -5,6 +5,24 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 推荐使用 stylus
+
+推荐使用 stylus，所有的 `{}`、`:` 以及 `;` 都是可省略的：
+
+```css
+.page
+  padding-bottom 2rem
+  display block
+
+.content-lock
+  display none
+  text-align center
+  padding 2rem
+  font-size 1em
+```
+
+> 这就类似为什么建议使用 `yaml` 替代 `json`，在 `yaml` 中不需要引号，简单省事
+
 📒 页面性能优化技巧
 
 分析代码执行耗时可以通过 **火焰图**，分析内存占用情况可以通过 **堆快照**。
