@@ -24,8 +24,17 @@
         <id>1月30日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月30日内容汇总"/>
         <updated>2022-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 页面性能优化技巧]]></summary>
-        <content type="html"><![CDATA[<p>📒 页面性能优化技巧</p><p>分析代码执行耗时可以通过 <strong>火焰图</strong>，分析内存占用情况可以通过 <strong>堆快照</strong>。</p><p>⭐️ <a href="https://github.com/streamich/react-use">react-use - 一个 React Hooks 库</a></p><p>📒 Next.js 提供的渲染方式</p><ul><li>SSR: Server-side rendering (服务端渲染)</li><li>SSG: Static-site generation (静态站点生成)</li><li>CSR: Client-side rendering (客户端渲染)</li><li>Dynamic routing (动态路由)</li><li>ISR: Incremental Static Regeneration (增量静态再生)</li></ul><p>:::tip</p><p>CSR、SSR、SSG 的区别？</p><p>CSR 是在用户浏览器端调接口请求数据进行渲染；SSR 是在用户请求页面的时候，服务器端请求数据并进行渲染；SSG 是直接在构建阶段就进行渲染，一般用于文档网站。</p><p>:::</p><p>📒 <a href="https://zhuanlan.zhihu.com/p/461945753">Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露</a></p><p>📒 <a href="https://juejin.cn/post/6844903881390964744">从头开始，彻底理解服务端渲染原理(8千字汇总长文)</a></p><p>📒 <a href="https://juejin.cn/post/7039036362653171742">【7000字】一晚上爆肝浏览器从输入到渲染完毕原理</a></p><p>📒 <a href="https://juejin.cn/post/7055101823442485255">爆肝三天，学习Scss-看这篇就够了</a></p><p>⭐️ <a href="https://juejin.cn/post/7057354419888717855">编译技术在前端的实践（二）—— Antlr 及其应用</a></p><p>⭐️ <a href="https://juejin.cn/post/6989509925844041742">编译技术在前端的实践（一）—— 编译原理基础</a></p><p>📒 如何实从零实现 husky</p><p>看下如何做 <strong>测试驱动开发</strong></p><p><a href="https://juejin.cn/post/7057345959402930183">从零实现husky</a></p><p>📒 如何让一个构造函数只能用 <code>new</code> 调用</p><p>使用 ES6 class 会检查是否通过 <code>new</code> 调用，而普通构造函数不会检查是否通过 <code>new</code> 调用，这种情况下需要手动进行判断，通常都会这样做：</p><pre><code class="language-js">function MyClass() {
+        <summary type="html"><![CDATA[📒 推荐使用 stylus]]></summary>
+        <content type="html"><![CDATA[<p>📒 推荐使用 stylus</p><p>推荐使用 stylus，所有的 <code>{}</code>、<code>:</code> 以及 <code>;</code> 都是可省略的：</p><pre><code class="language-css">.page
+  padding-bottom 2rem
+  display block
+
+.content-lock
+  display none
+  text-align center
+  padding 2rem
+  font-size 1em
+</code></pre><blockquote><p>这就类似为什么建议使用 <code>yaml</code> 替代 <code>json</code>，在 <code>yaml</code> 中不需要引号，简单省事</p></blockquote><p>📒 页面性能优化技巧</p><p>分析代码执行耗时可以通过 <strong>火焰图</strong>，分析内存占用情况可以通过 <strong>堆快照</strong>。</p><p>⭐️ <a href="https://github.com/streamich/react-use">react-use - 一个 React Hooks 库</a></p><p>📒 Next.js 提供的渲染方式</p><ul><li>SSR: Server-side rendering (服务端渲染)</li><li>SSG: Static-site generation (静态站点生成)</li><li>CSR: Client-side rendering (客户端渲染)</li><li>Dynamic routing (动态路由)</li><li>ISR: Incremental Static Regeneration (增量静态再生)</li></ul><p>:::tip</p><p>CSR、SSR、SSG 的区别？</p><p>CSR 是在用户浏览器端调接口请求数据进行渲染；SSR 是在用户请求页面的时候，服务器端请求数据并进行渲染；SSG 是直接在构建阶段就进行渲染，一般用于文档网站。</p><p>:::</p><p>📒 <a href="https://zhuanlan.zhihu.com/p/461945753">Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露</a></p><p>📒 <a href="https://juejin.cn/post/6844903881390964744">从头开始，彻底理解服务端渲染原理(8千字汇总长文)</a></p><p>📒 <a href="https://juejin.cn/post/7039036362653171742">【7000字】一晚上爆肝浏览器从输入到渲染完毕原理</a></p><p>📒 <a href="https://juejin.cn/post/7055101823442485255">爆肝三天，学习Scss-看这篇就够了</a></p><p>⭐️ <a href="https://juejin.cn/post/7057354419888717855">编译技术在前端的实践（二）—— Antlr 及其应用</a></p><p>⭐️ <a href="https://juejin.cn/post/6989509925844041742">编译技术在前端的实践（一）—— 编译原理基础</a></p><p>📒 如何实从零实现 husky</p><p>看下如何做 <strong>测试驱动开发</strong></p><p><a href="https://juejin.cn/post/7057345959402930183">从零实现husky</a></p><p>📒 如何让一个构造函数只能用 <code>new</code> 调用</p><p>使用 ES6 class 会检查是否通过 <code>new</code> 调用，而普通构造函数不会检查是否通过 <code>new</code> 调用，这种情况下需要手动进行判断，通常都会这样做：</p><pre><code class="language-js">function MyClass() {
   if (!(this instanceof MyClass)) {
     throw new Error(&quot;MyClass must call with new&quot;);
   }
