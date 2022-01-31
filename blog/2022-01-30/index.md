@@ -9,7 +9,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 推荐使用 stylus，所有的 `{}`、`:` 以及 `;` 都是可省略的：
 
-```css
+```stylus
 .page
   padding-bottom 2rem
   display block
