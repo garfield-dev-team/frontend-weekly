@@ -40,10 +40,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: 'announcementBar-2', // Increment on change
-      //   content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus" >Twitter</a> 2333`,
-      // },
+      announcementBar: {
+        id: 'announcementBar-2', // Increment on change
+        content: `⭐️ <b>恭祝大家新春快乐，虎年大吉，虎虎生威！</b>`,
+      },
       // algolia: {
       //   appId: 'X1Z85QJPUV',
       //   apiKey: 'bf7211c161e8205da2f933a02534105a',
