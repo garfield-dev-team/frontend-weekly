@@ -5,6 +5,8 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [How To Process Images in Node.js With Sharp](https://www.digitalocean.com/community/tutorials/how-to-process-images-in-node-js-with-sharp#step-3-resizing-changing-image-format-and-compressing-images)
+
 📒 字节跳动开源项目
 
 - [IconPark - 支持多种主题、跨平台的图标库](https://github.com/bytedance/IconPark)
