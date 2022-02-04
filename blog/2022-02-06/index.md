@@ -5,6 +5,21 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何解决 CSS 兼容性问题
+
+对于 JS 的兼容性，我们可以使用 Babel 进行语法转换以及对 API 进行 polyfill。那么对于 CSS 的兼容性如何适配呢？可以使用 PostCSS，最完善的 CSS 工程化解决方案：
+
+- `autoprefixer`：根据 Can I Use 的数据给 CSS 属性添加厂商前缀
+- `postcss-preset-env`：允许使用一些提案阶段的特性
+
+此外还提供各种插件：
+
+- `postcss-modules`：CSS 模块化
+- `postcss-initial`：重置默认样式
+- `sugarss`：支持缩进语法编写 CSS 样式
+
+> https://github.com/postcss/postcss
+
 📒 [How To Process Images in Node.js With Sharp](https://www.digitalocean.com/community/tutorials/how-to-process-images-in-node-js-with-sharp#step-3-resizing-changing-image-format-and-compressing-images)
 
 📒 字节跳动开源项目
