@@ -5,6 +5,54 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Golang 中的包管理机制
+
+Golang 中的包管理使用 `go.mod` 文件，可以使用下面的命令在项目根目录初始化一个 `go.mod`：
+
+```bash
+# 初始化一个 v0 或者 v1 的包
+$ go mod init example.com/m
+# 初始化指定版本的包
+$ go mod init example.com/m/v2
+```
+
+安装依赖：
+
+```bash
+$ go get -u github.com/gin-gonic/gin
+```
+
+> `-u` 安装全局变量类似 `npm i -g cobra`
+
+如果直接下载请求超时，可以设置镜像源：
+
+```bash
+$ go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://goproxy.cn,https://goproxy.io,direct
+```
+
+> 类似 `npm config set registry`
+
+安装之后就可以看到 `go.mod` 里面多了些东西：
+
+```go
+module github.com/Jiacheng787/goexample
+
+go 1.17
+
+require (
+	github.com/gin-gonic/gin v1.7.7
+)
+```
+
+下载项目依赖：
+
+```bash
+$ go get ./...
+```
+
+[三分钟掌握Go mod常用与高级操作](https://zhuanlan.zhihu.com/p/103534192/)
+
 📒 如何解决 CSS 兼容性问题
 
 对于 JS 的兼容性，我们可以使用 Babel 进行语法转换以及对 API 进行 polyfill。那么对于 CSS 的兼容性如何适配呢？可以使用 PostCSS，最完善的 CSS 工程化解决方案：
