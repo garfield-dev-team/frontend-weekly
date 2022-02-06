@@ -5,6 +5,23 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [很多人上来就删除的 package.json，还有这么多你不知道的](https://segmentfault.com/a/1190000039684460)
+
+📒 React useCallback 使用
+
+回顾一下，`React.useCallback` 需要配合 `React.memo` 使用，其中任意一个单独使用是没用的。
+
+:::tip
+
+`React.useCallback` 使用的一个场景是：
+
+- 一个父组件中有一个复杂的自定义组件，需要传入事件处理函数作为 prop，为避免父组件渲染导致该子组件重新渲染，使用 `React.memo` 包裹一下；
+- 包裹之后发现父组件重新渲染，该子组件还是会重新渲染，这是因为事件处理函数在父组件每次渲染的时候都重新生成，因而传入子组件的 prop 变化导致 `React.memo` 失效；
+- 将事件处理函数用 `React.useCallback` 包裹一下，对事件处理函数进行缓存，避免每次父组件渲染都重新生成，这样父组件重新渲染就不会导致子组件重新渲染；
+- 需要注意 `React.useCallback` 缓存本身也是有性能开销的，因此只有在子组件渲染比较昂贵的时候，才进行缓存处理；
+
+:::
+
 📒 Golang 中的包管理机制
 
 Golang 中的包管理使用 `go.mod` 文件，可以使用下面的命令在项目根目录初始化一个 `go.mod`：
