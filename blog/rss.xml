@@ -84,7 +84,67 @@ const trippled = numbers.flatMap(number =&gt; {
   return [number, 2 * number, 3 * number];
 })
 console.log(trippled); // [1, 2, 3, 4, 8, 12]
-</code></pre><p>:::tip</p><p><code>flatMap</code> 实际上是先 <code>map</code> 再 <code>flat</code>，理解了这一点就能掌握了</p><p>:::</p><p>📒 <a href="https://blog.appsignal.com/2022/01/19/how-to-set-up-a-nodejs-project-with-typescript.html">如何用 TypeScript 配置一个 Node 项目</a></p><p>📒 <a href="https://remix.run/blog/remix-vs-next">Remix vs Next.js</a></p><p>📒 <a href="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about/">你应该知道的三个 React 组件设计模式</a></p><p>📒 <a href="https://juejin.cn/post/7055202073511460895">V8 Promise源码全面解读，其实你对Promise一无所知</a></p><p>⭐️ <a href="https://juejin.cn/post/7036162494573838367">60+ 实用 React 工具库，助力你高效开发！</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw">写好 JSX 条件语句的几个建议</a></p><p>📒 <a href="https://www.youtube.com/watch?v=M3BM9TB-8yA">Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU</a></p><p>📒 <a href="https://juejin.cn/post/7056612950412361741">为什么说 WebAssembly 是 Web 的未来？</a></p><p>📒 <a href="https://juejin.cn/post/7047329886502912030">浅析TypeScript Compiler 原理</a></p><p>📒 <a href="https://juejin.cn/post/7056018952098414605">TypeScript 4.6 beta 发布：递归类型检查增强、参数的控制流分析支持、索引访问的类型推导</a></p>]]></content:encoded>
+</code></pre><p>:::tip</p><p><code>flatMap</code> 实际上是先 <code>map</code> 再 <code>flat</code>，理解了这一点就能掌握了</p><p>:::</p><p>📒 <a href="https://blog.appsignal.com/2022/01/19/how-to-set-up-a-nodejs-project-with-typescript.html">如何用 TypeScript 配置一个 Node 项目</a></p><p>📒 <a href="https://remix.run/blog/remix-vs-next">Remix vs Next.js</a></p><p>📒 <a href="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about/">你应该知道的三个 React 组件设计模式</a></p><p>📒 <a href="https://juejin.cn/post/7055202073511460895">V8 Promise源码全面解读，其实你对Promise一无所知</a></p><p>⭐️ <a href="https://juejin.cn/post/7036162494573838367">60+ 实用 React 工具库，助力你高效开发！</a></p><p>⭐️ 如何编写更好的 JSX 语句</p><details><summary>查看详情</summary><p>列表不为空的时候进行渲染：</p><pre><code class="language-jsx">// 注意这种写法有 bug
+// 如果 data 数组为空，则会直接渲染 `0` 到页面上
+{data.length &amp;&amp; &lt;div&gt;{data.map((d) =&gt; d)}&lt;/div&gt;}
+
+// 使用 &amp;&amp; 的时候需要手动转换布尔值
+data.length &gt; 0 &amp;&amp; jsx
+!!data.length &amp;&amp; jsx
+Boolean(data.length) &amp;&amp; jsx
+</code></pre><p>不要使用 <code>props</code> 传递的 React 元素作为判断条件:</p><pre><code class="language-jsx">// 这样的判断不准确
+// props.children 可能是一个空数组 []
+// 使用 children.length 也不严谨，因为 children 也可能是单个元素
+// 使用 React.Children.count(props.children) 支持单个和多个 children
+// 但是对于存在多个无效节点，例如 false 无法准确判断
+// 使用 React.Children.toArray(props.children) 可以删除无效节点
+// 但是对于一个空片段，例如 &lt;&gt;&lt;/&gt; 又会被识别为有效的元素
+// 所以为了避免出错，建议不要这样判断
+const Wrap = (props) =&gt; {
+  if (!props.children) return null;
+  return &lt;div&gt;{props.children}&lt;/div&gt;
+};
+</code></pre><p>重新挂载还是更新：</p><pre><code class="language-jsx">// 使用三元运算符分支编写的 JSX 看上去就像完全独立的代码
+{hasItem ? &lt;Item id={1} /&gt; : &lt;Item id={2} /&gt;}
+
+// 但实际上 hasItem 切换时，React 仍然会保留挂载的实例，然后更新 props
+// 因此上面的代码实际上等价于下面这样
+&lt;Item id={hasItem ? 1 : 2} /&gt;
+
+// 一般来讲不会有什么问题，但是对于非受控组件，就可能导致 bug
+// 例如 mode 属性变化，会发现之前输入的信息还在
+{mode === &#x27;name&#x27;
+    ? &lt;input placeholder=&quot;name&quot; /&gt;
+    : &lt;input placeholder=&quot;phone&quot; /&gt;}
+
+// 由于 React 会尽可能复用组件实例
+// 因此我们可以传递 key，告诉 React 这是两个完全不一样的元素，让 React 强制重新渲染
+{mode === &#x27;name&#x27;
+    ? &lt;input placeholder=&quot;name&quot; key=&quot;name&quot; /&gt;
+    : &lt;input placeholder=&quot;phone&quot; key=&quot;phone&quot; /&gt;}
+
+// 或者使用 &amp;&amp; 替代三元运算符
+{mode === &#x27;name&#x27; &amp;&amp; &lt; input  placeholder = &quot;name&quot; /&gt; } 
+{mode !== &#x27;name&#x27; &amp;&amp; &lt; input  placeholder = &quot;phone&quot; /&gt; }
+
+// 相反，如果在同一个元素上的逻辑条件不太一样
+// 可以试着将条件拆分为两个单独的 JSX 提高可读性
+&lt;Button
+  aria-busy={loading}
+  onClick={loading ? null : submit}
+&gt;
+  {loading ? &lt;Spinner /&gt; : &#x27;submit&#x27;}
+&lt;/Button&gt;
+
+// 可以改为下面这样
+{loading
+  ? &lt;Button aria-busy&gt;&lt;Spinner /&gt;&lt;/Button&gt;
+  : &lt;Button onClick={submit}&gt;submit&lt;/Button&gt;}
+
+// 或者使用 &amp;&amp;
+{loading &amp;&amp; &lt;Button key=&quot;submit&quot; aria-busy&gt;&lt;Spinner /&gt;&lt;/Button&gt;}
+{!loading &amp;&amp; &lt;Button key=&quot;submit&quot; onClick={submit}&gt;submit&lt;/Button&gt;}
+</code></pre><p><a href="https://mp.weixin.qq.com/s/1BX5xK0wpUDBSininJbYHw">写好 JSX 条件语句的几个建议</a></p></details><p>📒 <a href="https://www.youtube.com/watch?v=M3BM9TB-8yA">Node.js 十大设计缺陷 - Ryan Dahl - JSConf EU</a></p><p>📒 <a href="https://juejin.cn/post/7056612950412361741">为什么说 WebAssembly 是 Web 的未来？</a></p><p>📒 <a href="https://juejin.cn/post/7047329886502912030">浅析TypeScript Compiler 原理</a></p><p>📒 <a href="https://juejin.cn/post/7056018952098414605">TypeScript 4.6 beta 发布：递归类型检查增强、参数的控制流分析支持、索引访问的类型推导</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[1月23日内容汇总]]></title>
