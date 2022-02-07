@@ -7,9 +7,68 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 📒 [很多人上来就删除的 package.json，还有这么多你不知道的](https://segmentfault.com/a/1190000039684460)
 
-📒 React useCallback 使用
+📒 React hooks 使用注意事项
 
-回顾一下，`React.useCallback` 需要配合 `React.memo` 使用，其中任意一个单独使用是没用的。
+惰性初始化 State：
+
+```jsx
+// React hook 会在每次组件重新渲染的时候调用
+const [count, setCount] = React.useState(ExpensiveCal());
+
+// 如果 useState 的初始值需要通过复杂计算获取，可以传入一个函数惰性初始化
+// 这个函数只会在组件挂载的时候执行一次，后续更新都不会执行
+const [count, setCount] = React.useState(() => ExpensiveCal());
+```
+
+不需要视图渲染的变量，不要用 `useState`：
+
+```tsx
+const App: React.FC<{}> = () => {
+	// count 与视图渲染无关
+	// 如果使用 useState，每次 count 变化都会触发组件重新渲染
+	const [count, setCount] = React.useState(0);
+	// 这里推荐使用 useRef
+	const count = React.useRef(0);
+
+	const handleClick = () => setCount(c => c + 1);
+
+	return (
+		<button onClick={handleClick}>Counter</button>
+	)
+}
+```
+
+函数式更新：
+
+```jsx
+const [count, setCount] = React.useState(0);
+
+// 下面这样虽然调用了两次
+// 但由于一次渲染中获取的 count 都是闭包中老的值
+// 因此最终 count 还是 1
+setCount(count + 1);
+setCount(count + 1);
+
+// 如果要获取到上一次更新的值，可以使用函数式更新
+// 最终 count 为 2
+setCount(c => c + 1);
+setCount(c => c + 1);
+```
+
+`useEffect` 清除副作用：
+
+```jsx
+React.useEffect(() => {
+	// ...
+	return () => {
+		// useEffect 的回调函数中可以返回一个函数
+		// 这个函数会在组件卸载的时候执行
+		// 用于清理各种事件监听器、定时器等
+	}
+}, []);
+```
+
+`React.useCallback` 需要配合 `React.memo` 使用，其中任意一个单独使用是没用的。
 
 :::tip
 
