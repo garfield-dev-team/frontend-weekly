@@ -345,8 +345,13 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
 - diff 算法相关
   - https://github.com/snabbdom/snabbdom
+  - https://github.com/snabbdom/snabbdom/blob/master/src/init.ts
+  - [diff 算法深入一下？](https://juejin.cn/post/6997965021401579556)
   - [DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
   - [关于Virtual DOM理解和Snabbdom源码浅析](https://juejin.cn/post/6966215704634720287)
+  - [shanyue mini-code vdom](https://github.com/shfshanyue/mini-code/blob/master/code/vdom/index.js)
+  - [Virtual DOM到底有什么迷人之处？如何搭建一款迷你版Virtual DOM库？](https://juejin.cn/post/6976232466059100197)
+  - [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？- 知乎](https://www.zhihu.com/question/31809713/answer/53544875)
 - webpack 热模块替换看下源码
   - [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
   - [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
