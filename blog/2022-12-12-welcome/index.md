@@ -270,6 +270,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 设计模式：[DYBOY](https://juejin.cn/user/3544481219495806/posts)
 - 手写源码、设计模式：[蒋鹏飞](https://juejin.cn/user/2295436011645655/posts)
 - Webpack5、设计模式：[清汤饺子](https://juejin.cn/user/4300945218607197)
+- 总结大师：[JowayYoung](https://juejin.cn/user/2330620350432110/posts)
 - 源码分析：若川
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
 - 个人服务器运维指南：[shanyue](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
