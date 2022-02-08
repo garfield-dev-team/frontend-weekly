@@ -144,6 +144,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 前端性能优化
 
 - ⭐️ [写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践](https://juejin.cn/post/6981673766178783262)
+- ⭐️ [字节跳动是如何落地微前端的](https://juejin.cn/post/7016900744695513125)
 - ⭐️ [2022 年的 CSS](https://juejin.cn/post/7048260643589193765)
 - ⭐️ [如何编写防御式的 CSS](https://juejin.cn/post/7054931603323093022)
 - ⭐️ [前端 Code Review 不完全指北(万字长文，50+case)](https://zhuanlan.zhihu.com/p/396010993)
