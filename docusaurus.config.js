@@ -86,16 +86,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Garfield-cli 前端工程化',
+                href: 'https://github.com/garfield-dev-team/Garfield-cli',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'NPM 工程化规范',
+                href: 'https://github.com/Jiacheng787/my-promisify',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'React 从零到一工程化指北',
+                href: 'https://github.com/Jiacheng787/React-zero-to-one',
               },
             ],
           },
@@ -103,12 +103,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Golang 学习',
+                href: 'https://github.com/Jiacheng787/go-by-example',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '面试内容汇总',
+                href: 'https://github.com/Jiacheng787/Bytedance-interview',
               },
             ],
           },
