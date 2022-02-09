@@ -5,9 +5,11 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [接近天花板的TS类型体操，看懂你就能玩转TS了](https://juejin.cn/post/7061556434692997156)
+
 📒 [2022年必会Vue3.0学习 （强烈建议）](https://juejin.cn/post/7057325585705467918)
 
-📒 [如何利用 SCSS 实现一键换肤](https://mp.weixin.qq.com/s/oLQltRUD1wdlHkrzOuTRyQ)
+📒 [如何利用 SCSS 实现一键换肤](https://juejin.cn/post/7062496975454732301)
 
 📒 [手写 JS 引擎来解释一道赋值面试题](https://juejin.cn/post/7062258342546620423)
 
