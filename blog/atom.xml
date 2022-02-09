@@ -24,8 +24,8 @@
         <id>2月13日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月13日内容汇总"/>
         <updated>2022-02-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 2022年必会Vue3.0学习 （强烈建议）]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7057325585705467918">2022年必会Vue3.0学习 （强烈建议）</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/oLQltRUD1wdlHkrzOuTRyQ">如何利用 SCSS 实现一键换肤</a></p><p>📒 <a href="https://juejin.cn/post/7062258342546620423">手写 JS 引擎来解释一道赋值面试题</a></p><p>📒 <a href="https://www.youtube.com/watch?v=Wm_xI7KntDs">10 分钟讲述 React 的故事</a></p><p>📒 <a href="https://www.chakshunyu.com/blog/what-you-should-definitely-look-out-for-in-react-in-2022/">2022 年值得关注的 React 趋势</a></p><p>📒 <a href="https://blog.bitsrc.io/automatic-batching-in-react-18-what-you-should-know-d50141dc096e?gi=aa52794e9a07">React 18 中的自动批处理（Automatic Batching）</a></p><p>📒 <a href="https://github.com/signavio/react-mentions">React Mentions：在 Textarea 中提及某人</a></p>]]></content>
+        <summary type="html"><![CDATA[📒 接近天花板的TS类型体操，看懂你就能玩转TS了]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7061556434692997156">接近天花板的TS类型体操，看懂你就能玩转TS了</a></p><p>📒 <a href="https://juejin.cn/post/7057325585705467918">2022年必会Vue3.0学习 （强烈建议）</a></p><p>📒 <a href="https://juejin.cn/post/7062496975454732301">如何利用 SCSS 实现一键换肤</a></p><p>📒 <a href="https://juejin.cn/post/7062258342546620423">手写 JS 引擎来解释一道赋值面试题</a></p><p>📒 <a href="https://www.youtube.com/watch?v=Wm_xI7KntDs">10 分钟讲述 React 的故事</a></p><p>📒 <a href="https://www.chakshunyu.com/blog/what-you-should-definitely-look-out-for-in-react-in-2022/">2022 年值得关注的 React 趋势</a></p><p>📒 <a href="https://blog.bitsrc.io/automatic-batching-in-react-18-what-you-should-know-d50141dc096e?gi=aa52794e9a07">React 18 中的自动批处理（Automatic Batching）</a></p><p>📒 <a href="https://github.com/signavio/react-mentions">React Mentions：在 Textarea 中提及某人</a></p>]]></content>
         <author>
             <name>加菲猫</name>
             <uri>https://github.com/Jiacheng787</uri>
