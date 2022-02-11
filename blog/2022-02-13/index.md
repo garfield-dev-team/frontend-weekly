@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 操作 JavaScript 的 AST
+
+`acorn`、`Espree`、`@babel/parser` 三种解析器用法说明
+
+[操作 JavaScript 的 AST](https://juejin.cn/post/7061808830274863118)
+
+📒 [手写简易版 React 来彻底搞懂 fiber 架构](https://juejin.cn/post/7063321486135656479)
+
 📒 [Chrome 99新特性：@layers 规则浅析](https://mp.weixin.qq.com/s/Hnp2XddZPp3WAHrXBqEyAQ)
 
 📒 WebVM.io：基于 Web 的“无服务端”虚拟 Linux 环境

@@ -90,7 +90,7 @@ https://github.com/google/zx
 
 Babel 主要做了两件事，一是语法转换，二是 api 兼容，其中 api 兼容是通过引入 core-js 的 polyfill 实现的。一般来说转换之后体积肯定会增大，并且很多语法转换的时候会引入 helper 函数，这就产生了副作用，导致无法 Tree-Shaking。
 
-[ES6 以上版本代码要不要转码成 ES5?](https://mp.weixin.qq.com/s/fSRpl25Pi0ladeWRXHLGZA)
+[ES6 以上版本代码要不要转码成 ES5?](https://juejin.cn/post/7049696761858195486)
 
 📒 如何覆盖 CRA 默认 webpack 配置
 
