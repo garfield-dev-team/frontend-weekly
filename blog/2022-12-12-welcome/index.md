@@ -73,6 +73,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [2022年如何成为一名优秀的大前端Leader？](https://juejin.cn/post/7034419410706104356)
 - ⭐️ ⭐️ [初级工程师如何快速成长和寻求突破](https://juejin.cn/post/6906468062943182862#heading-8)
 - [年底了，你是如何做工作汇报的？](https://mp.weixin.qq.com/s/NRqhJax8e6K8LMCNZSSozA)
+- ⭐️ [写给初中级前端的高级进阶指南](https://juejin.cn/post/6844904103504527374)
 - [在政采云如何写前端技术方案文档](https://juejin.cn/post/7041713124210114567)
 - [如何编写前端设计文档](https://juejin.cn/post/7017643726944108558)
 - ⭐️ [理清思路，前端技术调研到底应该怎么做？](https://juejin.cn/post/6901845776880795662#heading-0)
@@ -137,6 +138,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 前端工程化
 
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)
+- [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [前端架构师神技，三招统一团队代码风格](https://juejin.cn/post/7029512357428592648)
@@ -354,6 +356,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
   - 这篇做的 demo 类似 Java 中的 lambok
   - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
+  - [操作 JavaScript 的 AST](https://juejin.cn/post/7061808830274863118)
 - diff 算法相关
   - https://github.com/snabbdom/snabbdom
   - https://github.com/snabbdom/snabbdom/blob/master/src/init.ts
@@ -362,6 +365,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [关于Virtual DOM理解和Snabbdom源码浅析](https://juejin.cn/post/6966215704634720287)
   - [shanyue mini-code vdom](https://github.com/shfshanyue/mini-code/blob/master/code/vdom/index.js)
   - [Virtual DOM到底有什么迷人之处？如何搭建一款迷你版Virtual DOM库？](https://juejin.cn/post/6976232466059100197)
+  - [React、Vue2、Vue3的三种Diff算法](https://juejin.cn/post/6919376064833667080)
   - [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？- 知乎](https://www.zhihu.com/question/31809713/answer/53544875)
 - webpack 热模块替换看下源码
   - [webpack模块热更新原理](https://juejin.cn/post/7049608872553611301)
