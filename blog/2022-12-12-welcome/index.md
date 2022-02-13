@@ -284,7 +284,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 总结大师：[JowayYoung](https://juejin.cn/user/2330620350432110/posts)
 - 源码分析：若川
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
-- 个人服务器运维指南：[shanyue](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
+- 前端工程化、个人服务器运维指南：[shanyue](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
+- React 技术揭秘：[kasong](https://react.iamkasong.com/)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
 - 前端装逼技巧108式：[独钓寒江雪](https://segmentfault.com/u/king_hcj)
