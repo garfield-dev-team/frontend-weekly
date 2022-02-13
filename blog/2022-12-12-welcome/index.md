@@ -239,6 +239,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - [Go 学习路线（2022）](https://mp.weixin.qq.com/s/Dwf98JFUnRij0Ha7o3ZSHQ)
 - https://github.com/wumansgy/GoAndBlockChainStudy
+- [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
 - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
 - [Golang 单元测试指引](https://zhuanlan.zhihu.com/p/267341653)
