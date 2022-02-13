@@ -67,7 +67,45 @@ function shallowEqual (objA: mixed, objB: mixed): boolean {
 
 [操作 JavaScript 的 AST](https://juejin.cn/post/7061808830274863118)
 
-📒 [手写简易版 React 来彻底搞懂 fiber 架构](https://juejin.cn/post/7063321486135656479)
+📒 React fiber 架构浅析
+
+在 React 16 之前，vdom 以递归的方式进行 patch 和渲染，一个 vdom 节点可以表示如下：
+
+```ts
+class VNode {
+  type: string;
+  props: Record<string, any>;
+  children: VNode[];
+}
+```
+
+在 React 16 之后引入了 fiber 架构，vdom 不再直接渲染，而是先转成 fiber，一个 fiber 节点可以表示如下：
+
+```ts
+class FiberNode {
+  type: string;
+  props: Record<string, any>;
+  dom: HTMLElement; // 提前创建 dom 节点
+  child?: FiberNode;
+  sibling?: FiberNode;
+  return?: FiberNode;
+  effectTag: string; // 做 diff，确定是增、删还是改
+}
+```
+
+在 fiber 架构中，将 vdom 树结构转成了链表，每个 fiber 节点的 `child` 关联第一个子节点，然后通过 `sibling` 串联同一层级的节点，所有的节点可以 `return` 到父节点：
+
+![image](./react-fiber.png)
+
+先把 vdom 转 fiber，也就是 reconcile 的过程，因为 fiber 是链表，就可以打断，用 schedule 来空闲时调度（requestIdleCallback）就行，最后全部转完之后，再一次性 render，这个过程叫做 commit。
+
+schedule 就是通过空闲调度每个 fiber 节点的 reconcile（vdom 转 fiber），全部 reconcile 完了就执行 commit。
+
+reconcile 除了将 vdom 转 fiber 外，还会做两件事：一个是 **提前创建对应的 dom 节点**，另一个是 **做 diff，确定是增、删还是改**，通过 schdule 的调度，最终把整个 vdom 树转成了 fiber 链表。
+
+commit 就是对 dom 的增删改，把 reconcile 产生的 fiber 链表一次性添加到 dom 中，因为 dom 节点都提前创建好了、是增是删还是改也都知道了，所以这个阶段很快。每个 fiber 节点的渲染就是按照 child、sibling 的顺序以此插入到 dom 中，这里每个 fiber 节点都要往上找它的父节点（之前保存的 `return` 指针），因为我们只是新增，那么只需要 `appendChild` 就行。
+
+[手写简易版 React 来彻底搞懂 fiber 架构](https://juejin.cn/post/7063321486135656479)
 
 📒 [Chrome 99新特性：@layers 规则浅析](https://mp.weixin.qq.com/s/Hnp2XddZPp3WAHrXBqEyAQ)
 
