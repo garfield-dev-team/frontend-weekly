@@ -24,8 +24,44 @@
         <id>2月20日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月20日内容汇总"/>
         <updated>2022-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 总结一下 Babel 插件开发基本操作]]></summary>
-        <content type="html"><![CDATA[<p>📒 总结一下 Babel 插件开发基本操作</p><blockquote><p><a href="https://github.com/BoBoooooo/AST-Learning">https://github.com/BoBoooooo/AST-Learning</a></p></blockquote>]]></content>
+        <summary type="html"><![CDATA[📒 React Router v6 和私有路由 (也称作保护路由)]]></summary>
+        <content type="html"><![CDATA[<p>📒 React Router v6 和私有路由 (也称作保护路由)</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-private-routes/">https://www.robinwieruch.de/react-router-private-routes/</a></p></blockquote><p>📒 React Router v6 的身份验证简介</p><p>在一个简单的示例应用程序中，通过 React Router v6 实现身份验证的实用演练。</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-authentication/">https://www.robinwieruch.de/react-router-authentication/</a></p></blockquote><p>📒 Etsy 从 React 15.6 迁移到了 Preact （而不是 React 16）</p><p>在这篇 关于在 Etsy 更新 React 的文章中，对这个决定有一个完整的解释。但事实证明，拥有相同 API 的小型 React 替代品 Preact 是他们的正确选择。</p><blockquote><p><a href="https://twitter.com/sangster/status/1486382892326563845">https://twitter.com/sangster/status/1486382892326563845</a></p></blockquote><p>📒 Promise 两点总结</p><p>不建议在 <code>Promise</code> 里面使用 <code>try...catch</code>，这样即使 <code>Promise</code> 内部报错，状态仍然是 <code>fullfilled</code>，会进入 <code>then</code> 方法回调，不会进入 <code>catch</code> 方法回调。</p><pre><code class="language-js">function request() {
+  return new Promise((resolve, reject) =&gt; {
+    try {
+      // ...
+      resolve(&quot;ok&quot;);
+    } catch(e) {
+      console.log(e);
+    }
+  })
+}
+
+request()
+  .then(res =&gt; {
+    console.log(&quot;请求结果：&quot;, res);
+  })
+  .catch(err =&gt; {
+    // 由于在 Promise 中使用了 try...catch
+    // 因此即使 Promise 内部报错，也不会被 catch 捕捉到
+    console.log(err);
+  })
+</code></pre><blockquote><p><code>Promise</code> 内部的异常，老老实实往外抛就行，让 <code>catch</code> 方法来处理，符合单一职责原则</p></blockquote><p>不建议在 <code>async</code> 函数中，既不使用 <code>await</code>，也不使用 <code>return</code>，这样就算内部的 <code>Promise</code> reject 也无法捕捉到：</p><pre><code class="language-js">async function handleFetchUser(userList) {
+  // 这里既没有使用 await，也没有使用 return
+  Promise.all(userList.map(u =&gt; request(u)));
+}
+
+handleFetchUser(userList)
+  .then(res =&gt; {
+    // 由于没有返回值，这里拿到的是 undefined
+    console.log(res);
+  })
+  .catch(err =&gt; {
+    // 即使 handleFetchUser 内部的 Promise reject
+    // async 函数返回的 Promise 仍然是 fullfilled
+    // 此时仍然会进入 then 方法回调，无法被 catch 捕捉到
+    console.log(err);
+  })
+</code></pre><blockquote><p>如果确实有这种需求，建议不要使用 <code>async</code> 函数，直接改用普通函数即可</p></blockquote><p>📒 后端做一下代理，把 http 代理成 https，只要能骗过浏览器就行</p><p>📒 Rollup 配置</p><p>📒 Docker 使用，Gitlab CI 实践</p><p>📒 总结一下 Babel 插件开发基本操作</p><blockquote><p><a href="https://github.com/BoBoooooo/AST-Learning">https://github.com/BoBoooooo/AST-Learning</a></p></blockquote>]]></content>
         <author>
             <name>加菲猫</name>
             <uri>https://github.com/Jiacheng787</uri>
