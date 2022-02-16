@@ -5,6 +5,8 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
+
 📒 React Router v6 和私有路由 (也称作保护路由)
 
 > https://www.robinwieruch.de/react-router-private-routes/
@@ -73,12 +75,16 @@ handleFetchUser(userList)
 
 > 如果确实有这种需求，建议不要使用 `async` 函数，直接改用普通函数即可
 
-📒 后端做一下代理，把 http 代理成 https，只要能骗过浏览器就行
-
 📒 Rollup 配置
 
+[前端组件/库打包利器rollup使用与配置实战](https://juejin.cn/post/6844903970469576718)
+
 📒 Docker 使用，Gitlab CI 实践
+
+[GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
 
 📒 总结一下 Babel 插件开发基本操作
 
 > https://github.com/BoBoooooo/AST-Learning
+
+📒 [记一次 Vue2 迁移 Vue3 的实践总结](https://juejin.cn/post/7064909191210598408)

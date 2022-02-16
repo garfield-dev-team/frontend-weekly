@@ -134,6 +134,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Rollup 系列
 
+- [前端组件/库打包利器rollup使用与配置实战](https://juejin.cn/post/6844903970469576718)
 - [一文带你快速上手Rollup](https://juejin.cn/post/6869551115420041229)
 
 ## 前端工程化
@@ -148,6 +149,16 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [ESM 与 CJS 的 Interop 来世今生](https://mp.weixin.qq.com/s/3TKcUeoyzXvH3MGVI6Dj9A)
 - ⭐️ [2022 前端技术领域会有哪些新的变化？](https://www.zhihu.com/question/493891614/answer/2269197391)
 - 🌛 [前端构建这十年](https://segmentfault.com/a/1190000040496020)
+
+## 持续集成
+
+- [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
+- [小鲸鱼的前世今生--Docker](https://mp.weixin.qq.com/s/4aFJ7t37IwEMyq-u09Wf1g)
+- [谁说前端不需要学习docker？](https://mp.weixin.qq.com/s/U-zK6JEMpmK2Il68-ijcaw)
+- [使用Docker Compose、Nginx、SSH和Github Actions实现前端自动化部署测试机](https://juejin.cn/post/7028222480326066213)
+- [前端开发者应该知道的 Centos/Docker/Nginx/Node/Jenkins 操作(🍡 长文)](https://juejin.cn/post/6951684431597797389)
+- [保姆级指南：jekins+docker构建部署react项目实战](https://juejin.cn/post/7049920990351982628)
+- [你的第一个 Docker + React + Express 全栈应用](https://juejin.cn/post/6993951401952935972)
 
 ## 前端性能优化
 
@@ -240,6 +251,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - [Go 学习路线（2022）](https://mp.weixin.qq.com/s/Dwf98JFUnRij0Ha7o3ZSHQ)
 - https://github.com/wumansgy/GoAndBlockChainStudy
+- ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
 - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
