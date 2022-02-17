@@ -24,8 +24,14 @@
         <id>2月20日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月20日内容汇总"/>
         <updated>2022-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[⭐️ 如何使用高阶函数编程提升代码的简洁性]]></summary>
-        <content type="html"><![CDATA[<p>⭐️ <a href="https://juejin.cn/post/7065197280223035422">如何使用高阶函数编程提升代码的简洁性</a></p><p>📒 React Router v6 和私有路由 (也称作保护路由)</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-private-routes/">https://www.robinwieruch.de/react-router-private-routes/</a></p></blockquote><p>📒 React Router v6 的身份验证简介</p><p>在一个简单的示例应用程序中，通过 React Router v6 实现身份验证的实用演练。</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-authentication/">https://www.robinwieruch.de/react-router-authentication/</a></p></blockquote><p>📒 Etsy 从 React 15.6 迁移到了 Preact （而不是 React 16）</p><p>在这篇 关于在 Etsy 更新 React 的文章中，对这个决定有一个完整的解释。但事实证明，拥有相同 API 的小型 React 替代品 Preact 是他们的正确选择。</p><blockquote><p><a href="https://twitter.com/sangster/status/1486382892326563845">https://twitter.com/sangster/status/1486382892326563845</a></p></blockquote><p>📒 Promise 两点总结</p><p>不建议在 <code>Promise</code> 里面使用 <code>try...catch</code>，这样即使 <code>Promise</code> 内部报错，状态仍然是 <code>fullfilled</code>，会进入 <code>then</code> 方法回调，不会进入 <code>catch</code> 方法回调。</p><pre><code class="language-js">function request() {
+        <summary type="html"><![CDATA[📒 正则表达式如何实现千分位分隔符]]></summary>
+        <content type="html"><![CDATA[<p>📒 正则表达式如何实现千分位分隔符</p><p>实现如下的需求：</p><ul><li>从后往前每三个数字前加一个逗号</li><li>开头不能加逗号</li></ul><p>这样看起来非常符合 <code>(?=p)</code> 的规律，<code>p</code> 可以表示每三个数字，要添加逗号所处的位置正好是 <code>(?=p)</code> 匹配出来的位置。</p><p>第一步，先尝试把最后一个逗号弄出来：</p><pre><code class="language-js">&quot;300000000&quot;.replace(/(?=\d{3}$)/, &quot;,&quot;)
+// &#x27;300000,000&#x27;
+</code></pre><p>第二步，把所有逗号都弄出来：</p><pre><code class="language-js">&quot;300000000&quot;.replace(/(?=(\d{3})+$)/g, &quot;,&quot;)
+// &#x27;,300,000,000&#x27;
+</code></pre><blockquote><p>使用括号把一个 <code>p</code> 模式变成一个整体</p></blockquote><p>第三步，去掉首位的逗号：</p><pre><code class="language-js">&quot;300000000&quot;.replace(/(?!^)(?=(\d{3})+$)/g, &quot;,&quot;)
+// &#x27;300,000,000&#x27;
+</code></pre><p>⭐️ <a href="https://juejin.cn/post/7065197280223035422">如何使用高阶函数编程提升代码的简洁性</a></p><p>📒 React Router v6 和私有路由 (也称作保护路由)</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-private-routes/">https://www.robinwieruch.de/react-router-private-routes/</a></p></blockquote><p>📒 React Router v6 的身份验证简介</p><p>在一个简单的示例应用程序中，通过 React Router v6 实现身份验证的实用演练。</p><blockquote><p><a href="https://www.robinwieruch.de/react-router-authentication/">https://www.robinwieruch.de/react-router-authentication/</a></p></blockquote><p>📒 Etsy 从 React 15.6 迁移到了 Preact （而不是 React 16）</p><p>在这篇 关于在 Etsy 更新 React 的文章中，对这个决定有一个完整的解释。但事实证明，拥有相同 API 的小型 React 替代品 Preact 是他们的正确选择。</p><blockquote><p><a href="https://twitter.com/sangster/status/1486382892326563845">https://twitter.com/sangster/status/1486382892326563845</a></p></blockquote><p>📒 Promise 两点总结</p><p>不建议在 <code>Promise</code> 里面使用 <code>try...catch</code>，这样即使 <code>Promise</code> 内部报错，状态仍然是 <code>fullfilled</code>，会进入 <code>then</code> 方法回调，不会进入 <code>catch</code> 方法回调。</p><pre><code class="language-js">function request() {
   return new Promise((resolve, reject) =&gt; {
     try {
       // ...
