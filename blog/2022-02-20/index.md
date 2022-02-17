@@ -5,6 +5,22 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [零基础理解 PostCSS 的主流程](https://mp.weixin.qq.com/s/Bkss0lzPT-TI6GyGxMyn3Q)
+
+📒 [Jest + React Testing Library 单测总结](https://mp.weixin.qq.com/s/tQLG0HzR0bR_A8NLjTIChQ)
+
+📒 [使用lerna管理monorepo及发npm包实战教程](https://mp.weixin.qq.com/s/UyvRTVWZDYnEBV9SL2Bbpg)
+
+📒 [从源码中来，到业务中去，React性能优化终极指南](https://mp.weixin.qq.com/s/DswfPb6J1w2B_MWj1TjyOg)
+
+📒 [React核心设计原理--（React Fiber）异步执行调度](https://mp.weixin.qq.com/s/AfCfqhZy70v6MrSVt5_8uw)
+
+📒 如何在浏览器使用后端语言进行编程
+
+你可能会认为这是关于使用 WebAssembly 在浏览器中运行 Python 之类的代码，但这并不是作者想分享的。作者提到的是通过服务端的 WebSocket 连接浏览器平台，由服务端处理 HTML 渲染更新到浏览器，这种方案日益流行，并且已经在 Elixir 和 Rails 全栈框架中支持。
+
+> https://github.com/readme/featured/server-side-languages-for-front-end
+
 📒 正则表达式如何实现千分位分隔符
 
 实现如下的需求：

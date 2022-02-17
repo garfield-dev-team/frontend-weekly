@@ -134,6 +134,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Rollup 系列
 
+- [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
 - [前端组件/库打包利器rollup使用与配置实战](https://juejin.cn/post/6844903970469576718)
 - [一文带你快速上手Rollup](https://juejin.cn/post/6869551115420041229)
 
@@ -360,6 +361,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - https://labuladong.github.io/algo/
   - [手把手刷二叉树系列完结篇](https://mp.weixin.qq.com/s/AzQzw-pC8A-0kS0NJn2eWw)
   - [前缀树算法模板秒杀 5 道算法题](https://mp.weixin.qq.com/s/hGrTUmM1zusPZZ0nA9aaNw)
+  - [集合划分问题：排列组合中的回溯思想（修订版）](https://mp.weixin.qq.com/s/5GO2ZITncVArdm4KITBd9g)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
