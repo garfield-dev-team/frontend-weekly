@@ -153,7 +153,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 持续集成
 
 - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
+- [docker 简易入门 - shanyue](https://shanyue.tech/op/docker.html)
 - [小鲸鱼的前世今生--Docker](https://mp.weixin.qq.com/s/4aFJ7t37IwEMyq-u09Wf1g)
+- [开发者必备的 Docker 实践指南](https://juejin.cn/book/6844733746462064654/section/6844733746504007693)
 - [谁说前端不需要学习docker？](https://mp.weixin.qq.com/s/U-zK6JEMpmK2Il68-ijcaw)
 - [使用Docker Compose、Nginx、SSH和Github Actions实现前端自动化部署测试机](https://juejin.cn/post/7028222480326066213)
 - [前端开发者应该知道的 Centos/Docker/Nginx/Node/Jenkins 操作(🍡 长文)](https://juejin.cn/post/6951684431597797389)
@@ -249,7 +251,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## Golang 学习
 
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
-- [Go 学习路线（2022）](https://mp.weixin.qq.com/s/Dwf98JFUnRij0Ha7o3ZSHQ)
+- [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
