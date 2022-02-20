@@ -5,6 +5,114 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 前端项目 nginx 配置总结
+
+有段时间没搞项目部署了，结果最近有同事在部署前端项目的时候，访问页面路由，响应都是 404，排查了半天，这里再总结一下。
+
+前端单页应用路由分两种：哈希模式和历史模式。
+
+哈希模式部署不会遇到啥问题，但是一般只用于本地调试，没人直接部署到生产环境。历史模式的路由跳转通过 `pushState` 和 `replaceState` 实现，不会触发浏览器刷新页面，不会给服务器发送请求，且会触发 `popState` 事件，因此可以实现纯前端路由。
+
+需要注意，使用历史模式的时候，还是有两种情况会导致浏览器发送请求给服务器：
+
+- 输入地址直接访问
+- 刷新页面
+
+在这两种情况下，如果当前地址不是根路径，因为都是前端路由，服务器端根本不存在对应的文件，则会直接导致服务器直接响应 404。因此需要在服务器端进行配置：
+
+```nginx
+server {
+  listen 80;
+  server_name www.bili98.com;
+  location / {
+    root /root/workspace/ruoyi-ui/dist;
+
+    # history 模式重点就是这里
+    try_files $uri $uri/ /index.html;
+  }
+}
+```
+
+:::tip
+
+`try_files` 的作用就是按顺序检查文件是否存在，返回第一个找到的文件。`$uri` 是 nginx 提供的变量，指当前请求的 URI，不包括任何参数
+
+当请求静态资源文件的时候，命中 `$uri` 规则；当请求页面路由的时候，命中 `/index.html` 规则
+
+:::
+
+此外，在部署的时候不使用根路径，例如希望通过这样的路径去访问 `/i/top.gif`，如果直接修改 `location` 发现还会响应 404：
+
+```nginx
+location /i/ {
+  root /data/w3;
+  try_files $uri $uri/ /index.html;
+}
+```
+
+> 这是因为 `root` 是直接拼接 `root` + `location`，访问 `/i/top.gif`，实际会查找 `/data/w3/i/top.gif` 文件
+
+这种情况下推荐使用 `alias`：
+
+```nginx
+location /i/ {
+  alias /data/w3;
+  try_files $uri $uri/ /index.html;
+}
+```
+
+> `alias` 是用 `alias` 替换 `location` 中的路径，访问 `/i/top.gif`，实际会查找 `/data/w3/top.gif` 文件
+
+现在页面部署成功了，但是接口请求会出错，这是因为还没有对接口请求进行代理，下面配置一下：
+
+```nginx
+location ^~ /prod-api/ {
+	proxy_set_header Host $http_host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header REMOTE-HOST $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_pass http://192.168.31.101:8080/;
+}
+```
+
+完整的 nginx 配置如下：
+
+```nginx
+server {
+  listen 80;
+  server_name www.bili98.com;
+
+  location /ruoyi/ {
+    # 支持 /ruoyi 子路径访问
+    alias /root/workspace/ruoyi-ui/dist;
+
+    # history 模式重点就是这里
+    try_files $uri $uri/ /index.html;
+
+    # html 文件不可设置强缓存，设置协商缓存即可
+    add_header Cache-Control 'no-cache, must-revalidate, proxy-revalidate, max-age=0';
+  }
+
+  # 接口请求代理
+  location ^~ /prod-api/ {
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_pass http://192.168.31.101:8080/;
+  }
+
+  location ~* \.(?:css(\.map)?|js(\.map)?|gif|svg|jfif|ico|cur|heic|webp|tiff?|mp3|m4a|aac|ogg|midi?|wav|mp4|mov|webm|mpe?g|avi|ogv|flv|wmv)$ {
+    # 静态资源设置一年强缓存
+    add_header Cache-Control 'public, max-age=31536000';
+  }
+}
+```
+
+[前端到底用nginx来做啥](https://juejin.cn/post/7064378702779891749)
+
+[一份简单够用的 Nginx Location 配置讲解](https://juejin.cn/post/7048952689601806366)
+
 📒 [零基础理解 PostCSS 的主流程](https://mp.weixin.qq.com/s/Bkss0lzPT-TI6GyGxMyn3Q)
 
 📒 [Jest + React Testing Library 单测总结](https://mp.weixin.qq.com/s/tQLG0HzR0bR_A8NLjTIChQ)
