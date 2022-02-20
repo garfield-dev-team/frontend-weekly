@@ -359,7 +359,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [手把手一行一行代码教你“手写Promise“，完美通过 Promises/A+ 官方872个测试用例](https://juejin.cn/post/7043758954496655397)
 - 排序算法，桶排序、计数排序，时间复杂度 O(n) ；
 - 每日算法
-  - https://labuladong.gitee.io/algo/（国内速度快，体验好，推荐）
+  - [https://labuladong.gitee.io/algo/](https://labuladong.gitee.io/algo/)（国内速度快，体验好，推荐）
   - https://labuladong.github.io/algo/
   - [手把手刷二叉树系列完结篇](https://mp.weixin.qq.com/s/AzQzw-pC8A-0kS0NJn2eWw)
   - [前缀树算法模板秒杀 5 道算法题](https://mp.weixin.qq.com/s/hGrTUmM1zusPZZ0nA9aaNw)
