@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+⭐️ [React hooks 状态管理方案解析](https://juejin.cn/post/7065875157268561957)
+
+📒 深入理解 React Native 的新架构
+
+照 React Native 团队去年发表的一篇 博客 的说法，他们会在今年发布新的架构。本文将会详细介绍新架构的相关内容。
+
+> https://medium.com/coox-tech/deep-dive-into-react-natives-new-architecture-fb67ae615ccd
+
 📒 QUIC——快速UDP网络连接协议
 
 - QUIC 的Stream流基于Stream ID+Offset进行包确认，流量控制需要保证所发送的所有包offset小于 **最大绝对字节偏移量 （ maximum absolute byte offset ）**， 该值是基于当前 **已经提交的字节偏移量（offset of data consumed）** 而进行确定的，QUIC会把连续的已确认的offset数据向上层应用提交。QUIC支持乱序确认，但本身也是按序（offset顺序）发送数据包
