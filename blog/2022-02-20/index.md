@@ -16,7 +16,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 - 假设总数据条数为 M，哈希算法在面对节点数量变化时，**最坏情况下所有数据都需要迁移，所以它的数据迁移规模是 O(M)**，这样数据的迁移成本太高了
 - 一致性哈希算法就很好地解决了分布式系统在扩容或者缩容时，发生过多的数据迁移的问题
 
-[一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
+[微信一面：什么是一致性哈希？用在什么场景？解决了什么问题？](https://juejin.cn/post/7067012046256078885)
 
 📒 前端项目 nginx 配置总结
 
