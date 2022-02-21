@@ -155,6 +155,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 持续集成
 
 - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
+- [如何使用 docker 部署前端应用](https://juejin.cn/post/6844903793348329486)
 - [docker 简易入门 - shanyue](https://shanyue.tech/op/docker.html)
 - [小鲸鱼的前世今生--Docker](https://mp.weixin.qq.com/s/4aFJ7t37IwEMyq-u09Wf1g)
 - [开发者必备的 Docker 实践指南](https://juejin.cn/book/6844733746462064654/section/6844733746504007693)
@@ -262,6 +263,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
+- ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
