@@ -5,7 +5,7 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
-📒 [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
+⭐️ [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
 
 📒 HTTP 缓存最佳实践
 
