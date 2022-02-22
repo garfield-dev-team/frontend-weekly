@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 搜索 JS、Go、Java、Python 的第三方库
+
+https://openbase.com/
+
+例如搜索 Redux 的替代方案：
+
+https://openbase.com/js/redux/alternatives
+
 ⭐️ [React hooks 状态管理方案解析](https://juejin.cn/post/7065875157268561957)
 
 📒 深入理解 React Native 的新架构
