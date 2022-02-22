@@ -5,6 +5,81 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
+
+📒 HTTP 缓存最佳实践
+
+在配置 nginx 的时候，可以配置合理的缓存策略，例如：
+
+- html 文件配置协商缓存
+- js、css、图片、字体等文件由于带有哈希，可以配置一年强缓存
+
+这样配置缓存之后，可以极大提升资源二次加载速度，进而提升用户体验。以上这些是从性能角度考虑的，从安全角度考虑，推荐如下配置：
+
+- 为了防止中介缓存，建议设置 `Cache-Control: private`，这可以禁用掉所有 `Public Cache`（比如代理），这就减少了攻击者跨界访问到公共内存的可能性
+- 默认情况下，浏览器使用 **URL** 和 **请求方法** 作为缓存 key，这意味着，如果一个网站需要登录，不同用户的请求由于它们的请求URL和方法相同，数据会被缓存到一块内存里。如果我们请求的响应是跟请求的 `Cookie` 相关的，建议设置 `Vary: Cookie` 作为二级缓存 key
+
+[HTTP 缓存别再乱用了！推荐一个缓存设置的最佳姿势！](https://mp.weixin.qq.com/s/43pa04szJ2zU_IyVP4LraQ)
+
+📒 如何监听系统黑暗模式
+
+在 CSS 中可以通过 `prefers-color-scheme` 媒体查询实现：
+
+```css
+body {
+  color: black;
+  background: white;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background: black;
+  }
+}
+```
+
+在 JS 中可以使用 `window.matchMedia` 媒体查询：
+
+```ts
+import React from "react";
+
+export type ThemeName = "light" | "dark";
+
+function useTheme() {
+  const [themeName, setThemeName] = React.useState<ThemeName>("light");
+
+  React.useEffect(() => {
+    // 设置初始皮肤
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setThemeName("dark");
+    } else {
+      setThemeName("light");
+    }
+    
+    // 监听系统颜色切换
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (event) => {
+        if (event.matches) {
+          setThemeName("dark");
+        } else {
+          setThemeName("light");
+        }
+      });
+  }, []);
+
+  return {
+    themeName,
+    isDarkMode: themeName === "dark",
+    isLightMode: themeName === "light",
+  }
+}
+```
+
+> https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia
+
+> 自定义 hook 实际上就是 mixin，把一段可复用的逻辑抽离出来
+
 📒 搜索 JS、Go、Java、Python 的第三方库
 
 https://openbase.com/
