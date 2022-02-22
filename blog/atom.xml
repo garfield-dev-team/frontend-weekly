@@ -24,8 +24,8 @@
         <id>2月27日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月27日内容汇总"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 浅析 Snabbdom 中 vnode 和 diff 算法]]></summary>
-        <content type="html"><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw">浅析 Snabbdom 中 vnode 和 diff 算法</a></p><p>📒 HTTP 缓存最佳实践</p><p>在配置 nginx 的时候，可以配置合理的缓存策略，例如：</p><ul><li>html 文件配置协商缓存</li><li>js、css、图片、字体等文件由于带有哈希，可以配置一年强缓存</li></ul><p>这样配置缓存之后，可以极大提升资源二次加载速度，进而提升用户体验。以上这些是从性能角度考虑的，从安全角度考虑，推荐如下配置：</p><ul><li>为了防止中介缓存，建议设置 <code>Cache-Control: private</code>，这可以禁用掉所有 <code>Public Cache</code>（比如代理），这就减少了攻击者跨界访问到公共内存的可能性</li><li>默认情况下，浏览器使用 <strong>URL</strong> 和 <strong>请求方法</strong> 作为缓存 key，这意味着，如果一个网站需要登录，不同用户的请求由于它们的请求URL和方法相同，数据会被缓存到一块内存里。如果我们请求的响应是跟请求的 <code>Cookie</code> 相关的，建议设置 <code>Vary: Cookie</code> 作为二级缓存 key</li></ul><p><a href="https://mp.weixin.qq.com/s/43pa04szJ2zU_IyVP4LraQ">HTTP 缓存别再乱用了！推荐一个缓存设置的最佳姿势！</a></p><p>📒 如何监听系统黑暗模式</p><p>在 CSS 中可以通过 <code>prefers-color-scheme</code> 媒体查询实现：</p><pre><code class="language-css">body {
+        <summary type="html"><![CDATA[⭐️ 浅析 Snabbdom 中 vnode 和 diff 算法]]></summary>
+        <content type="html"><![CDATA[<p>⭐️ <a href="https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw">浅析 Snabbdom 中 vnode 和 diff 算法</a></p><p>📒 HTTP 缓存最佳实践</p><p>在配置 nginx 的时候，可以配置合理的缓存策略，例如：</p><ul><li>html 文件配置协商缓存</li><li>js、css、图片、字体等文件由于带有哈希，可以配置一年强缓存</li></ul><p>这样配置缓存之后，可以极大提升资源二次加载速度，进而提升用户体验。以上这些是从性能角度考虑的，从安全角度考虑，推荐如下配置：</p><ul><li>为了防止中介缓存，建议设置 <code>Cache-Control: private</code>，这可以禁用掉所有 <code>Public Cache</code>（比如代理），这就减少了攻击者跨界访问到公共内存的可能性</li><li>默认情况下，浏览器使用 <strong>URL</strong> 和 <strong>请求方法</strong> 作为缓存 key，这意味着，如果一个网站需要登录，不同用户的请求由于它们的请求URL和方法相同，数据会被缓存到一块内存里。如果我们请求的响应是跟请求的 <code>Cookie</code> 相关的，建议设置 <code>Vary: Cookie</code> 作为二级缓存 key</li></ul><p><a href="https://mp.weixin.qq.com/s/43pa04szJ2zU_IyVP4LraQ">HTTP 缓存别再乱用了！推荐一个缓存设置的最佳姿势！</a></p><p>📒 如何监听系统黑暗模式</p><p>在 CSS 中可以通过 <code>prefers-color-scheme</code> 媒体查询实现：</p><pre><code class="language-css">body {
   color: black;
   background: white;
 }
