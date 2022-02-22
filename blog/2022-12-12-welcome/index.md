@@ -155,6 +155,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 持续集成
 
 - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
+- [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 - ⭐️ [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - ⭐️ [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 - [如何使用 docker 部署前端应用](https://juejin.cn/post/6844903793348329486)
