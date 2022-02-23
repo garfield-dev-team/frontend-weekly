@@ -5,6 +5,28 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+🌛 Leetcode 112 路径总和
+
+判断是否存在 **根节点到叶子节点** 的路径，这条路径上所有节点值相加等于目标和 `targetSum` 。如果存在，返回 `true` ；否则，返回 `false` 。
+
+```java
+class Solution {
+  public boolean hasPathSum(TreeNode root, int targetSum) {
+    if (root == null) return false;
+    if (root.left == null && root.right == null) {
+      return (targetSum - root.val) == 0;
+    }
+    boolean leftResult = hasPathSum(root.left, targetSum - root.val);
+    boolean rightResult = hasPathSum(root.right, targetSum - root.val);
+    return leftResult || rightResult;
+  }
+}
+```
+
+📒 [Podman 已成 Linux 官方标配！Docker 没戏了？](https://mp.weixin.qq.com/s/Pq6eFNxjWpFIGdSL3ya7Vg)
+
+⭐️ [不懂动态规划？21道 LeetCode题目带你学会动态规划！](https://juejin.cn/post/7000909761336049671)
+
 ⭐️ [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
 
 📒 HTTP 缓存最佳实践
