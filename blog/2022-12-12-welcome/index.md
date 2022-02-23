@@ -406,7 +406,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - diff 算法相关
   - https://github.com/snabbdom/snabbdom
   - https://github.com/snabbdom/snabbdom/blob/master/src/init.ts
-  - [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
+  - [浅析 Snabbdom 中 vnode 和 diff 算法](https://juejin.cn/post/7067693810918096903)
   - [diff 算法深入一下？](https://juejin.cn/post/6997965021401579556)
   - [DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
   - [关于Virtual DOM理解和Snabbdom源码浅析](https://juejin.cn/post/6966215704634720287)
