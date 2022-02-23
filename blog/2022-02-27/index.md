@@ -27,7 +27,7 @@ class Solution {
 
 ⭐️ [不懂动态规划？21道 LeetCode题目带你学会动态规划！](https://juejin.cn/post/7000909761336049671)
 
-⭐️ [浅析 Snabbdom 中 vnode 和 diff 算法](https://mp.weixin.qq.com/s/K5apaEp1LuLEnrBKB47Csw)
+⭐️ [浅析 Snabbdom 中 vnode 和 diff 算法](https://juejin.cn/post/7067693810918096903)
 
 📒 HTTP 缓存最佳实践
 
