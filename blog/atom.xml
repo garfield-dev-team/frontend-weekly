@@ -24,8 +24,61 @@
         <id>2月27日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月27日内容汇总"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🌛 Leetcode 112 路径总和]]></summary>
-        <content type="html"><![CDATA[<p>🌛 Leetcode 112 路径总和</p><p>判断是否存在 <strong>根节点到叶子节点</strong> 的路径，这条路径上所有节点值相加等于目标和 <code>targetSum</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p><pre><code class="language-java">class Solution {
+        <summary type="html"><![CDATA[📒 理解归并排序]]></summary>
+        <content type="html"><![CDATA[<p>📒 理解归并排序</p><p>归并排序就是对数组的左半边和右半边分别排序，然后再合并两个有序数组。</p><p>归并排序的过程可以在逻辑上抽象成一棵二叉树，树上的每个节点的值可以认为是 <code>nums[lo..hi]</code>，叶子节点的值就是数组中的单个元素。</p><p>然后，在每个节点的后序位置（左右子节点已经被排好序）的时候执行 <code>merge</code> 函数，合并两个子节点上的子数组。</p><p>这个 <code>merge</code> 操作会在二叉树的每个节点上都执行一遍，执行顺序是二叉树后序遍历的顺序。</p><pre><code class="language-java">class Merge {
+
+  // 用于辅助合并有序数组
+  private static int[] temp;
+
+  public static void sort(int[] nums) {
+    // 先给辅助数组开辟内存空间
+    temp = new int[nums.length];
+    // 排序整个数组（原地修改）
+    sort(nums, 0, nums.length - 1);
+  }
+
+  // 定义：将子数组 nums[lo..hi] 进行排序
+  private static void sort(int[] nums, int lo, int hi) {
+    if (lo == hi) {
+      // 单个元素不用排序
+      return;
+    }
+    // 这样写是为了防止溢出，效果等同于 (hi + lo) / 2
+    int mid = lo + (hi - lo) / 2;
+    // 先对左半部分数组 nums[lo..mid] 排序
+    sort(nums, lo, mid);
+    // 再对右半部分数组 nums[mid+1..hi] 排序
+    sort(nums, mid + 1, hi);
+    // 将两部分有序数组合并成一个有序数组
+    merge(nums, lo, mid, hi);
+  }
+
+  // 将 nums[lo..mid] 和 nums[mid+1..hi] 这两个有序数组合并成一个有序数组
+  private static void merge(int[] nums, int lo, int mid, int hi) {
+    // 先把 nums[lo..hi] 复制到辅助数组中
+    // 以便合并后的结果能够直接存入 nums
+    for (int i = lo; i &lt;= hi; i++) {
+      temp[i] = nums[i];
+    }
+
+    // 数组双指针技巧，合并两个有序数组
+    int i = lo, j = mid + 1;
+    for (int p = lo; p &lt;= hi; p++) {
+      if (i == mid + 1) {
+        // 左半边数组已全部被合并
+        nums[p] = temp[j++];
+      } else if (j == hi + 1) {
+        // 右半边数组已全部被合并
+        nums[p] = temp[i++];
+      } else if (temp[i] &gt; temp[j]) {
+        nums[p] = temp[j++];
+      } else {
+        nums[p] = temp[i++];
+      }
+    }
+  }
+}
+</code></pre><p><a href="https://mp.weixin.qq.com/s/7_jsikVCARPFrJ6Hj1EYsg">归并排序的正确理解方式及运用</a></p><p>🌛 Leetcode 112 路径总和</p><p>判断是否存在 <strong>根节点到叶子节点</strong> 的路径，这条路径上所有节点值相加等于目标和 <code>targetSum</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p><pre><code class="language-java">class Solution {
   public boolean hasPathSum(TreeNode root, int targetSum) {
     if (root == null) return false;
     if (root.left == null &amp;&amp; root.right == null) {
