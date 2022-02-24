@@ -255,6 +255,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Java 相关
 
+- [ElasticSearch进阶：一文全览各种ES查询在Java中的实现](https://blog.csdn.net/mu_wind/article/details/118423362)
 - [使用 @Transactional 时常犯的N种错误](https://juejin.cn/post/7031047868806873096)
 - [Spring Boot 2.x基础教程：使用@Scheduled实现定时任务](https://juejin.cn/post/6984974277573836830)
 - [Spring Boot中使用@Async实现异步调用，加速任务的执行！](https://juejin.cn/post/7007642025264676871)
