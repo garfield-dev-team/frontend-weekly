@@ -7,7 +7,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 📒 Leetcode 300 最长递增子序列
 
-常规方式是使用动态规范，时间复杂度 `O(n^2)`。
+常规方式是使用动态规范，时间复杂度 `O(n^2)`。这里注意 `dp[i]` 的定义是 **以 `nums[i]` 这个数结尾的最长递增子序列长度**。
 
 ```java
 class Solution {
