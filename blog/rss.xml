@@ -21,7 +21,7 @@
             <guid>2月27日内容汇总</guid>
             <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[📒 CSS 中的 object-fit 属性用法]]></description>
-            <content:encoded><![CDATA[<p>📒 CSS 中的 <code>object-fit</code> 属性用法</p><p>在项目中有一个需求，图片尺寸较小时，需要保存图片原有大小，图片尺寸大于容器大小时，需要缩放以适合容器大小，同时保持原有比例。</p><p>查阅 MDN 文档可知，在 <code>&lt;img&gt;</code> 和 <code>&lt;video&gt;</code> 等替换元素上可以使用 <code>object-fit</code> 属性，用于设置替换元素该如何适配容器，可以取以下几个值：</p><ul><li><code>object-fit: fill</code>：图片被拉伸以适应容器，这种方式不会保持长宽比</li><li><code>object-fit: contain</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较短边会留出空白</li><li><code>object-fit: cover</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较长边会被剪裁</li><li><code>object-fit: none</code>：图片不会调整大小</li><li><code>object-fit: scale-down</code>：图片较小时使用 <code>none</code>，图片较大时使用 <code>contain</code></li></ul><p>综上，使用 <code>object-fit: scale-down</code> 就可以实现项目需求。</p><blockquote><p>注意 IE 11 不支持 <code>object-fit</code></p></blockquote><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit - MDN</a></p><p>📒 理解归并排序</p><p>归并排序就是对数组的左半边和右半边分别排序，然后再合并两个有序数组。</p><p>归并排序的过程可以在逻辑上抽象成一棵二叉树，树上的每个节点的值可以认为是 <code>nums[lo..hi]</code>，叶子节点的值就是数组中的单个元素。</p><p>然后，在每个节点的后序位置（左右子节点已经被排好序）的时候执行 <code>merge</code> 函数，合并两个子节点上的子数组。</p><p>这个 <code>merge</code> 操作会在二叉树的每个节点上都执行一遍，执行顺序是二叉树后序遍历的顺序。</p><pre><code class="language-java">class Merge {
+            <content:encoded><![CDATA[<p>📒 CSS 中的 <code>object-fit</code> 属性用法</p><p>在项目中有一个需求，图片尺寸较小时，需要保存图片原有大小，图片尺寸大于容器大小时，需要缩放以适合容器大小，同时保持原有比例。</p><p>查阅 MDN 文档可知，在 <code>&lt;img&gt;</code> 和 <code>&lt;video&gt;</code> 等替换元素上可以使用 <code>object-fit</code> 属性，用于设置替换元素该如何适配容器，可以取以下几个值：</p><ul><li><code>object-fit: fill</code>：图片被拉伸以适应容器，这种方式不会保持长宽比</li><li><code>object-fit: contain</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较短边会留出空白</li><li><code>object-fit: cover</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较长边会被剪裁</li><li><code>object-fit: none</code>：图片不会调整大小</li><li><code>object-fit: scale-down</code>：图片较小时使用 <code>none</code>，图片较大时使用 <code>contain</code></li></ul><p>综上，使用 <code>object-fit: scale-down</code> 就可以实现项目需求。</p><blockquote><p>注意 IE 11 不支持 <code>object-fit</code></p></blockquote><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit - MDN</a></p><p>📒 理解归并排序</p><p>归并排序就是对数组的左半边和右半边分别排序，然后再合并两个有序数组。</p><ul><li>归并排序的过程可以在逻辑上抽象成一棵二叉树，树上的每个节点的值可以认为是 <code>nums[lo..hi]</code>，叶子节点的值就是数组中的单个元素</li><li>然后，在每个节点的后序位置（左右子节点已经被排好序）的时候执行 <code>merge</code> 函数，合并两个子节点上的子数组</li><li>这个 <code>merge</code> 操作会在二叉树的每个节点上都执行一遍，执行顺序是二叉树后序遍历的顺序</li></ul><blockquote><p>一句话总结，归并排序实际上就是先对数组不断进行二分，分到只有一个元素为止，此时 <code>merge</code> 方法开始发挥作用，将两个元素为一组，合并为长度为 2 的有序数组，再将两个长度为 2 的有序数组为一组，合并为长度为 4 的有序数组，以此类推</p></blockquote><pre><code class="language-java">class Merge {
 
   // 用于辅助合并有序数组（不能原地合并，需要借助额外空间）
   private static int[] temp;
@@ -41,6 +41,7 @@
       return;
     }
     // 这样写是为了防止溢出，效果等同于 (hi + lo) / 2
+    // 注意：对于无法整除的情况，Java 中 int 类型会自动向下取整
     int mid = lo + (hi - lo) / 2;
     // 先对左半部分数组 nums[lo..mid] 排序
     sort(nums, lo, mid);
