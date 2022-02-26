@@ -27,13 +27,14 @@
         <summary type="html"><![CDATA[📒 CSS 中的 object-fit 属性用法]]></summary>
         <content type="html"><![CDATA[<p>📒 CSS 中的 <code>object-fit</code> 属性用法</p><p>在项目中有一个需求，图片尺寸较小时，需要保存图片原有大小，图片尺寸大于容器大小时，需要缩放以适合容器大小，同时保持原有比例。</p><p>查阅 MDN 文档可知，在 <code>&lt;img&gt;</code> 和 <code>&lt;video&gt;</code> 等替换元素上可以使用 <code>object-fit</code> 属性，用于设置替换元素该如何适配容器，可以取以下几个值：</p><ul><li><code>object-fit: fill</code>：图片被拉伸以适应容器，这种方式不会保持长宽比</li><li><code>object-fit: contain</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较短边会留出空白</li><li><code>object-fit: cover</code>：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较长边会被剪裁</li><li><code>object-fit: none</code>：图片不会调整大小</li><li><code>object-fit: scale-down</code>：图片较小时使用 <code>none</code>，图片较大时使用 <code>contain</code></li></ul><p>综上，使用 <code>object-fit: scale-down</code> 就可以实现项目需求。</p><blockquote><p>注意 IE 11 不支持 <code>object-fit</code></p></blockquote><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit - MDN</a></p><p>📒 理解归并排序</p><p>归并排序就是对数组的左半边和右半边分别排序，然后再合并两个有序数组。</p><p>归并排序的过程可以在逻辑上抽象成一棵二叉树，树上的每个节点的值可以认为是 <code>nums[lo..hi]</code>，叶子节点的值就是数组中的单个元素。</p><p>然后，在每个节点的后序位置（左右子节点已经被排好序）的时候执行 <code>merge</code> 函数，合并两个子节点上的子数组。</p><p>这个 <code>merge</code> 操作会在二叉树的每个节点上都执行一遍，执行顺序是二叉树后序遍历的顺序。</p><pre><code class="language-java">class Merge {
 
-  // 用于辅助合并有序数组
+  // 用于辅助合并有序数组（不能原地合并，需要借助额外空间）
   private static int[] temp;
 
   public static void sort(int[] nums) {
-    // 先给辅助数组开辟内存空间
+    // 避免递归中频繁分配和释放内存可能产生的性能问题
+    // 提前给辅助数组开辟内存空间
     temp = new int[nums.length];
-    // 排序整个数组（原地修改）
+    // 原地修改的方式对整个数组进行排序
     sort(nums, 0, nums.length - 1);
   }
 
@@ -62,15 +63,19 @@
     }
 
     // 数组双指针技巧，合并两个有序数组
+    // i =&gt; 左半边数组起始下标
+    // j =&gt; 右半边数组起始下标
     int i = lo, j = mid + 1;
     for (int p = lo; p &lt;= hi; p++) {
       if (i == mid + 1) {
-        // 左半边数组已全部被合并
+        // 左半边数组已全部被合并，只需把右半边数组合并过来即可
         nums[p] = temp[j++];
       } else if (j == hi + 1) {
-        // 右半边数组已全部被合并
+        // 右半边数组已全部被合并，只需把左半边数组合并过来即可
         nums[p] = temp[i++];
       } else if (temp[i] &gt; temp[j]) {
+        // 将较小的元素合入，同时下标前进一位，此时是升序
+        // 只要将 &gt; 改为 &lt; 就可以把结果改为降序
         nums[p] = temp[j++];
       } else {
         nums[p] = temp[i++];
@@ -78,7 +83,7 @@
     }
   }
 }
-</code></pre><p><a href="https://mp.weixin.qq.com/s/7_jsikVCARPFrJ6Hj1EYsg">归并排序的正确理解方式及运用</a></p><p>🌛 Leetcode 112 路径总和</p><p>判断是否存在 <strong>根节点到叶子节点</strong> 的路径，这条路径上所有节点值相加等于目标和 <code>targetSum</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p><pre><code class="language-java">class Solution {
+</code></pre><blockquote><p>归并排序时间复杂度为 <code>O(nlogn)</code></p></blockquote><p><a href="https://mp.weixin.qq.com/s/7_jsikVCARPFrJ6Hj1EYsg">归并排序的正确理解方式及运用</a></p><p>🌛 Leetcode 112 路径总和</p><p>判断是否存在 <strong>根节点到叶子节点</strong> 的路径，这条路径上所有节点值相加等于目标和 <code>targetSum</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p><pre><code class="language-java">class Solution {
   public boolean hasPathSum(TreeNode root, int targetSum) {
     if (root == null) return false;
     if (root.left == null &amp;&amp; root.right == null) {
