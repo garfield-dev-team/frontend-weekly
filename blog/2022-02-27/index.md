@@ -5,6 +5,24 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 CSS 中的 `object-fit` 属性用法
+
+在项目中有一个需求，图片尺寸较小时，需要保存图片原有大小，图片尺寸大于容器大小时，需要缩放以适合容器大小，同时保持原有比例。
+
+查阅 MDN 文档可知，在 `<img>` 和 `<video>` 等替换元素上可以使用 `object-fit` 属性，用于设置替换元素该如何适配容器，可以取以下几个值：
+
+- `object-fit: fill`：图片被拉伸以适应容器，这种方式不会保持长宽比
+- `object-fit: contain`：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较短边会留出空白
+- `object-fit: cover`：图片被缩放以适应容器，同时保持长宽比，如果图片与容器长宽比不匹配，较长边会被剪裁
+- `object-fit: none`：图片不会调整大小
+- `object-fit: scale-down`：图片较小时使用 `none`，图片较大时使用 `contain`
+
+综上，使用 `object-fit: scale-down` 就可以实现项目需求。
+
+> 注意 IE 11 不支持 `object-fit`
+
+[object-fit - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+
 📒 理解归并排序
 
 归并排序就是对数组的左半边和右半边分别排序，然后再合并两个有序数组。
