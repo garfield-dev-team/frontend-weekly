@@ -36,13 +36,14 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ```java
 class Merge {
 
-  // 用于辅助合并有序数组
+  // 用于辅助合并有序数组（不能原地合并，需要借助额外空间）
   private static int[] temp;
 
   public static void sort(int[] nums) {
-    // 先给辅助数组开辟内存空间
+    // 避免递归中频繁分配和释放内存可能产生的性能问题
+    // 提前给辅助数组开辟内存空间
     temp = new int[nums.length];
-    // 排序整个数组（原地修改）
+    // 原地修改的方式对整个数组进行排序
     sort(nums, 0, nums.length - 1);
   }
 
@@ -71,15 +72,19 @@ class Merge {
     }
 
     // 数组双指针技巧，合并两个有序数组
+    // i => 左半边数组起始下标
+    // j => 右半边数组起始下标
     int i = lo, j = mid + 1;
     for (int p = lo; p <= hi; p++) {
       if (i == mid + 1) {
-        // 左半边数组已全部被合并
+        // 左半边数组已全部被合并，只需把右半边数组合并过来即可
         nums[p] = temp[j++];
       } else if (j == hi + 1) {
-        // 右半边数组已全部被合并
+        // 右半边数组已全部被合并，只需把左半边数组合并过来即可
         nums[p] = temp[i++];
       } else if (temp[i] > temp[j]) {
+        // 将较小的元素合入，同时下标前进一位，此时是升序
+        // 只要将 > 改为 < 就可以把结果改为降序
         nums[p] = temp[j++];
       } else {
         nums[p] = temp[i++];
@@ -88,6 +93,8 @@ class Merge {
   }
 }
 ```
+
+> 归并排序时间复杂度为 `O(nlogn)`
 
 [归并排序的正确理解方式及运用](https://mp.weixin.qq.com/s/7_jsikVCARPFrJ6Hj1EYsg)
 
