@@ -21,7 +21,7 @@
             <guid>2月27日内容汇总</guid>
             <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[📒 Leetcode 300 最长递增子序列]]></description>
-            <content:encoded><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规范，时间复杂度 <code>O(n^2)</code>。</p><pre><code class="language-java">class Solution {
+            <content:encoded><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规范，时间复杂度 <code>O(n^2)</code>。这里注意 <code>dp[i]</code> 的定义是 <strong>以 <code>nums[i]</code> 这个数结尾的最长递增子序列长度</strong>。</p><pre><code class="language-java">class Solution {
   public int lengthOfLIS(int[] nums) {
     // 定义 dp 数组
     // dp[i] 表示以 nums[i] 这个数结尾的最长递增子序列长度

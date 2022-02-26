@@ -25,7 +25,7 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月27日内容汇总"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 Leetcode 300 最长递增子序列]]></summary>
-        <content type="html"><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规范，时间复杂度 <code>O(n^2)</code>。</p><pre><code class="language-java">class Solution {
+        <content type="html"><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规范，时间复杂度 <code>O(n^2)</code>。这里注意 <code>dp[i]</code> 的定义是 <strong>以 <code>nums[i]</code> 这个数结尾的最长递增子序列长度</strong>。</p><pre><code class="language-java">class Solution {
   public int lengthOfLIS(int[] nums) {
     // 定义 dp 数组
     // dp[i] 表示以 nums[i] 这个数结尾的最长递增子序列长度
