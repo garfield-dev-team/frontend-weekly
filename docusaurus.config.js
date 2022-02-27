@@ -40,10 +40,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'announcementBar-2', // Increment on change
-        content: `⭐️ <b>恭祝大家新春快乐，虎年大吉，虎虎生威！</b>`,
-      },
+      // announcementBar: {
+      //   id: 'announcementBar-2', // Increment on change
+      //   content: `⭐️ <b>恭祝大家新春快乐，虎年大吉，虎虎生威！</b>`,
+      // },
       // algolia: {
       //   appId: 'X1Z85QJPUV',
       //   apiKey: 'bf7211c161e8205da2f933a02534105a',
