@@ -5,6 +5,30 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Vue diff 算法
+
+Vue2 diff 算法核心流程如下：
+
+- diff 的入口函数为 `patch`，使用 `sameVnode` 比较节点是否相同，如相同则使用 `patchVnode` 继续进行深层比较，否则就使用 `createEle` 方法渲染出真实 DOM 节点，然后替换旧元素节点
+- `sameVnode` 通过比较 `key` 值是否一样、标签名是否一样、是否都为注释节点、是否都定义 `data`、当标签为 `input` 时，`type` 是否相同来判断两个节点是否相同
+- `patchVnode` 方法如何对节点深层比较
+  - 拿到真实 DOM 的节点 `el`（即 `oldVnode.el`）
+  - 判断当前 `newVnode` 和 `oldVnode` 是否指向同一对象，如果是直接 `return`
+  - 如果新旧虚拟节点是文本节点，且文本不一样，则直接将真实 DOM 中文本更新为新虚拟节点的文本；若文本没有变化，则继续对比新旧节点的 `children`
+  - 如果 `oldVnode` 有子节点而 `newVnode` 没有，则删除 `el` 的子节点
+  - 如果 `oldVnode` 没有子节点而 `newVnode` 有，则将 `newVnode` 的子节点渲染出真实 DOM 添加到 `el`（Vue 源码中会判断是否有 `key` 重复）
+  - 如果两者都有子节点，则执行 `updateChildren` 函数比较子节点
+- `updateChildren` 是 diff 算法核心部分，当发现新旧虚拟节点的子节点都存在时，需要判断哪些节点是需要移动的，哪些节点是可以直接复用的，进而提高 diff 的效率
+  - 通过 **首尾指针法**，在新旧子节点的首位定义四个指针，然后不断对比找到可复用的节点，同时判断需要移动的节点
+  - 非理想状态下只能通过节点映射的方式去找可复用节点，时间复杂度为 `O(n^2)`
+  - Vue3 的 diff 算法在非理想状态下的节点对比使用了最长递增子序列来处理，时间复杂度为 `O(nlgn)～O(n^2)`
+
+![image](./patch.png)
+
+[图解Diff算法——Vue篇](https://mp.weixin.qq.com/s/8M-pJdKjF6bx5ijtSFKIcw)
+
+[浅析 Snabbdom 中 vnode 和 diff 算法](https://juejin.cn/post/7067693810918096903)
+
 📒 Leetcode 300 最长递增子序列
 
 常规方式是使用动态规划，时间复杂度 `O(n^2)`。这里注意 `dp[i]` 的定义是 **以 `nums[i]` 这个数结尾的最长递增子序列长度**。
