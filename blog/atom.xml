@@ -25,7 +25,7 @@
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月27日内容汇总"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[📒 Leetcode 300 最长递增子序列]]></summary>
-        <content type="html"><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规范，时间复杂度 <code>O(n^2)</code>。这里注意 <code>dp[i]</code> 的定义是 <strong>以 <code>nums[i]</code> 这个数结尾的最长递增子序列长度</strong>。</p><pre><code class="language-java">class Solution {
+        <content type="html"><![CDATA[<p>📒 Leetcode 300 最长递增子序列</p><p>常规方式是使用动态规划，时间复杂度 <code>O(n^2)</code>。这里注意 <code>dp[i]</code> 的定义是 <strong>以 <code>nums[i]</code> 这个数结尾的最长递增子序列长度</strong>。</p><pre><code class="language-java">class Solution {
   public int lengthOfLIS(int[] nums) {
     // 定义 dp 数组
     // dp[i] 表示以 nums[i] 这个数结尾的最长递增子序列长度
@@ -35,7 +35,7 @@
     for (int i = 0; i &lt; nums.length; i++) {
       for (int j = 0; j &lt; i; j++) {
         // 假设 dp[0...i-1] 都已知，需要求出 dp[i]
-        // 只需要遍历 nums[0...i-1]，找到结尾比 nums[i] 小的子序列 dp[j]
+        // 只需要遍历 nums[0...i-1]，找到结尾比 nums[i] 小的子序列长度 dp[j]
         // 然后把 nums[i] 接到最后，就可以形成一个新的递增子序列，长度为 dp[j] + 1
         // 显然，可能形成很多种新的子序列，只需要选择最长的，作为 dp[i] 的值即可
         if (nums[i] &gt; nums[j]) {
