@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [在 TIME_WAIT 状态的 TCP 连接，收到 SYN 后会发生什么？](https://juejin.cn/post/7070364142015610888)
+
+📒 [一键部署 K8S 环境，10分钟玩转，这款开源神器实在太香了！](https://juejin.cn/post/7070683049049980941)
+
 📒 [了解下Rust 模块使用方式](https://juejin.cn/post/7070481262749679653)
 
 🌛 [一文秒杀排列组合问题的 9 种题型](https://mp.weixin.qq.com/s/nrTpZ9b9RvfNsaEkJoHMvg)
@@ -25,7 +29,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 📒 [React内部让人迷惑的性能优化策略](https://juejin.cn/post/7070395594379886629)
 
-📒 [Nest.js 是如何松耦合地整合 Express 的？](https://juejin.cn/post/7070377945553977357)
+📒 [Nest.js 基于 Express 但也不是完全基于](https://juejin.cn/post/7070377945553977357)
 
 📒 [如何用 Proxy 更优雅地处理异常](https://juejin.cn/post/7070120806214271012)
 
