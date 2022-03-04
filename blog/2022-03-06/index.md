@@ -9,6 +9,27 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 📒 [一键部署 K8S 环境，10分钟玩转，这款开源神器实在太香了！](https://juejin.cn/post/7070683049049980941)
 
+📒 charles 如何连接手机抓包
+
+- 确保手机和电脑连接的是同一个网络
+- 首先打开 charles，会启动一个服务，查看端口：proxy -> proxy setting
+- 勾选 Enable transparent HTTP proxying
+- 查看本机 IP
+- 在手机上设置 http 代理服务器，输入 IP 和端口
+- 此时 charles 会弹出提示，有新的连接，点击 allow
+
+📒 前端项目的 `.env` 文件是如何生效的，一句话总结
+
+通过 `dotenv` 这个包解析 `.env` 文件，加载到 `process.ENV` 里面，这时候可以通过 `process.ENV.xxx` 访问到环境变量，适用于 Node.js 项目，但是由于浏览器环境访问不到 `process` 对象，所以对于前端项目，还需要使用 Webpack 的 DefinePlugin 在打包构建阶段将变量替换为对应的值。
+
+📒 如何防止用户篡改 url 参数
+
+> http://localhost:8080/codepc/live?codeTime=1646038261531&liveId=5e24dd3cf03a&sign=e8fe282676f584ceab7e35f84cbc52ff&keyFrom=youdao
+
+前端的直播链接带有 `codeTime` 和 `liveId`，如何防止用户篡改。只需要后端在返回 `codeTime` 和 `liveId` 的时候，同时计算一个签名 `sign` 返回给前端，前端提交给后端的时候，同时传递三个参数，后端计算一个新的签名，与前端传过来的 `sign` 进行比对，如果一样就说明没有篡改。
+
+但是计算签名用的 md5 是一个公开的算法，假如有人篡改了 `codeTime` 和 `liveId` ，只要他使用 md5 计算一个新的签名 `sign` ，这样传给后端校验必然可以通过。这就需要后端签名的时候拼接一个加密串进去，验签的时候也用这个加密串。这样由于别人不知道加密串，即便生成新的签名，后端校验也不会通过。
+
 📒 [了解下Rust 模块使用方式](https://juejin.cn/post/7070481262749679653)
 
 🌛 [一文秒杀排列组合问题的 9 种题型](https://mp.weixin.qq.com/s/nrTpZ9b9RvfNsaEkJoHMvg)
