@@ -5,6 +5,40 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何理解 Node.js 模块
+
+一个模块实际上可以看做一个 `once` 函数，头部的 `require` 命令可以看做入参，`module.exports` 可以看做返回值。
+
+当首次加载一个模块的时候，就会运行这个模块代码，可以看做是调用一个函数，执行结束后得到导出的内容并被缓存，可以看做函数返回一个值。当再次加载这个模块，不再执行这个模块代码，而是直接从缓存中取值。
+
+在一个函数中，我们知道可以使用 `return` 语句提前结束运行，那么在模块中如何实现呢，答案是使用 `process.exit(1)`：
+
+```js
+const fs = require("node:fs");
+const path = require("node:path");
+const webpack = require("webpack");
+
+const workDir = process.cwd();
+const envFilePath = path.resolve(workDir, "./.env.local");
+const hasEnvFile = fs.existsSync(envFilePath);
+
+if (!hasEnvFile) {
+  process.exit(1);
+}
+
+module.exports = {
+  mode: "development",
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: '[chunkhash].bundle.js',
+    clean: true
+  },
+}
+```
+
+> 这里注意下，`fs.exists()` 方法已经废弃了，但是 `fs.existsSync()` 仍然可用。此外还可使用 `fs.stat()` 或者 `fs.access()` 检查文件是否存在
+
 📒 [在 TIME_WAIT 状态的 TCP 连接，收到 SYN 后会发生什么？](https://juejin.cn/post/7070364142015610888)
 
 📒 [一键部署 K8S 环境，10分钟玩转，这款开源神器实在太香了！](https://juejin.cn/post/7070683049049980941)
