@@ -24,8 +24,23 @@
         <id>3月6日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月6日内容汇总"/>
         <updated>2022-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 如何理解 Node.js 模块]]></summary>
-        <content type="html"><![CDATA[<p>📒 如何理解 Node.js 模块</p><p>一个模块实际上可以看做一个 <code>once</code> 函数，头部的 <code>require</code> 命令可以看做入参，<code>module.exports</code> 可以看做返回值。</p><p>当首次加载一个模块的时候，就会运行这个模块代码，可以看做是调用一个函数，执行结束后得到导出的内容并被缓存，可以看做函数返回一个值。当再次加载这个模块，不再执行这个模块代码，而是直接从缓存中取值。</p><p>在一个函数中，我们知道可以使用 <code>return</code> 语句提前结束运行，那么在模块中如何实现呢，答案是使用 <code>process.exit(1)</code>：</p><pre><code class="language-js">const fs = require(&quot;node:fs&quot;);
+        <summary type="html"><![CDATA[📒 前端三种 Content-Type]]></summary>
+        <content type="html"><![CDATA[<p>📒 前端三种 Content-Type</p><p><code>application/json</code>：这种应该是接口请求用到最多的，可以使用 <code>JSON.stringify()</code> 序列化得到，实际传递的内容类似于：</p><pre><code class="language-json">{&quot;a&quot;: &quot;111&quot;, &quot;b&quot;: &quot;222&quot;}
+</code></pre><p><code>application/x-www-form-urlencoded</code>：这是表单提交对应的 Content-Type，实际上就是通过 body 传递 query 参数，如使用 HTML 的表单元素，浏览器会自动进行拼接，也可通过 <code>URLSearchParams</code> 拼接得到，实际传递的内容类似于：</p><pre><code class="language-json">a=111&amp;b=222
+</code></pre><p><code>multipart/form-data</code>：是通过 <code>FormData</code> 对象构造出来的表单格式，通常用于文件上传，实际传递的报文内容类似于：</p><pre><code class="language-http">POST /test.html HTTP/1.1
+Host: example.org
+Content-Type: multipart/form-data;boundary=&quot;boundary&quot;
+
+--boundary
+Content-Disposition: form-data; name=&quot;field1&quot;
+
+value1
+--boundary
+Content-Disposition: form-data; name=&quot;field2&quot;; filename=&quot;example.txt&quot;
+
+value2
+--boundary--
+</code></pre><blockquote><p>顺便提一下，文件下载对应的 Content-Type 是 <code>application/octet-stream</code></p></blockquote><p>📒 如何理解 Node.js 模块</p><p>一个模块实际上可以看做一个 <code>once</code> 函数，头部的 <code>require</code> 命令可以看做入参，<code>module.exports</code> 可以看做返回值。</p><p>当首次加载一个模块的时候，就会运行这个模块代码，可以看做是调用一个函数，执行结束后得到导出的内容并被缓存，可以看做函数返回一个值。当再次加载这个模块，不再执行这个模块代码，而是直接从缓存中取值。</p><p>在一个函数中，我们知道可以使用 <code>return</code> 语句提前结束运行，那么在模块中如何实现呢，答案是使用 <code>process.exit(1)</code>：</p><pre><code class="language-js">const fs = require(&quot;node:fs&quot;);
 const path = require(&quot;node:path&quot;);
 const webpack = require(&quot;webpack&quot;);
 
