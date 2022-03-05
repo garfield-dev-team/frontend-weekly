@@ -5,6 +5,40 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 前端三种 Content-Type
+
+`application/json`：这种应该是接口请求用到最多的，可以使用 `JSON.stringify()` 序列化得到，实际传递的内容类似于：
+
+```json
+{"a": "111", "b": "222"}
+```
+
+`application/x-www-form-urlencoded`：这是表单提交对应的 Content-Type，实际上就是通过 body 传递 query 参数，如使用 HTML 的表单元素，浏览器会自动进行拼接，也可通过 `URLSearchParams` 拼接得到，实际传递的内容类似于：
+
+```json
+a=111&b=222
+```
+
+`multipart/form-data`：是通过 `FormData` 对象构造出来的表单格式，通常用于文件上传，实际传递的报文内容类似于：
+
+```http
+POST /test.html HTTP/1.1
+Host: example.org
+Content-Type: multipart/form-data;boundary="boundary"
+
+--boundary
+Content-Disposition: form-data; name="field1"
+
+value1
+--boundary
+Content-Disposition: form-data; name="field2"; filename="example.txt"
+
+value2
+--boundary--
+```
+
+> 顺便提一下，文件下载对应的 Content-Type 是 `application/octet-stream`
+
 📒 如何理解 Node.js 模块
 
 一个模块实际上可以看做一个 `once` 函数，头部的 `require` 命令可以看做入参，`module.exports` 可以看做返回值。
