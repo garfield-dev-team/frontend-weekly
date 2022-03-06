@@ -5,6 +5,36 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何写对二分查找
+
+- 不要使用 `else`，而是把所有情况用 `else if` 写清楚
+- 计算 `mid` 时需要防止溢出，使用 `left + (right - left) / 2` 先减后加这样的写法
+- `while` 循环的条件 `<=` 对应 `right` 初始值为 `nums.length - 1`，此时终止条件是 `left == right + 1`，例如 `[3, 2]`
+- 如果 `while` 循环的条件 `<`，需要把 `right` 初始值改为 `nums.length`，此时终止条件是 `left == right`，例如 `[2, 2]`，这样会漏掉最后一个区间的元素，需要单独判断下
+- 当 `mid` 不是要找的 `target` 时，下一步应该搜索 `[left, mid-1]` 或者 `[mid+1, right]`，对应 `left = mid + 1` 或者 `right = mid - 1`
+- 二分查找时间复杂度 `O(logn)`
+
+```java {4,6,11,13}
+class Solution {
+  public int search(int[] nums, int target) {
+    int left = 0;
+    int right = nums.length - 1; // 注意
+
+    while (left <= right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] == target) {
+        return mid;
+      } else if (nums[mid] < target) {
+        left = mid + 1; // 注意
+      } else if (nums[mid] > target) {
+        right = mid - 1; // 注意
+      }
+    }
+    return -1;
+  }
+}
+```
+
 📒 前端三种 Content-Type
 
 `application/json`：这种应该是接口请求用到最多的，可以使用 `JSON.stringify()` 序列化得到，实际传递的内容类似于：
