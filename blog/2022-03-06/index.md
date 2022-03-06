@@ -5,6 +5,18 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [通过Vue自定义指令实现前端埋点](https://mp.weixin.qq.com/s/baVNEeZZdmqUiolyssZgqg)
+
+📒 [Deno 简介：它比 Node.js 更好吗？](https://mp.weixin.qq.com/s/qnA1tFKMXr7hwsEKFXKOZg)
+
+📒 [快来玩转这 19 个 css 技巧](https://mp.weixin.qq.com/s/2leA0q8QQvdQzv86ic7ZEg)
+
+📒 [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
+
+📒 [图解|Linux内存背后的那些神秘往事](https://mp.weixin.qq.com/s/l_YdpyHht5Ayvrc7LFZNIA)
+
+📒 [深入理解Go Json.Unmarshal精度丢失之谜](https://mp.weixin.qq.com/s/36CqC1U54LUd4-izt4iZ1g)
+
 📒 如何理解快速排序和归并排序
 
 快速排序实际就是二叉树的前序遍历，归并排序实际就是二叉树的后序遍历。

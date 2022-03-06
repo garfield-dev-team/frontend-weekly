@@ -23,6 +23,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## TS 高级技巧
 
+- 🌛 [TypeScript 类型系统：分布式条件类型全解](https://mp.weixin.qq.com/s/TUv8Cu6_ftQQ6lEWAwIa4w)
 - 🌛 [接近天花板的TS类型体操，看懂你就能玩转TS了](https://juejin.cn/post/7061556434692997156)
 - 🌛 [TypeScript 类型编程: 从基础到编译器实战](https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A)
 - 🌛 [知其然，知其所以然：TypeScript 中的协变与逆变](https://juejin.cn/post/7050099282317148174)
@@ -144,6 +145,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)
 - [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
+- 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [前端架构师神技，三招统一团队代码风格](https://juejin.cn/post/7029512357428592648)
 - 🌛 [手把手教你搭建一个灰度发布环境](https://juejin.cn/post/6844904110601273357)
@@ -170,8 +172,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 服务端相关
 
-- ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+- ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
+- [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
+- [图解|Linux内存背后的那些神秘往事](https://mp.weixin.qq.com/s/l_YdpyHht5Ayvrc7LFZNIA)
+- [图解|什么是内容分发网络(cdn)](https://juejin.cn/post/7064952956201730062)
 - [一键部署 K8S 环境，10分钟玩转，这款开源神器实在太香了！](https://juejin.cn/post/7070683049049980941)
 - [颜值爆表！Redis 官方可视化工具来啦，功能真心强大！](https://mp.weixin.qq.com/s/KIcn2TAwY58JGoWiz82Q2g)
 - [前端到底用nginx来做啥](https://juejin.cn/post/7064378702779891749)
@@ -271,6 +276,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
+- 🌛 [深入理解Go Json.Unmarshal精度丢失之谜](https://mp.weixin.qq.com/s/36CqC1U54LUd4-izt4iZ1g)
 - [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
 - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
