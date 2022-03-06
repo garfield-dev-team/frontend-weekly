@@ -20,8 +20,58 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/3月6日内容汇总</link>
             <guid>3月6日内容汇总</guid>
             <pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 如何写对二分查找]]></description>
-            <content:encoded><![CDATA[<p>📒 如何写对二分查找</p><ul><li>不要使用 <code>else</code>，而是把所有情况用 <code>else if</code> 写清楚</li><li>计算 <code>mid</code> 时需要防止溢出，使用 <code>left + (right - left) / 2</code> 先减后加这样的写法</li><li><code>while</code> 循环的条件 <code>&lt;=</code> 对应 <code>right</code> 初始值为 <code>nums.length - 1</code>，此时终止条件是 <code>left == right + 1</code>，例如 <code>[3, 2]</code></li><li>如果 <code>while</code> 循环的条件 <code>&lt;</code>，需要把 <code>right</code> 初始值改为 <code>nums.length</code>，此时终止条件是 <code>left == right</code>，例如 <code>[2, 2]</code>，这样会漏掉最后一个区间的元素，需要单独判断下</li><li>当 <code>mid</code> 不是要找的 <code>target</code> 时，下一步应该搜索 <code>[left, mid-1]</code> 或者 <code>[mid+1, right]</code>，对应 <code>left = mid + 1</code> 或者 <code>right = mid - 1</code></li><li>二分查找时间复杂度 <code>O(logn)</code></li></ul><pre><code class="language-java" metastring="{4,6,11,13}">class Solution {
+            <description><![CDATA[📒 如何理解快速排序和归并排序]]></description>
+            <content:encoded><![CDATA[<p>📒 如何理解快速排序和归并排序</p><p>快速排序实际就是二叉树的前序遍历，归并排序实际就是二叉树的后序遍历。</p><p>快速排序的逻辑是，若要对 <code>nums[lo..hi]</code> 进行排序，我们先找一个分界点 <code>p</code>，通过交换元素使得 <code>nums[lo..p-1]</code> 都小于等于 <code>nums[p]</code>，且 <code>nums[p+1..hi]</code> 都大于 <code>nums[p]</code>，然后递归地去 <code>nums[lo..p-1]</code> 和 <code>nums[p+1..hi]</code> 中寻找新的分界点，最后整个数组就被排序了。</p><p>快速排序的代码框架如下：</p><pre><code class="language-java">void sort(int[] nums, int lo, int hi) {
+  /****** 前序遍历位置 ******/
+  // 通过交换元素构建分界点 p
+  int p = partition(nums, lo, hi);
+  /************************/
+
+  sort(nums, lo, p - 1);
+  sort(nums, p + 1, hi);
+}
+</code></pre><blockquote><p>先构造分界点，然后去左右子数组构造分界点，你看这不就是一个二叉树的前序遍历吗</p></blockquote><p>再说说归并排序的逻辑，若要对 <code>nums[lo..hi]</code> 进行排序，我们先对 <code>nums[lo..mid]</code> 排序，再对 <code>nums[mid+1..hi]</code> 排序，最后把这两个有序的子数组合并，整个数组就排好序了。</p><p>归并排序的代码框架如下：</p><pre><code class="language-java">void sort(int[] nums, int lo, int hi) {
+  int mid = (lo + hi) / 2;
+  // 排序 nums[lo..mid]
+  sort(nums, lo, mid);
+  // 排序 nums[mid+1..hi]
+  sort(nums, mid + 1, hi);
+
+  /****** 后序位置 ******/
+  // 合并 nums[lo..mid] 和 nums[mid+1..hi]
+  merge(nums, lo, mid, hi);
+  /*********************/
+}
+</code></pre><blockquote><p>先对左右子数组排序，然后合并（类似合并有序链表的逻辑），你看这是不是二叉树的后序遍历框架？另外，这不就是传说中的分治算法嘛，不过如此呀</p></blockquote><p>说了这么多，旨在说明，二叉树的算法思想的运用广泛，甚至可以说，只要涉及递归，都可以抽象成二叉树的问题。</p><p>📒 Leetcode 236 二叉树最近公共祖先</p><p><code>lowestCommonAncestor</code> 方法的定义：给该函数输入三个参数 <code>root</code>，<code>p</code>，<code>q</code>，它会返回一个节点。</p><ul><li>情况 1，如果 <code>p</code> 和 <code>q</code> 都在以 <code>root</code> 为根的树中，函数返回的即 <code>p</code> 和 <code>q</code> 的最近公共祖先节点。</li><li>情况 2，如果 <code>p</code> 和 <code>q</code> 都不在以 <code>root</code> 为根的树中，则理所当然地返回 <code>null</code> 呗。</li><li>情况 3，如果 <code>p</code> 和 <code>q</code> 只有一个存在于 <code>root</code> 为根的树中，函数就返回那个节点。</li></ul><p>:::tip</p><p>题目说了输入的 <code>p</code> 和 <code>q</code> 一定存在于以 <code>root</code> 为根的树中，但是递归过程中，以上三种情况都有可能发生，所以说这里要定义清楚，后续这些定义都会在代码中体现。</p><p>函数参数中的变量是 <code>root</code>，因为根据框架，<code>lowestCommonAncestor(root)</code> 会递归调用 <code>root.left</code> 和 <code>root.right</code>；至于 <code>p</code> 和 <code>q</code>，我们要求它俩的公共祖先，它俩肯定不会变化的。你也可以理解这是「状态转移」，每次递归在做什么？不就是在把「以root为根」转移成「以root的子节点为根」，不断缩小问题规模嘛</p><p>:::</p><pre><code class="language-java">class Solution {
+  public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    // 两个 base case
+    // 1.如果 root 为空，直接返回 null
+    if (root == null) return null;
+    // 2.如果 root 本身就是 p 或者 q
+    // 例如 root 是 p 节点，如果 q 存在于以 root 为根的树中，显然 root 就是最近公共祖先
+    // 即使 q 不存在于以 root 为根的树中，按照情况 3 的定义，也应该返回 root 节点
+    if (root == p || root == q) return root;
+
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+    // 在后序位置分情况讨论
+    // 情况 1，如果 p 和 q 都在以 root 为根的树中
+    // 那么 left 和 right 一定分别是 p 和 q（从 base case 看出）
+    // 由于后序位置是从下往上，就好比从 p 和 q 出发往上走
+    // 第一次相交的节点就是这个 root，显然就是最近公共祖先
+    if (left != null &amp;&amp; right != null) {
+      return root;
+    }
+    // 情况 2，如果 p 和 q 都不在以 root 为根的树中，直接返回 null
+    if (left == null &amp;&amp; right == null) {
+      return null;
+    }
+    // 情况 3，如果 p 和 q 只有一个存在于 root 为根的树中，函数返回该节点
+    return left == null ? right : left;
+  }
+}
+</code></pre><p>📒 如何写对二分查找</p><ul><li>不要使用 <code>else</code>，而是把所有情况用 <code>else if</code> 写清楚</li><li>计算 <code>mid</code> 时需要防止溢出，使用 <code>left + (right - left) / 2</code> 先减后加这样的写法</li><li><code>while</code> 循环的条件 <code>&lt;=</code> 对应 <code>right</code> 初始值为 <code>nums.length - 1</code>，此时终止条件是 <code>left == right + 1</code>，例如 <code>[3, 2]</code></li><li>如果 <code>while</code> 循环的条件 <code>&lt;</code>，需要把 <code>right</code> 初始值改为 <code>nums.length</code>，此时终止条件是 <code>left == right</code>，例如 <code>[2, 2]</code>，这样会漏掉最后一个区间的元素，需要单独判断下</li><li>当 <code>mid</code> 不是要找的 <code>target</code> 时，下一步应该搜索 <code>[left, mid-1]</code> 或者 <code>[mid+1, right]</code>，对应 <code>left = mid + 1</code> 或者 <code>right = mid - 1</code></li><li>二分查找时间复杂度 <code>O(logn)</code></li></ul><pre><code class="language-java" metastring="{4,6,11,13}">class Solution {
   public int search(int[] nums, int target) {
     int left = 0;
     int right = nums.length - 1; // 注意
