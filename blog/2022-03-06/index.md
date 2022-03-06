@@ -5,6 +5,99 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何理解快速排序和归并排序
+
+快速排序实际就是二叉树的前序遍历，归并排序实际就是二叉树的后序遍历。
+
+快速排序的逻辑是，若要对 `nums[lo..hi]` 进行排序，我们先找一个分界点 `p`，通过交换元素使得 `nums[lo..p-1]` 都小于等于 `nums[p]`，且 `nums[p+1..hi]` 都大于 `nums[p]`，然后递归地去 `nums[lo..p-1]` 和 `nums[p+1..hi]` 中寻找新的分界点，最后整个数组就被排序了。
+
+快速排序的代码框架如下：
+
+```java
+void sort(int[] nums, int lo, int hi) {
+  /****** 前序遍历位置 ******/
+  // 通过交换元素构建分界点 p
+  int p = partition(nums, lo, hi);
+  /************************/
+
+  sort(nums, lo, p - 1);
+  sort(nums, p + 1, hi);
+}
+```
+
+> 先构造分界点，然后去左右子数组构造分界点，你看这不就是一个二叉树的前序遍历吗
+
+再说说归并排序的逻辑，若要对 `nums[lo..hi]` 进行排序，我们先对 `nums[lo..mid]` 排序，再对 `nums[mid+1..hi]` 排序，最后把这两个有序的子数组合并，整个数组就排好序了。
+
+归并排序的代码框架如下：
+
+```java
+void sort(int[] nums, int lo, int hi) {
+  int mid = (lo + hi) / 2;
+  // 排序 nums[lo..mid]
+  sort(nums, lo, mid);
+  // 排序 nums[mid+1..hi]
+  sort(nums, mid + 1, hi);
+
+  /****** 后序位置 ******/
+  // 合并 nums[lo..mid] 和 nums[mid+1..hi]
+  merge(nums, lo, mid, hi);
+  /*********************/
+}
+```
+
+> 先对左右子数组排序，然后合并（类似合并有序链表的逻辑），你看这是不是二叉树的后序遍历框架？另外，这不就是传说中的分治算法嘛，不过如此呀
+
+说了这么多，旨在说明，二叉树的算法思想的运用广泛，甚至可以说，只要涉及递归，都可以抽象成二叉树的问题。
+
+📒 Leetcode 236 二叉树最近公共祖先
+
+`lowestCommonAncestor` 方法的定义：给该函数输入三个参数 `root`，`p`，`q`，它会返回一个节点。
+
+- 情况 1，如果 `p` 和 `q` 都在以 `root` 为根的树中，函数返回的即 `p` 和 `q` 的最近公共祖先节点。
+- 情况 2，如果 `p` 和 `q` 都不在以 `root` 为根的树中，则理所当然地返回 `null` 呗。
+- 情况 3，如果 `p` 和 `q` 只有一个存在于 `root` 为根的树中，函数就返回那个节点。
+
+:::tip
+
+题目说了输入的 `p` 和 `q` 一定存在于以 `root` 为根的树中，但是递归过程中，以上三种情况都有可能发生，所以说这里要定义清楚，后续这些定义都会在代码中体现。
+
+函数参数中的变量是 `root`，因为根据框架，`lowestCommonAncestor(root)` 会递归调用 `root.left` 和 `root.right`；至于 `p` 和 `q`，我们要求它俩的公共祖先，它俩肯定不会变化的。你也可以理解这是「状态转移」，每次递归在做什么？不就是在把「以root为根」转移成「以root的子节点为根」，不断缩小问题规模嘛
+
+:::
+
+```java
+class Solution {
+  public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    // 两个 base case
+    // 1.如果 root 为空，直接返回 null
+    if (root == null) return null;
+    // 2.如果 root 本身就是 p 或者 q
+    // 例如 root 是 p 节点，如果 q 存在于以 root 为根的树中，显然 root 就是最近公共祖先
+    // 即使 q 不存在于以 root 为根的树中，按照情况 3 的定义，也应该返回 root 节点
+    if (root == p || root == q) return root;
+
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+    // 在后序位置分情况讨论
+    // 情况 1，如果 p 和 q 都在以 root 为根的树中
+    // 那么 left 和 right 一定分别是 p 和 q（从 base case 看出）
+    // 由于后序位置是从下往上，就好比从 p 和 q 出发往上走
+    // 第一次相交的节点就是这个 root，显然就是最近公共祖先
+    if (left != null && right != null) {
+      return root;
+    }
+    // 情况 2，如果 p 和 q 都不在以 root 为根的树中，直接返回 null
+    if (left == null && right == null) {
+      return null;
+    }
+    // 情况 3，如果 p 和 q 只有一个存在于 root 为根的树中，函数返回该节点
+    return left == null ? right : left;
+  }
+}
+```
+
 📒 如何写对二分查找
 
 - 不要使用 `else`，而是把所有情况用 `else if` 写清楚
