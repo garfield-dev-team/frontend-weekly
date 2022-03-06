@@ -24,8 +24,26 @@
         <id>3月6日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月6日内容汇总"/>
         <updated>2022-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 前端三种 Content-Type]]></summary>
-        <content type="html"><![CDATA[<p>📒 前端三种 Content-Type</p><p><code>application/json</code>：这种应该是接口请求用到最多的，可以使用 <code>JSON.stringify()</code> 序列化得到，实际传递的内容类似于：</p><pre><code class="language-json">{&quot;a&quot;: &quot;111&quot;, &quot;b&quot;: &quot;222&quot;}
+        <summary type="html"><![CDATA[📒 如何写对二分查找]]></summary>
+        <content type="html"><![CDATA[<p>📒 如何写对二分查找</p><ul><li>不要使用 <code>else</code>，而是把所有情况用 <code>else if</code> 写清楚</li><li>计算 <code>mid</code> 时需要防止溢出，使用 <code>left + (right - left) / 2</code> 先减后加这样的写法</li><li><code>while</code> 循环的条件 <code>&lt;=</code> 对应 <code>right</code> 初始值为 <code>nums.length - 1</code>，此时终止条件是 <code>left == right + 1</code>，例如 <code>[3, 2]</code></li><li>如果 <code>while</code> 循环的条件 <code>&lt;</code>，需要把 <code>right</code> 初始值改为 <code>nums.length</code>，此时终止条件是 <code>left == right</code>，例如 <code>[2, 2]</code>，这样会漏掉最后一个区间的元素，需要单独判断下</li><li>当 <code>mid</code> 不是要找的 <code>target</code> 时，下一步应该搜索 <code>[left, mid-1]</code> 或者 <code>[mid+1, right]</code>，对应 <code>left = mid + 1</code> 或者 <code>right = mid - 1</code></li><li>二分查找时间复杂度 <code>O(logn)</code></li></ul><pre><code class="language-java" metastring="{4,6,11,13}">class Solution {
+  public int search(int[] nums, int target) {
+    int left = 0;
+    int right = nums.length - 1; // 注意
+
+    while (left &lt;= right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] == target) {
+        return mid;
+      } else if (nums[mid] &lt; target) {
+        left = mid + 1; // 注意
+      } else if (nums[mid] &gt; target) {
+        right = mid - 1; // 注意
+      }
+    }
+    return -1;
+  }
+}
+</code></pre><p>📒 前端三种 Content-Type</p><p><code>application/json</code>：这种应该是接口请求用到最多的，可以使用 <code>JSON.stringify()</code> 序列化得到，实际传递的内容类似于：</p><pre><code class="language-json">{&quot;a&quot;: &quot;111&quot;, &quot;b&quot;: &quot;222&quot;}
 </code></pre><p><code>application/x-www-form-urlencoded</code>：这是表单提交对应的 Content-Type，实际上就是通过 body 传递 query 参数，如使用 HTML 的表单元素，浏览器会自动进行拼接，也可通过 <code>URLSearchParams</code> 拼接得到，实际传递的内容类似于：</p><pre><code class="language-json">a=111&amp;b=222
 </code></pre><p><code>multipart/form-data</code>：是通过 <code>FormData</code> 对象构造出来的表单格式，通常用于文件上传，实际传递的报文内容类似于：</p><pre><code class="language-http">POST /test.html HTTP/1.1
 Host: example.org
