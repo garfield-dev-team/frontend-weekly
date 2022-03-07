@@ -206,6 +206,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
+- 🌛 [浅谈 Node.js 热更新](https://mp.weixin.qq.com/s/xCoTeyJDifi4Ymk0VsI2Ig)
 - ⭐️ [NodeJS加解密之Crypto](https://juejin.cn/post/7044344538969669663)
 - 🌛 [zx - 谷歌开发的命令行脚本工具](https://github.com/google/zx)
 - 🌛 [node-fetch - node 环境下进行网络请求](https://github.com/node-fetch/node-fetch)

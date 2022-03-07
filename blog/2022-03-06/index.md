@@ -110,6 +110,10 @@ class Solution {
 }
 ```
 
+> 在前序位置搜索节点，如果是空节点直接返回，如果搜索到 `p` 或者 `q` 返回该节点，否则继续递归
+
+> 在后序位置接收前序的返回值，如果 `left` 和 `right` 都不为空，说明分别是 `p` 和 `q`，当前 `root` 就是最近公共祖先，直接返回 `root` 节点。如果一个为空另一个不为空，说明找到一个节点，把这个节点向上传递，查找另一个节点，直到出现两个都不为空，此时 `root` 就是最近公共祖先，直接返回 `root` 节点
+
 📒 如何写对二分查找
 
 - 不要使用 `else`，而是把所有情况用 `else if` 写清楚
@@ -255,7 +259,53 @@ module.exports = {
 
 📒 [Nest.js 基于 Express 但也不是完全基于](https://juejin.cn/post/7070377945553977357)
 
-📒 [如何用 Proxy 更优雅地处理异常](https://juejin.cn/post/7070120806214271012)
+📒 如何使用代理模式优化代码
+
+开发环境下打印日志：
+
+```js
+const dev = process.env.NODE_ENV === 'development';
+const createDevFn = (cb) => {
+    return (...args) => dev && cb(...args);
+};
+
+const log = createDevFn(console.log);
+log("23333"); // "2333"
+```
+
+异常捕获：
+
+```js
+class ExceptionsZone {
+  static handle(exception) {
+    console.log('Error：',exception.message, exception.stack);
+  }
+
+  static run(callback) {
+    try {
+      callback();
+    } catch (e) {
+      this.handle(e);
+    }
+  }
+}
+
+function createExceptionZone(target) {
+  return (...args) => {
+    let result;
+    ExceptionsZone.run(() => {
+      result = target(...args);
+    });
+    return result;
+  };
+}
+
+const request = () => new Promise((resolve) => setTimeout(resolve, 2000));
+const requestWithHandler = createExceptionZone(request);
+requestWithHandler().then(res => console.log("请求结果：", res));
+```
+
+[如何用 Proxy 更优雅地处理异常](https://juejin.cn/post/7070120806214271012)
 
 📒 [VuePress 博客优化之开启 Algolia 全文搜索](https://juejin.cn/post/7070109475419455519)
 

@@ -202,6 +202,30 @@ class Solution {
 
 [HTTP 缓存别再乱用了！推荐一个缓存设置的最佳姿势！](https://mp.weixin.qq.com/s/43pa04szJ2zU_IyVP4LraQ)
 
+📒 跨域，不止CORS
+
+通常提到跨域问题的时候，相信大家首先会想到的是 `CORS` (Cross Origin Resource Sharing)，其实 `CORS` 只是众多跨域访问场景中安全策略的一种，类似的策略还有：
+
+- `COEP (Cross Origin Embedder Policy)`：跨源嵌入程序策略
+- `COOP (Cross Origin Opener Policy)`：跨源开放者政策
+- `CORP (Cross Origin Resource Policy)`：跨源资源策略
+- `CORB (Cross Origin Read Blocking)`：跨源读取阻止
+
+为何有时候服务端没有给响应头设置 `Content-Type`，浏览器还能正确识别资源类型
+
+当服务端没有设置 `Content-Type` 或者浏览器认为类型不正确时，浏览器会读取资源的字节流，进行 **MIME 类型嗅探**。这就可能导致一些敏感数据被提交到内存，攻击者随后可以利用 `Spectre` 之类的漏洞来潜在地读取该内存块。
+
+> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#mime_sniffing
+
+为了使我们的网站更加安全，建议所有网站都开启 `CORB`，只需要下面的操作：
+
+- 配置正确的 `Content-Type`（例如，HTML 资源设置 `text/html`）
+- 开启 `X-Content-Type-Options: nosniff` 来禁止客户端进行自动 MIME 嗅探
+
+[跨域，不止CORS](https://mp.weixin.qq.com/s/k9_7Oc1zrQe6LMJB6D0qig)
+
+[新的跨域策略：使用COOP、COEP为浏览器创建更安全的环境](https://juejin.cn/post/6855129007906963464)
+
 📒 如何监听系统黑暗模式
 
 在 CSS 中可以通过 `prefers-color-scheme` 媒体查询实现：
