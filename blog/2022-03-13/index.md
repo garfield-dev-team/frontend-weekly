@@ -5,6 +5,15 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Webpack 的模块规范
+
+Webpack 基于 CJS 和 ESM 规范实现了模块机制，但也不是完全基于，而是在这些模块规范基础上扩展了一套自己的 api，用于增强功能，例如：
+
+- `require.context`
+- 使用 `import` 加载 `.json` 模块
+
+> 在 ESM 规范中 `import` 只能用于加载 JS 模块，只有 `require` 可以加载 json 模块
+
 📒 如何将对象序列化为查询字符串
 
 ```js
