@@ -20,6 +20,58 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[3月13日内容汇总]]></title>
+        <id>3月13日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月13日内容汇总"/>
+        <updated>2022-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 如何使用代理模式]]></summary>
+        <content type="html"><![CDATA[<p>📒 如何使用代理模式</p><p>开发环境下打印日志：</p><pre><code class="language-js">const dev = process.env.NODE_ENV === &#x27;development&#x27;;
+const createDevFn = (cb) =&gt; {
+    return (...args) =&gt; dev &amp;&amp; cb(...args);
+};
+
+const log = createDevFn(console.log);
+log(&quot;23333&quot;); // &quot;2333&quot;
+</code></pre><p>异常捕获：</p><pre><code class="language-js">class ExceptionsZone {
+  static handle(exception) {
+    console.log(&#x27;Error：&#x27;,exception.message, exception.stack);
+  }
+
+  static run(callback) {
+    try {
+      callback();
+    } catch (e) {
+      this.handle(e);
+    }
+  }
+}
+
+function createExceptionZone(target) {
+  return (...args) =&gt; {
+    let result;
+    ExceptionsZone.run(() =&gt; {
+      result = target(...args);
+    });
+    return result;
+  };
+}
+
+const request = () =&gt; new Promise((resolve) =&gt; setTimeout(resolve, 2000));
+const requestWithHandler = createExceptionZone(request);
+requestWithHandler().then(res =&gt; console.log(&quot;请求结果：&quot;, res));
+</code></pre><p>📒 如何将对象序列化为查询字符串</p><pre><code class="language-js">const aaa = {a: 1, b: 2, c: &quot;2333&quot;}
+</code></pre><p>第一种手动拼接，简单直接，一行代码搞定：</p><pre><code class="language-js">const _stringify = (obj) =&gt; Object.entries(obj).map(([key, val]) =&gt; `${key}=${val}`).join(&quot;&amp;&quot;);
+</code></pre><p>还可以使用 <code>URLSearchParams</code> 对象进行拼接：</p><pre><code class="language-js">const _stringify = obj =&gt; Object.entries(obj).reduce((accu, [key, val]) =&gt; {
+    accu.append(key, val);
+    return accu;
+}, new URLSearchParams)
+</code></pre><p>📒 <a href="https://juejin.cn/post/7072156913789566989">「深入浅出」主流前端框架更新批处理方式</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3月6日内容汇总]]></title>
         <id>3月6日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月6日内容汇总"/>
