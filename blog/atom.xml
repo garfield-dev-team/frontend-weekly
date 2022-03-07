@@ -24,8 +24,8 @@
         <id>3月13日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月13日内容汇总"/>
         <updated>2022-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 如何将对象序列化为查询字符串]]></summary>
-        <content type="html"><![CDATA[<p>📒 如何将对象序列化为查询字符串</p><pre><code class="language-js">const aaa = {a: 1, b: 2, c: &quot;2333&quot;}
+        <summary type="html"><![CDATA[📒 Webpack 的模块规范]]></summary>
+        <content type="html"><![CDATA[<p>📒 Webpack 的模块规范</p><p>Webpack 基于 CJS 和 ESM 规范实现了模块机制，但也不是完全基于，而是在这些模块规范基础上扩展了一套自己的 api，用于增强功能，例如：</p><ul><li><code>require.context</code></li><li>使用 <code>import</code> 加载 <code>.json</code> 模块</li></ul><blockquote><p>在 ESM 规范中 <code>import</code> 只能用于加载 JS 模块，只有 <code>require</code> 可以加载 json 模块</p></blockquote><p>📒 如何将对象序列化为查询字符串</p><pre><code class="language-js">const aaa = {a: 1, b: 2, c: &quot;2333&quot;}
 </code></pre><p>第一种手动拼接，简单直接，一行代码搞定：</p><pre><code class="language-js">const _stringify =
   (obj) =&gt; Object.entries(obj).map(([key, val]) =&gt; `${key}=${val}`).join(&quot;&amp;&quot;);
 </code></pre><p>还可以使用 <code>URLSearchParams</code> 对象进行拼接：</p><pre><code class="language-js">const _stringify = obj =&gt; Object.entries(obj).reduce((accu, [key, val]) =&gt; {
