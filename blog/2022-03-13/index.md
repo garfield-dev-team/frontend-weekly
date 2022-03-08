@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 10 React Antipatterns to Avoid - Code This, Not That!
+
+> https://www.youtube.com/watch?v=b0IZo2Aho9Y
+
 📒 markdown 编辑器滚动如何实现联动
 
 ```js
