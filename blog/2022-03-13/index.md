@@ -5,6 +5,34 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 markdown 编辑器滚动如何实现联动
+
+```js
+const ScrollTarget = {
+  NONE: "NONE",
+  EDITOR: "EDITOR",
+  RENDER: "RENDER",
+};
+
+let curTarget = ScrollTarget.NONE;
+let timer = null;
+
+const scrollManager = (handler) => (target) => {
+  if ((curTarget = ScrollTarget.NONE)) {
+    curTarget = target;
+  }
+  if (curTarget === target) {
+    handler(target);
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      curTarget = ScrollTarget.NONE;
+    }, 100);
+  }
+};
+
+const scrollFn = scrollManager(handleScroll);
+```
+
 📒 Webpack 的模块规范
 
 Webpack 基于 CJS 和 ESM 规范实现了模块机制，但也不是完全基于，而是在这些模块规范基础上扩展了一套自己的 api，用于增强功能，例如：
