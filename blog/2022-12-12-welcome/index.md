@@ -289,6 +289,15 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Golang 编程思维和工程实战](https://zhuanlan.zhihu.com/p/426368274)
 - ⭐️ [Go by example](https://gobyexample.com/)
 
+## 网站推荐
+
+- [MDN 文档](https://developer.mozilla.org/zh-CN/)
+- [caniuse：查询 API 兼容性](https://caniuse.com/)
+- [阮一峰 ES6 教程](https://es6.ruanyifeng.com/)
+- [codelf 变量命名神器](https://unbug.github.io/codelf/)
+- [AST explorer：可视化 AST](https://www.astexplorer.net/)
+- [openbase：查询各种第三方库](https://openbase.com/)
+
 ## 学习资源
 
 - 《Linux Shell 脚本攻略（第2版）》
