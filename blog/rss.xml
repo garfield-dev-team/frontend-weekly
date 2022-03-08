@@ -20,8 +20,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/3月13日内容汇总</link>
             <guid>3月13日内容汇总</guid>
             <pubDate>Sun, 13 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 markdown 编辑器滚动如何实现联动]]></description>
-            <content:encoded><![CDATA[<p>📒 markdown 编辑器滚动如何实现联动</p><pre><code class="language-js">const ScrollTarget = {
+            <description><![CDATA[📒 10 React Antipatterns to Avoid - Code This, Not That!]]></description>
+            <content:encoded><![CDATA[<p>📒 10 React Antipatterns to Avoid - Code This, Not That!</p><blockquote><p><a href="https://www.youtube.com/watch?v=b0IZo2Aho9Y">https://www.youtube.com/watch?v=b0IZo2Aho9Y</a></p></blockquote><p>📒 markdown 编辑器滚动如何实现联动</p><pre><code class="language-js">const ScrollTarget = {
   NONE: &quot;NONE&quot;,
   EDITOR: &quot;EDITOR&quot;,
   RENDER: &quot;RENDER&quot;,

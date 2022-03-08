@@ -24,8 +24,8 @@
         <id>3月13日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月13日内容汇总"/>
         <updated>2022-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📒 markdown 编辑器滚动如何实现联动]]></summary>
-        <content type="html"><![CDATA[<p>📒 markdown 编辑器滚动如何实现联动</p><pre><code class="language-js">const ScrollTarget = {
+        <summary type="html"><![CDATA[📒 10 React Antipatterns to Avoid - Code This, Not That!]]></summary>
+        <content type="html"><![CDATA[<p>📒 10 React Antipatterns to Avoid - Code This, Not That!</p><blockquote><p><a href="https://www.youtube.com/watch?v=b0IZo2Aho9Y">https://www.youtube.com/watch?v=b0IZo2Aho9Y</a></p></blockquote><p>📒 markdown 编辑器滚动如何实现联动</p><pre><code class="language-js">const ScrollTarget = {
   NONE: &quot;NONE&quot;,
   EDITOR: &quot;EDITOR&quot;,
   RENDER: &quot;RENDER&quot;,
