@@ -5,6 +5,48 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Million v1.5：一种快速虚拟 DOM 的实现
+
+专注于性能和大小，压缩后小于 1KB，如果您想要一个抽象的 VDOM 实现，Million 是你构建自己的框架或库时理想的选择
+
+> https://millionjs.org/
+
+📒 200 行代码使用 React 实现俄罗斯方块
+
+> https://blog.ag-grid.com/tetris-to-learn-react/
+
+📒 [真实案例说明 TypeScript 类型体操的意义](https://juejin.cn/post/7073070819219505166)
+
+📒 [「React 进阶」 学好这些 React 设计模式，能让你的 React 项目飞起来🛫️](https://juejin.cn/post/7007214462813863950)
+
+📒 [「1.9W字总结」一份通俗易懂的 TS 教程，入门 + 实战！](https://juejin.cn/post/7068081327857205261)
+
+📒 Oclif v2.5：Heroku 开源的 CLI 框架
+
+一个用于构建 CLI 脚手架的成熟框架，无论是简单的参数解析还是很多功能指令都可以驾驭。
+
+> https://github.com/oclif/oclif
+
+📒 使用 Rust 与 WebAssembly 重新实现了 Node 的 URL 解析器
+
+> https://www.yagiz.co/implementing-node-js-url-parser-in-webassembly-with-rust/
+
+📒 PDF：从 JavaScript 到 Rust：新书免费发布
+
+> https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf
+
+📒 Red Hat 和 IBM 团队的 Node.js “架构参考”
+
+> https://github.com/nodeshift/nodejs-reference-architecture
+
+📒 在 Node 环境下使用 `execa` 运行命令
+
+> https://blog.logrocket.com/running-commands-with-execa-in-node-js/
+
+📒 [万字长文详解从零搭建企业级 vue3 + vite2+ ts4 框架全过程](https://juejin.cn/post/7069315908597973023)
+
+📒 [从 Linux 源码的角度解释进程](https://mp.weixin.qq.com/s/KIXV81MGIpkJUBIsBkqrgA)
+
 📒 10 React Antipatterns to Avoid - Code This, Not That!
 
 > https://www.youtube.com/watch?v=b0IZo2Aho9Y
