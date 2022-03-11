@@ -5,6 +5,10 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [深入Node.js的模块加载机制，手写require函数](https://juejin.cn/post/6866973719634542606)
+
+📒 [require加载器实现原理](https://juejin.cn/post/6949385808755294245)
+
 📒 [聊一聊前端算法面试——递归](https://juejin.cn/post/6844903942074138637)
 
 📒 [589. N 叉树的前序遍历 :「递归」&「非递归」&「通用非递归」](https://juejin.cn/post/7073286650364690439)
