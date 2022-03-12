@@ -140,6 +140,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [前端组件/库打包利器rollup使用与配置实战](https://juejin.cn/post/6844903970469576718)
 - [一文带你快速上手Rollup](https://juejin.cn/post/6869551115420041229)
 
+## VS Code 插件
+
+- [vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples)
+- [开发一款专属的 VSCode 代码提示插件](https://mp.weixin.qq.com/s/e2gfSnBrR6rn7x37ZGLplg)
+
 ## 前端工程化
 
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)

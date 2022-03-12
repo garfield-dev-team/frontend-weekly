@@ -5,6 +5,62 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [反向操作，用 Object.defineProperty 重写 @vue/reactivity](https://segmentfault.com/a/1190000041112360)
+
+📒 antfu 大佬的 eslint 配置
+
+> https://github.com/antfu/eslint-config
+
+📒 antfu 大佬的 vscode 配置
+
+> https://github.com/antfu/vscode-settings
+
+📒 使用 tsdoc 编写规范的注释
+
+> https://tsdoc.org/
+
+📒 npm 包发布工具
+
+> https://github.com/JS-DevTools/version-bump-prompt
+
+📒 使用 pnpm 作为包管理工具
+
+基本用法：
+
+- `pnpm add <pkg>`：安装依赖
+- `pnpm add -D <pkg>`：安装依赖到 devDependencies
+- `pnpm install`：安装所有依赖
+- `pnpm -r update`：递归更新每个包的依赖
+- `pnpm -r update typescript@latest`：将每个包的 typescript 更新为最新版本
+- `pnpm remove`：移除依赖
+
+如何支持 monorepo 项目：https://pnpm.io/zh/workspaces
+
+`pnpm -r` 带一个参数 `-r` 表示进行递归操作。
+
+[pnpm 官方文档](https://pnpm.io/zh/)
+
+[为什么 vue 源码以及生态仓库要迁移 pnpm?](https://juejin.cn/post/7038192011882528776)
+
+📒 推荐两个打包工具
+
+- [tsup](https://github.com/egoist/tsup)
+- [unbuild](https://github.com/unjs/unbuild)
+
+📒 seedrandom：JS 种子随机数生成器
+
+种子随机数生成器，生成是随机的，但是每次调用生成的值是固定的：
+
+```js
+const seedrandom = require('seedrandom');
+const rng = seedrandom('hello.');
+
+console.log(rng()); // 第一次调用总是 0.9282578795792454
+console.log(rng()); // 第二次调用总是 0.3752569768646784
+```
+
+> https://github.com/davidbau/seedrandom
+
 📒 为何给 class 继承 EventEmitter
 
 看了一个 lsp 工程的源码，里面有个用法，`LspWsConnection` 继承了 `EventEmitter`：
