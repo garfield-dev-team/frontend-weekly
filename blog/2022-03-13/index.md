@@ -7,24 +7,24 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 
 📒 为何给 class 继承 EventEmitter
 
-看了一个 lsp 工程的代码，看到里面有个用法：
+看了一个 lsp 工程的源码，里面有个用法，`LspWsConnection` 继承了 `EventEmitter`：
 
 ```ts
 class LspWsConnection extends events.EventEmitter implements ILspConnection {
   constructor() {
-		super();
+    super();
     // ...
-	}
+  }
   
   public connect(socket: WebSocket): this {
     rpc.listen({
-			webSocket: this.socket,
-			logger: new ConsoleLogger(),
-			onConnection: (connection: rpc.MessageConnection) => {
+      webSocket: this.socket,
+      logger: new ConsoleLogger(),
+      onConnection: (connection: rpc.MessageConnection) => {
         // ...
         this.connection.onError((e) => {
-					this.emit('error', e);
-				});
+          this.emit('error', e);
+        });
       }
     });
     return this;
@@ -34,7 +34,7 @@ class LspWsConnection extends events.EventEmitter implements ILspConnection {
 }
 ```
 
-上面的代码中，`LspWsConnection` 继承了 `EventEmitter`，为什么要这样写呢。我们看到，`emit` 方法并没有被定义，但却可以直接通过 `this` 访问到，这是因为 `emit` 是来自 `EventEmitter`。只要继承了 `EventEmitter`，就可以直接在当前类中访问父类定义的方法，同样还可以在实例上访问 `on` 方法用于监听事件。在 Koa 中也有类似用法。
+之前刚好看过 Koa 源码，里面也有类似的用法。上面的代码中，`emit` 方法并没有被定义，但却可以直接通过 `this` 访问到，这是因为 `emit` 是来自 `EventEmitter`。只要继承了 `EventEmitter`，就可以直接在当前类中访问父类定义的方法，同样还可以在实例上访问 `on` 方法用于监听事件。
 
 此外，`connect` 方法最后返回了 `this`，返回自身实例，这是为了实现链式调用。
 
