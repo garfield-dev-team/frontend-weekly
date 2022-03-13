@@ -5,7 +5,82 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
-📒 [React 18 RC 版本发布啦，生产环境用起来！](https://mp.weixin.qq.com/s/pXlouBy7JcH8ImtQ6e-FCA)
+📒 React 18 RC 版本发布啦，生产环境用起来！
+
+安装最新的 React 18 RC 版本（Release Candidate候选版本）：
+
+```bash
+$ yarn add react@rc react-dom@rc
+```
+
+注意在 React 18 中新增了 `concurrent Mode` 模式，通过新增的 `createRoot` API 开启：
+
+```jsx
+import ReactDOM from 'react-dom'
+
+// 通过 createRoot 创建 root
+const root =  ReactDOM.createRoot(document.getElementById('app'))
+// 调用 root 的 render 方法
+root.render(<App/>)
+```
+
+> `startTransition` 特性依赖 `concurrent Mode` 模式运行
+
+如果使用传统 legacy 模式，会按 React 17 的方式运行：
+
+```jsx
+import ReactDOM from 'react-dom'
+
+// 通过 ReactDOM.render
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+)
+```
+
+React 18 主要是对自动批处理进行优化。在 React 18 之前实际上已经有批处理机制，但是只针对同步代码，如果放在 `Promise`、`setTimeout` 等异步回调中，自动批处理会失效。
+
+```jsx
+class Example extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      val: 0
+    };
+  }
+  
+  componentDidMount() {
+    // 自动批处理更新
+    // 注意此时 setState 是异步的
+    this.setState({val: this.state.val + 1});
+    console.log(this.state.val);   
+    this.setState({val: this.state.val + 1});
+    console.log(this.state.val);   
+
+    setTimeout(() => {
+      // 自动批处理失效
+      // 此时 setState 是同步的
+      this.setState({val: this.state.val + 1});
+      console.log(this.state.val); 
+      this.setState({val: this.state.val + 1};
+      console.log(this.state.val);  
+    }, 0);
+  }
+};
+```
+
+在 React 18 版本之前，上面代码的打印顺序是 0、0、2、3
+
+React 18 版本解决了这个问题，在异步回调中更新状态也能触发自动批处理，打印的顺序是 0、0、1、1
+
+总结一下主要有以下几个新特性：
+
+- 新的 `ReactDOM.createRoot()` API（替换 `ReactDOM.render()`）
+- 新的 `startTransition` API（用于非紧急状态更新）
+- 渲染的自动批处理优化（主要解决异步回调中无法批处理的问题）
+- 支持 `React.lazy` 的 全新 SSR 架构（支持 `<Suspense>` 组件）
+
+[React 18 RC 版本发布啦，生产环境用起来！](https://mp.weixin.qq.com/s/pXlouBy7JcH8ImtQ6e-FCA)
 
 📒 [CSS TreeShaking 原理揭秘： 手写一个 PurgeCss](https://juejin.cn/post/7040792659153125413)
 

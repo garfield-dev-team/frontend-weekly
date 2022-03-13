@@ -36,6 +36,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ ⭐️ [React + TypeScript实践](https://juejin.cn/post/6952696734078369828)
 - [如何优雅地在 React 中使用TypeScript，看这一篇就够了！](https://juejin.cn/post/7021674818621669389)
+- [「1.9W字总结」一份通俗易懂的 TS 教程，入门 + 实战！](https://juejin.cn/post/7068081327857205261)
 - ⭐️ [Vue3.0 前的 TypeScript 最佳入门实践](https://juejin.cn/post/6844903865255477261)
   - 虽然不是 Vue3 但是也推荐看下
 
@@ -212,6 +213,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
+- ⭐️ [Oclif v2.5：Heroku 开源的 CLI 框架](https://github.com/oclif/oclif)
 - 🌛 [浅谈 Node.js 热更新](https://mp.weixin.qq.com/s/xCoTeyJDifi4Ymk0VsI2Ig)
 - ⭐️ [NodeJS加解密之Crypto](https://juejin.cn/post/7044344538969669663)
 - 🌛 [zx - 谷歌开发的命令行脚本工具](https://github.com/google/zx)
@@ -296,6 +298,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Golang 编程思维和工程实战](https://zhuanlan.zhihu.com/p/426368274)
 - ⭐️ [Go by example](https://gobyexample.com/)
 
+### Rust 学习
+
+- ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
+
 ## 网站推荐
 
 - [MDN 文档](https://developer.mozilla.org/zh-CN/)
@@ -356,13 +362,13 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 源码分析：若川
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
 - 前端工程化、个人服务器运维指南：[shanyue](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
+- MySQL、Linux、服务端架构：[月半飞鱼](https://xiaoflyfish.cn/)
 - React 技术揭秘：[kasong](https://react.iamkasong.com/)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
 - 前端装逼技巧108式：[独钓寒江雪](https://segmentfault.com/u/king_hcj)
 - 前端九条 bug 分享：[lulu_up](https://segmentfault.com/u/lulu_up)
 - Vue3 源码共读：[前端杨村长](https://www.bilibili.com/video/BV1bS4y1T7ng)
-<!-- - MySQL、Linux、服务端架构：[月半飞鱼](https://xiaoflyfish.cn/) -->
 - 前端工程化、学习 Golang：洛竹
 - Node.js 相关：五月君
 
