@@ -298,7 +298,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Golang 编程思维和工程实战](https://zhuanlan.zhihu.com/p/426368274)
 - ⭐️ [Go by example](https://gobyexample.com/)
 
-### Rust 学习
+## Rust 学习
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
 
