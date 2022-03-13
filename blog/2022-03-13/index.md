@@ -5,6 +5,29 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [React 18 RC 版本发布啦，生产环境用起来！](https://mp.weixin.qq.com/s/pXlouBy7JcH8ImtQ6e-FCA)
+
+📒 [CSS TreeShaking 原理揭秘： 手写一个 PurgeCss](https://juejin.cn/post/7040792659153125413)
+
+📒 [「源码解析」一文吃透react-redux源码（useMemo经典源码级案例）](https://juejin.cn/user/1425383933618990)
+
+📒 [Recoil实现原理浅析-异步请求](https://zhuanlan.zhihu.com/p/473970384)
+
+📒 WebSocket 基础与应用系列（一）—— 抓个 WebSocket 的包
+
+HTTP 和 WebSocket 都属于应用层协议，都是基于 TCP 来传输数据的，可以理解为对 TCP 的封装，都要遵循 TCP 的三次握手和四次挥手，只是在连接之后发送的内容（报文格式）不同，或者是断开的时间不同。
+
+如何使用 Wireshark 抓包：
+
+- 在 Capture 中选择本机回环网络
+- 在 filter 中写入过滤条件 tcp.port == 3000
+
+[WebSocket 基础与应用系列（一）—— 抓个 WebSocket 的包](https://mp.weixin.qq.com/s/f96Da8kCluNwv7cxW39gzg)
+
+📒 [CSS 代码优化的12个小技巧](https://mp.weixin.qq.com/s/_g9NZnSBjGFmLaU0Y6u9aA)
+
+📒 [JS 框架解决了什么问题](https://juejin.cn/post/7073424271904768014)
+
 📒 [反向操作，用 Object.defineProperty 重写 @vue/reactivity](https://segmentfault.com/a/1190000041112360)
 
 📒 antfu 大佬的 eslint 配置
@@ -61,7 +84,7 @@ console.log(rng()); // 第二次调用总是 0.3752569768646784
 
 > https://github.com/davidbau/seedrandom
 
-📒 为何给 class 继承 EventEmitter
+<!-- 📒 为何给 class 继承 EventEmitter
 
 看了一个 lsp 工程的源码，里面有个用法，`LspWsConnection` 继承了 `EventEmitter`：
 
@@ -92,7 +115,7 @@ class LspWsConnection extends events.EventEmitter implements ILspConnection {
 
 之前刚好看过 Koa 源码，里面也有类似的用法。上面的代码中，`emit` 方法并没有被定义，但却可以直接通过 `this` 访问到，这是因为 `emit` 是来自 `EventEmitter`。只要继承了 `EventEmitter`，就可以直接在当前类中访问父类定义的方法，同样还可以在实例上访问 `on` 方法用于监听事件。
 
-此外，`connect` 方法最后返回了 `this`，返回自身实例，这是为了实现链式调用。
+此外，`connect` 方法最后返回了 `this`，返回自身实例，这是为了实现链式调用。 -->
 
 📒 [深入Node.js的模块加载机制，手写require函数](https://juejin.cn/post/6866973719634542606)
 

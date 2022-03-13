@@ -151,6 +151,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
 - 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
+- ⭐️ [Deno 简介：它比 Node.js 更好吗？](https://mp.weixin.qq.com/s/qnA1tFKMXr7hwsEKFXKOZg)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [前端架构师神技，三招统一团队代码风格](https://juejin.cn/post/7029512357428592648)
 - 🌛 [手把手教你搭建一个灰度发布环境](https://juejin.cn/post/6844904110601273357)
@@ -242,6 +243,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 操作系统
 
+- ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
 - [6w字搞定Linux基本操作，建议收藏](https://juejin.cn/post/6917096816118857736)
 - [半小时搞会 CentOS 入门必备基础知识](https://juejin.cn/post/6844904080972709901)
 - [手摸手带你 Docker 从入门到实践](https://juejin.cn/post/6875323565479034894)
@@ -313,6 +315,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 《深入理解计算机系统》
 - 《MySQL技术内幕》
 - 《Redis设计与实现》
+- ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
 - ⭐️ [【计算机科学速成课】\[40集全/精校\] - Crash Course Computer Science](https://www.bilibili.com/video/BV1EW411u7th)
 - ⭐️ [【精校中英字幕】2015 CMU 15-213 CSAPP 深入理解计算机系统 课程视频](https://www.bilibili.com/video/BV1iW411d7hd)
 
@@ -359,6 +362,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 前端装逼技巧108式：[独钓寒江雪](https://segmentfault.com/u/king_hcj)
 - 前端九条 bug 分享：[lulu_up](https://segmentfault.com/u/lulu_up)
 - Vue3 源码共读：[前端杨村长](https://www.bilibili.com/video/BV1bS4y1T7ng)
+<!-- - MySQL、Linux、服务端架构：[月半飞鱼](https://xiaoflyfish.cn/) -->
 - 前端工程化、学习 Golang：洛竹
 - Node.js 相关：五月君
 
@@ -518,3 +522,4 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [用ts类型系统实现斐波那契数列](https://juejin.cn/post/6965320374451961886)
 - [初步尝试 tauri，并且与 electron.js 对比](https://juejin.cn/post/7059400669916037133)
 - [和大多数的前端开发者相比，我并没有选择node.js做cli而投靠了golang](https://juejin.cn/post/7057178581897740319)
+- [Machine Learning For Front-End Developers With Tensorflow.js](https://www.smashingmagazine.com/2019/09/machine-learning-front-end-developers-tensorflowjs/)
