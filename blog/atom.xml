@@ -31,6 +31,26 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[3月20日内容汇总]]></title>
+        <id>3月20日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月20日内容汇总"/>
+        <updated>2022-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 GitLab CI 打造一条自己的流水线]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7074780794459258917" target="_blank" rel="noopener noreferrer">GitLab CI 打造一条自己的流水线</a></p><p>📒 type-challenges</p><p>type-challenges 是一个 TypeScript 类型体操姿势合集。本项目意在于让你更好的了解 TS 的类型系统，编写你自己的类型工具，或者只是单纯的享受挑战的乐趣！</p><blockquote><p><a href="https://github.com/type-challenges/type-challenges" target="_blank" rel="noopener noreferrer">https://github.com/type-challenges/type-challenges</a></p></blockquote>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+        <category label="git" term="git"/>
+        <category label="ESLint" term="ESLint"/>
+        <category label="Prettier" term="Prettier"/>
+        <category label="yaml" term="yaml"/>
+        <category label="CSS" term="CSS"/>
+        <category label="Vue3" term="Vue3"/>
+        <category label="JSON 序列化" term="JSON 序列化"/>
+        <category label="Golang" term="Golang"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3月13日内容汇总]]></title>
         <id>3月13日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月13日内容汇总"/>
