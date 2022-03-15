@@ -5,6 +5,8 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [React内部的性能优化没有达到极致？](https://juejin.cn/post/7073692220313829407)
+
 📒 [GitLab CI 打造一条自己的流水线](https://juejin.cn/post/7074780794459258917)
 
 📒 type-challenges
