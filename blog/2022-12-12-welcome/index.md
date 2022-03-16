@@ -84,6 +84,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Git 相关
 
+- ⭐️ [Git不要只会pull和push，试试这5条提高效率的命令](https://juejin.cn/post/7071780876501123085)
 - [利用好 git bisect 这把利器，帮助你快速定位疑难 bug](https://juejin.cn/post/7046409685561245733)
 - ⭐️ [前端架构师的 git 功力，你有几成火候？](https://juejin.cn/post/7024043015794589727)
 - ⭐️ [两条命令让你的git自动变基](https://segmentfault.com/a/1190000040712052)
@@ -252,6 +253,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 机器学习
 
+- [前端工程师如何快速使用一个NLP模型](https://juejin.cn/post/7075518863814869005)
+- 深入理解 Transformer：
+  - https://www.bilibili.com/video/BV1P4411F77q
+  - https://www.bilibili.com/video/BV1Mt411J734
 - [《深入理解计算机系统》- bilibili](https://www.bilibili.com/video/BV1cD4y1D7uR)
 - [《计算机网络自顶向下方法》- bilibili](https://www.bilibili.com/video/BV1mb4y1d7K7)
   - 这本书重点章节是第2、3、4、5、6章，其他章节可以跳过
@@ -423,6 +428,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [手把手刷二叉树系列完结篇](https://mp.weixin.qq.com/s/AzQzw-pC8A-0kS0NJn2eWw)
   - [前缀树算法模板秒杀 5 道算法题](https://mp.weixin.qq.com/s/hGrTUmM1zusPZZ0nA9aaNw)
   - [集合划分问题：排列组合中的回溯思想（修订版）](https://mp.weixin.qq.com/s/5GO2ZITncVArdm4KITBd9g)
+  - [快速排序的正确理解方式及运用](https://mp.weixin.qq.com/s/8ZTMhvHJK_He48PpSt_AmQ)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
