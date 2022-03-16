@@ -31,8 +31,8 @@
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/3月20日内容汇总</link>
             <guid>3月20日内容汇总</guid>
             <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[📒 GitLab CI 打造一条自己的流水线]]></description>
-            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7074780794459258917" target="_blank" rel="noopener noreferrer">GitLab CI 打造一条自己的流水线</a></p><p>📒 type-challenges</p><p>type-challenges 是一个 TypeScript 类型体操姿势合集。本项目意在于让你更好的了解 TS 的类型系统，编写你自己的类型工具，或者只是单纯的享受挑战的乐趣！</p><blockquote><p><a href="https://github.com/type-challenges/type-challenges" target="_blank" rel="noopener noreferrer">https://github.com/type-challenges/type-challenges</a></p></blockquote>]]></content:encoded>
+            <description><![CDATA[📒 React内部的性能优化没有达到极致？]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7073692220313829407" target="_blank" rel="noopener noreferrer">React内部的性能优化没有达到极致？</a></p><p>📒 <a href="https://juejin.cn/post/7074780794459258917" target="_blank" rel="noopener noreferrer">GitLab CI 打造一条自己的流水线</a></p><p>📒 type-challenges</p><p>type-challenges 是一个 TypeScript 类型体操姿势合集。本项目意在于让你更好的了解 TS 的类型系统，编写你自己的类型工具，或者只是单纯的享受挑战的乐趣！</p><blockquote><p><a href="https://github.com/type-challenges/type-challenges" target="_blank" rel="noopener noreferrer">https://github.com/type-challenges/type-challenges</a></p></blockquote>]]></content:encoded>
             <category>git</category>
             <category>ESLint</category>
             <category>Prettier</category>
