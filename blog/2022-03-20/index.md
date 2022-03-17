@@ -5,6 +5,41 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 React Hooks 源码分析
+
+React 函数组件通过 `renderWithHooks` 函数进行渲染，里面有个 `workingInProgress` 的对象就是当前的 fiber 节点，fiber 节点的 `memorizedState` 就是保存 hooks 数据的地方。它是一个通过 `next` 串联的链表。
+
+这个 `memorizedState` 链表是什么时候创建的呢？确实有个链表创建的过程，也就是 mountXxx。链表只需要创建一次，后面只需要 update。所以第一次调用 `useState` 会执行 `mountState`，后面再调用 `useState` 会执行 `updateState`。
+
+每个 Hook 的 `memorizedState` 链表节点是通过 `mountWorkInProgressHook` 函数创建的：
+
+```js
+function mountWorkInProgressHook(): Hook {
+  const hook = {
+    memoizedState: null,
+    baseState: null,
+    baseQueue: null,
+    queue: null,
+    next: null,
+  };
+
+  if (workInProgressHook === null) {
+    // This is the first hook in the list
+    currentlyRenderingFiber.memoizedState = workInProgressHook = hook;
+  } else {
+    // Append to the end of the list
+    workInProgressHook = workInProgressHook.next = hook;
+  }
+  return workInProgressHook;
+}
+```
+
+> 函数组件本身是没有挂载、更新的概念的，每次 rerender 就是执行这个函数，但是挂载、更新的逻辑体现在 Hooks 里面，首次执行的时候调用 `mountWorkInProgressHook` 创建链表节点，后续执行的时候调用 `updateWorkInProgressHook` 访问并更新链表节点
+
+[React Hooks 的原理，有的简单有的不简单](https://juejin.cn/post/7075701341997236261)
+
+[React 进阶实战指南 - 原理篇：Hooks 原理](https://juejin.cn/book/6945998773818490884/section/6959872072906440743)
+
 📒 前端工程师如何快速使用一个NLP模型
 
 2017年谷歌提出了Transformer架构模型，2018年底，基于Transformer架构，谷歌推出了bert模型，bert模型一诞生，便在各大11项NLP基础任务中展现出了卓越的性能，现在很多模型都是基于或参考Bert模型进行改造。
