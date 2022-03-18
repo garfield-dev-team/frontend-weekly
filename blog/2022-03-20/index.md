@@ -5,6 +5,144 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何实现双向链表
+
+在项目中遇到一个问题，源码中使用数组模拟队列，添加使用 `unshift`，移除使用 `pop`，导致添加元素的时间复杂度为 `O(n)`。这里使用双向链表模拟队列，两端均可添加、删除元素，且时间复杂度均为 `O(1)`：
+
+```ts
+/**
+ * 链表节点
+ */
+class ListNode<T> {
+  public next: ListNode<T> = null;
+  public prev: ListNode<T> = null;
+  public val: T = undefined;
+
+  constructor(val: T) {
+    this.val = val;
+  }
+}
+
+/**
+ * 实现双向链表
+ */
+class LinkedList<T> {
+  private head: ListNode<T> = null;
+  private end: ListNode<T> = null;
+  private _size: number = 0;
+
+  /**
+   * add() 相当于 addLast()
+   * @param val 
+   * @returns 
+   */
+  public add(val: T): boolean {
+    const node = new ListNode<T>(val);
+    if (this.head == null) {
+      // 初始化 head 指针
+      this.head = node;
+    }
+    if (this.end == null) {
+      // 初始化 end 指针
+      this.end = node;
+    } else {
+      // 把新节点挂到链表最后
+      this.end.next = node;
+      // 新节点 prev 指向前一节点
+      node.prev = this.end;
+      // end 指针后移一位
+      this.end = node;
+    }
+    // 维护 size
+    this._size++;
+    return true;
+  }
+
+  /**
+   * addFirst() 在链表头部添加
+   * @param val 
+   * @returns 
+   */
+  public addFirst(val: T): boolean {
+    const node = new ListNode<T>(val);
+    if (this.head == null) {
+      // 初始化 head 指针
+      this.head = node;
+    } else {
+      // 把新节点挂到链表头部
+      this.head.prev = node;
+      // 新节点 next 指向下一节点
+      node.next = this.head;
+      // head 指针前移一位
+      this.head = node;
+    }
+    if (this.end == null) {
+      // 初始化 end 指针
+      this.end = node;
+    }
+    // 维护 size
+    this._size++;
+    return true;
+  }
+
+  /**
+   * poll() 相当于 pollFirst()
+   * @returns 
+   */
+  public poll(): T {
+    // 缓存需要删除的节点
+    const node = this.head;
+    // head 指向下一节点
+    this.head = this.head.next;
+    // 切断与前一节点的联系
+    this.head.prev = null;
+    // 维护 size
+    this._size--;
+    return node.val;
+  }
+
+  /**
+   * pollLast() 移除链表尾部元素
+   * @returns 
+   */
+  public pollLast(): T {
+    // 缓存需要删除的节点
+    const node = this.end;
+    // end 指向前一节点
+    this.end = this.end.prev;
+    // 切断与后一节点的联系
+    this.end.next = null;
+    // 维护 size
+    this._size--;
+    return node.val;
+  }
+
+  /**
+   * 获取链表长度
+   * @returns 
+   */
+  public size(): number {
+    return this._size;
+  }
+
+  /**
+   * 序列化为字符串
+   * @returns 
+   */
+  public toString(): string {
+    let res: T[] = [];
+    let list = this.head;
+    while (list != null) {
+      res.push(list.val);
+      list = list.next;
+    }
+    return `[ ${res.join(" ")} ]`;
+  }
+}
+```
+
+📒 [Nest.js 的 AOP 架构的好处，你感受到了么？](https://juejin.cn/post/7076431946834214925)
+
 📒 React Hooks 源码分析
 
 React 函数组件通过 `renderWithHooks` 函数进行渲染，里面有个 `workingInProgress` 的对象就是当前的 fiber 节点，fiber 节点的 `memorizedState` 就是保存 hooks 数据的地方。它是一个通过 `next` 串联的链表。
