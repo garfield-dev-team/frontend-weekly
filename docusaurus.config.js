@@ -91,7 +91,7 @@ const config = {
               },
               {
                 label: 'NPM 工程化规范',
-                href: 'https://github.com/Jiacheng787/my-promisify',
+                href: 'https://github.com/Jiacheng787/Garfield-utils',
               },
               {
                 label: 'React 从零到一工程化指北',
