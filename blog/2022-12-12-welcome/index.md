@@ -535,3 +535,4 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [初步尝试 tauri，并且与 electron.js 对比](https://juejin.cn/post/7059400669916037133)
 - [和大多数的前端开发者相比，我并没有选择node.js做cli而投靠了golang](https://juejin.cn/post/7057178581897740319)
 - [Machine Learning For Front-End Developers With Tensorflow.js](https://www.smashingmagazine.com/2019/09/machine-learning-front-end-developers-tensorflowjs/)
+- [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
