@@ -121,6 +121,8 @@ o.getName(); // 2333
 
 > 在 `new` 调用过程中，`Person` 函数的 `this` 会绑定到实例对象上，箭头函数的 `this` 就是 `Person` 函数的 `this`，因此箭头函数的 `this` 会指向实例对象，并且由于箭头函数作为类的自有属性，会在每次 `new` 的时候重新生成，因此不同实例之间不会影响
 
+📒 [我的第一次webpack优化，首屏渲染从9s到1s](https://zhuanlan.zhihu.com/p/476712416)
+
 📒 [几个一看就会的 TypeScript 小技巧](https://juejin.cn/post/7077536309804859428)
 
 📒 [Next.js 官方发布全新教程](https://nextjs.org/learn/foundations/about-nextjs)
