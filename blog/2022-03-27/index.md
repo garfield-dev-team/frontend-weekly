@@ -5,6 +5,38 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 https://github.com/unjs
+
+📒 如何理解 partition 函数
+
+```ts
+const partition = (nums: number[], lo: number, hi: number) => {
+  const pivot = nums[lo];
+  let i = lo + 1,
+    j = hi;
+  while (true) {
+    while (i < hi && nums[i] <= pivot) {
+      i++;
+    }
+    while (j > lo && nums[j] > pivot) {
+      j--;
+    }
+    if (i >= j) {
+      break;
+    }
+    swap(nums, i, j);
+  }
+  swap(nums, lo, j);
+  return j;
+};
+
+const swap = (nums: number[], i: number, j: number) => {
+  const temp = nums[i];
+  nums[i] = nums[j];
+  nums[j] = temp;
+};
+```
+
 📒 [在项目中用ts封装axios，一次封装整个团队受益😁](https://juejin.cn/post/7071518211392405541)
 
 📒 阿里三面：灵魂拷问——有react fiber，为什么不需要vue fiber呢
