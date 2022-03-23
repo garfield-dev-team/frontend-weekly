@@ -5,8 +5,6 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
-📒 [使用 Turborepo 替代 lerna](https://turborepo.org/docs/getting-started)
-
 📒 [在项目中用ts封装axios，一次封装整个团队受益😁](https://juejin.cn/post/7071518211392405541)
 
 📒 阿里三面：灵魂拷问——有react fiber，为什么不需要vue fiber呢
