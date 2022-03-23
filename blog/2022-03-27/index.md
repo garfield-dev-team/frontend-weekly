@@ -5,9 +5,18 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [【Anthony Fu】写个聪明的打字机！直播录像](https://www.bilibili.com/video/BV1bZ4y167gz)
+
 📒 https://github.com/unjs
 
 📒 如何理解 partition 函数
+
+利用左右指针，其实有点类似反转数组，只不过反转数组对每个元素都交换一下，而 partition 只有在特定条件下进行交换：
+
+- 左指针向右移动，直到 `nums[i] > pivot` 停止移动，此时再移动右指针，接下来会有两种情况
+  - 右指针遇到 `nums[j] <= pivot` 时停止移动，此时进行元素交换
+  - 左指针右侧的元素都大于 `pivot`，没有元素需要交换，最终两个指针重合，停止操作
+- 不断重复上述步骤，直到交换结束，此时 `nums[j]` 为较小值，将 `pivot` 与 `nums[j]` 交换
 
 ```ts
 const partition = (nums: number[], lo: number, hi: number) => {
