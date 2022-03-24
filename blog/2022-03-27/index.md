@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [\[科普文\] Vue3 到底更新了什么？](https://mp.weixin.qq.com/s/66sos7nML5rA0ZZGJ5qFIQ)
+
+📒 [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
+
+📒 [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
+
 📒 [【Anthony Fu】写个聪明的打字机！直播录像](https://www.bilibili.com/video/BV1bZ4y167gz)
 
 📒 https://github.com/unjs
