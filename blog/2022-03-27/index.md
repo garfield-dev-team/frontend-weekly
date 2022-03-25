@@ -104,7 +104,7 @@ foo.bind(o2)(); // 666
 ```js
 function foo() {
   var _this = this;
-  var bar = function {
+  var bar = function() {
     console.log(_this.name);
   }
   bar();
