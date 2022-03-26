@@ -5,6 +5,19 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [React+Ts，这样学起来确实简单！！！](https://mp.weixin.qq.com/s/7LXeQomcHK4zcuRqB32JDg)
+
+📒 [高频 LeetCode 面试题分类](https://mp.weixin.qq.com/s/IKmCWwH1LjJ-FrcbbOtj3w)
+
+📒 如何在常数时间插入、删除数组中的元素
+
+之前看到过一个用数组实现队列的方案，移除元素使用 `shift`，导致时间复杂度为 `O(n)`，后来改为使用双向链表实现队列，插入删除时间复杂度都为 `O(1)`。如果使用链表的话，如何在常数时间内查找元素呢，可以使用 `Map` 存储链表节点指针，从而实现哈希链表的结构。
+
+话说回来，如果使用数组的方案，如何实现常数时间插入、删除数组元素呢？可以做到！对数组尾部进行插入和删除操作不会涉及数据搬移，时间复杂度是 `O(1)`。
+**所以，如果我们想在 `O(1)` 的时间删除数组中的某一个元素 `val`，可以先把这个元素交换到数组的尾部，然后再 `pop` 掉**。
+
+📒 [Typeit：轻量级代码录制回放](https://github.com/alexmacarthur/typeit)
+
 📒 [React 18 超全升级指南](https://mp.weixin.qq.com/s/byD6xm3O6MzX8kksjBmqpA)
 
 📒 [「多图详解」NodeJs中EventLoop与浏览器下的差异性](https://juejin.cn/post/7077122129107353636)
