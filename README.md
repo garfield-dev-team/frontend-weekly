@@ -2,6 +2,12 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### 更新 docusaurus
+
+```bash
+$ yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
+```
+
 ### Installation
 
 ```
