@@ -548,4 +548,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [linux命令总结之lsof命令](https://www.cnblogs.com/ginvip/p/6367939.html)
 - [Machine Learning For Front-End Developers With Tensorflow.js](https://www.smashingmagazine.com/2019/09/machine-learning-front-end-developers-tensorflowjs/)
 - [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
-
+- [我的第一次webpack优化，首屏渲染从9s到1s](https://zhuanlan.zhihu.com/p/476712416)
+- [在项目中用ts封装axios，一次封装整个团队受益😁](https://juejin.cn/post/7071518211392405541)
+- [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
+- [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
+- [十道腾讯算法真题解析！](https://mp.weixin.qq.com/s/dg4WI2eJzh6b3OAzHN0q3A)
+- [腾讯云后端15连问！](https://mp.weixin.qq.com/s/aMYJODhtWsBt9CTJxySQEQ)
