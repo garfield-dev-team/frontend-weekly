@@ -461,6 +461,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
   - [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
 - Docker 相关总结一下
+  - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
+  - [写给前端的 Docker 上手指南](https://mp.weixin.qq.com/s/5LLX__x-yamgR83e0NKAtA)
+  - [云计算时代，你还不会 Docker ？ 一万字总结（建议收藏）](https://mp.weixin.qq.com/s/f581rfvKWE3KGgWfZDJ2cA)
 - 前端框架源码
   - ⭐️ [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
   - ⭐️ [「React进阶」react-router v6 通关指南](https://juejin.cn/post/7069555976717729805)

@@ -5,6 +5,8 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [从 React 源码的类型定义中，我学到了什么？](https://juejin.cn/post/7079449083919728671)
+
 📒 [前端单测为什么不要测代码实现细节？](https://juejin.cn/post/7079232962025226277)
 
 📒 [React+Ts，这样学起来确实简单！！！](https://mp.weixin.qq.com/s/7LXeQomcHK4zcuRqB32JDg)
