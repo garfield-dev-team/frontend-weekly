@@ -106,7 +106,86 @@ const swap = (nums: number[], i: number, j: number) => {
 
 📒 [Vue组件库设计 | Vue3组件在线交互解释器](https://juejin.cn/post/7064864648729722887)
 
+📒 React 类组件注意事项
+
+**1. 为了避免组件不必要的 rerender，建议继承 `PureComponent`**
+
+```jsx
+class MyCompoment extends React.PureComponent {
+  // ...
+}
+```
+
+> `PureComponent` 相当于函数组件使用 `React.memo`
+
+**2. 在构造方法中如要使用 `this`，则必须先调用 `super()`**
+
+```jsx
+class MyCompoment extends React.Component {
+  constructor(props) {
+    // 如果想在构造方法中使用 this，则必须先调用 super()
+    // super 实际上就是父类构造方法，类似盗用构造函数继承
+    // 下面是一个声明 state 的例子
+    super(props);
+    this.state = {
+      // ...
+    }
+  }
+}
+```
+
+如果使用 ES2022 Class Properties 语法，则可以直接干掉构造方法，更加简洁：
+
+```jsx
+class MyCompoment extends React.Component {
+  // 使用 ES2022 Class Properties 语法
+  state = {
+    // ...
+  }
+}
+```
+
+**3. 类组件中需要注意事件处理函数的 `this` 绑定问题**
+
+```jsx
+class MyCompoment extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    console.log('===点击事件');
+  }
+
+  render() {
+    return (
+      <button onClick={this.handleClick}>点击</button>
+    )
+  }
+}
+```
+
+如果使用 ES2022 Class Properties 语法，也可以让语法更简洁：
+
+```jsx
+class MyCompoment extends React.Component {
+  handleClick = () => {
+    console.log('===点击事件');
+  }
+
+  render() {
+    return (
+      <button onClick={this.handleClick}>点击</button>
+    )
+  }
+}
+```
+
 📒 箭头函数两个注意点
+
+<details>
+  <summary>查看详情</summary>
 
 **1. 箭头函数中 `this` 指向能否改变**
 
@@ -221,6 +300,8 @@ o.getName(); // 2333
 ```
 
 > 在 `new` 调用过程中，`Person` 函数的 `this` 会绑定到实例对象上，箭头函数的 `this` 就是 `Person` 函数的 `this`，因此箭头函数的 `this` 会指向实例对象，并且由于箭头函数作为类的自有属性，会在每次 `new` 的时候重新生成，因此不同实例之间不会影响
+
+</details>
 
 📒 [我的第一次webpack优化，首屏渲染从9s到1s](https://zhuanlan.zhihu.com/p/476712416)
 
