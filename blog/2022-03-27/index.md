@@ -5,6 +5,8 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [前端单测为什么不要测代码实现细节？](https://juejin.cn/post/7079232962025226277)
+
 📒 [React+Ts，这样学起来确实简单！！！](https://mp.weixin.qq.com/s/7LXeQomcHK4zcuRqB32JDg)
 
 📒 [高频 LeetCode 面试题分类](https://mp.weixin.qq.com/s/IKmCWwH1LjJ-FrcbbOtj3w)
