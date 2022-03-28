@@ -31,6 +31,26 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[4月3日内容汇总]]></title>
+        <id>4月3日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/4月3日内容汇总"/>
+        <updated>2022-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 万字长文助你上手软件领域驱动设计 DDD]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA" target="_blank" rel="noopener noreferrer">万字长文助你上手软件领域驱动设计 DDD</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/6DAyXFHIMW95FS0f3GyHpA" target="_blank" rel="noopener noreferrer">TypeScript 终极初学者指南</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+        <category label="git" term="git"/>
+        <category label="ESLint" term="ESLint"/>
+        <category label="Prettier" term="Prettier"/>
+        <category label="yaml" term="yaml"/>
+        <category label="CSS" term="CSS"/>
+        <category label="Vue3" term="Vue3"/>
+        <category label="JSON 序列化" term="JSON 序列化"/>
+        <category label="Golang" term="Golang"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3月27日内容汇总]]></title>
         <id>3月27日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/3月27日内容汇总"/>
