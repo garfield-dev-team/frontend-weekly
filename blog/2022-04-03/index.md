@@ -5,6 +5,11 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Golang 指针几点注意
+
+- Golang 中赋值操作、函数参数、函数返回值都是 copy
+- 基本类型、slice、map 直接传递就行，对于 struct、array 需要特别注意，建议一律传递指针类型
+
 📒 Dum：Rust 编写的 npm 脚本运行器
 
 延续了使用不是 JavaScript 来构建 JavaScript 工具的趋势。这个奇怪的名字 “Dum”，旨在取代 `npm run` 和 `npx` 来减少任务启动时间的毫秒数。
