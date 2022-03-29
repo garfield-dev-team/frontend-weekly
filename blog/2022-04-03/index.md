@@ -20,6 +20,7 @@ tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 作者声称“每周都能找到十几个与 hooks 相关的问题”，并利用这段经历给出了一些例子和解决方法，以避免“API 的不足之处”。
 
 > https://labs.factorialhr.com/posts/hooks-considered-harmful
+
 📒 Dockerfile 配置
 
 ```dockerfile
