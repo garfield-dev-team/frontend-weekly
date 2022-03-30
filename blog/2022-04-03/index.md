@@ -5,6 +5,18 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [一文颠覆大众对闭包的认知](https://juejin.cn/post/7079995358624874509)
+
+📒 [React v18 正式版发布](https://github.com/facebook/react/releases/tag/v18.0.0)
+
+📒 [答好这5个问题，就入门Docker了](https://mp.weixin.qq.com/s/P74IVf1lOoT4n5UJNm2Bfg)
+
+📒 手写 Webpack
+
+[手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
+
+[100行代码实现一个组件引用次数统计插件](https://juejin.cn/post/7077484559893266439)
+
 📒 Golang 指针几点注意
 
 - Golang 中赋值操作、函数参数、函数返回值都是 copy
