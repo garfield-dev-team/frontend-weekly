@@ -430,6 +430,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [前缀树算法模板秒杀 5 道算法题](https://mp.weixin.qq.com/s/hGrTUmM1zusPZZ0nA9aaNw)
   - [集合划分问题：排列组合中的回溯思想（修订版）](https://mp.weixin.qq.com/s/5GO2ZITncVArdm4KITBd9g)
   - [快速排序的正确理解方式及运用](https://mp.weixin.qq.com/s/8ZTMhvHJK_He48PpSt_AmQ)
+  - [十道腾讯算法真题解析！](https://mp.weixin.qq.com/s/dg4WI2eJzh6b3OAzHN0q3A)
+  - [一文秒杀 5 道最近公共祖先问题](https://mp.weixin.qq.com/s/njl6nuid0aalZdH5tuDpqQ)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)

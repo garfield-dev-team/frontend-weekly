@@ -5,6 +5,78 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 如何提升 GitHub Page 访问速度
+
+**打包构建**
+
+使用 GitHub Action 作为 CI 环境，使用 Docker 进行构建，充分利用缓存，如 `package.json` 没变就不重复装包。
+
+**部署**
+
+打包之后将静态资源上传至阿里云 OSS（需要配置 Webpack 的 `output.publicPath`），提升页面加载速度。
+
+HTML 页面暂时可以不上传，使用 GitHub Page 托管，这样访问速度可以保证，但是不能解决 GitHub Page 偶尔会挂的问题。还是要将 HTML 页面上传（`Cache-Control:no-cache`），此时整个网站完全托管在阿里云 OSS 上面，需要域名备案。
+
+📒 Golang 算法
+
+> https://github.com/fangbinwei/algorithm-practice
+
+📒 Golang 项目参考
+
+> https://github.com/fangbinwei/aliyun-oss-website-action
+
+📒 [你知道的前端优化手段](https://juejin.cn/post/6966857691381645325)
+
+📒 函数式编程（FP）
+
+lodash 中的 FP
+
+在lodash的官网上，我们很容易找到一个 [function program guide](https://github.com/lodash/lodash/wiki/FP-Guide) 。在 lodash / fp 模块中提供了实用的对函数式编程友好的方法。里面的方式有以下的特性：
+
+- 不可变
+- 已柯里化（auto-curried）
+- 迭代前置（iteratee-first）
+- 数据后置（data-last）
+
+假如需要将字符串进行如下转换，该如何实现呢？
+
+> 例如：`CAN YOU FEEL MY WORLD` -> `can-you-feel-my-world`
+
+```js
+import _ from 'lodash';
+
+const str = "CAN YOU FEEL MY WORLD";
+
+const split = _.curry((sep, str) => _.split(str, sep));
+const join = _.curry((sep, arr) => _.join(arr, sep));
+const map = _.curry((fn, arr) => _.map(arr, fn));
+
+const f = _.flow(split(' '), map(_.toLower), join('-'));
+
+f(str); // 'can-you-feel-my-world'
+```
+
+我们在使用 lodash 时，做能很多额外的转化动作，那我们试试 fp 模块吧。
+
+```js
+import fp from 'lodash/fp';
+
+const str = "CAN YOU FEEL MY WORLD";
+const f = fp.flow(fp.split(' '), fp.map(fp.toLower), fp.join('-'));
+
+f(str); // 'can-you-feel-my-world'
+```
+
+这种编程方式我们称之为 PointFree，它有 3 个特点：
+
+- 不需要指明处理的数据
+- 只需要合成运算过程
+- 需要定义一些辅助的基本运算函数
+
+> 注意：FP 中的 map 方法和 lodash 中的 map 方法参数的个数是不同的，FP 中的 map 方法回调函数只接受一个参数
+
+[函数式编程（FP）](https://juejin.cn/post/7065093131233919006)
+
 📒 [一文颠覆大众对闭包的认知](https://juejin.cn/post/7079995358624874509)
 
 📒 [React v18 正式版发布](https://github.com/facebook/react/releases/tag/v18.0.0)
