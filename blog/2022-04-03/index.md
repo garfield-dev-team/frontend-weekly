@@ -5,6 +5,14 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [50 多个提高前端人效率的工具、网站和书籍整理](https://juejin.cn/post/7079447275755274254)
+
+📒 [如何成为一个优秀的复制粘贴工程师](https://juejin.cn/post/7080032725477883917)
+
+📒 [原创精选荟萃（2022.03.14）](https://mp.weixin.qq.com/s/14geIwh6BkvaifOIAvz7hw)
+
+📒 [只会用传统开发模式？10分钟教你玩转敏捷！](https://mp.weixin.qq.com/s/g9F05SRnQBTzzfx_2CKqhg)
+
 📒 如何提升 GitHub Page 访问速度
 
 **打包构建**
