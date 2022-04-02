@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 [复盘 Node 项目中遇到的13+常见问题和解决方案](https://mp.weixin.qq.com/s/YeOTUw7CiR-rREexcPDHqA)
+
+📒 [GitHub 最受欢迎的Top 20 JavaScript 项目](https://mp.weixin.qq.com/s/exmChOjKQ1l76LXkuMfzog)
+
+📒 [保护自己 - 深入链路探究网络安全](https://juejin.cn/post/7081583211427397669)
+
 📒 [50 多个提高前端人效率的工具、网站和书籍整理](https://juejin.cn/post/7079447275755274254)
 
 📒 [如何成为一个优秀的复制粘贴工程师](https://juejin.cn/post/7080032725477883917)
