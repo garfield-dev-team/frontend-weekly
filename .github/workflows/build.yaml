@@ -1,4 +1,9 @@
 name: Frontend Weekly
+
+concurrency: 
+  group: build_and_deploy
+  cancel-in-progress: true
+
 on:
   push:
     branches:
