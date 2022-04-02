@@ -556,3 +556,4 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
 - [十道腾讯算法真题解析！](https://mp.weixin.qq.com/s/dg4WI2eJzh6b3OAzHN0q3A)
 - [腾讯云后端15连问！](https://mp.weixin.qq.com/s/aMYJODhtWsBt9CTJxySQEQ)
+- [docker文件夹映射的两种方式---主机卷映射和共享文件夹映射](https://blog.csdn.net/zhydream77/article/details/81909706)
