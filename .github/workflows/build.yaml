@@ -1,4 +1,9 @@
 name: Frontend Weekly
+
+concurrency: 
+  group: build_and_deploy
+  cancel-in-progress: true
+
 on:
   push:
     branches:
@@ -15,10 +20,18 @@ jobs:
         with:
           node-version: 14
           cache: yarn
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
+          restore-keys: ${{ runner.os }}-node-
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile --registry=https://registry.npmmirror.com/
       - name: Build
-        run: |
-          yarn install --frozen-lockfile --registry=https://registry.npmmirror.com/
-          yarn build
+        run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
