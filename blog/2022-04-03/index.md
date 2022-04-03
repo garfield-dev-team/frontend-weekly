@@ -5,6 +5,30 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Git 如何变基拉取代码
+
+在本地 commit 之后，下一步一般会执行 `git pull` 合并远程分支代码。我们知道 `git pull` 相当于 `git fetch && git merge`，通过 `merge` 方式合并代码，缺点就是会导致时间线比较混乱，出现大量没用的 commit 记录，给 Code Review 带来不便。另一种方式是变基拉取：
+
+```bash
+$ git pull --rebase
+```
+
+在变基操作的时候，我们不去合并别人的代码，而是直接把我们原先的基础变掉，变成以别人修改过后的新代码为基础，把我们的修改在这个新的基础之上重新进行。变基的好处之一是可以使我们的时间线变得非常干净。
+
+变基操作的时候，会创建一个临时的 rebasing branch，如有冲突，合并完冲突的文件，添加到暂存区后，执行:
+
+```bash
+$ git rebase --continue
+```
+
+此时会进入 commit message 编辑界面，输入 `:q` 就会提交 commit，后续只要推送远程仓库即可。
+
+如果不想继续变基操作，执行：
+
+```bash
+$ git rebase --abort
+```
+
 📒 Git 操作之 `git push -f`
 
 在开发一个项目的时候，本人将自己的 `feature` 分支合并到公共 `test` 分支，并且在测试环境部署成功。
@@ -39,6 +63,20 @@ $ git push -f origin main
 ```
 
 可以看到就算没有事先 `git pull` 也不会报错，但是这样会导致远程仓库的提交记录被覆盖，远程仓库的提交记录变成了你本地的记录，你上次同步代码之后别人的提交记录都丢失了。
+
+**如何删除所有 commit 记录**
+
+找到最开始 Initial commit 的 id，执行 `git reset` 实现本地回退：
+
+```bash
+$ git reset --hard <commit id>
+```
+
+下一步强制推送到远程仓库即可：
+
+```bash
+$ git push -f origin main
+```
 
 📒 Docker 容器如何实现持久化
 
