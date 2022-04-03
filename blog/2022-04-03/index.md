@@ -5,6 +5,12 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 Git merge 三种策略
+
+- `git merge`：默认使用 fast-forward 方式，git 直接把 HEAD 指针指向合并分支的头，完成合并。属于“快进方式”，不过这种情况如果删除分支，则会丢失分支信息。因为在这个过程中没有创建 commit
+- `git merge --no-ff`：强行关闭 fast-forward 方式，可以保存之前的分支历史。能够更好的查看 merge 历史，以及 branch 状态
+- `git merge --squash`：用来把一些不必要 commit 进行压缩，比如说，你的 feature 在开发的时候写的 commit 很乱，那么我们合并的时候不希望把这些历史 commit 带过来，于是使用 `--squash` 进行合并，需要进行一次额外的 commit 来“总结”一下，完成最终的合并
+
 📒 Git 如何变基拉取代码
 
 在本地 commit 之后，下一步一般会执行 `git pull` 合并远程分支代码。我们知道 `git pull` 相当于 `git fetch && git merge`，通过 `merge` 方式合并代码，缺点就是会导致时间线比较混乱，出现大量没用的 commit 记录，给 Code Review 带来不便。另一种方式是变基拉取：
