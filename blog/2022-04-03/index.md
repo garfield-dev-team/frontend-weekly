@@ -5,6 +5,35 @@ authors: [garfield]
 tags: [git, ESLint, Prettier, yaml, CSS, Vue3, JSON 序列化, Golang]
 ---
 
+📒 rollup 配置优化方案
+
+```js
+// 打包引用主入口文件
+const appIndex = ["ESM", "CJS"].map(format => ({
+  input: path.resolve(__dirname, 'index.js'),
+  format,
+  external: ["./pyodide.worker.js"],
+  output: {
+    file: path.resolve(__dirname, 'dist/client', 'env.mjs'),
+    sourcemap: true
+  }
+}));
+
+// 打包 worker 文件
+// 目的是让 rollup 也处理下这个文件
+const worker = [
+  {
+    input: path.resolve(__dirname, 'pyodide.worker.js'),
+    output: {
+      file: path.resolve(__dirname, 'dist/client', 'pyodide.worker.js'),
+      sourcemap: true
+    }
+  }
+]
+
+export default [...appIndex, ...worker];
+```
+
 📒 Git merge 三种策略
 
 - `git merge`：默认使用 fast-forward 方式，git 直接把 HEAD 指针指向合并分支的头，完成合并。属于“快进方式”，不过这种情况如果删除分支，则会丢失分支信息。因为在这个过程中没有创建 commit
