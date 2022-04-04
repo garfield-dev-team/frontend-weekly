@@ -248,6 +248,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 操作系统
 
 - ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
+- ⭐️ [Arch Linux 完全手册（上）](https://mp.weixin.qq.com/s/94F4v1E9sB82lOr2DeSK0A)
+- ⭐️ [Arch Linux 完全手册（下）](https://mp.weixin.qq.com/s/ev8hnv-coGLobrbezMK1og)
 - [6w字搞定Linux基本操作，建议收藏](https://juejin.cn/post/6917096816118857736)
 - [半小时搞会 CentOS 入门必备基础知识](https://juejin.cn/post/6844904080972709901)
 - [手摸手带你 Docker 从入门到实践](https://juejin.cn/post/6875323565479034894)
