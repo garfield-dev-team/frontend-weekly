@@ -72,15 +72,24 @@ $ git push -f origin main
 
 **如何删除所有 commit 记录**
 
-找到最开始 Initial commit 的 id，执行 `git reset` 实现本地回退：
+初始化一个仓库：
 
 ```bash
-$ git reset --hard <commit id>
+$ git init
+```
+
+本地提交：
+
+```bash
+$ git add .
+$ git commit -m "Initial commit"
 ```
 
 下一步强制推送到远程仓库即可：
 
 ```bash
+$ git branch -m main
+$ git remote add origin <REPO_TARGET>
 $ git push -f origin main
 ```
 

@@ -130,8 +130,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [下一代前端构建工具 - Vite 2.x 源码级分析](https://juejin.cn/post/6979932627465666568)
 - [面向未来的前端构建工具 - Vite ⚡️原理分析](https://juejin.cn/post/6956564266812571656)
 
-## Monorepo 系列
+## PNPM && Monorepo
 
+- [深入浅出 tnpm rapid 模式 - 如何比 pnpm 快 10 秒](https://zhuanlan.zhihu.com/p/455809528)
+- [pnpm 源码结构及调试指南](https://mp.weixin.qq.com/s/grb2OlBYiwU3TOkEtNZReA)
+- [【第2506期】JavaScript 包管理器简史（npm/yarn/pnpm）](https://mp.weixin.qq.com/s/0Nx093GdMcYo5Mr5VRFDjw)
 - [年终盘点：2022基于Monorepo的首个大趋势-TurboRepo](https://juejin.cn/post/7051929587852247077)
 - [One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
 - [【我要做开源】Vue DevUI开源指南08：Monorepo改造](https://juejin.cn/post/7029262501833359368)
