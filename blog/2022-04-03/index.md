@@ -128,7 +128,14 @@ Docker 容器本身是无状态的，无法持久化存储，在 Docker 容器�
 
 📒 [复盘 Node 项目中遇到的13+常见问题和解决方案](https://mp.weixin.qq.com/s/YeOTUw7CiR-rREexcPDHqA)
 
-📒 [GitHub 最受欢迎的Top 20 JavaScript 项目](https://mp.weixin.qq.com/s/exmChOjKQ1l76LXkuMfzog)
+📒 GitHub 最受欢迎的Top 20 JavaScript 项目
+
+- [yargs: 通过使用 Node.js 构建功能全面的命令行应用，它能轻松配置命令，解析多个参数，并设置快捷方式等，还能自动生成帮助菜单](https://github.com/yargs/yargs)
+- [Ajv: 一个适用于 Node.js 和浏览器的最快 JSON 验证器](https://github.com/ajv-validator/ajv)
+- [yallist: 一个双向链表的实现](https://github.com/isaacs/yallist)
+- [rimraf: Node.js 的 rm -rf 实用程序。以包的形式包装rm -rf命令，用来删除文件和文件夹，不管文件夹是否为空，都可以删除](https://github.com/isaacs/rimraf)
+
+[GitHub 最受欢迎的Top 20 JavaScript 项目](https://mp.weixin.qq.com/s/exmChOjKQ1l76LXkuMfzog)
 
 📒 [保护自己 - 深入链路探究网络安全](https://juejin.cn/post/7081583211427397669)
 

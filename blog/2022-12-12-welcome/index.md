@@ -229,6 +229,40 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [认真写了个快速创建 Node 服务的CLI，看看对小伙伴们有帮忙吗？](https://mp.weixin.qq.com/s/Gcx6E4cYo6WPB8PLI72NWg)
   - 项目地址：https://github.com/koala-coding/create-bff-service-cli
 
+## 常用工具库
+
+**浏览器环境**
+
+- `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
+- `qs`：解析 URL query 参数的库；
+- `js-cookie`：简单、轻量的处理 cookie 的库；
+- `flv.js`：bilibili 开源的 HTML5 flash 播放器，使浏览器在不借助 flash 插件的情况下可以播放 flv；
+- `vConsole`：一个轻量、可拓展、针对手机网页的前端开发者调试面板；
+- `animate.css`：一个跨浏览器的 css3 动画库，内置了很多典型的 css3 动画，兼容性好，使用方便；
+- `lodash`：一个一致性、模块化、高性能的 JavaScript 实用工具库；
+
+**实用工具**
+
+- `yargs`：通过使用 Node.js 构建功能全面的命令行应用
+- `Ajv`：一个适用于 Node.js 和浏览器的最快 JSON 验证器
+- `yallist`：一个双向链表的实现
+- `rimraf`：Node.js 的 rm -rf 实用程序
+- `consola`：Nuxt.js 出品的终端日志工具
+- `webpackbar`：Nuxt.js 出品的 webpack 编译进度条
+
+**CLI 工具**
+
+- `chalk/kolorist`
+- `inquirer/prompts`
+- `ora`
+- `semver`
+- `pkg-install`
+- `ncp`：跨平台递归拷贝文件
+- `commander/yargs`
+- `execa`（个人觉得 Node 原生 `child_process` 的 `exec` 就够用了）
+- `minimist`
+- `oclif`：Heroku 开源的 CLI 框架
+
 ## 前端编译
 
 - [V8 编译浅谈](https://juejin.cn/post/7041021350114230285)
@@ -283,10 +317,12 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Java 相关
 
+- [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
 - [ElasticSearch进阶：一文全览各种ES查询在Java中的实现](https://blog.csdn.net/mu_wind/article/details/118423362)
 - [使用 @Transactional 时常犯的N种错误](https://juejin.cn/post/7031047868806873096)
 - [Spring Boot 2.x基础教程：使用@Scheduled实现定时任务](https://juejin.cn/post/6984974277573836830)
 - [Spring Boot中使用@Async实现异步调用，加速任务的执行！](https://juejin.cn/post/7007642025264676871)
+- [IDEA 高效使用指南](https://github.com/CodingDocs/awesome-idea)
 - [CodeGuide | 程序员编码指南](https://github.com/fuzhengwei/CodeGuide)
 - [🌱 Spring 手撸专栏 - 易学、好写、能懂！](https://github.com/fuzhengwei/small-spring)
 
@@ -315,11 +351,30 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 网站推荐
 
+**文档相关**
+
 - [MDN 文档](https://developer.mozilla.org/zh-CN/)
 - [caniuse：查询 API 兼容性](https://caniuse.com/)
-- [阮一峰 ES6 教程](https://es6.ruanyifeng.com/)
-- [codelf 变量命名神器](https://unbug.github.io/codelf/)
+- [《阮一峰 ES6 教程》](https://es6.ruanyifeng.com/)
+- [《浏览器工作原理与实践》](https://link.juejin.cn/?target=https%3A%2F%2Fblog.poetries.top%2Fbrowser-working-principle%2F)
+- [《深入浅出 webpack》](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.wuhaolin.cn%2F)
+- [《代码随想录》](https://link.juejin.cn/?target=https%3A%2F%2Fprogrammercarl.com%2F)
+- [《前端进阶之道》](https://link.juejin.cn/?target=https%3A%2F%2Fyuchengkai.cn%2F)
+- [《React 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Freact.iamkasong.com%2F)
+- [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
+
+**在线 Plyaground**
+
+- [Vue SFC Playground](sfc.vuejs.org/)
+- [CodeSandBox](https://link.juejin.cn/?target=https%3A%2F%2Fcodesandbox.io%2Fdashboard%2Fhome)
+- [CodePen](codepen.io/)
 - [AST explorer：可视化 AST](https://www.astexplorer.net/)
+- [正则表达式可视化](https://link.juejin.cn/?target=https%3A%2F%2Fjex.im%2Fregulex)
+
+**工具相关**
+
+- [carbon：生成代码片](https://link.juejin.cn/?target=https%3A%2F%2Fcarbon.now.sh%2F)
+- [codelf 变量命名神器](https://unbug.github.io/codelf/)
 - [openbase：查询各种第三方库](https://openbase.com/)
 
 ## 学习资源
