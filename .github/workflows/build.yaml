@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
+          registry-url: https://registry.npmmirror.com/
           cache: yarn
       - name: Cache node_modules
         uses: actions/cache@v3
@@ -29,7 +30,7 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile --registry=https://registry.npmmirror.com/
+        run: yarn install --frozen-lockfile
       - name: Build
         run: yarn build
       - name: Deploy
