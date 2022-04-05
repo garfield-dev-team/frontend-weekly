@@ -35,6 +35,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## TS && 框架
 
 - ⭐️ ⭐️ [React + TypeScript实践](https://juejin.cn/post/6952696734078369828)
+- [TypeScript 终极初学者指南](https://mp.weixin.qq.com/s/6DAyXFHIMW95FS0f3GyHpA)
 - [如何优雅地在 React 中使用TypeScript，看这一篇就够了！](https://juejin.cn/post/7021674818621669389)
 - [「1.9W字总结」一份通俗易懂的 TS 教程，入门 + 实战！](https://juejin.cn/post/7068081327857205261)
 - ⭐️ [Vue3.0 前的 TypeScript 最佳入门实践](https://juejin.cn/post/6844903865255477261)
@@ -156,6 +157,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)
 - [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
+- ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
 - 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
 - ⭐️ [Deno 简介：它比 Node.js 更好吗？](https://mp.weixin.qq.com/s/qnA1tFKMXr7hwsEKFXKOZg)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
@@ -331,6 +333,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
+- [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
+- Golang 算法
+  - https://github.com/fangbinwei/algorithm-practice
+- Golang 项目参考
+  - https://github.com/fangbinwei/aliyun-oss-website-action
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - 🌛 [深入理解Go Json.Unmarshal精度丢失之谜](https://mp.weixin.qq.com/s/36CqC1U54LUd4-izt4iZ1g)
@@ -500,6 +507,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 	- [跟着源码了解Webpack编译流程](https://juejin.cn/post/7026658230365323301)
 	- [面试官：webpack原理都不会？](https://juejin.cn/post/6859538537830858759)
 	- [让 AST 操作像呼吸一样自然](https://juejin.cn/post/7026671646555504676)
+- 手写 Webapck 核心原理
+  - [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
+  - [手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
+  - [100行代码实现一个组件引用次数统计插件](https://juejin.cn/post/7077484559893266439)
+  - https://github.com/ronami/minipack
 - 手把手实现一个 babel 插件
   - 这篇做的 demo 是一个简单的 babel-plugin-import
   - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
