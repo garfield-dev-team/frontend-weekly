@@ -65,6 +65,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 开源项目
 
+- ⭐️ [degit - 简单的项目脚手架](https://github.com/Rich-Harris/degit)
 - ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
 - [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
 - [prisma - 下一代 Nodejs ORM 工具，支持各种数据库](https://github.com/prisma/prisma)
@@ -573,6 +574,9 @@ import TabItem from '@theme/TabItem';
   - [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
   - [🔥【万字】透过分析 webpack 面试题，构建 webpack5.x 知识体系](https://juejin.cn/post/7023242274876162084)
   - [Next.js webpack 配置](https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack-config.ts)
+- 静态页面部署方案
+  - 上传阿里云 OSS
+    https://github.com/Menci/upload-to-oss
 - [面向未来的前端开发模式 - 写于2021年](https://juejin.cn/post/6992172458748936222)
 - [从零搭建Webpack5-react脚手架(附源码)](https://juejin.cn/post/6990538424545443854)
 - [手写各种源码](https://github.com/JinJieTan/Peter-)
@@ -644,3 +648,4 @@ import TabItem from '@theme/TabItem';
 - [腾讯云后端15连问！](https://mp.weixin.qq.com/s/aMYJODhtWsBt9CTJxySQEQ)
 - [如何成为一个优秀的复制粘贴工程师](https://juejin.cn/post/7080032725477883917)
 - [docker文件夹映射的两种方式---主机卷映射和共享文件夹映射](https://blog.csdn.net/zhydream77/article/details/81909706)
+- [为什么golang没有min/max以及三元操作符](https://studygolang.com/articles/25997?fr=sidebar)
