@@ -74,6 +74,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 业务成长
 
+- ⭐️ [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
 - ⭐️ [精读《前端职业规划 - 2021 年》](https://juejin.cn/post/6965675185890394119)
 - ⭐️ [2022年如何成为一名优秀的大前端Leader？](https://juejin.cn/post/7034419410706104356)
 - ⭐️ ⭐️ [初级工程师如何快速成长和寻求突破](https://juejin.cn/post/6906468062943182862#heading-8)
@@ -157,8 +158,6 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)
 - [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
-- ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
-- 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
 - ⭐️ [Deno 简介：它比 Node.js 更好吗？](https://mp.weixin.qq.com/s/qnA1tFKMXr7hwsEKFXKOZg)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [前端架构师神技，三招统一团队代码风格](https://juejin.cn/post/7029512357428592648)
@@ -167,6 +166,14 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [ESM 与 CJS 的 Interop 来世今生](https://mp.weixin.qq.com/s/3TKcUeoyzXvH3MGVI6Dj9A)
 - ⭐️ [2022 前端技术领域会有哪些新的变化？](https://www.zhihu.com/question/493891614/answer/2269197391)
 - 🌛 [前端构建这十年](https://segmentfault.com/a/1190000040496020)
+
+## 软件架构 && 设计模式
+
+- [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
+- [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
+- ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
+- 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
+- [只会用传统开发模式？10分钟教你玩转敏捷！](https://mp.weixin.qq.com/s/g9F05SRnQBTzzfx_2CKqhg)
 
 ## 持续集成
 
@@ -231,9 +238,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [认真写了个快速创建 Node 服务的CLI，看看对小伙伴们有帮忙吗？](https://mp.weixin.qq.com/s/Gcx6E4cYo6WPB8PLI72NWg)
   - 项目地址：https://github.com/koala-coding/create-bff-service-cli
 
-## 常用工具库
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-**浏览器环境**
+<Tabs>
+<TabItem value="浏览器环境" label="浏览器环境" default>
 
 - `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
 - `qs`：解析 URL query 参数的库；
@@ -243,7 +252,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - `animate.css`：一个跨浏览器的 css3 动画库，内置了很多典型的 css3 动画，兼容性好，使用方便；
 - `lodash`：一个一致性、模块化、高性能的 JavaScript 实用工具库；
 
-**实用工具**
+</TabItem>
+<TabItem value="实用工具" label="实用工具">
 
 - `yargs`：通过使用 Node.js 构建功能全面的命令行应用
 - `Ajv`：一个适用于 Node.js 和浏览器的最快 JSON 验证器
@@ -252,7 +262,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - `consola`：Nuxt.js 出品的终端日志工具
 - `webpackbar`：Nuxt.js 出品的 webpack 编译进度条
 
-**CLI 工具**
+</TabItem>
+<TabItem value="CLI 工具" label="CLI 工具">
 
 - `chalk/kolorist`
 - `inquirer/prompts`
@@ -264,6 +275,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - `execa`（个人觉得 Node 原生 `child_process` 的 `exec` 就够用了）
 - `minimist`
 - `oclif`：Heroku 开源的 CLI 框架
+
+</TabItem>
+</Tabs>
 
 ## 前端编译
 
@@ -628,4 +642,5 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
 - [十道腾讯算法真题解析！](https://mp.weixin.qq.com/s/dg4WI2eJzh6b3OAzHN0q3A)
 - [腾讯云后端15连问！](https://mp.weixin.qq.com/s/aMYJODhtWsBt9CTJxySQEQ)
+- [如何成为一个优秀的复制粘贴工程师](https://juejin.cn/post/7080032725477883917)
 - [docker文件夹映射的两种方式---主机卷映射和共享文件夹映射](https://blog.csdn.net/zhydream77/article/details/81909706)
