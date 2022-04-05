@@ -372,9 +372,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 **在线 Plyaground**
 
-- [Vue SFC Playground](sfc.vuejs.org/)
+- [Vue SFC Playground](https://sfc.vuejs.org/)
 - [CodeSandBox](https://link.juejin.cn/?target=https%3A%2F%2Fcodesandbox.io%2Fdashboard%2Fhome)
-- [CodePen](codepen.io/)
+- [CodePen](https://codepen.io/)
 - [AST explorer：可视化 AST](https://www.astexplorer.net/)
 - [正则表达式可视化](https://link.juejin.cn/?target=https%3A%2F%2Fjex.im%2Fregulex)
 
