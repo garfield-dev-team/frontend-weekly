@@ -353,6 +353,8 @@ import TabItem from '@theme/TabItem';
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
   - https://github.com/fangbinwei/aliyun-oss-website-action
+- Golang 教程
+  - https://www.w3cschool.cn/go/
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - 🌛 [深入理解Go Json.Unmarshal精度丢失之谜](https://mp.weixin.qq.com/s/36CqC1U54LUd4-izt4iZ1g)
