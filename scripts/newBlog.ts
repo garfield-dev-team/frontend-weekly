@@ -35,9 +35,10 @@ const template = [
   "authors: [garfield]",
   "tags: []",
   "---",
-  os.EOL,
-  os.EOL
-].join("\n");
+  "",
+  "",
+  "",
+].join(os.EOL);
 
 const newDir = path.resolve(blogDir, folderName);
 const newFile = path.resolve(blogDir, folderName, "index.md");
