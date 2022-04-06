@@ -30,7 +30,7 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+        run: yarn install --production --frozen-lockfile
       - name: Build
         run: yarn build
       - name: Deploy

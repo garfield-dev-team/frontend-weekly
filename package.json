@@ -6,6 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "new:blog": "ts-node ./scripts/newBlog.ts",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.18",
     "@tsconfig/docusaurus": "^1.0.4",
+    "consola": "^2.15.3",
     "typescript": "^4.6.2"
   },
   "browserslist": {
