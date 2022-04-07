@@ -30,7 +30,7 @@ tags: []
 
 假如不想通过上述方式启用，还有一些方法：
 
-- 通过 Webpack 等打包工具支持 ESM 模块（Webpack 默认使用 `web` 环境构建，需要配置 `target: "web"` 避免打包 Node 内置模块）；
+- 通过 Webpack 等打包工具支持 ESM 模块（Webpack 默认使用 `web` 环境构建，需要配置 `target: "node"` 避免打包 Node 内置模块）；
 - 还可以使用 `ts-node` 支持 ESM 模块（内部使用 `tsc` 进行编译）；
 
 
