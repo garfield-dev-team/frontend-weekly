@@ -30,5 +30,32 @@ tags: []
 
 假如不想通过上述方式启用，还有一些方法：
 
-- 通过 Webpack 等打包工具支持 ESM 模块；
+- 通过 Webpack 等打包工具支持 ESM 模块（Webpack 默认使用 `web` 环境构建，需要配置 `target: "web"` 避免打包 Node 内置模块）；
 - 还可以使用 `ts-node` 支持 ESM 模块（内部使用 `tsc` 进行编译）；
+
+
+📒 如何生成随机 ID
+
+一种是直接使用 `Math.random()`：
+
+```js
+const randomId = () => Math.random().toString().slice(2, 8);
+```
+
+另一种是使用查表的方式：
+
+```js
+// 生成 [0..9] 的数组
+const nums = Array.from({ length: 10 }, (_, index) => index);
+
+// 从 nums 数组中随机选取元素
+const sample = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const randomId = () => Array.from({ length: 6 }, () => sample(nums)).join("");
+```
+
+📒 跨域如何携带 Cookie
+
+- 如果通过网关层代理（例如 nginx）则不用担心，对于浏览器来说实际上并没有跨域，可正常携带 Cookie
+- 如果通过 CORS 跨域，浏览器默认不会携带 Cookie，此时有两种方案：
+  - 在请求头中添加 `Authorization` 字段发送 Cookie（在 axios 中配置请求拦截添加）
+  - 后端响应头添加 `Access-Control-Allow-Credentials`，前端发送请求时配置 `xhr.withCredentials = true`
