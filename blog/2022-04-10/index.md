@@ -5,6 +5,78 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
+
+📒 Golang 和 JS 创建对象方式对比
+
+Golang 与 JS 创建对象非常类似，Golang 在创建对象的时候需要定义 schema 进行类型约束：
+
+```go
+type Person struct {
+  Name    string
+  Age     int
+  Sex     bool
+}
+
+person := Person{
+  Name: "dbydm",
+  Age: 12,
+  Sex: true,
+}
+```
+
+而 JS 不需要 schema 约束：
+
+```js
+const person = {
+  name: "dbydm",
+  age: 12,
+  sex: true
+}
+```
+
+Golang 创建对象数组：
+
+```go
+list := []*Person{
+  &Person{
+    Name: "dbydm",
+    Age: 12,
+    Sex: true,
+  },
+  &Person{
+    Name: "dm",
+    Age: 2333,
+    Sex: false,
+  },
+}
+```
+
+JS 创建对象数组：
+
+```js
+const list = [
+  {
+    name: "dbydm",
+    age: 12,
+    sex: true
+  },
+  {
+    name: "dm",
+    age: 2333,
+    sex: false
+  }
+]
+```
+
+📒 Node.js 常见的系统信号
+
+- SIGHUP：不通过 ctrl+c 停止进程，而是直接关闭命令行终端，会触发该信号
+- SIGINT：按下 ctrl+c 停止进程时触发；pm2 重启或者停止子进程时，也会向子进程发送该信号
+- SIGTERM：一般用于通知进程优雅退出，如 k8s 删除 pod 时，就会向 pod 发送 SIGTERM 信号，pod 可以在超时时间内（默认 30s）做一些退出清理动作
+- SIGBREAK：在 window 系统上，按下 ctrl+break 会触发该信号
+- SIGKILL：强制退出进程，进程无法做任何清理动作，执行命令 kill -9 pid，进程会收到该信号。k8s 删除 pod 时，如果超过 30s，pod 还没退出，k8s 会向 pod 发送 SIGKILL 信号，立即退出 pod 进程；pm2 在重启或者停止进程时，如果超过 1.6s，进程还没退出，也会发送 SIGKILL 信号
+
 📒 [2022 年，Babel vs TypeScript，谁更适合代码编译](https://mp.weixin.qq.com/s/JCIyV-_VfQ9iScd_xOuP8g)
 
 📒 React 常用状态管理库
