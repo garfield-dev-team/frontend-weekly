@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/XWZsKQECcsHAlE9cyqi9Eg)
+
+📒 Node.js 进阶 - 多文件 Stream 合并，串行和并发两种模式实现
+
+重要的事情再说一遍，`pipe` 方法默认情况下会自动关闭可写流，但是如果可读流期间发生错误，则写入的目标流将不会关闭，所以如果使用 `pipe` 需要监听错误事件，手动关闭可写流，防止文件句柄泄露。
+
+[Node.js 进阶 - 多文件 Stream 合并，串行和并发两种模式实现](https://mp.weixin.qq.com/s/WisEGFz2yn_ZeekViofMnA)
+
+📒 [服务端渲染SSR及实现原理](https://juejin.cn/post/7046898330000949285)
+
+📒 [手摸手服务端渲染-react](https://mp.weixin.qq.com/s/lyff2svfHh4rdsWRL4H5uA)
+
 📒 [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
 
 📒 Golang 和 JS 创建对象方式对比
