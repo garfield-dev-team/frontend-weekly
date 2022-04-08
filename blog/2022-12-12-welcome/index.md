@@ -386,6 +386,7 @@ import TabItem from '@theme/TabItem';
 - [《前端进阶之道》](https://link.juejin.cn/?target=https%3A%2F%2Fyuchengkai.cn%2F)
 - [《React 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Freact.iamkasong.com%2F)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
+- [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
 
 **在线 Plyaground**
 
@@ -571,6 +572,8 @@ import TabItem from '@theme/TabItem';
   - [走进React Fiber的世界](https://juejin.cn/post/6943896410987659277)
   - [前端工程师的自我修养：React Fiber 是如何实现更新过程可控的](https://juejin.cn/post/6911681589558640654)
   - [React Fiber很难？六个问题助你理解 React Fiber](https://juejin.cn/post/6984949525928476703)
+- Vite 源码
+  - ⭐️ [深入浅出 Vite](https://juejin.cn/book/7050063811973218341)
 - 工程化方案总结下
   - [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
   - [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
