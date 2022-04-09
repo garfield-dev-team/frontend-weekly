@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【混淆系列】三问：npx、npm、cnpm、pnpm区别你搞清楚了吗？](https://juejin.cn/post/7083468345579667493)
+
+📒 [Webpack组件库打包超详细指南](https://juejin.cn/post/7082738107237433375)
+
+📒 Node.js 技术架构
+
+Node 是怎么实现的？简言之：用 V8 运行 JS、用 bindings 实现 JS 与 C/C++ 沟通、用 C/C++ 库高效处理 IO、用 Node.js 标准库简化 JS 代码、用 Event Loop 管理事件处理顺序、用 libuv 实现异步 I/O 操作。
+
+[Node.js 技术架构](https://juejin.cn/post/7081891057918558221)
+
+📒 [Web 框架的替代方案](https://mp.weixin.qq.com/s/_eDFlWBJHxf4oar6Fpye2Q)
+
 📒 [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/XWZsKQECcsHAlE9cyqi9Eg)
 
 📒 Node.js 进阶 - 多文件 Stream 合并，串行和并发两种模式实现
