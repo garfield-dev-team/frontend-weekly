@@ -175,6 +175,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
 - ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
 - 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
+- [我做系统架构的一些原则](https://coolshell.cn/articles/21672.html)
+- [前端架构设计中如何做好技术决策？](https://mp.weixin.qq.com/s/m1Dv-YG60AKArGu-URr88w)
+- [前端领域的 “干净架构”](https://mp.weixin.qq.com/s/4bB_B5JTOrev8mqfG7K2cw)
 - [只会用传统开发模式？10分钟教你玩转敏捷！](https://mp.weixin.qq.com/s/g9F05SRnQBTzzfx_2CKqhg)
 
 ## 持续集成
