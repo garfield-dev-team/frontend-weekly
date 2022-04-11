@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[4月17日内容汇总]]></title>
+            <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/4月17日内容汇总</link>
+            <guid>4月17日内容汇总</guid>
+            <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[📒 打造轻量级 WebIDE，看这一篇文章就够啦]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7085224136980561927" target="_blank" rel="noopener noreferrer">打造轻量级 WebIDE，看这一篇文章就够啦</a></p><p>📒 developer-roadmap</p><p>developer-roadmap 是一个开发人员路线图，包含了前端路线图、后端路线图、DevOps 路线图、React 路线图、Angular 路线图、Android 路线图、Python 路线图、Go 路线图、Java 路线图、DBA 路线图。</p><p><a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener noreferrer">https://github.com/kamranahmedse/developer-roadmap</a></p><p>📒 <a href="https://github.com/vercel/pkg" target="_blank" rel="noopener noreferrer">pkg: 将 Node.js 项目打包为可执行文件</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[4月10日内容汇总]]></title>
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/4月10日内容汇总</link>
             <guid>4月10日内容汇总</guid>
