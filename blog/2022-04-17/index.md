@@ -13,4 +13,4 @@ developer-roadmap 是一个开发人员路线图，包含了前端路线图、�
 
 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
-📒 [pkg: 将 Node.js 项目打包为可执行文件](https://github.com/vercel/pkg)
+📒 [pkg: 把 Node.js 项目打包为可执行文件](https://github.com/vercel/pkg)
