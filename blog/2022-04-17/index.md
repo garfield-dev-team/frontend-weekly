@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [2022 年的 React 生态](https://juejin.cn/post/7085542534943883301)
+
+📒 [linux后台开发具备能力集锦](https://zhuanlan.zhihu.com/p/163481957)
+
+📒 [Linux下C++后台服务器开发](https://zhuanlan.zhihu.com/p/439279854)
+
+📒 [Go 语言与并发编程](https://zhuanlan.zhihu.com/p/471317280)
+
 📒 [打造轻量级 WebIDE，看这一篇文章就够啦](https://juejin.cn/post/7085224136980561927)
 
 📒 developer-roadmap
