@@ -202,6 +202,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
+- ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
 - [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
 - [图解|Linux内存背后的那些神秘往事](https://mp.weixin.qq.com/s/l_YdpyHht5Ayvrc7LFZNIA)
 - [图解|什么是内容分发网络(cdn)](https://juejin.cn/post/7064952956201730062)
