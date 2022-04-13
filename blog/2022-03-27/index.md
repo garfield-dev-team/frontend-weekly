@@ -145,7 +145,17 @@ class MyCompoment extends React.Component {
 }
 ```
 
-**3. 类组件中需要注意事件处理函数的 `this` 绑定问题**
+**3. 状态更新可能是异步的**
+
+React 可能会对多次 `setState()` 调用进行批处理，使组件只更新一次，因此 `this.props` 和 `this.state` 可能会异步更新。所以不能依赖 `this.state` 计算下一个状态，这种情况下，可以使用函数式更新：
+
+```jsx
+this.setState((prevState, prevProps) => ({
+  counter: prevState.counter + prevProps.increment
+}));
+```
+
+**4 类组件中需要注意事件处理函数的 `this` 绑定问题**
 
 ```jsx
 class MyCompoment extends React.Component {
