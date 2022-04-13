@@ -2,7 +2,7 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## 安装 docusaurus
+### 安装 docusaurus
 
 ```bash
 $ npx create-docusaurus@latest my-website classic --typescript --package-manager yarn
