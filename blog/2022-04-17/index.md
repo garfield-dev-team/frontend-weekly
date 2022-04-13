@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [选择第三方 NPM 包时的 5 条最佳实践](https://mp.weixin.qq.com/s/kGMsNmIXlT25NfRrifjnTQ)
+
 📒 [Vue3.2 vDOM diff流程分析之一：diff算法](https://juejin.cn/post/7072321805792313357)
 
 📒 [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
