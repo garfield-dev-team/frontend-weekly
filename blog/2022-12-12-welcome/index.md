@@ -394,6 +394,7 @@ import TabItem from '@theme/TabItem';
 - [《代码随想录》](https://link.juejin.cn/?target=https%3A%2F%2Fprogrammercarl.com%2F)
 - [《前端进阶之道》](https://link.juejin.cn/?target=https%3A%2F%2Fyuchengkai.cn%2F)
 - [《React 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Freact.iamkasong.com%2F)
+- [《图解 React 源码系列》](https://github.com/7kms/react-illustration-series)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
 - [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
 
