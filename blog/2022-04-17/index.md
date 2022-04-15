@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)
+
+📒 https://nextjs.org/learn/basics/create-nextjs-app
+
+📒 https://nextjs.org/docs
+
+📒 [手把手教你用神器nextjs一键导出你的github博客文章生成静态html](https://juejin.cn/post/6844903944343273485)
+
 📒 Golang 手写数组方法
 
 ```go
