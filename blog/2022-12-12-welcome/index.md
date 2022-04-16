@@ -295,6 +295,7 @@ import TabItem from '@theme/TabItem';
 - [V8 编译浅谈](https://juejin.cn/post/7041021350114230285)
 - ⭐️ [编译技术在前端的实践（二）—— Antlr 及其应用](https://juejin.cn/post/7057354419888717855)
 - ⭐️ [编译技术在前端的实践（一）—— 编译原理基础](https://juejin.cn/post/6989509925844041742)
+- [浅析TypeScript Compiler 原理](https://juejin.cn/post/7047329886502912030)
 - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
 
 ## 文件上传

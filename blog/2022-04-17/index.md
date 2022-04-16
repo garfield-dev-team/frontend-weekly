@@ -5,6 +5,41 @@ authors: [garfield]
 tags: []
 ---
 
+📒 JS 相关技巧
+
+```ts
+// 1. 数组转对象
+const dict: Record<number, boolean> = Object.fromEntries(
+    array.map(i => [i, true])
+)
+
+// 2. 使用 Array.from 初始化数组
+const digits = Array.from({ length: 10 }, (_, i) => i);
+
+// 3. 字符串转数组，然后用数组方法遍历
+// 常规方法是用 split()
+String(num).split("").reduce(...)
+// 由于字符串实现了 iterator 接口，因此可以使用扩展运算符展开到数组中
+[...String(num)].reduce(...)
+```
+
+📒 [用Rust锈化Vue Compiler](https://zhuanlan.zhihu.com/p/417534662)
+
+📒 TS 类型体操性能分析
+
+```bash
+$ tsc index.ts –-diagnostics
+```
+
+📒 前端动画实现方案
+
+- CSS 方案：`transition`、`animation`
+- JS 方案：`setTimeout`、`requestAnimationFrame`
+
+一个实验性 API `Element.animate()`，可以在渲染进程的时候就执行，性能更好。
+
+> https://developer.mozilla.org/zh-CN/docs/Web/API/Element/animate
+
 📒 [我是如何带领团队从零到一建立前端规范的](https://juejin.cn/post/7085257325165936648)
 
 📒 [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)
