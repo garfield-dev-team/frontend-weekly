@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [我是如何带领团队从零到一建立前端规范的](https://juejin.cn/post/7085257325165936648)
+
 📒 [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)
 
 📒 https://nextjs.org/learn/basics/create-nextjs-app
