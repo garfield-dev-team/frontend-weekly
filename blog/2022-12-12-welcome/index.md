@@ -587,6 +587,11 @@ import TabItem from '@theme/TabItem';
   - [React Fiber很难？六个问题助你理解 React Fiber](https://juejin.cn/post/6984949525928476703)
 - Vite 源码
   - ⭐️ [深入浅出 Vite](https://juejin.cn/book/7050063811973218341)
+- 包管理方案、PNPM
+- Arch Linux
+- 如何搭建个人博客
+  - 使用 Next.js，开箱即用文件系统路由、静态站点生成（SSG）
+  - https://nextjs.org/learn/basics/create-nextjs-app
 - 工程化方案总结下
   - [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
   - [2021 年当我们聊前端部署时，我们在聊什么](https://juejin.cn/post/7017710911443959839)
