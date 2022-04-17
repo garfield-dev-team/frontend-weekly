@@ -107,6 +107,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [手写系列-实现一个铂金段位的 React](https://juejin.cn/post/6978654109893132318)
 - ⭐️ [React 运行时优化方案的演进](https://juejin.cn/post/7010539227284766751)
 - ⭐️ [带你快速手写一个简易版vue了解vue响应式](https://juejin.cn/post/6990974525273800712)
+- [Vue3.2 vDOM diff流程分析之一：diff算法](https://juejin.cn/post/7072321805792313357)
 - [2021年，让我们手写一个mini版本的vue2.x和vue3.x框架](https://juejin.cn/post/6977363265965785102)
 - [Vue(v2.6.11)万行源码生啃，就硬刚！](https://juejin.cn/post/6846687602679119885)
 - [尤雨溪国外教程：亲手带你写个简易版的Vue！](https://juejin.cn/post/6992018709439053837)
@@ -297,6 +298,7 @@ import TabItem from '@theme/TabItem';
 - [V8 编译浅谈](https://juejin.cn/post/7041021350114230285)
 - ⭐️ [编译技术在前端的实践（二）—— Antlr 及其应用](https://juejin.cn/post/7057354419888717855)
 - ⭐️ [编译技术在前端的实践（一）—— 编译原理基础](https://juejin.cn/post/6989509925844041742)
+- [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
 - [浅析TypeScript Compiler 原理](https://juejin.cn/post/7047329886502912030)
 - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
 
@@ -693,5 +695,4 @@ import TabItem from '@theme/TabItem';
 - [手摸手服务端渲染-react](https://mp.weixin.qq.com/s/lyff2svfHh4rdsWRL4H5uA)
 - [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
 - [选择第三方 NPM 包时的 5 条最佳实践](https://mp.weixin.qq.com/s/kGMsNmIXlT25NfRrifjnTQ)
-- [Vue3.2 vDOM diff流程分析之一：diff算法](https://juejin.cn/post/7072321805792313357)
-- [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
+- [用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
