@@ -273,6 +273,7 @@ import TabItem from '@theme/TabItem';
 - `rimraf`：Node.js 的 rm -rf 实用程序
 - `consola`：Nuxt.js 出品的终端日志工具
 - `webpackbar`：Nuxt.js 出品的 webpack 编译进度条
+- `pkg`: 把 Node.js 项目打包为可执行文件
 
 </TabItem>
 <TabItem value="CLI 工具" label="CLI 工具">
@@ -367,6 +368,7 @@ import TabItem from '@theme/TabItem';
   - https://github.com/fangbinwei/aliyun-oss-website-action
 - Golang 教程
   - https://www.w3cschool.cn/go/
+- ⭐️ [Go 语言与并发编程](https://zhuanlan.zhihu.com/p/471317280)
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
 - 🌛 [深入理解Go Json.Unmarshal精度丢失之谜](https://mp.weixin.qq.com/s/36CqC1U54LUd4-izt4iZ1g)
@@ -384,6 +386,7 @@ import TabItem from '@theme/TabItem';
 ## Rust 学习
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
+- 🌛 [用Rust锈化Vue Compiler](https://zhuanlan.zhihu.com/p/417534662)
 
 ## 网站推荐
 
@@ -679,3 +682,16 @@ import TabItem from '@theme/TabItem';
 - [如何成为一个优秀的复制粘贴工程师](https://juejin.cn/post/7080032725477883917)
 - [docker文件夹映射的两种方式---主机卷映射和共享文件夹映射](https://blog.csdn.net/zhydream77/article/details/81909706)
 - [为什么golang没有min/max以及三元操作符](https://studygolang.com/articles/25997?fr=sidebar)
+- [编译 ts 代码用 tsc 还是 babel](https://juejin.cn/post/7084882650233569317)
+- [如果没有 package-lock.json，那将如何](https://juejin.cn/post/7031122959637217310)
+- [工程化知识卡片 023：node_modules 版本重复的困境](https://juejin.cn/post/7030084290989948935s)
+- [【混淆系列】三问：npx、npm、cnpm、pnpm区别你搞清楚了吗？](https://juejin.cn/post/7083468345579667493)
+- [Webpack组件库打包超详细指南](https://juejin.cn/post/7082738107237433375)
+- [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/XWZsKQECcsHAlE9cyqi9Eg)
+- [Node.js 进阶 - 多文件 Stream 合并，串行和并发两种模式实现](https://mp.weixin.qq.com/s/WisEGFz2yn_ZeekViofMnA)
+- [服务端渲染SSR及实现原理](https://juejin.cn/post/7046898330000949285)
+- [手摸手服务端渲染-react](https://mp.weixin.qq.com/s/lyff2svfHh4rdsWRL4H5uA)
+- [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
+- [选择第三方 NPM 包时的 5 条最佳实践](https://mp.weixin.qq.com/s/kGMsNmIXlT25NfRrifjnTQ)
+- [Vue3.2 vDOM diff流程分析之一：diff算法](https://juejin.cn/post/7072321805792313357)
+- [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
