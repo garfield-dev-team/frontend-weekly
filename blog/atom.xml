@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[4月24日内容汇总]]></title>
+        <id>4月24日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/4月24日内容汇总"/>
+        <updated>2022-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 如何实现 useClickAway]]></summary>
+        <content type="html"><![CDATA[<p>📒 如何实现 <code>useClickAway</code></p><p>如何监听元素外的点击，类似 Vue 的 ClickOutSide 指令</p><blockquote><p>官方文档：<a href="https://ahooks.js.org/hooks/use-click-away" target="_blank" rel="noopener noreferrer">https://ahooks.js.org/hooks/use-click-away</a></p></blockquote><blockquote><p>源码：<a href="https://github.com/alibaba/hooks/blob/master/packages/hooks/src/useClickAway/index.ts" target="_blank" rel="noopener noreferrer">https://github.com/alibaba/hooks/blob/master/packages/hooks/src/useClickAway/index.ts</a></p></blockquote><p>📒 <a href="https://juejin.cn/post/7087906504308850701" target="_blank" rel="noopener noreferrer">快速理解 TypeScript 的逆变、协变</a></p><p>📒 <a href="https://juejin.cn/post/7087811040591675428" target="_blank" rel="noopener noreferrer">都 2022 年了，手动搭建 React 开发环境很难吗</a></p><p>📒 <a href="https://juejin.cn/post/7085298532365631501" target="_blank" rel="noopener noreferrer">这篇手写 Promise 你一定要康康</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/JZbsIqsqNeJmc__QFKpo1Q" target="_blank" rel="noopener noreferrer">超全面的前端新一代构建工具对比: esbuild、Snowpack、Vite、wmr</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[4月17日内容汇总]]></title>
         <id>4月17日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/4月17日内容汇总"/>
