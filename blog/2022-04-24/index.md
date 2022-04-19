@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 React 18 系列
+
+[React 18 全览](https://mp.weixin.qq.com/s/t3dYc3Md1dpiv1vaFa5plA)
+
+[React 18 对 Hooks 的影响](https://mp.weixin.qq.com/s/fgT7Kxs_0feRx4TkBe6G5Q)
+
+📒 [我帮一朋友重构了点代码，他直呼牛批，但基操勿六](https://juejin.cn/post/7085674288933502984)
+
+📒 [React + TypeScript：如何处理常见事件](https://mp.weixin.qq.com/s/imxPGpN_EXq4St_EpcA2eg)
+
+📒 [单例模式 4 种经典实现方法](https://mp.weixin.qq.com/s/Ua03qsLcrVURtxhSnuU_6w)
+
 📒 如何实现 `useClickAway`
 
 如何监听元素外的点击，类似 Vue 的 ClickOutSide 指令
