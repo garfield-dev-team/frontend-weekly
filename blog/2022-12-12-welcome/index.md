@@ -319,6 +319,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
 - ⭐️ [Arch Linux 完全手册（上）](https://mp.weixin.qq.com/s/94F4v1E9sB82lOr2DeSK0A)
 - ⭐️ [Arch Linux 完全手册（下）](https://mp.weixin.qq.com/s/ev8hnv-coGLobrbezMK1og)
+- [2万字系统总结，带你实现 Linux 命令自由](https://juejin.cn/post/6938385978004340744)
 - [6w字搞定Linux基本操作，建议收藏](https://juejin.cn/post/6917096816118857736)
 - [半小时搞会 CentOS 入门必备基础知识](https://juejin.cn/post/6844904080972709901)
 - [手摸手带你 Docker 从入门到实践](https://juejin.cn/post/6875323565479034894)
@@ -599,6 +600,8 @@ import TabItem from '@theme/TabItem';
   - [React Fiber很难？六个问题助你理解 React Fiber](https://juejin.cn/post/6984949525928476703)
 - Vite 源码
   - ⭐️ [深入浅出 Vite](https://juejin.cn/book/7050063811973218341)
+  - [授人予渔，VSCode 如何调试 Vite 代码](https://mp.weixin.qq.com/s/bf11t1rH6NllKDA0IKR9Lw)
+  - [敲下 vite 命令后，server 做了哪些事](https://mp.weixin.qq.com/s/3dfbu7lZJLd6cJSp9XLcVQ)
 - 包管理方案、PNPM
 - Arch Linux
 - 如何搭建个人博客
