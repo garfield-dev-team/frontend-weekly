@@ -5,6 +5,53 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
+
+📒 [如何把前端项目写成一座屎山](https://juejin.cn/post/7086735198942920712)
+
+📒 [浅谈JS内存机制](https://mp.weixin.qq.com/s/uxSoXkmi5KIGNPsyd5cXrA)
+
+📒 [深入理解 scheduler 原理](https://juejin.cn/post/7087933643821154312)
+
+📒 前端框架如何实现预渲染
+
+首先预渲染根据渲染时机分为以下两种：
+
+- 静态站点生成（SSG），构建的时候获取数据进行渲染，数据不一定是最新的
+- 服务端渲染（SSR），用户访问的时候服务端获取数据进行渲染，数据实时获取
+
+> 两种渲染方案都可以实现 **首屏性能优化**、**SEO 优化**，不同的是 SSR 需要在服务端运行 JS，并且每次用户请求的时候都会进行渲染；SSG 已经将每个页面渲染成静态 html，因此可以将资源托管到 CDN 上
+
+获取数据又可以分为以下几种方式：
+
+- 本地文件系统读取
+- 调接口获取
+- 查询数据库获取
+
+实际上，React 本身已经提供了服务端渲染和静态生成相关的 API。在前端项目中，我们一般会使用下面的 API 挂载 React 组件：
+
+```jsx
+ReactDOM.render(element, container[, callback])
+```
+
+为了实现 SSR 渲染，我们可以使用下面的 API 将 React 组件直接渲染为 HTML 字符串：
+
+```jsx
+ReactDOMServer.renderToString(element)
+```
+
+使用 `renderToString` 方法渲染出的 HTML 字符串会带有特定标记，我们可以使用下面的 API 在客户端进行激活，对标记的节点挂载相应的事件监听器：
+
+```jsx
+ReactDOM.hydrate(element, container[, callback])
+```
+
+在 SSG 渲染中，我们不需要在客户端进行激活，因此不用在 HTML 字符串中添加标记，只需渲染出纯的 HTML 字符串：
+
+```jsx
+ReactDOMServer.renderToStaticMarkup(element)
+```
+
 📒 [2万字系统总结，带你实现 Linux 命令自由](https://juejin.cn/post/6938385978004340744)
 
 📒 [还在手撸 Nginx 配置？试试这款可视化配置工具吧，真心强大](https://mp.weixin.qq.com/s/ebCRE9RXB66X0pe4lsX0tg)
