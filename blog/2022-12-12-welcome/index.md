@@ -419,6 +419,10 @@ import TabItem from '@theme/TabItem';
 - [AST explorer：可视化 AST](https://www.astexplorer.net/)
 - [正则表达式可视化](https://link.juejin.cn/?target=https%3A%2F%2Fjex.im%2Fregulex)
 
+**技术社区**
+
+- https://dev.to/
+
 **工具相关**
 
 - [carbon：生成代码片](https://link.juejin.cn/?target=https%3A%2F%2Fcarbon.now.sh%2F)
