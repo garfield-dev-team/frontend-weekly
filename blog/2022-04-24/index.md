@@ -19,7 +19,11 @@ tags: []
 
 > Stricter Strict Mode: In the future, React will provide a feature that lets components preserve state between unmounts. To prepare for it, React 18 introduces a new development-only check to Strict Mode. React will automatically unmount and remount every component, whenever a component mounts for the first time, restoring the previous state on the second mount. If this breaks your app, consider removing Strict Mode until you can fix the components to be resilient to remounting with existing state
 
-> 使用 CRA 创建的 React 18 项目，建议移除 `React.StrictMode`
+:::tip
+
+使用 CRA 创建的 React 18 项目，建议移除 `React.StrictMode`
+
+:::
 
 📒 为什么需要 peerDependencies
 
