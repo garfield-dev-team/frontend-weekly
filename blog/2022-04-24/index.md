@@ -13,17 +13,13 @@ tags: []
 
 📒 [「React进阶」换个姿势看 hooks ！ 灵感来源组合和HOC 模式下逻辑视图分离新创意](https://juejin.cn/post/7088829366490120205)
 
-📒 使用 CRA 5.0.1 搭建 React 项目
+📒 React 18 中的严格模式
 
-使用 CRA 搭建的项目，根组件使用了 `React.StrictMode` 包裹，在严格模式下会检测意外的副作用。严格模式不能自动检测到你的副作用，但它可以帮助你发现它们，使它们更具确定性。通过故意重复调用以下函数来实现的该操作：
+使用 CRA 5.0.1 搭建 React 项目，默认的项目模板中，根组件使用了 `React.StrictMode` 包裹，结果出现了所有组件都重复挂载的情况，导致组件中接口调了两次。看了下文档，确实是 React 18 中引入的 Breaking Change，启用严格模式，会导致所有组件重复挂载两次（即使用了 `React.memo` 也会重复挂载）：
 
-- class 组件的 `constructor`，`render` 以及 `shouldComponentUpdate` 方法
-- class 组件的生命周期方法 `getDerivedStateFromProps`
-- 函数组件体
-- 状态更新函数 (即 `setState` 的第一个参数）
-- 函数组件通过使用 `useState`，`useMemo` 或者 `useReducer`
+> Stricter Strict Mode: In the future, React will provide a feature that lets components preserve state between unmounts. To prepare for it, React 18 introduces a new development-only check to Strict Mode. React will automatically unmount and remount every component, whenever a component mounts for the first time, restoring the previous state on the second mount. If this breaks your app, consider removing Strict Mode until you can fix the components to be resilient to remounting with existing state
 
-这会导致根组件及下面所有子组件都挂载两次（即使用了 `React.memo`），如果使用函数组件，且在组件内涉及接口请求，会导致接口调用两次。
+> 使用 CRA 创建的 React 18 项目，建议移除 `React.StrictMode`
 
 📒 为什么需要 peerDependencies
 
