@@ -162,7 +162,44 @@ ReactDOMServer.renderToStaticMarkup(element)
 
 📒 [esno，基于 Esbuild 的神器](https://mp.weixin.qq.com/s/3aVYGfahv5rZJbWBhaI3BA)
 
-📒 [「React进阶」换个姿势看 hooks ！ 灵感来源组合和HOC 模式下逻辑视图分离新创意](https://juejin.cn/post/7088829366490120205)
+📒 「React进阶」换个姿势看 hooks ！ 灵感来源组合和HOC 模式下逻辑视图分离新创意
+
+`useMemo` 类似 Vue 中的计算属性，当依赖项发生变化，会重新计算。但实际上 `useMemo` 比计算属性更强大，除了缓存值之外，还能缓存组件：
+
+```jsx
+function Index({ value }){
+  const [number, setNumber] = React.useState(0);
+  const element = React.useMemo(() => <Test />, [value]);
+
+  return (
+    <div>
+      {element}
+      <button onClick={() => setNumber(number + 1)}>点击 {number}</button>
+    </div>
+  )
+}
+```
+
+有时候在父组件定义的事件处理函数，需要作为 prop 传入子组件。如果父组件重新渲染，会导致函数重新生成，相当于 prop 发生变化，即使子组件内部使用 `React.memo()` 包裹也会导致重新渲染。常规做法是使用 `React.useCallback()` 包裹事件处理函数，但实际上用 `React.useRef()` 包裹也是可以的，都是把事件处理函数缓存到 Fiber 节点上。
+
+```jsx
+function MyApp() {
+  const onClickRef = React.useRef(() => {
+    console.log("666");
+  });
+
+  // const onClick = React.useCallback(() => {}, []);
+  
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton onClick={onClickRef.current} />
+    </div>
+  );
+}
+```
+
+[「React进阶」换个姿势看 hooks ！ 灵感来源组合和HOC 模式下逻辑视图分离新创意](https://juejin.cn/post/7088829366490120205)
 
 📒 React 18 升级踩坑汇总
 
@@ -223,6 +260,61 @@ React 18 使用了新的 `ReactDOM.createRoot()` API 挂载根节点，Concurren
 [React 的心智模型](https://mp.weixin.qq.com/s/GatHpP3BRLV_I48MfpzR4A)
 
 [你不知道的 React v18 的任务调度机制](https://mp.weixin.qq.com/s/qyr6MnPtvnELDSbPJ2VtIw)
+
+📒 React 几个小技巧
+
+**1. React 内置工具类型**
+
+```ts
+// 使用 React.ComponentType 同时表示类组件和函数组件
+type ComponentType<P = {}> = ComponentClass<P> | FunctionComponent<P>;
+
+// 使用 React.Key 来表示列表渲染 key 的类型
+type Key = string | number;
+```
+
+参考：
+
+[精读《@types react 值得注意的 TS 技巧》](https://juejin.cn/post/6844904122550845448)
+
+[从 @types/react 的类型定义中，我学到了什么](https://juejin.cn/post/7079449083919728671)
+
+https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react/v17/index.d.ts
+
+**2. 自定义组件如何绑定 className**
+
+将 `className` 作为 prop 传入，内部使用 classnames 这个库进行拼接：
+
+```tsx
+import cx from "classnames";
+import s from "./style.module.less";
+
+type IProps = {
+  className: string;
+}
+
+const App: React.FC<IProps> = ({ className }) => {
+  return (
+    <div className={cx(s.wrapper, className)}>
+      ...
+    </div>
+  )
+}
+```
+
+**3. Input 如何变为受控组件**
+
+Antd 中的 Input 默认是非受控组件，可以绑定 `value`，然后监听 `onChange` 修改 `value` 实现受控（`v-model` 的原理）：
+
+```tsx
+const App: React.FC<{}> = () => {
+  const [num, setNum] = React.useState(1);
+
+  return (
+    <InputNumber value={num} onChange={setNum} />
+  )
+}
+```
 
 📒 [我帮一朋友重构了点代码，他直呼牛批，但基操勿六](https://juejin.cn/post/7085674288933502984)
 
