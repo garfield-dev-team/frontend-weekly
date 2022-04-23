@@ -5,6 +5,107 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何实现数组转对象
+
+传入一个 `paramKeys` 数组，获取 query 参数的值，然后以对象形式返回，使用 `reduce` 方法：
+
+```ts
+function getSearchParams(paramKeys: string[]): Record<string, string> {
+  const searchParams = new URLSearchParams(window.location.search);
+  return paramKeys.reduce<Record<string, string>>((accu, cur) => {
+    accu[cur] = searchParams.get(cur) || '';
+    return accu;
+  }, {});
+}
+
+// 使用
+const searchParams = getSearchParams(['name', 'age']);
+```
+
+以上流程还可以封装成自定义 hook：
+
+```ts
+import * as React from 'react';
+
+function useSearchParams(paramKeys: string[]): Record<string, string> {
+  const searchParams = new URLSearchParams(window.location.search);
+  return React.useMemo(() => {
+    return paramKeys.reduce<Record<string, string>>((accu, cur) => {
+      accu[cur] = searchParams.get(cur) || '';
+      return accu;
+    }, {})
+  }, [paramKeys]);
+}
+```
+
+看了 antfu 大佬的代码，还可以使用 `Object.fromEntries()` 方法：
+
+```ts
+function useSearchParams(paramKeys: string[]): Record<string, string> {
+  const searchParams = new URLSearchParams(window.location.search);
+  return Object.fromEntries(
+    paramKeys.map((key) => [key, searchParams.get(key)])
+  );
+}
+```
+
+📒 使用 `defineConfig` 约束配置对象
+
+在项目中经常需要用到配置对象，例如 Webpack、rollup 的配置，我们可以使用 TS 来约束配置对象的 API schema，告知用户应该传哪些字段以及对应的类型，这样有两个好处：
+
+- 对用户更加友好，不需要看文档就能直接上手
+- 在开发阶段就能提前检查出配置项错误，不用到运行阶段再去校验了
+
+一般来说我们需要导出一个接口类型：
+
+```ts
+export type IConfig = {
+  name: string;
+  age: number;
+  sex?: boolean;
+};
+```
+
+用户在使用的时候需要导入类型，然后自己添加注解，这样编写配置对象就能得到类型提示了：
+
+```ts
+import type { IConfig } from "xxx";
+
+const config: IConfig[] = [
+  {
+    name: "dbydm",
+    age: 23
+  }
+]
+```
+
+但是这样对用户来说还是太麻烦了，我们可以定义一个 `defineConfig` 函数，这个函数做的事情很简单，就是把接收到的参数原封不动地返回，但在这个过程中，就可以实现参数类型的校验：
+
+```ts
+type IConfig = {
+  name: string;
+  age: number;
+  sex?: boolean;
+};
+
+export function defineConfig(config: IConfig[]) {
+  return config;
+}
+```
+
+用户只需导入 `defineConfig` 编写配置就可以实现参数类型的校验：
+
+```ts
+import { defineConfig } from "xxx";
+
+export default defineConfig([
+  {
+    name: "dbydm",
+    age: 23
+  }
+])
+```
+
 📒 [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 
 📒 [如何把前端项目写成一座屎山](https://juejin.cn/post/7086735198942920712)
