@@ -77,6 +77,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
 - [如何写好一份晋升PPT（附PPT模板）](https://mp.weixin.qq.com/s/1QMPfODUcH1p4pGaoO1owA)
+- [如何画出一张优秀的架构图（老鸟必备）](https://mp.weixin.qq.com/s/hXFWU6uuil1aC1lEYO_KhQ)
 - ⭐️ [精读《前端职业规划 - 2021 年》](https://juejin.cn/post/6965675185890394119)
 - ⭐️ [2022年如何成为一名优秀的大前端Leader？](https://juejin.cn/post/7034419410706104356)
 - ⭐️ ⭐️ [初级工程师如何快速成长和寻求突破](https://juejin.cn/post/6906468062943182862#heading-8)
