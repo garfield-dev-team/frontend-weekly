@@ -28,13 +28,14 @@ const searchParams = getSearchParams(['name', 'age']);
 import * as React from 'react';
 
 function useSearchParams(paramKeys: string[]): Record<string, string> {
-  const searchParams = new URLSearchParams(window.location.search);
+  const query = window.location.search;
   return React.useMemo(() => {
+    const searchParams = new URLSearchParams(query);
     return paramKeys.reduce<Record<string, string>>((accu, cur) => {
       accu[cur] = searchParams.get(cur) || '';
       return accu;
-    }, {})
-  }, [paramKeys]);
+    }, {});
+  }, [paramKeys, query]);
 }
 ```
 
@@ -48,6 +49,8 @@ function useSearchParams(paramKeys: string[]): Record<string, string> {
   );
 }
 ```
+
+> 注意：`Object.fromEntries()` 是 ES2019 中的语法，存在兼容性问题（Chrome >= 73），不过只要正确配置 polyfill 就可以放心使用
 
 📒 使用 `defineConfig` 约束配置对象
 
@@ -161,7 +164,9 @@ ReactDOMServer.renderToStaticMarkup(element)
 
 📒 [「React进阶」换个姿势看 hooks ！ 灵感来源组合和HOC 模式下逻辑视图分离新创意](https://juejin.cn/post/7088829366490120205)
 
-📒 React 18 中的严格模式
+📒 React 18 升级踩坑汇总
+
+**1. React.StrictMode 导致所有组件重复挂载两次**
 
 使用 CRA 5.0.1 搭建 React 项目，默认的项目模板中，根组件使用了 `React.StrictMode` 包裹，结果出现了所有组件都重复挂载的情况，导致组件中接口调了两次。看了下文档，确实是 React 18 中引入的 Breaking Change，启用严格模式，会导致所有组件重复挂载两次（即使用了 `React.memo` 也会重复挂载）：
 
@@ -170,6 +175,18 @@ ReactDOMServer.renderToStaticMarkup(element)
 :::tip
 
 使用 CRA 创建的 React 18 项目，建议移除 `React.StrictMode`
+
+:::
+
+**2. React 18 中使用了 antd 的 message 组件控制台打印警告信息**
+
+React 18 使用了新的 `ReactDOM.createRoot()` API 挂载根节点，Concurrent Mode 需要通过此 API 开启，但是 antd 中的 message 等组件内部仍使用 `ReactDOM.render()` 挂载根节点，此时在控制台会打印警告，注意这并不是报错，仅仅只是 fallback 到 legacy mode 而已。
+
+:::tip
+
+升级前最好仔细看一遍官方的说明，特别是 Breaking Change：
+
+> https://github.com/facebook/react/releases/tag/v18.0.0
 
 :::
 

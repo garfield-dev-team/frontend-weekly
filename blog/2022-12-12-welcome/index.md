@@ -142,6 +142,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [深入浅出 tnpm rapid 模式 - 如何比 pnpm 快 10 秒](https://zhuanlan.zhihu.com/p/455809528)
 - [pnpm 源码结构及调试指南](https://mp.weixin.qq.com/s/grb2OlBYiwU3TOkEtNZReA)
 - [【第2506期】JavaScript 包管理器简史（npm/yarn/pnpm）](https://mp.weixin.qq.com/s/0Nx093GdMcYo5Mr5VRFDjw)
+- [前端现代包管理器的进化史](https://juejin.cn/post/7083414641610588168)
 - [都2022年了，pnpm快到碗里来！](https://juejin.cn/post/7053340250210795557)
 - [关于现代包管理器的深度思考——为什么现在我更推荐 pnpm 而不是 npm/yarn?](https://juejin.cn/post/6932046455733485575)
 - [年终盘点：2022基于Monorepo的首个大趋势-TurboRepo](https://juejin.cn/post/7051929587852247077)
