@@ -487,6 +487,8 @@ import TabItem from '@theme/TabItem';
 - MySQL、Linux、服务端架构：[月半飞鱼](https://xiaoflyfish.cn/)
 - React 技术揭秘：[kasong](https://react.iamkasong.com/)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
+- Nodejs 相关：[天猪](https://www.zhihu.com/people/liuyong25/posts)
+- 前端、全栈技术专刊：[阿里 CCO 体验技术专刊](https://www.zhihu.com/column/ali-nanjing)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
 - 前端装逼技巧108式：[独钓寒江雪](https://segmentfault.com/u/king_hcj)
 - 前端九条 bug 分享：[lulu_up](https://segmentfault.com/u/lulu_up)
