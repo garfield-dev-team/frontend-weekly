@@ -410,6 +410,7 @@ import TabItem from '@theme/TabItem';
 - [《图解 React 源码系列》](https://github.com/7kms/react-illustration-series)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
 - [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
+- [Khaidi Chu 的博客](https://xcoder.in/)
 - [《深度学习框架PyTorch：入门与实践》](https://github.com/chenyuntc/pytorch-book)
 - [《机器学习》（西瓜书）](https://github.com/datawhalechina/pumpkin-book)
 - [《机器学习》配套视频教程](https://www.bilibili.com/video/BV1Mh411e7VU)
