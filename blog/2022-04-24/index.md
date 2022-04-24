@@ -308,6 +308,20 @@ const App: React.FC<IProps> = ({ className }) => {
 }
 ```
 
+更进一步，把以上流程封装成高阶组件（HOC）：
+
+```tsx
+function withClassName<T>(Component: React.ComponentType<T>): React.FC<T & { className: string }> {
+  return ({ className, ...restProps }) => {
+    return (
+      <div className={className}>
+        <Component {...restProps} />
+      </div>
+    )
+  }
+}
+```
+
 **3. Input 如何变为受控组件**
 
 Antd 中的 Input 默认是非受控组件，可以绑定 `value`，然后监听 `onChange` 修改 `value` 实现受控（`v-model` 的原理）：
