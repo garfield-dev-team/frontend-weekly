@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Ubuntu 22.04 LTS 安装
+
+https://phoenixnap.com/kb/ubuntu-22-04-lts
+
+https://releases.ubuntu.com/jammy/
+
 📒 如何实现数组转对象
 
 传入一个 `paramKeys` 数组，获取 query 参数的值，然后以对象形式返回，使用 `reduce` 方法：
