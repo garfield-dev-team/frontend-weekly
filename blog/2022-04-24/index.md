@@ -11,6 +11,24 @@ https://phoenixnap.com/kb/ubuntu-22-04-lts
 
 https://releases.ubuntu.com/jammy/
 
+📒 计算机程序的构造和解释 — JavaScript 版
+
+这本由麻省理工学院出版的著作终于有了 JavaScript 语言版本，可以帮助你建立对计算机程序的心智模型。
+
+> https://github.com/source-academy/sicp
+
+📒 为什么要使用 Redux Toolkit
+
+Redux 官方发布的这篇博客讲解了 Redux Toolkit 的 Why 和 How，并强烈推荐使用。
+
+一句话总结：Redux Toolkit 是使用 Redux 的最佳实践。
+
+> https://redux.js.org/introduction/why-rtk-is-redux-today
+
+⭐️ [Node.js 18 新特性解读](https://zhuanlan.zhihu.com/p/502951532)
+
+📒 [那些你应该说再见的 npm 祖传老库](https://zhuanlan.zhihu.com/p/415361629)
+
 📒 如何实现数组转对象
 
 传入一个 `paramKeys` 数组，获取 query 参数的值，然后以对象形式返回，使用 `reduce` 方法：
