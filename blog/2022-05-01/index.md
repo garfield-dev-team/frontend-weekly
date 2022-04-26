@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+📒 7 段小代码，玩转Java程序常见的崩溃场景
+
+如何排查 CPU 飙升问题，获取问题代码通常可以使用下面的方法：
+
+1. 使用 top 命令，查找到使用 CPU 最多的某个进程，记录它的 pid。使用 Shift + P 快捷键可以按 CPU 的使用率进行排序
+2. 再次使用 top 命令，加 -H 参数，查看某个进程中使用 CPU 最多的某个线程，记录线程的 ID
+3. 使用 printf 函数，将十进制的 tid 转化成十六进制
+4. 使用 jstack 命令，查看 Java 进程的线程栈
+5. 使用 less 命令查看生成的文件，并查找刚才转化的十六进制 tid，找到发生问题的线程上下文
+
+[7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
+
+📒 [看完这篇你一定能掌握Linux](https://mp.weixin.qq.com/s/ZralWEfG2WJfZ-G-x9biow)
+
+📒 [ObjectMapper，别再像个二货一样一直new了](https://mp.weixin.qq.com/s/SHbt1jmgGaHQs1eeyJQ-qA)
+
+📒 [\[科普\] Service Worker 入门指南](https://mp.weixin.qq.com/s/bYtTRjqQylYKO9D1jbadSA)
+
+📒 [百行代码带你实现通过872条Promise/A+用例的Promise](https://juejin.cn/post/7065693195799265287)
+
+📒 [前端历史项目的 Vite 迁移实践总结](https://mp.weixin.qq.com/s/kpi82Rb66bUQuA_G0hrqBw)
+
+📒 [手写 css-modules 来深入理解它的原理](https://juejin.cn/post/7090686619253997599)
+
 📒 在 Webpack 5 中开启懒编译（Lazy Compilation）
 
 Webpack 5 的实验特性，可以针对多入口（Initial Chunk）和动态加载（Async Chunk）进行懒编译。开启懒编译之后，可以实现按需编译，提升启动速度，若再配合 Webpack 5 持久化缓存，则可以直接秒杀 Vite。
