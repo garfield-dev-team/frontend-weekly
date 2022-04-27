@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [实现一个 Codepen：（二）在 Next.js 中使用 Monaco Editor](https://juejin.cn/post/7091177467498463239)
+
+📒 [【架构师（第十八篇）】脚手架之项目模板的安装](https://juejin.cn/post/7091079487592333349)
+
+📒 [【前端部署第二篇】基于 docker/compose 部署一个最简单的前端项目](https://juejin.cn/post/7091103648100384804)
+
 📒 7 段小代码，玩转Java程序常见的崩溃场景
 
 如何排查 CPU 飙升问题，获取问题代码通常可以使用下面的方法：
