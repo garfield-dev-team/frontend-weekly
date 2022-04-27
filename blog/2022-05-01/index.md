@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 全局状态和状态管理的区别
+
+全局状态可以很简单，例如只要一个 JS 对象 `{}` 就可以实现，但是如果尝试修改全局状态的值，无法触发组件更新。
+
+状态管理，除了具有全局状态的功能，还提供了一套发布订阅机制，即状态改变的时候通知对应组件更新。
+
+Redux 本身其实就是全局状态，为了实现状态改变通知组件更新，还需要一个 UI-binding，即 React-redux。
+
 📒 [浅谈V8垃圾回收机制](https://mp.weixin.qq.com/s/m_znGU_NaxveZi0Q5LSvyA)
 
 📒 [打造 Go 语言最快的排序算法](https://mp.weixin.qq.com/s/5HqfRGqPyAhFt0krPgMHOQ)
