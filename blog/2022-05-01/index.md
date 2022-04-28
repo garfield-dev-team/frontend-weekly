@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 使用 CRA 搭建 React + TS 项目
+
+[都 2022 年了，手动搭建 React 开发环境很难吗](https://juejin.cn/post/7087811040591675428)
+
+[会写 TypeScript 但你真的会 TS 编译配置吗](https://juejin.cn/post/7039583726375796749)
+
+[用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
+
+[「React进阶」react-router v6 通关指南](https://juejin.cn/post/7069555976717729805)
+
 📒 全局状态和状态管理的区别
 
 全局状态可以很简单，例如只要一个 JS 对象 `{}` 就可以实现，但是如果尝试修改全局状态的值，无法触发组件更新。
