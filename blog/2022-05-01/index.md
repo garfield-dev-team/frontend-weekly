@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Usage With TypeScript - Redux Toolkit
+
+https://redux-toolkit.js.org/usage/usage-with-typescript
+
 📒 全局状态和状态管理的区别
 
 全局状态可以很简单，例如只要一个 JS 对象 `{}` 就可以实现，但是如果尝试修改全局状态的值，无法触发组件更新。
