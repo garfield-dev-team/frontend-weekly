@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Frontend Weekly.` +
+        copyright: `Copyright © ${new Date().getFullYear()} Garfield Dev Team.` +
           ' Built with Docusaurus.' + 
           ` Deploys on ${process.env.IS_NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
       },
