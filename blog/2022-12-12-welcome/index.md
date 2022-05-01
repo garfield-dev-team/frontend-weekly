@@ -416,6 +416,7 @@ import TabItem from '@theme/TabItem';
 - [前端工程化、个人服务器运维指南](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
 - [MySQL、Linux、服务端架构](https://xiaoflyfish.cn/)
 - [Khaidi Chu 的博客](https://xcoder.in/)
+<!-- - [NLP-Beginner：自然语言处理入门练习](https://github.com/FudanNLP/nlp-beginner) -->
 - [《深度学习框架PyTorch：入门与实践》](https://github.com/chenyuntc/pytorch-book)
 - [《机器学习》（西瓜书）](https://github.com/datawhalechina/pumpkin-book)
 - [《机器学习》配套视频教程](https://www.bilibili.com/video/BV1Mh411e7VU)
