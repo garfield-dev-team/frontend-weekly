@@ -9,7 +9,7 @@ const config = {
   title: 'Frontend Weekly',
   tagline: '⭐️ 每周更新优质技术文章，欢迎点赞关注！',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: process.env.IS_NETLIFY === 'true' ? '/': '/frontend-weekly/',
+  baseUrl: process.env.NETLIFY === 'true' ? '/': '/frontend-weekly/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -125,7 +125,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Garfield Dev Team.` +
           ' Built with Docusaurus.' + 
-          ` Deploys on ${process.env.IS_NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
+          ` Deploys on ${process.env.NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
       },
       prism: {
         theme: lightCodeTheme,

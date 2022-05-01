@@ -1,2 +1,14 @@
 [build.environment]
-  IS_NETLIFY = "true"
+  NODE_VERSION = "14"
+  NETLIFY_USE_YARN = "true"
+
+[build]
+  publish = "build"
+  command = "yarn build"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=2592000'''
