@@ -1,6 +1,14 @@
-# Website
+# Frontend Weekly
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+⭐️ 每周更新优质技术文章，欢迎点赞关注！
+
+GitHub pages:
+
+> https://garfield-dev-team.github.io/frontend-weekly/
+
+Netlify:
+
+> https://frontend-weekly.netlify.app/
 
 ### 安装 docusaurus
 
@@ -13,6 +21,8 @@ $ npx create-docusaurus@latest my-website classic --typescript --package-manager
 ```bash
 $ yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
 ```
+
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
