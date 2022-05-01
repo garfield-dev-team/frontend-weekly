@@ -413,6 +413,8 @@ import TabItem from '@theme/TabItem';
 - [《图解 React 源码系列》](https://github.com/7kms/react-illustration-series)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
 - [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
+- [前端工程化、个人服务器运维指南](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
+- [MySQL、Linux、服务端架构](https://xiaoflyfish.cn/)
 - [Khaidi Chu 的博客](https://xcoder.in/)
 - [《深度学习框架PyTorch：入门与实践》](https://github.com/chenyuntc/pytorch-book)
 - [《机器学习》（西瓜书）](https://github.com/datawhalechina/pumpkin-book)
@@ -486,9 +488,6 @@ import TabItem from '@theme/TabItem';
 - 总结大师：[JowayYoung](https://juejin.cn/user/2330620350432110/posts)
 - 源码分析：若川
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
-- 前端工程化、个人服务器运维指南：[shanyue](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
-- MySQL、Linux、服务端架构：[月半飞鱼](https://xiaoflyfish.cn/)
-- React 技术揭秘：[kasong](https://react.iamkasong.com/)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Nodejs 相关：[天猪](https://www.zhihu.com/people/liuyong25/posts)
 - 前端、全栈技术专刊：[阿里 CCO 体验技术专刊](https://www.zhihu.com/column/ali-nanjing)
