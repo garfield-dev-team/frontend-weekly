@@ -12,3 +12,9 @@
     cache-control = '''
     public,
     max-age=2592000'''
+
+  for = "/*.css"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=2592000'''
