@@ -125,7 +125,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Frontend Weekly.` +
           ' Built with Docusaurus.' + 
-          ` Deployed with ${process.env.IS_NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
+          ` Deploys on ${process.env.IS_NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
       },
       prism: {
         theme: lightCodeTheme,
