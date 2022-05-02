@@ -150,6 +150,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
 - [【我要做开源】Vue DevUI开源指南08：Monorepo改造](https://juejin.cn/post/7029262501833359368)
 - [Monorepo 的这些坑，我们帮你踩过了！](https://juejin.cn/post/6972139870231724045)
+- [All in one：项目级 monorepo 策略最佳实践](https://juejin.cn/post/6924854598268108807)
 
 ## Rollup 系列
 
