@@ -1,13 +1,13 @@
 module.exports = {
-  vercel: {
+  VERCEL: {
     baseUrl: "/",
     platform: "Vercel"
   },
-  netlify: {
+  NETLIFY: {
     baseUrl: "/",
     platform: "Netlify"
   },
-  gh_pages: {
+  GH_PAGES: {
     baseUrl: "/frontend-weekly/",
     platform: "GitHub Pages"
   }

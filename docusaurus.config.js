@@ -7,12 +7,12 @@ const DeployConfig = require("./deployConfig.js");
 
 const getDeployConfig = () => {
   if (process.env.VERCEL === 'true') {
-    return DeployConfig.vercel;
+    return DeployConfig.VERCEL;
   }
   if (process.env.NETLIFY === 'true') {
-    return DeployConfig.netlify;
+    return DeployConfig.NETLIFY;
   }
-  return DeployConfig.gh_pages;
+  return DeployConfig.GH_PAGES;
 }
 
 const CUR_DEPLOY_ENV = getDeployConfig();
