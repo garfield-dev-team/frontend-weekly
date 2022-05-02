@@ -3,30 +3,16 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-const ENV_CONFIG = {
-  vercel: {
-    baseUrl: '/',
-    platform: "Vercel",
-  },
-  netlify: {
-    baseUrl: '/',
-    platform: 'Netlify',
-  },
-  gh_pages: {
-    baseUrl: '/frontend-weekly/',
-    platform: 'GitHub Pages',
-  }
-}
+const DeployConfig = require("./deployConfig.js");
 
 const getDeployConfig = () => {
   if (process.env.VERCEL === 'true') {
-    return ENV_CONFIG.vercel;
+    return DeployConfig.vercel;
   }
   if (process.env.NETLIFY === 'true') {
-    return ENV_CONFIG.netlify;
+    return DeployConfig.netlify;
   }
-  return ENV_CONFIG.gh_pages;
+  return DeployConfig.gh_pages;
 }
 
 const CUR_DEPLOY_ENV = getDeployConfig();

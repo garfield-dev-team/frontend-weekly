@@ -6,6 +6,10 @@ GitHub pages:
 
 > https://garfield-dev-team.github.io/frontend-weekly/
 
+Vercel:
+
+> https://frontend-weekly.vercel.app/
+
 Netlify:
 
 > https://frontend-weekly.netlify.app/
