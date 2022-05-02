@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[5月8日内容汇总]]></title>
+        <id>5月8日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/5月8日内容汇总"/>
+        <updated>2022-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 浏览器 JavaScript 和 Node.js 的区别]]></summary>
+        <content type="html"><![CDATA[<p>📒 浏览器 JavaScript 和 Node.js 的区别</p><ul><li>API 区别：浏览器 JavaScript 是面向浏览器编程，调用浏览器的 API，例如 <code>document</code>、<code>window</code>。而 Node.js 是面向操作系统编程，没有浏览器 API，相反可以调用 Node 提供的标准库，与操作系统进行交互</li><li>运行环境区别：浏览器 JavaScript 的特殊性（JS 代码需要经过网络请求，在客户端下载并执行），因此无法选择运行环境，需要考虑语法、API 兼容性问题，需要使用 Babel 处理。而 Node.js 通常在本地开发环境、CI 环境、服务端运行，可以控制运行环境，无需考虑兼容性问题</li><li>模块规范区别：浏览器原本没有模块机制，但可以自行实现模块命名空间机制（例如 <code>browserify</code>、<code>webpack</code>），从 Chrome 61 开始支持 <code>&lt;script type="module"&gt;</code>，即浏览器原生支持 <code>import</code> 命令加载模块（需要注意这种方式也是要经过网络请求）。而 Node.js 自带了一套 CommonJS 模块机制，在 Node 14 之后支持 ES Module 规范（注意 CommonJS 仍然是默认启用的模块规范）</li></ul>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[5月1日内容汇总]]></title>
         <id>5月1日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/5月1日内容汇总"/>
