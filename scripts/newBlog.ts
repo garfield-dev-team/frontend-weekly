@@ -10,7 +10,7 @@ async function main() {
   const dirList = await fs.readdir(blogDir);
   const prevTimestamp = Math.max(
     ...dirList
-      .filter(item => !["welcome", "authors"].some(s => item.includes(s)))
+      .filter(item => !["welcome", "authors", ".DS_Store"].some(s => item.includes(s)))
       .map(item => item.replace(/-/g, "/"))
       .map(item => new Date(item).getTime())
   );
