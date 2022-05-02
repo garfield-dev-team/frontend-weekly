@@ -4,12 +4,39 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const ENV_CONFIG = {
+  vercel: {
+    baseUrl: '/',
+    platform: "Vercel",
+  },
+  netlify: {
+    baseUrl: '/',
+    platform: 'Netlify',
+  },
+  gh_pages: {
+    baseUrl: '/frontend-weekly/',
+    platform: 'GitHub Pages',
+  }
+}
+
+const getDeployConfig = () => {
+  if (process.env.VERCEL === 'true') {
+    return ENV_CONFIG.vercel;
+  }
+  if (process.env.NETLIFY === 'true') {
+    return ENV_CONFIG.netlify;
+  }
+  return ENV_CONFIG.gh_pages;
+}
+
+const CUR_DEPLOY_ENV = getDeployConfig();
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Frontend Weekly',
   tagline: '⭐️ 每周更新优质技术文章，欢迎点赞关注！',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: process.env.NETLIFY === 'true' ? '/': '/frontend-weekly/',
+  baseUrl: CUR_DEPLOY_ENV.baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -125,7 +152,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Garfield Dev Team.` +
           ' Built with Docusaurus.' + 
-          ` Deploys on ${process.env.NETLIFY === 'true' ? 'Netlify' : 'GitHub Pages'}.`,
+          ` Deploys on ${CUR_DEPLOY_ENV.platform}.`,
       },
       prism: {
         theme: lightCodeTheme,
