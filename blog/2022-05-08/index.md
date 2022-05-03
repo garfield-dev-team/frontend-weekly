@@ -5,6 +5,70 @@ authors: [garfield]
 tags: []
 ---
 
+📒 基于依赖倒置原则实现插件机制
+
+依赖倒置原则（DIP）
+
+> 核心思想：依赖一个抽象的服务接口，而不是去依赖一个具体的服务执行者，从依赖具体实现转向到依赖抽象接口，倒置过来
+
+例如在 Webpack 中包含一套插件机制：
+
+```js
+module.exports = {
+  // ...
+  plugins: [
+    new WebpackBar(),
+    new webpack.HotModuleReplacementPlugin(),
+    new MiniCssExtractPlugin({
+      filename: 'css/[name].[contenthash:8].css',
+      chunkFilename: '[id].css'
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, '../public/index.html'),
+      title: "React App",
+      filename: "index.html",
+    })
+  ]
+}
+```
+
+Webpack 插件需要实现一个统一的接口，即：
+
+```ts
+interface IPlugin {
+  apply(compiler: ICompiler): void;
+}
+
+class MyPlugin implements IPlugin {
+  constructor() {
+    // 构造器可以在初始化的时候接受配置参数
+  }
+
+  @Override
+  apply(compiler) {
+    // ...
+  }
+}
+```
+
+这样 Webpack 只需要遍历 `plugins` 数组，顺次调用每个插件上的 `apply` 方法，传入 `compiler` 对象即可：
+
+```ts
+plugins.forEach(plugin => plugin.apply(compiler));
+```
+
+顺便提一下，有同学会问，为啥插件要写成 class 的形式，直接用一个对象可以吗，例如：
+
+```ts
+const MyPlugin = {
+  apply(compiler) {
+    // ...
+  }
+}
+```
+
+> 直接用一个对象也是可以的，但是用 class 显然更灵活，可以在初始化的时候接受配置参数
+
 📒 浏览器 JavaScript 和 Node.js 的区别
 
 - API 区别：浏览器 JavaScript 是面向浏览器编程，调用浏览器的 API，例如 `document`、`window`。而 Node.js 是面向操作系统编程，没有浏览器 API，相反可以调用 Node 提供的标准库，与操作系统进行交互
