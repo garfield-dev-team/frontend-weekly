@@ -12,6 +12,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## TypeScript 工程化方案
 
 - ⭐️ ⭐️ [2021 年 TypeScript + React 工程化指南](https://zhuanlan.zhihu.com/p/403970666)
+- ⭐️ ⭐️ [都 2022 年了，手动搭建 React 开发环境很难吗](https://juejin.cn/post/7087811040591675428)
 - ⭐️ ⭐️ [会写 TypeScript 但你真的会 TS 编译配置吗？](https://juejin.cn/post/7039583726375796749#heading-22)
 - 🌛 [【开源】一个 React + TS 项目模板](https://juejin.cn/post/6844904102355271694)
   - 一种是使用 ts-loader + babel-loader + fork-ts-checker-webpack-plugin 通过 typescript 进行编译和类型检查
@@ -35,8 +36,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## TS && 框架
 
 - ⭐️ ⭐️ [React + TypeScript实践](https://juejin.cn/post/6952696734078369828)
+- ⭐️ ⭐️ [用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
+- ⭐️ ⭐️ [「React进阶」react-router v6 通关指南](https://juejin.cn/post/7069555976717729805)
 - [TypeScript 终极初学者指南](https://mp.weixin.qq.com/s/6DAyXFHIMW95FS0f3GyHpA)
 - [如何优雅地在 React 中使用TypeScript，看这一篇就够了！](https://juejin.cn/post/7021674818621669389)
+- [精读《@types react 值得注意的 TS 技巧》](https://juejin.cn/post/6844904122550845448)
 - [「1.9W字总结」一份通俗易懂的 TS 教程，入门 + 实战！](https://juejin.cn/post/7068081327857205261)
 - ⭐️ [Vue3.0 前的 TypeScript 最佳入门实践](https://juejin.cn/post/6844903865255477261)
   - 虽然不是 Vue3 但是也推荐看下
@@ -64,15 +68,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [「React进阶」探案揭秘六种React‘灵异’现象](https://juejin.cn/post/6963053793613185031)
 - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
-## 开源项目
+## 技术方案
 
-- ⭐️ [degit - 简单的项目脚手架](https://github.com/Rich-Harris/degit)
-- ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
-- [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
-- [prisma - 下一代 Nodejs ORM 工具，支持各种数据库](https://github.com/prisma/prisma)
-- [astro - 静态站点构建工具](https://github.com/withastro/astro)
-- [zustand - 小型、快速可扩展的状态管理解决方案](https://github.com/pmndrs/zustand)
-- [tauri - 将前端项目打包为桌面应用，用于替代 electron](https://github.com/tauri-apps/tauri)
+- [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
+- [自动化生成骨架屏的技术方案设计与落地](https://mp.weixin.qq.com/s/-WHafu5z-Ap4tjrbWesnmA)
 
 ## 业务成长
 
@@ -169,6 +168,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [来自未来，2022 年的前端人都在做什么?](https://juejin.cn/post/7062617190981173278)
 - [为什么说 WebAssembly 是 Web 的未来？](https://juejin.cn/post/7056612950412361741)
 - [easy-serverless 功能分析](https://juejin.cn/post/7057114641507287048)
+- [2022 年 JavaScript 开发工具的生态](https://mp.weixin.qq.com/s/ckskF06PD43KHpKAGaYmRA)
+- [超全面的前端新一代构建工具对比: esbuild、Snowpack、Vite、wmr](https://mp.weixin.qq.com/s/JZbsIqsqNeJmc__QFKpo1Q)
+- [esno，基于 Esbuild 的神器](https://mp.weixin.qq.com/s/3aVYGfahv5rZJbWBhaI3BA)
 - ⭐️ [Deno 简介：它比 Node.js 更好吗？](https://mp.weixin.qq.com/s/qnA1tFKMXr7hwsEKFXKOZg)
 - ⭐️ [基于 Next.js 的 SSR/SSG 方案了解一下？](https://juejin.cn/post/7046204235226021901)
 - 🌛 [我是如何带领团队从零到一建立前端规范的](https://juejin.cn/post/7085257325165936648)
@@ -195,6 +197,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 持续集成
 
+- [写给前端的 K8S 上手指南](https://zhuanlan.zhihu.com/p/445217118)
 - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
 - [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 - ⭐️ [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
@@ -212,6 +215,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 服务端相关
 
 - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+- ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
 - [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
@@ -226,6 +230,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践](https://juejin.cn/post/6981673766178783262)
 - ⭐️ [最全的前端性能定位总结](https://juejin.cn/post/7052918009555320839)
+- ⭐️ [Web页面全链路性能优化指南](https://mp.weixin.qq.com/s/wJxj5QbOHwH9cKmqU5eSQw)
 - ⭐️ [字节跳动是如何落地微前端的](https://juejin.cn/post/7016900744695513125)
 - ⭐️ [2022 年的 CSS](https://juejin.cn/post/7048260643589193765)
 - ⭐️ [如何编写防御式的 CSS](https://juejin.cn/post/7054931603323093022)
@@ -246,6 +251,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
+- ⭐️ [Node.js 18 新特性解读](https://zhuanlan.zhihu.com/p/502951532)
+- 🌛 [那些你应该说再见的 npm 祖传老库](https://zhuanlan.zhihu.com/p/415361629)
 - 🌛 [unjs: Unified JavaScript Tools](https://github.com/unjs)
 - 🌛 [pkg - 把 Node.js 项目打包为可执行文件](https://github.com/vercel/pkg)
 - ⭐️ [Oclif v2.5：Heroku 开源的 CLI 框架](https://github.com/oclif/oclif)
@@ -263,7 +270,18 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="浏览器环境" label="浏览器环境" default>
+<TabItem value="开源项目" label="开源项目" default>
+
+- ⭐️ [degit - 简单的项目脚手架](https://github.com/Rich-Harris/degit)
+- ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
+- [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
+- [prisma - 下一代 Nodejs ORM 工具，支持各种数据库](https://github.com/prisma/prisma)
+- [astro - 静态站点构建工具](https://github.com/withastro/astro)
+- [zustand - 小型、快速可扩展的状态管理解决方案](https://github.com/pmndrs/zustand)
+- [tauri - 将前端项目打包为桌面应用，用于替代 electron](https://github.com/tauri-apps/tauri)
+
+</TabItem>
+<TabItem value="浏览器环境" label="浏览器环境">
 
 - `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
 - `qs`：解析 URL query 参数的库；
@@ -303,6 +321,7 @@ import TabItem from '@theme/TabItem';
 
 ## 前端编译
 
+- [【第2597期】如何用JavaScript实现一门编程语言 - AST](https://mp.weixin.qq.com/s/JMl8LOsNYlttxO-KyVK-Vw)
 - [V8 编译浅谈](https://juejin.cn/post/7041021350114230285)
 - ⭐️ [编译技术在前端的实践（二）—— Antlr 及其应用](https://juejin.cn/post/7057354419888717855)
 - ⭐️ [编译技术在前端的实践（一）—— 编译原理基础](https://juejin.cn/post/6989509925844041742)
@@ -328,7 +347,8 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
 - ⭐️ [Arch Linux 完全手册（上）](https://mp.weixin.qq.com/s/94F4v1E9sB82lOr2DeSK0A)
 - ⭐️ [Arch Linux 完全手册（下）](https://mp.weixin.qq.com/s/ev8hnv-coGLobrbezMK1og)
-- [2万字系统总结，带你实现 Linux 命令自由](https://juejin.cn/post/6938385978004340744)
+- 🌛 [看完这篇你一定能掌握Linux](https://mp.weixin.qq.com/s/ZralWEfG2WJfZ-G-x9biow)
+- 🌛 [2万字系统总结，带你实现 Linux 命令自由](https://juejin.cn/post/6938385978004340744)
 - [6w字搞定Linux基本操作，建议收藏](https://juejin.cn/post/6917096816118857736)
 - [半小时搞会 CentOS 入门必备基础知识](https://juejin.cn/post/6844904080972709901)
 - [手摸手带你 Docker 从入门到实践](https://juejin.cn/post/6875323565479034894)
@@ -359,7 +379,8 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
-- [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
+- [7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
+- [单例模式 4 种经典实现方法](https://mp.weixin.qq.com/s/Ua03qsLcrVURtxhSnuU_6w)
 - [ElasticSearch进阶：一文全览各种ES查询在Java中的实现](https://blog.csdn.net/mu_wind/article/details/118423362)
 - [使用 @Transactional 时常犯的N种错误](https://juejin.cn/post/7031047868806873096)
 - [Spring Boot 2.x基础教程：使用@Scheduled实现定时任务](https://juejin.cn/post/6984974277573836830)
@@ -367,6 +388,11 @@ import TabItem from '@theme/TabItem';
 - [IDEA 高效使用指南](https://github.com/CodingDocs/awesome-idea)
 - [CodeGuide | 程序员编码指南](https://github.com/fuzhengwei/CodeGuide)
 - [🌱 Spring 手撸专栏 - 易学、好写、能懂！](https://github.com/fuzhengwei/small-spring)
+
+## MySQL 学习
+
+- [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
+- [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
 
 ## Golang 学习
 
@@ -466,6 +492,8 @@ import TabItem from '@theme/TabItem';
 - [高频react面试题20道（附详解）](https://blog.csdn.net/xgangzai/article/details/120375992)
 - [【1 月最新】前端 100 问：能搞懂 80% 的请把简历给我](https://juejin.cn/post/6844903885488783374)
 
+<!--
+
 ## 前端测试
 
 - [那些年错过的React组件单元测试（上）](https://juejin.cn/post/6943430853972852750)
@@ -479,6 +507,8 @@ import TabItem from '@theme/TabItem';
 - [打造舒适搬砖环境，这些是我最想推介的桌面好物](https://juejin.cn/post/6844904193828880391)
 - [干货满满！推介几款 Mac 下非常好用的软件（第一弹）](https://juejin.cn/post/6844904012920127495)
 - [干货满满！推介几款 Mac 下非常好用的软件（第二弹）](https://juejin.cn/post/6844904031685443592)
+
+-->
 
 ## 📒 掘金大佬汇总
 
@@ -715,3 +745,11 @@ import TabItem from '@theme/TabItem';
 - [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
 - [选择第三方 NPM 包时的 5 条最佳实践](https://mp.weixin.qq.com/s/kGMsNmIXlT25NfRrifjnTQ)
 - [用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
+- [React 18 全览](https://mp.weixin.qq.com/s/t3dYc3Md1dpiv1vaFa5plA)
+- [React 18 对 Hooks 的影响](https://mp.weixin.qq.com/s/fgT7Kxs_0feRx4TkBe6G5Q)
+- [React 的心智模型](https://mp.weixin.qq.com/s/GatHpP3BRLV_I48MfpzR4A)
+- [你不知道的 React v18 的任务调度机制](https://mp.weixin.qq.com/s/qyr6MnPtvnELDSbPJ2VtIw)
+- [一些关于react的keep-alive功能相关知识在这里(上)](https://segmentfault.com/a/1190000041683300)
+- [一些关于react的keep-alive功能相关知识在这里(下)](https://segmentfault.com/a/1190000041683421)
+- [前端算法系统练习: 栈和队列篇](https://mp.weixin.qq.com/s/tWbeOTx0JpiZOD0YaC1P2A)
+- [【第2602期】设置 NPM Registry 的 4 种姿势](https://mp.weixin.qq.com/s/MYLi4mSgoi5KXj4-_OgT3A)
