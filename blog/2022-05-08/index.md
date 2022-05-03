@@ -5,6 +5,86 @@ authors: [garfield]
 tags: []
 ---
 
+📒 了解 `Symbol.toStringTag` 的用法吗
+
+`Symbol.toStringTag` 是一个内置 symbol，它通常作为对象的属性键使用，对应的值是字符串类型，用来表示该对象的自定义类型标签。通常只有内置的 `Object.prototype.toString()` 方法会去读取这个标签并把它包含在自己的返回值里。
+
+```js
+const foo = {};
+const bar = {
+  [Symbol.toStringTag]: "测试内容"
+}
+
+foo.toString(); // '[object Object]'
+bar.toString(); // '[object 测试内容]'
+```
+
+[Symbol.toStringTag - MDN 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag)
+
+📒 函数组合中的 `compose`、`flow`、`pipe`
+
+`compose` 实现如下，注意调用顺序是反过来的：
+
+```js
+const compose = (...fns) => x0 => fns.reduceRight(
+    (x, f) => f(x),
+    x0
+);
+
+// 接受参数后，返回一个待执行函数
+// 需要再接受一个初始值才开始执行
+const processComment = compose(
+    linkify,
+    imagify,
+    emphasize,
+    headalize
+);
+```
+
+`flow` 实现如下，注意这里调用顺序是从左到右：
+
+```js
+const flow = (...fns) => x0 => fns.reduce(
+    (x, f) => f(x),
+    x0
+);
+
+// 注意这里仍然是返回一个待执行函数
+const processComment = flow(
+    headalize,
+    emphasize,
+    imagify,
+    linkify,
+    codify
+);
+```
+
+`pipe` 实现如下，调用顺序也是从左到右：
+
+```js
+// 注意 pipe 直接执行所有的函数，返回一个值
+// 而 flow 返回一个待执行函数，需要再接受一个初始值才开始执行
+const pipe = (x0, ...fns) => fns.reduce(
+    (x, f) => f(x),
+    x0
+);
+
+const map    = f => arr => arr.map(f);
+const filter = p => arr => arr.filter(p);
+const take   = n => arr => arr.slice(0, n);
+const join   = s => arr => arr.join(s);
+
+const comments = pipe(commentStrs,
+    filter(noNazi),
+    take(10),
+    map(emphasize),
+    map(itemize),
+    join('\n'),
+);
+```
+
+[什么是 JavaScript 的函数组合](https://jrsinclair.com/articles/2022/javascript-function-composition-whats-the-big-deal/)
+
 📒 基于依赖倒置原则实现插件机制
 
 依赖倒置原则（DIP）
