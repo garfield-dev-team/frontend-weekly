@@ -124,6 +124,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Webpack 案例 —— vue-loader 原理分析](https://juejin.cn/post/6937125495439900685)
   - 通过编写一个 plugin，在预处理阶段通过插件 apply 函数动态修改 webpack 配置，注入 vue-loader 专用的 rules
 - ⭐️ [超硬核｜带你畅游在 Webpack 插件开发者的世界](https://juejin.cn/post/7047777251949019173)
+- [手摸手 Webpack 多入口配置实践](https://juejin.cn/post/6844903939289120782)
 - ⭐️ [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
 - ⭐️ ⭐️ [【万字】透过分析 webpack 面试题，构建 webpack5.x 知识体系](https://juejin.cn/post/7023242274876162084)
 - ⭐️ [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
@@ -242,6 +243,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 前端组件库实战
 
+- ⭐️ [从 Element UI 源码的构建流程来看前端 UI 库设计](https://juejin.cn/post/6844904197863964685)
 - ⭐️ [尤大都推荐的组件库是如何开发出来的？](https://juejin.cn/post/7021528826798669854)
 - ⭐️ [每个前端都值得拥有自己的组件库，就像每个夏天都拥有西瓜🍉](https://juejin.cn/post/6983854006124675108)
 - ⭐️ [Vue3组件库工程化实战 --Element3](https://juejin.cn/post/6930879590554402830)
@@ -739,7 +741,7 @@ import TabItem from '@theme/TabItem';
 - [为什么golang没有min/max以及三元操作符](https://studygolang.com/articles/25997?fr=sidebar)
 - [编译 ts 代码用 tsc 还是 babel](https://juejin.cn/post/7084882650233569317)
 - [如果没有 package-lock.json，那将如何](https://juejin.cn/post/7031122959637217310)
-- [工程化知识卡片 023：node_modules 版本重复的困境](https://juejin.cn/post/7030084290989948935s)
+- [工程化知识卡片 023：node_modules 版本重复的困境](https://juejin.cn/post/7030084290989948935)
 - [【混淆系列】三问：npx、npm、cnpm、pnpm区别你搞清楚了吗？](https://juejin.cn/post/7083468345579667493)
 - [Webpack组件库打包超详细指南](https://juejin.cn/post/7082738107237433375)
 - [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/XWZsKQECcsHAlE9cyqi9Eg)
@@ -759,3 +761,6 @@ import TabItem from '@theme/TabItem';
 - [那些你应该说再见的 npm 祖传老库](https://zhuanlan.zhihu.com/p/415361629)
 - [前端算法系统练习: 栈和队列篇](https://mp.weixin.qq.com/s/tWbeOTx0JpiZOD0YaC1P2A)
 - [【第2602期】设置 NPM Registry 的 4 种姿势](https://mp.weixin.qq.com/s/MYLi4mSgoi5KXj4-_OgT3A)
+- [「手摸手设计模式系列」 享元模式与资源池](https://juejin.cn/post/6844903919995322382)
+- [我在工作中写React，学到了什么？性能优化篇](https://juejin.cn/post/6889247428797530126)
+- [React Hooks 最佳实践](https://juejin.cn/post/6844904165500518414)
