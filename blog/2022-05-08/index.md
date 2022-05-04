@@ -5,6 +5,101 @@ authors: [garfield]
 tags: []
 ---
 
+📒 TypeScript 小技巧：常量断言
+
+在讲常量断言之前，先提一下，TS 会区别对待可修改和不可修改的值的类型推断：
+
+```ts
+// 推断成单值类型 'dbydm'
+const immutable = 'dbydm';
+
+// 推断成通用的 string 类型
+let mutable = 'dn';
+
+// 由于对象的属性都具有可修改性，TS 都会对它们「从宽」类型推断
+// 例如下面的 prop 的类型被推断为 string
+const obj = { prop: 'foo' }
+```
+
+再来看下面的代码，例如我们实现了一个用 ref 维护状态的 hook：
+
+```ts
+import * as React from "react";
+
+const useRenderlessState = <T>(initialState: T) => {
+  const stateRef = React.useRef(initialState);
+
+  const setState = (nextState: T) => stateRef.current = nextState;
+
+  return [stateRef.current, setState];
+}
+```
+
+此时我们会发现上面 hook 的返回值的类型被推导成了如下的数组类型：
+
+```ts
+(T | ((nextState: T) => T))[]
+```
+
+这就导致我们在使用的时候无法对它进行准确的解构：
+
+```ts
+const [value, setValue] = useRenderlessState(0);
+```
+
+一般来说我们可以 **显示声明返回类型** 或者 **对返回值做类型断言**，告诉 TS 返回值类型是元组而不是数组：
+
+```ts
+// 显示声明返回类型
+const useRenderlessState = <T>(initialState: T): [T, (nextValue: T) => T] => {/*...*/}
+
+// 对返回值对类型断言
+const useRenderlessState = <T>(initialState: T) => {
+  // ...
+  return [state, setState] as [typeof value, typeof setValue];
+}
+```
+
+上面的两种写法都各有冗余成分，算不上优雅。
+
+其实从语义层面来分析，TS 之所以没能将返回值推断为元组类型是因为它认为该返回值仍有可能被 push 值，被修改。所以我们真正需要做的是告诉 TS，这个返回值是一个 final，其本身和属性都是不可篡改的，而这正是常量断言所做的事。
+
+常量断言可以把一个值标记为一个不可篡改的常量，从而让 TS 以最严格的策略来进行类型推断：
+
+```ts
+const useRenderlessState = <T>(initialState: T) => {
+  // ...
+  return [state, setState] as const
+}
+```
+
+这下 `useRenderlessState` 的返回类型就被推断成了如下的 readonly 值：
+
+```ts
+readonly [T, (nextState: T) => T]
+```
+
+:::tip
+
+`as const` 与 ES6 `const` 常量声明的区别：
+
+- `const` 常量声明是 ES6 的语法，对 TS 而言，它只能反映该常量本身是不可被重新赋值的，它的子属性仍然可以被修改，故 TS 只会对它们做松散的类型推断
+- `as const` 是 TS 的语法，它告诉 TS 它所断言的值以及该值的所有层级的子属性都是不可篡改的，故对每一级子属性都会做最严格的类型推断（所有的字面量都会被推断为单值类型）
+
+常量断言可以让我们不需要 `enum` 关键字就能定义枚举对象：
+
+```ts
+const EnvEnum = {
+  DEV: "development",
+  PROD: "production",
+  TEST: "test",
+} as const;
+```
+
+:::
+
+[TypeScript 夜点心：常量断言](https://zhuanlan.zhihu.com/p/121558249)
+
 📒 了解 `Symbol.toStringTag` 的用法吗
 
 `Symbol.toStringTag` 是一个内置 symbol，它通常作为对象的属性键使用，对应的值是字符串类型，用来表示该对象的自定义类型标签。通常只有内置的 `Object.prototype.toString()` 方法会去读取这个标签并把它包含在自己的返回值里。
