@@ -38,6 +38,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [React + TypeScript实践](https://juejin.cn/post/6952696734078369828)
 - ⭐️ ⭐️ [用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
 - ⭐️ ⭐️ [「React进阶」react-router v6 通关指南](https://juejin.cn/post/7069555976717729805)
+- [如何在项目中用好 TypeScript](https://juejin.cn/post/7058868160706904078)
 - [TypeScript 终极初学者指南](https://mp.weixin.qq.com/s/6DAyXFHIMW95FS0f3GyHpA)
 - [如何优雅地在 React 中使用TypeScript，看这一篇就够了！](https://juejin.cn/post/7021674818621669389)
 - [精读《@types react 值得注意的 TS 技巧》](https://juejin.cn/post/6844904122550845448)
