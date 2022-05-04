@@ -559,6 +559,9 @@ import TabItem from '@theme/TabItem';
 - [如何利用 monorepo 策略管理代码？](https://mp.weixin.qq.com/s/ZP2IigNVSIZKGuYxNYOYgw)
 - [All in one：项目级 monorepo 策略最佳实践](https://juejin.cn/post/6924854598268108807)
 - [一顿操作，我把 Table 组件性能提升了十倍](https://juejin.cn/post/7007252464726458399)
+- [MySQL 从入门到实践，万字详解](https://juejin.cn/post/7005019784429469704)
+- [半小时搞会 CentOS 入门必备基础知识](https://juejin.cn/post/6844904080972709901)
+- [手摸手带你 Docker 从入门到实践](https://juejin.cn/post/6844903919995322382)
 
 ## 📒 小目标
 
