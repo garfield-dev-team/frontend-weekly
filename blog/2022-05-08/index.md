@@ -5,6 +5,28 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [docker-node - Node.js 官方 Docker 镜像](https://github.com/nodejs/docker-node#create-a-dockerfile-in-your-nodejs-app-project)
+
+📒 JS 新的日期 API：Temporal
+
+这项特性提案时间为 2021 年 7 月，不到一年的时间已经进展到 stage-3 阶段，目前组委会已经在在做它的功能实现，有望在下个版本推出。
+
+:::tip
+
+该项提案的初衷来自这篇文章，因为 JavaScript 最初关于日期的实现是照搬的 Java 方案，但由于各种限制和问题，Java 早在 1997 年就实现 Calendar 做了功能改进，而 JavaScript 时至今日用的还是老旧方案，改进优化实在是迫在眉睫。
+
+https://maggiepint.com/2017/04/09/fixing-javascript-date-getting-started/
+
+:::
+
+官方文档（打开控制台就可以体验 Polyfill）：
+
+> https://tc39.es/proposal-temporal/docs/
+
+或者在 RunKit 上体验（浏览器端运行 node 模块）：
+
+> https://npm.runkit.com/proposal-temporal
+
 📒 [React官方团队出手，补齐原生Hook短板](https://juejin.cn/post/7094424941541457933)
 
 📒 [你可能并没有理解的 babel 配置的原理](https://juejin.cn/post/7094296981001994277)
