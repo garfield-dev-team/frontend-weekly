@@ -217,6 +217,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 服务端相关
 
 - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+- ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
 - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
@@ -383,6 +384,7 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- [拜托！面试请不要再问我 @Transactional](https://mp.weixin.qq.com/s/rlfRjCb8EOrpt3xnF7isBw)
 - [7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
 - [单例模式 4 种经典实现方法](https://mp.weixin.qq.com/s/Ua03qsLcrVURtxhSnuU_6w)
 - [ElasticSearch进阶：一文全览各种ES查询在Java中的实现](https://blog.csdn.net/mu_wind/article/details/118423362)
@@ -395,6 +397,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
 - [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
 - [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
 
