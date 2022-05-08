@@ -7,13 +7,7 @@
   command = "yarn build"
 
 [[headers]]
-  for = "/*.js"
-  [headers.values]
-    cache-control = '''
-    public,
-    max-age=2592000'''
-
-  for = "/*.css"
+  for = "\.(js|css)$"
   [headers.values]
     cache-control = '''
     public,
