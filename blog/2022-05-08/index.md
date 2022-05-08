@@ -5,6 +5,29 @@ authors: [garfield]
 tags: []
 ---
 
+📒 从零开始构建 JavaScript Bundler
+
+Jest 作者的最新系列文章，并且配套视频，内容绝对硬核。
+
+> https://cpojer.net/posts/building-a-javascript-bundler
+
+📒 JavaScript 框架的四个时代
+
+这篇文章作者以自身多年的开发经历还原了 JavaScript 框架的发展历程，并划分出了四个时代。
+
+远古时代：无框架
+框架初期：Backbone.js、Angular 1、Knockout.js、SproutCore、Ember.js、Meteor.js
+以组件为中心的时代：React.js、Vue.js、Svelte、Polymer.js
+全栈框架：Next.js、Nuxt.js、Remix、SvelteKit、Gastby 和 Astro
+
+> https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks
+
+📒 pnpm v7.0.0
+
+pnpm 发布了 v7.0.0，带来了大量的更新。如：不再支持 Node.js 12、`pnpm run <script>` 脚本名称后的所有命令行参数都会传递给 argv 等等。
+
+> https://github.com/pnpm/pnpm/releases/tag/v7.0.0
+
 📒 [docker-node - Node.js 官方 Docker 镜像](https://github.com/nodejs/docker-node#create-a-dockerfile-in-your-nodejs-app-project)
 
 📒 JS 新的日期 API：Temporal
@@ -36,6 +59,43 @@ https://maggiepint.com/2017/04/09/fixing-javascript-date-getting-started/
 📒 [前端抢饭碗系列之初识Docker容器化部署](https://juejin.cn/post/7069609959985512484)
 
 📒 [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
+
+⭐️ [Umi 4 特性合集，比 Vite 还要快？](https://mp.weixin.qq.com/s/-B5M7pjIWZzFNvq-hyr1Mw)
+
+📒 [HTTP分块传输 如何在 React18 中应用](https://mp.weixin.qq.com/s/1QZ37jf_6av1i_ESTPvfaQ)
+
+📒 [下集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1j44y1g74m)
+
+📒 htmlparser2 8.0：快速且高容错的 HTML 和 XML 解析器
+
+> https://github.com/fb55/htmlparser2
+
+📒 Node v18 test 模块
+
+注意 Node v18 test 模块是第一个 Prefix-Only Core Modules，也就是说加载该模块必须带上 `node:` 前缀：
+
+```js
+import test from 'node:test';  // Uses the node: prefix. Loads from core.
+import assert from 'assert';  // Does not use the node: prefix. Loads from core.
+```
+
+:::tip
+
+假如没有带上 `node:` 前缀，则会尝试从用户空间加载 `test` 模块。但是对于 Node 其他内置模块来说，加不加 `node:` 前缀都是一样的。
+
+> https://fusebit.io/blog/node-18-prefix-only-modules/
+
+:::
+
+📒 Node v16.15.0 (LTS) 发布
+
+现在 Node v16 可以使用实验性支持的 Fetch API 了
+
+> https://nodejs.org/en/blog/release/v16.15.0/
+
+📒 升级到 React 18 所对应的 TypeScript 类型定义的改动
+
+> https://blog.logrocket.com/upgrading-react-18-typescript/
 
 📒 如何理解 React Hooks 的闭包陷阱
 
