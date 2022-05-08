@@ -28,6 +28,12 @@ pnpm 发布了 v7.0.0，带来了大量的更新。如：不再支持 Node.js 12
 
 > https://github.com/pnpm/pnpm/releases/tag/v7.0.0
 
+⭐️ 2022 年的前端行业，咋样啦
+
+ESR（Edge Side Rendering，边缘渲染）是最近的一大热门趋势，可以直接在 CDN 级别实现按需渲染。Nuxt 3、Remix 以及 Sveltekit 等框架都在朝着这个方向发展，目测会在未来的一到两年会成为一大焦点。
+
+[2022 年的前端行业，咋样啦](https://mp.weixin.qq.com/s/SLi0MQru1bh539ricvQCew)
+
 📒 [docker-node - Node.js 官方 Docker 镜像](https://github.com/nodejs/docker-node#create-a-dockerfile-in-your-nodejs-app-project)
 
 📒 JS 新的日期 API：Temporal
@@ -49,6 +55,10 @@ https://maggiepint.com/2017/04/09/fixing-javascript-date-getting-started/
 或者在 RunKit 上体验（浏览器端运行 node 模块）：
 
 > https://npm.runkit.com/proposal-temporal
+
+📒 [【工程化】探索webpack5中的Module Federation](https://mp.weixin.qq.com/s/zt7x2KjMT_cWvLVVa2-Hww)
+
+📒 [我们如何使用 Webpack 将启动时间减少 80%](https://mp.weixin.qq.com/s/xd6hjcxCm5dpRF95QawmxA)
 
 📒 [React官方团队出手，补齐原生Hook短板](https://juejin.cn/post/7094424941541457933)
 

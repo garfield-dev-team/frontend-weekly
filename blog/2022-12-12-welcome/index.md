@@ -773,3 +773,5 @@ import TabItem from '@theme/TabItem';
 - [「手摸手设计模式系列」 享元模式与资源池](https://juejin.cn/post/6844903919995322382)
 - [我在工作中写React，学到了什么？性能优化篇](https://juejin.cn/post/6889247428797530126)
 - [React Hooks 最佳实践](https://juejin.cn/post/6844904165500518414)
+- [手写 CSS-modules 来深入理解它的原理](https://mp.weixin.qq.com/s/3xhNcfI4pTm0n-naSsOBwg)
+
