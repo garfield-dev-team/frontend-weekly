@@ -774,4 +774,9 @@ import TabItem from '@theme/TabItem';
 - [我在工作中写React，学到了什么？性能优化篇](https://juejin.cn/post/6889247428797530126)
 - [React Hooks 最佳实践](https://juejin.cn/post/6844904165500518414)
 - [手写 CSS-modules 来深入理解它的原理](https://mp.weixin.qq.com/s/3xhNcfI4pTm0n-naSsOBwg)
-
+- [下集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1j44y1g74m)
+- [Umi 4 特性合集，比 Vite 还要快？](https://mp.weixin.qq.com/s/-B5M7pjIWZzFNvq-hyr1Mw)
+- [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
+- [前端抢饭碗系列之初识Docker容器化部署](https://juejin.cn/post/7069609959985512484)
+- [前端抢饭碗系列之Docker进阶部署](https://juejin.cn/post/7083009375387779085)
+- [【工程化】探索webpack5中的Module Federation](https://mp.weixin.qq.com/s/zt7x2KjMT_cWvLVVa2-Hww)

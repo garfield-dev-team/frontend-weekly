@@ -15,10 +15,10 @@ Jest 作者的最新系列文章，并且配套视频，内容绝对硬核。
 
 这篇文章作者以自身多年的开发经历还原了 JavaScript 框架的发展历程，并划分出了四个时代。
 
-远古时代：无框架
-框架初期：Backbone.js、Angular 1、Knockout.js、SproutCore、Ember.js、Meteor.js
-以组件为中心的时代：React.js、Vue.js、Svelte、Polymer.js
-全栈框架：Next.js、Nuxt.js、Remix、SvelteKit、Gastby 和 Astro
+- 远古时代：无框架
+- 框架初期：Backbone.js、Angular 1、Knockout.js、SproutCore、Ember.js、Meteor.js
+- 以组件为中心的时代：React.js、Vue.js、Svelte、Polymer.js
+- 全栈框架：Next.js、Nuxt.js、Remix、SvelteKit、Gastby 和 Astro
 
 > https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks
 
