@@ -467,6 +467,7 @@ import TabItem from '@theme/TabItem';
 
 **编程风格指南**
 
+- ⭐️ [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy)
 - ⭐️ [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - ⭐️ [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
