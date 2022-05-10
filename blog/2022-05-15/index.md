@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 package.json 入口点
+
+> http://nodejs.cn/api/packages.html#main-entry-point-export
+
 📒 使用 Next.js 和 MDX 构建你自己的博客
 
 > https://www.freecodecamp.org/news/how-to-build-your-own-blog-with-next-js-and-mdx/
