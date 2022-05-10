@@ -605,6 +605,7 @@ import TabItem from '@theme/TabItem';
   - [十道腾讯算法真题解析！](https://mp.weixin.qq.com/s/dg4WI2eJzh6b3OAzHN0q3A)
   - [一文秒杀 5 道最近公共祖先问题](https://mp.weixin.qq.com/s/njl6nuid0aalZdH5tuDpqQ)
   - [算法时空复杂度分析实用指南](https://mp.weixin.qq.com/s/OQAzopRncZe5cb9_of4mCQ)
+  - [动态规划答疑篇（修订版）](https://mp.weixin.qq.com/s/zhaurXhrAiHsfgGAOfAuMw)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
