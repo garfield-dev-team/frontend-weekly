@@ -285,6 +285,12 @@ import TabItem from '@theme/TabItem';
 - [tauri - 将前端项目打包为桌面应用，用于替代 electron](https://github.com/tauri-apps/tauri)
 
 </TabItem>
+<TabItem value="React 生态" label="React 生态">
+
+- ⭐️ [bytemd - 字节出品的 markdown 编辑器](https://github.com/bytedance/bytemd)
+- ⭐️ [guide - 字节出品的 React 新手引导组件](https://github.com/bytedance/guide)
+
+</TabItem>
 <TabItem value="浏览器环境" label="浏览器环境">
 
 - `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
