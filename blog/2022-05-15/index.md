@@ -5,6 +5,42 @@ authors: [garfield]
 tags: []
 ---
 
+📒 使用 DefinePlugin 遇到的问题
+
+在开发一个组件库，需要区分运行环境，根据环境打包相应的模块代码。根据 Webpack 代码优化（生产环境默认启用）的时候，terser 会做 DCE（无用代码移除）处理，进而优化打包体积：
+
+```js
+// 在 Webpack 代码优化的时候
+// terser 会识别出“业务2”的代码为无用代码，进而移除掉
+// 只保留“业务1”的代码
+
+if (true) {
+  // 业务 1
+}
+
+if (false) {
+  // 业务 2
+}
+```
+
+原先的方式在一个模块中定义常量，然后其他模块引入常量进行判断。这里要注意一个问题，在 Webpack 代码优化的时候，terser 并不会做程序流分析，也就是说访问不到模块的上下文信息。这种情况下，terser 可能还是会将模块导出的常量当做变量处理，从而导致 DCE 失效。这种情况下，我们不能通过模块方式引入常量，而是要用 `DefinePlugin` 直接把变量替换为对应的字面量。
+
+📒 [治理项目模块依赖关系，试试这艘「依赖巡洋舰」](https://mp.weixin.qq.com/s/y0QGSI-VZcy9CCe_cHezlw)
+
+📒 【前端部署十二篇】使用 CI 中的缓存进行 Pipeline 优化
+
+当我们使用 webpack 5 进行构建时，如果使用了 `filesystem cache`，因为在磁盘中含有缓存 (node_modules/.cache)，二次构建往往比一次构建快速十几倍。
+
+而在 CICD 中，这些都失去了意义，因为 CICD 每次 Job 都相当于新建了一个目录，「每次构建都相当于是首次构建」。
+
+但是，CI 提供了一些缓存机制，可以将一些资源进行缓存。如果每次可以将缓存取出来，则大大加速了前端部署的速度。
+
+[【前端部署十二篇】使用 CI 中的缓存进行 Pipeline 优化](https://mp.weixin.qq.com/s/7300HTz9nOOuCq_xTwXHhg)
+
+📒 [UMI3源码解析系列之核心service类初始化](https://mp.weixin.qq.com/s/f8mYoozpLrnSfWcRHTMa7A)
+
+📒 [【第2610期】JavaScript Containers](https://mp.weixin.qq.com/s/fPcdVCqWvkPqAdVK7JHacg)
+
 📒 【前端部署十一篇】通过 CICD 实践 Lint、Test、Performance 等前端质量保障工程
 
 在 CI 操作保障代码质量的环节中，可确定以下时机:
