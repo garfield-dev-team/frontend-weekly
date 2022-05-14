@@ -261,7 +261,7 @@ React 18 使用了新的 `ReactDOM.createRoot()` API 挂载根节点，Concurren
 
 如果安装到 dependencies 下，显然会导致重复安装；如果安装到 devDependencies 下虽然不会导致重复安装，但包管理器不会检查版本，当版本不一致的时候不会打印警告。所以 peerDependencies 是最优选择。
 
-> 我们在老版本的 React 项目中引入一个高版本组件库的时候，也要留意 peerDependencies 的警告
+> 在老版本 React 项目中引入某些依赖库（例如 `antd`、`react-transition-group`），一般不能直接安装最新的版本（大概率会报错），此时应该根据依赖库的 package.json 中指定的 `peerDependencies` 字段选择合适的依赖库版本
 
 ⭐️ 什么是 JavaScript 的函数组合
 
