@@ -5,6 +5,57 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [你想知道vite核心原理吗，我来手写告诉你（80行源代码）](https://juejin.cn/post/7096070620105932813)
+
+📒 [Rust 入门 - 资源与生命周期](https://juejin.cn/post/7094909263847358472)
+
+📒 [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
+
+📒 [Tree shaking问题排查指南来啦](https://mp.weixin.qq.com/s/P3mzw_vmOR6K_Mj-963o3g)
+
+📒 [\[科普\] JS中Object的keys是无序的吗](https://mp.weixin.qq.com/s/qyyrQNC6q6p496OdZIQ6ew)
+
+📒 [如何设计更优雅的 React 组件](https://mp.weixin.qq.com/s/FPupefVg4zphOfIERZOvHQ)
+
+📒 代码覆盖率在性能优化上的一种可行应用
+
+由于 JS 资源需要通过网络加载，代码的体积直接影响页面加载性能。很多时候我们“喂”给浏览器的代码，并不会全部执行，因此我们可以做分包优化，即 code-spliting，只“喂”给浏览器渲染当前页面所需的资源。
+
+注意区分以下两个概念：
+
+- Dead code
+  
+  也叫无用代码，这个概念应是在编译时静态分析出的对执行无影响的代码。通常我们用 Tree Shaking 在编译时移除这些 dead code 以减小代码体积。
+
+- 冗余代码
+
+  代码覆盖率中的概念，适用于运行时，而 Dead code 适用于编译时。Dead code 是任何情况下都不会执行的代码，所以可以在编译阶段将其剔除。冗余代码是某些特定的业务逻辑之下并不会执行到这些代码逻辑（比如：在首屏加载时，某个前端组件完全不会加载，那么对于“首屏”这个业务逻辑用例来讲，该前端代码就是冗余的）。
+
+如何进行合理分包呢？这就需要统计代码覆盖率。代码覆盖率（Code coverage）是软件测试中的一种度量指标。即描述测试过程中（运行时）被执行的源代码占全部源代码的比例。
+
+如何统计代码覆盖率：
+
+**1. Chrome 浏览器 Dev Tools**
+
+chrome 浏览器的 DevTools 给我们提供了度量页面代码（JS、CSS）覆盖率的工具 Coverage。使用方式：Dev tools —— More tools —— Coverage
+
+由于一般都会对 JS、CSS 资源进行混淆压缩，因此建议导入 Source Map 以便查看源代码的覆盖率。
+
+**2. Istanbul（NYC）**
+
+Istanbul或者 NYC(New York City，基于 istanbul 实现) 是度量 JavaScript 程序的代码覆盖率工具，目前绝大多数的node代码测试框架使用该工具来获得测试报告，其有四个测量维度：
+
+- line coverage（行覆盖率）：每一行是否都执行了 【一般我们关注这个信息】
+- function coverage（函数覆盖率）：每个函数是否都调用了
+- branch coverage（分支覆盖率）：是否每个 if 代码块都执行了
+- statement coverage（语句覆盖率）：是否每个语句都执行了
+
+缺点：目前使用 istanbul 度量网页前端JS代码覆盖率没有非侵入的方案，采用的是在编译构建时修改构建结果的方式埋入统计代码，再在运行时进行统计展示。
+
+我们可以使用 babel-plugin-istanbul 插件在对源代码在 AST 级别进行包装重写，这种编译方式也叫 代码插桩 / 插桩构建（instrument）。
+
+[代码覆盖率在性能优化上的一种可行应用](https://mp.weixin.qq.com/s/VQq3Ly3ZEAFpYVIvV3Uhiw)
+
 📒 使用 DefinePlugin 遇到的问题
 
 在开发一个组件库，需要区分运行环境，根据环境打包相应的模块代码。根据 Webpack 代码优化（生产环境默认启用）的时候，terser 会做 DCE（无用代码移除）处理，进而优化打包体积：
