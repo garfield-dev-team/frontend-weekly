@@ -349,6 +349,9 @@ import TabItem from '@theme/TabItem';
 
 ## 网络相关
 
+- [字节一面：如何用 UDP 实现可靠传输](https://mp.weixin.qq.com/s/hX75YxVOMtsnB6Sm_yjm0g)
+- [TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了](https://mp.weixin.qq.com/s/toQUgqJHeUbFZMtxfzFCxw)
+- [TCP 就没什么缺陷吗？](https://mp.weixin.qq.com/s/9kHoRk6QIYOFUR_PCmHY6g)
 - ⭐️ [TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了](https://mp.weixin.qq.com/s/toQUgqJHeUbFZMtxfzFCxw)
 - ⭐️ [TCP 就没什么缺陷吗？](https://mp.weixin.qq.com/s/9kHoRk6QIYOFUR_PCmHY6g)
 - 推荐看看 QUIC 101 视频以及 [The QUIC transport protocol: design and Internet-scale deployment](https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf) 论文
@@ -405,6 +408,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [大厂面试题：日常工作如何做MySQL优化](https://mp.weixin.qq.com/s/N08tFkGyXtmBSN0nS6S6UA)
 - [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
 - [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
 - [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
