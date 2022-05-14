@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3322],{5218:function(e){e.exports=JSON.parse('{"allTagsPath":"/frontend-weekly/blog/tags","name":"Yarn2","count":1,"permalink":"/frontend-weekly/blog/tags/yarn-2"}')}}]);

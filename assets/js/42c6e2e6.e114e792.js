@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[8811],{760:function(e){e.exports=JSON.parse('{"label":"ESNext","permalink":"/frontend-weekly/blog/tags/es-next","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);
