@@ -421,6 +421,7 @@ import TabItem from '@theme/TabItem';
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
   - https://github.com/fangbinwei/aliyun-oss-website-action
+  - https://github.com/leanote/leanote
 - Golang 教程
   - https://www.w3cschool.cn/go/
 - ⭐️ [Go 语言与并发编程](https://zhuanlan.zhihu.com/p/471317280)
