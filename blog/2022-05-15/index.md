@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 解决 Vite 打包 React 组件库无法排除 peerDependencies 的问题
+
+[轮子系列：使用vite从零开发React组件库](https://zhuanlan.zhihu.com/p/354572830)
+
+[如何使用Rollup打包React组件库](https://zhuanlan.zhihu.com/p/500883016)
+
+使用 dumi 实现组件库文档自动化
+
+https://d.umijs.org/zh-CN/guide/advanced#%E7%BB%84%E4%BB%B6-api-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90
+
 📒 [NodeJs进阶开发、性能优化指南](https://juejin.cn/post/7095354780079357966)
 
 📒 使用 `URLSearchParams` 注意事项
@@ -29,6 +39,8 @@ const foo = p.get("foo"); // string | null
 // 解决方案，使用逻辑或操作，实现类型守卫
 const foo = p.get("foo") || ""; // string
 ```
+
+📒 [写给前端的手动内存管理基础入门（一）返璞归真：从引用类型到裸指针](https://juejin.cn/post/6938201650012094495)
 
 📒 [React如何原生实现防抖](https://juejin.cn/post/7097406514360483877)
 
