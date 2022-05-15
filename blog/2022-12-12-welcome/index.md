@@ -295,6 +295,8 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="浏览器环境" label="浏览器环境">
 
+- ⭐️ [date-fns - 现代化的 JavaScript 日期类库](https://github.com/date-fns/date-fns)
+- ⭐️ [nanoid - 用于替代 uuid 的随机 id 生成库](https://github.com/ai/nanoid)
 - `dayjs`：与 `moment` 的 API 设计保持一样，但体积仅有 2KB；
 - `qs`：解析 URL query 参数的库；
 - `js-cookie`：简单、轻量的处理 cookie 的库；
@@ -306,6 +308,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="实用工具" label="实用工具">
 
+- ⭐️ [fs-extra - Node 原生 fs 模块的扩展](https://github.com/jprichardson/node-fs-extra)
 - `yargs`：通过使用 Node.js 构建功能全面的命令行应用
 - `Ajv`：一个适用于 Node.js 和浏览器的最快 JSON 验证器
 - `yallist`：一个双向链表的实现
