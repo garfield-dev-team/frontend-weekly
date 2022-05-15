@@ -185,6 +185,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 软件架构 && 设计模式
 
+- [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
 - [【第2126期】每个开发者都应该知道的 SOLID 原则](https://mp.weixin.qq.com/s/KHeo5bdY4cjPfA5I1mjXWw)
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
 - [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
