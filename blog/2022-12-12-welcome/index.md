@@ -424,6 +424,7 @@ import TabItem from '@theme/TabItem';
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
+- ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
