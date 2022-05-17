@@ -31,7 +31,7 @@ function App() {
 }
 ```
 
-> 正是因为 JSX 会转换为 `React.createElement(...)`，所以每个组件顶部必须导入 `react`
+> 正是因为 JSX 会转换为 `React.createElement(...)`，所以每个组件顶部必须导入 `React`
 
 在 React 17 版本，React 的 package 中引入了两个新入口，这些入口只会被 Babel 和 TypeScript 等编译器使用。新的 JSX 转换不会将 JSX 转换为 React.createElement，而是自动从 React 的 package 中引入新的入口函数并调用。下方是新 JSX 被转换编译后的结果：
 
@@ -67,11 +67,15 @@ module.exports = {
 
 :::tip
 
+可以直接在 Babel Playground 看编译结果：
+
+https://babeljs.io/repl
+
 官方文档表示，新的 JSX 转换会略微优化包体积，个人认为优化还是比较有限。虽说 `React.createElement()` 变成了更短的调用，但是又多出来一段运行时代码。
 
-:::
+https://react.docschina.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
 
-> https://react.docschina.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
+:::
 
 📒 [从 Turborepo 看 Monorepo 工具的任务编排能力](https://mp.weixin.qq.com/s/OrekHmMrn8UlisTrvt3MNA)
 
@@ -86,7 +90,11 @@ module.exports = {
 
 > https://www.youtube.com/watch?v=59IXY5IDrBA
 
-📒 React 团队提出一款新的基础 hook：`useEvent`，现处于 RFC 阶段
+📒 [\[调研报告\] 新一代前端构建工具汇总](https://mp.weixin.qq.com/s/jCNcAD8y3IElZN6OPv1Qfw)
+
+📒 [Google 最新的性能优化方案，LCP 提升30%！](https://mp.weixin.qq.com/s/3v54arsDRRw6agyr3MtPRg)
+
+📒 React useEvent：砖家说的没问题
 
 useEvent 会将一个函数「持久化」，同时可以保证函数内部的变量引用永远是最新的。如果你用过 ahooks 的 `useMemoizedFn`，实现的效果是几乎一致的。再强调下 `useEvent` 的两个特性：
 
@@ -114,11 +122,7 @@ function useEvent(handler) {
 }
 ```
 
-📒 [\[调研报告\] 新一代前端构建工具汇总](https://mp.weixin.qq.com/s/jCNcAD8y3IElZN6OPv1Qfw)
-
-📒 [Google 最新的性能优化方案，LCP 提升30%！](https://mp.weixin.qq.com/s/3v54arsDRRw6agyr3MtPRg)
-
-📒 [React useEvent：砖家说的没问题](https://mp.weixin.qq.com/s/-6bQKIjH6WPcfuiCFtsjng)
+[React useEvent：砖家说的没问题](https://mp.weixin.qq.com/s/-6bQKIjH6WPcfuiCFtsjng)
 
 📒 为什么用 Vite 打包 React 组件库
 
