@@ -425,6 +425,7 @@ import TabItem from '@theme/TabItem';
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
 - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
+- ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
