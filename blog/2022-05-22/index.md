@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2616期】解释JavaScript的内存管理](https://mp.weixin.qq.com/s/X4ni2i9bvolHGfCdf3SzIA)
+
 📒 UMI3源码解析系列之插件化架构核心
 
 插件机制实现的方式：
