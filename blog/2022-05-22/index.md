@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [前端必学的动画实现思路，高逼格的效果老板看了都会大声称赞](https://juejin.cn/post/7099402445989609479)
+
+📒 [【第2617期】React 组件库 CSS 样式方案分析](https://mp.weixin.qq.com/s/LSlgpazCwtceQWjHsMPCAg)
+
 📒 [【第2616期】解释JavaScript的内存管理](https://mp.weixin.qq.com/s/X4ni2i9bvolHGfCdf3SzIA)
 
 📒 UMI3源码解析系列之插件化架构核心
