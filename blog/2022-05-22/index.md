@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2618期】手把手教你定制一套适合团队的微前端体系](https://mp.weixin.qq.com/s/ovwjufnPmCoYNLMkv5xv2g)
+
 📒 Vite 相关 issue 梳理
 
 https://github.com/vitejs/vite/discussions/8232
