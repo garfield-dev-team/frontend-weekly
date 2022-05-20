@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Chrome debugger 小技巧
+
+在 Chrome 浏览器中打断点调试，此时切到控制台，可以访问断点位置上下文信息，也就是说可以访问、甚至修改变量。
+
 ⭐️ [前端必学的动画实现思路，高逼格的效果老板看了都会大声称赞](https://juejin.cn/post/7099402445989609479)
 
 📒 [【第2617期】React 组件库 CSS 样式方案分析](https://mp.weixin.qq.com/s/LSlgpazCwtceQWjHsMPCAg)
