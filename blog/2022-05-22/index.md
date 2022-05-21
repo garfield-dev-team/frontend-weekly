@@ -5,6 +5,26 @@ authors: [garfield]
 tags: []
 ---
 
+📒 学习 swr 获取数据的思路
+
+最近遇到很多列表渲染的场景，例如根据筛选项和分页参数获取列表数据。在代码中看到虽然用了 React Hooks，但是获取数据依旧是 jQuery 时代的 **命令式** 写法。
+
+我们知道，前端框架都是数据驱动、声明式渲染的，即渲染视图不需要命令式地操作 DOM，而是声明式地修改数据就行。因此，获取数据也可以使用 **声明式** 写法，这样代码更容易维护。
+
+```jsx
+import useSWR from 'swr'
+
+function Profile() {
+  const { data, error } = useSWR('/api/user', fetcher)
+
+  if (error) return <div>failed to load</div>
+  if (!data) return <div>loading...</div>
+  return <div>hello {data.name}!</div>
+}
+```
+
+> https://swr.vercel.app/docs/getting-started
+
 📒 [【第2618期】手把手教你定制一套适合团队的微前端体系](https://mp.weixin.qq.com/s/ovwjufnPmCoYNLMkv5xv2g)
 
 📒 Vite 相关 issue 梳理
