@@ -5,6 +5,26 @@ authors: [garfield]
 tags: []
 ---
 
+📒 PNPM 源码结构 - 前端包管理工具具有哪些功能
+
+首先 pnpm 整个项目的主入口包文件为 `packages/pnpm` 这个包里面，这个包名称也直接叫做 `pnpm `，其中 `main.ts` 文件是其入口文件，这个文件会处理掉用户传进来的一些参数，然后根据处理后的不同的参数对各命令做一个下发执行工作，下发后的命令参数再到各个包里面去，从而执行里面对应的逻辑。
+
+处理参数用到的包为 `@pnpm/parse-cli-args` ，它会接收到用户传递进来的命令行参数，然后将其处理成一个 pnpm 内部的统一格式，例如用户输入如下命令:
+
+```bash
+$ pnpm add -D axios
+```
+
+这里传进来的一些参数都会被 `parseCliArgs` 这个方法处理:
+
+例如 `add` 会被处理给 `cmd` 字段，一些裸的参数例如 `axios` 会被放进 `cliParams` 这个数组中，`-D` 这个参数在 `cliOptions` 里面去。处理后的这些变量以及参数用于主入口文件后续代码执行逻辑的判断。具体的判断逻辑可以在调试的时候遇到了，再去看对应的入口逻辑判断调试即可，这里不做具体的介绍。
+
+在 `main.ts` 中会通过调用当前包下面的 `cmd` 目录下面的方法(`pnpmCmds`)，来完成各命令的分发。
+
+- 依赖管理：如果 cmd 值为 `add` 、`install` 、`update` 等这些涉及和依赖安装相关的包，则会走 `@pnpm/plugin-commands-installation` 这个包里面对应的子命令逻辑(基本上 pnpm 所有的核心模块都围绕依赖安装这一块展开)
+- 打包发布：如果 cmd 值为 `pack` 、`publish` 这一类涉及到打包发布的包，则会走 `@pnpm/plugin-commands-publishing` 这个包的逻辑
+- 命令执行：如果 cmd 值为 `run` 、`exec` 、 `dlx` 等这些和命令执行相关的方法，则会走 `@pnpm/plugin-commands-script-runners` 这个包的逻辑
+
 📒 学习 swr 获取数据的思路
 
 最近遇到很多列表渲染的场景，例如根据筛选项和分页参数获取列表数据。在代码中看到虽然用了 React Hooks，但是获取数据依旧是 jQuery 时代的 **命令式** 写法。
