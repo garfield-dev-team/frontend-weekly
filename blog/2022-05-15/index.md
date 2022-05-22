@@ -132,7 +132,49 @@ Istanbul或者 NYC(New York City，基于 istanbul 实现) 是度量 JavaScript 
 
 [代码覆盖率在性能优化上的一种可行应用](https://mp.weixin.qq.com/s/VQq3Ly3ZEAFpYVIvV3Uhiw)
 
-📒 使用 DefinePlugin 遇到的问题
+📒 关于“环境变量”需要注意的问题
+
+**1. 为什么使用 cross-env 设置环境变量**
+
+有时候我们需要用 npm scripts 设置 Node.js 的环境变量，通常都会使用 cross-env 这个库。其实设置环境变量，直接通过 shell 命令就可以了，但是 Win 和 MacOS 设置的方式不太一样，所以 cross-env 实际上是实现了跨平台设置环境变量。
+
+**2. `.env` 文件是如何生效的**
+
+可以使用 `dotenv` 这个库，可以将 `.env` 文件下的内容加载到 Node.js 的 `process.env` 对象中，注意 key 和 value 都是 string 类型。
+
+**3. 前端项目的环境变量是如何生效的**
+
+前端项目的环境变量，实际上不是真正的环境变量，因为浏览器环境下是访问不到 `process` 对象的，需要通过 `DefinePlugin` 在打包构建的时候，将变量替换为对应的值。
+
+注意这里有个坑，`DefinePlugin` 默认直接进行文本替换，如果想要替换为字符串字面量，则需要在字符串中再加一个引号，或者用 `JSON.scringify` 包裹：
+
+```js
+// webpack.config.js
+new webpack.DefinePlugin({
+  __DEV__: "true", // 替换为布尔值
+  "process.env.NODE_ENV": JSON.stringify("development"), // 替换为字符串字面量
+})
+
+// 源码
+if (__DEV__) {
+  // ...
+}
+
+if (process.env.NODE_ENV === "development") {
+  // ...
+}
+
+// 替换得到的结果
+if (true) {
+  // ...
+}
+
+if ("development" === "development") {
+  // ...
+}
+```
+
+使用 DefinePlugin 遇到的问题
 
 在开发一个组件库，需要区分运行环境，根据环境打包相应的模块代码。根据 Webpack 代码优化（生产环境默认启用）的时候，terser 会做 DCE（无用代码移除）处理，进而优化打包体积：
 
