@@ -802,4 +802,3 @@ import TabItem from '@theme/TabItem';
 - [前端抢饭碗系列之初识Docker容器化部署](https://juejin.cn/post/7069609959985512484)
 - [前端抢饭碗系列之Docker进阶部署](https://juejin.cn/post/7083009375387779085)
 - [【工程化】探索webpack5中的Module Federation](https://mp.weixin.qq.com/s/zt7x2KjMT_cWvLVVa2-Hww)
-- [推荐10个"不能错过"的 Chrome 插件给工友们](https://juejin.cn/post/7095524318339137573)
