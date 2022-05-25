@@ -195,6 +195,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
 - [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
 - [实战！如何从零搭建10万级 QPS 大流量、高并发优惠券系统](https://mp.weixin.qq.com/s/iZ9BX6cCCp_TB-SC3knuew)
+- ⭐️ [肝了一个月的 DDD，一文带你掌握](https://mp.weixin.qq.com/s/jU0awhez7QzN_nKrm4BNwg)
 - ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
 - 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
 - 🌛 [后台服务架构高性能设计之道](https://mp.weixin.qq.com/s/hsH7LMBEDGe_df9UbfOvbQ)
