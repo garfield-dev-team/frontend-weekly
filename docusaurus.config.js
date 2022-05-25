@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const DeployConfig = require("./deployConfig.js");
+const blogConfig = require('./blogConfig.js');
 
 const getDeployConfig = () => {
   if (process.env.VERCEL === 'true') {
@@ -28,6 +29,8 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+
+  plugins: [...blogConfig],
 
   presets: [
     [
