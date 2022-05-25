@@ -5,6 +5,39 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [前端多线程编程探索](https://juejin.cn/post/7101608088100143118)
+
+📒 [精妙的配合！文字轮播与图片轮播？CSS 不在话下](https://mp.weixin.qq.com/s/pSoSpuLXfeghfMvEfl38WA)
+
+📒 [并发渲染优化：让文件树的渲染又快又稳](https://mp.weixin.qq.com/s/3yy9V5HMDWPFwEf1cyL-lw)
+
+📒 [UMI3源码解析系列之构建原理](https://mp.weixin.qq.com/s/2MsgPh9AZtUoJpsLLdOynQ)
+
+📒 [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
+
+📒 [Node.js Web 框架 Midway 入门实战](https://mp.weixin.qq.com/s/yxsiWiZi08B5tC3Ab7DKWg)
+
+📒 [肝了一个月的 DDD，一文带你掌握](https://mp.weixin.qq.com/s/jU0awhez7QzN_nKrm4BNwg)
+
+📒 使用 rollup 构建第三方库包括哪些过程
+
+- 浏览器不兼容的语法转换
+  - Vue 文件处理：`rollup-plugin-vue`
+  - JSX、TS 语法编译：`rollup-plugin-babel`
+  - 支持 CSS 加载、添加前缀、压缩、scss/less 预编译：`rollup-plugin-postcss`
+- 编译兼容
+  - 仅限语法转换，不建议 polyfill：`rollup-plugin-babel`
+- 混淆压缩
+  - 对应：`rollup-plugin-terser`
+- 打包为一份文件（注意 `peerDependencies` 外部化），多种打包格式，生成类型声明文件等
+- 工程质量保障，例如 ESLint、TS 类型检查、单元测试等
+
+:::tip
+
+前面两步可以避免业务项目的 `babel-loader` 处理 `node_modules` 下的模块，提升构建效率。
+
+:::
+
 📒 如何实现主题切换
 
 关键看场景，如果需要在运行环境动态切换，就需要打包两套样式，然后通过媒体查询之类的方式进行切换。如果不需要动态切换，可以在构建的时候进行变量注入。
