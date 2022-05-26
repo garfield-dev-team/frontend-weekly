@@ -5,6 +5,19 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何设置 npm 私有源
+
+在项目根目录建一个 `.yarnrc` 文件，配置如下：
+
+```bash
+# 淘宝源
+registry=https://registry.npmmirror.com
+# 私有源
+@myscope:registry=https://mycustomregistry.example.org
+```
+
+这样的话，`package.json` 中带有 `@myscope` 前缀的依赖，例如 `@myscope/design-system` 都会从私有源下载。
+
 📒 [前端多线程编程探索](https://juejin.cn/post/7101608088100143118)
 
 📒 [精妙的配合！文字轮播与图片轮播？CSS 不在话下](https://mp.weixin.qq.com/s/pSoSpuLXfeghfMvEfl38WA)
