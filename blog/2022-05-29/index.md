@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 An introductory guide to Contiuous Integration and Delivery/Deployment (CI/CD) for Frontend Develope
+
+> https://blog.tegadev.xyz/an-introductory-guide-to-ci-cd-for-frontend-developers
+
+📒 [基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/JUXz9TOKbkO1oAzHjVfwnQ)
+
+📒 [被diss性能差，Dan连夜优化React新文档](https://juejin.cn/post/7102328973820067877)
+
+📒 [Node.js 调试一路走来经历了什么](https://juejin.cn/post/7102233142567632933)
+
+📒 [UMI3源码解析系列之运行时插件机制](https://mp.weixin.qq.com/s/4cZ3rJz4P5bSRSeXDbFoMQ)
+
+📒 [推荐一个前端技术选型神器](https://mp.weixin.qq.com/s/g1fr1fnGspi7SETyP9B6rA)
+
 📒 Webpack 模块构建缓存
 
 模块构建缓存，推荐使用 Webpack5 的 `filesystem cache`，技术更成熟，可以参考 CRA 的 Webpack 配置：
