@@ -41,6 +41,11 @@ module.exports = {
 }
 ```
 
+关于持久化缓存，有两个地方需要注意：
+
+- 默认缓存的路径是 `node_modules/.cache/webpack`，也就是说，只要删除 `node_modules`，相当于缓存也被清空了
+- 本地和 CI 环境的缓存是相互独立的，本地的缓存无法在 CI 环境使用。在 CI 环境中需要使用 CI 的缓存机制
+
 > https://github.com/facebook/create-react-app/blob/main/packages/react-scripts/config/webpack.config.js
 
 📒 [最高性能的包管理器-pnpm](https://mp.weixin.qq.com/s/2OXIGB5qQFc2isIxhm33bg)
