@@ -136,7 +136,7 @@ Istanbul或者 NYC(New York City，基于 istanbul 实现) 是度量 JavaScript 
 
 **1. 为什么使用 cross-env 设置环境变量**
 
-有时候我们需要用 npm scripts 设置 Node.js 的环境变量，通常都会使用 cross-env 这个库。其实设置环境变量，直接通过 shell 命令就可以了，但是 Win 和 MacOS 设置的方式不太一样，所以 cross-env 实际上是实现了跨平台设置环境变量。
+有时候我们需要用 npm scripts 设置 Node.js 的环境变量，通常都会使用 cross-env 这个库。其实设置环境变量，在 MacOS 和 linux 系统直接通过 shell 命令就可以了，例如 `PORT=8066`，但是 Win 设置的方式不太一样，所以 cross-env 实际上是实现了跨平台设置环境变量。
 
 **2. `.env` 文件是如何生效的**
 
