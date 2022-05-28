@@ -15,6 +15,15 @@ tags: []
 
 📒 [Node.js 调试一路走来经历了什么](https://juejin.cn/post/7102233142567632933)
 
+📒 如何解决组件库打包条件引入
+
+由于 `import` 语句必须放在顶层，不能放在条件判断中。如果同时保留两个 `import` 语句则会导致两个包都被打包进去。所以解决的方案就是在构建阶段动态修改 `import` 语句，但是需要注意两个问题：
+
+- 要注意修改时机，假如打包工具依赖分析已经完成，这时候再修改就太迟了
+- 另外还要注意不同打包工具的兼容性，如果开发 rollup 插件，可能导致 webpack、vite 等工具不兼容
+
+因此选择开发 babel 插件，可以兼容各种打包工具。
+
 📒 [UMI3源码解析系列之运行时插件机制](https://mp.weixin.qq.com/s/4cZ3rJz4P5bSRSeXDbFoMQ)
 
 📒 [推荐一个前端技术选型神器](https://mp.weixin.qq.com/s/g1fr1fnGspi7SETyP9B6rA)
