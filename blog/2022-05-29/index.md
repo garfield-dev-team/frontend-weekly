@@ -5,6 +5,53 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何将数组转为对象
+
+之前在业务中遇到一个场景，配置 Webpack alias 的时候，会出现很多模板代码：
+
+```js
+module.exports = {
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+      "@foo": path.resolve(__dirname, "src/foo"),
+      "@bar": path.resolve(__dirname, "src/bar"),
+    }
+  }
+}
+```
+
+那么其实是可以通过数组的方式干掉模板代码：
+
+```ts
+function constructAlias(arr: string[]): Record<string, string> {
+  return Object.fromEntries(
+    arr.map(item => [
+      item,
+      path.resolve(cwd, item.replace(/^\@(.*?)$/, '$1'))
+    ])
+  );
+}
+
+const config = ['@', '@foo', '@bar'];
+
+const res = constructAlias(config);
+console.log(res);
+```
+
+> 使用数组的 `map` 方法映射出一个 entry 数组，可以表示为形如 `[key, value][]` 的结构，然后使用 `Object.fromEntries` 将 entry 数组转为对象
+
+这里需要注意，`Object.fromEntries` 是 ES2019 语法，支持 Chrome >= 73 和 Node.js >= 12.0.0。浏览器环境问题不大，一般都会配置 Babel polyfill 兼容，但是 Node.js 环境就会出一些问题，例如一些 CI 环境的 Node.js 版本很老，就会报错进而导致构建失败。因此通常开发的话，我们应该尽量用数组的 `reduce` 替代：
+
+```ts
+function constructAlias(arr: string[]): Record<string, string> {
+  return arr.reduce((accu, cur) => {
+    accu[cur] = path.resolve(cwd, cur.replace(/^\@(.*?)$/, '$1'));
+    return accu;
+  }, {});
+}
+```
+
 📒 An introductory guide to Contiuous Integration and Delivery/Deployment (CI/CD) for Frontend Develope
 
 > https://blog.tegadev.xyz/an-introductory-guide-to-ci-cd-for-frontend-developers
