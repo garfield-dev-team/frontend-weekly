@@ -350,6 +350,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [编译技术在前端的实践（二）—— Antlr 及其应用](https://juejin.cn/post/7057354419888717855)
 - ⭐️ [编译技术在前端的实践（一）—— 编译原理基础](https://juejin.cn/post/6989509925844041742)
 - ⭐️ [Babel 插件通关秘籍](https://juejin.cn/book/6946117847848321055)
+- [import 方式随意互转，感受 babel 插件的威力](https://juejin.cn/post/7018563244679757855)
 - [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
 - [浅析TypeScript Compiler 原理](https://juejin.cn/post/7047329886502912030)
 - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
