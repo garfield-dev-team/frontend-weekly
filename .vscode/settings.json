@@ -11,4 +11,5 @@
     // 保存时整理 import ，去掉没用的导包
     "source.organizeImports": true
   },
+  "where-am-i.color": "#9cc494",
 }

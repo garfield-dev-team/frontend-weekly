@@ -71,6 +71,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 技术方案
 
+- [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
 - [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
 - [自动化生成骨架屏的技术方案设计与落地](https://mp.weixin.qq.com/s/-WHafu5z-Ap4tjrbWesnmA)
 
@@ -145,6 +146,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## PNPM && Monorepo
 
+- [现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
 - [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
 - [深入浅出 tnpm rapid 模式 - 如何比 pnpm 快 10 秒](https://zhuanlan.zhihu.com/p/455809528)
 - [pnpm 源码结构及调试指南](https://mp.weixin.qq.com/s/grb2OlBYiwU3TOkEtNZReA)
@@ -420,6 +422,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/T5vXADH4nXqAxyDcKWE64Q)
 - [大厂面试题：日常工作如何做MySQL优化](https://mp.weixin.qq.com/s/N08tFkGyXtmBSN0nS6S6UA)
 - [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
 - [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
