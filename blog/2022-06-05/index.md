@@ -5,18 +5,28 @@ authors: [garfield]
 tags: []
 ---
 
-📒 如何回滚代码
+📒 支付宝体验科技 Umi 系列文章
+
+[Umi 4 特性 05：稳定白盒性能好的 ESLint](https://www.yuque.com/antfe/featured/uf1bok)
+
+📒 如何回滚 Git 分支代码
 
 ```bash
-# 找到需要回滚的版本哈希，然后 reset
+# 找到需要回滚的版本哈希，执行 git reset
 $ git reset --hard HEAD^
-# 强制 push
+# 然后强制 push
 $ git push -f -u origin pre
 ```
 
-参考：
+[拜托，不要再问我Git如何回滚代码](https://zhuanlan.zhihu.com/p/137856034)
 
-> https://zhuanlan.zhihu.com/p/137856034
+📒 [如何华丽的实现一套脚手架 - 以umicli和转转zzcli为例](https://mp.weixin.qq.com/s/Sz8u6lzkL1nnpRxGrdbYJg)
+
+📒 [深入浅出 npm & yarn & pnpm 包管理机制](https://mp.weixin.qq.com/s/ZTI-8RI0l314Ki9oBxqRWw)
+
+📒 [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
+
+📒 [你还在手动部署埋点吗？从0到1开发Babel埋点自动植入插件](https://mp.weixin.qq.com/s/R6Xr8SoJicZB8-P4H2SSPA)
 
 📒 一个三小时的 React Native 速成课 
 
@@ -40,7 +50,15 @@ React 的优势在于它可以灵活地适应不同的开发方式，其中也�
 
 <!-- 📒 [动态表单（2）—— 复杂表单 DSL 设计（上）](https://zhuanlan.zhihu.com/p/515168073) -->
 
-⭐️ [现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
+⭐️ ⭐️ 现代 Monorepo 工程技术选型，聊聊我的思考
+
+总结一下：
+
+- 使用 PNPM 作为 monorepo 项目的包管理工具
+- 使用 Changesets 作为 monorepo 项目的发包工具
+- 使用 Turborepo 作为 monorepo 项目多包任务执行工具
+
+[现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
 
 📒 [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/T5vXADH4nXqAxyDcKWE64Q)
 
