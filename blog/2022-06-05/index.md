@@ -5,6 +5,19 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何回滚代码
+
+```bash
+# 找到需要回滚的版本哈希，然后 reset
+$ git reset --hard HEAD^
+# 强制 push
+$ git push -f -u origin pre
+```
+
+参考：
+
+> https://zhuanlan.zhihu.com/p/137856034
+
 📒 一个三小时的 React Native 速成课 
 
 > https://www.youtube.com/watch?v=VozPNrt-LfE
