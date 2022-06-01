@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Chrome 如何调试移动端 H5 页面
+
+> chrome://inspect/#devices
+
 📒 支付宝体验科技 Umi 系列文章
 
 [Umi 4 特性 05：稳定白盒性能好的 ESLint](https://www.yuque.com/antfe/featured/uf1bok)
