@@ -5,11 +5,83 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Vite 打包流程
+
+首先调用 `rollup` 方法（Rollup 的编程式 API）编译出 `bundle` 添加到 `build` 数组中，接下来就是遍历它，进行 `bundle` 的写操作（即输出到硬盘上），因为 vite 使用的是 Rollup 完成文件的打包，所以这里调用的是 `bundle.write` 来将文件输出到硬盘上。
+
+```ts title="packages/vite/src/node/build.ts"
+for (const build of builds) {
+  const bundle = await build.bundle;
+  const { output } = await bundle[write ? 'write' : 'generate']({
+    dir: resolvedAssetsPath,
+    format: 'es',
+    sourcemap,
+    entryFileNames: `[name].[hash].js`,
+    chunkFileNames: `[name].[hash].js`,
+    assetFileNames: `[name].[hash].[ext]`,
+    ...config.rollupOutputOptions
+  });
+  build.html = await renderIndex(output);
+  build.assets = output
+  await postBuildHooks.reduce(
+    (queue, hook) => queue.then(() => hook(build as any)),
+    Promise.resolve();
+  )
+}
+```
+
+:::tip
+
+注意 Vite 2.x 源码结构稍有不同，但是整体流程还是类似的：
+
+https://github.com/vitejs/vite/blob/ab23e6e7b490cf610a4465cc533f671a729fdfa8/packages/vite/src/node/build.ts#L543
+
+:::
+
+这里有一个值得学习的地方，这边 `postBuildHooks` 的类型定义是 `((build: any) => Promise<any>)[]`，如何保证调用顺序，即上一次调用完成后进行下一次调用？
+
+通常我们用 `reduce` 做管道操作都是不能用于 Promise，因为管道操作需要将上一次调用的返回值，作为参数传入下一次调用，但 Promise 的话很可能是 `pending`，根本拿不到上一次调用的返回值。所以一般来说我们只能将 `reduce` 改成普通 `FOR` 循环：
+
+```js
+let initialValue = Promise.resolve();
+
+for (const hooks of postBuildHooks) {
+  initialValue = await hook(build);
+}
+```
+
+而源码中对 `reducer` 函数进行了包装，将 `hook` 的执行放到 `then` 方法回调中，这样就可以保证调用顺序：
+
+```ts
+await postBuildHooks.reduce(
+  (queue, hook) => queue.then(() => hook(build as any)),
+  Promise.resolve();
+)
+```
+
+[vite 不支持 ie 11？configureBuild Hook 帮你定制 bundle 打包过程](https://juejin.cn/post/6889589799687028750)
+
 📒 VS Code 如何快速定位到问题代码
 
 在 TS 项目中，经常会因为类型问题出现报错，因此需要快速定位到问题代码。
 
 在 VS Code 中可以使用 `Ctrl + Shift + M` 快捷键打开问题面板，可以看到当前文件中所有的 errors 和 warnings。此时，按 `F8` 可以依次跳转查看当前文件中的问题。
+
+📒 [从零开始实现一个简单的低代码编辑器](https://mp.weixin.qq.com/s/llLKRCOLvZSjSO4WfzBgPg)
+
+⭐️ [从arco-design的collapse组件分析如何吸收开源项目的知识](https://juejin.cn/post/7069772395610898462)
+
+📒 [模块联邦浅析](https://juejin.cn/post/7101457212085633054)
+
+📒 [我们是怎么在项目中落地qiankun的](https://mp.weixin.qq.com/s/yu1tKtwneoTI9eSGS4us-g)
+
+📒 [【第2631期】浅谈 Atomic CSS 的发展背景与 Tailwind CSS](https://mp.weixin.qq.com/s/dSAitXlbLpnsM9uobezyhQ)
+
+📒 通过 JS 运行时堆快照进行 Web 爬虫
+
+当网站提供的接口无法满足需求的时候（甚至可能连接口都没有），爬虫可能是一种不太理想的解决方案。虽然 Puppeteer 和 Playwright 使控制无头浏览器变得容易，但是获取你需要的数据，还是会很复杂。如果你可以从网站的页面堆中提取数据呢？Puppeteer Heap Snapshot 是这个实验的最终结果。
+
+> https://www.adriancooney.ie/blog/web-scraping-via-javascript-heap-snapshots
 
 📒 JS 清空数组的方式
 
