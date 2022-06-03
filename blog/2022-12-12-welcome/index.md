@@ -99,6 +99,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [前端架构师的 git 功力，你有几成火候？](https://juejin.cn/post/7024043015794589727)
 - ⭐️ [两条命令让你的git自动变基](https://segmentfault.com/a/1190000040712052)
 - ⭐️ ⭐️ [多年 Git 使用心得 & 常见问题整理](https://juejin.cn/post/6844904191203213326)
+- ⭐️ ⭐️ [我在工作中是如何使用 git 的](https://juejin.cn/post/6974184935804534815)
 - 🌛 [为什么 husky 放弃了传统的 JS 配置](https://juejin.cn/post/7000186205224566791)
 - ⭐️ [你可能已经忽略的git commit规范](https://juejin.cn/post/6844904036068491278)
 - [gitmoji: An emoji guide for your commit messages](https://gitmoji.dev/)
@@ -158,6 +159,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [One For All：基于pnpm + lerna + typescript的最佳项目实践 - 理论篇](https://juejin.cn/post/7043998041786810398)
 - [【我要做开源】Vue DevUI开源指南08：Monorepo改造](https://juejin.cn/post/7029262501833359368)
 - [Monorepo 的这些坑，我们帮你踩过了！](https://juejin.cn/post/6972139870231724045)
+- [开源项目都在用 monorepo，但是你知道居然有那么多坑么？](https://juejin.cn/post/6950082433647640612)
 - [All in one：项目级 monorepo 策略最佳实践](https://juejin.cn/post/6924854598268108807)
 
 ## Rollup 系列
@@ -254,6 +256,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 前端组件库实战
 
+- ⭐️ [从arco-design的collapse组件分析如何吸收开源项目的知识](https://juejin.cn/post/7069772395610898462)
 - ⭐️ [从 Element UI 源码的构建流程来看前端 UI 库设计](https://juejin.cn/post/6844904197863964685)
 - ⭐️ [尤大都推荐的组件库是如何开发出来的？](https://juejin.cn/post/7021528826798669854)
 - ⭐️ [每个前端都值得拥有自己的组件库，就像每个夏天都拥有西瓜🍉](https://juejin.cn/post/6983854006124675108)
@@ -272,6 +275,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 🌛 [unjs: Unified JavaScript Tools](https://github.com/unjs)
 - 🌛 [pkg - 把 Node.js 项目打包为可执行文件](https://github.com/vercel/pkg)
 - ⭐️ [Oclif v2.5：Heroku 开源的 CLI 框架](https://github.com/oclif/oclif)
+- 🌛 [JavaScript Debugger 原理揭秘](https://juejin.cn/post/6961790494514872333)
 - 🌛 [浅谈 Node.js 热更新](https://mp.weixin.qq.com/s/xCoTeyJDifi4Ymk0VsI2Ig)
 - ⭐️ [NodeJS加解密之Crypto](https://juejin.cn/post/7044344538969669663)
 - 🌛 [zx - 谷歌开发的命令行脚本工具](https://github.com/google/zx)
@@ -355,6 +359,7 @@ import TabItem from '@theme/TabItem';
 - [import 方式随意互转，感受 babel 插件的威力](https://juejin.cn/post/7018563244679757855)
 - [从零到一，我们来一起造个 JS 的编译器](https://mp.weixin.qq.com/s/pNossFUtJrDHshXbWLb4vA)
 - [浅析TypeScript Compiler 原理](https://juejin.cn/post/7047329886502912030)
+- ⭐️ [《从 0 到 1 手写 babel》思路分享](https://juejin.cn/post/6962861837800964133)
 - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
 
 ## 文件上传
@@ -422,7 +427,8 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
-- [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/T5vXADH4nXqAxyDcKWE64Q)
+- [慢SQL分析与优化](https://juejin.cn/post/7101581835527782414)
+- [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/8OOSyFB9pzoBMH73ey7YmQ)
 - [大厂面试题：日常工作如何做MySQL优化](https://mp.weixin.qq.com/s/N08tFkGyXtmBSN0nS6S6UA)
 - [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
 - [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
