@@ -331,6 +331,7 @@ import TabItem from '@theme/TabItem';
 - `webpackbar`：Nuxt.js 出品的 webpack 编译进度条
 - `pkg`: 把 Node.js 项目打包为可执行文件
 - `concurrently`：更优雅地并发执行命令
+- `better-logging`：Node 默认日志记录方法的替代品
 
 </TabItem>
 <TabItem value="CLI 工具" label="CLI 工具">
