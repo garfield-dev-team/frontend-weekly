@@ -146,7 +146,7 @@ Istanbul或者 NYC(New York City，基于 istanbul 实现) 是度量 JavaScript 
 
 前端项目的环境变量，实际上不是真正的环境变量，因为浏览器环境下是访问不到 `process` 对象的，需要通过 `DefinePlugin` 在打包构建的时候，将变量替换为对应的值。
 
-注意这里有个坑，`DefinePlugin` 默认直接进行文本替换，如果想要替换为字符串字面量，则需要在字符串中再加一个引号，或者用 `JSON.scringify` 包裹：
+注意这里有个坑，`DefinePlugin` 默认直接进行文本替换，如果想要替换为字符串字面量，则需要在字符串中再加一个引号，或者用 `JSON.stringify` 包裹：
 
 ```js
 // webpack.config.js
