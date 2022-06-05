@@ -52,7 +52,7 @@ function constructAlias(arr: string[]): Record<string, string> {
 }
 ```
 
-📒 An introductory guide to Contiuous Integration and Delivery/Deployment (CI/CD) for Frontend Develope
+📒 An introductory guide to Contiuous Integration and Delivery/Deployment (CI/CD) for Frontend Developers
 
 > https://blog.tegadev.xyz/an-introductory-guide-to-ci-cd-for-frontend-developers
 
