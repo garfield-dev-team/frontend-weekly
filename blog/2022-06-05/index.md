@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 为什么不建议用 `switch...case` 实现策略模式
+
+相比 `if...else` 来说，`switch...case` 已经有了明显提升，但还是不适合用来编写策略模式。
+
+这是因为 `switch...case` 实际上违背了 **开闭原则**，即对扩展开放，对修改封闭。例如当我们需要增加规则的时候，就需要靠修改代码来实现。
+
+从这一点来说，用 JS 对象或者 Map 对象来实现策略模式就要灵活很多，可以动态扩展规则。
+
+📒 [干货 | 携程机票前端Svelte生产实践](https://mp.weixin.qq.com/s/QWwb8PXtdJJUKyicHRmBkw)
+
+📒 [通过 Preact 看 Diff 算法细节](https://juejin.cn/post/7072591716678795301)
+
 📒 Vite 打包流程
 
 首先调用 `rollup` 方法（Rollup 的编程式 API）编译出 `bundle` 添加到 `build` 数组中，接下来就是遍历它，进行 `bundle` 的写操作（即输出到硬盘上），因为 vite 使用的是 Rollup 完成文件的打包，所以这里调用的是 `bundle.write` 来将文件输出到硬盘上。
