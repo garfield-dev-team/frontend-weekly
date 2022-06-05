@@ -74,6 +74,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
 - [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
 - [自动化生成骨架屏的技术方案设计与落地](https://mp.weixin.qq.com/s/-WHafu5z-Ap4tjrbWesnmA)
+- ⭐️ [字节跳动面试官：请你实现一个大文件上传和断点续传](https://juejin.cn/post/6844904046436843527)
+- ⭐️ [从零开始手写一个「开箱即用的大文件分片上传库」](https://juejin.cn/post/6990283221170651149)
+- [5000字带你全面深入理解JS中的Stream API｜8月更文挑战](https://juejin.cn/post/6992007156320960542)
 
 ## 业务成长
 
@@ -169,6 +172,14 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
 - [前端组件/库打包利器rollup使用与配置实战](https://juejin.cn/post/6844903970469576718)
 - [一文带你快速上手Rollup](https://juejin.cn/post/6869551115420041229)
+
+## 微前端 && 模块联邦
+
+- [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
+- [我们是怎么在项目中落地qiankun的](https://mp.weixin.qq.com/s/yu1tKtwneoTI9eSGS4us-g)
+- [模块联邦浅析](https://juejin.cn/post/7101457212085633054)
+- [【第2618期】手把手教你定制一套适合团队的微前端体系](https://mp.weixin.qq.com/s/ovwjufnPmCoYNLMkv5xv2g)
+- [【工程化】探索webpack5中的Module Federation](https://mp.weixin.qq.com/s/zt7x2KjMT_cWvLVVa2-Hww)
 
 ## VS Code 插件
 
@@ -364,12 +375,6 @@ import TabItem from '@theme/TabItem';
 - [浅析TypeScript Compiler 原理](https://juejin.cn/post/7047329886502912030)
 - ⭐️ [《从 0 到 1 手写 babel》思路分享](https://juejin.cn/post/6962861837800964133)
 - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
-
-## 文件上传
-
-- ⭐️ [字节跳动面试官：请你实现一个大文件上传和断点续传](https://juejin.cn/post/6844904046436843527)
-- ⭐️ [从零开始手写一个「开箱即用的大文件分片上传库」](https://juejin.cn/post/6990283221170651149)
-- [5000字带你全面深入理解JS中的Stream API｜8月更文挑战](https://juejin.cn/post/6992007156320960542)
 
 ## 网络相关
 
