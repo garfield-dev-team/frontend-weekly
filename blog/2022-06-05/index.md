@@ -79,6 +79,8 @@ await postBuildHooks.reduce(
 
 在 VS Code 中可以使用 `Ctrl + Shift + M` 快捷键打开问题面板，可以看到当前文件中所有的 errors 和 warnings。此时，按 `F8` 可以依次跳转查看当前文件中的问题。
 
+📒 [20个GitHub仓库助你成为React大师](https://juejin.cn/post/7104460511869141006)
+
 📒 [从零开始实现一个简单的低代码编辑器](https://mp.weixin.qq.com/s/llLKRCOLvZSjSO4WfzBgPg)
 
 ⭐️ [从arco-design的collapse组件分析如何吸收开源项目的知识](https://juejin.cn/post/7069772395610898462)
@@ -164,7 +166,7 @@ $ git push -f -u origin pre
 
 📒 [你还在手动部署埋点吗？从0到1开发Babel埋点自动植入插件](https://mp.weixin.qq.com/s/R6Xr8SoJicZB8-P4H2SSPA)
 
-📒 一个三小时的 React Native 速成课 
+📒 一个三小时的 React Native 速成课
 
 > https://www.youtube.com/watch?v=VozPNrt-LfE
 
