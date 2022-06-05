@@ -47,7 +47,12 @@ html[data-theme='dark'] .navbar {
  * 隐藏左侧栏滚动条
  */
 aside nav.thin-scrollbar::-webkit-scrollbar {
-  width: 0;
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+aside nav.thin-scrollbar:hover::-webkit-scrollbar {
+  display: inline-block;
 }
 
 /**
