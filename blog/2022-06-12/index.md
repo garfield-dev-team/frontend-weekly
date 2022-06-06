@@ -5,7 +5,7 @@ authors: [garfield]
 tags: []
 ---
 
-📒 NPM 发包脚本把下面这段代码加上
+📒 NPM 发包脚本加上下面这段代码
 
 ```js
 const npmPublish = async () => {
