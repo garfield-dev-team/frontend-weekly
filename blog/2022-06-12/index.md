@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何使用插件化机制优雅的封装你的请求hook](https://mp.weixin.qq.com/s/k2LYtZ6lU5CH1_grlKQT0Q)
+
+📒 [【第2633期】JavaScript运行时环境和标准](https://mp.weixin.qq.com/s/_lKKAvzVQPTQ5FeKBF6hRA)
+
+📒 [TS 的 esModuleInterop 与 allowSyntheticDefaultImports 配置](https://mp.weixin.qq.com/s/9TnD_oXnjiU8aoQJBzLbsA)
+
 📒 NPM 发包脚本加上下面这段代码
 
 ```js
