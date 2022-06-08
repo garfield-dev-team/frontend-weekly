@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [ahooks 是怎么解决 React 的闭包问题的？](https://mp.weixin.qq.com/s/z6rWffzjeww5GRZVh6hK8Q)
+
 📒 [如何使用插件化机制优雅的封装你的请求hook](https://mp.weixin.qq.com/s/k2LYtZ6lU5CH1_grlKQT0Q)
 
 📒 [【第2633期】JavaScript运行时环境和标准](https://mp.weixin.qq.com/s/_lKKAvzVQPTQ5FeKBF6hRA)
