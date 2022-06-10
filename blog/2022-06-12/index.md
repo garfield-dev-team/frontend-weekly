@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [微信团队分享：微信后台在海量并发请求下是如何做到不崩溃的](https://zhuanlan.zhihu.com/p/524973511)
+
+📒 [使用 `-force` 被认为是有害的；了解 Git 的 `-force-with-lease` 命令](https://juejin.cn/post/6844903489970126856)
+
 📒 [content-visibility 再探究，完美替代 Lazyload？](https://mp.weixin.qq.com/s/bZ6edmEoVXLWloQssiQxRg)
 
 📒 [冷知识！使用 display: contents 实现幽灵节点？](https://mp.weixin.qq.com/s/DhkQNO8Hv1zZP9Fu7uSw-g)
