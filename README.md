@@ -16,7 +16,7 @@ Netlify:
 
 ### ⚠️ Breaking Change!!! Upgrade to docusaurus@2.0.0-beta.21
 
-Please note that docusaurus@2.0.0-beta.21 requires Node >= 16.14.0, make sure your Node version is not out-dated.
+Please note that docusaurus@2.0.0-beta.21 requires Node >= 16.14.0, make sure your Node version is not out-dated. We recommand you to use the latest LTS version.
 
 ### 安装 docusaurus
 
