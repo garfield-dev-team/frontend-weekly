@@ -14,6 +14,10 @@ Netlify:
 
 > https://frontend-weekly.netlify.app/
 
+### ⚠️ Breaking Change!!! Upgrade to docusaurus@2.0.0-beta.21
+
+Please note that docusaurus@2.0.0-beta.21 requires Node >= 16.14.0, make sure your Node version is not out-dated.
+
 ### 安装 docusaurus
 
 ```bash
