@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [我与Go的故事、我为什么推荐你学Go以及我的学习路线](https://mp.weixin.qq.com/s/JkHur9_vKEVIg1hmp4yo0Q)
+
+📒 [CDN 为什么这么设计](https://juejin.cn/post/7108719346947457054)
+
+📒 [Vue3.0 响应性原理](https://mp.weixin.qq.com/s/7JnXUPmYRCYlWZoxop01ZA)
+
+📒 [一文读懂 TypeScript 泛型及应用](https://mp.weixin.qq.com/s/QmPwaX3xuMe6PA3o8VwI0A)
+
+📒 [记录一次切换包管理器引发的血案](https://mp.weixin.qq.com/s/qeWNgqhAxb0_wA4Sqx3HKw)
+
 📒 [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 
 📒 2021-2022，我在大厂的前端最佳实践
