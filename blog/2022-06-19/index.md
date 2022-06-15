@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [React新文档：不要滥用Ref哦](https://mp.weixin.qq.com/s/bI3rohCePnay2JVsQvdtfg)
+
 📒 `async` 函数注意事项
 
 在 `async` 函数中，当有一个 `await` 后面的 Promise 状态变为 rejected，整个 `async` 函数执行就中断了。
