@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [十分钟带你入门 Web Components](https://mp.weixin.qq.com/s/QTP98PfkMg-C5OWXuQH4rg)
+
+📒 [前端开发技术与业务的思考](https://mp.weixin.qq.com/s/l4z2fcNaCdoOHKKm0xqQYw)
+
+📒 [【第2642期】基于 Serverless 的业务轻研发模式探索](https://mp.weixin.qq.com/s/egs426Y8x00BLhUdrcAOnw)
+
 📒 [React新文档：不要滥用Ref哦](https://mp.weixin.qq.com/s/bI3rohCePnay2JVsQvdtfg)
 
 📒 `async` 函数注意事项
