@@ -5,6 +5,17 @@ authors: [garfield]
 tags: []
 ---
 
+📒 执行 `yarn create` 命令背后做了哪些
+
+执行 `yarn create <starter-kit-package>`，会先全局安装 `create-<starter-kit-package>`，如果已安装则会更新到最新版本，然后会执行 `bin` 字段中定义的脚本。
+
+例如，`yarn create react-app my-app` 相当于：
+
+```bash
+$ yarn global add create-react-app
+$ create-react-app my-app
+```
+
 📒 [十分钟带你入门 Web Components](https://mp.weixin.qq.com/s/QTP98PfkMg-C5OWXuQH4rg)
 
 📒 [前端开发技术与业务的思考](https://mp.weixin.qq.com/s/l4z2fcNaCdoOHKKm0xqQYw)
