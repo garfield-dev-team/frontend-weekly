@@ -16,6 +16,12 @@ $ yarn global add create-react-app
 $ create-react-app my-app
 ```
 
+📒 [HTTP/3发布了，我们来谈谈HTTP/3](https://mp.weixin.qq.com/s/nRHlwYsr0MaadmaFWEIblQ)
+
+📒 [GitHub中文排行榜](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts)
+
+📒 [80%的Linux都不懂的内存问题](https://mp.weixin.qq.com/s/I1fHrRqZnZ7CdudFAmiNog)
+
 📒 [十分钟带你入门 Web Components](https://mp.weixin.qq.com/s/QTP98PfkMg-C5OWXuQH4rg)
 
 📒 [前端开发技术与业务的思考](https://mp.weixin.qq.com/s/l4z2fcNaCdoOHKKm0xqQYw)
