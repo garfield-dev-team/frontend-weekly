@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 组件库开发新工具 Histoire
+
+Vue 核心团队成员开发，底层基于 Vite，目测比 dumi 好用：
+
+> https://github.com/histoire-dev/histoire
+
 📒 如何做好一个技术分享
 
 最近有同事做了技术分享，发现了一些问题，在这里总结一下。
