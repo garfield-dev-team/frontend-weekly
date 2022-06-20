@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[6月26日内容汇总]]></title>
+        <id>6月26日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/6月26日内容汇总"/>
+        <updated>2022-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 浅谈前端项目里如何用 Logger 做好日志管理]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7111201034264903688" target="_blank" rel="noopener noreferrer">浅谈前端项目里如何用 Logger 做好日志管理</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/HjhkNP2eIWLxpLekPcSG8A" target="_blank" rel="noopener noreferrer">如何让定时器在页面最小化的时候不执行</a></p><p>📒 <a href="https://juejin.cn/post/7111120700768780301" target="_blank" rel="noopener noreferrer">一道有挑战性的 React Hook 场景题，考考你的功底</a></p><p>📒 <a href="https://juejin.cn/post/7111112135903543332" target="_blank" rel="noopener noreferrer">TypeScript 深水区：3 种类型来源和 3 种模块语法</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/lfV-7drnRjjNq65KxiT0gg" target="_blank" rel="noopener noreferrer">我为 Netty 贡献源码 | 且看 Netty 如何应对 TCP 连接的正常关闭，异常关闭，半关闭场景</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[6月19日内容汇总]]></title>
         <id>6月19日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/6月19日内容汇总"/>
