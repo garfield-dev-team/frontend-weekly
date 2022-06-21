@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Umi 4 发布啦！](https://mp.weixin.qq.com/s/UG4TlbADwQ5L9qxcS03x0Q)
+
+📒 [记录第一次给开源项目提 PR](https://mp.weixin.qq.com/s/kTKBlpuWCC6T1xuiQSulsw)
+
+📒 [Redis 高可用原理](https://mp.weixin.qq.com/s/qG4MDeYGQJkZU4qSLj3JiA)
+
+📒 [如何移除你项目中99%的JS代码](https://juejin.cn/post/7111485285652758535)
+
 📒 [浅谈前端项目里如何用 Logger 做好日志管理](https://juejin.cn/post/7111201034264903688)
 
 📒 [如何让定时器在页面最小化的时候不执行](https://mp.weixin.qq.com/s/HjhkNP2eIWLxpLekPcSG8A)
