@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 React 性能优化策略
+
+引起组件更新的因素：
+
+- props（包括父组件 rerender 引起子组件 rerender）
+- state（在组件内部 `setState` 触发调度更新）
+- context（全局状态改变，通知订阅状态的组件更新）
+
+在不做任何优化的情况下，即使 props 没有改变，但是如果父组件 rerender，会导致子组件 props 对象重新生成，由于 React 默认的性能优化策略是 props **严格相等比较**，所以不可避免地导致子组件以及所有的子孙组件 rerender。
+
+> **严格相等比较** 高效但是难命中，只有当前组件没有 rerender 才能保证后续组件树都不 rerender
+
+使用了 `React.memo` 之后，会改为对 props 进行 **浅比较**，这样可以避免一些不必要的 rerender。
+
+> **浅比较** 容易命中但是有一定性能开销，因为需要遍历对象
+
 📒 [如何封装 cookie/localStorage/sessionStorage hook](https://mp.weixin.qq.com/s/C5yeK40_PTz0Q-eLeyMvfQ)
 
 📒 [【第2648期】如何在 Vue 项目中，通过点击 DOM 自动定位VSCode中的代码行](https://mp.weixin.qq.com/s/uXJfgG52zGRedsy9bOqYYg)
