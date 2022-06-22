@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何封装 cookie/localStorage/sessionStorage hook](https://mp.weixin.qq.com/s/C5yeK40_PTz0Q-eLeyMvfQ)
+
+📒 [【第2648期】如何在 Vue 项目中，通过点击 DOM 自动定位VSCode中的代码行](https://mp.weixin.qq.com/s/uXJfgG52zGRedsy9bOqYYg)
+
+📒 [HTTP史记 - 从HTTP/1到HTTP/3](https://juejin.cn/post/7111507179881889800)
+
 📒 [Umi 4 发布啦！](https://mp.weixin.qq.com/s/UG4TlbADwQ5L9qxcS03x0Q)
 
 📒 [记录第一次给开源项目提 PR](https://mp.weixin.qq.com/s/kTKBlpuWCC6T1xuiQSulsw)
