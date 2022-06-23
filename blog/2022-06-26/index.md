@@ -5,6 +5,23 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [手写 Vue3 响应式系统：核心就一个数据结构](https://juejin.cn/post/7112212380397862926)
+
+📒 [通过这两个 hook 回顾 Set/Map 基础知识](https://mp.weixin.qq.com/s/jH4LU07Jor80E-S-v-Ba0Q)
+
+📒 React Hooks 使用注意事项
+
+哪些变量应该放进依赖项里面：
+
+- 与视图渲染有关的变量，例如 `props`、`state`、`context`
+- 一些派生的状态，例如 `useCallback`、`useMemo` 的返回值
+
+哪些不应该放进依赖项里面：
+
+- 与视图渲染无关的变量，例如 `ref`
+
+> 这是因为 `useRef` 返回的引用在整个组件生命周期中保持不变，不存在闭包陷阱问题
+
 📒 React 性能优化策略
 
 引起组件更新的因素：
