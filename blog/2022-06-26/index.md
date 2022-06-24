@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何从微小细节着手，参与开源贡献](https://mp.weixin.qq.com/s/WAt4CNSqguCuaURHe5e4rQ)
+
+📒 [【第2650期】研发同学应该如何负责好一个项目](https://mp.weixin.qq.com/s/Aa0tKO0A9IECRq2ZARyS-A)
+
+📒 [手写 Vue3 响应式系统：实现 computed](https://juejin.cn/post/7112742451449692173)
+
+📒 [ECMAScript 2022 正式发布，有哪些新特性](https://juejin.cn/post/7112632005912690701)
+
 📒 [手写 Vue3 响应式系统：核心就一个数据结构](https://juejin.cn/post/7112212380397862926)
 
 📒 [通过这两个 hook 回顾 Set/Map 基础知识](https://mp.weixin.qq.com/s/jH4LU07Jor80E-S-v-Ba0Q)
