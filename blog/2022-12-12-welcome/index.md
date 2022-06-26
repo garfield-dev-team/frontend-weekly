@@ -387,6 +387,7 @@ import TabItem from '@theme/TabItem';
 
 ## 网络相关
 
+- [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
 - ⭐️ [面试必备！TCP协议经典十五连问](https://mp.weixin.qq.com/s/hVh5PIVaOeLyErZDPXx6mg)
 - ⭐️ [字节一面：如何用 UDP 实现可靠传输](https://mp.weixin.qq.com/s/hX75YxVOMtsnB6Sm_yjm0g)
 - ⭐️ [TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了](https://mp.weixin.qq.com/s/toQUgqJHeUbFZMtxfzFCxw)
@@ -446,6 +447,7 @@ import TabItem from '@theme/TabItem';
 ## MySQL 学习
 
 - [慢SQL分析与优化](https://juejin.cn/post/7101581835527782414)
+- [Mysql数据库查询好慢，除了索引，还能因为什么](https://mp.weixin.qq.com/s/r91hINCgCYJDNHLMeaba8Q)
 - [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/8OOSyFB9pzoBMH73ey7YmQ)
 - [大厂面试题：日常工作如何做MySQL优化](https://mp.weixin.qq.com/s/N08tFkGyXtmBSN0nS6S6UA)
 - [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
@@ -866,6 +868,7 @@ import TabItem from '@theme/TabItem';
 - [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
 - [肝了一个月的 DDD，一文带你掌握](https://mp.weixin.qq.com/s/jU0awhez7QzN_nKrm4BNwg)
 - [深入理解 Linux CPU 上下文切换](https://mp.weixin.qq.com/s/KwmNzTdjMB-ljQ0ysEGalg)
+- [面试必备！TCP协议经典十五连问](https://mp.weixin.qq.com/s/hVh5PIVaOeLyErZDPXx6mg)
 - [100 行代码实现 React 路由](https://github.com/ashok-khanna/react-snippets/blob/main/Router.js)
 - [精读《react-snippets - Router 源码》](https://juejin.cn/post/7100736564979826695)
 - [干货 | 携程机票前端Svelte生产实践](https://mp.weixin.qq.com/s/QWwb8PXtdJJUKyicHRmBkw)
