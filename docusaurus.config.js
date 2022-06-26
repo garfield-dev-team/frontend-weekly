@@ -7,11 +7,14 @@ const DeployConfig = require("./deployConfig.js");
 
 const getDeployConfig = () => {
   if (process.env.VERCEL === 'true') {
+    console.log('===app build with: VERCEL===');
     return DeployConfig.VERCEL;
   }
   if (process.env.NETLIFY === 'true') {
+    console.log('===app build with: NETLIFY===');
     return DeployConfig.NETLIFY;
   }
+  console.log('===app build with: GH_PAGES===');
   return DeployConfig.GH_PAGES;
 }
 
