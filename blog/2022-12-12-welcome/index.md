@@ -446,6 +446,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [面霸篇：MySQL六十六问，两万字+五十图详解！](https://mp.weixin.qq.com/s/Jhh-_5ynu58EKPMignk5fA)
 - [慢SQL分析与优化](https://juejin.cn/post/7101581835527782414)
 - [Mysql数据库查询好慢，除了索引，还能因为什么](https://mp.weixin.qq.com/s/r91hINCgCYJDNHLMeaba8Q)
 - [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/8OOSyFB9pzoBMH73ey7YmQ)
