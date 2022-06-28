@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [聊聊 Vue 的双端 diff 算法](https://juejin.cn/post/7114177684434845727)
+
+📒 [面试官：Vue的KeepAlive怎么实现的？我：这有啥好问的](https://mp.weixin.qq.com/s/aPMJK-YYgsgUlm2x4uG3NQ)
+
+📒 [如何优雅的写 Controller 层代码](https://mp.weixin.qq.com/s/Y_vtD5AlIry4anyy19Fhgw)
+
+📒 [这些 hook 更优雅的管理你的状态](https://mp.weixin.qq.com/s/yluex5ufeJQ3eVyW9hD1-g)
+
+📒 [干货 | Trip.com APP QUIC应用和优化实践](https://mp.weixin.qq.com/s/-JtbeS01HEFhNCKYGExodg)
+
 📒 [基于 qiankun 的微前端实践](https://juejin.cn/post/7113871265848360997)
 
 📒 [\[科普文\] 浅谈 Function Programing 编程范式](https://mp.weixin.qq.com/s/A1LM8bWlcI8_fgUuCISU8w)
