@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2655期】携程基于 GraphQL 的前端 BFF 服务开发实践](https://mp.weixin.qq.com/s/q05JeUZ0mfjhhCshhhPNtw)
+
 📒 [聊聊 Vue 的双端 diff 算法](https://juejin.cn/post/7114177684434845727)
 
 📒 [面试官：Vue的KeepAlive怎么实现的？我：这有啥好问的](https://mp.weixin.qq.com/s/aPMJK-YYgsgUlm2x4uG3NQ)
