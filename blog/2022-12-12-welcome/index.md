@@ -446,6 +446,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [一次 MySQL 误操作导致的事故，「高可用」都顶不住了！](https://mp.weixin.qq.com/s/L9qseWiHGfu1oAuKIhcUhw)
 - [虾皮二面：MySQL 中有哪些锁？表级锁和行级锁有什么区别](https://mp.weixin.qq.com/s/Inocu3vjMG4ivE19HrxR3g)
 - [面霸篇：MySQL六十六问，两万字+五十图详解！](https://mp.weixin.qq.com/s/Jhh-_5ynu58EKPMignk5fA)
 - [慢SQL分析与优化](https://juejin.cn/post/7101581835527782414)
