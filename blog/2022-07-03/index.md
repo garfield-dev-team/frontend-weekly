@@ -5,6 +5,25 @@ authors: [garfield]
 tags: []
 ---
 
+📒 新一代 npm 包构建工具 father 4 RC 发布
+
+father 4 支持 Bundless 和 Bundle 两种构建模式。
+
+- Bundless 指把所有源码文件单独编译、平行输出做发布。在 father 4 中，输出 ESModule 及 CommonJS 产物时会使用 Bundless 构建模式
+- Bundle 指把源码按 entry 打包成 1 个或多个文件做发布，也就是 Webpack 的打包模式。在 father 4 中，输出 UMD 及依赖预打包产物时会使用 Bundle 构建模式
+
+依赖预打包
+
+- 一是 NPM 包发布后安装体积更小、速度更快
+- 二是不担心三方依赖更新引起 Bug
+- 三是NPM 包发布后安装 0 warning
+
+不过，由于依赖中可能存在 `dynamic require/import` 等复杂的情况，现阶段不一定每个依赖都能顺利打包，father 4 会在 RC 阶段持续优化，将这项功能变得更加好用。
+
+[新一代 npm 包构建工具 father 4 RC 发布](https://mp.weixin.qq.com/s/zaFwGY-CztDUYTbIuaef1A)
+
+📒 [【第2656期】使用 React Testing Library 的 15 个常见错误](https://mp.weixin.qq.com/s/gssYOb7xgSx2HsAeRGTgxA)
+
 📒 [【第2655期】携程基于 GraphQL 的前端 BFF 服务开发实践](https://mp.weixin.qq.com/s/q05JeUZ0mfjhhCshhhPNtw)
 
 📒 [聊聊 Vue 的双端 diff 算法](https://juejin.cn/post/7114177684434845727)
