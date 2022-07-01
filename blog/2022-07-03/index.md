@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Vue 2.7 正式发布，代号为 Naruto](https://juejin.cn/post/7115361618774622216)
+
+📒 [线上服务器老是卡，该如何优化](https://mp.weixin.qq.com/s/AyEb4fDsTvvfOG1Lgb1bzw)
+
+📒 [【第2657期】前端JS攻防对抗](https://mp.weixin.qq.com/s/PGghgQfJTGIyoz8Bz8MD9A)
+
+📒 [Redis 唯快不破的秘密](https://mp.weixin.qq.com/s/XCgZ5tOxyMKpOqvNvRDFQA)
+
 📒 新一代 npm 包构建工具 father 4 RC 发布
 
 father 4 支持 Bundless 和 Bundle 两种构建模式。
