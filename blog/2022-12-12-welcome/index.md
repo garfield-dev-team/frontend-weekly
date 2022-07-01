@@ -667,6 +667,7 @@ import TabItem from '@theme/TabItem';
   - [动态规划答疑篇（修订版）](https://mp.weixin.qq.com/s/zhaurXhrAiHsfgGAOfAuMw)
   - [论动态规划穷举的两种视角](https://mp.weixin.qq.com/s/6vwNBr48D36n6E3EawFUqg)
   - [高频面试系列：单词拆分问题](https://mp.weixin.qq.com/s/iL7tCl6pqw0fTatGSemY-g)
+  - [别用 KMP 了， Rabin-Karp 算法了解下](https://mp.weixin.qq.com/s/HiEft8sW5QzHcM5mb5_V6g)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 `babel-plugin-import`
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
