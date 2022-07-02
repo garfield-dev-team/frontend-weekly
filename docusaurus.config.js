@@ -7,7 +7,10 @@ const DeployConfig = require("./deployConfig.js");
 
 const getDeployConfig = () => {
   console.log('===process.env.VERCEL', process.env.VERCEL);
-  if (process.env.VERCEL === 'true') {
+  if (
+    process.env.VERCEL === 'true' ||
+    process.env.PLATFORM === 'VERCEL'
+  ) {
     console.log('===app build with: VERCEL===');
     return DeployConfig.VERCEL;
   }
