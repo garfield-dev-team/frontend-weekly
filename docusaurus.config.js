@@ -6,15 +6,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const DeployConfig = require("./deployConfig.js");
 
 const getDeployConfig = () => {
-  ['VERCEL', 'PLATFORM'].forEach(v => console.log(`===process.env.${v}`, process.env[v]));
-  if (
-    process.env.VERCEL === 'true' ||
-    process.env.PLATFORM === 'VERCEL'
-  ) {
+  if (process.env.PLATFORM === 'VERCEL') {
     console.log('===app build with: VERCEL===');
     return DeployConfig.VERCEL;
   }
-  if (process.env.NETLIFY === 'true') {
+  if (process.env.PLATFORM === 'NETLIFY') {
     console.log('===app build with: NETLIFY===');
     return DeployConfig.NETLIFY;
   }
