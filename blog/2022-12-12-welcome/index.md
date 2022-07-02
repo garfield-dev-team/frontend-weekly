@@ -312,6 +312,10 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="开源项目" label="开源项目" default>
 
+- ⭐️ [taze - 更新依赖版本的 CLI 工具](https://github.com/antfu/taze)
+- ⭐️ [haya - Vite 的替代方案，提供基于 esbuild 的 devServer 和 bundler](https://github.com/egoist/haya)
+- ⭐️ [unbuild - 第三方库打包工具](https://github.com/unjs/unbuild)
+- ⭐️ [tsup - 零配置的 TS 第三方库打包工具](https://github.com/egoist/tsup)
 - ⭐️ [degit - 简单的项目脚手架](https://github.com/Rich-Harris/degit)
 - ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
 - [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
@@ -342,6 +346,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="实用工具" label="实用工具">
 
+- ⭐️ [chokidar - 跨平台监听文件变化](https://github.com/paulmillr/chokidar)
 - ⭐️ [fs-extra - Node 原生 fs 模块的扩展](https://github.com/jprichardson/node-fs-extra)
 - `yargs`：通过使用 Node.js 构建功能全面的命令行应用
 - `Ajv`：一个适用于 Node.js 和浏览器的最快 JSON 验证器
