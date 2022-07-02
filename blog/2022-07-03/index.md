@@ -5,6 +5,31 @@ authors: [garfield]
 tags: []
 ---
 
+📒 前端四种序列化
+
+**1. JSON 序列化**
+
+使用 `JSON.stringify()` 进行序列化，对应的 Content-Type 是 `application/json`。
+
+**2. Query String 序列化**
+
+使用 `new URLSearchParams()` 进行序列化，对应的 Content-Type 是 `application/x-www-form-urlencoded`。
+
+> 注意 URL query string 与 body 发送的 query string 略有不同，特别是对空格的处理
+
+**3. FormData 序列化**
+
+使用 `new FormData()` 创建，对应的 Content-Type 是 `multipart/form-data`。
+
+**4. XML 序列化**
+
+使用 `new XMLSerializer()` 进行序列化，一般用于 DOM 对象。
+
+📒 React 18 新特性
+
+- Selective Hydration
+- Offscreen
+
 📒 [Vue 2.7 正式发布，代号为 Naruto](https://juejin.cn/post/7115361618774622216)
 
 📒 [线上服务器老是卡，该如何优化](https://mp.weixin.qq.com/s/AyEb4fDsTvvfOG1Lgb1bzw)
