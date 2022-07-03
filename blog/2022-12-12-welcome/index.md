@@ -514,6 +514,7 @@ import TabItem from '@theme/TabItem';
 - [《图解 React 源码系列》](https://github.com/7kms/react-illustration-series)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
 - [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
+- [大厂面试题每日一题](https://q.shanyue.tech/engineering/)
 - [前端工程化、个人服务器运维指南](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
 - [MySQL、Linux、服务端架构](https://xiaoflyfish.cn/)
 - [Khaidi Chu 的博客](https://xcoder.in/)
@@ -542,6 +543,7 @@ import TabItem from '@theme/TabItem';
 
 **工具相关**
 
+- [skypack：无需构建工具使用各种经过优化的 npm 包](https://www.skypack.dev/)
 - [carbon：生成代码片](https://link.juejin.cn/?target=https%3A%2F%2Fcarbon.now.sh%2F)
 - [codelf 变量命名神器](https://unbug.github.io/codelf/)
 - [openbase：查询各种第三方库](https://openbase.com/)
