@@ -74,20 +74,25 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'dropdown',
+          //   label: '技术交流群',
+          //   position: 'right',
+          //   items: [
+          //     {
+          //       href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
+          //       label: '⭐️ 前端交流群',
+          //     },
+          //     {
+          //       href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
+          //       label: '🌛 云居山茶室',
+          //     },
+          //   ]
+          // },
           {
-            type: 'dropdown',
-            label: '技术交流群',
+            href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
+            label: '⭐️ 前端交流群',
             position: 'right',
-            items: [
-              {
-                href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
-                label: '⭐️ 前端交流群',
-              },
-              {
-                href: 'https://github.com/garfield-dev-team/frontend-weekly/tree/main/static/img/IMG_0058.JPG',
-                label: '🌛 云居山茶室',
-              },
-            ]
           },
           {
             href: 'https://github.com/garfield-dev-team/frontend-weekly',
