@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何将传统 Web 框架部署到 Serverless](https://mp.weixin.qq.com/s/XvX6b3i9D197s3voXRcemQ)
+
 📒 [新来个技术总监，把 RabbitMQ 讲的那叫一个透彻，佩服！](https://mp.weixin.qq.com/s/pxHGM-hOJISEoBHGZch5Ag)
 
 📒 [关于前端主题切换的思考和现代前端样式的解决方案落地](https://mp.weixin.qq.com/s/0xTZcE3MPezRl3LILR8a_w)
