@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [react18新特性及实践总结](https://juejin.cn/post/7117512204059934733)
+
+📒 模块加载机制
+
+commonjs 加载一个 module
+
+`webpack_require` -> `vm.runInContext`
+
+📒 Nodejs Module Wrapper
+
+Before a module's code is executed, Node.js will wrap it with a function wrapper that looks like the following:
+
+```js
+(function(exports, require, module, __filename, __dirname) {
+// Module code actually lives in here
+});
+```
+
+https://nodejs.org/api/modules.html#the-module-wrapper
+
+📒 [微前端/qiankun](https://github.com/umijs/qiankun)
+
+📒 [如何进阶TypeScript功底？一文带你理解TS中各种高级语法](https://juejin.cn/post/7089809919251054628)
+
 📒 [【第2662期】低代码平台架构深度剖析](https://mp.weixin.qq.com/s/B5Y_6fI94UItDkOj4gj9WA)
 
 📒 [那些关于DOM的常见Hook封装（二）](https://mp.weixin.qq.com/s/fLHJ9AzcVbxXAZjQvIbvqQ)
