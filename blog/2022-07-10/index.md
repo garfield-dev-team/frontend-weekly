@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [为什么 React 的 Diff 算法不采用 Vue 的双端对比算法](https://juejin.cn/post/7116141318853623839)
+
+📒 [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
+
 📒 [react18新特性及实践总结](https://juejin.cn/post/7117512204059934733)
 
 📒 模块加载机制
