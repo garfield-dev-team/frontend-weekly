@@ -438,6 +438,7 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning)
 - [拜托！面试请不要再问我 @Transactional](https://mp.weixin.qq.com/s/rlfRjCb8EOrpt3xnF7isBw)
 - [7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
 - [单例模式 4 种经典实现方法](https://mp.weixin.qq.com/s/Ua03qsLcrVURtxhSnuU_6w)
@@ -465,6 +466,7 @@ import TabItem from '@theme/TabItem';
 ## Golang 学习
 
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+- ⭐️ [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
@@ -513,6 +515,7 @@ import TabItem from '@theme/TabItem';
 - [《React 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Freact.iamkasong.com%2F)
 - [《图解 React 源码系列》](https://github.com/7kms/react-illustration-series)
 - [《Vue 技术揭秘》](https://link.juejin.cn/?target=https%3A%2F%2Fustbhuangyi.github.io%2Fvue-analysis%2Fv2%2Fprepare%2F)
+- [《Vue技术内幕》](http://caibaojian.com/vue-design/)
 - [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
 - [大厂面试题每日一题](https://q.shanyue.tech/engineering/)
 - [前端工程化、个人服务器运维指南](https://shanyue.tech/op/#%E9%A2%84%E8%A7%88)
