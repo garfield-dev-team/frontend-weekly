@@ -470,6 +470,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - ⭐️ [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
+- ⭐️ [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
