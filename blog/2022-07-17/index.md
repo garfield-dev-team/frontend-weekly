@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [MySQL Redo Log 深入探索](https://mp.weixin.qq.com/s/X1aL0qC3cslkwhThS6XidA)
+
+⭐️ [详解 Vite 依赖预构建流程](https://mp.weixin.qq.com/s/UD0-7rWtOAxMuDpOR77gug)
+
+⭐️ [VueUse scripts，他们都模仿过的脚本](https://mp.weixin.qq.com/s/5dXLp7NjlpVsexOGTjbJ8A)
+
+⭐️ [【第2669期】前端开发中的流程自动化与提效实践](https://mp.weixin.qq.com/s/bRlG5tc244ZVmPdb4mjbGQ)
+
+📒 [隔离并修复 Node 应用程序中的内存泄漏](https://www.useanvil.com/blog/engineering/isolating-memory-leak-in-node/)
+
 📒 [硬件加速中的“层”和层叠上下文中的“层”，是一个东西吗](https://juejin.cn/post/7119136400465330184)
 
 📒 [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
