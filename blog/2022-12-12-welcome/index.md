@@ -691,6 +691,7 @@ import TabItem from '@theme/TabItem';
 	- [面试官：webpack原理都不会？](https://juejin.cn/post/6859538537830858759)
 	- [让 AST 操作像呼吸一样自然](https://juejin.cn/post/7026671646555504676)
 - 手写 Webapck 核心原理
+  - ⭐️ [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
   - [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
   - [手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
   - [100行代码实现一个组件引用次数统计插件](https://juejin.cn/post/7077484559893266439)
