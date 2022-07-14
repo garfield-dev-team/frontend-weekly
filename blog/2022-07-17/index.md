@@ -5,7 +5,7 @@ authors: [garfield]
 tags: []
 ---
 
-📒 [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
+⭐️ [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
 
 📒 Webpack 特有的优化策略
 
