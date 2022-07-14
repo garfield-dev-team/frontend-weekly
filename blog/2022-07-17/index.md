@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
+
 📒 Webpack 特有的优化策略
 
 由于 Webpack 出现的时候，还没有 ESM 规范，所以 Webpack 底层根据 CJS 规范实现 `__webpack_require__` 加载模块，这就导致 Webpack 打包会出现大量模板代码，增加打包后体积。相比之下，Rollup 基于 ESM 规范打包，产物代码就很干净。
