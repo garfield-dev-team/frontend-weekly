@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 nestjs + prisma 开发全栈项目
+
+https://www.prisma.io/docs/getting-started
+
+https://www.prisma.io/nestjs
+
 📒 Vite 3.0 正式版发布
 
 > https://vitejs.dev/blog/announcing-vite3.html#dev-improvements
