@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Vite 3.0 正式发布，下一代前端构建工具！](https://juejin.cn/post/7120820138907009060)
+
 📒 nestjs + prisma 开发全栈项目
 
 https://www.prisma.io/docs/getting-started
@@ -14,6 +16,16 @@ https://www.prisma.io/nestjs
 📒 Vite 3.0 正式版发布
 
 > https://vitejs.dev/blog/announcing-vite3.html#dev-improvements
+
+📒 [成为优秀的TS体操高手 之 TS 类型体操前置知识储备](https://juejin.cn/post/7115789691810480135)
+
+📒 [如何在React中应用SOLID原则](https://mp.weixin.qq.com/s/8LxNZ0Hrne_EMZ352jmIXQ)
+
+📒 [2022 年 CSS-in-JS 技术的又一匹黑马！](https://mp.weixin.qq.com/s/b-qUPAXa31RqO7oFj3dReg)
+
+📒 [还在用命令行看日志？快用Kibana吧，可视化日志分析YYDS！](https://juejin.cn/post/7119669717882634271)
+
+📒 [【面试造火箭，入职拧螺丝】万字详解如何从0开始手写一个Promise](https://juejin.cn/post/7119360791966384142)
 
 ⭐️ [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
 
