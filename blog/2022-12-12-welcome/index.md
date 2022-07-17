@@ -745,6 +745,7 @@ import TabItem from '@theme/TabItem';
   - [React Fiber很难？六个问题助你理解 React Fiber](https://juejin.cn/post/6984949525928476703)
 - Vite 源码
   - ⭐️ [深入浅出 Vite](https://juejin.cn/book/7050063811973218341)
+  - [详解 Vite 依赖预构建流程](https://mp.weixin.qq.com/s/UD0-7rWtOAxMuDpOR77gug)
   - [授人予渔，VSCode 如何调试 Vite 代码](https://mp.weixin.qq.com/s/bf11t1rH6NllKDA0IKR9Lw)
   - [敲下 vite 命令后，server 做了哪些事](https://mp.weixin.qq.com/s/3dfbu7lZJLd6cJSp9XLcVQ)
 - 包管理方案、PNPM
