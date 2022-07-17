@@ -5,17 +5,19 @@ authors: [garfield]
 tags: []
 ---
 
-📒 [Vite 3.0 正式发布，下一代前端构建工具！](https://juejin.cn/post/7120820138907009060)
+📒 Vite 3.0 正式版发布
+
+[Vite 3.0 发布: 核心更新盘点与分析](https://mp.weixin.qq.com/s/_GuGJaf8Sew5D8JaLQ3qOA)
+
+[Vite 3.0 正式发布，下一代前端构建工具！](https://juejin.cn/post/7120820138907009060)
+
+> https://vitejs.dev/blog/announcing-vite3.html#dev-improvements
 
 📒 nestjs + prisma 开发全栈项目
 
 https://www.prisma.io/docs/getting-started
 
 https://www.prisma.io/nestjs
-
-📒 Vite 3.0 正式版发布
-
-> https://vitejs.dev/blog/announcing-vite3.html#dev-improvements
 
 📒 [成为优秀的TS体操高手 之 TS 类型体操前置知识储备](https://juejin.cn/post/7115789691810480135)
 
