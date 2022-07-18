@@ -1,0 +1,46 @@
+name: Frontend Weekly
+
+on:
+  # Schedule就是定时任务，由于服务在国外，所以时间需要减去8小时才是北京时间
+  # 参考：https://crontab.guru/
+  schedule:
+    - cron: '0 16 * * 1'
+  # 也允许这个工作流在github aciton面板中手动触发
+  workflow_dispatch:
+
+jobs:
+  new_blog:
+    name: Create A New Blog
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+        registry-url: https://registry.npmmirror.com/
+        cache: yarn
+
+#     - name: Cache node_modules
+#         uses: actions/cache@v3
+#         id: cache
+#         with:
+#           path: node_modules
+#           key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
+#           restore-keys: ${{ runner.os }}-node-
+
+    - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+    - name: New Blog
+        run: yarn new:blog
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        publish_branch: gh-pages
+        full_commit_message: ${{ github.event.head_commit.message }}
+          
