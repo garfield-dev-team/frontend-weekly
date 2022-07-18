@@ -11,7 +11,7 @@ tags: []
 
 > https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/
 
-📒 最伟大的程序员
+📒 What makes a great software engineer
 
 > https://swizec.com/blog/what-makes-a-great-software-engineer/
 
