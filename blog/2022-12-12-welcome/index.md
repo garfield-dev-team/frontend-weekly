@@ -483,6 +483,11 @@ import TabItem from '@theme/TabItem';
   - https://github.com/leanote/leanote
 - Golang 教程
   - https://www.w3cschool.cn/go/
+- Golang 标准库文档
+  - https://pkg.go.dev/std
+- Golang 单元测试
+   - [Golang-单元测试](https://blog.csdn.net/ALEX_CYL/article/details/121793330)
+   - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
 - ⭐️ [Go 语言与并发编程](https://zhuanlan.zhihu.com/p/471317280)
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
@@ -490,7 +495,6 @@ import TabItem from '@theme/TabItem';
 - [Go Error 处理最佳实践](https://mp.weixin.qq.com/s/EvkMQCPwg-B0fZonpwXodg)
 - [Golang 新手可能会踩的 50 个坑](https://segmentfault.com/a/1190000013739000)
 - [Golang设计模式总结](https://zhuanlan.zhihu.com/p/437626980)
-- [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
 - [Golang 单元测试指引](https://zhuanlan.zhihu.com/p/267341653)
 - ⭐️ [使用Golang、Gin和React、esbuild开发的Blog](https://juejin.cn/post/7041846339189080101)
 - ⭐️ [gorm - Golang 的出色 ORM 库](https://github.com/go-gorm/gorm)
