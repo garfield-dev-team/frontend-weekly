@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[7月24日内容汇总]]></title>
+        <id>7月24日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/7月24日内容汇总"/>
+        <updated>2022-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 如何使用 React Hooks 重构类组件]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/rFb07qMzV-JrzvVlDEgUAg" target="_blank" rel="noopener noreferrer">如何使用 React Hooks 重构类组件</a></p><p>📒 Why DRY is the most over-rated programming principle</p><blockquote><p><a href="https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/" target="_blank" rel="noopener noreferrer">https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/</a></p></blockquote><p>📒 最伟大的程序员</p><blockquote><p><a href="https://swizec.com/blog/what-makes-a-great-software-engineer/" target="_blank" rel="noopener noreferrer">https://swizec.com/blog/what-makes-a-great-software-engineer/</a></p></blockquote><p>📒 构建面向未来的前端架构</p><p>本文是关于前端架构的组件部分。如果有写过组件，可能都有遇到随着业务迭代而快速增加复杂度，最终写出臃肿不堪难以维护的组件。为啥别人写的代码简洁易懂？缺的是经验吗？不是，缺的是方法论。我觉得此方法同样适用非组件场景。</p><p>心智模型的重要性。心智模型会影响我们的决定，进而影响代码的整体结构。如果一直做错误的大大小小的决定，那代码很快就会变成屎山。每个人的心智模型不可能完全一样，所以注定会做出不同的决定。对于团队而言，用框架和工具约束，让大家不做或少做决定是个很好的策略，比如用 prettier 统一编码风格。</p><p>文中有个例子。你写了一个组件，过了一周，产品迭代，而之前写的组件不能很好满足新需求。这时你有两个选择，A）思考之前的抽象是否正确，如果不正确，分解了重新做，B）增加一个额外 props，组件里加一些恶心的条件判断。你会如何选择？你会在乎之前投入的沉没成本还是面向未来考虑更多？其实没有对错，注意 By Scene。</p><p>自上而下 vs. 自下而上。「你可以自上而下或自下而上地构建。也就是说，你可以从构建层次结构中较高的组件开始。在比较简单的例子中，通常自上而下更容易，而在较大的项目中，自下而上更容易，并在构建过程中编写测试。」</p><p>自上而下是直观的、能快速出货的，大家通常也会这么干。当涉及到分解用户界面时，在功能区域周围画上方框，然后成为你的组件。这种功能分解的过程是自上而下的，通常会直接导致创建具有特定抽象性的专门组件。需求会改变。而在几个迭代过程中，这些组件很容易迅速变成单体巨石组件。</p><p>单体巨石组件有不少问题，包括 1）不容易复用子组件 2）包变大，比如 SSR 场景可能只希望渲染第一时间被用户看到的组件从而提速 3）rerender 问题导致运行时性能不好，也会让代码复杂，出现很多不必要的 memo 调用 4）不好的抽象导致项目复杂，迭代困难。「敏捷软件开发最重要的经验之一是迭代的价值；这在软件开发的各个层面都是正确的，包括架构。」</p><p>自下而上不那么直观，最初可能比较慢。因为这种方式会产生很多小组件，而实际中不是每个小组件在最初都需要可复用。所以前期需要花更多时间和努力，让复杂性被封装在每个小组件里。好处是长远看会更快，因为适应性更强。同时避免了单体巨石组件和前面介绍的他会带来的大量问题。</p><blockquote><p><a href="https://frontendmastery.com/posts/building-future-facing-frontend-architectures/" target="_blank" rel="noopener noreferrer">https://frontendmastery.com/posts/building-future-facing-frontend-architectures/</a></p></blockquote>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7月17日内容汇总]]></title>
         <id>7月17日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/7月17日内容汇总"/>
