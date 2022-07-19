@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Golang 实现一个 JS 打包器
+
+Golang 解析 JS AST：
+
+- https://github.com/robertkrimen/otto
+- https://pkg.go.dev/github.com/robertkrimen/otto/parser
+
+Webpack 打包原理：
+
+- [手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
+- [做了一夜动画，让大家十分钟搞懂Webpack](https://juejin.cn/post/6961961165656326152)
+
+📒 [天天造轮子第七天 - 中间件实现 - Compose 的 N 种姿势](https://juejin.cn/post/6893338774088974343)
+
+📒 [使用Vite和TypeScript带你从零打造一个属于自己的Vue3组件库](https://juejin.cn/post/7117886038126624805)
+
 📒 [如何使用 React Hooks 重构类组件](https://mp.weixin.qq.com/s/rFb07qMzV-JrzvVlDEgUAg)
 
 📒 Why DRY is the most over-rated programming principle
