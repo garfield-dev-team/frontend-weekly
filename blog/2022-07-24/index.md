@@ -11,6 +11,8 @@ tags: []
 
 📒 [Vite 也可以模块联邦](https://juejin.cn/post/7122114817581645832)
 
+📒 [开发一个 CLI 模板库可以点亮哪些技能点](https://juejin.cn/post/7121929203032784910)
+
 📒 Golang 实现一个 JS 打包器
 
 Golang 解析 JS AST：
