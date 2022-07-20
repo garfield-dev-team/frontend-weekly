@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [2022 年值得推荐的 Vue 库](https://mp.weixin.qq.com/s/aXsmf95WsB31r5PnOZEF9A)
+
+📒 [【第2676期】一个 Safari 的小 Bug，探索出了 fetch 和 xhr的新玩法](https://mp.weixin.qq.com/s/jqRxNAI5C2NdxVX-pthFpg)
+
 📒 [Vite 也可以模块联邦](https://juejin.cn/post/7122114817581645832)
 
 📒 Golang 实现一个 JS 打包器
