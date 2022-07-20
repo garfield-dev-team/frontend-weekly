@@ -615,6 +615,7 @@ import TabItem from '@theme/TabItem';
 - 工程化知识卡片：[shanyue](https://juejin.cn/user/1556564164489389/posts)
 - CSS 各种特效：[chokcoco](https://juejin.cn/user/2330620350437678/posts)
 - Nodejs 相关：[天猪](https://www.zhihu.com/people/liuyong25/posts)
+- Umi 相关：[MDH 前端周刊](https://www.yuque.com/mdh/weekly/rhiudh)
 - Antd、Umi、Node.js：[支付宝体验科技精选](https://www.yuque.com/antfe/featured/ys58hy)
 - 前端、全栈技术专刊：[阿里 CCO 体验技术专刊](https://www.zhihu.com/column/ali-nanjing)
 - Golang 相关：[腾讯技术工程](https://zhuanlan.zhihu.com/p/340814811)
