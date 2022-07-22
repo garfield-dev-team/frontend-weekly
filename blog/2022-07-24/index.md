@@ -5,6 +5,56 @@ authors: [garfield]
 tags: []
 ---
 
+📒 开发小技巧
+
+Antd 的 Modal 既可以通过组件方式，也可以通过 modal method 方式使用，后者比组件更方便，不需要自己维护状态，但是会有一个问题，如果需要通过弹框渲染的内容，控制弹框更新、关闭
+
+```ts
+const renderQuizModal = ({
+  quizId,
+  unitId,
+  handleOk,
+  handleCancel,
+}) => {
+  const ctx = {
+    update: (e: CheckboxChangeEvent) => {},
+  };
+  
+  const modal = Modal.success({
+    title: quizName,
+    width: 600,
+    icon: null,
+    closable: true,
+    okText: '开始测验',
+    okButtonProps: {
+      disabled: true,
+    },
+    content: (
+      <Checkbox onChange={(e: CheckboxChangeEvent) => ctx.update(e)}>
+        依照学术诚信条款，我保证此测验是本人独立完成
+      </Checkbox>
+    ),
+    onOk: () => {
+      handleOk?.();
+    },
+    onCancel: () => {
+      handleCancel?.();
+    },
+  })
+  
+  ctx.update = (e: CheckboxChangeEvent) =>
+    modal.update({
+      okButtonProps: {
+        disabled: !e.target.checked,
+      },
+    });
+}
+```
+
+如何强制重新挂载组件？如果修改 `props` 或者 `setState` 只是触发组件 rerender，实际上是组件更新的过程，有时候需要强制组件重新挂载，可以修改组件的 `key`。
+
+为何有时候没有给域名配置 host 还是可以访问？这是因为在容器中部署，可以通过 Docker 的 Networking 实现容器通信。
+
 ⭐️ [「React进阶」React中没有keepalive？没事！手把手教你从零到一设计并实现一个！](https://juejin.cn/post/7122617883837857806)
 
 ⭐️ [现在前端面试都问什么「字节、蚂蚁、美团、滴滴面试小记」](https://mp.weixin.qq.com/s/MNw8SBvQLJ7WtNPROEL9og)
