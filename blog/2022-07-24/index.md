@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 NestJS v9 发布
+
+> https://trilon.io/blog/nestjs-9-is-now-available
+
 📒 开发小技巧
 
 Antd 的 Modal 既可以通过组件方式，也可以通过 modal method 方式使用，后者比组件更方便，不需要自己维护状态，但是会有一个问题，如果需要通过弹框内部的按钮，控制弹框更新、关闭，我们没办法直接给弹框内部的元素传递 `modal.update`，因为此时 `Modal.success()` 还没有执行结束，`modal` 是 `undefined`，如何解决呢？
