@@ -184,8 +184,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 微前端 && 模块联邦
 
-- [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
+- ⭐️ [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
 - [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
+- [微前端架构的几种技术选型](https://mp.weixin.qq.com/s/ylkY9HWTQKPlbDb2M33YWQ)
 - [我们是怎么在项目中落地qiankun的](https://mp.weixin.qq.com/s/yu1tKtwneoTI9eSGS4us-g)
 - [模块联邦浅析](https://juejin.cn/post/7101457212085633054)
 - [【第2618期】手把手教你定制一套适合团队的微前端体系](https://mp.weixin.qq.com/s/ovwjufnPmCoYNLMkv5xv2g)
