@@ -322,6 +322,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [degit - 简单的项目脚手架](https://github.com/Rich-Harris/degit)
 - ⭐️ [react-use - 一个 React Hooks 库](https://github.com/streamich/react-use)
 - [react-query - 用于获取数据、缓存、异步更新状态的 hook](https://github.com/tannerlinsley/react-query)
+- [ioredis - 专注于性能的全功能 Redis 客户端](https://github.com/luin/ioredis)
 - [prisma - 下一代 Nodejs ORM 工具，支持各种数据库](https://github.com/prisma/prisma)
 - [astro - 静态站点构建工具](https://github.com/withastro/astro)
 - [zustand - 小型、快速可扩展的状态管理解决方案](https://github.com/pmndrs/zustand)
