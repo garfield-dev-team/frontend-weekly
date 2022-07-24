@@ -280,11 +280,13 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 前端组件库实战
 
+- ⭐️ [快上车！搭建一个属于自己的组件库！](https://juejin.cn/post/7120893568553582622)
+- ⭐️ [使用Vite和TypeScript带你从零打造一个属于自己的Vue3组件库](https://juejin.cn/post/7117886038126624805)
 - ⭐️ [从arco-design的collapse组件分析如何吸收开源项目的知识](https://juejin.cn/post/7069772395610898462)
 - ⭐️ [从 Element UI 源码的构建流程来看前端 UI 库设计](https://juejin.cn/post/6844904197863964685)
 - ⭐️ [尤大都推荐的组件库是如何开发出来的？](https://juejin.cn/post/7021528826798669854)
-- ⭐️ [每个前端都值得拥有自己的组件库，就像每个夏天都拥有西瓜🍉](https://juejin.cn/post/6983854006124675108)
-- ⭐️ [Vue3组件库工程化实战 --Element3](https://juejin.cn/post/6930879590554402830)
+- [每个前端都值得拥有自己的组件库，就像每个夏天都拥有西瓜🍉](https://juejin.cn/post/6983854006124675108)
+- [Vue3组件库工程化实战 --Element3](https://juejin.cn/post/6930879590554402830)
 
 ## Node.js 系列
 
