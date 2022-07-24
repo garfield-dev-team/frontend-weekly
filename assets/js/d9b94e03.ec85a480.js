@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[381],{1624:function(e){e.exports=JSON.parse('{"label":"Vue3","permalink":"/frontend-weekly/blog/tags/vue-3","allTagsPath":"/frontend-weekly/blog/tags","count":11}')}}]);
