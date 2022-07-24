@@ -30,16 +30,16 @@ jobs:
     #     key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
     #     restore-keys: ${{ runner.os }}-node-
 
-    - name: Install Dependencies
-      run: yarn add consola typescript ts-node -g
+    # - name: Install Dependencies
+    #   run: yarn add consola typescript ts-node -g
 
-    - name: New Blog
-      run: yarn new:blog
+    # - name: New Blog
+    #   run: yarn new:blog
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
-        publish_branch: gh-pages
-        full_commit_message: ${{ github.event.head_commit.message }}
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: ./build
+    #     publish_branch: gh-pages
+    #     full_commit_message: ${{ github.event.head_commit.message }}
