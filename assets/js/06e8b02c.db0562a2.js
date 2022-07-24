@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3328],{7004:function(e){e.exports=JSON.parse('{"label":"Golang","permalink":"/frontend-weekly/blog/tags/golang","allTagsPath":"/frontend-weekly/blog/tags","count":14}')}}]);
