@@ -692,17 +692,15 @@ import TabItem from '@theme/TabItem';
   - [高频面试系列：单词拆分问题](https://mp.weixin.qq.com/s/iL7tCl6pqw0fTatGSemY-g)
   - [别用 KMP 了， Rabin-Karp 算法了解下](https://mp.weixin.qq.com/s/HiEft8sW5QzHcM5mb5_V6g)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
-- 看下面的文章，手写一个 `babel-plugin-import`
+- 看下面的文章，手写一个 Webpack
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
   - [今天，我们来实现一个基础版的webpack](https://juejin.cn/post/6987036612035084296)
-	- [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
-	- [跟着源码了解Webpack编译流程](https://juejin.cn/post/7026658230365323301)
-	- [面试官：webpack原理都不会？](https://juejin.cn/post/6859538537830858759)
-	- [让 AST 操作像呼吸一样自然](https://juejin.cn/post/7026671646555504676)
-- 手写 Webapck 核心原理
+	- [手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
+- Webapck 编译流程
   - ⭐️ [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944)
   - [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
-  - [手写webpack核心原理，再也不怕面试官问我webpack原理](https://juejin.cn/post/6854573217336541192)
+  - [跟着源码了解Webpack编译流程](https://juejin.cn/post/7026658230365323301)
+  - [面试官：webpack原理都不会？](https://juejin.cn/post/6859538537830858759)
   - [100行代码实现一个组件引用次数统计插件](https://juejin.cn/post/7077484559893266439)
   - https://github.com/ronami/minipack
 - 手把手实现一个 babel 插件
@@ -711,6 +709,8 @@ import TabItem from '@theme/TabItem';
   - 这篇做的 demo 类似 Java 中的 lambok
   - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
   - [操作 JavaScript 的 AST](https://juejin.cn/post/7061808830274863118)
+  - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
+  - [让 AST 操作像呼吸一样自然](https://juejin.cn/post/7026671646555504676)
 - diff 算法相关
   - https://github.com/snabbdom/snabbdom
   - https://github.com/snabbdom/snabbdom/blob/master/src/init.ts
