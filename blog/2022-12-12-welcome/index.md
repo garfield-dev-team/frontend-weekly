@@ -611,7 +611,7 @@ import TabItem from '@theme/TabItem';
 - React 进阶系列：[我不是外星人](https://juejin.cn/user/2418581313687390/posts)
 - Webpack 相关：[Tecvan](https://juejin.cn/user/1820446985555544/posts)
 - 设计模式：[DYBOY](https://juejin.cn/user/3544481219495806/posts)
-- 手写源码、设计模式：[蒋鹏飞](https://juejin.cn/user/2295436011645655/posts)
+- 手写源码、设计模式：[蒋鹏飞](https://juejin.cn/user/2295436011645655/posts) 、[前端阳光](https://juejin.cn/user/1204720476893064)
 - Webpack5、设计模式：[清汤饺子](https://juejin.cn/user/4300945218607197)
 - 前端架构设计：[寒草](https://juejin.cn/user/703340610597064/posts)
 - 总结大师：[JowayYoung](https://juejin.cn/user/2330620350432110/posts)
