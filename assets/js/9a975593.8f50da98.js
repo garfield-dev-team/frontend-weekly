@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9405],{29172:function(e){e.exports=JSON.parse('{"label":"VS Code","permalink":"/frontend-weekly/blog/tags/vs-code","allTagsPath":"/frontend-weekly/blog/tags","count":3}')}}]);

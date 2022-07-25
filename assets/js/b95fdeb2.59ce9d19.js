@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[5966],{2759:function(e){e.exports=JSON.parse('{"label":"Code Review","permalink":"/frontend-weekly/blog/tags/code-review","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

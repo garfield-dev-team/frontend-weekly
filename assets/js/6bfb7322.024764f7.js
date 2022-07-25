@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7835],{5881:function(e){e.exports=JSON.parse('{"label":"Browserslist","permalink":"/frontend-weekly/blog/tags/browserslist","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[4316],{52009:function(e){e.exports=JSON.parse('{"label":"Java","permalink":"/frontend-weekly/blog/tags/java","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

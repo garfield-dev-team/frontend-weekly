@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[7月31日内容汇总]]></title>
+        <id>7月31日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/7月31日内容汇总"/>
+        <updated>2022-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 「万字总结」🍒动画 + 大白话讲清楚React渲染原理]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7121378029682556958" target="_blank" rel="noopener noreferrer">「万字总结」🍒动画 + 大白话讲清楚React渲染原理</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/-UOG3Pn9aNxRMBtncGjF-w" target="_blank" rel="noopener noreferrer">Go语言中常见100问题-#85 Not using table-driven tests</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/JmHNfU11kbHGOnHi4kCcmQ" target="_blank" rel="noopener noreferrer">小程序不让用 JS 解释器？那我再肛一次鹅厂</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7月24日内容汇总]]></title>
         <id>7月24日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/7月24日内容汇总"/>
