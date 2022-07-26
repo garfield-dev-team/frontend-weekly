@@ -253,6 +253,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 服务端相关
 
 - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+- ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
 - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
@@ -446,6 +447,7 @@ import TabItem from '@theme/TabItem';
 ## Java 相关
 
 - [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning)
+- [腾讯一面：Thread、Runnable、Callable、Future、FutureTask，谈谈他们的关系](https://mp.weixin.qq.com/s/vqKKoPB5FQkCWXFWBLbkZg)
 - [拜托！面试请不要再问我 @Transactional](https://mp.weixin.qq.com/s/rlfRjCb8EOrpt3xnF7isBw)
 - [7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
 - [单例模式 4 种经典实现方法](https://mp.weixin.qq.com/s/Ua03qsLcrVURtxhSnuU_6w)
