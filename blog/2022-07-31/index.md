@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [你能给前端工程化下个定义么](https://juejin.cn/post/7124601707702517797)
+
 📒 [你需要知道的ES6—ES13开发技巧！](https://mp.weixin.qq.com/s/KsoSwA73PzGwYMqZOwUvNQ)
 
 📒 [【第2682期】前端场景下请求的Race Conditions](https://mp.weixin.qq.com/s/PL_uWkSTo12hxmxMmUKndw)
