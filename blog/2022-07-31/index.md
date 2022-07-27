@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [入职即巅峰？🧨基建优化项目体积减少20%！](https://juejin.cn/post/7118782372220567566)
+
+📒 [简单好用的前端拖拽排序库](https://mp.weixin.qq.com/s/XznUiQUq5vRWFLgbz2u8Dg)
+
 📒 [你能给前端工程化下个定义么](https://juejin.cn/post/7124601707702517797)
 
 📒 [你需要知道的ES6—ES13开发技巧！](https://mp.weixin.qq.com/s/KsoSwA73PzGwYMqZOwUvNQ)
