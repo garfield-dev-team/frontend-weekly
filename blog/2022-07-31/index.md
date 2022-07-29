@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Go语言中常见100问题-#86 Sleeping in unit tests](https://mp.weixin.qq.com/s/yUg-9H0GgzbavuxuU8Aahw)
+
+📒 [超实用的Chrome DevTools调试技巧](https://juejin.cn/post/7125613440000851975)
+
 📒 开源项目推荐
 
 用 Go 写的 GUI gRPC 客户端。作者在调试 gPRC 接口时，发现没有类似 postman 趁手的 gPRC 客户端，所以就自己动手写了一个然后开源了。
