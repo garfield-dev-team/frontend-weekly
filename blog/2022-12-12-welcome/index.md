@@ -477,6 +477,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - ⭐️ [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
 - ⭐️ [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
+- ⭐️ [Go后端开发成长路线](https://github.com/xiaobaiTech/golangFamily/blob/main/README.md)
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
@@ -486,7 +487,6 @@ import TabItem from '@theme/TabItem';
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
   - https://github.com/fangbinwei/aliyun-oss-website-action
-  - https://github.com/leanote/leanote
 - Golang 教程
   - https://www.w3cschool.cn/go/
 - Golang 标准库文档
