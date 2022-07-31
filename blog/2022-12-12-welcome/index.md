@@ -89,6 +89,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 业务成长
 
+- ⭐️ [入职Apifox研发组半年，我所提升的软技能｜文末抽书](https://mp.weixin.qq.com/s/1BdXL5dQfP6DnK7iJs6zGQ)
 - ⭐️ [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
 - [如何写好一份晋升PPT（附PPT模板）](https://mp.weixin.qq.com/s/1QMPfODUcH1p4pGaoO1owA)
 - [如何画出一张优秀的架构图（老鸟必备）](https://mp.weixin.qq.com/s/hXFWU6uuil1aC1lEYO_KhQ)
@@ -401,6 +402,10 @@ import TabItem from '@theme/TabItem';
 ## 网络相关
 
 - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- [字节三面，答的不满意](https://mp.weixin.qq.com/s/7P_1VkBeoArKuuEqGcR9ig)
+- [HTTP/3发布了，我们来谈谈HTTP/3](https://mp.weixin.qq.com/s/nRHlwYsr0MaadmaFWEIblQ)
+- [既然有 HTTP 协议，为什么还要有 RPC](https://mp.weixin.qq.com/s/qmnfmUCdekEt1xG0hp_4MQ)
+- [字节一面：TCP 和 UDP 可以使用同一个端口吗](https://mp.weixin.qq.com/s/3fMZN_LidCi5fiD16nNWWA)
 - ⭐️ [面试必备！TCP协议经典十五连问](https://mp.weixin.qq.com/s/hVh5PIVaOeLyErZDPXx6mg)
 - ⭐️ [字节一面：如何用 UDP 实现可靠传输](https://mp.weixin.qq.com/s/hX75YxVOMtsnB6Sm_yjm0g)
 - ⭐️ [TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了](https://mp.weixin.qq.com/s/toQUgqJHeUbFZMtxfzFCxw)
@@ -461,6 +466,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
 - [一次 MySQL 误操作导致的事故，「高可用」都顶不住了！](https://mp.weixin.qq.com/s/L9qseWiHGfu1oAuKIhcUhw)
 - [虾皮二面：MySQL 中有哪些锁？表级锁和行级锁有什么区别](https://mp.weixin.qq.com/s/Inocu3vjMG4ivE19HrxR3g)
 - [面霸篇：MySQL六十六问，两万字+五十图详解！](https://mp.weixin.qq.com/s/Jhh-_5ynu58EKPMignk5fA)
@@ -481,6 +487,7 @@ import TabItem from '@theme/TabItem';
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
+- ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
 - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
 - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 算法
