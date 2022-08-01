@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ 看一下 React 15.x 源码
+
+> https://github.com/Lucifier129/react-lite
+
 📒 [Go语言中常见100问题-#87 Not dealing with the time API efficiently](https://mp.weixin.qq.com/s/UELHBolk-UVC45H1QvtrLQ)
 
 📒 [用了TCP协议，就一定不会丢包吗](https://mp.weixin.qq.com/s/8cXYXAHZCJMPSaaMpDqYtQ)
