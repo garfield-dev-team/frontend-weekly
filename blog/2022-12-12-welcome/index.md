@@ -487,6 +487,7 @@ import TabItem from '@theme/TabItem';
 - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
 - https://github.com/wumansgy/GoAndBlockChainStudy
 - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
+- ⭐️ [Golang 泛型介绍](https://github.com/danielfurman/presentations/blob/master/lets-go-generic/README.md)
 - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
 - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
 - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
