@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8月7日内容汇总]]></title>
+        <id>8月7日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/8月7日内容汇总"/>
+        <updated>2022-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 Go语言中常见100问题-#87 Not dealing with the time API efficiently]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/UELHBolk-UVC45H1QvtrLQ" target="_blank" rel="noopener noreferrer">Go语言中常见100问题-#87 Not dealing with the time API efficiently</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/8cXYXAHZCJMPSaaMpDqYtQ" target="_blank" rel="noopener noreferrer">用了TCP协议，就一定不会丢包吗</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/hVoVdvt_sHUuVxvfSwgEVQ" target="_blank" rel="noopener noreferrer">【第2688期】关于低代码平台建设的思考与实践暨BPM表单设计器前端技术解析</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7月31日内容汇总]]></title>
         <id>7月31日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/7月31日内容汇总"/>
