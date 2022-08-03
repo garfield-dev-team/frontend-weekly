@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Go 1.19 is released
+
+```bash
+$ go install golang.org/dl/go1.19@latest
+```
+
+> go 命令使用：https://pkg.go.dev/cmd/go
+
 📒 GitHub Trending - TypeScript
 
 https://github.com/trending/typescript
