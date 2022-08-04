@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [字节二面，差点没答好](https://mp.weixin.qq.com/s/DnCc5NIrMzvJuTF_xN6RYQ)
+
+📒 [如何提高 TypeScript 的代码质量](https://mp.weixin.qq.com/s/pxbQbvZP2IWMQzA7v8YV4w)
+
+📒 [谁说 Mysql 单表最大 2000 W ？我硬要塞它 1 个亿！](https://mp.weixin.qq.com/s/A6lTimcViHjIigj4V6Dasg)
+
+📒 [初探 Vue3 编译之美](https://mp.weixin.qq.com/s/teFxhgzag8k5EXVnccdMkA)
+
 📒 Go 1.19 is released
 
 ```bash
