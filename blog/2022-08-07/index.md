@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何解决前端常见的竞态问题](https://juejin.cn/post/7127953386514677790)
+
 📒 [字节二面，差点没答好](https://mp.weixin.qq.com/s/DnCc5NIrMzvJuTF_xN6RYQ)
 
 📒 [如何提高 TypeScript 的代码质量](https://mp.weixin.qq.com/s/pxbQbvZP2IWMQzA7v8YV4w)
