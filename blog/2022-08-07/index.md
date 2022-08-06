@@ -5,6 +5,32 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [这三个 Go 水平自测题，手写不出来还是先老实上班吧](https://mp.weixin.qq.com/s/YojNHW7kkjmmdjqBXCuQYA)
+
+📒 [不想Go 错误处理太臃肿，可以参考这个代码设计](https://mp.weixin.qq.com/s/pR_XHTnhft2Hi_mY7JuEJg)
+
+📒 [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
+
+📒 [你见过哪些目瞪口呆的 Java 代码优化技巧](https://mp.weixin.qq.com/s/tw4lD0XA67yJKAwIWVicIQ)
+
+⭐️ [社招后端21连问（三年工作经验一面）](https://mp.weixin.qq.com/s/QWoVKFzFJUHNmmz89mMH1g)
+
+📒 [Spring Boot 实现接口幂等性的 4 种方案](https://mp.weixin.qq.com/s/qrmdU5ijy3P6SeP-MAVjJw)
+
+📒 [前端运维部署那些事](https://mp.weixin.qq.com/s/ANuNr1mtFZCu4S4WuNYNlg)
+
+📒 rollup 最佳实践！可调试、编译的小型开源项目思路
+
+tsc 可以只生成类型声明文件：
+
+```bash
+$ tsc  --emitDeclarationOnly --declaration --project ts.config.json --outDir dist/esm
+```
+
+[rollup 最佳实践！可调试、编译的小型开源项目思路](https://mp.weixin.qq.com/s/-fn8ynYuvRcnDLB5VqRBFg)
+
+📒 [脚本任务执行器 —— npm-run-all 源码解析](https://mp.weixin.qq.com/s/Gd7RLj1aRoJa6Jd2gi8vNA)
+
 📒 [2022年值得推荐的React库！](https://mp.weixin.qq.com/s/79ELfeZ09HAl1lFaeONyLA)
 
 📒 [如何解决前端常见的竞态问题](https://juejin.cn/post/7127953386514677790)
