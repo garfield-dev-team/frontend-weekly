@@ -480,17 +480,19 @@ import TabItem from '@theme/TabItem';
 
 ## Golang 学习
 
-- ⭐️ [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
-- ⭐️ [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
-- ⭐️ [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
-- ⭐️ [Go后端开发成长路线](https://github.com/xiaobaiTech/golangFamily/blob/main/README.md)
-- [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
-- https://github.com/wumansgy/GoAndBlockChainStudy
-- [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
-- ⭐️ [Golang 泛型介绍](https://github.com/danielfurman/presentations/blob/master/lets-go-generic/README.md)
-- ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
-- ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
-- ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
+- Golang 学习路线
+  - ⭐️ [Go后端开发成长路线](https://github.com/xiaobaiTech/golangFamily/blob/main/README.md)
+  - ⭐️ [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
+  - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
+  - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
+  - [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
+  - [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+- Golang 进阶
+  - ⭐️ [Golang 泛型介绍](https://github.com/danielfurman/presentations/blob/master/lets-go-generic/README.md)
+  - ⭐️ [GopherCon UK 2018- Florin Patan - Production Ready Go Service in 30 Minutes](https://www.bilibili.com/video/BV1ry4y1y7V2)
+  - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
+  - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
@@ -500,8 +502,8 @@ import TabItem from '@theme/TabItem';
 - Golang 标准库文档
   - https://pkg.go.dev/std
 - Golang 单元测试
-   - [Golang-单元测试](https://blog.csdn.net/ALEX_CYL/article/details/121793330)
-   - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
+  - [Golang-单元测试](https://blog.csdn.net/ALEX_CYL/article/details/121793330)
+  - [手把手教你如何进行 Golang 单元测试](https://zhuanlan.zhihu.com/p/377834750)
 - ⭐️ [Go 语言与并发编程](https://zhuanlan.zhihu.com/p/471317280)
 - ⭐️ [Golang 简洁架构实战](https://mp.weixin.qq.com/s/Xzlt_WcdcfLWhofafY3c6g)
 - ⭐️ [如何使用高阶函数编程提升代码的简洁性](https://juejin.cn/post/7065197280223035422)
