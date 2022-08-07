@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
+
+📒 [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/OKUeAdicn0Bvkz8dYx1epQ)
+
+📒 [记一次线上超时问题的发现、排查、定位以及解决过程](https://mp.weixin.qq.com/s/Yh2dOC8Pumeis-h1_gMLjg)
+
+📒 [这不会又是一个Go的BUG吧](https://mp.weixin.qq.com/s/Dn2oM89mHEgoz8yVQnNEoQ)
+
 📒 [这三个 Go 水平自测题，手写不出来还是先老实上班吧](https://mp.weixin.qq.com/s/YojNHW7kkjmmdjqBXCuQYA)
 
 📒 [不想Go 错误处理太臃肿，可以参考这个代码设计](https://mp.weixin.qq.com/s/pR_XHTnhft2Hi_mY7JuEJg)
@@ -12,6 +20,10 @@ tags: []
 📒 [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
 
 📒 [你见过哪些目瞪口呆的 Java 代码优化技巧](https://mp.weixin.qq.com/s/tw4lD0XA67yJKAwIWVicIQ)
+
+📒 [聊聊 13 种锁的实现方式](https://mp.weixin.qq.com/s/AOshaWGmLw6uw92xKhLAvQ)
+
+📒 [代码越写越乱？那是因为你没用责任链！](https://mp.weixin.qq.com/s/cPrhhSv1KkwkYdxPAfvkDA)
 
 ⭐️ [社招后端21连问（三年工作经验一面）](https://mp.weixin.qq.com/s/QWoVKFzFJUHNmmz89mMH1g)
 
@@ -33,7 +45,11 @@ $ tsc  --emitDeclarationOnly --declaration --project ts.config.json --outDir dis
 
 📒 [2022年值得推荐的React库！](https://mp.weixin.qq.com/s/79ELfeZ09HAl1lFaeONyLA)
 
+📒 [超大体量项目，微前端落地方案，看完后悔来找我](https://juejin.cn/post/7121244973558661150)
+
 📒 [如何解决前端常见的竞态问题](https://juejin.cn/post/7127953386514677790)
+
+📒 [Go语言中常见100问题-#88-1 Not using testing utility packages](https://mp.weixin.qq.com/s/2IGogbnvxG1O_PYy49fv8g)
 
 📒 [字节二面，差点没答好](https://mp.weixin.qq.com/s/DnCc5NIrMzvJuTF_xN6RYQ)
 
