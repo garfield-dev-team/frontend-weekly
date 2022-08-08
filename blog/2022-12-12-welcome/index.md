@@ -466,6 +466,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
 - [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
 - [一次 MySQL 误操作导致的事故，「高可用」都顶不住了！](https://mp.weixin.qq.com/s/L9qseWiHGfu1oAuKIhcUhw)
 - [虾皮二面：MySQL 中有哪些锁？表级锁和行级锁有什么区别](https://mp.weixin.qq.com/s/Inocu3vjMG4ivE19HrxR3g)
@@ -493,6 +494,13 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
+- Golang 文章分享
+  - [自己的项目，如何发布到Go Module上](https://mp.weixin.qq.com/s/7jLmwtP3xk-wbCFKqPLK2g)
+  - [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/OKUeAdicn0Bvkz8dYx1epQ)
+  - [这不会又是一个Go的BUG吧](https://mp.weixin.qq.com/s/Dn2oM89mHEgoz8yVQnNEoQ)
+  - [这三个 Go 水平自测题，手写不出来还是先老实上班吧](https://mp.weixin.qq.com/s/YojNHW7kkjmmdjqBXCuQYA)
+  - [不想Go 错误处理太臃肿，可以参考这个代码设计](https://mp.weixin.qq.com/s/pR_XHTnhft2Hi_mY7JuEJg)
+  - [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
