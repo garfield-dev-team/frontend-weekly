@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Golang 标准库 strings
+
+重点看一下 `strings.Builder` 的用法。
+
+[Go 学习之 strings.Builder 篇](https://blog.csdn.net/qq_24433609/article/details/124500115)
+
+[Go 字符串拼接6种，最快的方式 -- strings.builder](https://www.cnblogs.com/cheyunhua/p/15769717.html)
+
+[Go拼接字串的三种方法 Go1.10中的strings.Builder](https://blog.csdn.net/qq_41035588/article/details/108289761)
+
+https://pkg.go.dev/strings@go1.19
+
+📒 [你需要知道的TypeScript高级类型](https://mp.weixin.qq.com/s/usDh1-Wzxrf4BftfWhwduA)
+
 📒 [Go 的时间转换和时区校对总记不住？给你一份备忘单](https://mp.weixin.qq.com/s/HaF9qieEJWNUoyY9qTvnKw)
 
 📒 [两个真实线上升级故障让你彻底搞懂package.json中的脱字符(^)](https://juejin.cn/post/7121520457760653349)
