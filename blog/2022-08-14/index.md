@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Go ORM 单元测试全流程讲解](https://mp.weixin.qq.com/s/XPPwHd7eDUjvzsnuFwgbyw)
+
+📒 [超全总结：Go语言如何操作文件](https://mp.weixin.qq.com/s/r30z2i_sSuRfEnM_23wFlg)
+
 📒 React 服务端渲染遇到的问题
 
 在服务端渲染场景下，不能使用 `style-loader`，需要用 `isomorphic-style-loader` 注入样式。
@@ -41,15 +45,23 @@ class MyComponent extends React.PureComponent {
 
 > https://17.reactjs.org/docs/react-dom.html#hydrate
 
-📒 vite 打包遇到的问题
+📒 vite 代码压缩遇到的问题
 
-vite 默认使用 esbuild 压缩，esbuild 不仅会做压缩，而且还会在 target 配置允许的范围内做一些语法转换，尽可能减小 bundle 体积。
+vite 默认使用 esbuild 压缩，esbuild 不仅会做常规的压缩，而且还会在 target 配置允许的范围内做一些语法转换，进一步减小 bundle 体积。
 
 例如 esbuild 压缩会把 `try...catch` 后面的括号去掉，这是 ES2019 中的语法，在老工程构建会报错。
 
 一种解决方案是使用 terser 压缩，设置 `minify: "terser"`，另一种方案继续使用 esbuild 但是手动设置 `target: "es2015"`。
 
 > https://vitejs.dev/config/build-options.html#build-target
+
+:::tip
+
+在一般前端项目中，`target` 配置是针对 Babel 的，也就是说最终的产物兼容性由 Babel 决定。但是在 Vite 中，Babel 只参与部分提案阶段的语法转换，并不决定最终产物兼容性，最终的兼容性由 esbuild 决定。注意 esbuild 默认的 target 值为 `"esnest"`，即 esbuild 认为环境支持最新的 JS 语法特性。但是在 Vite 中，`build.target` 默认为一个特殊值 `"modules"`，即支持原生 ES Module、动态导入语法和 `import.meta` 语法，对应 Chrome >=87。
+
+https://vitejs.dev/guide/build.html#browser-compatibility
+
+:::
 
 📒 Golang 标准库 strings
 
