@@ -5,6 +5,42 @@ authors: [garfield]
 tags: []
 ---
 
+📒 React 服务端渲染遇到的问题
+
+在服务端渲染场景下，不能使用 `style-loader`，需要用 `isomorphic-style-loader` 注入样式。
+
+> `style-loader` 内部使用了 dom API 把样式注入到 `style` 标签中，在 Node 环境下会报错
+
+React 期望在服务端和客户端渲染的内容是相同的，客户端渲染会默认复用服务端渲染的 dom。如果需要在服务端和客户端上渲染不同的内容，可以设置一个 `isClient` 变量：
+
+```jsx
+class MyComponent extends React.PureComponent {
+  state = {
+    isClient: false,
+  }
+  
+  componentDidMount() {
+    // 这里在客户端 hydrate 的时候执行
+    this.setState({ isClient: true });
+  }
+  
+  render() {
+    const { isClient } = this.state;
+    
+    if (!isClient) {
+      // 当需要渲染的组件包含 dom 操作，在 Node 环境会报错
+      // 这里可以渲染 fallback 的内容
+      return ...
+    }
+    
+    // 在客户端可以正常渲染组件
+    return ...
+  }
+}
+```
+
+> https://17.reactjs.org/docs/react-dom.html#hydrate
+
 📒 vite 打包遇到的问题
 
 vite 默认使用 esbuild 压缩，esbuild 不仅会做压缩，而且还会在 target 配置允许的范围内做一些语法转换，尽可能减小 bundle 体积。
