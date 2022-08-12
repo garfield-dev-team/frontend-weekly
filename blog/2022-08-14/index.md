@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
+
+📒 [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
+
+📒 [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
+
+📒 [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+
+📒 [Go Mod小知识：伪版本](https://mp.weixin.qq.com/s/UL5d3P6sjT36njR4RYMFkQ)
+
 📒 [Go ORM 单元测试全流程讲解](https://mp.weixin.qq.com/s/XPPwHd7eDUjvzsnuFwgbyw)
 
 📒 [超全总结：Go语言如何操作文件](https://mp.weixin.qq.com/s/r30z2i_sSuRfEnM_23wFlg)
