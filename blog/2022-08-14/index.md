@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Monorepo 下的模块包设计实践](https://zhuanlan.zhihu.com/p/456483953)
+
+📒 [【TypeScript】never 和 unknown 的优雅之道](https://mp.weixin.qq.com/s/rZ96wy8xUrx4T1qG5OKS0w)
+
+📒 [Bundle-less 的思考和实践分享](https://mp.weixin.qq.com/s/nk5SN8AKwyFkUTEOiLCBdQ)
+
+📒 [React Fiber架构原理剖析](https://segmentfault.com/a/1190000042271919)
+
+📒 [【万字】优化Webpack？肘，跟我进屋聊聊](https://juejin.cn/post/7129747165794009101)
+
+📒 [字节的前端监控 SDK 是怎样设计的](https://mp.weixin.qq.com/s/-eEMSn2WpDiMbNSBgY3-pg)
+
 📒 [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
 
 📒 [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
