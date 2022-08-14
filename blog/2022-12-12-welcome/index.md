@@ -453,7 +453,9 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
-- [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning)
+- [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
+- [总监又来了，人狠话不多，这篇 gRPC，小弟佩服！](https://mp.weixin.qq.com/s/4Sxal7N-uZ8gvphC8XWo8A)
+<!-- - [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning) -->
 - [腾讯一面：Thread、Runnable、Callable、Future、FutureTask，谈谈他们的关系](https://mp.weixin.qq.com/s/vqKKoPB5FQkCWXFWBLbkZg)
 - [拜托！面试请不要再问我 @Transactional](https://mp.weixin.qq.com/s/rlfRjCb8EOrpt3xnF7isBw)
 - [7 段小代码，玩转Java程序常见的崩溃场景](https://mp.weixin.qq.com/s/YcyC1Jm4H7uGvSg3rCkDig)
@@ -468,6 +470,10 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
+- [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
+- [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+- [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
 - [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
 - [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
 - [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
