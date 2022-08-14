@@ -508,6 +508,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Golang 泛型介绍](https://github.com/danielfurman/presentations/blob/master/lets-go-generic/README.md)
   - ⭐️ [GopherCon UK 2018- Florin Patan - Production Ready Go Service in 30 Minutes](https://www.bilibili.com/video/BV1ry4y1y7V2)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 文章分享
