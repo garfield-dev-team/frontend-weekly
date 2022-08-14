@@ -254,11 +254,17 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 服务端相关
 
-- ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
-- ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
-- ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
-- ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
-- ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
+- Redis 相关
+  - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+  - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
+- 消息队列
+  - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
+- Elasticsearch 相关
+  - ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
+  - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
+- 大数据相关
+  - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
+  - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
 - [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
