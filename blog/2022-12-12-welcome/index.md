@@ -560,6 +560,7 @@ import TabItem from '@theme/TabItem';
 - [《深度学习框架PyTorch：入门与实践》](https://github.com/chenyuntc/pytorch-book)
 - [《机器学习》（西瓜书）](https://github.com/datawhalechina/pumpkin-book)
 - [《机器学习》配套视频教程](https://www.bilibili.com/video/BV1Mh411e7VU)
+- ⭐️ [Software Engineering at Google](https://abseil.io/blog/04222021-swe-book)
 - ⭐️ [ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses)
 - ⭐️ [How Web Works](https://github.com/vasanthk/how-web-works)
 
