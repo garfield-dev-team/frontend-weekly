@@ -109,7 +109,11 @@ try {
 
 :::tip
 
-在一般前端项目中，`target` 配置是针对 Babel 的，也就是说最终的产物兼容性由 Babel 决定。但是在 Vite 中，Babel 只参与部分提案阶段的语法转换，并不决定最终产物兼容性，最终的兼容性由 esbuild 决定。注意 esbuild 默认的 target 值为 `"esnest"`，即 esbuild 认为环境支持最新的 JS 语法特性。但是在 Vite 中，`build.target` 默认为一个特殊值 `"modules"`，即支持原生 ES Module、动态导入语法和 `import.meta` 语法，对应 Chrome >=87。
+在一般前端项目中，`target` 配置是针对 Babel 的，即最终的产物兼容性由 Babel 决定。
+
+但是在 Vite 中，Babel 只参与部分 esbuild 尚不支持的提案阶段的语法转换，并不决定最终产物兼容性，最终的兼容性由 esbuild 决定。注意 esbuild 默认的 target 值为 `"esnest"`，即 esbuild 认为环境支持最新的 JS 语法特性。但是在 Vite 中，`build.target` 默认为一个特殊值 `"modules"`（即支持原生 ES Module、动态导入语法和 `import.meta` 语法，对应 Chrome >=87），最低可以支持 `"es2015"`。
+
+注意 Vite 默认只做语法转换，并不会引入 polyfill（适合第三方库开发，由业务工程 `@babel/preset-env` 配置 `useBuiltIns: "entry"` 统一引入 polyfill）。如果产物需要直接在浏览器中运行，则需要 `@vitejs/plugin-legacy` 插件。该插件会对最终 bundle 中每个 chunk，使用 `@babel/preset-env` 转换生成对应的 legacy chunk，同时根据 `target` 配置的目标浏览器兼容性和实际用到的 API，生成一个 polyfill chunk。
 
 https://vitejs.dev/guide/build.html#browser-compatibility
 
