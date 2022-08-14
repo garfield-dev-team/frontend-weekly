@@ -54,7 +54,7 @@ class MyComponent extends React.PureComponent {
     const { isClient } = this.state;
     
     if (!isClient) {
-      // 当需要渲染的组件包含 dom 操作，在 Node 环境会报错
+      // 当需要渲染的组件需要访问浏览器 API，在 Node 环境会报错
       // 这里可以渲染 fallback 的内容
       return ...
     }
@@ -64,6 +64,14 @@ class MyComponent extends React.PureComponent {
   }
 }
 ```
+
+:::tip
+
+当需要渲染的组件需要访问浏览器 API（例如 `window`、`document`、`location`），在 Node 环境会报错。在服务端渲染的时候，可以先渲染 fallback 内容，在客户端 hydrate 的时候，再渲染正常组件。
+
+另外有一些 SDK，内部可能也访问了浏览器 API，这种情况下不能直接在构造器中初始化实例，可以在 `componentDidMount` 钩子中延迟初始化。
+
+:::
 
 > https://17.reactjs.org/docs/react-dom.html#hydrate
 
