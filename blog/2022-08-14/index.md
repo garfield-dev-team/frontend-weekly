@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [将微前端做到极致-无界方案](https://mp.weixin.qq.com/s/hRR_sp3w_dgnUbdNXMuL7w)
+
+📒 [【第2701期】技术Leader如何创造业务价值](https://mp.weixin.qq.com/s/9eZxW9qihgQlbBP0D0ZMQQ)
+
 📒 [Monorepo 下的模块包设计实践](https://zhuanlan.zhihu.com/p/456483953)
 
 📒 [【TypeScript】never 和 unknown 的优雅之道](https://mp.weixin.qq.com/s/rZ96wy8xUrx4T1qG5OKS0w)
