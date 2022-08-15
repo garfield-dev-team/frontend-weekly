@@ -220,6 +220,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 软件架构 && 设计模式
 
+- Software Engineering at Google
+  - 在线阅读：https://abseil.io/blog/04222021-swe-book
+  - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
 - [【第2126期】每个开发者都应该知道的 SOLID 原则](https://mp.weixin.qq.com/s/KHeo5bdY4cjPfA5I1mjXWw)
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
