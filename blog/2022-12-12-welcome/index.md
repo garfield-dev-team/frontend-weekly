@@ -220,7 +220,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 软件架构 && 设计模式
 
-- Software Engineering at Google
+- ⭐️ Software Engineering at Google
   - 在线阅读：https://abseil.io/blog/04222021-swe-book
   - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
@@ -738,6 +738,7 @@ import TabItem from '@theme/TabItem';
   - [论动态规划穷举的两种视角](https://mp.weixin.qq.com/s/6vwNBr48D36n6E3EawFUqg)
   - [高频面试系列：单词拆分问题](https://mp.weixin.qq.com/s/iL7tCl6pqw0fTatGSemY-g)
   - [别用 KMP 了， Rabin-Karp 算法了解下](https://mp.weixin.qq.com/s/HiEft8sW5QzHcM5mb5_V6g)
+  - [微软面试题解析：丑数系列算法](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 Webpack
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
