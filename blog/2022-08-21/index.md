@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2703期】软件架构手册](https://mp.weixin.qq.com/s/1h6yqCWyzYLM8WPGlGdtVA)
+
+📒 [如何在 Web 上构建一个插件系统](https://juejin.cn/post/6844903956263501838)
+
+📒 [Go 的常量为什么只支持数字、字符串这样的基础类型](https://mp.weixin.qq.com/s/XX3Y1tKU-_oeNGsXfgcNQg)
+
+📒 [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
+
+📒 [细数线程池的10个坑](https://mp.weixin.qq.com/s/cDCHV08x1rPiZVZMRFjWBg)
+
 📒 [Chrome DevTools 远程调试安卓网页的原理](https://juejin.cn/post/7132077894922141726)
 
 📒 [Windows 滚动条如何美化成 macOS 那样](https://mp.weixin.qq.com/s/RSSQymhS48pFXI2Z9JX6TA)
