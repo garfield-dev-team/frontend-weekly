@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Golang 依赖注入相关文章
+
+https://dev.to/dryrainbow/dependency-injection-in-golang-35oa
+
+https://medium.com/avenue-tech/dependency-injection-in-go-35293ef7b6
+
+https://medium.com/thirdfort/go-best-practices-how-to-code-comfortably-60118a27def8
+
+https://levelup.gitconnected.com/better-error-handling-in-golang-theory-and-practical-tips-758b90d3f6b4
+
 📒 [大家都能看得懂的源码之ahooks useInfiniteScroll](https://mp.weixin.qq.com/s/fxEKYW5cIKM5tec3VWwgSw)
 
 📒 [esModuleInterop 是如何影响 tsc 的](https://mp.weixin.qq.com/s/37DtrXeRioq-xSKayIJbCg)
