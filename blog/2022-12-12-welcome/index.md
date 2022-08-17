@@ -463,6 +463,8 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- [源码深度解析，Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/djVu6SJjfYj4y_LNW-SKyw)
+- [麻了，代码改成多线程，竟有9大问题](https://mp.weixin.qq.com/s/hhjwiMx-ypEbxwHJ9rJoBw)
 - [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
 - [总监又来了，人狠话不多，这篇 gRPC，小弟佩服！](https://mp.weixin.qq.com/s/4Sxal7N-uZ8gvphC8XWo8A)
 <!-- - [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning) -->
@@ -480,6 +482,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
 - [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
 - [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
 - [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
