@@ -15,6 +15,22 @@ https://medium.com/thirdfort/go-best-practices-how-to-code-comfortably-60118a27d
 
 https://levelup.gitconnected.com/better-error-handling-in-golang-theory-and-practical-tips-758b90d3f6b4
 
+📒 [【第2704期】网易严选多端组件库OSSA正式开源](https://mp.weixin.qq.com/s/cKC8u_43Ewqq0GAgErQO0w)
+
+📒 Golang 相关文章
+
+[Go 语言 Web 编程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1323498303014780929&scene=21&from_msgid=2247484112&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+
+[Go 语言并发编程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1325302744319737858&scene=21&from_msgid=2247484375&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+
+[Go 微服务实战](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1809543596702777345&scene=21&from_msgid=2247492061&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+
+📒 React 18 新特性：Selective Hydration
+
+https://github.com/reactwg/react-18/discussions/37
+
+📒 [一个简洁、强大、可扩展的前端项目架构是什么样的](https://juejin.cn/post/7122636487555809311)
+
 📒 [大家都能看得懂的源码之ahooks useInfiniteScroll](https://mp.weixin.qq.com/s/fxEKYW5cIKM5tec3VWwgSw)
 
 📒 [esModuleInterop 是如何影响 tsc 的](https://mp.weixin.qq.com/s/37DtrXeRioq-xSKayIJbCg)
