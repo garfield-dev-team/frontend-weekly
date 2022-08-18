@@ -11,9 +11,46 @@ https://tsejx.github.io/webpack-guidebook/best-practice/optimization/collection
 
 https://webpack.js.org/guides/code-splitting/
 
-📒 Ingress
+📒 k8s 部署相关
+
+使用 Docker Desktop 搭建 k8s 集群
+
+[从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
+
+[在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
 
 https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
+
+📒 [字节一面：HTTPS 一定安全可靠吗](https://mp.weixin.qq.com/s/IYZrtK7pJTeCOBwY-sC9HA)
+
+📒 [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
+
+📒 Golang 相关文章
+
+Go 语言里使用 `io.Reader` 和 `io.Writer` 两个 interface 来抽象 `I/O`，他们的定义如下：
+
+```go
+type Reader interface {
+ Read(p []byte) (n int, err error)
+}
+
+type Writer interface {
+ Write(p []byte) (n int, err error)
+}
+```
+
+`io.Reader` 接口代表一个可以从中读取字节流的实体，而 `io.Writer` 则代表一个可以向其写入字节流的实体。
+
+- ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
+- ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
+- [Go 眼中的文件系统是什么？ io.FS](https://mp.weixin.qq.com/s/gYWhjh1BburgeAU72mn_aw)
+- [如何更直观地理解 Go 调度过程](https://mp.weixin.qq.com/s/0c7emt54ayCrm1K16lk2SQ)
+- [Go1.19 那些你不知道的新特性](https://mp.weixin.qq.com/s/FviFOLkIHuEjZdTg_qCoNQ)
+- [Go 中可别用复制锁，会有这些大问题！](https://mp.weixin.qq.com/s/SrqJdng9cNUEVAS7nFaqAA)
+
+📒 [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
+
+📒 [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
 
 📒 Golang 依赖注入相关文章
 
