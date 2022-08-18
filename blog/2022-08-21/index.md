@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Webpack 构建优化
+
+https://tsejx.github.io/webpack-guidebook/best-practice/optimization/collection
+
+https://webpack.js.org/guides/code-splitting/
+
+📒 Ingress
+
+https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
+
 📒 Golang 依赖注入相关文章
 
 https://dev.to/dryrainbow/dependency-injection-in-golang-35oa
