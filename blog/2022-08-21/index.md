@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何解决闭包陷阱问题
+
+使用 nutui 组件的时候，发现会缓存传入的函数，导致内部一个变量一直引用旧的闭包，获取不到最新的值。这里实现了一个 `useMemorizedFn` 钩子，始终返回固定的引用，通过 `ref` 拿到最新的函数：
+
+```tsx
+const useMemorizedFn = (callback) => {
+  const callbackRef = React.useRef(null);
+
+  React.useEffect(() => {
+    callbackRef.current = callback;
+  });
+
+  return React.useCallback((...params) => {
+    callbackRef.current && callbackRef.current(...params);
+  }, []);
+};
+```
+
 📒 Webpack 构建优化
 
 https://tsejx.github.io/webpack-guidebook/best-practice/optimization/collection
