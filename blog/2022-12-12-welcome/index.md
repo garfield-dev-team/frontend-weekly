@@ -761,9 +761,10 @@ import TabItem from '@theme/TabItem';
   - https://github.com/ronami/minipack
 - 手把手实现一个 babel 插件
   - 这篇做的 demo 是一个简单的 babel-plugin-import
-  - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
+    - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
   - 这篇做的 demo 类似 Java 中的 lambok
-  - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
+    - [保姆级教学！这次一定学会babel插件开发！](https://juejin.cn/post/7012424646247055390)
+  - [babel-handbook - 各种 ast 操作指南](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
   - [操作 JavaScript 的 AST](https://juejin.cn/post/7061808830274863118)
   - [前端也要懂编译：AST 从入门到上手指南](https://juejin.cn/post/6953963506693570573)
   - [让 AST 操作像呼吸一样自然](https://juejin.cn/post/7026671646555504676)
