@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [使用 TypeScript 编写 React 的最佳实践！](https://mp.weixin.qq.com/s/o_cXCroRSK5HAKG0wjC29Q)
+
 📒 如何解决闭包陷阱问题
 
 使用 nutui 组件的时候，发现会缓存传入的函数，导致内部一个变量一直引用旧的闭包，获取不到最新的值。这里实现了一个 `useMemorizedFn` 钩子，始终返回固定的引用，通过 `ref` 拿到最新的函数：
