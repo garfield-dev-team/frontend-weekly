@@ -37,7 +37,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## TS && 框架
 
-- ⭐️ ⭐️ [使用 TypeScript 编写 React 的最佳实践！](https://mp.weixin.qq.com/s/o_cXCroRSK5HAKG0wjC29Q)
+- ⭐️ ⭐️ [一份很全面的 React TypeScript 备忘录](https://react-typescript-cheatsheet.netlify.app/)
+<!-- - ⭐️ ⭐️ [使用 TypeScript 编写 React 的最佳实践！](https://mp.weixin.qq.com/s/o_cXCroRSK5HAKG0wjC29Q) -->
 - ⭐️ ⭐️ [React + TypeScript实践](https://juejin.cn/post/6952696734078369828)
 - ⭐️ ⭐️ [用 Redux 做状态管理，真的很简单🦆](https://juejin.cn/post/7071066976830881823)
 - ⭐️ ⭐️ [「React进阶」react-router v6 通关指南](https://juejin.cn/post/7069555976717729805)
@@ -603,6 +604,7 @@ import TabItem from '@theme/TabItem';
 
 **编程风格指南**
 
+- ⭐️ [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 - ⭐️ [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy)
 - ⭐️ [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - ⭐️ [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
