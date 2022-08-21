@@ -5,16 +5,23 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const DeployConfig = require("./deployConfig.js");
 
+/** @param  {...any} params */
+const logger = (...params) => {
+  if (process.env.NODE_ENV === 'production') {
+    console.log(...params);
+  }
+}
+
 const getDeployConfig = () => {
   if (process.env.PLATFORM === 'VERCEL') {
-    console.log('===app build with: VERCEL===');
+    logger('===app build with: VERCEL===');
     return DeployConfig.VERCEL;
   }
   if (process.env.PLATFORM === 'NETLIFY') {
-    console.log('===app build with: NETLIFY===');
+    logger('===app build with: NETLIFY===');
     return DeployConfig.NETLIFY;
   }
-  console.log('===app build with: GH_PAGES===');
+  logger('===app build with: GH_PAGES===');
   return DeployConfig.GH_PAGES;
 }
 
