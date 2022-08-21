@@ -227,6 +227,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - 在线阅读：https://abseil.io/blog/04222021-swe-book
   - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
+- [【第2703期】软件架构手册](https://mp.weixin.qq.com/s/1h6yqCWyzYLM8WPGlGdtVA)
 - [【第2126期】每个开发者都应该知道的 SOLID 原则](https://mp.weixin.qq.com/s/KHeo5bdY4cjPfA5I1mjXWw)
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
 - [深入浅出前端做控制反转与依赖注入](https://www.yuque.com/surfacew/fe/qg0uev)
@@ -418,6 +419,8 @@ import TabItem from '@theme/TabItem';
 ## 网络相关
 
 - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- ⭐️ [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
+- [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
 - [字节三面，答的不满意](https://mp.weixin.qq.com/s/7P_1VkBeoArKuuEqGcR9ig)
 - [HTTP/3发布了，我们来谈谈HTTP/3](https://mp.weixin.qq.com/s/nRHlwYsr0MaadmaFWEIblQ)
 - [既然有 HTTP 协议，为什么还要有 RPC](https://mp.weixin.qq.com/s/qmnfmUCdekEt1xG0hp_4MQ)
@@ -486,6 +489,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
 - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
 - [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
 - [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
@@ -521,12 +525,19 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [31个！Golang常用工具来啦（建议收藏）](https://mp.weixin.qq.com/s/Ne0uir1hpMokBUItntkfvw)
   - ⭐️ [Golang依赖注入提升开发效率！](https://mp.weixin.qq.com/s/Mj-EqwYWZBMr8XNIHxUqDA)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
+  - 🌛 [【系列文章】Go 语言 Web 编程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1323498303014780929&scene=21&from_msgid=2247484112&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+  - 🌛 [【系列文章】Go 语言并发编程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1325302744319737858&scene=21&from_msgid=2247484375&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+  - 🌛 [【系列文章】Go 微服务实战](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1809543596702777345&scene=21&from_msgid=2247492061&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 文章分享
   - ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - [Go 眼中的文件系统是什么？ io.FS](https://mp.weixin.qq.com/s/gYWhjh1BburgeAU72mn_aw)
+  - [如何更直观地理解 Go 调度过程](https://mp.weixin.qq.com/s/0c7emt54ayCrm1K16lk2SQ)
+  - [Go1.19 那些你不知道的新特性](https://mp.weixin.qq.com/s/FviFOLkIHuEjZdTg_qCoNQ)
+  - [Go 中可别用复制锁，会有这些大问题！](https://mp.weixin.qq.com/s/SrqJdng9cNUEVAS7nFaqAA)
   - [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
   - [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
   - [伙计，Go项目怎么使用枚举](https://mp.weixin.qq.com/s/zyvO_hhUo1TRm6kMPcaFFQ)
@@ -540,6 +551,11 @@ import TabItem from '@theme/TabItem';
   - [这三个 Go 水平自测题，手写不出来还是先老实上班吧](https://mp.weixin.qq.com/s/YojNHW7kkjmmdjqBXCuQYA)
   - [不想Go 错误处理太臃肿，可以参考这个代码设计](https://mp.weixin.qq.com/s/pR_XHTnhft2Hi_mY7JuEJg)
   - [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
+- Golang 部署
+  - 使用 Docker Desktop 搭建 k8s 集群
+  - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
+  - [在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
+  - https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
