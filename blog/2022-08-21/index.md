@@ -7,24 +7,6 @@ tags: []
 
 ⭐️ [使用 TypeScript 编写 React 的最佳实践！](https://mp.weixin.qq.com/s/o_cXCroRSK5HAKG0wjC29Q)
 
-📒 如何解决闭包陷阱问题
-
-使用 nutui 组件的时候，发现会缓存传入的函数，导致内部一个变量一直引用旧的闭包，获取不到最新的值。这里实现了一个 `useMemorizedFn` 钩子，始终返回固定的引用，通过 `ref` 拿到最新的函数：
-
-```tsx
-const useMemorizedFn = (callback) => {
-  const callbackRef = React.useRef(null);
-
-  React.useEffect(() => {
-    callbackRef.current = callback;
-  });
-
-  return React.useCallback((...params) => {
-    callbackRef.current && callbackRef.current(...params);
-  }, []);
-};
-```
-
 📒 Webpack 构建优化
 
 https://tsejx.github.io/webpack-guidebook/best-practice/optimization/collection
@@ -51,11 +33,11 @@ Go 语言里使用 `io.Reader` 和 `io.Writer` 两个 interface 来抽象 `I/O`�
 
 ```go
 type Reader interface {
- Read(p []byte) (n int, err error)
+  Read(p []byte) (n int, err error)
 }
 
 type Writer interface {
- Write(p []byte) (n int, err error)
+  Write(p []byte) (n int, err error)
 }
 ```
 
@@ -68,7 +50,7 @@ type Writer interface {
 - [Go1.19 那些你不知道的新特性](https://mp.weixin.qq.com/s/FviFOLkIHuEjZdTg_qCoNQ)
 - [Go 中可别用复制锁，会有这些大问题！](https://mp.weixin.qq.com/s/SrqJdng9cNUEVAS7nFaqAA)
 
-📒 [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
+⭐️ [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
 
 📒 [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
 
