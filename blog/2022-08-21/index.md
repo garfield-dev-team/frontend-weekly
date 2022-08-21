@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [玩转 Chrome DevTools，定制自己的调试工具](https://juejin.cn/post/7133943494023839780)
+
+📒 [【第2707期】由 esbuild JavaScript API 看跨语言调用](https://mp.weixin.qq.com/s/ukZxF_W6dahisVW_Xf6-TA)
+
+📒 [Go 中闭包的底层原理是](https://mp.weixin.qq.com/s/Mmj6jJkuQMIf5SGEi_pBaQ)
+
 ⭐️ [使用 TypeScript 编写 React 的最佳实践！](https://mp.weixin.qq.com/s/o_cXCroRSK5HAKG0wjC29Q)
 
 📒 Webpack 构建优化
