@@ -261,6 +261,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+  - ⭐️ [用 Redis 都能实现哪些功能？这2万字+20张图给分析全了](https://mp.weixin.qq.com/s/frOhO8rj2Xvdix6tnjTOrw)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - 消息队列
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
