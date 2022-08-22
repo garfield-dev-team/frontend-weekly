@@ -470,6 +470,7 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/7js2uDZNv2Pb55ihKPc1xg)
 - [源码深度解析，Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/djVu6SJjfYj4y_LNW-SKyw)
 - [麻了，代码改成多线程，竟有9大问题](https://mp.weixin.qq.com/s/hhjwiMx-ypEbxwHJ9rJoBw)
 - [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
