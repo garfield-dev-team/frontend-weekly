@@ -267,6 +267,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - 消息队列
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
+  - [你管这破玩意儿叫 MQ](https://mp.weixin.qq.com/s/i_bwyEb8QqfVLxY-R9odag)
 - Elasticsearch 相关
   - ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
   - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
