@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [在 Go 里用 CGO？这 7 个问题你要关注！](https://mp.weixin.qq.com/s/Qlqt1pP_Li-PxOICrz7bAw)
+
+📒 [分布式接口幂等性、分布式限流：Guava 、nginx和lua限流](https://mp.weixin.qq.com/s/La5qCJh5Vup_gZIgZMOo4g)
+
+📒 [Go 探讨了 13 年，怎么解决再赋值的坑](https://mp.weixin.qq.com/s/Am0ORd08GsMc4xSdLG9kgg)
+
 📒 TypeScript Collections
 
 用 TypeScript 编写的数据结构合集
