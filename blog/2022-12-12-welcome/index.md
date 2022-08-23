@@ -491,6 +491,7 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
 - [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
 - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
 - [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
