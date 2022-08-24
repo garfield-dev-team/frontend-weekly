@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [浅析神经网络 Neural Networks](https://mp.weixin.qq.com/s/gaOzwCypQMFAJ4X50aUOcg)
+
 📒 [在 Go 里用 CGO？这 7 个问题你要关注！](https://mp.weixin.qq.com/s/Qlqt1pP_Li-PxOICrz7bAw)
 
 📒 [分布式接口幂等性、分布式限流：Guava 、nginx和lua限流](https://mp.weixin.qq.com/s/La5qCJh5Vup_gZIgZMOo4g)
