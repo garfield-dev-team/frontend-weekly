@@ -447,6 +447,7 @@ import TabItem from '@theme/TabItem';
 
 ## 机器学习
 
+- [浅析神经网络 Neural Networks](https://mp.weixin.qq.com/s/gaOzwCypQMFAJ4X50aUOcg)
 - [前端工程师如何快速使用一个NLP模型](https://juejin.cn/post/7075518863814869005)
 - 深入理解 Transformer：
   - https://www.bilibili.com/video/BV1P4411F77q
