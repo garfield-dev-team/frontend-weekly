@@ -5,6 +5,76 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Kubernetes原理与架构初探](https://mp.weixin.qq.com/s/Q0vxASPNiACd_gCl-rq-2Q)
+
+📒 VS Code 1.70 新特性
+
+**3-way merge editor**
+
+三路合并编辑器是在1.69版本里上线的，这个功能允许用户在VS Code内快速解决 Git 合并冲突。该功能启用后，可以通过点击「源代码控制视图」中的冲突文件来打开合并编辑器。
+
+```js title="settings.json"
+{
+  "git.mergeEditor": true
+}
+```
+
+**Git 提交辅助操作**
+
+可以使用 `git.postCommitCommand` 来设置控制辅助操作，比如允许用户在提交信息后进行推送或者同步。
+
+```js title="settings.json"
+{
+  "git.postCommitCommand": "sync"
+}
+```
+
+**分支保护**
+
+在之前的1.68版本中，VS Code就添加了 `git.branchProtection` 以用于配置受保护的特定分支。
+
+```js title="settings.json"
+{
+  "git.branchProtection": [
+    "main"
+  ]
+}
+```
+
+**Command Center**
+
+Command Center 功能启用后，其位于编辑器顶部的长条空间，让用户可以快速搜索项目中的文件。
+
+```js title="settings.json"
+{
+  "window.commandCenter": true
+}
+```
+
+**sticky scroll**
+
+当用户在编辑器中滚动鼠标查看代码时，每个子模块（比如：类/接口/命名空间/函数/方法等等）代码的第一行会置顶固定住，以方便查看。
+
+这对于一些长代码模块（比如一个很长的函数）的阅读体验提升还是非常有帮助的。
+
+```js title="settings.json"
+{
+  "editor.experimental.stickyScroll.enabled": true
+}
+```
+
+📒 [Java中的语法糖甜不甜？巧用枚举实现订单状态转换！](https://mp.weixin.qq.com/s/Mj_47WqUfIpcLF_-t38HYw)
+
+📒 [看 Go 中的 struct 如何被优化，还有小插曲](https://mp.weixin.qq.com/s/EGN7G8ku-zkaZuzfBwx9Qw)
+
+📒 [Rust 与 Go 可以互操作](https://mp.weixin.qq.com/s/7A6VCvuv8umUlOUzB2uHfA)
+
+📒 [SWC 入门介绍](https://mp.weixin.qq.com/s/8Bc9k880DpwsaY9pJIowSA)
+
+📒 [听说TCP能保证不丢包？图解TCP六大丢包场景](https://mp.weixin.qq.com/s/DbTAUiBt4GE4whYe9S6Ifw)
+
+📒 [Vue3中defineEmits、defineProps 是怎么做到不用引入就能直接用的](https://mp.weixin.qq.com/s/Z29mNvpU6LVBBSS9FGZk_w)
+
 📒 [浅析神经网络 Neural Networks](https://mp.weixin.qq.com/s/gaOzwCypQMFAJ4X50aUOcg)
 
 📒 [在 Go 里用 CGO？这 7 个问题你要关注！](https://mp.weixin.qq.com/s/Qlqt1pP_Li-PxOICrz7bAw)
