@@ -495,14 +495,18 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
-- [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
-- [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
-- [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
-- [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
-- [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
-- [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+- 表结构设计
+  - [聊聊数据库建表的15个小技巧](https://juejin.cn/post/7136126923851169823)
+  - [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
+  - [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
+- MySQL 优化
+  - [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
+  - [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
+  - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
+  - [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
+  - [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
+  - [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
-- [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
 - [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
 - [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
 - [一次 MySQL 误操作导致的事故，「高可用」都顶不住了！](https://mp.weixin.qq.com/s/L9qseWiHGfu1oAuKIhcUhw)
@@ -513,7 +517,6 @@ import TabItem from '@theme/TabItem';
 - [MySQL 主从，6 分钟带你掌握](https://mp.weixin.qq.com/s/8OOSyFB9pzoBMH73ey7YmQ)
 - [大厂面试题：日常工作如何做MySQL优化](https://mp.weixin.qq.com/s/N08tFkGyXtmBSN0nS6S6UA)
 - [Mysql完结汇总篇（18W字送给大家），完结撒花](https://mp.weixin.qq.com/s/i8SHizPrBMQ2GIhQP7ozRw)
-- [InnoDB原理篇：如何用好索引](https://mp.weixin.qq.com/s/yaza2iQ93BCvOW-uduS-yw)
 - [面试官：什么是MySQL 事务与 MVCC 原理？](https://juejin.cn/post/7081456994413969445)
 
 ## Golang 学习
