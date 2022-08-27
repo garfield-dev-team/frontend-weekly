@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [抖音平台多产物代码隔离技术的实践与探索](https://mp.weixin.qq.com/s/fjeF3LLoGsPIQN4D3el67g)
+
+📒 [Hooks时代，如何写出高质量的react和vue组件](https://juejin.cn/post/7123961170188304391)
+
+⭐️ [Vite 约定式路由的最佳实践](https://mp.weixin.qq.com/s/IGaUcYDIb4e3zGGi9jvdig)
+
+📒 [Go使用泛型后，这么写单元测试会失效](https://mp.weixin.qq.com/s/2VGeRphTiS2XXUiBnhvvcA)
+
+📒 [如何保证数据库和缓存双写一致性](https://mp.weixin.qq.com/s/mO819q_r9qLVuRBE8cjx1Q)
+
+⭐️ [【第2713期】工程化思维：主题切换架构](https://mp.weixin.qq.com/s/fymuGPW-9agEtxYX2s4FPQ)
+
+📒 [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
+
+📒 [美团一面：如何在 100 亿数据中找到中位数](https://mp.weixin.qq.com/s/XmsSgGop7TT_RQvXyp1kGA)
+
 📒 [Kubernetes原理与架构初探](https://mp.weixin.qq.com/s/Q0vxASPNiACd_gCl-rq-2Q)
 
 📒 VS Code 1.70 新特性
