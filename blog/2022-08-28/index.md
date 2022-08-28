@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2714期】从Multirepo到Monorepo 袋鼠云数栈前端研发效率提升探索之路](https://mp.weixin.qq.com/s/JWks8VyuXoB5zaeYdyJPxw)
+
 📒 [抖音平台多产物代码隔离技术的实践与探索](https://mp.weixin.qq.com/s/fjeF3LLoGsPIQN4D3el67g)
 
 📒 [Hooks时代，如何写出高质量的react和vue组件](https://juejin.cn/post/7123961170188304391)
