@@ -546,6 +546,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - [深入理解StatefulSet，用Kubernetes编排有状态应用](https://mp.weixin.qq.com/s/y60q0-RMh8isd4u4PuLfUg)
+  - [Go Modules 终极入门](https://juejin.cn/post/6844903433846145038)
   - [非常适合PHP同学使用的GO框架：GoFrame](https://juejin.cn/post/7075098594151235597)
   - [Go如何优雅的记录操作日志 | 冲刺掘金一周](https://juejin.cn/post/7134497015576133669)
   - [Go 眼中的文件系统是什么？ io.FS](https://mp.weixin.qq.com/s/gYWhjh1BburgeAU72mn_aw)
