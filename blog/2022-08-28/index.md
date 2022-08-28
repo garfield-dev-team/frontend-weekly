@@ -21,6 +21,16 @@ tags: []
 
 📒 [美团一面：如何在 100 亿数据中找到中位数](https://mp.weixin.qq.com/s/XmsSgGop7TT_RQvXyp1kGA)
 
+📒 解决老工程 toast 组件问题
+
+老工程 React 15.x，Webpack 2.x，工程里面原先没有组件库。
+
+关于 npm 包可能存在部分 ES6 语法，低版本 Webpack 无法解析问题，可以用 Babel 转一下。同理 NPM 包使用了 ES Module 模块语法，也可以用 Babel 转为 CommonJS。现在主要的问题是，大多数 toast 组件，底层都用了 React Hooks，即使 ES 语法兼容，但是运行环境 React 版本太老还是无法兼容。最终还是选用 rc-notification，参考 antd 封装：
+
+https://github.com/react-component/notification/tree/2.0.6
+
+https://github.com/ant-design/ant-design/blob/2.13.14/components/message/index.tsx
+
 📒 [Kubernetes原理与架构初探](https://mp.weixin.qq.com/s/Q0vxASPNiACd_gCl-rq-2Q)
 
 📒 VS Code 1.70 新特性
