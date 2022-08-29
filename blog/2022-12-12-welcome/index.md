@@ -543,6 +543,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 文章分享
+  - ⭐️ [工厂模式有三个Level，你能用Go写到第几层](https://mp.weixin.qq.com/s/MlC6-TDf06LGpF8hxcSV_w)
+  - ⭐️ [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
   - ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
@@ -555,7 +557,6 @@ import TabItem from '@theme/TabItem';
   - [Go1.19 那些你不知道的新特性](https://mp.weixin.qq.com/s/FviFOLkIHuEjZdTg_qCoNQ)
   - [Go 中可别用复制锁，会有这些大问题！](https://mp.weixin.qq.com/s/SrqJdng9cNUEVAS7nFaqAA)
   - [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
-  - [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
   - [伙计，Go项目怎么使用枚举](https://mp.weixin.qq.com/s/zyvO_hhUo1TRm6kMPcaFFQ)
   - [Go ORM 单元测试全流程讲解](https://mp.weixin.qq.com/s/XPPwHd7eDUjvzsnuFwgbyw)
   - [超全总结：Go语言如何操作文件](https://mp.weixin.qq.com/s/r30z2i_sSuRfEnM_23wFlg)
