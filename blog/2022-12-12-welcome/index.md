@@ -262,8 +262,14 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 服务端相关
 
+- 推荐算法
+  - [图文解读：推荐算法架构——精排！](https://mp.weixin.qq.com/s/GetU-ULhfvY8ri47Ht28GQ)
+  - [超强指南！推荐算法架构——重排](https://mp.weixin.qq.com/s/wXb5uQJBCzSEq6IITP7VCQ)
+  - [详细解读！推荐算法架构——召回](https://mp.weixin.qq.com/s/1wOnG4dtNSI-x2x15-AjTQ)
+  - [图文并茂！推荐算法架构——粗排](https://mp.weixin.qq.com/s/YsK_8yyBNL5z269qT5CrIw)
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+  - 🌛 [图文结合！Redis延迟队列golang高效实践](https://mp.weixin.qq.com/s/dCZm7e0aSEirhEqiCBvAyQ)
   - ⭐️ [用 Redis 都能实现哪些功能？这2万字+20张图给分析全了](https://mp.weixin.qq.com/s/frOhO8rj2Xvdix6tnjTOrw)
   - ⭐️ [如何保证数据库和缓存双写一致性](https://mp.weixin.qq.com/s/mO819q_r9qLVuRBE8cjx1Q)
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
@@ -535,6 +541,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [作为Gopher，你知道Go的注释即文档应该怎么写吗](https://mp.weixin.qq.com/s/r4IWY6bzKph2QvxrKZszPA)
   - ⭐️ [31个！Golang常用工具来啦（建议收藏）](https://mp.weixin.qq.com/s/Ne0uir1hpMokBUItntkfvw)
   - ⭐️ [Golang依赖注入提升开发效率！](https://mp.weixin.qq.com/s/Mj-EqwYWZBMr8XNIHxUqDA)
+  - ⭐️ [必撸系列！Go另外几个黑魔法技巧汇总](https://mp.weixin.qq.com/s/--ciEa-Oj0NEUxlp1Af_aQ)
   - ⭐️ [来了！Go的2个黑魔法技巧](https://mp.weixin.qq.com/s/8HNZQrQ2oqMB2fAYbmH2Ow)
   - ⭐️ [Go组件：context学习笔记！](https://mp.weixin.qq.com/s/OCpVRwtiphFRZgu9zdae5g)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
