@@ -603,6 +603,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
 - 🌛 [用Rust锈化Vue Compiler](https://zhuanlan.zhihu.com/p/417534662)
+- 🌛 [用 Rust 实现的数据结构与算法合辑](https://github.com/TheAlgorithms/Rust)
 
 ## 网站推荐
 
@@ -611,6 +612,8 @@ import TabItem from '@theme/TabItem';
 - [MDN 文档](https://developer.mozilla.org/zh-CN/)
 - [caniuse：查询 API 兼容性](https://caniuse.com/)
 - [bundlephobia：查询 NPM 包体积](https://bundlephobia.com/)
+- [Deno cheat sheet](https://oscarotero.com/deno/)
+- [Explain Shell](https://explainshell.com/)
 - [《阮一峰 ES6 教程》](https://es6.ruanyifeng.com/)
 - [《浏览器工作原理与实践》](https://link.juejin.cn/?target=https%3A%2F%2Fblog.poetries.top%2Fbrowser-working-principle%2F)
 - [《深入浅出 webpack》](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.wuhaolin.cn%2F)
