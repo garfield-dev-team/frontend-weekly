@@ -5,6 +5,38 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [MySQL 单表最大两千万？我不信](https://mp.weixin.qq.com/s/DG48sC4b42TEpHLNnFtlhw)
+
+📒 [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
+
+📒 [Deno cheat sheet](https://oscarotero.com/deno/)
+
+🌛 [用 Rust 实现的数据结构与算法合辑](https://github.com/TheAlgorithms/Rust)
+
+📒 使用 React 18 和 Suspense 改善 INP（Interaction to Next Paint）指标
+
+> https://vercel.com/blog/improving-interaction-to-next-paint-with-react-18-and-suspense
+
+📒 7 种创建新 React 应用的最佳方式
+
+Create React App 可能是最有名的，但还有其他一些方法值得考虑，包括更大的框架（如 Next.js）或构建系统（如 NX）。
+
+> https://blog.bitsrc.io/6-best-ways-to-create-a-new-react-application-57b17e5d331a?gi=dc52c656ac21
+
+📒 Advanced React component composition
+
+> https://frontendmastery.com/posts/advanced-react-component-composition-guide/
+
+📒 Why React Re-Renders
+
+如果你想要使 React 应用获得最好的性能，那么理解和正确处理渲染过程是非常重要的。有很多关于如何使 React 渲染更高效的文章，但这篇文章深入探讨了为什么 React 能够以一种可访问的、容易遵循的方式进行渲染。
+
+> https://www.joshwcomeau.com/react/why-react-re-renders/
+
+`why-did-you-render` 是一个经典的工具，用于进一步深入这个问题。
+
+> https://github.com/welldone-software/why-did-you-render
+
 ⭐️ [工厂模式有三个Level，你能用Go写到第几层](https://mp.weixin.qq.com/s/MlC6-TDf06LGpF8hxcSV_w)
 
 📒 [TypeScript 4.8 发布！重点新特性解读](https://mp.weixin.qq.com/s/tu5bBNn3UJ5r3Z7K5eqwJw)
