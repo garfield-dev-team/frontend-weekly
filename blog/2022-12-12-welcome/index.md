@@ -483,6 +483,7 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- [1.2w+字！Java IO 基础知识总结](https://mp.weixin.qq.com/s/J_11wYusexAjwa1cuckyfw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/7js2uDZNv2Pb55ihKPc1xg)
 - [源码深度解析，Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/djVu6SJjfYj4y_LNW-SKyw)
 - [麻了，代码改成多线程，竟有9大问题](https://mp.weixin.qq.com/s/hhjwiMx-ypEbxwHJ9rJoBw)
