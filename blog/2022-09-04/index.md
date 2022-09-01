@@ -11,6 +11,54 @@ tags: []
 
 📒 [如何让 Go 反射变快](https://mp.weixin.qq.com/s/fzmN6zFVioQGedTdSDmyqQ)
 
+
+📒 如何优雅实现组件懒加载
+
+```tsx
+const Root = React.lazy(() => import("@pages/Root"));
+```
+
+第一种：用 `withSuspense` 高阶组件
+
+```tsx
+const withSuspense = <T extends {}>(Component: React.ComponentType<T>) => {
+  const HOC: React.FC<T> = (props) => {
+    return (
+      <React.Suspense fallback={Fallback}>
+        <Component {...props} />
+      </React.Suspense>
+    );
+  };
+  return HOC;
+};
+
+const SuspenseRoot = withSuspense(Root);
+          
+const routerConfig: RouteObject[] = [
+  {
+    path: "/",
+    element: <SuspenseRoot />,
+    children: [],
+  },
+];
+```
+
+第二种：直接用 `wrapSuspense`
+
+```tsx
+const wrapSuspense = (element: React.ReactNode) => {
+  return <React.Suspense fallback={Fallback}>{element}</React.Suspense>;
+};
+
+const routerConfig: RouteObject[] = [
+  {
+    path: "/",
+    element: wrapSuspense(<Root />),
+    children: [],
+  },
+];
+```
+
 📒 [MySQL 单表最大两千万？我不信](https://mp.weixin.qq.com/s/DG48sC4b42TEpHLNnFtlhw)
 
 📒 [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
