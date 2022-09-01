@@ -5,59 +5,21 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [AI数字绘画 stable-diffusion 保姆级教程](https://mp.weixin.qq.com/s/nDnQuZn3hVgrwqWVada2cw)
+
+📒 [Go 的零值有什么用？看看这 4 个场景](https://mp.weixin.qq.com/s/Ucqqg4h9uRo7RVd8XCz80w)
+
+📒 [对前端架构的理解 - 分层与抽象](https://mp.weixin.qq.com/s/5TfAoS6nuFalfZuQ2Fv3_w)
+
+📒 [【第2719期】如何使用 HTTPS 进行本地开发](https://mp.weixin.qq.com/s/uAh_9gIth2HNS67y2z8pew)
+
+📒 [Go 适合 IO 密集型？并不准确！](https://mp.weixin.qq.com/s/xDXwsVjOfU2j3gisiHTZTQ)
+
 📒 [Announcing Vituum - Template engines and more in Vite](https://dev.to/lubomirblazekcz/announcing-vituum-template-engines-and-more-in-vite-377k)
 
 📒 [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 
 📒 [如何让 Go 反射变快](https://mp.weixin.qq.com/s/fzmN6zFVioQGedTdSDmyqQ)
-
-
-📒 如何优雅实现组件懒加载
-
-```tsx
-const Root = React.lazy(() => import("@pages/Root"));
-```
-
-第一种：用 `withSuspense` 高阶组件
-
-```tsx
-const withSuspense = <T extends {}>(Component: React.ComponentType<T>) => {
-  const HOC: React.FC<T> = (props) => {
-    return (
-      <React.Suspense fallback={Fallback}>
-        <Component {...props} />
-      </React.Suspense>
-    );
-  };
-  return HOC;
-};
-
-const SuspenseRoot = withSuspense(Root);
-          
-const routerConfig: RouteObject[] = [
-  {
-    path: "/",
-    element: <SuspenseRoot />,
-    children: [],
-  },
-];
-```
-
-第二种：直接用 `wrapSuspense`
-
-```tsx
-const wrapSuspense = (element: React.ReactNode) => {
-  return <React.Suspense fallback={Fallback}>{element}</React.Suspense>;
-};
-
-const routerConfig: RouteObject[] = [
-  {
-    path: "/",
-    element: wrapSuspense(<Root />),
-    children: [],
-  },
-];
-```
 
 📒 [MySQL 单表最大两千万？我不信](https://mp.weixin.qq.com/s/DG48sC4b42TEpHLNnFtlhw)
 
