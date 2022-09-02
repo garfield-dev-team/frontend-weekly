@@ -555,6 +555,7 @@ import TabItem from '@theme/TabItem';
 - Golang 文章分享
   - ⭐️ [工厂模式有三个Level，你能用Go写到第几层](https://mp.weixin.qq.com/s/MlC6-TDf06LGpF8hxcSV_w)
   - ⭐️ [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
+  - ⭐️ [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/OKUeAdicn0Bvkz8dYx1epQ)
   - ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
@@ -573,7 +574,6 @@ import TabItem from '@theme/TabItem';
   - [Go 的时间转换和时区校对总记不住？给你一份备忘单](https://mp.weixin.qq.com/s/HaF9qieEJWNUoyY9qTvnKw)
   - [搞清楚 Go Mod的版本和伪版本，下次别乱用了](https://mp.weixin.qq.com/s/ptJK7CDHCr6P4JCdsUXKdg)
   - [自己的项目，如何发布到Go Module上](https://mp.weixin.qq.com/s/7jLmwtP3xk-wbCFKqPLK2g)
-  - [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/OKUeAdicn0Bvkz8dYx1epQ)
   - [这不会又是一个Go的BUG吧](https://mp.weixin.qq.com/s/Dn2oM89mHEgoz8yVQnNEoQ)
   - [这三个 Go 水平自测题，手写不出来还是先老实上班吧](https://mp.weixin.qq.com/s/YojNHW7kkjmmdjqBXCuQYA)
   - [不想Go 错误处理太臃肿，可以参考这个代码设计](https://mp.weixin.qq.com/s/pR_XHTnhft2Hi_mY7JuEJg)
