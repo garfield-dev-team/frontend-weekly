@@ -5,6 +5,32 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [深入理解 Mocha 测试框架：从零实现一个 Mocha](https://juejin.cn/post/7138781839720153096)
+
+📒 [React 官网为什么那么快](https://juejin.cn/post/7128369638794231839)
+
+📒 [基于storybook组件库的技术选型该怎么选](https://mp.weixin.qq.com/s/xjY0d8eNTmAuCZKxKQeu7g)
+
+📒 图解 Node.js 的核心 event-loop
+
+我们平时说 Node.js 是单线程仅仅是指 node 执行我们的 JS 代码，更准确地说是 V8 执行 JS code 是发生在单线程里面的。实际上如果你打开 Node 进程，会发现它有不少 worker thread。这是一个典型的单进程多线程模型。这些 worker thread 被放置于线程池里面，而 V8 执行 JS code 的线程被称为主线程。
+
+[图解 Node.js 的核心 event-loop](https://mp.weixin.qq.com/s/kz9ahljqVnJ7m6PExULs6A)
+
+📒 [手把手教你手写 Vite Server（二）—— 插件架构设计](https://mp.weixin.qq.com/s/xAi8IuD1GrfS7qiJqQqM3Q)
+
+📒 [为什么 Vue3 的 VNode 不能单独组成一棵完整的树](https://mp.weixin.qq.com/s/SLy0e1HnEcMFlB__jRuu3A)
+
+📒 [深度解读 Vite 的依赖扫描](https://mp.weixin.qq.com/s/LJ4zVn31UeM7Z1ouN67t8A)
+
+📒 [浅谈MyBatis批量插入的3种方法，10w条数据使用foreach仅需2秒！！](https://mp.weixin.qq.com/s/HzT6G9x6fb4hPZqkBvTIew)
+
+📒 [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
+
+📒 [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/zT4d2snbG8td8fg9Gt--ig)
+
+📒 [几个非常有意思的javascript知识点总结](https://mp.weixin.qq.com/s/3VrteSGHNKO5qRjNYTuj5g)
+
 📒 [AI数字绘画 stable-diffusion 保姆级教程](https://mp.weixin.qq.com/s/nDnQuZn3hVgrwqWVada2cw)
 
 📒 [Go 的零值有什么用？看看这 4 个场景](https://mp.weixin.qq.com/s/Ucqqg4h9uRo7RVd8XCz80w)
