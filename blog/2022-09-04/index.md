@@ -121,19 +121,12 @@ https://ente.io/blog/tech/typescript-for-react/
 作者分别用 Tauri 和 Electron 实现了 Authme，然后从打包、启动时间、性能、后端、应用渲染、安全、自动更新、开发体验共 8 个维度进行了对比。
 
 1、「打包」Tauri 完胜。1）尺寸上 Tauri 2.5M vs. Electron 85M，2）Tauri 的产物是二进制的，反编译解码逻辑所需成本相比 Electron 会高很多。
-
 2、「启动时间」Tauri 胜。Tauri 2s vs. Electron 4s。
-
 3、「性能」Tauri 完胜。
-
 4、「后端」Electron 胜。因为 Electron 后端基于 Node，而 Tauri 基于 Rust。当然如果你会 Rust 则是另一回事。另外，Tauri 的 Roadmap 里有支持其他后端绑定的计划，比如 Deno，届时就又可以用 JavaScript/TypeScript 写后端了。
-
 5、「应用渲染」Electron 胜。Electron 使用 Chromium，所以你的用户在 Windows、Linux 和 macOS 上看到的东西是一样的。Tauri 使用系统的 WebView，Windows 上使用 Edge Webview2（Chromium），Linux 上使用 WebKitGTK，macOS 上使用 WebKit。这里的问题是 Webkit 的支持总是落后一点，所以你可能会需要额外的补丁。
-
 6、「安全」Tauri 胜。Tauri 内置大量安全功能，可以明确启用或禁用某些 API。Electron 中则可以完全访问 Node 的 API，所以相比来说更容易被黑客利用。
-
 7、「自动更新」Electron 胜。Tauri 和 Electron 都内置了自动更新器，而 Tauri 的相对简单，同时需要维护依赖并手动更新 JSON，而 Electron 可基于 electron-updater 并直接从 Github 发布的二进制文件中提取，要方便很多。
-
 8、「开发体验」Tauri 胜。基于 Tauri CLI 就会包含热重载、为所有平台构建你的应用程序、生成应用程序图标等全部功能，而 Electron 啥都没有提供，只有框架本身。
 
 https://www.levminer.com/blog/tauri-vs-electron
