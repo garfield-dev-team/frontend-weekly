@@ -544,6 +544,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [作为Gopher，你知道Go的注释即文档应该怎么写吗](https://mp.weixin.qq.com/s/r4IWY6bzKph2QvxrKZszPA)
   - ⭐️ [31个！Golang常用工具来啦（建议收藏）](https://mp.weixin.qq.com/s/Ne0uir1hpMokBUItntkfvw)
   - ⭐️ [Golang依赖注入提升开发效率！](https://mp.weixin.qq.com/s/Mj-EqwYWZBMr8XNIHxUqDA)
+  - ⭐️ [Go语言从0到1实现最简单的数据库！](https://mp.weixin.qq.com/s/VFS4TWi3OpeAegScZ4cJRw)
   - ⭐️ [必撸系列！Go另外几个黑魔法技巧汇总](https://mp.weixin.qq.com/s/--ciEa-Oj0NEUxlp1Af_aQ)
   - ⭐️ [来了！Go的2个黑魔法技巧](https://mp.weixin.qq.com/s/8HNZQrQ2oqMB2fAYbmH2Ow)
   - ⭐️ [Go组件：context学习笔记！](https://mp.weixin.qq.com/s/OCpVRwtiphFRZgu9zdae5g)
@@ -560,9 +561,16 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go指针的使用限制和突破之路](https://mp.weixin.qq.com/s/SpVTl64W1Exy8fuN15-kmA)
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - [Go 的零值有什么用？看看这 4 个场景](https://mp.weixin.qq.com/s/Ucqqg4h9uRo7RVd8XCz80w)
+  - [Go 适合 IO 密集型？并不准确！](https://mp.weixin.qq.com/s/xDXwsVjOfU2j3gisiHTZTQ)
+  - [如何让 Go 反射变快](https://mp.weixin.qq.com/s/fzmN6zFVioQGedTdSDmyqQ)
+  - [3种方式！Go Error处理最佳实践](https://mp.weixin.qq.com/s/Zb5zGOy_mdalUQ_Qy0HngQ)
   - [深入理解StatefulSet，用Kubernetes编排有状态应用](https://mp.weixin.qq.com/s/y60q0-RMh8isd4u4PuLfUg)
   - [Go Modules 终极入门](https://juejin.cn/post/6844903433846145038)
   - [非常适合PHP同学使用的GO框架：GoFrame](https://juejin.cn/post/7075098594151235597)
+  - [看 Go 中的 struct 如何被优化，还有小插曲](https://mp.weixin.qq.com/s/EGN7G8ku-zkaZuzfBwx9Qw)
+  - [在 Go 里用 CGO？这 7 个问题你要关注！](https://mp.weixin.qq.com/s/Qlqt1pP_Li-PxOICrz7bAw)
+  - [Go 探讨了 13 年，怎么解决再赋值的坑](https://mp.weixin.qq.com/s/Am0ORd08GsMc4xSdLG9kgg)
   - [Go如何优雅的记录操作日志 | 冲刺掘金一周](https://juejin.cn/post/7134497015576133669)
   - [Go 眼中的文件系统是什么？ io.FS](https://mp.weixin.qq.com/s/gYWhjh1BburgeAU72mn_aw)
   - [如何更直观地理解 Go 调度过程](https://mp.weixin.qq.com/s/0c7emt54ayCrm1K16lk2SQ)
@@ -584,6 +592,9 @@ import TabItem from '@theme/TabItem';
   - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
   - [在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
   - https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
+- Golang 开源库推荐
+  - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
+  - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
