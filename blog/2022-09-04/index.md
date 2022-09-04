@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Resize Observer 介绍及原理浅析](https://mp.weixin.qq.com/s/o41_hJE6Sa67b3GtK3ogIA)
+
+📒 [【第2722期】腾讯医药微信小程序性能优化：从0.9秒到0.5秒](https://mp.weixin.qq.com/s/kiLgCwfbak6CXHJWxomSeA)
+
 📒 [深入理解 Mocha 测试框架：从零实现一个 Mocha](https://juejin.cn/post/7138781839720153096)
 
 📒 [React 官网为什么那么快](https://juejin.cn/post/7128369638794231839)
