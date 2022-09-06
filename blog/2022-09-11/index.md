@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [从Vuex到Pinia](https://mp.weixin.qq.com/s/1tUkWA1Df6k1lX8q5PW17g)
+
+📒 [程序员有很厉害，不外传的代码吗？可以运行，但不能动的那种！](https://mp.weixin.qq.com/s/-PGp9meVMBGlkss7dXqDXA)
+
+📒 [你想知道的前后端协作规范都在这了](https://mp.weixin.qq.com/s/NjX2be78BlHrXF5hlKlA8A)
+
+📒 [1.3w字，一文详解死锁！](https://mp.weixin.qq.com/s/hZiRxXUrQwWEwT9JBkllTg)
+
+📒 [【第2724期】前后端数据接口协作提效实践](https://mp.weixin.qq.com/s/rAwplRSzwZne_KaCAJ2omA)
+
+📒 [去字节面试，直接让人出门左拐：Bean 生命周期都不知道！](https://mp.weixin.qq.com/s/Rn4QjAmi581R0WkDxyTLjQ)
+
+📒 [聊聊数据库建表的15个小技巧](https://mp.weixin.qq.com/s/q7xK94mOphCO9PWVhsBIQQ)
+
 📒 [如何优化你的 Node.js API](https://mp.weixin.qq.com/s/nDg3NGAoeLdHkm54kb5bWw)
 
 📒 [金九银十Go面试题进阶知识点：select和channel](https://juejin.cn/post/7139768397423706126)
