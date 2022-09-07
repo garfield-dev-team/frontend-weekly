@@ -5,6 +5,34 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [10 best practices to build a Java container with Docker](https://snyk.io/blog/best-practices-to-build-java-containers-with-docker/)
+
+📒 [How to create a systemd service in Linux](https://linuxhandbook.com/create-systemd-services/)
+
+📒 [Go 1.19.1 和 Go 1.18.6 终究还是来了](https://mp.weixin.qq.com/s/r2_eSoM11nZPYp_1aNatBQ)
+
+📒 [5分钟自建数据库可视化平台，在线管理数据库也太方便了！](https://mp.weixin.qq.com/s/oVr9ojK6A8d8DIiIVdHwpQ)
+
+📒 [匿名 iframe：COEP 的福音！](https://mp.weixin.qq.com/s/tVASa1trXkJR9nK_isTbmw)
+
+📒 [这些强大的 JS 操作符，你都知道吗](https://mp.weixin.qq.com/s/nzpJPMVs1JznYotZXb4tbQ)
+
+📒 [「Go工具箱」一个基于双向链表实现的LRU缓存工具](https://mp.weixin.qq.com/s/605zrHjHFsjJvRq7_xFP_Q)
+
+📒 [这个 Go 开发的网络抓包工具，不仅好用还支持ES检索](https://mp.weixin.qq.com/s/mNjLiEBnHIZhOTrDwNkmvA)
+
+📒 [一道简单又有意思的 JavaScript 手写题 — 异步加法 asyncAdd](https://juejin.cn/post/7134583899597832200)
+
+📒 [高并发下的网络 IO 模型设计](https://mp.weixin.qq.com/s/naGheZq_z5d8pyB_i9hY7g)
+
+📒 [qiankun微前端改造实战（架构设计+代码实现）-超级详细vue代码干货篇！（伸手党福利）](https://juejin.cn/post/7096047543447978014)
+
+📒 [Go语言中常见100问题-#8 any says nothing](https://mp.weixin.qq.com/s/FE8WgfINZ0hSWldkXVGo9g)
+
+📒 [读 Node.js 源码深入理解 cjs 模块系统](https://juejin.cn/post/7140549209735823373)
+
+📒 [前端食堂技术周刊第 51 期：pnpm v7.10.0、8 月登陆网络平台的新内容、重新思考流行的 Node.js 模式和工具、打包 JavaScript 库的](https://juejin.cn/post/7140216695834017822)
+
 📒 [从Vuex到Pinia](https://mp.weixin.qq.com/s/1tUkWA1Df6k1lX8q5PW17g)
 
 📒 [程序员有很厉害，不外传的代码吗？可以运行，但不能动的那种！](https://mp.weixin.qq.com/s/-PGp9meVMBGlkss7dXqDXA)
