@@ -5,6 +5,177 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [美团二面：考我幻读，结果答的不好](https://mp.weixin.qq.com/s/b805ZIO7-IabjStlAs7Wow)
+
+📒 码住！Golang并发安全与引用传递总结
+
+先看一个在Go中关于Map类型并发读写的经典例子：
+
+```go
+var testMap  = map[string]string{}
+func main() {
+  go func() {
+    for{
+      _ = testMap["bar"]
+    }
+  }()
+  go func() {
+    for  {
+      testMap["bar"] = "foo"
+    }
+  }()
+  select{}
+}
+```
+
+以上例子会引发一个Fatal error：
+
+> fatal error: concurrent map read and map write
+
+产生这个错误的原因就是在Go中Map类型并不是并发安全的，出于安全的考虑，此时会引发一个致命错误以保证程序不出现数据的混乱。
+
+Golang 如何检测 Map 并发异常？
+
+对于查询操作，大致检查并发错误的流程如下：在查询前检查并发flag是否存在，如果存在就抛出异常。
+
+```go
+if h.flags&hashWriting != 0 {
+  throw("concurrent map read and map write")
+}
+```
+
+对于修改操作则如下：
+
+- 写入前检查一次标记位，通过后打上标记
+- 写入完成再次检查标记位，通过后还原标记
+
+```go
+ //各类前置操作
+....
+if h.flags&amp;hashWriting != 0 {
+  //检查是否存在并发
+  throw("concurrent map writes")
+}
+
+//赋值标记位
+h.flags ^= hashWriting
+....
+//后续操作
+done:
+//完成修改后，再次检查标记位
+if h.flags&hashWriting == 0 {
+  throw("concurrent map writes")
+}
+//还原标记位取消hashWriting标记
+h.flags &^= hashWriting
+```
+
+如何避免 Map 的并发问题？
+
+go官方认为因为Map并发的问题在实际开发中并不常见，如果把Map原生设计成并发安全的会带来巨大的性能开销。因此需要使用额外方式来实现。
+
+1. 自行使用锁和map来解决并发问题
+
+```go
+type cocurrentMap = struct {
+  sync.RWMutex
+  m map[string]string
+}
+
+func main() {
+  var testMap = &cocurrentMap{m:make(map[string]string)}
+  //写
+  testMap.Lock()
+  testMap.m["a"] = "foo"
+  testMap.Unlock()
+  //读
+  testMap.RLock()
+  fmt.Println(testMap.m["a"])
+  testMap.RUnlock()
+}
+```
+
+> 这个方法存在问题就是并发量巨大的时候，锁的竞争也会带来巨量消耗，性能一般
+
+2. 使用sync.Map
+
+sync.Map通过巧妙的设计来提高并发安全下Map的性能，其设计思路是通过空间换时间来实现的，同时维护2份数据，read&dirty。read主要用来避免读写冲突。
+
+其数据结构如下：
+
+```go
+type Map struct {
+  mu Mutex //锁
+  read atomic.Value //readOnly
+  dirty map[interface{}]*entry //*entry
+  misses int
+}
+
+type readOnly struct {
+  m       map[interface{}]*entry
+  amended bool // true if the dirty map contains some key not in m.
+}
+
+type entry struct {
+  p unsafe.Pointer // *interface{}
+}
+```
+
+使用示例如下：
+
+```go
+var m sync.Map
+// 写
+m.Store("test", 1)
+m.Store(1, true)
+
+// 读
+val1, _ := m.Load("test")
+val2, _ := m.Load(1)
+fmt.Println(val1.(int))
+fmt.Println(val2.(bool))
+
+//遍历
+m.Range(func(key, value interface{}) bool {
+   //....
+   return true
+})
+
+//删除
+m.Delete("test")
+
+//读取或写入
+m.LoadOrStore("test", 1)
+```
+
+这里对sync.Map的原理不做深入展开，只提几点特性：
+
+- read和dirty是共享内存的，尽量减少冗余内存的开销
+- read是原子性的，可以并发读，写需要加锁
+- 读的时候先read中取，如果没有则会尝试去dirty中读取（需要有标记位readOnly.amended配合）
+- dirty就是原生Map类型，需要配合各类锁读写
+- 当read中miss次数等于dirty长度时，dirty会提升为read，并且清理已经删除的k-v（延迟更新，具体如何清理需要enrty中的p标记位配合）
+- 双检查（在加锁后会再次对值检查一遍是否依然符合条件）
+- sync.Map适用于读多写少的场景
+- sync.Map没有提供获取长度size的方法，需要通过遍历来计算
+
+切片类型 Slice 是并发安全的吗
+
+与Map一样，Slice也不是并发安全的。但是在切片中并不会引发panic，如果程序无意中对切片使用了并发读写，严重的话会导致获取的数据和之后存储的数据错乱，所以这里要格外小心，可以通过加锁来避免。
+
+切片除了并发有问题外，还有几点注意：
+
+- Go只会对基础值类型在传参中使用深拷贝，实际上对于Slice和Map类型，使用的是浅拷贝，Slice作为传参，其指向的内存地址依然是原数据
+- Slice扩容机制的影响：向Slice中添加元素超出容量的时候，我们知道会触发扩容机制，而扩容机制会创建一份新的【原数据】此时，它与浅拷贝获取到的变量是没有任何关联的
+
+[码住！Golang并发安全与引用传递总结](https://mp.weixin.qq.com/s/dZIcI_3b8N8a2_nzJ7fNOA)
+
+📒 [ES6你用过哪些惊艳的写法](https://mp.weixin.qq.com/s/U6FjIdGZ3n13-pS2J7nvLQ)
+
+📒 [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
+
+📒 [面试官：mysql查询 limit 1000,10 和limit 10 速度一样快吗](https://mp.weixin.qq.com/s/VQsKA1nQ6leh60d_JXJg_g)
+
 📒 [10 best practices to build a Java container with Docker](https://snyk.io/blog/best-practices-to-build-java-containers-with-docker/)
 
 📒 [How to create a systemd service in Linux](https://linuxhandbook.com/create-systemd-services/)
