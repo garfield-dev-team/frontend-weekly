@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 CSS 如何实现文本换行
+
+在开发的时候遇到一个问题，后端给的文本包含换行符 `/n`，前端如何实现换行展示。最开始以为只能通过富文本展示，但实际上 CSS 中有一个属性可以支持换行：
+
+```css
+white-space: pre
+```
+
+> https://developer.mozilla.org/zh-CN/docs/Web/CSS/white-space
+
 📒 [Go 生态：Prometheus的四种指标类型，我终于搞懂了](https://mp.weixin.qq.com/s/QkDUQOx9w1HZIFyyvIzp-A)
 
 📒 [Go 语言创始人：复制亿点点代码比用别人轮子好！](https://mp.weixin.qq.com/s/ShH-SWhTCQLYasoIHy3xWg)
@@ -271,6 +281,60 @@ m.LoadOrStore("test", 1)
 📒 [Go语言中常见100问题-#8 any says nothing](https://mp.weixin.qq.com/s/FE8WgfINZ0hSWldkXVGo9g)
 
 📒 [读 Node.js 源码深入理解 cjs 模块系统](https://juejin.cn/post/7140549209735823373)
+
+📒 当 React Query 遇见 React Router
+
+React Router 6.4 即将正式发布，React Router 也加入了远程状态管理的数据获取游戏。本文将带你了解 React Router 和现有的远程状态管理库(如：React Query)之间的竞争和关联，作者认为他们是天造地设的一对。
+
+https://beta.reactrouter.com/en/dev
+
+https://tkdodo.eu/blog/react-query-meets-react-router
+
+隔壁家 Vue Router 的数据获取相关提案 Vue Router Data Loaders。
+
+https://github.com/vuejs/rfcs/discussions/460
+
+📒 重新思考流行的 Node.js 模式和工具
+
+Node.js 最佳实践、JavaScript 和 Node.js 测试最佳实践 的作者 Yoni Goldberg 对 Node.js 中的流行工具发出了灵魂拷问，并给出了他的思考：
+
+- `Node-convict` 比 `Dotenv` 更好；
+- 从 Controller 调用 Service 时，要尽量抽象 Service 的内容(多用心封装封装)，尽可能屏蔽掉技术细节和复杂性，让看你代码的同学赏心悦目一些；
+- Nest.js 中万物皆可依赖注入，但简单点也许世界会更美好；
+- 不一定要用 `Passport.js`；
+- `SuperTest` 的三合一语法有时候并没有那么好用；
+- `Fastify` 装饰器错误姿势
+- catch 子句的正确姿势；
+- 避免重复使用日志工具 `Morgan`；
+- 减少使用 process.env.NODE_ENV 当作判断条件。
+
+https://practica.dev/blog/popular-nodejs-pattern-and-tools-to-reconsider/
+
+📒 8 月登陆网络平台的新内容
+
+Firefox 104、Chrome 104、Chrome 105 发布稳定版本。
+
+- Chrome 104 新增 **CSS transform 属性单独定义**
+- Chrome 104 新增 **媒体查询的新语法**，支持比较运算符，更加符合人体工程学
+- Chrome 105 新增 **容器查询和 :has()**，响应式的最佳拍档
+- Chrome 105 新增 **Sanitizer API**，防止 XSS 攻击的灭菌武器
+- Chrome 105 新增 **:modal 伪类**
+- Firefox 104 支持 **The findLast() 和 findLastIndex()**
+
+https://web.dev/web-platform-08-2022/
+
+📒 pnpm v7.10.0
+
+Time-based 依赖解析模式
+
+1. 直接依赖将安装其最低版本，比如 foo@^1.1.0，将会安装 1.1.0
+2. 间接依赖只会安装被选中的直接依赖在其发布时间点之前的版本
+
+据作者说，这种模式是为了减少供应链攻击导致项目“噶”的风险，因为它能保证间接依赖不会比直接依赖更加新。这样如果间接依赖被攻击，也不会安装被攻击的版本。不过这种解析模式需要拿到 npm 的完整元数据，所以速度会很慢。解法是自建 Verdaccio，并将 registry-supports-time-field 设置为 true。
+
+能减少供应链攻击的风险是好事，但是感觉这种模式本身存在很多问题，比如不遵守 semver 语义，虽然社区里很多项目都没有好好遵守 :)、或者当旧的间接依赖修复了某个 bug，但是有 bug 的版本还是会被安装。
+
+https://github.com/pnpm/pnpm/releases/tag/v7.10.0
 
 📒 [前端食堂技术周刊第 51 期：pnpm v7.10.0、8 月登陆网络平台的新内容、重新思考流行的 Node.js 模式和工具、打包 JavaScript 库的](https://juejin.cn/post/7140216695834017822)
 
