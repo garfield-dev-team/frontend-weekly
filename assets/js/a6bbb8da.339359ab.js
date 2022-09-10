@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9326],{99111:e=>{e.exports=JSON.parse('{"label":"Chrome","permalink":"/frontend-weekly/blog/tags/chrome","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

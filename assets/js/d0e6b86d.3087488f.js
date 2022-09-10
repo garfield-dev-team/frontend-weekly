@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7449],{3967:function(e){e.exports=JSON.parse('{"label":"monorepo","permalink":"/frontend-weekly/blog/tags/monorepo","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

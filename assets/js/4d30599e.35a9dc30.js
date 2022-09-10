@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1464],{11238:function(e){e.exports=JSON.parse('{"label":"NextJS","permalink":"/frontend-weekly/blog/tags/next-js","allTagsPath":"/frontend-weekly/blog/tags","count":2}')}}]);

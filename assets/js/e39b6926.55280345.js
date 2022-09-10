@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[943],{65001:function(e){e.exports=JSON.parse('{"label":"CSS in JS","permalink":"/frontend-weekly/blog/tags/css-in-js","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3137],{175:function(e){e.exports=JSON.parse('{"label":"Babel \u63d2\u4ef6","permalink":"/frontend-weekly/blog/tags/babel-\u63d2\u4ef6","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

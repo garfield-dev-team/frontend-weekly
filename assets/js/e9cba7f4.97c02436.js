@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[6104],{73621:e=>{e.exports=JSON.parse('{"label":"Leetcode","permalink":"/frontend-weekly/blog/tags/leetcode","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);
