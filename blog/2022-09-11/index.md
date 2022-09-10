@@ -23,52 +23,6 @@ https://kms.netease.com/article/27452#%E9%80%89%E5%9E%8B
 
 https://github.com/NetEase-Media/ngo
 
-📒 Git 如何打标签
-
-Git tag 其实也是一种分支，但是这个分支是只读的（它只是某个特定提交的引用）。Git tag 主要用来对某个分支进行归档。
-
-Git 支持两种标签：轻量标签（lightweight）与附注标签（annotated）。
-
-附注标签：
-
-```bash
-$ git tag -a v1.4 -m "my version 1.4"
-```
-
-通过使用 git show 命令可以看到标签信息和与之对应的提交信息：
-
-```bash
-$ git show v1.4
-```
-
-轻量标签：
-
-```bash
-$ git tag v1.4-lw
-```
-
-这时，如果在标签上运行 git show，你不会看到额外的标签信息。 命令只会显示出提交信息：
-
-```bash
-$ git show v1.4-lw
-```
-
-列出标签：
-
-```bash
-$ git tag
-```
-
-注意，tag 与普通分支不一样，直接 `git push` 不会被提交到远程仓库，需要手动指定参数：
-
-```bash
-$ git push origin <tag_name>
-# or
-$ git push --tags
-```
-
-> https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
-
 📒 [美团二面：考我幻读，结果答的不好](https://mp.weixin.qq.com/s/b805ZIO7-IabjStlAs7Wow)
 
 📒 码住！Golang并发安全与引用传递总结
