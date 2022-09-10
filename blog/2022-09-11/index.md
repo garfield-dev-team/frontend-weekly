@@ -23,6 +23,50 @@ https://kms.netease.com/article/27452#%E9%80%89%E5%9E%8B
 
 https://github.com/NetEase-Media/ngo
 
+📒 依赖注入简介
+
+> https://blog.codeminer42.com/dependency-injection-in-js-ts-part-1/
+
+📒 JavaScript 模块中的默认导出很糟糕吗
+
+> https://www.lloydatkinson.net/posts/2022/default-exports-in-javascript-modules-are-terrible/
+
+📒 VS Code 发布新版本
+
+保持上下文的 "粘性滚动"不再是一个实验性功能。将与 TypeScript v4.8 一起发布。
+
+> https://code.visualstudio.com/updates/v1_71
+
+📒 使用 gRPC 构建安全 API
+
+一个允许两个 Node 应用程序通过 HTTP/2 和基于协议缓冲区的 gRPC 机制进行通信的演练教程。
+
+> https://snyk.io/blog/building-a-secure-api-with-grpc/
+
+📒 最小化依赖关系的四种方法
+
+在接连不断的供应链事故（和漏洞），或者查看了 `node_modules` 文件夹的最终体积后，你可能会想要将依赖关系保持在最低限度。这篇文章介绍了一些方法。
+
+> https://blog.appsignal.com/2022/08/31/4-ways-to-minimize-your-dependencies-in-nodejs.html
+
+📒 安装并运行 `bin` 脚本
+
+npm 包可以通过 package.json 的 `bin` 属性指定它们提供的 shell 脚本和可运行文件。Axel 深入研究了它的工作原理，并且提供了两种方式来安装提供此类脚本的软件包。
+
+> https://2ality.com/2022/08/installing-nodejs-bin-scripts.html
+
+📒 Create Rust App: 用一行命令开启现代 Rust + React Web 应用程序
+
+如果你想用 Rust 构建应用程序的后端，那么该库提供了一种 CRA 式的体验。它使用 Vite 并且新增了 SQLite 支持。
+
+> https://github.com/Wulf/create-rust-app
+
+📒 何时使用 `useLayoutEffect` 而不是 `useEffect`
+
+你的 UI 渲染过程中有烦人的闪烁吗？可能是你错误使用了其中之一的 Hook : 这与 Hook 是在浏览器绘制之前还是之后触发有关。
+
+> https://javascript.plainenglish.io/react-hooks-when-to-use-uselayouteffect-instead-of-useeffect-3271a96d881a?gi=622ccbf807f3
+
 📒 [美团二面：考我幻读，结果答的不好](https://mp.weixin.qq.com/s/b805ZIO7-IabjStlAs7Wow)
 
 📒 码住！Golang并发安全与引用传递总结
