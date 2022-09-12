@@ -93,11 +93,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 业务成长
 - 管理相关
-  - [管理小册、一线同学推荐、一线Leader推荐、总监级推荐](https://mp.weixin.qq.com/s/neSFlzQMh2P7ROwJxhVNkg)
-  - [谁能成为Leader，大Leader该做什么](https://mp.weixin.qq.com/s/FDK0a4HeO60fKyr6ioRYcw)
-  - [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
-  - [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
-  - [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+  - ⭐️ ⭐️ [管理小册、一线同学推荐、一线Leader推荐、总监级推荐](https://mp.weixin.qq.com/s/neSFlzQMh2P7ROwJxhVNkg)
+  - ⭐️ [谁能成为Leader，大Leader该做什么](https://mp.weixin.qq.com/s/FDK0a4HeO60fKyr6ioRYcw)
+  - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
+  - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
+  - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
 - ⭐️ [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
 - ⭐️ [入职Apifox研发组半年，我所提升的软技能｜文末抽书](https://mp.weixin.qq.com/s/1BdXL5dQfP6DnK7iJs6zGQ)
 - ⭐️ [有哪些值得计算机专业学生加入的国企](https://mp.weixin.qq.com/s/G8SVu9CWrKwbT5jfXaBmtw)
