@@ -294,6 +294,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
+- ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - [解决了 Redis 大 key 问题，同事们都说牛皮！](https://mp.weixin.qq.com/s/l3l9d9sLiWoUM381E9o-3Q)
 - [图解|Linux内存背后的那些神秘往事](https://mp.weixin.qq.com/s/l_YdpyHht5Ayvrc7LFZNIA)
 - [图解|什么是内容分发网络(cdn)](https://juejin.cn/post/7064952956201730062)
@@ -491,6 +492,7 @@ import TabItem from '@theme/TabItem';
 
 ## Java 相关
 
+- ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - [1.2w+字！Java IO 基础知识总结](https://mp.weixin.qq.com/s/J_11wYusexAjwa1cuckyfw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/7js2uDZNv2Pb55ihKPc1xg)
 - [源码深度解析，Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/djVu6SJjfYj4y_LNW-SKyw)
