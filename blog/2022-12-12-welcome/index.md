@@ -84,6 +84,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 技术方案
 
+- [盘点12个yyds的微信小程序开源项目](https://mp.weixin.qq.com/s/l7SA04BJovmJTUDIuobYiw)
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
 - [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
 - [自动化生成骨架屏的技术方案设计与落地](https://mp.weixin.qq.com/s/-WHafu5z-Ap4tjrbWesnmA)
