@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Why Storybook in 2022
+
+> https://storybook.js.org/blog/why-storybook-in-2022/
+
+📒 [如何像gitlab-runner那样将Go应用安装为系统服务](https://mp.weixin.qq.com/s/59x3uElLaSZVf77itv8B3Q)
+
+📒 [React Router v6 完全指南](https://mp.weixin.qq.com/s/8JPj9Rz5xyrnAloeno0RNA)
+
+📒 [【第2726期】开发模式 "Development Mode" 是如何工作的](https://mp.weixin.qq.com/s/81L1RRiCdqGMJmk-iUZldg)
+
+📒 [你信吗？Go 泛型竟然已经被迅速采用](https://mp.weixin.qq.com/s/FdCl0BZT_v_pjBZKcTUnoQ)
+
+📒 [做一个不崩溃的核酸系统到底有多难](https://mp.weixin.qq.com/s/jzCfXs6jz820XOHksZzBDA)
+
 📒 [写给前端仔的自动化测试入门小作文](https://juejin.cn/post/7142371499255529509)
 
 📒 [「Go工具箱」一个兼具单机和集群模式的轻量级限流器：throttled](https://mp.weixin.qq.com/s/MN4wsITSVYHNMPoFRpRZFQ)
