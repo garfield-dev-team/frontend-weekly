@@ -577,6 +577,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go语言的IO库那么多，我该怎么选](https://mp.weixin.qq.com/s/TtN6NZ8hQ2AIf0C8wVzkjA)
   - ⭐️ [Go 眼中的文件系统是什么？ io.FS](https://mp.weixin.qq.com/s/gYWhjh1BburgeAU72mn_aw)
   - ⭐️ [几个提升Go语言开发效率的小技巧](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
+  - [怎么选择 Go 文件读取方案](https://mp.weixin.qq.com/s/KHzdEE_w_ev9p4v6MR7M8Q)
+  - [如何有效控制 Go 线程数](https://mp.weixin.qq.com/s/EeOxPkTe8WkOide49yIfEg)
   - [Go 的零值有什么用？看看这 4 个场景](https://mp.weixin.qq.com/s/Ucqqg4h9uRo7RVd8XCz80w)
   - [Go 只会 if err != nil？这是不对的，分享这些优雅的处理姿势给你！](https://mp.weixin.qq.com/s/L_Sy4_6BURL4XWDK6bpEwg)
   - [10+ 条 Go 官方谚语，你知道几条？](https://mp.weixin.qq.com/s/cJON1H68eBFeuBpWhFbXXw)
