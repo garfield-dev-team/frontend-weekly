@@ -558,6 +558,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [必撸系列！Go另外几个黑魔法技巧汇总](https://mp.weixin.qq.com/s/--ciEa-Oj0NEUxlp1Af_aQ)
   - ⭐️ [来了！Go的2个黑魔法技巧](https://mp.weixin.qq.com/s/8HNZQrQ2oqMB2fAYbmH2Ow)
   - ⭐️ [Go组件：context学习笔记！](https://mp.weixin.qq.com/s/OCpVRwtiphFRZgu9zdae5g)
+  - ⭐️ [不得不知道的Golang之sync.Map解读！](https://mp.weixin.qq.com/s/NkSyv7iDSZsLhMUgAi-r4w)
+  - ⭐️ [鹅厂后台大佬教你Go内存管理！](https://mp.weixin.qq.com/s/56tth8PSquB1eR5-1XaDWA)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
   - 🌛 [【系列文章】Go 语言 Web 编程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUzNTY5MzU2MA==&scene=1&album_id=1323498303014780929&count=3#wechat_redirect)
