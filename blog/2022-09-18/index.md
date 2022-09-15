@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [ECMAScript 2023将新增的9个数组方法](https://mp.weixin.qq.com/s/-685DKQuzTEbsg0pZzQSVg)
+
+📒 [关于 React Re-Render](https://mp.weixin.qq.com/s/BPFJSkvv_UPMux0dSZuh-A)
+
+📒 [Go：基于 Redis 实现的延迟队列详解](https://mp.weixin.qq.com/s/qFSzt32BjFW_Gl5OpI3lXA)
+
+📒 [这个帮你理清Go程序调用栈的工具，1.17以上可用](https://mp.weixin.qq.com/s/k0eYoJuL0JO_tHEiU887wA)
+
 📒 [一起来实现一个Antd Form](https://juejin.cn/post/7127161983622725639)
 
 📒 [如何检测 JavaScript 原生函数是否被打过 "猴子补丁"](https://mp.weixin.qq.com/s/vzSbdOFrwpA2U0JpMx_nsw)
