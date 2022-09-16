@@ -560,6 +560,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go组件：context学习笔记！](https://mp.weixin.qq.com/s/OCpVRwtiphFRZgu9zdae5g)
   - ⭐️ [不得不知道的Golang之sync.Map解读！](https://mp.weixin.qq.com/s/NkSyv7iDSZsLhMUgAi-r4w)
   - ⭐️ [鹅厂后台大佬教你Go内存管理！](https://mp.weixin.qq.com/s/56tth8PSquB1eR5-1XaDWA)
+  - ⭐️ [全面解读！Golang中泛型的使用](https://mp.weixin.qq.com/s/QBZ1dp0XIqMo24vVFYf1fA)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
   - 🌛 [【系列文章】Go 语言 Web 编程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUzNTY5MzU2MA==&scene=1&album_id=1323498303014780929&count=3#wechat_redirect)
