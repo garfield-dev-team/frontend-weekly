@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Babel 插件：30分钟从入门到实战](https://juejin.cn/post/7143921535445631012)
+
+⭐️ [全面解读！Golang中泛型的使用](https://mp.weixin.qq.com/s/QBZ1dp0XIqMo24vVFYf1fA)
+
+📒 [Umi4.0多页签设计](https://mp.weixin.qq.com/s/LwGuTBV6-hk1T5URW8dTgg)
+
+📒 [V8 是如何执行 JavaScript 代码的](https://mp.weixin.qq.com/s/OobHbsVbBEM8kiIIts8P_w)
+
+📒 [「Go工具箱」推荐一个非常简单的深拷贝工具：deepcopy](https://mp.weixin.qq.com/s/e3bL1i6WT-4MwK-SEpUa6Q)
+
 📒 [ECMAScript 2023将新增的9个数组方法](https://mp.weixin.qq.com/s/-685DKQuzTEbsg0pZzQSVg)
 
 📒 [关于 React Re-Render](https://mp.weixin.qq.com/s/BPFJSkvv_UPMux0dSZuh-A)
