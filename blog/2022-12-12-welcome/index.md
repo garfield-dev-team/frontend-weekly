@@ -849,6 +849,8 @@ import TabItem from '@theme/TabItem';
   - [100行代码实现一个组件引用次数统计插件](https://juejin.cn/post/7077484559893266439)
   - https://github.com/ronami/minipack
 - 手把手实现一个 babel 插件
+  - Babel 插件常用 API、配合 TS 开发、如何测试插件等等
+    - [Babel 插件：30分钟从入门到实战](https://juejin.cn/post/7143921535445631012)
   - 这篇做的 demo 是一个简单的 babel-plugin-import
     - [深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
   - 这篇做的 demo 类似 Java 中的 lambok
