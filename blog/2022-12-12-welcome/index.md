@@ -705,6 +705,7 @@ import TabItem from '@theme/TabItem';
 
 **工具相关**
 
+- [plantuml：用代码画时序图、用例图、类图、思维导图](https://plantuml.com/)
 - [skypack：无需构建工具使用各种经过优化的 npm 包](https://www.skypack.dev/)
 - [carbon：生成代码片](https://link.juejin.cn/?target=https%3A%2F%2Fcarbon.now.sh%2F)
 - [codelf 变量命名神器](https://unbug.github.io/codelf/)
