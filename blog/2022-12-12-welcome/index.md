@@ -92,13 +92,15 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [从零开始手写一个「开箱即用的大文件分片上传库」](https://juejin.cn/post/6990283221170651149)
 - [5000字带你全面深入理解JS中的Stream API｜8月更文挑战](https://juejin.cn/post/6992007156320960542)
 
-## 业务成长
+## 业务成长 && 软技能
+
 - 管理相关
   - ⭐️ ⭐️ [管理小册、一线同学推荐、一线Leader推荐、总监级推荐](https://mp.weixin.qq.com/s/neSFlzQMh2P7ROwJxhVNkg)
   - ⭐️ [谁能成为Leader，大Leader该做什么](https://mp.weixin.qq.com/s/FDK0a4HeO60fKyr6ioRYcw)
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
 - ⭐️ [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
 - ⭐️ [入职Apifox研发组半年，我所提升的软技能｜文末抽书](https://mp.weixin.qq.com/s/1BdXL5dQfP6DnK7iJs6zGQ)
 - ⭐️ [有哪些值得计算机专业学生加入的国企](https://mp.weixin.qq.com/s/G8SVu9CWrKwbT5jfXaBmtw)
