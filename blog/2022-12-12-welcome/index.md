@@ -577,6 +577,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 文章分享
+  - ⭐️ [程序里对象很深很大，可以用这个设计模式缓解一下](https://mp.weixin.qq.com/s/MgOyG99mUvOTlsxQVQZGUw)
   - ⭐️ [工厂模式有三个Level，你能用Go写到第几层](https://mp.weixin.qq.com/s/MlC6-TDf06LGpF8hxcSV_w)
   - ⭐️ [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
   - ⭐️ [拒绝 Go 代码臃肿，其实在这几块可以用下观察者模式](https://mp.weixin.qq.com/s/OKUeAdicn0Bvkz8dYx1epQ)
