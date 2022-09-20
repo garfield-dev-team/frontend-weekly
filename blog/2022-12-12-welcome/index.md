@@ -496,6 +496,7 @@ import TabItem from '@theme/TabItem';
 ## Java 相关
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
+- [使用 lambda 实现超强的排序功能](https://mp.weixin.qq.com/s/n8iw_33Wwr9i0mWEXMG6-A)
 - [万字长文，SpringSecurity实现权限系统设计](https://mp.weixin.qq.com/s/e_uJhaGj4HO1iTS_zCoCXw)
 - [1.2w+字！Java IO 基础知识总结](https://mp.weixin.qq.com/s/J_11wYusexAjwa1cuckyfw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/7js2uDZNv2Pb55ihKPc1xg)
