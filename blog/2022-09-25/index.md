@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
+
+📒 [electron-vite：新一代 Electron 开发利器，带你轻松玩转 Electron](https://mp.weixin.qq.com/s/C4WNRM3fY2ezpE1qzjNhvA)
+
+📒 [create-vite 原理揭秘](https://mp.weixin.qq.com/s/eqIcLlh3a4TUwx3lk2qLYA)
+
+📒 [字节二面：Redis 的大 Key 对持久化有什么影响](https://mp.weixin.qq.com/s/EMiEoq9HYTHi8TLEs7N8EQ)
+
+📒 [美团三面：一直追问我， MySQL 幻读被彻底解决了吗](https://mp.weixin.qq.com/s/VWEKgnOWVnufz5pfvRjUWw)
+
+⭐️ [Go学设计模式--原型模式的考查点和使用推荐](https://mp.weixin.qq.com/s/y1qHsQNR7EWeDU5g60Loqg)
+
+📒 [使用viper实现yaml配置文件的合并](https://mp.weixin.qq.com/s/sqq8PNBvhPDmD8T5W4h65g)
+
+📒 [「Go工具箱」一个简单、易用、安全的类型转换工具](https://mp.weixin.qq.com/s/p_Ne6m5TC4oQCZ5_tZDWKA)
+
 📒 [探索组件在线预览和调试](https://mp.weixin.qq.com/s/ydbuD9y8Uo-MZgOlxRZB0Q)
 
 📒 Golang 面试相关
