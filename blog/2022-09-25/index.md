@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
+
+📒 [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
+
 📒 基于 Next.js 和 tailwind.css 搭建博客
 
 https://tailwindcss.com/docs/typography-plugin#adding-custom-color-themes
