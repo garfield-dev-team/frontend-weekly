@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 基于 Next.js 和 tailwind.css 搭建博客
+
+https://tailwindcss.com/docs/typography-plugin#adding-custom-color-themes
+
+[使用 Next.js 和掘金 API 打造个性博客](https://juejin.cn/post/7145119069216178212)
+
 ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
 
 📒 [electron-vite：新一代 Electron 开发利器，带你轻松玩转 Electron](https://mp.weixin.qq.com/s/C4WNRM3fY2ezpE1qzjNhvA)
