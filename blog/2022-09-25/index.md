@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
+
+📒 [超干货！彻底搞懂Golang内存管理和垃圾回收](https://mp.weixin.qq.com/s/niLk_n9Yp-iyl_RIie3Umw)
+
+📒 [好用的map-struct转换库 mergo](https://mp.weixin.qq.com/s/MH9vjR9ZMWzqd5aoOAAnlg)
+
+⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
+
+⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
+
 📒 [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
 
 📒 [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
