@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [前端也要懂算法，不会算法也能微调一个 NLP 预训练模型](https://juejin.cn/post/7146575333721341966)
+
 📒 [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
 
 📒 [超干货！彻底搞懂Golang内存管理和垃圾回收](https://mp.weixin.qq.com/s/niLk_n9Yp-iyl_RIie3Umw)
