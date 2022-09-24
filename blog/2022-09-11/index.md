@@ -10,7 +10,7 @@ tags: []
 在开发的时候遇到一个问题，后端给的文本包含换行符 `/n`，前端如何实现换行展示。最开始以为只能通过富文本展示，但实际上 CSS 中有一个属性可以支持换行：
 
 ```css
-white-space: pre
+white-space: pre-wrap;
 ```
 
 > https://developer.mozilla.org/zh-CN/docs/Web/CSS/white-space
