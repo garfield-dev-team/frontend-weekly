@@ -694,6 +694,7 @@ import TabItem from '@theme/TabItem';
 
 **在线 Plyaground**
 
+- [生成各个语言的汇编代码](https://godbolt.org/)
 - [Vue SFC Playground](https://sfc.vuejs.org/)
 - [CodeSandBox](https://link.juejin.cn/?target=https%3A%2F%2Fcodesandbox.io%2Fdashboard%2Fhome)
 - [CodePen](https://codepen.io/)
