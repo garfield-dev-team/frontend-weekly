@@ -626,9 +626,17 @@ import TabItem from '@theme/TabItem';
   - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
   - [在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
   - https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
+  - [Kubernetes入门实践--部署运行Go项目](https://mp.weixin.qq.com/s/uruu3qbpSLbTRJJRcWTYqg)
+  - [线上Go项目的Docker镜像应该怎么构建](https://mp.weixin.qq.com/s/hoJgL-sP2OtMEFAhYNCItA)
+  - [Docker 学习笔记](https://blog.opskumu.com/docker.html)
 - Golang 开源库推荐
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
+- Golang 相关资源
+  - [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
+  - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
+  - [LeetCode Cookbook（在线阅读）](https://books.halfrost.com/leetcode/)
+  - [Go 夜读](https://github.com/talkgo/night)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
@@ -893,6 +901,10 @@ import TabItem from '@theme/TabItem';
 - Docker 相关总结一下
   - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
   - [写给前端的 Docker 上手指南](https://mp.weixin.qq.com/s/5LLX__x-yamgR83e0NKAtA)
+  - [写给前端的 K8S 上手指南](https://mp.weixin.qq.com/s/0Il5o9CRgZI3LbuR0LjAtQ)
+  - [前端抢饭碗系列之初识Docker容器化部署](https://juejin.cn/post/7069609959985512484)
+  - [前端抢饭碗系列之Docker进阶部署](https://juejin.cn/post/7083009375387779085)
+  - [前端抢饭碗系列之Docker容器编排](https://juejin.cn/post/7113712658850775048)
   - [云计算时代，你还不会 Docker ？ 一万字总结（建议收藏）](https://mp.weixin.qq.com/s/f581rfvKWE3KGgWfZDJ2cA)
 - 前端框架源码
   - ⭐️ [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
