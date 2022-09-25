@@ -238,6 +238,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
 - [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
+- ⭐️ [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
 - [【第2703期】软件架构手册](https://mp.weixin.qq.com/s/1h6yqCWyzYLM8WPGlGdtVA)
 - [【第2126期】每个开发者都应该知道的 SOLID 原则](https://mp.weixin.qq.com/s/KHeo5bdY4cjPfA5I1mjXWw)
 - [基于 TypeScript 理解程序设计的 SOLID 原则](https://mp.weixin.qq.com/s/mz5S1iiRWkk-KKJg5lOOJQ)
@@ -279,6 +280,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [图文并茂！推荐算法架构——粗排](https://mp.weixin.qq.com/s/YsK_8yyBNL5z269qT5CrIw)
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+  - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
   - 🌛 [图文结合！Redis延迟队列golang高效实践](https://mp.weixin.qq.com/s/dCZm7e0aSEirhEqiCBvAyQ)
   - ⭐️ [用 Redis 都能实现哪些功能？这2万字+20张图给分析全了](https://mp.weixin.qq.com/s/frOhO8rj2Xvdix6tnjTOrw)
@@ -522,6 +524,7 @@ import TabItem from '@theme/TabItem';
 ## MySQL 学习
 
 - 表结构设计
+  - ⭐️ [21个MySQL表设计的经验准则](https://mp.weixin.qq.com/s/sSsZ-w6WzjA_DLZfnsxD2w)
   - ⭐️ [聊聊数据库建表的15个小技巧](https://juejin.cn/post/7136126923851169823)
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
@@ -534,6 +537,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
 - 数据一致性
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
+  - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
 - [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
 - [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
@@ -570,6 +574,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [鹅厂后台大佬教你Go内存管理！](https://mp.weixin.qq.com/s/56tth8PSquB1eR5-1XaDWA)
   - ⭐️ [全面解读！Golang中泛型的使用](https://mp.weixin.qq.com/s/QBZ1dp0XIqMo24vVFYf1fA)
   - ⭐️ [超干货！彻底搞懂Golang内存管理和垃圾回收](https://mp.weixin.qq.com/s/niLk_n9Yp-iyl_RIie3Umw)
+  - ⭐️ [关于Go并发编程，你不得不知的“左膀右臂”——并发与通道！](https://mp.weixin.qq.com/s/BPcRI0BHBLmuYfzvP10Wvw)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
@@ -629,6 +634,7 @@ import TabItem from '@theme/TabItem';
   - [Kubernetes入门实践--部署运行Go项目](https://mp.weixin.qq.com/s/uruu3qbpSLbTRJJRcWTYqg)
   - [线上Go项目的Docker镜像应该怎么构建](https://mp.weixin.qq.com/s/hoJgL-sP2OtMEFAhYNCItA)
   - [Docker 学习笔记](https://blog.opskumu.com/docker.html)
+  - [程序解Bug最常用的K8s命令，外加使用窍门](https://mp.weixin.qq.com/s/Ze096f0Utcl84c6gBwrCYw)
 - Golang 开源库推荐
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
@@ -637,6 +643,7 @@ import TabItem from '@theme/TabItem';
   - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
   - [LeetCode Cookbook（在线阅读）](https://books.halfrost.com/leetcode/)
   - [Go 夜读](https://github.com/talkgo/night)
+  - [已入字节的大佬各厂三年Go面经](https://mp.weixin.qq.com/s/VKPSqS50Un29x30KIgB0tA)
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
