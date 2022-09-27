@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
+
+📒 [【第2742期】Remesh 介绍：用以开发大型复杂 Web App 的 DDD 框架](https://mp.weixin.qq.com/s/Q-juege6Gn_H0xY4_OtR7Q)
+
 📒 Monorepo Handbook 新鲜出炉
 
 TurboRepo 团队近日发布了 Monorepo 手册，包含关于 Monorepo 你需要知道的一切，并提供了详尽的配置示例，内容如下：
