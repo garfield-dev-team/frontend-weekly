@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Java19 正式 GA！虚拟线程性能炸裂！！](https://mp.weixin.qq.com/s/hklnsSEmJG3Sgc6RezfJHA)
+
+📒 [\[翻译\]Go 运行时的未来 Go Runtime: 4 years later](https://mp.weixin.qq.com/s/GWHfDXbTpaXKmeZVQRtF2w)
+
+📒 [我认为 Go 的成功归功于这 5 个方面](https://mp.weixin.qq.com/s/HJ9183I_suybZCT7Seg75A)
+
 ⭐️ [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
 
 📒 [【第2742期】Remesh 介绍：用以开发大型复杂 Web App 的 DDD 框架](https://mp.weixin.qq.com/s/Q-juege6Gn_H0xY4_OtR7Q)
