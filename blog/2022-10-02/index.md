@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2744期】更好的 React SSR](https://mp.weixin.qq.com/s/3AVzctr8LwaFK9R_-x-uaA)
+
 📒 [Java19 正式 GA！虚拟线程性能炸裂！！](https://mp.weixin.qq.com/s/hklnsSEmJG3Sgc6RezfJHA)
 
 📒 [\[翻译\]Go 运行时的未来 Go Runtime: 4 years later](https://mp.weixin.qq.com/s/GWHfDXbTpaXKmeZVQRtF2w)
