@@ -640,12 +640,16 @@ import TabItem from '@theme/TabItem';
   - [Docker 学习笔记](https://blog.opskumu.com/docker.html)
   - [程序解Bug最常用的K8s命令，外加使用窍门](https://mp.weixin.qq.com/s/Ze096f0Utcl84c6gBwrCYw)
 - Golang 开源库推荐
+  - https://github.com/samber/lo
+  - https://github.com/nikoksr/notify
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
   - [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
   - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
   - [LeetCode Cookbook（在线阅读）](https://books.halfrost.com/leetcode/)
+  - [Go 语言原本](https://github.com/golang-design/under-the-hood)
+  - [Go 语言原本（在线阅读）](https://golang.design/under-the-hood/)
   - [Go 夜读](https://github.com/talkgo/night)
   - [已入字节的大佬各厂三年Go面经](https://mp.weixin.qq.com/s/VKPSqS50Un29x30KIgB0tA)
 - Golang 算法
