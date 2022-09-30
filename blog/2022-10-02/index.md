@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [程序员新人频繁使用count(*)，被组长批评后怒怼：性能并不拉垮！](https://mp.weixin.qq.com/s/eh7G_J3a0JudZRR-wrElag)
+
+📒 [【第2745期】React 可组合 API 的设计原则](https://mp.weixin.qq.com/s/hW5VcbjpFCoGOp3BPsnAZQ)
+
+📒 [推荐12个值得学习的TypeScript宝库！](https://mp.weixin.qq.com/s/7WVlgS5dqcgwJBB6-x0lYQ)
+
 📒 [【第2744期】更好的 React SSR](https://mp.weixin.qq.com/s/3AVzctr8LwaFK9R_-x-uaA)
 
 📒 [Java19 正式 GA！虚拟线程性能炸裂！！](https://mp.weixin.qq.com/s/hklnsSEmJG3Sgc6RezfJHA)
