@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [你写 Go 代码写注释吗？谈谈 Go 代码注释问题](https://mp.weixin.qq.com/s/5ZDzcGqenAvtOeSU-baV9A)
+
 📒 [程序员新人频繁使用count(*)，被组长批评后怒怼：性能并不拉垮！](https://mp.weixin.qq.com/s/eh7G_J3a0JudZRR-wrElag)
 
 📒 [【第2745期】React 可组合 API 的设计原则](https://mp.weixin.qq.com/s/hW5VcbjpFCoGOp3BPsnAZQ)
