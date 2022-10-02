@@ -174,6 +174,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## PNPM && Monorepo
 
+- [Monorepo Handbook 新鲜出炉](https://turborepo.org/docs/handbook/what-is-a-monorepo)
 - [现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
 - [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
 - [深入浅出 tnpm rapid 模式 - 如何比 pnpm 快 10 秒](https://zhuanlan.zhihu.com/p/455809528)
