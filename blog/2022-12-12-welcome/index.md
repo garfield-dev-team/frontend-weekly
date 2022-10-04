@@ -102,6 +102,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
 - ⭐️ [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
 - ⭐️ [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
+- ⭐️ [冴羽答读者问：如何在工作中打造影响力，带动同事](https://juejin.cn/post/7114967732805697543)
 - ⭐️ [入职Apifox研发组半年，我所提升的软技能｜文末抽书](https://mp.weixin.qq.com/s/1BdXL5dQfP6DnK7iJs6zGQ)
 - ⭐️ [有哪些值得计算机专业学生加入的国企](https://mp.weixin.qq.com/s/G8SVu9CWrKwbT5jfXaBmtw)
 - ⭐️ [晋升，如何减少 50%+ 的答辩材料准备时间、调整心态（个人经验总结）](https://mp.weixin.qq.com/s/usMxG3cAowUtO3Lvn9VjsQ)
