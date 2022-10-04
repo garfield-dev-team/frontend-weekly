@@ -646,6 +646,7 @@ import TabItem from '@theme/TabItem';
 - Golang 开源库推荐
   - https://github.com/samber/lo
   - https://github.com/nikoksr/notify
+  - https://github.com/gin-gonic/examples
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
