@@ -587,6 +587,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [超干货！彻底搞懂Golang内存管理和垃圾回收](https://mp.weixin.qq.com/s/niLk_n9Yp-iyl_RIie3Umw)
   - ⭐️ [关于Go并发编程，你不得不知的“左膀右臂”——并发与通道！](https://mp.weixin.qq.com/s/BPcRI0BHBLmuYfzvP10Wvw)
   - ⭐️ [它来了，关于Golang并发编程的超详细教程！](https://mp.weixin.qq.com/s/aoR_69JMBN5ZM10DKqRCyQ)
+  - ⭐️ [通俗易懂！图解Go协程原理及实战](https://mp.weixin.qq.com/s/POZGQXsYu5aWXvu29vSM8g)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
