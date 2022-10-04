@@ -477,6 +477,12 @@ import TabItem from '@theme/TabItem';
 
 ## 机器学习
 
+- 本地运行 Stable Diffusion 预训练模型
+  - https://huggingface.co/CompVis/stable-diffusion-v1-4
+  - https://github.com/CompVis/stable-diffusion
+  - https://huggingface.co/blog/stable_diffusion
+- [不会算法也能微调一个 NLP 预训练模型](https://juejin.cn/post/7146575333721341966)
+- [人工神经网络算法入门](https://mp.weixin.qq.com/s/BcXl8YQVNQA6auilbxW0kQ)
 - [浅析神经网络 Neural Networks](https://mp.weixin.qq.com/s/gaOzwCypQMFAJ4X50aUOcg)
 - [前端工程师如何快速使用一个NLP模型](https://juejin.cn/post/7075518863814869005)
 - 深入理解 Transformer：
