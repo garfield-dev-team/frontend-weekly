@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【一库】yalc: 可能是最好的前端link调试方案（已经非常谦虚了）](https://juejin.cn/post/7033400734746066957)
+
+📒 [使用antv/G2生态半年有感](https://juejin.cn/post/7043068238539784206)
+
 📒 [Go：符号表是什么？如何使用？](https://mp.weixin.qq.com/s/nH0v9wYe64--1HT_QJcKag)
 
 📒 Dracula UI
