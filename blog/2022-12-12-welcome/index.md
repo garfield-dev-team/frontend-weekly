@@ -238,6 +238,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - 在线阅读：https://abseil.io/blog/04222021-swe-book
   - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
+- ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
 - [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
 - ⭐️ [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
 - [【第2703期】软件架构手册](https://mp.weixin.qq.com/s/1h6yqCWyzYLM8WPGlGdtVA)
