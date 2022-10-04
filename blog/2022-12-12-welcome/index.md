@@ -651,6 +651,7 @@ import TabItem from '@theme/TabItem';
   - [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
   - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
   - [LeetCode Cookbook（在线阅读）](https://books.halfrost.com/leetcode/)
+  - [Go 语言设计与实现](https://draveness.me/golang/docs/part1-prerequisite/ch02-compile/golang-compile-intro/)
   - [Go 语言原本](https://github.com/golang-design/under-the-hood)
   - [Go 语言原本（在线阅读）](https://golang.design/under-the-hood/)
   - [Go 夜读](https://github.com/talkgo/night)
