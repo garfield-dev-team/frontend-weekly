@@ -89,6 +89,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
 - [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
 - [自动化生成骨架屏的技术方案设计与落地](https://mp.weixin.qq.com/s/-WHafu5z-Ap4tjrbWesnmA)
+- ⭐️ [谈谈JS二进制：File、Blob、FileReader、ArrayBuffer、Base64](https://juejin.cn/post/7148254347401363463)
 - ⭐️ [字节跳动面试官：请你实现一个大文件上传和断点续传](https://juejin.cn/post/6844904046436843527)
 - ⭐️ [从零开始手写一个「开箱即用的大文件分片上传库」](https://juejin.cn/post/6990283221170651149)
 - [5000字带你全面深入理解JS中的Stream API｜8月更文挑战](https://juejin.cn/post/6992007156320960542)
