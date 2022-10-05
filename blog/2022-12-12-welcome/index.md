@@ -549,6 +549,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
 - 数据一致性
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
+  - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/lyqvv-nA_PMUc-eBuCsNTA)
   - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
   - ⭐️ [聊聊分布式锁](https://juejin.cn/post/7104507830522085383)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
