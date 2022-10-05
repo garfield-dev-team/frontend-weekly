@@ -480,6 +480,8 @@ import TabItem from '@theme/TabItem';
 ## 机器学习
 
 - 本地运行 Stable Diffusion 预训练模型
+  - [AI数字绘画 stable-diffusion 保姆级教程](https://mp.weixin.qq.com/s/nDnQuZn3hVgrwqWVada2cw)
+  - https://lexica.art/?q=fc98f231-c95f-4a68-8727-899c73dbc486
   - https://huggingface.co/CompVis/stable-diffusion-v1-4
   - https://github.com/CompVis/stable-diffusion
   - https://huggingface.co/blog/stable_diffusion
