@@ -26,6 +26,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [你需要知道的TypeScript高级类型](https://mp.weixin.qq.com/s/usDh1-Wzxrf4BftfWhwduA)
 - 🌛 [如何进阶TypeScript功底？一文带你理解TS中各种高级语法](https://juejin.cn/post/7089809919251054628)
+- 🌛 [推荐12个值得学习的TypeScript宝库！](https://juejin.cn/post/7150668738990178312)
 - 🌛 [TypeScript 类型系统：分布式条件类型全解](https://mp.weixin.qq.com/s/TUv8Cu6_ftQQ6lEWAwIa4w)
 - 🌛 [接近天花板的TS类型体操，看懂你就能玩转TS了](https://juejin.cn/post/7061556434692997156)
 - 🌛 [TypeScript 类型编程: 从基础到编译器实战](https://mp.weixin.qq.com/s/-x8iVK-hlQd3-OZDC04A5A)

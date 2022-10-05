@@ -11,7 +11,7 @@ tags: []
 
 📒 [【第2745期】React 可组合 API 的设计原则](https://mp.weixin.qq.com/s/hW5VcbjpFCoGOp3BPsnAZQ)
 
-📒 [推荐12个值得学习的TypeScript宝库！](https://mp.weixin.qq.com/s/7WVlgS5dqcgwJBB6-x0lYQ)
+📒 [推荐12个值得学习的TypeScript宝库！](https://juejin.cn/post/7150668738990178312)
 
 📒 [【第2744期】更好的 React SSR](https://mp.weixin.qq.com/s/3AVzctr8LwaFK9R_-x-uaA)
 
