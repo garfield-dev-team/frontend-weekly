@@ -287,11 +287,14 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
   - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
+  - 🌛 [Redis 持久化策略浅析](https://juejin.cn/post/7147602740405862407)
   - 🌛 [图文结合！Redis延迟队列golang高效实践](https://mp.weixin.qq.com/s/dCZm7e0aSEirhEqiCBvAyQ)
   - ⭐️ [用 Redis 都能实现哪些功能？这2万字+20张图给分析全了](https://mp.weixin.qq.com/s/frOhO8rj2Xvdix6tnjTOrw)
   - ⭐️ [如何保证数据库和缓存双写一致性](https://mp.weixin.qq.com/s/mO819q_r9qLVuRBE8cjx1Q)
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
+- 系统设计
+  - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
   - [你管这破玩意儿叫 MQ](https://mp.weixin.qq.com/s/i_bwyEb8QqfVLxY-R9odag)
