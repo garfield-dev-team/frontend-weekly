@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Next.js prefetch 策略
+
+很多全栈框架，例如 Next.js 都会做 prefetch 预加载 chunk。Next.js 提供了一个 `<Link />` 组件，可以实现 client-side route transitions，同时这个 `<Link />` 还具有 prefetch 功能：
+
+> Any `<Link />` that is in the viewport (initially or through scroll) will be preloaded. Prefetch can be disabled by passing `prefetch={false}`. When `prefetch` is set to `false`, prefetching will still occur on hover. Pages using Static Generation will preload `JSON` files with the data for faster page transitions. Prefetching is only enabled in production.
+
+参考一下 `<Link />` 源码实现：
+
+https://github.com/vercel/next.js/blob/canary/packages/next/client/link.tsx#L205
+
 📒 [【一库】yalc: 可能是最好的前端link调试方案（已经非常谦虚了）](https://juejin.cn/post/7033400734746066957)
 
 📒 [使用antv/G2生态半年有感](https://juejin.cn/post/7043068238539784206)
