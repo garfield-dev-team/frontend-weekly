@@ -50,7 +50,7 @@ useEventListener(
 
 那么在卡片滚动的需求中，对应的参数值为 `scrollLeft`、`scrollWidth`、`clientWidth`。只要 `scrollLeft + clientWidth < scrollWidth`，就可以继续向右滚动：
 
-```jsx
+```ts
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useMemorizedFn } from "ahooks";
 
