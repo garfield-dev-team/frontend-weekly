@@ -963,7 +963,7 @@ import TabItem from '@theme/TabItem';
   - [前端抢饭碗系列之Docker容器编排](https://juejin.cn/post/7113712658850775048)
   - [云计算时代，你还不会 Docker ？ 一万字总结（建议收藏）](https://mp.weixin.qq.com/s/f581rfvKWE3KGgWfZDJ2cA)
 - 前端框架源码
-  - ⭐️ [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
+  - ⭐️ ⭐️ [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
   - ⭐️ [react18新特性及实践总结](https://juejin.cn/post/7117512204059934733)
   - ⭐️ [「React进阶」React中没有keepalive？没事！手把手教你从零到一设计并实现一个！](https://juejin.cn/post/7122617883837857806)
   - ⭐️ [「React 进阶」 React 全部 Hooks 使用大全 （包含 React v18 版本 ）](https://juejin.cn/post/7118937685653192735)
