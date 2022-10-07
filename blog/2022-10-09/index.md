@@ -51,22 +51,66 @@ useEventListener(
 那么在卡片滚动的需求中，对应的参数值为 `scrollLeft`、`scrollWidth`、`clientWidth`。只要 `scrollLeft + clientWidth < scrollWidth`，就可以继续向右滚动：
 
 ```jsx
-const { scrollLeft, clientWidth, scrollWidth } = el;
-const threshold = customWidth || clientWidth; // 一次滚动的距离
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useMemorizedFn } from "ahooks";
 
-const enableLeftScroll = scrollLeft > 0;
-const enableRightScroll = scrollLeft + clientWidth < scrollWidth;
+export const useCarouselScroll = <T extends HTMLElement>({
+  target,
+  customWidth,
+}: {
+  target: React.MutableRefObject<T>;
+  customWidth?: number;
+}) => {
+  const [enablePrev, setEnablePrev] = useState(false);
+  const [enableNext, setEnableNext] = useState(false);
 
-if (enableRightScroll) {
-  if (scrollLeft + clientWidth + threshold <= scrollWidth) {
-    // 可以滚动一屏的距离
-    el.scrollLeft += threshold;
-  } else {
-    // 滚动不足一屏距离
-    el.scrollLeft += (scrollWidth - scrollLeft - clientWidth);
-  }
-}
+  const { scrollLeft, clientWidth, scrollWidth } = target.current;
+  const threshold = customWidth || clientWidth; // 一次滚动的距离
+
+  useEffect(() => {
+    setEnablePrev(scrollLeft > 0);
+    setEnableNext(scrollLeft + clientWidth < scrollWidth);
+  }, []);
+
+  const prev = () => {
+    if (enablePrev) {
+      if (threshold < scrollLeft) {
+        // 可以滚动一屏的距离
+        target.current.scrollLeft -= threshold;
+      } else {
+        // 滚动不足一屏距离
+        target.current.scrollLeft -= scrollLeft;
+        setEnablePrev(false);
+      }
+
+      setEnableNext(true);
+    }
+  };
+
+  const next = () => {
+    if (enableNext) {
+      if (scrollLeft + clientWidth + threshold < scrollWidth) {
+        // 可以滚动一屏的距离
+        target.current.scrollLeft += threshold;
+      } else {
+        // 滚动不足一屏距离
+        target.current.scrollLeft += (scrollWidth - scrollLeft - clientWidth);
+        setEnableNext(false);
+      }
+
+      setEnablePrev(true);
+    }
+  };
+
+  return {
+    enablePrev,
+    enableNext,
+    prev: useMemorizedFn(prev),
+    next: useMemorizedFn(next),
+  };
+};
 ```
+
 过渡动画的实现就很简单了，一行 CSS 代码搞定：
 
 ```css
