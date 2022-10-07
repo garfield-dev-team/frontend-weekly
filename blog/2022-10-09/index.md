@@ -5,6 +5,74 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何实现卡片滚动效果
+
+实现一个横向卡片滚动的效果，有两个需求：
+
+- 需要有滚动条，这样可以支持有触摸板的设备（即不能通过 `overflow: hidden;` 加上 `transform: translateX();` 或者相对定位偏移实现）
+- 还要提供左右切换的按钮，这样便于鼠标操作，同时点击需要过渡动画
+
+根据第一点就可以确定，滚动的实现是父容器设置 `overflow-x: auto;` 实现的。那怎么实现第二个需求呢？
+
+观察一下 ahooks 的 `useInfiniteScroll` 源码，控制滚动的核心就是 `scrollTop`、`scrollHeight`、`clientHeight` 这几个参数：
+
+```tsx title="packages/hooks/src/useInfiniteScroll/index.tsx:81"
+// 滚动触发的回调函数
+const scrollMethod = () => {
+  const el = getTargetElement(target);
+  if (!el) {
+    return;
+  }
+
+  const scrollTop = getScrollTop(el);       // 滚动的距离，该参数值可以动态修改
+  const scrollHeight = getScrollHeight(el); // 滚动内容实际的高度，该参数值只读
+  const clientHeight = getClientHeight(el); // 外部滚动容器的高度，该参数值只读
+
+  if (scrollHeight - scrollTop <= clientHeight + threshold) {
+    loadMore();
+  }
+};
+
+// 绑定滚动事件监听器
+useEventListener(
+  'scroll',
+  () => {
+    if (loading || loadingMore) {
+      return;
+    }
+    scrollMethod();
+  },
+  { target },
+);
+```
+
+> https://github.com/alibaba/hooks/blob/master/packages/hooks/src/useInfiniteScroll/index.tsx
+
+那么在卡片滚动的需求中，对应的参数值为 `scrollLeft`、`scrollWidth`、`clientWidth`。只要 `scrollLeft + clientWidth < scrollWidth`，就可以继续向右滚动：
+
+```jsx
+const { scrollLeft, clientWidth, scrollWidth } = el;
+const threshold = customWidth || clientWidth; // 一次滚动的距离
+
+const enableLeftScroll = scrollLeft > 0;
+const enableRightScroll = scrollLeft + clientWidth < scrollWidth;
+
+if (enableRightScroll) {
+  if (scrollLeft + clientWidth + threshold <= scrollWidth) {
+    // 可以滚动一屏的距离
+    el.scrollLeft += threshold;
+  } else {
+    // 滚动不足一屏距离
+    el.scrollLeft += (scrollWidth - scrollLeft - clientWidth);
+  }
+}
+```
+过渡动画的实现就很简单了，一行 CSS 代码搞定：
+
+```css
+scroll-behavior: smooth;
+```
+
 📒 Next.js prefetch 策略
 
 很多全栈框架，例如 Next.js 都会做 prefetch 预加载 chunk。Next.js 提供了一个 `<Link />` 组件，可以实现 client-side route transitions，同时这个 `<Link />` 还具有 prefetch 功能：
