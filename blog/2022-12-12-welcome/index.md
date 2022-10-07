@@ -548,6 +548,7 @@ import TabItem from '@theme/TabItem';
 - MySQL 优化
   - ⭐️ [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
   - ⭐️ [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
+  - ⭐️ [SQL优化思路+经典案例分析](https://mp.weixin.qq.com/s/BbrLQWGYlkXiy6t4YANj0Q)
   - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
   - ⭐️ [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
