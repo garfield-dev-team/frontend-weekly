@@ -629,6 +629,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
+  - [Go语言中常见100问题-#12 Project misorganization](https://mp.weixin.qq.com/s/epK_0yn_EPIWJjz9xmddcA)
   - [Go 中基于 IP 地址的 HTTP 请求限流](https://mp.weixin.qq.com/s/aj_hULmeqy3whILr2ytECQ)
   - [项目实战：用 Go 创建一个简易负载均衡器](https://mp.weixin.qq.com/s/pe0CQa3tdrUmC86OSRBNeg)
   - [你知道几种Go并发控制方式](https://mp.weixin.qq.com/s/tloEYzrnKNrrAo1YKdeyrw)
