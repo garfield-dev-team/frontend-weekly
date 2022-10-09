@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [看了 web.dev 的 631 篇博客，我总结了这些内容](https://mp.weixin.qq.com/s/tft9YCVBlrEdsmfsihaRxA)
+
+📒 [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s/Uu3EAWpRO9pSbg1F1DLa_w)
+
+📒 [【第2747期】Islands Architecture（上）](https://mp.weixin.qq.com/s/Npid7nvqo5u9Jch83I4V1w)
+
+📒 [Go语言中常见100问题-#13 Creating utility packages](https://mp.weixin.qq.com/s/W6JFmMx3qAVShwgt4F2iEA)
+
 📒 [快速在你的vue/react应用中实现ssr(服务端渲染)](https://mp.weixin.qq.com/s/XLEIcEywjald9Df0hJYwYw)
 
 📒 [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
