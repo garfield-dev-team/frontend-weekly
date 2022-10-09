@@ -1160,4 +1160,10 @@ import TabItem from '@theme/TabItem';
 - [一个三小时的 React Native 速成课](https://www.youtube.com/watch?v=VozPNrt-LfE)
 - [前端配置化真香～上班又多了60%的摸🐟时间](https://juejin.cn/post/7098211898990002207)
 - [20个GitHub仓库助你成为React大师](https://juejin.cn/post/7104460511869141006)
+- [Vue 编译三部曲：如何将 template 编译成 AST](https://juejin.cn/post/7116296421816418311)
+- [Vue 编译三部曲：模型树优化](https://juejin.cn/post/7117085295798911012)
+- [Vue 编译三部曲：最后一曲，render code 生成](https://juejin.cn/post/7121504219588198413)
+- [初探 Vue3 编译之美](https://juejin.cn/post/7124890499478978597)
+- [Vue3 编译之美，抽象语法树的生成](https://juejin.cn/post/7126712173014810661)
+- [Vue3 编译之美，空白字符的处理](https://juejin.cn/post/7127074001897127943)
 
