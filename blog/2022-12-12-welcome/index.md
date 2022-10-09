@@ -618,6 +618,7 @@ import TabItem from '@theme/TabItem';
 - Golang 文章分享
   - ⭐️ [Golang开发手记](https://github.com/kevinyan815/gocookbook)
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
+  - ⭐️ [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s/Uu3EAWpRO9pSbg1F1DLa_w)
   - ⭐️ [Go学设计模式--原型模式的考查点和使用推荐](https://mp.weixin.qq.com/s/y1qHsQNR7EWeDU5g60Loqg)
   - ⭐️ [工厂模式有三个Level，你能用Go写到第几层](https://mp.weixin.qq.com/s/MlC6-TDf06LGpF8hxcSV_w)
   - ⭐️ [最简单的单例模式，Go版本的实现你写对了吗](https://mp.weixin.qq.com/s/1ZuhUA9Lt2uLFlamIY6fLQ)
