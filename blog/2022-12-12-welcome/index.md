@@ -57,6 +57,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [盘点掘金 2021 高赞 Vue 文章](https://juejin.cn/post/7047705995534925832)
 - [盘点掘金 2021 高赞 React 文章](https://juejin.cn/post/7047690546417565733)
 - [盘点掘金 2021 点赞高达 6000，收藏过万的文章](https://juejin.cn/post/7047153016771706916)
+- ⭐️ [在撸 Vue 的 ⌘+K 唤起菜单库时，我学到了很多](https://mp.weixin.qq.com/s/5AnRvwmA-U76T52FR47w8Q)
 - ⭐️ [\[科普文\] Vue3 到底更新了什么？](https://mp.weixin.qq.com/s/66sos7nML5rA0ZZGJ5qFIQ)
 - ⭐️ [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
 - 🌛 [我在项目中用实际用到的22个Vue优化技巧](https://juejin.cn/post/7005880217684148231)
@@ -344,6 +345,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Node.js 系列
 
+- ⭐️ ⭐️ [【程序员成长指北】node 必知必会系列](https://github.com/koala-coding/goodBlog)
 - ⭐️ ⭐️ [大厂是如何用DevCloud流水线实现自动化部署Web应用的？](https://juejin.cn/post/6887961766170066951)
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
@@ -601,6 +603,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [拒绝千篇一律，这套Go错误处理的完整解决方案值得一看！](https://mp.weixin.qq.com/s/DpCFUAYpvMzd6138Yp_JUA)
   - ⭐️ [go语言最全优化技巧总结，值得收藏！](https://mp.weixin.qq.com/s/_VGaV8ef65h9goxxfWejtQ)
   - ⭐️ [再不Go就来不及了！Go高性能编程技法解读](https://mp.weixin.qq.com/s/fXKSr8GXaYxG1WCrLIgneg)
+  - ⭐️ [Go 实战技巧：避免内存分配的小技巧](https://mp.weixin.qq.com/s/SLouDICt3HABv_wh-sSqKw)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
@@ -673,6 +676,7 @@ import TabItem from '@theme/TabItem';
   - [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
 - Golang 部署
   - 使用 Docker Desktop 搭建 k8s 集群
+  - [实时可视化Go Runtime指标，这个Go库超赞](https://mp.weixin.qq.com/s/rDSKItZ8hvgjvpp4f4VzCQ)
   - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
   - [在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
   - https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
@@ -918,6 +922,7 @@ import TabItem from '@theme/TabItem';
   - [别用 KMP 了， Rabin-Karp 算法了解下](https://mp.weixin.qq.com/s/HiEft8sW5QzHcM5mb5_V6g)
   - [微软面试题解析：丑数系列算法](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
   - [说透游戏中常用的两种随机算法](https://mp.weixin.qq.com/s/vxQDGfshcSVjs9EYmV8q3Q)
+  - [【面试高频题】难度 1.5/5，多解法经典面试题](https://juejin.cn/post/7152708637817831432)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 Webpack
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
@@ -1167,4 +1172,5 @@ import TabItem from '@theme/TabItem';
 - [初探 Vue3 编译之美](https://juejin.cn/post/7124890499478978597)
 - [Vue3 编译之美，抽象语法树的生成](https://juejin.cn/post/7126712173014810661)
 - [Vue3 编译之美，空白字符的处理](https://juejin.cn/post/7127074001897127943)
+- [在撸 Vue 的 ⌘+K 唤起菜单库时，我学到了很多](https://mp.weixin.qq.com/s/5AnRvwmA-U76T52FR47w8Q)
 
