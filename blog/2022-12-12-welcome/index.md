@@ -519,6 +519,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖！](https://mp.weixin.qq.com/s/T1toQ7NeHQKqof9A0o-99g)
 - [使用 lambda 实现超强的排序功能](https://mp.weixin.qq.com/s/n8iw_33Wwr9i0mWEXMG6-A)
 - [万字长文，SpringSecurity实现权限系统设计](https://mp.weixin.qq.com/s/e_uJhaGj4HO1iTS_zCoCXw)
 - [1.2w+字！Java IO 基础知识总结](https://mp.weixin.qq.com/s/J_11wYusexAjwa1cuckyfw)
@@ -633,6 +634,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
   - [Go语言中常见100问题-#12 Project misorganization](https://mp.weixin.qq.com/s/epK_0yn_EPIWJjz9xmddcA)
   - [Go 中基于 IP 地址的 HTTP 请求限流](https://mp.weixin.qq.com/s/aj_hULmeqy3whILr2ytECQ)
