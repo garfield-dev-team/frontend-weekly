@@ -86,6 +86,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 技术方案
 
+- [使用 Vite 插件自动化实现骨架屏](https://mp.weixin.qq.com/s/8cguocg_1DtZkHLfAGLyXg)
 - [盘点12个yyds的微信小程序开源项目](https://mp.weixin.qq.com/s/l7SA04BJovmJTUDIuobYiw)
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
 - [浅谈文档的实时协同编辑](https://mp.weixin.qq.com/s/Ba-3fMQXNXqIzVTjVUrWtQ)
@@ -287,6 +288,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
   - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
+  - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
   - 🌛 [Redis 持久化策略浅析](https://juejin.cn/post/7147602740405862407)
   - 🌛 [图文结合！Redis延迟队列golang高效实践](https://mp.weixin.qq.com/s/dCZm7e0aSEirhEqiCBvAyQ)
@@ -295,6 +297,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - 系统设计
+  - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
@@ -456,6 +459,7 @@ import TabItem from '@theme/TabItem';
 ## 网络相关
 
 - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- [刚插上网线，电脑怎么知道自己的IP是什么](https://juejin.cn/post/7153255870447484936)
 - ⭐️ [HTTPS 就一定安全？我不信](https://mp.weixin.qq.com/s/nS1bMy2TejmGwEfCHPXy5A)
 - ⭐️ [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
 - [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
