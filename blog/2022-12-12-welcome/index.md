@@ -554,7 +554,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [聊聊数据库建表的15个小技巧](https://juejin.cn/post/7136126923851169823)
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
-- MySQL 优化
+- 慢 SQL 优化
   - ⭐️ [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
   - ⭐️ [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
   - ⭐️ [SQL优化思路+经典案例分析](https://mp.weixin.qq.com/s/BbrLQWGYlkXiy6t4YANj0Q)
@@ -562,6 +562,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+- 脏读、不可重复读、幻读
+  - ⭐️ [美团三面：一直追问我， MySQL 幻读被彻底解决了吗](https://mp.weixin.qq.com/s/VWEKgnOWVnufz5pfvRjUWw)
 - 数据一致性
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/lyqvv-nA_PMUc-eBuCsNTA)
