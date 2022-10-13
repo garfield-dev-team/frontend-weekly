@@ -104,6 +104,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [怎么做到一图胜千言](https://juejin.cn/post/7153432342919397383)
 - ⭐️ [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
 - ⭐️ [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
 - ⭐️ [冴羽答读者问：如何在工作中打造影响力，带动同事](https://juejin.cn/post/7114967732805697543)
@@ -285,6 +286,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [超强指南！推荐算法架构——重排](https://mp.weixin.qq.com/s/wXb5uQJBCzSEq6IITP7VCQ)
   - [详细解读！推荐算法架构——召回](https://mp.weixin.qq.com/s/1wOnG4dtNSI-x2x15-AjTQ)
   - [图文并茂！推荐算法架构——粗排](https://mp.weixin.qq.com/s/YsK_8yyBNL5z269qT5CrIw)
+  - [详解闲鱼推荐系统（长文收藏）](https://juejin.cn/post/7153878508035391502)
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
   - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
