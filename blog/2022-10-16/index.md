@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何优雅地编写一个高逼格的JS插件](https://mp.weixin.qq.com/s/M4pDRfwCdUW0vxrAojxXZg)
+
+📒 [React 渲染的未来](https://juejin.cn/post/7154175507280429070)
+
 📒 [不破不立 —— 挥别 less-loader，Ant Design 5.0 Alpha 发布](https://mp.weixin.qq.com/s/ItQbMlTYFhZUJSDFty3ULA)
 
 📒 [Vue3组件库打包指南，一次生成esm、esm-bundle、commonjs、umd四种格式](https://juejin.cn/post/7152045316294836260)
