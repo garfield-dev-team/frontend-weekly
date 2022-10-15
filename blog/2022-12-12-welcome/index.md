@@ -104,6 +104,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [Umi Core Maintainers，月榜作者，晋升 P8，来听我碎碎念如何｜2022 年中总结](https://juejin.cn/post/7115634967945674765)
 - ⭐️ [怎么做到一图胜千言](https://juejin.cn/post/7153432342919397383)
 - ⭐️ [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
 - ⭐️ [如何在项目开发中逐步成长](https://mp.weixin.qq.com/s/cbKpWKWrhyJwKQhlyYhQ_w)
