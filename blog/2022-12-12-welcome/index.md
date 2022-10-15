@@ -698,6 +698,10 @@ import TabItem from '@theme/TabItem';
   - [Docker 学习笔记](https://blog.opskumu.com/docker.html)
   - [程序解Bug最常用的K8s命令，外加使用窍门](https://mp.weixin.qq.com/s/Ze096f0Utcl84c6gBwrCYw)
 - Golang 开源库推荐
+  - ⭐️ [字节跳动大规模企业级 HTTP 框架 Hertz 设计实践](https://juejin.cn/post/7153889167385526308)
+    - https://github.com/cloudwego/hertz
+    - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
+    - https://www.cloudwego.io/docs/hertz/getting-started/
   - https://github.com/samber/lo
   - https://github.com/nikoksr/notify
   - https://github.com/gin-gonic/examples
