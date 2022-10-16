@@ -463,6 +463,8 @@ import TabItem from '@theme/TabItem';
 
 - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
 - [刚插上网线，电脑怎么知道自己的IP是什么](https://juejin.cn/post/7153255870447484936)
+- [动图图解 | UDP就一定比TCP快吗](https://juejin.cn/post/7147243567075819557)
+- [用了TCP协议，就一定不会丢包吗](https://juejin.cn/post/7126710506936598558)
 - ⭐️ [HTTPS 就一定安全？我不信](https://mp.weixin.qq.com/s/nS1bMy2TejmGwEfCHPXy5A)
 - ⭐️ [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
 - [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
@@ -473,6 +475,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [面试必备！TCP协议经典十五连问](https://mp.weixin.qq.com/s/hVh5PIVaOeLyErZDPXx6mg)
 - ⭐️ [字节一面：如何用 UDP 实现可靠传输](https://mp.weixin.qq.com/s/hX75YxVOMtsnB6Sm_yjm0g)
 - ⭐️ [TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了](https://mp.weixin.qq.com/s/toQUgqJHeUbFZMtxfzFCxw)
+- ⭐️ [(建议收藏)TCP协议灵魂之问，巩固你的网路底层基础](https://juejin.cn/post/6844904070889603085)
 - ⭐️ [TCP 就没什么缺陷吗？](https://mp.weixin.qq.com/s/9kHoRk6QIYOFUR_PCmHY6g)
 - 推荐看看 QUIC 101 视频以及 [The QUIC transport protocol: design and Internet-scale deployment](https://courses.cs.washington.edu/courses/cse550/20au/papers/CSE550.quic.pdf) 论文
 - ⭐️ [一文彻底搞懂加密、数字签名和数字证书！](https://segmentfault.com/a/1190000024523772)
