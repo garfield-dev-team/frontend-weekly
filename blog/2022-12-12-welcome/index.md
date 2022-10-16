@@ -352,6 +352,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## Node.js 系列
 
 - ⭐️ ⭐️ [【程序员成长指北】node 必知必会系列](https://github.com/koala-coding/goodBlog)
+- ⭐️ ⭐️ [Node.js 概述：架构、API、事件循环、并发](https://mp.weixin.qq.com/s/B051n14JbNHqJtQb68HBFA)
 - ⭐️ ⭐️ [大厂是如何用DevCloud流水线实现自动化部署Web应用的？](https://juejin.cn/post/6887961766170066951)
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
