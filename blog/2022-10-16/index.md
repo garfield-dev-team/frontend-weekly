@@ -5,6 +5,28 @@ authors: [garfield]
 tags: []
 ---
 
+📒 开发小技巧总结
+
+如何优雅删除数组中的元素：
+
+```tsx
+const [imageList, setImageList] = useState([]);
+
+const handleRemoveImage = (idx) => {
+  // 第一种：mutable 方式
+  // 由于 `splice` 方法直接修改原数组，所以数组指针实际上没有变化
+  // 当 setState 的时候，React 内部使用 `Object.is` 严格相等比较
+  // 由于指针没有改变，不会触发 React 调度更新
+  // 这里需要手动浅拷贝，创建一个新数组
+  imageList.splice(idx, 1);
+  setImageList([...imageList]);
+
+  // 第二种：immutable 方式
+  // 用 `filter` 返回一个新数组，简单直接
+  setImageList(l => l.filter((_, index) => index !== idx));
+}
+```
+
 📒 [如何优雅地编写一个高逼格的JS插件](https://mp.weixin.qq.com/s/M4pDRfwCdUW0vxrAojxXZg)
 
 📒 [React 渲染的未来](https://juejin.cn/post/7154175507280429070)
