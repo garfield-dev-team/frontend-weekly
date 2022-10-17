@@ -706,6 +706,7 @@ import TabItem from '@theme/TabItem';
     - https://github.com/cloudwego/hertz
     - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
     - https://www.cloudwego.io/docs/hertz/getting-started/
+  - [「Go工具箱」redis官网推荐的go版本的分布式锁：redsync](https://mp.weixin.qq.com/s/KCj-mCkZpcEu3GXkuRLTuA)
   - https://github.com/samber/lo
   - https://github.com/nikoksr/notify
   - https://github.com/gin-gonic/examples
