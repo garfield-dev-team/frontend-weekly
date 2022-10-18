@@ -306,6 +306,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
   - [你管这破玩意儿叫 MQ](https://mp.weixin.qq.com/s/i_bwyEb8QqfVLxY-R9odag)
 - Elasticsearch 相关
+  - ⭐️ [MyBatis-Plus同款Elasticsearch ORM框架，用起来够优雅！](https://juejin.cn/post/7155662252584992805)
   - ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
   - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - 大数据相关
@@ -1008,6 +1009,7 @@ import TabItem from '@theme/TabItem';
   - 🌛 [「上集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1Yr4y1J7oc)
   - 🌛 [「下集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1j44y1g74m)
   - 🌛 [Build your own React](https://pomb.us/build-your-own-react/)
+  - [「万字总结」🍒动画 + 大白话讲清楚React渲染原理](https://juejin.cn/post/7121378029682556958)
   - [React 渲染的未来](https://juejin.cn/post/7154175507280429070)
   - [React 中常见的 8 个错误，如何避免](https://mp.weixin.qq.com/s/METf8Ng6Qnsu1uWGTzan8g)
   - [20个GitHub仓库助你成为React大师](https://juejin.cn/post/7104460511869141006)
