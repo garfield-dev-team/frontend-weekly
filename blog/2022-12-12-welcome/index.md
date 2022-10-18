@@ -815,6 +815,7 @@ import TabItem from '@theme/TabItem';
 **工具相关**
 
 - [plantuml：用代码画时序图、用例图、类图、思维导图](https://plantuml.com/)
+- [njt：快速导航至 npm 包资源](https://www.npmjs.com/package/njt)
 - [skypack：无需构建工具使用各种经过优化的 npm 包](https://www.skypack.dev/)
 - [carbon：生成代码片](https://link.juejin.cn/?target=https%3A%2F%2Fcarbon.now.sh%2F)
 - [codelf 变量命名神器](https://unbug.github.io/codelf/)
@@ -950,6 +951,7 @@ import TabItem from '@theme/TabItem';
   - [别用 KMP 了， Rabin-Karp 算法了解下](https://mp.weixin.qq.com/s/HiEft8sW5QzHcM5mb5_V6g)
   - [微软面试题解析：丑数系列算法](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
   - [说透游戏中常用的两种随机算法](https://mp.weixin.qq.com/s/vxQDGfshcSVjs9EYmV8q3Q)
+  - [我用消息队列做了一款联机小游戏](https://mp.weixin.qq.com/s/kI0HUTFVr4YEBpLRZWLEDg)
   - [【面试高频题】难度 1.5/5，多解法经典面试题](https://juejin.cn/post/7152708637817831432)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 Webpack
