@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何编写 CommonJS 模块，以便它们的导出可以从 ES 模块实现按照名称导入
+
+如果你曾经在使用 CommonJS 和 ES 模块之间纠结过，那么这篇文章或许值得一读。Axel 博士在这里解决了一个关键的交叉兼容性问题。
+
+https://2ality.com/2022/10/commonjs-named-exports.html
+
+📒 njt：快速导航至 npm 包资源
+
+如果你想要快速访问 npm 包的首页、仓库、issues，甚至包成本估算，那么 njt 将会是一个不错的选择。njt 提供了一个快速跳转到与 npm 包相关的各种资源目的地的方法。你可以在终端中安装并使用，也可以通过 LaunchX 扩展程序 将 njt 添加至 VS Code 的命令面板然后使用，或者在 Google 与 Firefox 浏览器进行配置然后搜索，亦或 直接在网页上使用它。如果你对此有兴趣，可以来看看 GitHub 仓库。
+
+https://www.npmjs.com/package/njt
+
 📒 [换一种方式对工程中的Api进行封装吧（fashion-axios）](https://juejin.cn/post/7142653628904701988)
 
 📒 [Element Plus 组件库相关技术揭秘：3.ESLint 核心原理剖析](https://juejin.cn/post/7153659360177029150)
@@ -12,6 +24,38 @@ tags: []
 📒 [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 
 📒 [MDH 前端周刊第 73 期：TypeScript 10 年、最快前端模板、whyframe、template 元素](https://mp.weixin.qq.com/s/GaSo704nCAOba7d3XhwCzg)
+
+📒 文章推荐
+
+- [🗂 前端版本兼容问题的探索](https://supercodepower.com/fontend-target)
+- [🗂 对 web.dev 所有 blog 的整理与归档](https://supercodepower.com/web-dev-blog)
+- [🤯 没 2 年 React Native 开发经验，你都遇不到这些坑](https://supercodepower.com/react-native-tweet)
+
+📒 Storybook 7.0 中 Vite 成为内置选项
+
+https://storybook.js.org/blog/first-class-vite-support-in-storybook/
+
+📒 用 Sandpack 打造世界级 Playground
+
+CodeSandbox 开源了 Sandpack，本文教你使用 Sandpack 打造出一个功能齐全的 Playground。
+
+https://www.joshwcomeau.com/react/next-level-playground/
+
+📒 Resumable vs. Hydration
+
+本文介绍了 Qwik 框架可恢复性的实现原理以及与常规补水相比具有的优势。
+
+https://qwik.builder.io/docs/concepts/resumable/
+
+📒 [TypeScript 十年，不忘初心](https://devblogs.microsoft.com/typescript/ten-years-of-typescript/)
+
+📒 Rollup v3.0.0
+
+Rollup 发布 v3.0.0，带来了大量更新。其中 Breaking Change 包括最低支持 Node 14.18.0、浏览器构建拆成单独的包 @rollup/browse、Node 构建使用 `node:` 前缀导入内置模块、移除一些以前被废弃的功能，使用时提示警告等。还有包括 Options 配置、插件 API、以及一系列的新特性。
+
+> Rollup 3.0 意味着 Vite 即将发布大版本
+
+https://github.com/rollup/rollup/releases/tag/v3.0.0
 
 📒 [前端食堂技术周刊第 55 期：Rollup v3.0.0、Volar 1.0 Nika、TypeScript 十年](https://juejin.cn/post/7155435611619328036)
 
@@ -37,7 +81,7 @@ https://react-table-library.com/
 
 📒 [【面试高频题】难度 1.5/5，常规滑动窗口运用题](https://mp.weixin.qq.com/s/vRiqSVSQOVsShnblV_fDfw)
 
-📒 [精读《Headless 组件用法与原理》](https://mp.weixin.qq.com/s/-PSUUDk0JtYRYH7g0viTZg)
+⭐️ [精读《Headless 组件用法与原理》](https://mp.weixin.qq.com/s/-PSUUDk0JtYRYH7g0viTZg)
 
 📒 [学习了！GoMap 会内存泄露](https://mp.weixin.qq.com/s/TcYo3VWpM3uDpya1XXrX3w)
 
