@@ -464,6 +464,7 @@ import TabItem from '@theme/TabItem';
 ## 网络相关
 
 - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- [502问题怎么排查](https://juejin.cn/post/7155280646112280613)
 - [刚插上网线，电脑怎么知道自己的IP是什么](https://juejin.cn/post/7153255870447484936)
 - [动图图解 | UDP就一定比TCP快吗](https://juejin.cn/post/7147243567075819557)
 - [用了TCP协议，就一定不会丢包吗](https://juejin.cn/post/7126710506936598558)
@@ -708,6 +709,7 @@ import TabItem from '@theme/TabItem';
     - https://github.com/cloudwego/hertz
     - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
     - https://www.cloudwego.io/docs/hertz/getting-started/
+  - [Go 每日一库之 go-cache 缓存](https://mp.weixin.qq.com/s/f4FAt-RgraOFXSfZmWjeoQ)
   - [「Go工具箱」redis官网推荐的go版本的分布式锁：redsync](https://mp.weixin.qq.com/s/KCj-mCkZpcEu3GXkuRLTuA)
   - https://github.com/samber/lo
   - https://github.com/nikoksr/notify
