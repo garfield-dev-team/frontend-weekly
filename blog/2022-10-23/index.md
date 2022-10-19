@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+📒 如何挑选最适合的 Node.js Docker 镜像
+
+当你在编写 DockerFile 时会忽略 `FROM node` 的含义，作者分享了一些对于版本选择上的考虑。
+
+https://snyk.io/blog/choosing-the-best-node-js-docker-image/
+
+📒 Lerna Reborn：第六个版本更新了什么
+
+使用 Nrwl 管理，面向 Lerna monorepo 的 JavaScript 构建系统并没有过时或弃用，它正在向前迈进一大步。v6 在默认情况下通过高效的任务调度和缓存、VS Code 扩展、Prettier 支持等获得了很大的速度。
+
+https://blog.nrwl.io/lerna-reborn-whats-new-in-v6-10aec6e9091c?gi=ba929beec06d
+
+📒 Node v18.11.0 发布
+
+Node 的最新版本虽然并没有更新很多功能，但却实验性的支持了 `--watch` 功能。当导入的文件发生变化时，会自动重新启动运行中的进程（这个功能让人想起了 `nodemon`） – 这个功能最近被 `详细讨论过`。
+
+https://nodejs.org/en/blog/release/v18.11.0/
+
+📒 [【综合笔试题】难度 4.5/5，扫描线的特殊运用（详尽答疑）](https://mp.weixin.qq.com/s/KA9Zvnkye6bIgzbP_MT6Iw)
+
+📒 [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
+
+📒 [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
+
 📒 如何编写 CommonJS 模块，以便它们的导出可以从 ES 模块实现按照名称导入
 
 如果你曾经在使用 CommonJS 和 ES 模块之间纠结过，那么这篇文章或许值得一读。Axel 博士在这里解决了一个关键的交叉兼容性问题。
