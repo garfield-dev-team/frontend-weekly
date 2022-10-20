@@ -770,6 +770,7 @@ import TabItem from '@theme/TabItem';
 - [caniuse：查询 API 兼容性](https://caniuse.com/)
 - [bundlephobia：查询 NPM 包体积](https://bundlephobia.com/)
 - [Deno cheat sheet](https://oscarotero.com/deno/)
+- [React Docs Beta](https://beta.reactjs.org/learn)
 - [tailwindcss 样式参考](https://tailwindcss.com/docs/configuration)
 - [Explain Shell](https://explainshell.com/)
 - [《阮一峰 ES6 教程》](https://es6.ruanyifeng.com/)
