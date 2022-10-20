@@ -27,6 +27,10 @@ https://nodejs.org/en/blog/release/v18.11.0/
 
 📒 [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
 
+⭐️ [【第2757期】软件架构的23个基本原则](https://mp.weixin.qq.com/s/3MwRLM0jDmwv5l6gamFjcw)
+
+⭐️ [【第2677期】如何在React中应用SOLID原则](https://mp.weixin.qq.com/s/iB23DV4hovPDdf5_4TCaOA)
+
 📒 [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
 
 📒 如何编写 CommonJS 模块，以便它们的导出可以从 ES 模块实现按照名称导入
