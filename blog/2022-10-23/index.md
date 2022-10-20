@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [用 Go 程序打包和压缩文件，我们可以这么做](https://mp.weixin.qq.com/s/wz2cyouDMCwbc38S-qOsAg)
+
+📒 [Go语言中常见100问题-#17 Creating confusion with octal literals](https://mp.weixin.qq.com/s/Jc30Ro4D9vD9kVwPG_VPIA)
+
 📒 如何挑选最适合的 Node.js Docker 镜像
 
 当你在编写 DockerFile 时会忽略 `FROM node` 的含义，作者分享了一些对于版本选择上的考虑。
