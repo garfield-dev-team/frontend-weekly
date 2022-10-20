@@ -795,6 +795,15 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses)
 - ⭐️ [How Web Works](https://github.com/vasanthk/how-web-works)
 
+**开源推荐**
+
+- [Next.js](https://nextjs.org/docs/getting-started)
+- [tailwindcss 样式参考](https://tailwindcss.com/docs/configuration)
+- [PNPM](https://pnpm.io/installation)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [Vite](https://vitejs.dev/)
+- [Storybook](https://storybook.js.org/)
+
 **在线 Plyaground**
 
 - [生成各个语言的汇编代码](https://godbolt.org/)
