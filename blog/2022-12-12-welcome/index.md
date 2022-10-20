@@ -183,6 +183,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
 - [pnpm + workspace + changesets 构建你的 monorepo 工程](https://juejin.cn/post/7098609682519949325)
+- [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
+- [🚀Turborepo：发布当月就激增 3.8k Star，这款超神的新兴 Monorepo 方案，你不打算尝试下吗](https://juejin.cn/post/7129267782515949575)
 - [Monorepo Handbook 新鲜出炉](https://turborepo.org/docs/handbook/what-is-a-monorepo)
 - [现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
 - [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
