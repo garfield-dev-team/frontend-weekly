@@ -86,6 +86,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 技术方案
 
+- ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
 - [使用 Vite 插件自动化实现骨架屏](https://mp.weixin.qq.com/s/8cguocg_1DtZkHLfAGLyXg)
 - [盘点12个yyds的微信小程序开源项目](https://mp.weixin.qq.com/s/l7SA04BJovmJTUDIuobYiw)
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
@@ -587,6 +588,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/lyqvv-nA_PMUc-eBuCsNTA)
   - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
   - ⭐️ [聊聊分布式锁](https://juejin.cn/post/7104507830522085383)
+- [MySQL 三万字精华总结 + 面试100 问，和面试官扯皮绰绰有余（收藏系列）](https://juejin.cn/post/6850037271233331208)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
 - [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
 - [MySQL夺命66问](https://mp.weixin.qq.com/s/cdc1NCSkvAU4Urk2wVFDMw)
