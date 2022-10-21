@@ -163,6 +163,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Tree shaking问题排查指南来啦](https://mp.weixin.qq.com/s/P3mzw_vmOR6K_Mj-963o3g)
 - [你的Tree-Shaking并没什么卵用](https://zhuanlan.zhihu.com/p/32831172)
 - [手摸手 Webpack 多入口配置实践](https://juejin.cn/post/6844903939289120782)
+- ⭐️ [学习 Webpack5 之路（优化篇）- 近 7k 字](https://juejin.cn/post/6996816316875161637)
 - ⭐️ [Webapck5核心打包原理全流程解析](https://juejin.cn/post/7031546400034947108)
 - ⭐️ ⭐️ [【万字】透过分析 webpack 面试题，构建 webpack5.x 知识体系](https://juejin.cn/post/7023242274876162084)
 - ⭐️ [Webpack 原理系列十：HMR 原理全解析](https://juejin.cn/post/7021729340945596424)
@@ -185,6 +186,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [pnpm + workspace + changesets 构建你的 monorepo 工程](https://juejin.cn/post/7098609682519949325)
 - [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 - [🚀Turborepo：发布当月就激增 3.8k Star，这款超神的新兴 Monorepo 方案，你不打算尝试下吗](https://juejin.cn/post/7129267782515949575)
+- [最详细的 lerna 中文手册](https://juejin.cn/post/7136925215388499998)
 - [Monorepo Handbook 新鲜出炉](https://turborepo.org/docs/handbook/what-is-a-monorepo)
 - [现代 Monorepo 工程技术选型，聊聊我的思考](https://mp.weixin.qq.com/s/99nozy-vtFMGcBTxYvumWA)
 - [看了9个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687)
@@ -203,6 +205,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## Rollup 系列
 
+- ⭐️ [【实战篇】最详细的Rollup打包项目教程](https://juejin.cn/post/7145090564801691684)
+- ⭐️ [从0到1开发一个React组件库](https://juejin.cn/post/7144365208646418462)
 - [一文入门rollup🪀！13组demo带你轻松驾驭](https://juejin.cn/post/7069555431303020580)
 - [说不清rollup能输出哪6种格式😥差点被鄙视](https://juejin.cn/post/7051236803344334862)
 - [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
