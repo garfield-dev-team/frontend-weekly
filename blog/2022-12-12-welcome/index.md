@@ -87,6 +87,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 技术方案
 
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
+- [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
+- [字节前端监控 SDK 体积与性能优化实践](https://mp.weixin.qq.com/s/FZUTFvOutS5NvURjj9jOFA)
 - [使用 Vite 插件自动化实现骨架屏](https://mp.weixin.qq.com/s/8cguocg_1DtZkHLfAGLyXg)
 - [盘点12个yyds的微信小程序开源项目](https://mp.weixin.qq.com/s/l7SA04BJovmJTUDIuobYiw)
 - [【第2628期】基于设计稿识别的可视化低代码系统实践](https://mp.weixin.qq.com/s/1HyQLZcnZN6I27p_hbfUPg)
@@ -552,6 +554,7 @@ import TabItem from '@theme/TabItem';
 - [源码深度解析，Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/djVu6SJjfYj4y_LNW-SKyw)
 - [麻了，代码改成多线程，竟有9大问题](https://mp.weixin.qq.com/s/hhjwiMx-ypEbxwHJ9rJoBw)
 - [别再乱打日志了，这份 Java 日志规范，应有尽有，建议收藏！](https://mp.weixin.qq.com/s/ioDYZjdSii3WUvL9xqc_Sg)
+- [聊聊SpringBoot单元测试](https://mp.weixin.qq.com/s/zn4TDT4Vl_MobqNkW1m-jw)
 - [总监又来了，人狠话不多，这篇 gRPC，小弟佩服！](https://mp.weixin.qq.com/s/4Sxal7N-uZ8gvphC8XWo8A)
 <!-- - [Java流行框架源码分析：Spring源码、SpringBoot源码、SpringAOP源码、SpringSecurity源码、SpringSecurity OAuth2源码、JDK源码、Netty源码](https://github.com/coderbruis/JavaSourceCodeLearning) -->
 - [腾讯一面：Thread、Runnable、Callable、Future、FutureTask，谈谈他们的关系](https://mp.weixin.qq.com/s/vqKKoPB5FQkCWXFWBLbkZg)
