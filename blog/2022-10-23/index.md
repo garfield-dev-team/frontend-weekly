@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [React 服务端渲染在跨端领域中的新视界](https://juejin.cn/post/7156607920262610981)
+
+📒 [学会这 20 个库，让你快速看懂 vue3 和 vite3 源码 🚀](https://juejin.cn/post/7124112069355372581)
+
+📒 [面试官：你会看 Vite 源码吗](https://juejin.cn/post/7094984070999834655)
+
 📒 [用 Go 程序打包和压缩文件，我们可以这么做](https://mp.weixin.qq.com/s/wz2cyouDMCwbc38S-qOsAg)
 
 📒 [Go语言中常见100问题-#17 Creating confusion with octal literals](https://mp.weixin.qq.com/s/Jc30Ro4D9vD9kVwPG_VPIA)
