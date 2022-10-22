@@ -57,6 +57,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [盘点掘金 2021 高赞 Vue 文章](https://juejin.cn/post/7047705995534925832)
 - [盘点掘金 2021 高赞 React 文章](https://juejin.cn/post/7047690546417565733)
 - [盘点掘金 2021 点赞高达 6000，收藏过万的文章](https://juejin.cn/post/7047153016771706916)
+- ⭐️ [Awesome JavaScript - 云谦大佬整理的 JS 生态](https://github.com/sorrycc/awesome-javascript#package-managers)
 - ⭐️ [在撸 Vue 的 ⌘+K 唤起菜单库时，我学到了很多](https://mp.weixin.qq.com/s/5AnRvwmA-U76T52FR47w8Q)
 - ⭐️ [\[科普文\] Vue3 到底更新了什么？](https://mp.weixin.qq.com/s/66sos7nML5rA0ZZGJ5qFIQ)
 - ⭐️ [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
