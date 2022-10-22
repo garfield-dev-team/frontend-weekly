@@ -789,6 +789,7 @@ import TabItem from '@theme/TabItem';
 - [tailwindcss 样式参考](https://tailwindcss.com/docs/configuration)
 - [Explain Shell](https://explainshell.com/)
 - [《阮一峰 ES6 教程》](https://es6.ruanyifeng.com/)
+- [【程序员成长指北】node 必知必会系列](https://github.com/koala-coding/goodBlog)
 - [《浏览器工作原理与实践》](https://link.juejin.cn/?target=https%3A%2F%2Fblog.poetries.top%2Fbrowser-working-principle%2F)
 - [《深入浅出 webpack》](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.wuhaolin.cn%2F)
 - [《代码随想录》](https://link.juejin.cn/?target=https%3A%2F%2Fprogrammercarl.com%2F)
