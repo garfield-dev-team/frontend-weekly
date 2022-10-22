@@ -61,6 +61,117 @@ https://www.npmjs.com/package/njt
 
 📒 [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 
+
+📒 开源推荐
+
+**lazygit**
+
+git 命令的 terminal UI 工具，基于 Go 实现。
+
+https://github.com/jesseduffield/lazygit
+
+**knip**
+
+又一个废代码检测工具，支持检测未使用的文件、依赖和 exports。
+
+```bash
+$ knip --reporter codeowners
+--- UNUSED FILES (2)
+@org/team src/chat/helpers.ts
+@org/owner src/components/SideBar.tsx
+--- UNUSED DEPENDENCIES (1)
+@org/admin moment
+--- UNLISTED DEPENDENCIES (1)
+@org/owner src/components/Registration.tsx react
+--- UNUSED EXPORTS (4)
+@org/team src/common/src/string/index.ts: lowercaseFirstLetter
+@org/owner src/components/Registration.tsx: RegistrationBox
+@org/owner src/css.ts: clamp
+@org/owner src/services/authentication.ts: restoreSession, PREFIX
+--- UNUSED TYPES (3)
+@org/owner src/components/Registration/registrationMachine.ts: RegistrationServices, RegistrationAction
+@org/owner src/components/Registration.tsx: ComponentProps
+@org/owner src/types/Product.ts: ProductDetail
+--- DUPLICATE EXPORTS (2)
+@org/owner src/components/Registration.tsx: Registration, default
+@org/owner src/components/Products.tsx: ProductsList, default
+```
+
+https://github.com/webpro/knip
+
+📒 手写 React 渲染器
+
+由于有 react-reconciler，让自定义 React 渲染器变地相当简单。
+
+```js
+import ReactReconciler from "react-reconciler";
+
+const reconciler = ReactReconciler({
+  // ... configuration options ...
+  // 启用突变模式
+  // Reconciler 有两种不同的渲染模式，1）突变模式，2）持久模式
+  supportsMutation: true,
+  
+  createInstance(type, props) {
+      const element = document.createElement(type);
+    Object.keys(props).forEach((prop) => {
+      // Filter out non-HTML attributes like:
+      if (!["children", "onClick", "key"].includes(prop)) {
+        // Appends each html attribute to the element
+        element[prop] = props[prop];
+      }
+    });
+    // return the HTML element
+    return element;
+  },
+  createTextInstance: (text) => {
+    return document.createTextNode(text);
+  },
+  getRootHostContext: () => null,
+  getChildHostContext: () => null,
+  shouldSetTextContent: () => null,
+  prepareForCommit: () => null,
+  clearContainer: () => null,
+  resetAfterCommit: () => null,
+  appendInitialChild: () => null,
+  appendChildToContainer: () => null,
+  finalizeInitialChildren: () => null,
+  removeChildFromContainer: () => null,
+});
+
+const render = (element, container) => {
+  const root = reconciler.createContainer(container, false, false);
+    reconciler.updateContainer(element, root, null, null);
+};
+
+export { render };
+```
+
+然后就可以拿这个 `render` 方法进行渲染了。
+
+```js
+render(<App />, document.getElementById('root'))
+```
+
+https://www.markcodes.dev/posts/build-react-custom-renderer-part-1
+
+📒 最快前端模板
+
+Jest 作者梳理了他认为最快的 2022 最快前端工具集以及与之配套的 github 仓库模板，结论是 Vite + tailwind + pnpm + eslint & prettier + TypeScript + React。我觉得这里的快有两个含义，1）速度快，2）用于快速启动项目的最小模板。
+
+- Vite 无需多说
+- Tailwind 也无需多说，但如果你有自己的 Design System，作者推荐用 emotion
+- pnpm 除了快，对 monorepo 的支持也很好
+- ESLint & prettier 有一些注意点，1）要分开用，别在 eslint 规则里加 prettier 规则，会慢，2）prettier 和 eslint 都有 --cache 参数，要开启，3）推荐用 @trivago/prettier-plugin-sort-imports 和 prettier-plugin-tailwindcss 对 import 和 tailwindcss 类进行排序，4）期待 rome 的 formatter 和 lint
+- npm-run-all 用于并行执行多个命令
+- NodeJS 脚本编写，基于 native esm，使用 ts-node + @swc/core + nodemon 的依赖组合实现，没有用基于 esbuild 方案比如 tsx，因为测下来在一些场景会莫名其妙地慢
+- TypeScript 无需多说
+- VSCode，作者推荐了 4 个插件
+
+大家可能会好奇，作为 Jest 作者，测试工具他选的啥？虽然文章里没提，但从代码里可以看到，用的是 Vitest，哈哈。
+
+https://cpojer.net/posts/fastest-frontend-tooling-in-2022
+
 📒 [MDH 前端周刊第 73 期：TypeScript 10 年、最快前端模板、whyframe、template 元素](https://mp.weixin.qq.com/s/GaSo704nCAOba7d3XhwCzg)
 
 📒 文章推荐
