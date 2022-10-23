@@ -1067,6 +1067,8 @@ import TabItem from '@theme/TabItem';
   - [敲下 vite 命令后，server 做了哪些事](https://mp.weixin.qq.com/s/3dfbu7lZJLd6cJSp9XLcVQ)
 - 包管理方案、PNPM
 - Arch Linux
+  - [10 Practical Grep Command Examples for Developers](https://linuxhandbook.com/grep-command-examples/)
+  - [The Linux Command Handbook – Learn Linux Commands for Beginners](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-grep-command)
 - 如何搭建个人博客
   - 使用 Next.js，开箱即用文件系统路由、静态站点生成（SSG）
   - https://nextjs.org/learn/basics/create-nextjs-app
