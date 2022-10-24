@@ -87,6 +87,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 技术方案
 
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
+- [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
 - [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
 - [字节前端监控 SDK 体积与性能优化实践](https://mp.weixin.qq.com/s/FZUTFvOutS5NvURjj9jOFA)
 - [使用 Vite 插件自动化实现骨架屏](https://mp.weixin.qq.com/s/8cguocg_1DtZkHLfAGLyXg)
@@ -107,6 +108,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [以前端架构师身份，从零开始搞事搞事搞事](https://mp.weixin.qq.com/s/K36xQbYgGVme8v_p9_dhkQ)
 - ⭐️ [Umi Core Maintainers，月榜作者，晋升 P8，来听我碎碎念如何｜2022 年中总结](https://juejin.cn/post/7115634967945674765)
 - ⭐️ [怎么做到一图胜千言](https://juejin.cn/post/7153432342919397383)
 - ⭐️ [用代码画时序图！YYDS](https://mp.weixin.qq.com/s/rJN14WFRTKjhoy8oWPulWw)
@@ -221,6 +223,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 微前端 && 模块联邦
 
 - ⭐️ [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
+- ⭐️ [聊一聊关于微前端架构的几种技术选型](https://mp.weixin.qq.com/s/l_KKNRUyJANN6wkoC2TlVQ)
+- [全面敏捷模式下的微前端方案](https://mp.weixin.qq.com/s/vy84FY3P6KPeWzDaNl6Ntg)
+- [微前端场景下的代码共享](https://mp.weixin.qq.com/s/mvdOU8uVG9NjGPzInpPxJA)
 - [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
 - [微前端架构的几种技术选型](https://mp.weixin.qq.com/s/ylkY9HWTQKPlbDb2M33YWQ)
 - [我们是怎么在项目中落地qiankun的](https://mp.weixin.qq.com/s/yu1tKtwneoTI9eSGS4us-g)
@@ -639,6 +644,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [再不Go就来不及了！Go高性能编程技法解读](https://mp.weixin.qq.com/s/fXKSr8GXaYxG1WCrLIgneg)
   - ⭐️ [Go 实战技巧：避免内存分配的小技巧](https://mp.weixin.qq.com/s/SLouDICt3HABv_wh-sSqKw)
   - ⭐️ [还咋优化？我是说Go程序](https://mp.weixin.qq.com/s/VtDR2uJ8SQ2jiIS2o2uyfA)
+  - ⭐️ [通过一个例子让你彻底掌握 Go 工作区模式](https://mp.weixin.qq.com/s/aIuta8Lr0govruPTgglw2w)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
@@ -736,6 +742,7 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
+  - [1024，我们的节日，Gopher 该干点啥](https://mp.weixin.qq.com/s/ipbUy3GBRMFat9jUSssMMw)
   - [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
   - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
   - [LeetCode Cookbook（在线阅读）](https://books.halfrost.com/leetcode/)
