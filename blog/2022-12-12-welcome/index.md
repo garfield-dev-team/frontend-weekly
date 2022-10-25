@@ -87,7 +87,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 技术方案
 
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
-- [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
+- ⭐️ [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
+- [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
 - [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
 - [字节前端监控 SDK 体积与性能优化实践](https://mp.weixin.qq.com/s/FZUTFvOutS5NvURjj9jOFA)
 - [使用 Vite 插件自动化实现骨架屏](https://mp.weixin.qq.com/s/8cguocg_1DtZkHLfAGLyXg)
@@ -1258,3 +1259,7 @@ import TabItem from '@theme/TabItem';
 - [Three.js 进阶之旅：模型光源结合生成明暗变化的创意页面-光与影之诗 💡](https://juejin.cn/post/7148969678642102286)
 - [Three.js 进阶之旅：基础入门（下）](https://juejin.cn/post/7146383940931026958)
 - [Three.js 进阶之旅：基础入门（上）](https://juejin.cn/post/7145064095178293285)
+- [🗂 前端版本兼容问题的探索](https://supercodepower.com/fontend-target)
+- [🗂 对 web.dev 所有 blog 的整理与归档](https://supercodepower.com/web-dev-blog)
+- [🤯 没 2 年 React Native 开发经验，你都遇不到这些坑](https://supercodepower.com/react-native-tweet)
+- [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
