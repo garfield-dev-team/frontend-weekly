@@ -25,6 +25,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## TS 高级技巧
 
 - ⭐️ [你需要知道的TypeScript高级类型](https://mp.weixin.qq.com/s/usDh1-Wzxrf4BftfWhwduA)
+- 🌛 [Typescript 类型编程，从入门到通达](https://mp.weixin.qq.com/s/WsldmkW2ovp-okxSY3le9g)
 - 🌛 [如何进阶TypeScript功底？一文带你理解TS中各种高级语法](https://juejin.cn/post/7089809919251054628)
 - 🌛 [推荐12个值得学习的TypeScript宝库！](https://juejin.cn/post/7150668738990178312)
 - 🌛 [TypeScript 类型系统：分布式条件类型全解](https://mp.weixin.qq.com/s/TUv8Cu6_ftQQ6lEWAwIa4w)
@@ -511,6 +512,7 @@ import TabItem from '@theme/TabItem';
 
 ## 操作系统
 
+- ⭐️ ⭐️ [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 - ⭐️ [操作系统常用知识总结！](https://mp.weixin.qq.com/s/xRnG204OW67mKMnbfFHBoA)
 - ⭐️ [Arch Linux 完全手册（上）](https://mp.weixin.qq.com/s/94F4v1E9sB82lOr2DeSK0A)
 - ⭐️ [Arch Linux 完全手册（下）](https://mp.weixin.qq.com/s/ev8hnv-coGLobrbezMK1og)
@@ -557,6 +559,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
 - [76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖！](https://mp.weixin.qq.com/s/T1toQ7NeHQKqof9A0o-99g)
 - [使用 lambda 实现超强的排序功能](https://mp.weixin.qq.com/s/n8iw_33Wwr9i0mWEXMG6-A)
 - [万字长文，SpringSecurity实现权限系统设计](https://mp.weixin.qq.com/s/e_uJhaGj4HO1iTS_zCoCXw)
@@ -603,6 +606,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/lyqvv-nA_PMUc-eBuCsNTA)
   - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
   - ⭐️ [聊聊分布式锁](https://juejin.cn/post/7104507830522085383)
+- ORM 相关
+  - ⭐️ [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
 - [MySQL 三万字精华总结 + 面试100 问，和面试官扯皮绰绰有余（收藏系列）](https://juejin.cn/post/6850037271233331208)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
 - [互联网公司都怎么实现分页的，拿 MySQL 使劲Limit](https://mp.weixin.qq.com/s/O6sgYSpXBPwAA4Qcstj-BA)
@@ -680,6 +685,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [Go常见错误集锦之函数式选项模式](https://mp.weixin.qq.com/s/nc4s289ULpQkGlQuaFbZlQ)
   - [详解并发编程基础之原子操作(atomic包)](https://mp.weixin.qq.com/s/THMhcM9TXydW8K5-Vvqvxg)
   - [学习channel设计：从入门到放弃](https://mp.weixin.qq.com/s/E2XwSIXw1Si1EVSO1tMW7Q)
   - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
