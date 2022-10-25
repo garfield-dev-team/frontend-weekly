@@ -1263,3 +1263,5 @@ import TabItem from '@theme/TabItem';
 - [🗂 对 web.dev 所有 blog 的整理与归档](https://supercodepower.com/web-dev-blog)
 - [🤯 没 2 年 React Native 开发经验，你都遇不到这些坑](https://supercodepower.com/react-native-tweet)
 - [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
+- [一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320)
+- [从 package.json 来聊聊如何管理一款优秀的 Npm 包](https://juejin.cn/post/7126394898445500423)
