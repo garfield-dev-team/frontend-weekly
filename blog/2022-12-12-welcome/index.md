@@ -192,6 +192,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## PNPM && Monorepo
 
+- ⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
 - [面试官：你会看 Vite 源码吗](https://juejin.cn/post/7094984070999834655)
 - [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
 - [pnpm + workspace + changesets 构建你的 monorepo 工程](https://juejin.cn/post/7098609682519949325)
@@ -597,8 +598,11 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [SQL优化思路+经典案例分析](https://mp.weixin.qq.com/s/BbrLQWGYlkXiy6t4YANj0Q)
   - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
   - ⭐️ [explain | 索引优化的这把绝世好剑，你真的会用吗](https://mp.weixin.qq.com/s/l3jJHIcqMzCcezbpboqyvQ)
+  - [MySQL 优化：Explain 执行计划详解](https://mp.weixin.qq.com/s/EVzU7KW9d5_254Kg4LZYQQ)
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+- 分库分表
+  - ⭐️ [再有人问你什么是分库分表，直接把这篇文章发给他](https://mp.weixin.qq.com/s/wYXs7gsID8a9ahJKsWXJ6w)
 - 脏读、不可重复读、幻读
   - ⭐️ [美团三面：一直追问我， MySQL 幻读被彻底解决了吗](https://mp.weixin.qq.com/s/VWEKgnOWVnufz5pfvRjUWw)
 - 数据一致性
@@ -667,6 +671,8 @@ import TabItem from '@theme/TabItem';
   - 🌛 [【系列文章】Go 微服务实战](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNTY5MzU2MA==&action=getalbum&album_id=1809543596702777345&scene=21&from_msgid=2247492061&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
   - 🌛 [【系列文章】Go 语言实战技巧](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUzNTY5MzU2MA==&scene=1&album_id=1326949382503219201&count=3#wechat_redirect)
   - 🌛 [【系列文章】Go 面试题](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1751854579329056768&count=3#wechat_redirect)
+  - ⭐️ [Golang 进阶 - SliceTricks](https://github.com/golang/go/wiki/SliceTricks)
+  - ⭐️ [Golang 进阶 - CompilerOptimizations](https://github.com/golang/go/wiki/CompilerOptimizations#optimized-memclr)
   - ⭐️ [Golang 进阶 - learning-more-about-go](https://github.com/golang/go/wiki#learning-more-about-go)
   - ⭐️ [Golang 进阶 - go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
 - Golang 文章分享
