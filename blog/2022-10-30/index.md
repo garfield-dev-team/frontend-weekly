@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
+
+📒 [Go标准库依赖的那些modules](https://mp.weixin.qq.com/s/n4Xvjrze4lWx8HdSMN20tg)
+
+📒 [使用 Vitest 和 React Testing Library 给 Next.js 应用单元测试](https://juejin.cn/post/7158478077670981662)
+
 📒 [前端初学 ECS 架构，实现超炫的粒子碰撞动画](https://mp.weixin.qq.com/s/zxSv8IpJtR__--pIwwb6AQ)
 
 📒 [Go HTTP服务用了优雅关闭，为什么还是报错](https://mp.weixin.qq.com/s/X4LSkIOjsoyXPB2z8AxtFA)
