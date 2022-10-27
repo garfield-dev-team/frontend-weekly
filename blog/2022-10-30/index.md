@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [一文了解 NextJS 并对性能优化做出最佳实践](https://mp.weixin.qq.com/s/rH2BqV2v7O-2KYVYNaZU-Q)
+
+📒 [比Webpack快700倍的Turbopack，到底快在哪](https://mp.weixin.qq.com/s/SRp408d-7T8nsPU4WjlMrQ)
+
 ⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
 
 📒 [Go标准库依赖的那些modules](https://mp.weixin.qq.com/s/n4Xvjrze4lWx8HdSMN20tg)
