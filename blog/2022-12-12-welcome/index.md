@@ -89,6 +89,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
 - ⭐️ [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
+- [不使用第三方库怎么实现【前端引导页】功能](https://mp.weixin.qq.com/s/3hXLSOQC-B5JGmkOaYjgqw)
 - [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
 - [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
 - [字节前端监控 SDK 体积与性能优化实践](https://mp.weixin.qq.com/s/FZUTFvOutS5NvURjj9jOFA)
@@ -594,6 +595,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 - 慢 SQL 优化
+  - ⭐️ [一次显著的大表查询优化，从20s优化到500ms，查询分离YYDS！](https://mp.weixin.qq.com/s/OBjRKdGzwFM4PNrbMd7kIA)
   - ⭐️ [MySQL表太大，count(*)都能 502，怎么优化](https://mp.weixin.qq.com/s/UxZRGO58kTiX5wUnuzMJ9Q)
   - ⭐️ [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
   - ⭐️ [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
