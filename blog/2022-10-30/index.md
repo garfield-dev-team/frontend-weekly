@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Monorepo，大型前端项目管理模式实践](https://mp.weixin.qq.com/s/N0CZABDD0TKTmdljH3y74A)
+
+📒 [React Hooks不优雅](https://mp.weixin.qq.com/s/vnq-CIfYtosaj49Nq_wn7A)
+
+📒 [运用「博弈论」分析「先手必胜态」序列具有何种性质，以及如何思考「博弈论」问题](https://mp.weixin.qq.com/s/oDOH-xNojT8_K4RsMLNSuw)
+
+📒 [Go 大佬良心发现，愿意给 map 加清除了](https://mp.weixin.qq.com/s/LnsVooXr-S-EkAoRj_ha5A)
+
+📒 [Turbopack 很火? 那么就从前端角度看 Rust](https://mp.weixin.qq.com/s/-sJmOZ8ObGEe3X9QZNqlWA)
+
+📒 [Docker夺命连环15问，你能坚持第几问](https://mp.weixin.qq.com/s/ll_7eYp_BJ2yJO-7bsR1IQ)
+
+📒 [当函数设计遇到切片](https://mp.weixin.qq.com/s/0jyXab9o2nizmVa9CANLOA)
+
+📒 [使用Go语言批量同步微信读书笔记到Flomo](https://mp.weixin.qq.com/s/4Za4c_XxVLnUlYoqSeU7Aw)
+
 ⭐️ [一文了解 NextJS 并对性能优化做出最佳实践](https://mp.weixin.qq.com/s/rH2BqV2v7O-2KYVYNaZU-Q)
 
 📒 [比Webpack快700倍的Turbopack，到底快在哪](https://mp.weixin.qq.com/s/SRp408d-7T8nsPU4WjlMrQ)
