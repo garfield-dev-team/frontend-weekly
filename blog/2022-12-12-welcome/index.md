@@ -762,6 +762,7 @@ import TabItem from '@theme/TabItem';
     - https://github.com/cloudwego/hertz
     - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
     - https://www.cloudwego.io/docs/hertz/getting-started/
+  - [Go每日一库之CSRF库的使用方式和实现原理](https://mp.weixin.qq.com/s/n-kU6nwhOH6ouhufrP_1kQ)
   - [Go 每日一库之 go-cache 缓存](https://mp.weixin.qq.com/s/f4FAt-RgraOFXSfZmWjeoQ)
   - [「Go工具箱」redis官网推荐的go版本的分布式锁：redsync](https://mp.weixin.qq.com/s/KCj-mCkZpcEu3GXkuRLTuA)
   - https://github.com/samber/lo
