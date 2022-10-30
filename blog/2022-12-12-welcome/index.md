@@ -89,6 +89,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
 - ⭐️ [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
+- ⭐️ [腾讯二面：现在要你实现一个埋点监控SDK，你会怎么设计](https://juejin.cn/post/7085679511290773534)
 - [不使用第三方库怎么实现【前端引导页】功能](https://mp.weixin.qq.com/s/3hXLSOQC-B5JGmkOaYjgqw)
 - [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
 - [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
