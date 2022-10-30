@@ -90,6 +90,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
 - ⭐️ [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
 - ⭐️ [腾讯二面：现在要你实现一个埋点监控SDK，你会怎么设计](https://juejin.cn/post/7085679511290773534)
+- [腾讯三面：Cookie的SameSite了解吧，那SameParty呢](https://juejin.cn/post/7087206796351242248)
+- [腾讯一面：CORS为什么能保障安全？为什么只对复杂请求做预检](https://juejin.cn/post/7081539471585312805)
 - [不使用第三方库怎么实现【前端引导页】功能](https://mp.weixin.qq.com/s/3hXLSOQC-B5JGmkOaYjgqw)
 - [前端架构带你 封装axios，一次封装终身受益「美团后端连连点赞」](https://juejin.cn/post/7124573626161954823)
 - [【第2759期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA)
@@ -179,6 +181,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Webpack5 实践 - 构建效率倍速提升！](https://mp.weixin.qq.com/s/gwHwVxA4zh59SBvq-onM-g)
 - 🌛 [Webpack 性能系列一: 使用 Cache 提升构建性能](https://mp.weixin.qq.com/s/mpF6W-4dElu0UPed03oJQw)
 - 🌛 [我是如何将网页性能提升5倍的 — 构建优化篇](https://juejin.cn/post/6910893471339708429)
+- ⭐️ [如何快速成为一名熟练的 Webpack 配置工程师 - 上篇](https://juejin.cn/post/7144934998884220958)
+- ⭐️ [如何快速成为一名熟练的 Webpack 配置工程师 - 下篇](https://juejin.cn/post/7145025071432597541)
 - ⭐️ ⭐️ [学习 Webpack5 之路（优化篇）- 近 7k 字](https://juejin.cn/post/6996816316875161637)
 - ⭐️ ⭐️ [学习 Webpack5 之路（实践篇）](https://juejin.cn/post/6991774994552324133)
 - ⭐️ ⭐️ [学习 Webpack5 之路（基础篇）](https://juejin.cn/post/6991630925792542750)
@@ -236,6 +240,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
 - ⭐️ [聊一聊关于微前端架构的几种技术选型](https://mp.weixin.qq.com/s/l_KKNRUyJANN6wkoC2TlVQ)
+- ⭐️ [超大体量项目，微前端落地方案，看完后悔来找我](https://juejin.cn/post/7121244973558661150)
 - [全面敏捷模式下的微前端方案](https://mp.weixin.qq.com/s/vy84FY3P6KPeWzDaNl6Ntg)
 - [微前端场景下的代码共享](https://mp.weixin.qq.com/s/mvdOU8uVG9NjGPzInpPxJA)
 - [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
@@ -275,6 +280,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - 在线阅读：https://abseil.io/blog/04222021-swe-book
   - PDF 下载：https://github.com/garfield-dev-team/Frontend-Training-Program/blob/main/OReilly.Software.Engineering.at.Google.2020.3.pdf
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
+- ⭐️ [语雀桌面端技术架构实践](https://juejin.cn/post/7145014659584622629)
 - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
 - [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
 - ⭐️ [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
