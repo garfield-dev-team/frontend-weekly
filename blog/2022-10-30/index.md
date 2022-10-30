@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Next.js 13 相关文章
+
+[你好，Next.js 13](https://juejin.cn/post/7160084572942630926)
+
+https://nextjs.org/blog/next-13
+
+https://beta.nextjs.org/docs/data-fetching/fundamentals#
+
 📒 [Monorepo，大型前端项目管理模式实践](https://mp.weixin.qq.com/s/N0CZABDD0TKTmdljH3y74A)
 
 📒 [React Hooks不优雅](https://mp.weixin.qq.com/s/vnq-CIfYtosaj49Nq_wn7A)
