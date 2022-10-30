@@ -136,6 +136,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## Git 相关
 
 - ⭐️ [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)
+- ⭐️ [如果你还不会用git回滚代码，那你一定要来看看](https://juejin.cn/post/7046720828901163016)
 - ⭐️ [Git不要只会pull和push，试试这5条提高效率的命令](https://juejin.cn/post/7071780876501123085)
 - [利用好 git bisect 这把利器，帮助你快速定位疑难 bug](https://juejin.cn/post/7046409685561245733)
 - ⭐️ [前端架构师的 git 功力，你有几成火候？](https://juejin.cn/post/7024043015794589727)
@@ -824,6 +825,7 @@ import TabItem from '@theme/TabItem';
 - [bundlephobia：查询 NPM 包体积](https://bundlephobia.com/)
 - [Deno cheat sheet](https://oscarotero.com/deno/)
 - [React Docs Beta](https://beta.reactjs.org/learn)
+- [Overreacted](https://overreacted.io/)
 - [tailwindcss 样式参考](https://tailwindcss.com/docs/configuration)
 - [Explain Shell](https://explainshell.com/)
 - [《阮一峰 ES6 教程》](https://es6.ruanyifeng.com/)
@@ -1078,6 +1080,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
   - ⭐️ [2022 年的 React 生态](https://juejin.cn/post/7085542534943883301)
   - ⭐️ [React 运行时优化方案的演进](https://juejin.cn/post/7010539227284766751)
+  - 🌛 [Before You memo()](https://overreacted.io/before-you-memo/)
+  - 🌛 [图解 React - bailout逻辑](https://7kms.github.io/react-illustration-series/main/fibertree-update/#bailout%E9%80%BB%E8%BE%91-bailout)
   - 🌛 [「上集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1Yr4y1J7oc)
   - 🌛 [「下集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1j44y1g74m)
   - 🌛 [Build your own React](https://pomb.us/build-your-own-react/)
