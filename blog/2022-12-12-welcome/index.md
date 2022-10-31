@@ -231,6 +231,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [基于storybook组件库的技术选型该怎么选](https://mp.weixin.qq.com/s/xjY0d8eNTmAuCZKxKQeu7g)
 - ⭐️ [一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320)
 - ⭐️ [从 package.json 来聊聊如何管理一款优秀的 Npm 包](https://juejin.cn/post/7126394898445500423)
+- ⭐️ [前端工程化基建探索：从内部机制和核心原理了解npm](https://mp.weixin.qq.com/s/mL1pv2kPKvtaHalr7PXKow)
 - [一文入门rollup🪀！13组demo带你轻松驾驭](https://juejin.cn/post/7069555431303020580)
 - [说不清rollup能输出哪6种格式😥差点被鄙视](https://juejin.cn/post/7051236803344334862)
 - [从零开始发布自己的NPM包](https://juejin.cn/post/7052307032971411463)
@@ -339,6 +340,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - 系统设计
+  - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
@@ -676,6 +678,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [通过一个例子让你彻底掌握 Go 工作区模式](https://mp.weixin.qq.com/s/aIuta8Lr0govruPTgglw2w)
   - ⭐️ [Go的方法接收者：值接收者与指针接收者](https://mp.weixin.qq.com/s/_duDs0oHc_z_p--3OoIfVw)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
+  - ⭐️ [程序员应该遵守的编程原则(不止Gopher哦)](https://mp.weixin.qq.com/s/94thx36Ao2PYQ-8Cbto-wQ)
+  - ⭐️ [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
@@ -696,6 +700,7 @@ import TabItem from '@theme/TabItem';
 - Golang 文章分享
   - ⭐️ [Golang开发手记](https://github.com/kevinyan815/gocookbook)
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
+  - ⭐️ [学会用这个设计模式思考业务抓手，OKR绩效想不拿优都难](https://mp.weixin.qq.com/s/W1m1IV9iwXzp3QcSchk7PQ)
   - ⭐️ [Go Gin框架请求自动验证和数据绑定，看完这篇就会用了](https://mp.weixin.qq.com/s/cAwc6ZhdUwxkI5VT8LY9Hg)
   - ⭐️ [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s/Uu3EAWpRO9pSbg1F1DLa_w)
   - ⭐️ [Go学设计模式--原型模式的考查点和使用推荐](https://mp.weixin.qq.com/s/y1qHsQNR7EWeDU5g60Loqg)
@@ -709,6 +714,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s/6KxJRG3lKUDY734t4EzAaA)
+  - [手撸源码系列 - cache2go](https://mp.weixin.qq.com/s/qyEiEACuUd8SsyqCDLUjXA)
   - [Go常见错误集锦之函数式选项模式](https://mp.weixin.qq.com/s/nc4s289ULpQkGlQuaFbZlQ)
   - [详解并发编程基础之原子操作(atomic包)](https://mp.weixin.qq.com/s/THMhcM9TXydW8K5-Vvqvxg)
   - [学习channel设计：从入门到放弃](https://mp.weixin.qq.com/s/E2XwSIXw1Si1EVSO1tMW7Q)
@@ -782,6 +789,8 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
+  - [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
+  - [Go 学习之路](https://github.com/talkgo/read)
   - [1024，我们的节日，Gopher 该干点啥](https://mp.weixin.qq.com/s/ipbUy3GBRMFat9jUSssMMw)
   - [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
   - [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
