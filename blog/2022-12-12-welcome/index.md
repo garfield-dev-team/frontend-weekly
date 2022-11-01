@@ -114,6 +114,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [聊聊如何学习](https://mp.weixin.qq.com/s/kozXWY95HXiQPGou1sfttg)
 - ⭐️ [以前端架构师身份，从零开始搞事搞事搞事](https://mp.weixin.qq.com/s/K36xQbYgGVme8v_p9_dhkQ)
 - ⭐️ [Umi Core Maintainers，月榜作者，晋升 P8，来听我碎碎念如何｜2022 年中总结](https://juejin.cn/post/7115634967945674765)
 - ⭐️ [怎么做到一图胜千言](https://juejin.cn/post/7153432342919397383)
@@ -341,6 +342,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - 系统设计
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
+  - ⭐️ [高并发下，幂等性如何保证](https://mp.weixin.qq.com/s/crzfBEGn78nUZ5H3MF8UZw)
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
@@ -780,6 +782,7 @@ import TabItem from '@theme/TabItem';
     - https://github.com/cloudwego/hertz
     - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
     - https://www.cloudwego.io/docs/hertz/getting-started/
+  - [Go 语言终极搜索插件](https://mp.weixin.qq.com/s/025-MLMAbdT38kWI--AoYg)
   - [Go每日一库之CSRF库的使用方式和实现原理](https://mp.weixin.qq.com/s/n-kU6nwhOH6ouhufrP_1kQ)
   - [Go 每日一库之 go-cache 缓存](https://mp.weixin.qq.com/s/f4FAt-RgraOFXSfZmWjeoQ)
   - [「Go工具箱」redis官网推荐的go版本的分布式锁：redsync](https://mp.weixin.qq.com/s/KCj-mCkZpcEu3GXkuRLTuA)
