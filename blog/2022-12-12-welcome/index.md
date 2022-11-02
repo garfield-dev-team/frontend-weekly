@@ -204,6 +204,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [面试官：你会看 Vite 源码吗](https://juejin.cn/post/7094984070999834655)
 - [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
 - [pnpm + workspace + changesets 构建你的 monorepo 工程](https://juejin.cn/post/7098609682519949325)
+- [Element Plus 组件库核心技术揭秘：5. 从终端命令解析器说起谈谈 npm 包管理工具的运行原理](https://juejin.cn/post/7161063570594070559)
 - [Element Plus 组件库相关技术揭秘：4. ESLint 技术原理与实战及代码规范自动化详解](https://juejin.cn/post/7157743898939359262)
 - [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 - [🚀Turborepo：发布当月就激增 3.8k Star，这款超神的新兴 Monorepo 方案，你不打算尝试下吗](https://juejin.cn/post/7129267782515949575)
@@ -702,7 +703,7 @@ import TabItem from '@theme/TabItem';
 - Golang 文章分享
   - ⭐️ [Golang开发手记](https://github.com/kevinyan815/gocookbook)
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
-  - ⭐️ [学会用这个设计模式思考业务抓手，OKR绩效想不拿优都难](https://mp.weixin.qq.com/s/W1m1IV9iwXzp3QcSchk7PQ)
+  - ⭐️ [用Go学设计模式-提炼流程，减少重复开发就靠它了!](https://mp.weixin.qq.com/s/-Ysho1jI9MfrAIrplzj7UQ)
   - ⭐️ [Go Gin框架请求自动验证和数据绑定，看完这篇就会用了](https://mp.weixin.qq.com/s/cAwc6ZhdUwxkI5VT8LY9Hg)
   - ⭐️ [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s/Uu3EAWpRO9pSbg1F1DLa_w)
   - ⭐️ [Go学设计模式--原型模式的考查点和使用推荐](https://mp.weixin.qq.com/s/y1qHsQNR7EWeDU5g60Loqg)
@@ -716,6 +717,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [Go for 循环有时候真的很坑](https://mp.weixin.qq.com/s/Pcp2FjcXk7Q7sV0Z-bEUNw)
   - [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s/6KxJRG3lKUDY734t4EzAaA)
   - [手撸源码系列 - cache2go](https://mp.weixin.qq.com/s/qyEiEACuUd8SsyqCDLUjXA)
   - [Go常见错误集锦之函数式选项模式](https://mp.weixin.qq.com/s/nc4s289ULpQkGlQuaFbZlQ)
@@ -1072,6 +1074,7 @@ import TabItem from '@theme/TabItem';
   - https://github.com/snabbdom/snabbdom/blob/master/src/init.ts
   - ⭐️ [图解Diff算法——Vue篇](https://mp.weixin.qq.com/s/8M-pJdKjF6bx5ijtSFKIcw)
   - ⭐️ [浅析 Snabbdom 中 vnode 和 diff 算法](https://juejin.cn/post/7067693810918096903)
+  - [一文吃透 React 和 Vue 的多节点 diff 原理](https://juejin.cn/post/7161063643105198093)
   - [diff 算法深入一下？](https://juejin.cn/post/6997965021401579556)
   - [DIff算法看不懂就一起来砍我(带图)](https://juejin.cn/post/7000266544181674014)
   - [关于Virtual DOM理解和Snabbdom源码浅析](https://juejin.cn/post/6966215704634720287)
