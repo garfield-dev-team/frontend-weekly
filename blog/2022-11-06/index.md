@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 深入浅出 Vite - 推荐阅读
+
+- [手写 Bundler: 实现代码打包、 Tree Shaking](https://juejin.cn/book/7050063811973218341/section/7070419010021490702)
+- [手写 Bundler: 实现 JavaScript AST 解析器——词法分析、语义分析](https://juejin.cn/book/7050063811973218341/section/7066614663533821983)
+
+📒 开发小技巧
+
+npm scripts 中的 `--` 可以用来转发命令行参数：
+
+```json
+{
+  "scripts": {
+    "build:weapp": "taro build --type=miniprogram",
+    "dev:weapp": "npm run build:weapp -- --watch"
+  }
+}
+```
+
 ⭐️ [极致编译速度，一文搞定webpack5升级](https://juejin.cn/post/7161303856943464455)
 
 📒 [Element Plus 组件库核心技术揭秘：5. 从终端命令解析器说起谈谈 npm 包管理工具的运行原理](https://juejin.cn/post/7161063570594070559)
