@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [极致编译速度，一文搞定webpack5升级](https://juejin.cn/post/7161303856943464455)
+
+📒 [Element Plus 组件库核心技术揭秘：5. 从终端命令解析器说起谈谈 npm 包管理工具的运行原理](https://juejin.cn/post/7161063570594070559)
+
+📒 [一文吃透 React 和 Vue 的多节点 diff 原理](https://juejin.cn/post/7161063643105198093)
+
+📒 [看 Go 中的 struct 如何被优化，还有小插曲](https://mp.weixin.qq.com/s/tc0amzQ5HDRTfORdq11RBg)
+
+📒 [Go for 循环有时候真的很坑](https://mp.weixin.qq.com/s/Pcp2FjcXk7Q7sV0Z-bEUNw)
+
+📒 [用Go学设计模式-提炼流程，减少重复开发就靠它了!](https://mp.weixin.qq.com/s/-Ysho1jI9MfrAIrplzj7UQ)
+
+📒 [vue中动态引入图片为什么要是require， 你不知道的那些事](https://mp.weixin.qq.com/s/aERKozDPGPdrePl21mN9JA)
+
+⭐️ [聊一聊常见的构建工具关于插件机制的那些通用套路](https://juejin.cn/post/7157902763534319624)
+
 📒 [Chrome 最近带来了哪些有意思的新东西](https://mp.weixin.qq.com/s/6Rr1UfMTa-Y6H7_VAtv0aw)
 
 📒 [深入剖析容器技术基础](https://mp.weixin.qq.com/s/JbmA1NK4CWOiD0gOTXa_AA)
