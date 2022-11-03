@@ -341,6 +341,11 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [如何保证数据库和缓存双写一致性](https://mp.weixin.qq.com/s/mO819q_r9qLVuRBE8cjx1Q)
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
+- Redis 实现分布式锁
+  - [深入理解 go singleflight](https://mp.weixin.qq.com/s/p2rlkCRRj7h7-aojTidQbg)
+  - [面试官：如何用 Redis 实现分布式锁](https://mp.weixin.qq.com/s/ESdfA5sJa6bmL-HvuWpoJA)
+  - [如何用Redis实现分布式锁](https://mp.weixin.qq.com/s/RS1kKvF_Ly576GV52bHQPg)
+  - [Go：分布式锁实现原理与最佳实践](https://mp.weixin.qq.com/s/lrSQBK-Kihkj6994kQFpUQ)
 - 系统设计
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
   - ⭐️ [高并发下，幂等性如何保证](https://mp.weixin.qq.com/s/crzfBEGn78nUZ5H3MF8UZw)
@@ -683,6 +688,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
   - ⭐️ [程序员应该遵守的编程原则(不止Gopher哦)](https://mp.weixin.qq.com/s/94thx36Ao2PYQ-8Cbto-wQ)
   - ⭐️ [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
+  - ⭐️ [Go 1.18新特性前瞻：原生支持Fuzzing测试](https://mp.weixin.qq.com/s/UqjSA2i3s1VoLFACt_EL2A)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
