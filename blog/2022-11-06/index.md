@@ -5,6 +5,26 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [GitHub上高质量数据结构与算法项目推荐！](https://mp.weixin.qq.com/s/C_8NZLx4TOX-8Xw5q4Xzyg)
+
+📒 如何使用官方的 Node.js Docker 镜像
+
+https://www.docker.com/blog/how-to-use-the-node-docker-official-image/
+
+📒 Node v18 现在进入 LTS 阶段（v18.12.0）
+
+直至 2023 年 10 月，之前作为 current 版本的 v18 将作为 active LTS 存在，并拥有所有最新的功能特性。本版本的代号是 “氢”——宇宙中最丰富的元素。
+
+https://nodejs.org/en/blog/release/v18.12.0/
+
+📒 route-list：显示 Express/Koa/Hapi/Fastify 路由
+
+如果你想以一种优雅的方式查看基于 Node 的 webapp 的所有路由，那么可以试试它。
+
+https://github.com/VladimirMikulic/route-list
+
+📒 [现代 CSS 指南 -- at-rule 规则必知必会](https://mp.weixin.qq.com/s/LkM_Y-9OfgXatocVsM6m6g)
+
 📒 深入浅出 Vite - 推荐阅读
 
 - [手写 Bundler: 实现代码打包、 Tree Shaking](https://juejin.cn/book/7050063811973218341/section/7070419010021490702)
