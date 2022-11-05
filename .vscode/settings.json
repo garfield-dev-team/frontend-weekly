@@ -1,15 +1,25 @@
 {
+  // 统一换行风格 LF，win 默认 CRLF
+  "files.eol": "\n",
   // 修改 tab 缩进为两空格
   "editor.tabSize": 2,
   // 代码粘贴时格式化
   "editor.formatOnPaste": true,
   // 代码保存时格式化
   // "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.codeActionsOnSave": {
     // 在保存时使用 eslint 格式化
     "source.fixAll.eslint": true,
     // 保存时整理 import ，去掉没用的导包
-    "source.organizeImports": true
+    // "source.organizeImports": true
   },
   "where-am-i.color": "#9cc494",
 }
