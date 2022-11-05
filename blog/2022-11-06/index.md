@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 相关文章推荐
+
+深度解析好文：为了让 React 更好
+
+> https://acko.net/blog/get-in-zoomer-we-re-saving-react/
+
+创建现代 npm 包的最佳实践
+
+> https://snyk.io/blog/best-practices-create-modern-npm-package/
+
+useSyncExternalStore：被低估的 React API
+
+> https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api
+
+为什么每个 React 开发者都应该学习函数组合
+
+> https://medium.com/javascript-scene/why-every-react-developer-should-learn-function-composition-23f41d4db3b1
+
 ⭐️ [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
 
 📒 [你了解 Cookie 中的 SameSite 属性吗](https://mp.weixin.qq.com/s/CG5plqmv1-pFT-qRDJk-nQ)
