@@ -451,6 +451,8 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ [bytemd - 字节出品的 markdown 编辑器](https://github.com/bytedance/bytemd)
 - ⭐️ [guide - 字节出品的 React 新手引导组件](https://github.com/bytedance/guide)
+- ⭐️ [react-medium-image-zoom - 受 Medium.com 启发的图片预览组件](https://github.com/rpearce/react-medium-image-zoom)
+- ⭐️ [cmdk - 一个基于 React 的快速、可组合、无风格的命令面板](https://github.com/pacocoursey/cmdk)
 
 </TabItem>
 <TabItem value="浏览器环境" label="浏览器环境">
