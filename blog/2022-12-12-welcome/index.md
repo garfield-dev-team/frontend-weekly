@@ -90,6 +90,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [如何去搞前端基建](https://juejin.cn/post/7144881028661723167)
 - ⭐️ [一文教你搞定所有前端鉴权与后端鉴权方案，让你不再迷惘](https://juejin.cn/post/7129298214959710244)
 - ⭐️ [腾讯二面：现在要你实现一个埋点监控SDK，你会怎么设计](https://juejin.cn/post/7085679511290773534)
+- ⭐️ [【第2774期】基于 Module Federation 的模块化跨栈方案探索](https://mp.weixin.qq.com/s/Fqy_pkgKvZrdZZc3t5xgdA)
 - [腾讯三面：Cookie的SameSite了解吧，那SameParty呢](https://juejin.cn/post/7087206796351242248)
 - [腾讯一面：CORS为什么能保障安全？为什么只对复杂请求做预检](https://juejin.cn/post/7081539471585312805)
 - [不使用第三方库怎么实现【前端引导页】功能](https://mp.weixin.qq.com/s/3hXLSOQC-B5JGmkOaYjgqw)
@@ -201,7 +202,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## PNPM && Monorepo
 
 - ⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
-- [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
+- ⭐️ [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
 - [Monorepo，大型前端项目管理模式实践](https://mp.weixin.qq.com/s/N0CZABDD0TKTmdljH3y74A)
 - [面试官：你会看 Vite 源码吗](https://juejin.cn/post/7094984070999834655)
 - [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
@@ -247,6 +248,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
 - ⭐️ [聊一聊关于微前端架构的几种技术选型](https://mp.weixin.qq.com/s/l_KKNRUyJANN6wkoC2TlVQ)
 - ⭐️ [超大体量项目，微前端落地方案，看完后悔来找我](https://juejin.cn/post/7121244973558661150)
+- ⭐️ [【第2774期】基于 Module Federation 的模块化跨栈方案探索](https://mp.weixin.qq.com/s/Fqy_pkgKvZrdZZc3t5xgdA)
 - [全面敏捷模式下的微前端方案](https://mp.weixin.qq.com/s/vy84FY3P6KPeWzDaNl6Ntg)
 - [微前端场景下的代码共享](https://mp.weixin.qq.com/s/mvdOU8uVG9NjGPzInpPxJA)
 - [一文带你进入微前端世界](https://mp.weixin.qq.com/s/LL6VZj36PKftbwaybBFmXg)
