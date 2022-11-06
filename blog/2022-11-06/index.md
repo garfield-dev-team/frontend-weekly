@@ -23,6 +23,8 @@ useSyncExternalStore：被低估的 React API
 
 > https://medium.com/javascript-scene/why-every-react-developer-should-learn-function-composition-23f41d4db3b1
 
+⭐️ [理解 Next.js 中的 CSR、SSR、SSG、ISR 以及 Streaming](https://juejin.cn/post/7162775935828115469)
+
 ⭐️ [【第2774期】基于 Module Federation 的模块化跨栈方案探索](https://mp.weixin.qq.com/s/Fqy_pkgKvZrdZZc3t5xgdA)
 
 ⭐️ [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
