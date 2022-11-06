@@ -141,6 +141,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## Git 相关
 
 - ⭐️ [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)
+- ⭐️ [GitHub 搜索技巧：如何更有效地搜索 issue、repo 和更多信息](https://mp.weixin.qq.com/s/aTr6xf4BEuF-yxL340TnLg)
 - ⭐️ [如果你还不会用git回滚代码，那你一定要来看看](https://juejin.cn/post/7046720828901163016)
 - ⭐️ [Git不要只会pull和push，试试这5条提高效率的命令](https://juejin.cn/post/7071780876501123085)
 - [利用好 git bisect 这把利器，帮助你快速定位疑难 bug](https://juejin.cn/post/7046409685561245733)
@@ -529,6 +530,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [能ping通，TCP就一定能连通吗](https://mp.weixin.qq.com/s/fb2uUWz5ZjPEfYv_l6e4Zg)
 - [Linux 是如何收发网络包的](https://mp.weixin.qq.com/s/RJp9s_shNckkHBqHsJThuA)
 - [字节三面，答的不满意](https://mp.weixin.qq.com/s/7P_1VkBeoArKuuEqGcR9ig)
+- [体验 http3: 基于 nginx quic 分支](https://mp.weixin.qq.com/s/8CPWh_Ly61m8rkHvPT5n2g)
 - [HTTP/3发布了，我们来谈谈HTTP/3](https://mp.weixin.qq.com/s/nRHlwYsr0MaadmaFWEIblQ)
 - [既然有 HTTP 协议，为什么还要有 RPC](https://mp.weixin.qq.com/s/qmnfmUCdekEt1xG0hp_4MQ)
 - [字节一面：TCP 和 UDP 可以使用同一个端口吗](https://mp.weixin.qq.com/s/3fMZN_LidCi5fiD16nNWWA)
@@ -697,6 +699,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [程序员应该遵守的编程原则(不止Gopher哦)](https://mp.weixin.qq.com/s/94thx36Ao2PYQ-8Cbto-wQ)
   - ⭐️ [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
   - ⭐️ [Go 1.18新特性前瞻：原生支持Fuzzing测试](https://mp.weixin.qq.com/s/UqjSA2i3s1VoLFACt_EL2A)
+  - ⭐️ [如何应对不断膨胀的接口](https://mp.weixin.qq.com/s/PBTP4vnwEXtrtsHdq0oL0g)
+  - ⭐️ [每个 gopher 都需要了解的 Go AST](https://mp.weixin.qq.com/s/pCcNtUykXAwb-BN_prPGpA)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
