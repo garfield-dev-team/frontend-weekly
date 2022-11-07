@@ -594,6 +594,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/VStQWv_ehN8RFDxpoAnKmg)
 - [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
 - [76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖！](https://mp.weixin.qq.com/s/T1toQ7NeHQKqof9A0o-99g)
 - [使用 lambda 实现超强的排序功能](https://mp.weixin.qq.com/s/n8iw_33Wwr9i0mWEXMG6-A)
