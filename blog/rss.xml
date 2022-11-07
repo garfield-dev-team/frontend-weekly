@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[11月13日内容汇总]]></title>
+            <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/11月13日内容汇总</link>
+            <guid>11月13日内容汇总</guid>
+            <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[📒 前端食堂技术周刊第 58 期：TypeScript 4.9 RC、10 月登陆浏览器的新功能、Turbopack 真的比 Vite 快 10 倍吗]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7163235734361473055" target="_blank" rel="noopener noreferrer">前端食堂技术周刊第 58 期：TypeScript 4.9 RC、10 月登陆浏览器的新功能、Turbopack 真的比 Vite 快 10 倍吗</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/WLMeCUG0V5369XXb4Bs4CQ" target="_blank" rel="noopener noreferrer">由 transform 被占用引发的思考🤔</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/2VIxDcCUY5nrLFFF2R084A" target="_blank" rel="noopener noreferrer">TypeScript 4.9 发布！重点新特性解读 ～</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/FrMXld9HgL98hi4XzMmEvA" target="_blank" rel="noopener noreferrer">聊一聊常见的浏览器数据存储方案</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/ST-C62ckSXnjlU6Gag3E5Q" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 75 期：CSS-in-JS、Node 18、完美提交、ChiselStrike、Ultra</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/u8pXAxs1nMgNSzAQZIK3YQ" target="_blank" rel="noopener noreferrer">Happens before 原则在 Go 内存模型中的应用举例</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/kyGNVNDby5uq5JGfQt4Yrg" target="_blank" rel="noopener noreferrer">这些最常用的 Go CLI 命令，新手 Gopher 应该掌握</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/S0I8xNAuYbP4JvxahpNG6Q" target="_blank" rel="noopener noreferrer">「每周译Go」如何在 Go 中编写包</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[11月6日内容汇总]]></title>
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/11月6日内容汇总</link>
             <guid>11月6日内容汇总</guid>
