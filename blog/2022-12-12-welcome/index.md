@@ -410,6 +410,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ ⭐️ [【程序员成长指北】node 必知必会系列](https://github.com/koala-coding/goodBlog)
 - ⭐️ ⭐️ [Node.js 概述：架构、API、事件循环、并发](https://mp.weixin.qq.com/s/B051n14JbNHqJtQb68HBFA)
+- ⭐️ ⭐️ [一篇文章构建你的 NodeJS 知识体系【上】](https://mp.weixin.qq.com/s/sSfj4BOjHNyzdjGc90yU8g)
+- ⭐️ ⭐️ [一篇文章构建你的 NodeJS 知识体系【下】](https://mp.weixin.qq.com/s/9SJL2UttCedNjF6CKyk3wg)
 - ⭐️ ⭐️ [大厂是如何用DevCloud流水线实现自动化部署Web应用的？](https://juejin.cn/post/6887961766170066951)
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
@@ -735,6 +737,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
+  - [这些最常用的 Go CLI 命令，新手 Gopher 应该掌握](https://mp.weixin.qq.com/s/kyGNVNDby5uq5JGfQt4Yrg)
   - [Go for 循环有时候真的很坑](https://mp.weixin.qq.com/s/Pcp2FjcXk7Q7sV0Z-bEUNw)
   - [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s/6KxJRG3lKUDY734t4EzAaA)
   - [手撸源码系列 - cache2go](https://mp.weixin.qq.com/s/qyEiEACuUd8SsyqCDLUjXA)
