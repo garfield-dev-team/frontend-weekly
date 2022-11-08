@@ -304,6 +304,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [javascript的23种设计模式](https://mp.weixin.qq.com/s/hP5YMgJTgaVIlaK-XJ3Bcw)
 - [实战！如何从零搭建10万级 QPS 大流量、高并发优惠券系统](https://mp.weixin.qq.com/s/iZ9BX6cCCp_TB-SC3knuew)
 - ⭐️ [肝了一个月的 DDD，一文带你掌握](https://mp.weixin.qq.com/s/jU0awhez7QzN_nKrm4BNwg)
+- ⭐️ [领域驱动设计四论](https://mp.weixin.qq.com/s/SMAycMJPWr018sU04kbfbQ)
 - ⭐️ [万字长文助你上手软件领域驱动设计 DDD](https://mp.weixin.qq.com/s/BIYp9DNd_9sw5O2daiHmlA)
 - 🌛 [用DDD(领域驱动设计)和ADT(代数数据类型)提升代码质量](https://mp.weixin.qq.com/s/QCIlheiEgmU4Qi-4b_XoqQ)
 - 🌛 [后台服务架构高性能设计之道](https://mp.weixin.qq.com/s/hsH7LMBEDGe_df9UbfOvbQ)
@@ -370,6 +371,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [大数据架构系列：如何理解湖仓一体](https://mp.weixin.qq.com/s/G66BCDUMzYE30p250JO0hg)
   - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
   - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
+- 云原生监控
+  - [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
@@ -738,9 +741,6 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
   - 🌛 [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - 🌛 [GO面试必知必会面试题](https://juejin.cn/post/7131717990558466062)
-  - [锁为什么不能值传递，而需要使用指针*sync.Mutex，理解no copy机制](https://mp.weixin.qq.com/s/4TOKqQcEabltqmlrBkWIBw)
-  - [Go工具之vet——静态诊断器](https://mp.weixin.qq.com/s/OW9Zx8M_8hc5RdCreGGTTQ)
-  - [不要忽略goroutine的启动时间](https://mp.weixin.qq.com/s/P2FDJHvFTx516yHioxULkg)
   - [这些最常用的 Go CLI 命令，新手 Gopher 应该掌握](https://mp.weixin.qq.com/s/kyGNVNDby5uq5JGfQt4Yrg)
   - [Go for 循环有时候真的很坑](https://mp.weixin.qq.com/s/Pcp2FjcXk7Q7sV0Z-bEUNw)
   - [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s/6KxJRG3lKUDY734t4EzAaA)
@@ -797,6 +797,7 @@ import TabItem from '@theme/TabItem';
 - Golang 部署
   - 使用 Docker Desktop 搭建 k8s 集群
   - [实时可视化Go Runtime指标，这个Go库超赞](https://mp.weixin.qq.com/s/rDSKItZ8hvgjvpp4f4VzCQ)
+  - [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
   - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
   - [在K8S上的Web服务该怎么做域名解析呢](https://mp.weixin.qq.com/s/ZU61NIMxh_UOo-chNvkPXA)
   - https://kubernetes.io/zh-cn/docs/concepts/services-networking/ingress/
@@ -805,7 +806,9 @@ import TabItem from '@theme/TabItem';
   - [Docker 学习笔记](https://blog.opskumu.com/docker.html)
   - [程序解Bug最常用的K8s命令，外加使用窍门](https://mp.weixin.qq.com/s/Ze096f0Utcl84c6gBwrCYw)
 - Golang 开源库推荐
-  - ⭐️ [字节跳动大规模企业级 HTTP 框架 Hertz 设计实践](https://juejin.cn/post/7153889167385526308)
+  - ⭐️ 字节跳动大规模企业级 HTTP 框架 Hertz 设计实践
+    - [字节开源WEB框架Hertz太香啦！](https://juejin.cn/post/7124337913352945672)
+    - [字节跳动大规模企业级 HTTP 框架 Hertz 设计实践](https://juejin.cn/post/7153889167385526308)
     - https://github.com/cloudwego/hertz
     - [ByteDance Practices on Go Network Library](https://www.cloudwego.io/blog/2021/10/09/bytedance-practices-on-go-network-library/)
     - https://www.cloudwego.io/docs/hertz/getting-started/
