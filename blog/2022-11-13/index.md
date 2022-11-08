@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [字节开源WEB框架Hertz太香啦！](https://juejin.cn/post/7124337913352945672)
+
+📒 [面试必问之 JS 事件循环（Event Loop），看这一篇足够](https://mp.weixin.qq.com/s/wugntKhMZpgr6RtB1AwAmQ)
+
+📒 [信仰崩了？Preact 开始采用 Vue3 的响应式设计](https://mp.weixin.qq.com/s/ete4-_Yxu84_Er5gZjPiwg)
+
+📒 [【常见题型总结】序列 DP 模板题（总结「线性 DP」和「序列 DP」本质区别）](https://mp.weixin.qq.com/s/kDkt1YalJHck5-bdAC-pAA)
+
+📒 [点击页面元素跳转IDE对应代码，试试这几个工具！](https://mp.weixin.qq.com/s/i0Rd4t24Xi0zgmWLeLmplg)
+
+📒 [Go 十年了，终于想起要统一 log 库了！](https://mp.weixin.qq.com/s/ZOdasSP0paVCLF94Vf9A9A)
+
 📒 [前端食堂技术周刊第 58 期：TypeScript 4.9 RC、10 月登陆浏览器的新功能、Turbopack 真的比 Vite 快 10 倍吗](https://juejin.cn/post/7163235734361473055)
 
 📒 [由 transform 被占用引发的思考🤔](https://mp.weixin.qq.com/s/WLMeCUG0V5369XXb4Bs4CQ)
