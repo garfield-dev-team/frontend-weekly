@@ -247,6 +247,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## 微前端 && 模块联邦
 
 - ⭐️ [Module Federation最佳实践](https://mp.weixin.qq.com/s/pT_tugg_EvE5pnMCaUqliw)
+- ⭐️ [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw)
 - ⭐️ [聊一聊关于微前端架构的几种技术选型](https://mp.weixin.qq.com/s/l_KKNRUyJANN6wkoC2TlVQ)
 - ⭐️ [超大体量项目，微前端落地方案，看完后悔来找我](https://juejin.cn/post/7121244973558661150)
 - ⭐️ [【第2774期】基于 Module Federation 的模块化跨栈方案探索](https://mp.weixin.qq.com/s/Fqy_pkgKvZrdZZc3t5xgdA)
@@ -341,6 +342,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
   - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
+  - ⭐️ [Redis 事务遇上 @Transactional 有大坑！！记一次 Redis 生产事故](https://mp.weixin.qq.com/s/vwx99ER-9qiH9nfwtFW1zQ)
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
   - 🌛 [Redis 持久化策略浅析](https://juejin.cn/post/7147602740405862407)
@@ -597,6 +599,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [这10种神级性能优化手段，你用过几个](https://mp.weixin.qq.com/s/EVgd689xdOX732hdOxPqcw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/VStQWv_ehN8RFDxpoAnKmg)
 - [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
 - [76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖！](https://mp.weixin.qq.com/s/T1toQ7NeHQKqof9A0o-99g)
@@ -797,6 +800,7 @@ import TabItem from '@theme/TabItem';
   - [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
 - Golang 部署
   - 使用 Docker Desktop 搭建 k8s 集群
+  - [快收藏！超强图解Docker常见命令与实战！](https://mp.weixin.qq.com/s/5NTgcdhn6CiZ2tg44_T-FQ)
   - [实时可视化Go Runtime指标，这个Go库超赞](https://mp.weixin.qq.com/s/rDSKItZ8hvgjvpp4f4VzCQ)
   - [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
   - [从Go程序第一行代码，到在 K8s 上运行，要经历多少步](https://mp.weixin.qq.com/s/DEZPCzQul7wnZKqm1Ue6rg)
