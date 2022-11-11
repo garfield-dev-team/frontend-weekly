@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
+
+📒 [开启 GODEBUG 更直观地理解 Go 程序的调度过程](https://mp.weixin.qq.com/s/Y_94i7GOcegyQV4pHIrOiw)
+
+📒 [Go语言中常见100问题-#20 Not understanding slice length and capacity](https://mp.weixin.qq.com/s/-Kt2QJdzEUDJx8MFvrUo7Q)
+
+⭐️ [Go 13 周年啦！](https://mp.weixin.qq.com/s/wKxg6IVZCNK3NG2Os9_3jg)
+
 ⭐️ [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw)
 
 📒 [快收藏！超强图解Docker常见命令与实战！](https://mp.weixin.qq.com/s/5NTgcdhn6CiZ2tg44_T-FQ)
