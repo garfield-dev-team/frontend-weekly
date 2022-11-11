@@ -374,7 +374,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
   - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
 - 云原生监控
-  - [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
+  - ⭐️ [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
+  - ⭐️ [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
 - ⭐️ [一致性Hash算法原理总结](https://zhuanlan.zhihu.com/p/482549860)
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
@@ -828,6 +829,7 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
+  - [Go 13 周年啦！](https://mp.weixin.qq.com/s/wKxg6IVZCNK3NG2Os9_3jg)
   - [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
   - [Go 学习之路](https://github.com/talkgo/read)
   - [1024，我们的节日，Gopher 该干点啥](https://mp.weixin.qq.com/s/ipbUy3GBRMFat9jUSssMMw)
