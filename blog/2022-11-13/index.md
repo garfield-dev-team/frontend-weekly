@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [选择 Go 还是 Rust？CloudWeGo-Volo 基于 Rust 语言的探索实践](https://juejin.cn/post/7143822279992934436)
+
 📒 [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
 
 📒 [开启 GODEBUG 更直观地理解 Go 程序的调度过程](https://mp.weixin.qq.com/s/Y_94i7GOcegyQV4pHIrOiw)
