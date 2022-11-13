@@ -870,6 +870,9 @@ import TabItem from '@theme/TabItem';
 ## Rust 学习
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
+- ⭐️ [Rust 官方文档](https://doc.rust-lang.org/book/)
+- 🌛 [Rust 标准库文档](https://doc.rust-lang.org/std/)
+- 🌛 [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 - 🌛 [选择 Go 还是 Rust？CloudWeGo-Volo 基于 Rust 语言的探索实践](https://juejin.cn/post/7143822279992934436)
 - 🌛 [用Rust锈化Vue Compiler](https://zhuanlan.zhihu.com/p/417534662)
 - 🌛 [用 Rust 实现的数据结构与算法合辑](https://github.com/TheAlgorithms/Rust)
