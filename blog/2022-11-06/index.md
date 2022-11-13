@@ -35,6 +35,14 @@ useSyncExternalStore：被低估的 React API
 
 > https://medium.com/javascript-scene/why-every-react-developer-should-learn-function-composition-23f41d4db3b1
 
+“为什么我们要放弃 CSS-in-JS” - Emotion 是一个用 JavaScript 编写 CSS 的流行库，但它的一位贡献者讲述了为什么他的团队总体上放弃了 CSS-in-JS 的想法。
+
+> https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b
+
+在 React 中使用 `use` - 一个新的 Hook 即将到来
+
+> https://vived.io/new-hook-is-coming-to-react-frontend-weekly-vol-109/
+
 ⭐️ [理解 Next.js 中的 CSR、SSR、SSG、ISR 以及 Streaming](https://juejin.cn/post/7162775935828115469)
 
 ⭐️ [【第2774期】基于 Module Federation 的模块化跨栈方案探索](https://mp.weixin.qq.com/s/Fqy_pkgKvZrdZZc3t5xgdA)
