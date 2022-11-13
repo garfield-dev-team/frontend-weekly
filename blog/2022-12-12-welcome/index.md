@@ -759,6 +759,7 @@ import TabItem from '@theme/TabItem';
   - [面试官：哥们Go语言互斥锁了解到什么程度了](https://mp.weixin.qq.com/s/bhze_LcFHk7Y-QB4nEQKnA)
   - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
+  - [Go语言中常见100问题-#20 Not understanding slice length and capacity](https://mp.weixin.qq.com/s/-Kt2QJdzEUDJx8MFvrUo7Q)
   - [Go语言中常见100问题-#12 Project misorganization](https://mp.weixin.qq.com/s/epK_0yn_EPIWJjz9xmddcA)
   - [Go 中基于 IP 地址的 HTTP 请求限流](https://mp.weixin.qq.com/s/aj_hULmeqy3whILr2ytECQ)
   - [项目实战：用 Go 创建一个简易负载均衡器](https://mp.weixin.qq.com/s/pe0CQa3tdrUmC86OSRBNeg)
