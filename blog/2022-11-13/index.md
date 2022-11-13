@@ -31,6 +31,16 @@ JavaScript 中的 “realm” 是什么
 
 > https://vueschool.io/articles/vuejs-tutorials/how-to-package-and-distribute-a-vue-js-3-plugin-on-npm/
 
+📒 [Element Plus 组件库相关技术揭秘：6. CSS 架构模式之 BEM 在组件库中的实践](https://juejin.cn/post/7165503808217284616)
+
+📒 [【第2780期】如何用油猴提升前端开发效率](https://mp.weixin.qq.com/s/n7obnkSdD_nh4xJtm0-dLw)
+
+🌛 [从零实现一个迷你 Webpack](https://mp.weixin.qq.com/s/e0ibggrhNdr_ZAGvxxok2Q)
+
+📒 [【第2779期】离开后端说前端加密都是空谈](https://mp.weixin.qq.com/s/cW-4yJxqYhYcg8_xrcuHGA)
+
+📒 [前缀树在前端路由系统中的应用](https://mp.weixin.qq.com/s/8G8CvZAzRNnhsfF6WZoKWg)
+
 📒 [选择 Go 还是 Rust？CloudWeGo-Volo 基于 Rust 语言的探索实践](https://juejin.cn/post/7143822279992934436)
 
 📒 [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
