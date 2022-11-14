@@ -422,6 +422,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
+- ⭐️ [Node.js 安全最佳实践](https://mp.weixin.qq.com/s/2CBGgtja04NnOerpKfk0Ug)
 - ⭐️ [2022年值得使用的 Node.js 框架](https://mp.weixin.qq.com/s/PhuFfNAhvXAqW4eSbUqpKQ)
 - 🌛 [NodeJs进阶开发、性能优化指南](https://juejin.cn/post/7095354780079357966)
 - ⭐️ [Node.js 18 新特性解读](https://zhuanlan.zhihu.com/p/502951532)
@@ -600,6 +601,8 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [11种常用的设计模式](https://mp.weixin.qq.com/s/FX2umO7XCCmj8Bke7uKDZw)
+- [这些并发编程知识，一定要知道](https://mp.weixin.qq.com/s/Va4eoL5xizJasnSUbvvccw)
 - [这10种神级性能优化手段，你用过几个](https://mp.weixin.qq.com/s/EVgd689xdOX732hdOxPqcw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/VStQWv_ehN8RFDxpoAnKmg)
 - [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
@@ -732,6 +735,7 @@ import TabItem from '@theme/TabItem';
 - Golang 文章分享
   - ⭐️ [Golang开发手记](https://github.com/kevinyan815/gocookbook)
   - ⭐️ [分享三个阅读 Go 源码的窍门](https://mp.weixin.qq.com/s/ZVLaykgYaOACbT2r-K0qBg)
+  - ⭐️ [Go学设计模式-程序流程要动态切换？用这个模式写更丝滑](https://mp.weixin.qq.com/s/G7r6abAzKXuite8-E8I12Q)
   - ⭐️ [用Go学设计模式-提炼流程，减少重复开发就靠它了!](https://mp.weixin.qq.com/s/-Ysho1jI9MfrAIrplzj7UQ)
   - ⭐️ [Go Gin框架请求自动验证和数据绑定，看完这篇就会用了](https://mp.weixin.qq.com/s/cAwc6ZhdUwxkI5VT8LY9Hg)
   - ⭐️ [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s/Uu3EAWpRO9pSbg1F1DLa_w)
