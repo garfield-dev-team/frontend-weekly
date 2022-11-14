@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【中级/高级前端】为什么我建议你一定要读一读 Tapable 源码](https://juejin.cn/post/7164175171358556173)
+
 📒 [MDH 前端周刊第 76 期：可扩展的 CSS、TanStack Router、Solid Start Beta、Rome 10](https://mp.weixin.qq.com/s/WCXEEe0TgQloYXjwt8rKMg)
 
 📒 [Node.js 安全最佳实践](https://mp.weixin.qq.com/s/2CBGgtja04NnOerpKfk0Ug)
