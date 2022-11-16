@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [JavaScript错误处理完整指南](https://mp.weixin.qq.com/s/txh_oJGQFlV_VR7NsoU5nA)
+
+⭐️ [使用反射操作channel](https://mp.weixin.qq.com/s/E4lT4SuWKIlCZd60i7vigQ)
+
 ⭐️ [成为 Go 高手的 8 个 GitHub 开源项目](https://mp.weixin.qq.com/s/2qPeqi3qdk4sqtpqo-3_Uw)
 
 🌛 [使用useReducer + useContext 代替 react-redux](https://juejin.cn/post/7166187102135123998)
