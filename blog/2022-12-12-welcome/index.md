@@ -644,6 +644,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [一次显著的大表查询优化，从20s优化到500ms，查询分离YYDS！](https://mp.weixin.qq.com/s/OBjRKdGzwFM4PNrbMd7kIA)
   - ⭐️ [MySQL表太大，count(*)都能 502，怎么优化](https://mp.weixin.qq.com/s/UxZRGO58kTiX5wUnuzMJ9Q)
   - ⭐️ [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
+  - ⭐️ [保姆级教程！2 万字 + 30 张图搞懂 MySQL 是怎么加行级锁的](https://mp.weixin.qq.com/s/KegqAAvI4KxDffforTQqKA)
   - ⭐️ [两万字详解！InnoDB锁专题！](https://mp.weixin.qq.com/s/DZbAq9fpPxElhfJCkY53GA)
   - ⭐️ [SQL优化思路+经典案例分析](https://mp.weixin.qq.com/s/BbrLQWGYlkXiy6t4YANj0Q)
   - [MySQL 单表不要超过 2000W 行，靠谱吗](https://mp.weixin.qq.com/s/N3te_fVBeqhjIpl25N6kpA)
