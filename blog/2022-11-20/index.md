@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [当谈论协程时，我们在谈论什么](https://mp.weixin.qq.com/s/IO4ynnKEfy2Rt-Me7EIeqg)
+
+⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
+
+⭐️ [🎉 dumi 2，它来了它来了它来了](https://juejin.cn/post/7167325806778122270)
+
+⭐️ [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
+
+📒 [2022年我的面试万字总结（代码篇）](https://mp.weixin.qq.com/s/UJ59FyXlpTHzj5pzXvk5bQ)
+
+📒 [【第2785期】雪球跨端架构建设之跨端容器篇](https://mp.weixin.qq.com/s/7WU1DDoMYQzXnlstz16QJA)
+
+⭐️ [Go 1.20新特性前瞻](https://mp.weixin.qq.com/s/z75HDSlX0PLCnvL5kAcSDw)
+
+⭐️ [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
+
 📒 [深入理解 Golang map 设计理念与实现原理](https://juejin.cn/post/7165411921242357797)
 
 📒 [为什么我抓不到baidu的数据包](https://juejin.cn/post/7165737844613316638)
