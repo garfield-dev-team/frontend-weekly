@@ -721,6 +721,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [每个 gopher 都需要了解的 Go AST](https://mp.weixin.qq.com/s/pCcNtUykXAwb-BN_prPGpA)
   - ⭐️ [一文搞懂Go标准库context包](https://mp.weixin.qq.com/s/xzNqpRbIvoJygSWeQJFjTw)
   - ⭐️ [使用反射操作channel](https://mp.weixin.qq.com/s/E4lT4SuWKIlCZd60i7vigQ)
+  - ⭐️ [Go 1.20新特性前瞻](https://mp.weixin.qq.com/s/z75HDSlX0PLCnvL5kAcSDw)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
@@ -825,6 +826,7 @@ import TabItem from '@theme/TabItem';
   - [程序解Bug最常用的K8s命令，外加使用窍门](https://mp.weixin.qq.com/s/Ze096f0Utcl84c6gBwrCYw)
 - Golang 开源库推荐
   - ⭐️ 字节跳动大规模企业级 HTTP 框架 Hertz 设计实践
+    - [HTTP 框架 Hertz 实践入门：性能测试指南](https://mp.weixin.qq.com/s/J6ziP7VOitGk-lz8NGdDrA)
     - [字节开源WEB框架Hertz太香啦！](https://juejin.cn/post/7124337913352945672)
     - [字节跳动大规模企业级 HTTP 框架 Hertz 设计实践](https://juejin.cn/post/7153889167385526308)
     - https://github.com/cloudwego/hertz
