@@ -5,6 +5,52 @@ authors: [garfield]
 tags: []
 ---
 
+📒 相关文章推荐
+
+一个 Next.js 13 的演示教程，里面讲了一个 use 导致的无限循环 bug
+
+> https://www.youtube.com/watch?v=zwQs4wXr9Bg
+
+如何用 JavaScript 来对 2800 万数据进行去重? — 这是 Stack Overflow 上一个很有趣的问题
+
+> https://stackoverflow.com/questions/74329830/deduping-28-million-strings-using-javascript
+
+Sourcegraph 公司讲述了为什么他们选择从 Monaco 编辑器切换到 CodeMirror
+
+> https://about.sourcegraph.com/blog/migrating-monaco-codemirror
+
+新的 JavaScript 时间 API 提案 --- Temporal（已进入 stage 3）
+
+> https://vladmihet.hashnode.dev/temporal-api-javascript-dates-but-better
+
+Rome v10：由 Rust 驱动的 JS Linting 与格式化工具 — 由 Babel 的作者 创建的项目自然会引起大家的兴趣
+
+> https://rome.tools/blog/2022/11/08/rome-10/
+
+Node 安全版本：v19.0.1、v18.12.1、v16.18.1 和 v14.21.1
+
+> https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/
+
+Hapi v21：简单、安全的 Node 应用程序框架 - 专注于现代化和全面 Node v18（和 ESM）支持。值得注意的是 Hapi 不光没有外部依赖，还提供了很多开箱即用的功能
+
+> https://github.com/hapijs/hapi
+
+在多个云提供商上部署一个简单的 Node 应用程序
+
+> https://medium.com/eleven-sh/deploying-a-simple-node-js-app-with-https-on-cloud-providers-in-2022-heroku-render-fly-io-aws-9358294803c5
+
+将 TypeScript 与 Node.js 结合使用
+
+> https://www.robinwieruch.de/typescript-node/
+
+用 Wails 和 React 在 Go 中构建一个桌面应用程序 — Wails 于 Go(lang) 就像 Electron 于 Node 一样，你可以前端用 JavaScript，后端用 GO 在 Mac、Linux 和 Windows 上开发桌面应用程序
+
+> https://react.statuscode.com/link/131395/web
+
+CRACO v7.0：覆盖 Create React App 配置 — 如果你仍然喜欢 Create React App，而不是如 Next.js 之类的更大的 React 应用构建方式，CRACO 让你继续使用 CRA，但增加了一个可理解的配置层
+
+> https://github.com/dilanx/craco
+
 📒 [当谈论协程时，我们在谈论什么](https://mp.weixin.qq.com/s/IO4ynnKEfy2Rt-Me7EIeqg)
 
 ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
@@ -65,7 +111,30 @@ tags: []
 
 📒 [【中级/高级前端】为什么我建议你一定要读一读 Tapable 源码](https://juejin.cn/post/7164175171358556173)
 
-📒 [MDH 前端周刊第 76 期：可扩展的 CSS、TanStack Router、Solid Start Beta、Rome 10](https://mp.weixin.qq.com/s/WCXEEe0TgQloYXjwt8rKMg)
+📒 MDH 前端周刊第 76 期：可扩展的 CSS、TanStack Router、Solid Start Beta、Rome 10
+
+React Router 6 提供了 deferred API，让我们可以区分页面的关键数据和可选数据。可选数据不应该影响页面渲染，比如博客文章的评论、购物车中的推荐产品、最近的搜索等。用法如下。同时可选数据加载报错不会让整体路由渲染报错。
+
+```tsx
+const critical1Promise = fetch('/xxx').then(res => res.json);
+const critical2Promise = fetch('/xxx').then(res => res.json);
+const lazy1Promise = fetch('/xxx').then(res => res.json);
+const lazy2Promise = fetch('/xxx').then(res => res.json);
+export const loader = async () => {
+  return defer({
+    critical1: await critical1Promise,
+    critical2: await critical2Promise,
+    lazy1: lazy1Promise,
+    lazy2: lazy2Promise,
+  });
+}
+```
+
+这和在组件里用 useEffect 有啥区别？useEffect 的方式，不能做到所有请求并行发起，相比之下会慢一些。「The earlier you initiate a fetch, the better, because the sooner it starts, the sooner it can finish.」
+
+https://dev.to/infoxicator/react-router-6-deferred-fetch-4k68
+
+[MDH 前端周刊第 76 期：可扩展的 CSS、TanStack Router、Solid Start Beta、Rome 10](https://mp.weixin.qq.com/s/WCXEEe0TgQloYXjwt8rKMg)
 
 📒 [Node.js 安全最佳实践](https://mp.weixin.qq.com/s/2CBGgtja04NnOerpKfk0Ug)
 
