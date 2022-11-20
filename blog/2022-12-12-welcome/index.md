@@ -844,6 +844,11 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
+  - [Tony Bai 博客](https://tonybai.com/articles/)
+  - [成为 Go 高手的 8 个 GitHub 开源项目](https://mp.weixin.qq.com/s/2qPeqi3qdk4sqtpqo-3_Uw)
+  - [golang-developer-roadmap: 2020 年成为 Go 开发者的路线图](https://github.com/Alikhll/golang-developer-roadmap)
+  - [go-admin: 基于 Gin + Vue + Element UI 的独立前后端权限管理系统的脚手架](https://github.com/go-admin-team/go-admin)
+  - [awesome-go: 精选的 Go 框架、库和软件的列表](https://github.com/avelino/awesome-go)
   - [Go 13 周年啦！](https://mp.weixin.qq.com/s/wKxg6IVZCNK3NG2Os9_3jg)
   - [给，你要的Go学习路线图来啦](https://mp.weixin.qq.com/s/rPKO23mHDGofeyzeCIHJxQ)
   - [Go 学习之路](https://github.com/talkgo/read)
