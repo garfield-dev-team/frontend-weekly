@@ -376,6 +376,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
   - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
 - 云原生监控
+  - ⭐️ [自从线上项目用了这个监控系统，睡觉真香！](https://mp.weixin.qq.com/s/D1JoTzdQnzUgX_yqT3N1BQ)
   - ⭐️ [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
   - ⭐️ [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
 - ⭐️ [一致性哈希算法解决的问题](https://mp.weixin.qq.com/s/hJHMlbQpANwMjx9BetwkUg)
@@ -604,6 +605,9 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
+- [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
+- [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
 - [忘了又看，看了又忘？保姆级教学，一口气教你玩转 3 种高频设计模式！](https://mp.weixin.qq.com/s/yyoaDbKsvhdZbAL8T2V-zg)
 - [11种常用的设计模式](https://mp.weixin.qq.com/s/FX2umO7XCCmj8Bke7uKDZw)
 - [这些并发编程知识，一定要知道](https://mp.weixin.qq.com/s/Va4eoL5xizJasnSUbvvccw)
@@ -1378,3 +1382,6 @@ import TabItem from '@theme/TabItem';
 - [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 - [一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320)
 - [从 package.json 来聊聊如何管理一款优秀的 Npm 包](https://juejin.cn/post/7126394898445500423)
+- [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
+- [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
+- [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
