@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【综合笔试题】难度 3.5/5，常见序列 DP 题目及其优化思路](https://mp.weixin.qq.com/s/F0fpJLcNmiMlS18S0iP3CQ)
+
+📒 [socket是并发安全的吗](https://mp.weixin.qq.com/s/rNfBHtpFLxwY7-CiBvkQ5A)
+
+📒 [PGO 是啥，咋就让 Go 更快更猛了](https://mp.weixin.qq.com/s/7uobN6DmpIYqG34pOpvvlA)
+
 📒 [前端食堂技术周刊第 60 期：TypeScript 4.9、Ant Design 5.0、用 vanilla-extract 编写高性能的 CSS](https://juejin.cn/post/7168433475404922910)
 
 📒 [MDH 前端周刊第 77 期：布局动画、Arrow JS、vanilla-extract、antd 5、dumi 2](https://mp.weixin.qq.com/s/dI_gqBOSybThJUb-GNVKyw)
