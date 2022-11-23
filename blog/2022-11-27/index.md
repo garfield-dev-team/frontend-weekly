@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [使用 Next.js 搭建 Monorepo 组件库文档](https://juejin.cn/post/7168885699507126303)
+
+📒 [Element Plus 组件库相关技术揭秘：7. 组件实现的基本流程及 Icon 组件的实现](https://juejin.cn/post/7168835045984043022)
+
+📒 [突破 etcd 限制！字节自研 K8s 存储 KubeBrain](https://mp.weixin.qq.com/s/osJfi_oOfhEmQJNVqKel3Q)
+
+📒 [有趣的 Go HttpClient 超时机制](https://mp.weixin.qq.com/s/HPzoclfCB3UxLScXm4J83w)
+
 📒 [【综合笔试题】难度 3.5/5，常见序列 DP 题目及其优化思路](https://mp.weixin.qq.com/s/F0fpJLcNmiMlS18S0iP3CQ)
 
 📒 [socket是并发安全的吗](https://mp.weixin.qq.com/s/rNfBHtpFLxwY7-CiBvkQ5A)
