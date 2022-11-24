@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 React-query 相关文章
+
+[React Query 原理与设计](https://juejin.cn/post/7169515109172609032)
+
+[用react-query解决你一半的状态管理问题](https://juejin.cn/post/6930542093840416776)
+
 📒 [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
 
 📒 [优化 CSS 代码的12个小技巧](https://mp.weixin.qq.com/s/CctmY6NS2zQY8d7l7O2dpg)
