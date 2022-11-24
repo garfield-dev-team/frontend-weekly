@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
+
+📒 [优化 CSS 代码的12个小技巧](https://mp.weixin.qq.com/s/CctmY6NS2zQY8d7l7O2dpg)
+
+📒 [推荐一款SQL自动检查神器，再也不用担心SQL出错了！](https://mp.weixin.qq.com/s/3yHSh7djpeeYZkajkTGFKg)
+
+📒 [【第2791期】可扩展 CSS 的演变](https://mp.weixin.qq.com/s/2tcAHWQTI75UjBZLieY7FQ)
+
+📒 [接口502了，运维和研发谁的锅](https://mp.weixin.qq.com/s/UEzprqAEeTrdJt1NxTT49A)
+
 📒 [使用 Next.js 搭建 Monorepo 组件库文档](https://juejin.cn/post/7168885699507126303)
 
 📒 [Element Plus 组件库相关技术揭秘：7. 组件实现的基本流程及 Icon 组件的实现](https://juejin.cn/post/7168835045984043022)
