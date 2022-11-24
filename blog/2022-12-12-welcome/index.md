@@ -641,6 +641,7 @@ import TabItem from '@theme/TabItem';
 ## MySQL 学习
 
 - 表结构设计
+  - ⭐️ [推荐一款SQL自动检查神器，再也不用担心SQL出错了！](https://mp.weixin.qq.com/s/3yHSh7djpeeYZkajkTGFKg)
   - ⭐️ [21个MySQL表设计的经验准则](https://mp.weixin.qq.com/s/sSsZ-w6WzjA_DLZfnsxD2w)
   - ⭐️ [聊聊数据库建表的15个小技巧](https://juejin.cn/post/7136126923851169823)
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
@@ -730,6 +731,9 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Gopher 需要知道的几个结构体骚操作](https://mp.weixin.qq.com/s/A4m1xlFwh9pD0qy3p7ItSA)
   - ⭐️ [Gopher 应该记住这 10 个命令](https://mp.weixin.qq.com/s/UIeIBtC9MZJh3w-EphWHiA)
   - ⭐️ [有趣的 Go HttpClient 超时机制](https://mp.weixin.qq.com/s/HPzoclfCB3UxLScXm4J83w)
+  - ⭐️ [零拷贝技术第一篇：综述](https://mp.weixin.qq.com/s/chPDWyBibBlvcEKKENFYGg)
+  - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
+  - ⭐️ [Golang 泛型初识](https://juejin.cn/post/7116817920209977351)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
   - 🌛 [【系列文章】HTTP 系列教程](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzUxMDI4MDc1NA==&scene=1&album_id=1383459655464337409&count=3#wechat_redirect)
