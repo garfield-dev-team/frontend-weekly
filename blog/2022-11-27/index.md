@@ -57,6 +57,10 @@ https://beta.nextjs.org/docs/data-fetching/fetching
  
 https://beta.nextjs.org/docs/upgrade-guide#dynamic-paths-getstaticpaths
 
+一个 Next.js 13 的演示教程，里面讲了一个 use 导致的无限循环 bug
+
+> https://www.youtube.com/watch?v=zwQs4wXr9Bg
+
 [你好，Next.js 13](https://juejin.cn/post/7160084572942630926#heading-13)
 
 📒 [Element Plus 组件库相关技术揭秘：7. 组件实现的基本流程及 Icon 组件的实现](https://juejin.cn/post/7168835045984043022)
