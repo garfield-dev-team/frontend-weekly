@@ -115,6 +115,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [少年，知道什么是信息差创造价值吗](https://mp.weixin.qq.com/s/dTXg9a4kXwVZi2N7mP71mg)
   - ⭐️ [什么是向上管理](https://mp.weixin.qq.com/s/oodAZtxzHCZVGIGS9rBzIA)
   - ⭐️ [你是如何做汇报的](https://mp.weixin.qq.com/s/B3qgLTvSHzE33d6O-k7bAQ)
+- ⭐️ [如何成为优秀工程师之软技能篇](https://mp.weixin.qq.com/s/U6jAFVrgrKIm9--amZV5rA)
 - ⭐️ [干货！6个方面，32条总结教你提升职场经验](https://mp.weixin.qq.com/s/MOWQ3rBFaITHSD2hvSelcw)
 - ⭐️ [聊聊如何学习](https://mp.weixin.qq.com/s/kozXWY95HXiQPGou1sfttg)
 - ⭐️ [以前端架构师身份，从零开始搞事搞事搞事](https://mp.weixin.qq.com/s/K36xQbYgGVme8v_p9_dhkQ)
@@ -661,6 +662,7 @@ import TabItem from '@theme/TabItem';
 - MySQL 索引
   - ⭐️ [你管这破玩意叫B+树](https://mp.weixin.qq.com/s/yvgB1a2o-m3_EBLePZM8cw)
 - 分库分表
+  - ⭐️ [面试必备：分库分表！](https://mp.weixin.qq.com/s/AjVl-0u3plmL9U77h0VVJw)
   - ⭐️ [再有人问你什么是分库分表，直接把这篇文章发给他](https://mp.weixin.qq.com/s/wYXs7gsID8a9ahJKsWXJ6w)
 - 脏读、不可重复读、幻读
   - ⭐️ [美团三面：一直追问我， MySQL 幻读被彻底解决了吗](https://mp.weixin.qq.com/s/VWEKgnOWVnufz5pfvRjUWw)
@@ -732,6 +734,12 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Gopher 应该记住这 10 个命令](https://mp.weixin.qq.com/s/UIeIBtC9MZJh3w-EphWHiA)
   - ⭐️ [有趣的 Go HttpClient 超时机制](https://mp.weixin.qq.com/s/HPzoclfCB3UxLScXm4J83w)
   - ⭐️ [零拷贝技术第一篇：综述](https://mp.weixin.qq.com/s/chPDWyBibBlvcEKKENFYGg)
+  - ⭐️ [零拷贝技术第二篇：Go语言中的应用](https://mp.weixin.qq.com/s/hXfZImBUYTBe2JvhBD-OmA)
+  - ⭐️ [gin 源码阅读(5) - 灵活的返回值处理](https://mp.weixin.qq.com/s/lE83EZ7eztjEWd_NU796YQ)
+  - ⭐️ [见微知著| 带你透过内存看 Slice 和 Array的异同](https://mp.weixin.qq.com/s/d9kP77eKRm2MSW_9ySlVGA)
+  - ⭐️ [Goland 这些实操技巧，你可能还不会！](https://mp.weixin.qq.com/s/mrCQyw_dR5VYzf8ejyvHfA)
+  - ⭐️ [这些 Goland 技巧，学会开发效率翻倍](https://mp.weixin.qq.com/s/gmKi3bE99K6bXVGcMFz53w)
+  - ⭐️ [Go interface 原理剖析--类型转换](https://mp.weixin.qq.com/s/lMvU80jhkabMvqXeTFiDnw)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
   - ⭐️ [Golang 泛型初识](https://juejin.cn/post/7116817920209977351)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
