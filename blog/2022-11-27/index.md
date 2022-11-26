@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [开源低代码表单方案 Formily 的核心设计思路](https://mp.weixin.qq.com/s/2My8UeAgH9PXRJ5iDAkQJA)
+
+📒 [微前端场景下的代码共享](https://mp.weixin.qq.com/s/OSqCRM3gU9QfAVJOaQyS-Q)
+
 📒 相关文章推荐
 
 [How to Create and Publish a React Component Library](https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe)
