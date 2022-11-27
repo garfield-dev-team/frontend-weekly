@@ -375,6 +375,9 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
   - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - 大数据相关
+  - [【云原生】Hive on k8s 环境部署](https://juejin.cn/post/7149487706991493156)
+  - [大数据Hadoop之——数据仓库Hive](https://juejin.cn/post/7087484692718420005)
+  - [【云原生】Kubernetes（k8s）最完整版环境部署+master高可用实现](https://juejin.cn/post/7136214451678052389)
   - [Flink 流批一体在字节跳动的探索与实践](https://juejin.cn/post/7141215211586863140)
   - [大数据架构系列：如何理解湖仓一体](https://mp.weixin.qq.com/s/G66BCDUMzYE30p250JO0hg)
   - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
