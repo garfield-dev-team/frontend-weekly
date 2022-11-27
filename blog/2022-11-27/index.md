@@ -5,6 +5,50 @@ authors: [garfield]
 tags: []
 ---
 
+📒 相关文章推荐
+
+重构 React 代码：减少 43% 代码并且数据结构更加清晰
+
+> https://profy.dev/article/react-junior-code-review-and-refactoring-1
+
+使用 TypeScript 编写 React 组件
+
+> https://www.robinwieruch.de/typescript-react-component/
+
+What and Why：Next.js 13 中的 React Server Components
+
+> https://thetombomb.com/posts/react-server-components-nextjs
+
+Twix: 使用 Tailwind CSS 实现 React 组件样式
+
+> https://github.com/Idered/twix
+
+Deno v1.28 发布：现在有 130 万个新模块。Deno 现在正式支持以“稳定”的方式使用 npm 模块，并且不需要涉及 `node_modules`、`package.json` 或 `npm install` 这些出现在 Node 中的内容
+
+> https://deno.com/blog/v1.28
+
+> https://www.youtube.com/watch?v=X2qxpDriWjY
+
+Wireit：升级 npm 脚本，使它们更智能、更高效
+
+> https://github.com/google/wireit
+
+使用 WebAssembly 增强 Node.js
+
+> https://www.youtube.com/watch?v=bYCrCKNJBW8
+
+函数式编程到底有什么优点 — 本篇文章是由即将出版的 《Skeptic’s Guide to Functional Programming with JavaScript》的作者 James 以一种更容易理解的方式书写的函数式编程思想的文章，相信你读完本篇文章会大有收获
+
+> https://jrsinclair.com/articles/2022/whats-so-great-about-functional-programming-anyway/
+
+用 Storyboook 和 Nightwatch 实践组件驱动开发
+
+> https://pineview.io/supercharge-your-storybook-with-nightwatch-testing/
+
+tslog v4.0：支持 JS、TS 的日志输出库— 功能丰富，类型齐全，可以通过本机 V8 进行堆栈跟踪 API、显示代码框架等。现在支持 Node 和浏览器
+
+> https://tslog.js.org/
+
 📒 [开源低代码表单方案 Formily 的核心设计思路](https://mp.weixin.qq.com/s/2My8UeAgH9PXRJ5iDAkQJA)
 
 📒 [微前端场景下的代码共享](https://mp.weixin.qq.com/s/OSqCRM3gU9QfAVJOaQyS-Q)
