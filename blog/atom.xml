@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[12月4日内容汇总]]></title>
+        <id>12月4日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/12月4日内容汇总"/>
+        <updated>2022-12-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 Go 模糊测试fuzzing的原理分析]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/3uWozu4VIUJHyIGut3_0Bg" target="_blank" rel="noopener noreferrer">Go 模糊测试fuzzing的原理分析</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/Sp2hlxUcY45-v9nlIhEOow" target="_blank" rel="noopener noreferrer">为iframe正名，你可能并不需要微前端</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/MOzCzq8DUEIKtJ3lMu4s2g" target="_blank" rel="noopener noreferrer">现代CSS样式重置最佳实践！</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/M2-XXPdLKlTqzGefz7UPvA" target="_blank" rel="noopener noreferrer">如何解决前端领域的竞态问题</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/1xY0hfcwJci1hr4TKUZMqg" target="_blank" rel="noopener noreferrer">【第2795期】雪球跨端架构建设之三端同构篇</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/7WU1DDoMYQzXnlstz16QJA" target="_blank" rel="noopener noreferrer">【第2785期】雪球跨端架构建设之跨端容器篇</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/RCBUlu0gRuVFSQ2m8Uyycg" target="_blank" rel="noopener noreferrer">Go 语言代码风格规范-概述篇</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/3FONsVCFYNvaz1yW1EVgxg" target="_blank" rel="noopener noreferrer">DNS中有哪些值得学习的优秀设计</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/yg3jgq85MQNzm_UqTyZ7pQ" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 169 期 — 正确率 23%</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[11月27日内容汇总]]></title>
         <id>11月27日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/11月27日内容汇总"/>
