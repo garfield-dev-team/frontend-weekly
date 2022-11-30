@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [TypeScript从平凡到不凡（基础篇）](https://juejin.cn/post/6998785406619615269)
+
+⭐️ [Webpack配置全解析（优化篇）](https://juejin.cn/post/6858905382861946894)
+
+📒 [用 Wireshark 让你看见 TCP 到底是什么样！](https://mp.weixin.qq.com/s/uMMWVYDWtLKbQtI1LSzRVg)
+
+📒 [大象在云端起舞：后 Hadoop 时代的字节跳动云原生计算平台——云原生计算团队采访](https://mp.weixin.qq.com/s/44yqylI6_Za6sBUiwlLMXA)
+
+📒 [【面试高频题】难度 3/5，设计跳表（数据结构经典考察）](https://mp.weixin.qq.com/s/XSIjKlUyFpcq9BkwXsjR6g)
+
+📒 [动图图解 | UDP就一定比TCP快吗](https://mp.weixin.qq.com/s/JL9zUDMb1Y4BRUnBzyZPsw)
+
+⭐️ [深入理解 golang 的互斥锁](https://mp.weixin.qq.com/s/i1N9bmVSW1lGfOezvhcD7g)
+
+📒 [说两个 Go 循环里的坑，第二个在JS里也有](https://mp.weixin.qq.com/s/QtFkh5d7Y-n2i4JI6tUaNA)
+
 📒 [React Server Component: 混合式渲染](https://juejin.cn/post/7171366091459919879)
 
 📒 [前端工程化基建探索（5）Vite4.0.0都悄悄在“卷”出来了，是时候去探索Vite的设计和实现了](https://juejin.cn/post/7170288636921905183)
