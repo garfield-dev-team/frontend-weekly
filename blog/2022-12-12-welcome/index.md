@@ -27,6 +27,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ [你需要知道的TypeScript高级类型](https://mp.weixin.qq.com/s/usDh1-Wzxrf4BftfWhwduA)
 - 🌛 [Typescript 类型编程，从入门到通达](https://mp.weixin.qq.com/s/WsldmkW2ovp-okxSY3le9g)
 - 🌛 [如何进阶TypeScript功底？一文带你理解TS中各种高级语法](https://juejin.cn/post/7089809919251054628)
+- 🌛 [TypeScript从平凡到不凡（基础篇）](https://juejin.cn/post/6998785406619615269)
 - 🌛 [推荐12个值得学习的TypeScript宝库！](https://juejin.cn/post/7150668738990178312)
 - 🌛 [TypeScript 类型系统：分布式条件类型全解](https://mp.weixin.qq.com/s/TUv8Cu6_ftQQ6lEWAwIa4w)
 - 🌛 [接近天花板的TS类型体操，看懂你就能玩转TS了](https://juejin.cn/post/7061556434692997156)
@@ -188,6 +189,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [Webpack5 实践 - 构建效率倍速提升！](https://mp.weixin.qq.com/s/gwHwVxA4zh59SBvq-onM-g)
 - 🌛 [Webpack 性能系列一: 使用 Cache 提升构建性能](https://mp.weixin.qq.com/s/mpF6W-4dElu0UPed03oJQw)
 - 🌛 [我是如何将网页性能提升5倍的 — 构建优化篇](https://juejin.cn/post/6910893471339708429)
+- ⭐️ [Webpack配置全解析（优化篇）](https://juejin.cn/post/6858905382861946894)
 - ⭐️ [如何快速成为一名熟练的 Webpack 配置工程师 - 上篇](https://juejin.cn/post/7144934998884220958)
 - ⭐️ [如何快速成为一名熟练的 Webpack 配置工程师 - 下篇](https://juejin.cn/post/7145025071432597541)
 - ⭐️ ⭐️ [学习 Webpack5 之路（优化篇）- 近 7k 字](https://juejin.cn/post/6996816316875161637)
@@ -368,6 +370,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
+  - ⭐️ [刨根问底 Kafka，核心知识点大贯通](https://mp.weixin.qq.com/s/GeXtCJgo42u92FSS5V6oMQ)
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
   - [你管这破玩意儿叫 MQ](https://mp.weixin.qq.com/s/i_bwyEb8QqfVLxY-R9odag)
 - Elasticsearch 相关
@@ -612,6 +615,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [别再用 if 校验参数了，太Low！这才是专业的 SpringBoot 参数校验方式！](https://mp.weixin.qq.com/s/20LjD3_nJYvZrTNo4tqjvA)
 - [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
 - [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
@@ -665,6 +669,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
 - MySQL 索引
+  - ⭐️ [跟大家聊聊 MySQL 一行记录是怎么存储的](https://mp.weixin.qq.com/s/sqW51yqeAXcDs9r84UFP7A)
   - ⭐️ [你管这破玩意叫B+树](https://mp.weixin.qq.com/s/yvgB1a2o-m3_EBLePZM8cw)
 - 分库分表
   - ⭐️ [面试必备：分库分表！](https://mp.weixin.qq.com/s/AjVl-0u3plmL9U77h0VVJw)
@@ -747,6 +752,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go interface 原理剖析--类型转换](https://mp.weixin.qq.com/s/lMvU80jhkabMvqXeTFiDnw)
   - ⭐️ [快收藏！最全Go语言实现设计模式（上）](https://mp.weixin.qq.com/s/MQWZOkaAc4Bw-PmYHyd9SA)
   - ⭐️ [快收藏！最全GO语言实现设计模式【下】](https://mp.weixin.qq.com/s/NrUWfpyfzX4sag22qF-Y-Q)
+  - ⭐️ [深入理解 golang 的互斥锁](https://mp.weixin.qq.com/s/i1N9bmVSW1lGfOezvhcD7g)
   - ⭐️ [这可能是最权威、最全面的Go语言编码风格规范了！](https://mp.weixin.qq.com/s/jrua9iSa1Huk3UvMluVe7w)
   - ⭐️ [从鹅厂实例出发！分析Go Channel底层原理](https://mp.weixin.qq.com/s/uWhmvBk_MN23RjmfjkxqeQ)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
@@ -810,6 +816,7 @@ import TabItem from '@theme/TabItem';
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
   - [Go语言中常见100问题-#20 Not understanding slice length and capacity](https://mp.weixin.qq.com/s/-Kt2QJdzEUDJx8MFvrUo7Q)
   - [Go语言中常见100问题-#12 Project misorganization](https://mp.weixin.qq.com/s/epK_0yn_EPIWJjz9xmddcA)
+  - [100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
   - [Go 中基于 IP 地址的 HTTP 请求限流](https://mp.weixin.qq.com/s/aj_hULmeqy3whILr2ytECQ)
   - [项目实战：用 Go 创建一个简易负载均衡器](https://mp.weixin.qq.com/s/pe0CQa3tdrUmC86OSRBNeg)
   - [你知道几种Go并发控制方式](https://mp.weixin.qq.com/s/tloEYzrnKNrrAo1YKdeyrw)
@@ -1142,6 +1149,7 @@ import TabItem from '@theme/TabItem';
   - [微软面试题解析：丑数系列算法](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
   - [说透游戏中常用的两种随机算法](https://mp.weixin.qq.com/s/vxQDGfshcSVjs9EYmV8q3Q)
   - [我用消息队列做了一款联机小游戏](https://mp.weixin.qq.com/s/kI0HUTFVr4YEBpLRZWLEDg)
+  - [Union Find 并查集算法原理及应用](https://mp.weixin.qq.com/s/mFLCL_Dyz5-CtZMZJmOXKw)
   - [【面试高频题】难度 1.5/5，多解法经典面试题](https://juejin.cn/post/7152708637817831432)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 Webpack
