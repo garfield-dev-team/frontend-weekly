@@ -365,6 +365,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [如何用Redis实现分布式锁](https://mp.weixin.qq.com/s/RS1kKvF_Ly576GV52bHQPg)
   - [Go：分布式锁实现原理与最佳实践](https://mp.weixin.qq.com/s/lrSQBK-Kihkj6994kQFpUQ)
 - 系统设计
+  - ⭐️ [公司新来一个同事，把优惠券系统设计的炉火纯青！](https://mp.weixin.qq.com/s/Ebh5iVsx0iExb5Wxq3tQFQ)
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
   - ⭐️ [高并发下，幂等性如何保证](https://mp.weixin.qq.com/s/crzfBEGn78nUZ5H3MF8UZw)
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
