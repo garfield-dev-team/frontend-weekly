@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/UetEZPco-dKDSwrtchVT7g)
+
+📒 [CSS 方案 2022](https://mp.weixin.qq.com/s/NPTNbn4C6Rbn6gQLyxWzsg)
+
+⭐️ [公司新来一个同事，把优惠券系统设计的炉火纯青！](https://mp.weixin.qq.com/s/Ebh5iVsx0iExb5Wxq3tQFQ)
+
 ⭐️ [傻瓜方式分析前端应用的体积](https://juejin.cn/post/7172001951784108040)
 
 📒 [Go语言中常见100问题-#22 Being confused about nil vs. empty slices](https://mp.weixin.qq.com/s/uHmCU0v0xJ2RYlmq_lQAiQ)
