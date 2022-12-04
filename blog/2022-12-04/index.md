@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [GoLand 迎来五周年，同时发布 2022.3：有彩蛋](https://mp.weixin.qq.com/s/IvL24_7iuuRp9Y3dljHaHQ)
+
 📒 [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/UetEZPco-dKDSwrtchVT7g)
 
 📒 [CSS 方案 2022](https://mp.weixin.qq.com/s/NPTNbn4C6Rbn6gQLyxWzsg)
