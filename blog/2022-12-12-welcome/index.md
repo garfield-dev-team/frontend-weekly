@@ -616,6 +616,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [妙用Java 8中的 Function接口，消灭if...else（非常新颖的写法）](https://mp.weixin.qq.com/s/ezLN8AzVhBaeMdNMK-TS-g)
 - [别再用 if 校验参数了，太Low！这才是专业的 SpringBoot 参数校验方式！](https://mp.weixin.qq.com/s/20LjD3_nJYvZrTNo4tqjvA)
 - [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
 - [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
@@ -892,6 +893,7 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
   - [Tony Bai 博客](https://tonybai.com/articles/)
+  - [GoLand 迎来五周年，同时发布 2022.3：有彩蛋](https://mp.weixin.qq.com/s/IvL24_7iuuRp9Y3dljHaHQ)
   - [这可能是最权威、最全面的Go语言编码风格规范了！](https://mp.weixin.qq.com/s/jrua9iSa1Huk3UvMluVe7w)
   - [成为 Go 高手的 8 个 GitHub 开源项目](https://mp.weixin.qq.com/s/2qPeqi3qdk4sqtpqo-3_Uw)
   - [golang-developer-roadmap: 2020 年成为 Go 开发者的路线图](https://github.com/Alikhll/golang-developer-roadmap)
