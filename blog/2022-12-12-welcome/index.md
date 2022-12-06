@@ -616,6 +616,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [还在用HttpUtil？SpringBoot 3.0全新HTTP客户端工具来了，用起来够优雅！](https://mp.weixin.qq.com/s/SG9sNmMu9acB1xTODkG00Q)
 - [妙用Java 8中的 Function接口，消灭if...else（非常新颖的写法）](https://mp.weixin.qq.com/s/ezLN8AzVhBaeMdNMK-TS-g)
 - [别再用 if 校验参数了，太Low！这才是专业的 SpringBoot 参数校验方式！](https://mp.weixin.qq.com/s/20LjD3_nJYvZrTNo4tqjvA)
 - [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
