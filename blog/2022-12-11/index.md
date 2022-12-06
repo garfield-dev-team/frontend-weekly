@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [还在用HttpUtil？SpringBoot 3.0全新HTTP客户端工具来了，用起来够优雅！](https://mp.weixin.qq.com/s/SG9sNmMu9acB1xTODkG00Q)
+
+📒 [历时8个月，10w字！前端知识体系+大厂面试总结（基础知识篇）](https://mp.weixin.qq.com/s/yvDkQUQtI-6BvlylC1Q7Ig)
+
 📒 [你也是业务开发？提前用这个设计模式预防产品加需求吧](https://mp.weixin.qq.com/s/zCh12E10JM24EGTyFS7hPQ)
 
 📒 [美团二面：TCP 四次挥手，可以变成三次吗](https://mp.weixin.qq.com/s/JDquIbunGuFHIgo2Clp3iw)
