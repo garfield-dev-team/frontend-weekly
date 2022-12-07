@@ -1437,3 +1437,8 @@ import TabItem from '@theme/TabItem';
 - [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
 - [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
+- [傻瓜方式分析前端应用的体积](https://juejin.cn/post/7172001951784108040)
+- [手写 Bundler: 实现代码打包、 Tree Shaking](https://juejin.cn/book/7050063811973218341/section/7070419010021490702)
+- [手写 Bundler: 实现 JavaScript AST 解析器——词法分析、语义分析](https://juejin.cn/book/7050063811973218341/section/7066614663533821983)
+- [【第2795期】雪球跨端架构建设之三端同构篇](https://mp.weixin.qq.com/s/1xY0hfcwJci1hr4TKUZMqg)
+- [【第2785期】雪球跨端架构建设之跨端容器篇](https://mp.weixin.qq.com/s/7WU1DDoMYQzXnlstz16QJA)
