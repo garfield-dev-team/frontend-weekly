@@ -364,6 +364,10 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [面试官：如何用 Redis 实现分布式锁](https://mp.weixin.qq.com/s/ESdfA5sJa6bmL-HvuWpoJA)
   - [如何用Redis实现分布式锁](https://mp.weixin.qq.com/s/RS1kKvF_Ly576GV52bHQPg)
   - [Go：分布式锁实现原理与最佳实践](https://mp.weixin.qq.com/s/lrSQBK-Kihkj6994kQFpUQ)
+- IO多路复用
+  - ⭐️ [深入学习IO多路复用 select/poll/epoll 实现原理](https://mp.weixin.qq.com/s/5xj42JPKG8o5T7hjXIKywg)
+  - ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
+  - ⭐️ [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - 系统设计
   - ⭐️ [公司新来一个同事，把优惠券系统设计的炉火纯青！](https://mp.weixin.qq.com/s/Ebh5iVsx0iExb5Wxq3tQFQ)
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
@@ -437,6 +441,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
 - 🌛 [最全面的 Node.js 资源汇总推荐](https://mp.weixin.qq.com/s/1DIDUvGoQcckRq757R9Ohw)
+- ⭐️ [Nest.js进阶系列四：Node.js中使用Redis原来这么简单！](https://mp.weixin.qq.com/s/yKm_U9Veh_1twIoXzM8Prw)
+- ⭐️ [Redis学习-入门篇](https://mp.weixin.qq.com/s/TmCtsbhjexZNCdvUSXdNCw)
 - ⭐️ [Node.js 安全最佳实践](https://mp.weixin.qq.com/s/2CBGgtja04NnOerpKfk0Ug)
 - ⭐️ [2022年值得使用的 Node.js 框架](https://mp.weixin.qq.com/s/PhuFfNAhvXAqW4eSbUqpKQ)
 - 🌛 [NodeJs进阶开发、性能优化指南](https://juejin.cn/post/7095354780079357966)
@@ -628,6 +634,7 @@ import TabItem from '@theme/TabItem';
 - [这10种神级性能优化手段，你用过几个](https://mp.weixin.qq.com/s/EVgd689xdOX732hdOxPqcw)
 - [两万字！多线程硬核50问！](https://mp.weixin.qq.com/s/VStQWv_ehN8RFDxpoAnKmg)
 - [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
+- ⭐️ [源码深度解析之 Spring IOC](https://mp.weixin.qq.com/s/29xlEK2N_Wptl4TBMg1ZPQ)
 - [76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖！](https://mp.weixin.qq.com/s/T1toQ7NeHQKqof9A0o-99g)
 - [使用 lambda 实现超强的排序功能](https://mp.weixin.qq.com/s/n8iw_33Wwr9i0mWEXMG6-A)
 - [万字长文，SpringSecurity实现权限系统设计](https://mp.weixin.qq.com/s/e_uJhaGj4HO1iTS_zCoCXw)
