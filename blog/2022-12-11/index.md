@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [《MiniReact》带你循环渐进了解React原理](https://juejin.cn/post/7145703734230646792)
+
+📒 [从0.5到1用golang上线一个web项目](https://mp.weixin.qq.com/s/iemuo3gR4yU17ymSwTnoGQ)
+
+📒 [从0到0.5用golang写一个web项目](https://mp.weixin.qq.com/s/abxUanLzPnU8PxFqN6IjjQ)
+
+📒 [我们是如何追逐元宇宙、XR等“概念股”浪潮的](https://mp.weixin.qq.com/s/Q9VNdOXGlsA4OXRUc5_-xw)
+
+⭐️ [\[译\]Uber 的 Go语言开发规范](https://mp.weixin.qq.com/s/UQwOJVqm5gnQPMgSE3MW9w)
+
+📒 [【第2805期】React 数据获取与性能优化](https://mp.weixin.qq.com/s/vufI24NCasCT32UQG3A_UQ)
+
+📒 [就在刚刚 Go 1.20 rc 1 发布啦!](https://mp.weixin.qq.com/s/6UPhAlu-IklPW3SKJCEurA)
+
 📒 [React Streaming SSR 原理解析](https://mp.weixin.qq.com/s/GVts2QW3H_aTrB9anGwl5g)
 
 ⭐️ [Nest.js进阶系列四：Node.js中使用Redis原来这么简单！](https://mp.weixin.qq.com/s/yKm_U9Veh_1twIoXzM8Prw)
