@@ -364,6 +364,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [面试官：如何用 Redis 实现分布式锁](https://mp.weixin.qq.com/s/ESdfA5sJa6bmL-HvuWpoJA)
   - [如何用Redis实现分布式锁](https://mp.weixin.qq.com/s/RS1kKvF_Ly576GV52bHQPg)
   - [Go：分布式锁实现原理与最佳实践](https://mp.weixin.qq.com/s/lrSQBK-Kihkj6994kQFpUQ)
+- Web Server
+  - ⭐️ [超越 Nginx！号称下一代 Web 服务器，用起来够优雅！](https://juejin.cn/post/7085519712901136392)
 - IO多路复用
   - ⭐️ [深入学习IO多路复用 select/poll/epoll 实现原理](https://mp.weixin.qq.com/s/5xj42JPKG8o5T7hjXIKywg)
   - ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
