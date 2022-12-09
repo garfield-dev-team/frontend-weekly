@@ -367,6 +367,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - Web Server
   - ⭐️ [超越 Nginx！号称下一代 Web 服务器，用起来够优雅！](https://juejin.cn/post/7085519712901136392)
 - IO多路复用
+  - ⭐️ [从Linux零拷贝深入了解Linux-I/O](https://mp.weixin.qq.com/s/j1KjR5bRQV6oGrU5tsyHgg)
   - ⭐️ [深入学习IO多路复用 select/poll/epoll 实现原理](https://mp.weixin.qq.com/s/5xj42JPKG8o5T7hjXIKywg)
   - ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
   - ⭐️ [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
@@ -670,6 +671,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 - 慢 SQL 优化
+  - ⭐️ [公司新来个同事，MyBatis批量插入10w条数据仅用2秒，拍案叫绝！](https://mp.weixin.qq.com/s/3H9SD1dnAH0RoN-RoPXxgQ)
   - ⭐️ [一次显著的大表查询优化，从20s优化到500ms，查询分离YYDS！](https://mp.weixin.qq.com/s/OBjRKdGzwFM4PNrbMd7kIA)
   - ⭐️ [MySQL表太大，count(*)都能 502，怎么优化](https://mp.weixin.qq.com/s/UxZRGO58kTiX5wUnuzMJ9Q)
   - ⭐️ [这15个SQL优化口诀，工作面试都够用了](https://mp.weixin.qq.com/s/exPgSB0MNUnu0wMkThET1w)
