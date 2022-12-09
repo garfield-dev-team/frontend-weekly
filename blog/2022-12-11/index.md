@@ -5,6 +5,42 @@ authors: [garfield]
 tags: []
 ---
 
+📒 CSS 小技巧
+
+`background` 有哪些属性：
+
+- `background-color`
+- `background-image`
+- `background-position`
+- `background-size`
+- `background-repeat`
+
+常见用法：
+
+```css
+background-image: url(xxx);
+
+/** 背景图片填充，适配短边，两个属性通常一起用 */
+background-size: contain;
+background-repeat: no-repeat;
+
+/** 背景图片填充，适配长边 */
+background-size: contain;
+
+/** 自定义背景图片大小，同时自定义布局 */
+background-size: 58px 48px;
+background-position: top 0 left 6px;
+```
+
+`transition` 动画可以配合 `will-change` 属性一起用：
+
+```css
+background: transparent;
+will-change: background;
+transition: background 0.3s ease;
+```
+
+
 📒 [React Streaming SSR 原理解析](https://mp.weixin.qq.com/s/GVts2QW3H_aTrB9anGwl5g)
 
 ⭐️ [Nest.js进阶系列四：Node.js中使用Redis原来这么简单！](https://mp.weixin.qq.com/s/yKm_U9Veh_1twIoXzM8Prw)
