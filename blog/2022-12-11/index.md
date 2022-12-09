@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Vite 4.0 正式发布！](https://mp.weixin.qq.com/s/0zDIPKUqPslj1EvowDXigA)
+
+📒 [Go1.20 将禁止匿名接口循环导入！这是一次打破 Go1 兼容性承诺的真实案例](https://mp.weixin.qq.com/s/1d4XUoW5e45jYeEJEWoXeQ)
+
+📒 [【第2806期】从Lint工具窥探前端的clean-code](https://mp.weixin.qq.com/s/8JwAlMU6DUWTxzFYKxTH3A)
+
+📒 [Go1.20 继续优化 errors 库](https://mp.weixin.qq.com/s/w5guASrl7G6yl09HkPd5LQ)
+
 📒 [《MiniReact》带你循环渐进了解React原理](https://juejin.cn/post/7145703734230646792)
 
 📒 [从0.5到1用golang上线一个web项目](https://mp.weixin.qq.com/s/iemuo3gR4yU17ymSwTnoGQ)
