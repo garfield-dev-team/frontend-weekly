@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Nodejs 的 stream 操作
+
+```ts
+import { Readable } from "node:stream";
+import fs from "node:fs";
+
+const readable = new Readable();
+readable.push("测试内容");
+readable.push(null); // no more data
+
+// 将可读流复制到标准输出
+readable.pipe(process.stdout);
+
+// 将可读流复制到文件
+const writable = fs.createWriteStream("/xxx");
+readable.pipe(writable);
+```
+
 📒 [Vite 4.0 正式发布！](https://mp.weixin.qq.com/s/0zDIPKUqPslj1EvowDXigA)
 
 📒 [Go1.20 将禁止匿名接口循环导入！这是一次打破 Go1 兼容性承诺的真实案例](https://mp.weixin.qq.com/s/1d4XUoW5e45jYeEJEWoXeQ)
