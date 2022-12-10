@@ -1449,6 +1449,7 @@ import TabItem from '@theme/TabItem';
 - [Element Plus 组件库相关技术揭秘：2. 组件库工程化实战之 Monorepo 架构搭建](https://juejin.cn/post/7146183222425518093)
 - [一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320)
 - [从 package.json 来聊聊如何管理一款优秀的 Npm 包](https://juejin.cn/post/7126394898445500423)
+- [聊一聊常见的构建工具关于插件机制的那些通用套路](https://juejin.cn/post/7157902763534319624)
 - [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
 - [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - [实战总结！18种接口优化方案的总结](https://mp.weixin.qq.com/s/DGP1frbIlirZ_C8Vd0OmEA)
