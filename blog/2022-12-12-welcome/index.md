@@ -688,6 +688,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [跟大家聊聊 MySQL 一行记录是怎么存储的](https://mp.weixin.qq.com/s/sqW51yqeAXcDs9r84UFP7A)
   - ⭐️ [你管这破玩意叫B+树](https://mp.weixin.qq.com/s/yvgB1a2o-m3_EBLePZM8cw)
 - 分库分表
+  - ⭐️ [分库分表经典15连问](https://mp.weixin.qq.com/s/cZ7mUsCvBxmo1dzsPA3WjQ)
   - ⭐️ [面试必备：分库分表！](https://mp.weixin.qq.com/s/AjVl-0u3plmL9U77h0VVJw)
   - ⭐️ [再有人问你什么是分库分表，直接把这篇文章发给他](https://mp.weixin.qq.com/s/wYXs7gsID8a9ahJKsWXJ6w)
 - 脏读、不可重复读、幻读
