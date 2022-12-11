@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 相关文章推荐
+
+Storybook 发布了 一个新的 API。本次更新旨在使对 Vite、Next.js、Svelte、Remix 和 Nuxt 等的支持在 2023 年更容易发布。"对任何框架的零配置支持"。
+
+> https://storybook.js.org/blog/framework-api/
+
+入门 Zustand — 本文给出了几个使用 Zustand 的技巧。Zustand 是一个相对最小的状态管理库，拥有很多热情的用户
+
+> https://tkdodo.eu/blog/working-with-zustand
+
+Shopify 衡量 React Native 渲染时间的解决方案 — 阅读本文可以了解更多关于 Shopify 的开源库 react-native-performance 是如何工作的，用户如何使用该库，以及为什么测量性能如此重要
+
+> https://shopify.engineering/measuring-react-native-rendering-times
+
+给 React 开发者的一篇 CSS 变量教程 — 这是一篇新推出的文章，对如何在项目中使用 CSS 变量（自定义属性）进行了深入的研究
+
+> https://www.joshwcomeau.com/css/css-variables-for-react-devs/
+
 📒 [【VueConf 2022】尤雨溪：Vue的进化历程](https://juejin.cn/post/7175444694917185591)
 
 📒 Nodejs 的 stream 操作
