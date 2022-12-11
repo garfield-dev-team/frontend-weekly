@@ -25,6 +25,8 @@ const writable = fs.createWriteStream("/xxx");
 readable.pipe(writable);
 ```
 
+[Node.js 流（stream）：你需要知道的一切](https://zhuanlan.zhihu.com/p/36728655)
+
 📒 [Vite 4.0 正式发布！](https://mp.weixin.qq.com/s/0zDIPKUqPslj1EvowDXigA)
 
 📒 [Go1.20 将禁止匿名接口循环导入！这是一次打破 Go1 兼容性承诺的真实案例](https://mp.weixin.qq.com/s/1d4XUoW5e45jYeEJEWoXeQ)
