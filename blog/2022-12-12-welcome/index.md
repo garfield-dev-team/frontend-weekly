@@ -443,6 +443,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - ⭐️ ⭐️ [手把手教你使用Rollup打包 📦 并发布自己的工具库 🔧](https://juejin.cn/post/6902659492161421325)
 - 🌛 [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753)
 - 🌛 [轻松排查线上Node内存泄漏问题](https://cnodejs.org/topic/58eb5d378cda07442731569f)
+- ⭐️ [Node.js 流（stream）：你需要知道的一切](https://zhuanlan.zhihu.com/p/36728655)
 - 🌛 [最全面的 Node.js 资源汇总推荐](https://mp.weixin.qq.com/s/1DIDUvGoQcckRq757R9Ohw)
 - ⭐️ [Nest.js进阶系列四：Node.js中使用Redis原来这么简单！](https://mp.weixin.qq.com/s/yKm_U9Veh_1twIoXzM8Prw)
 - ⭐️ [Redis学习-入门篇](https://mp.weixin.qq.com/s/TmCtsbhjexZNCdvUSXdNCw)
