@@ -626,6 +626,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [瞧瞧人家写的API接口代码，那叫一个优雅！](https://mp.weixin.qq.com/s/rSYOAuJeIXaonHvuR5O47Q)
 - [SpringBoot 实现 Excel 导入导出，性能爆表，用起来够优雅！](https://mp.weixin.qq.com/s/P017RfO8TDL5LxGzBoTLSA)
 - [还在用HttpUtil？SpringBoot 3.0全新HTTP客户端工具来了，用起来够优雅！](https://mp.weixin.qq.com/s/SG9sNmMu9acB1xTODkG00Q)
 - [妙用Java 8中的 Function接口，消灭if...else（非常新颖的写法）](https://mp.weixin.qq.com/s/ezLN8AzVhBaeMdNMK-TS-g)
