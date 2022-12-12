@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Go hash 包的使用
+
+https://studygolang.com/articles/34094
+
+📒 Webpack 构建流程
+
+[玩转webpack（一）上篇：webpack的基本架构和构建流程](https://segmentfault.com/a/1190000012081469)
+
+[玩转webpack（一）下篇：webpack的基本架构和构建流程](https://segmentfault.com/a/1190000012099163)
+
 📒 [【VueConf 2022】尤雨溪：Vue的进化历程](https://juejin.cn/post/7175444694917185591)
 
 📒 Nodejs 的 stream 操作
