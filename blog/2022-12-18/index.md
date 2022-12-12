@@ -13,6 +13,8 @@ tags: []
 
 📒 [MDH 前端周刊第 79 期：ChatGPT、Vite 4、SWR 2、Intl.Segmenter](https://mp.weixin.qq.com/s/hqTB22O0SXfMSBrEuvTvjg)
 
+📒 [Google Go 编程规范](https://gocn.github.io/styleguide/docs/02-guide/)
+
 📒 [Go版本大于1.13，程序里这样做错误处理才地道](https://mp.weixin.qq.com/s/SFbSAGwQgQBVWpySYF-rkw)
 
 📒 [【第2809期】大型会场活动线上保障方案](https://mp.weixin.qq.com/s/6dsPnQlq8BfHkdibfiNcUg)
