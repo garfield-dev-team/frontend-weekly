@@ -720,6 +720,8 @@ import TabItem from '@theme/TabItem';
 - Golang 学习路线
   - ⭐️ [Go后端开发成长路线](https://github.com/xiaobaiTech/golangFamily/blob/main/README.md)
   - ⭐️ [《Go学习路线图》带你少走弯路，Let's Go ！](https://juejin.cn/post/7119123646471208968)
+  - ⭐️ [最全的Go资料汇总和最走心的学Go建议](https://juejin.cn/post/7176518080674136121)
+  - ⭐️ [给想转Go或者Go进阶同学的一些建议](https://juejin.cn/post/7147939014870302756)
   - [我肝了三个月，为你写出了GO核心手册](https://juejin.cn/post/7035966042857799687)
   - [Go 学习路线（2022）](https://juejin.cn/post/7061980386640789540)
   - [Golang学习手册之：带你21周搞定Go语言](https://www.bilibili.com/video/BV16E411H7og)
