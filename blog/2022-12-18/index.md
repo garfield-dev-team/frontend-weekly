@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
+
+📒 [前端食堂技术周刊第 63 期：Vite 4.0、State of CSS 2022、Rome v11、Web 性能日历、VueConf 2022 PPT](https://juejin.cn/post/7176430181765087269)
+
+📒 [【综合笔试题】难度 3/5，多解法热门搜索题](https://juejin.cn/post/7176504540793929789)
+
+📒 [ChatGPT 以及相关开源项目体验](https://juejin.cn/post/7176275850101260325)
+
 📒 Webpack 构建流程
 
 [玩转webpack（一）上篇：webpack的基本架构和构建流程](https://segmentfault.com/a/1190000012081469)
