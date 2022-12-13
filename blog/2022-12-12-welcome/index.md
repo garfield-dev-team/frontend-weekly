@@ -916,6 +916,7 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
   - [Tony Bai 博客](https://tonybai.com/articles/)
+  - [Go 程序员面试笔试宝典](https://github.com/golang-design/go-questions)
   - [GoLand 迎来五周年，同时发布 2022.3：有彩蛋](https://mp.weixin.qq.com/s/IvL24_7iuuRp9Y3dljHaHQ)
   - [这可能是最权威、最全面的Go语言编码风格规范了！](https://mp.weixin.qq.com/s/jrua9iSa1Huk3UvMluVe7w)
   - [成为 Go 高手的 8 个 GitHub 开源项目](https://mp.weixin.qq.com/s/2qPeqi3qdk4sqtpqo-3_Uw)
