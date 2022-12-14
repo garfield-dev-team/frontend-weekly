@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Umi 中如何根据服务端响应数据动态更新路由](https://juejin.cn/post/7176943264749060155)
+
+📒 [深度解析 React 性能优化 API](https://mp.weixin.qq.com/s/svGYB3HvmLDMerlM50BhAg)
+
+📒 [Go1.20 将会修改全局变量的初始化顺序。梅度二开，继续打破 Go1 兼容性承诺！](https://mp.weixin.qq.com/s/rtEhjJhwdkX3U01vHG6S8g)
+
 📒 [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
 
 📒 [前端食堂技术周刊第 63 期：Vite 4.0、State of CSS 2022、Rome v11、Web 性能日历、VueConf 2022 PPT](https://juejin.cn/post/7176430181765087269)
