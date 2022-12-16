@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Webpack深度进阶：两张图彻底讲明白热更新原理！](https://juejin.cn/post/7176963906844246074)
+
+📒 [二十张图片彻底讲明白Webpack设计理念，以看懂为目的](https://juejin.cn/post/7170852747749621791)
+
+📒 [谈谈复杂应用的状态管理（下）：基于 Zustand 的渐进式状态管理实践](https://mp.weixin.qq.com/s/QUpei0fQA4CYYkhamjAdDw)
+
+📒 [谈谈复杂应用的状态管理（上）：为什么是 Zustand](https://juejin.cn/post/7177216308843380797)
+
+📒 [React Native工程Monorepo改造实践](https://juejin.cn/post/7177585131861835837)
+
+📒 [【第2813期】网易严选APP端上H5容器化建设](https://mp.weixin.qq.com/s/JzHA3htAjHXhQ4HeshflzA)
+
+📒 [Go 1.20 新特性之 time.Compare](https://mp.weixin.qq.com/s/setWdt_6S26_-tEX7ua07g)
+
 📒 [【综合笔试题】难度 3.5/5，括号相关剪枝搜索题](https://mp.weixin.qq.com/s/x_Z58gxrzhJURRhIdxfpEg)
 
 📒 [Umi 中如何根据服务端响应数据动态更新路由](https://juejin.cn/post/7176943264749060155)
