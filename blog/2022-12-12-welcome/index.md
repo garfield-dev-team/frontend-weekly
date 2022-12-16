@@ -689,6 +689,8 @@ import TabItem from '@theme/TabItem';
 - MySQL 索引
   - ⭐️ [跟大家聊聊 MySQL 一行记录是怎么存储的](https://mp.weixin.qq.com/s/sqW51yqeAXcDs9r84UFP7A)
   - ⭐️ [你管这破玩意叫B+树](https://mp.weixin.qq.com/s/yvgB1a2o-m3_EBLePZM8cw)
+- MySQL 日志
+  - ⭐️ [聊聊 MySQL 日志，好牛的设计！](https://mp.weixin.qq.com/s/Tfbd-KiBgsZtkiuVc70BFA)
 - 分库分表
   - ⭐️ [分库分表经典15连问](https://mp.weixin.qq.com/s/cZ7mUsCvBxmo1dzsPA3WjQ)
   - ⭐️ [面试必备：分库分表！](https://mp.weixin.qq.com/s/AjVl-0u3plmL9U77h0VVJw)
