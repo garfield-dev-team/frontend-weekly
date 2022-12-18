@@ -360,6 +360,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [为了拿捏 Redis 数据结构，我画了 40 张图（完整版）](https://mp.weixin.qq.com/s/Cq-CF1BC4PWwGnlRp4HrnQ)
   - ⭐️ [Redis 5 种基本数据结构（String、List、Hash、Set、Sorted Set）详解 | JavaGuide](https://juejin.cn/post/7124572920403197965)
 - Redis 实现分布式锁
+  - [Redis分布式锁的10个坑](https://mp.weixin.qq.com/s/2Rwy19C0eUshTWc_JfTPig)
   - [深入理解 go singleflight](https://mp.weixin.qq.com/s/p2rlkCRRj7h7-aojTidQbg)
   - [面试官：如何用 Redis 实现分布式锁](https://mp.weixin.qq.com/s/ESdfA5sJa6bmL-HvuWpoJA)
   - [如何用Redis实现分布式锁](https://mp.weixin.qq.com/s/RS1kKvF_Ly576GV52bHQPg)
