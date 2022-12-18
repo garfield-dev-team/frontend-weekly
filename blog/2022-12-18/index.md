@@ -29,6 +29,8 @@ tags: []
 
 📒 [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
 
+📒 [哔哩哔哩 Web 首页重构——回首2021](https://mp.weixin.qq.com/s/oO-WpgdszWrBxOOxSFWFRw)
+
 📒 [前端食堂技术周刊第 63 期：Vite 4.0、State of CSS 2022、Rome v11、Web 性能日历、VueConf 2022 PPT](https://juejin.cn/post/7176430181765087269)
 
 📒 [【综合笔试题】难度 3/5，多解法热门搜索题](https://juejin.cn/post/7176504540793929789)
