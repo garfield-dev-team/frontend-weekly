@@ -69,7 +69,7 @@ Storybook 团队已经分享了对包括 Next.js、SvelteKit 和 Remix 在内的
 
 📒 [Go1.20 将会修改全局变量的初始化顺序。梅度二开，继续打破 Go1 兼容性承诺！](https://mp.weixin.qq.com/s/rtEhjJhwdkX3U01vHG6S8g)
 
-📒 [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
+⭐️ [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
 
 📒 [哔哩哔哩 Web 首页重构——回首2021](https://mp.weixin.qq.com/s/oO-WpgdszWrBxOOxSFWFRw)
 
@@ -89,7 +89,7 @@ Storybook 团队已经分享了对包括 Next.js、SvelteKit 和 Remix 在内的
 
 📒 [Google Go 编程规范](https://gocn.github.io/styleguide/docs/02-guide/)
 
-📒 [Go版本大于1.13，程序里这样做错误处理才地道](https://mp.weixin.qq.com/s/SFbSAGwQgQBVWpySYF-rkw)
+⭐️ [Go版本大于1.13，程序里这样做错误处理才地道](https://mp.weixin.qq.com/s/SFbSAGwQgQBVWpySYF-rkw)
 
 📒 [【第2809期】大型会场活动线上保障方案](https://mp.weixin.qq.com/s/6dsPnQlq8BfHkdibfiNcUg)
 
