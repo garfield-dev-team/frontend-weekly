@@ -783,6 +783,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 服务自动收集线上问题现场](https://mp.weixin.qq.com/s/vB9ElJCfgZeQHtB596XHpA)
   - ⭐️ [用规则引擎让你一天上线十个需求](https://mp.weixin.qq.com/s/gLbAZShFnkPcI937pk-wpg)
   - ⭐️ [一文彻底理解Go语言栈内存/堆内存](https://mp.weixin.qq.com/s/QQjOyYkDfuxIxHl6k6qkRA)
+  - ⭐️ [字节大规模微服务 Go 语言发展之路](https://mp.weixin.qq.com/s/Oz0Zn8Y43UfHIOPL6rZ5Ig)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
   - ⭐️ [Golang 泛型初识](https://juejin.cn/post/7116817920209977351)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
