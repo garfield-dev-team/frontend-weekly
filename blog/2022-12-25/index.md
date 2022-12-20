@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [你构建的代码为什么这么大](https://juejin.cn/post/7179049172706787387)
+
+📒 [Go语言中常见100问题-#24 Not making slice copies correctly](https://mp.weixin.qq.com/s/vZBePdCuKe12OMQOj6Rz4A)
+
+📒 理解 Go generate
+
+https://go.dev/blog/generate
+
+https://blog.carlmjohnson.net/post/2016-11-27-how-to-use-go-generate/
+
 📒 [专注性能的多端研发框架 - ice.js 3 正式发布！](https://mp.weixin.qq.com/s/o8XL71WPDHaui81O61QSoA)
 
 📒 [【综合笔试题】难度 1.5/5，常规二叉树爆搜题](https://mp.weixin.qq.com/s/p9kHaJQdm3_zi9XlR7VFJg)
