@@ -851,6 +851,7 @@ import TabItem from '@theme/TabItem';
   - [面试官：哥们Go语言互斥锁了解到什么程度了](https://mp.weixin.qq.com/s/bhze_LcFHk7Y-QB4nEQKnA)
   - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
+  - [Go语言中常见100问题-#24 Not making slice copies correctly](https://mp.weixin.qq.com/s/vZBePdCuKe12OMQOj6Rz4A)
   - [Go语言中常见100问题-#23 Not properly checking if a slice is empty](https://mp.weixin.qq.com/s/WsFGv9tcdRLP9K-NQSqimA)
   - [Go语言中常见100问题-#22 Being confused about nil vs. empty slices](https://mp.weixin.qq.com/s/uHmCU0v0xJ2RYlmq_lQAiQ)
   - [Go语言中常见100问题-#20 Not understanding slice length and capacity](https://mp.weixin.qq.com/s/-Kt2QJdzEUDJx8MFvrUo7Q)
