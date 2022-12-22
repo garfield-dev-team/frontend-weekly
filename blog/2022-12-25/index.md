@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [JavaScript 中文周刊 #68 - 如何优化 INP 指标，提升用户体验](https://mp.weixin.qq.com/s/dW85gK_5YkwLcj7TxUBHzg)
+
 📒 [原生拖拽太拉跨了，纯JS自己手写一个拖拽效果，纵享丝滑](https://juejin.cn/post/7145447742515445791)
 
 📒 [【综合笔试题】难度 4/5，有一定代码量的图论搜索题](https://mp.weixin.qq.com/s/KLLILNZOlIrrNaKPwORPsA)
