@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [Learning Go by examples: part 7 - Create a cross-platform GUI/Desktop app in Go](https://dev.to/aurelievache/learning-go-by-examples-part-7-create-a-cross-platform-gui-desktop-app-in-go-44j1)
+
+📒 解决 Antd 样式预设影响全局样式问题
+
+注意 Antd 打包默认会带一套 `global.less` 样式预设，在某些老工程用的时候，样式预设可能会影响全局样式，但是如果简单删除 `global.less` 则会导致组件内部样式出问题。解决方案是 **收敛 `global.less`，并保证外部的全局样式无法轻易覆盖 antd 的样式**。
+
+[如何优雅地彻底解决 antd 全局样式问题](https://juejin.cn/post/6844904116288749581)
+
 📒 [JavaScript 中文周刊 #68 - 如何优化 INP 指标，提升用户体验](https://mp.weixin.qq.com/s/dW85gK_5YkwLcj7TxUBHzg)
 
 📒 [原生拖拽太拉跨了，纯JS自己手写一个拖拽效果，纵享丝滑](https://juejin.cn/post/7145447742515445791)
