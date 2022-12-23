@@ -9,9 +9,36 @@ tags: []
 
 📒 解决 Antd 样式预设影响全局样式问题
 
-注意 Antd 打包默认会带一套 `global.less` 样式预设，在某些老工程用的时候，样式预设可能会影响全局样式，但是如果简单删除 `global.less` 则会导致组件内部样式出问题。解决方案是 **收敛 `global.less`，并保证外部的全局样式无法轻易覆盖 antd 的样式**。
+注意 Antd 打包默认会带一套 `global.less` 样式预设，在某些老工程用的时候，样式预设可能会影响全局样式。由于 Antd 的组件样式都是建立在这个格式化后的样式上的，不引入这个文件则会导致组件内部样式出问题。解决方案是 **收敛 `global.less`，并保证外部的全局样式无法轻易覆盖 antd 的样式**。
+
+首先需要限定 `global.less`，手动套一层作用域：
+
+```less title="node_modules/antd/lib/style/core/global.less"
+*[class*='ant-'] {
+  @import 'global.less';
+}
+```
+
+> antd 相关的组件都至少会有一个以 `ant-` 开头的 class，我们只要利用好这个特点及 CSS 属性选择器即可达到目的
+
+这里存在一个问题，如何将 Antd 的 `global.less` 文件替换为自己的模块，有两种解决方案：
+
+- 用 `patch-package` 打补丁，但是如果第三方库体积过大会 OOM
+- 另一种思路是用 `NormalModuleReplacementPlugin` 在构建阶段去替换模块
+
+下一步是提升组件样式的权重，此举还能间接提升所有 antd 的样式的权重，避免外部的全局样式对 antd 造成侵入。
+
+既然是改样式，那就用 CSS 界的 babel —— PostCSS，写个 PostCSS 插件，将所有 `.ant` 开头的类选择器都同样升高即可。利用的是 `postcss-selector-parser` 这个 PostCSS 官方提供的解析选择器的库，过滤出「第一个以 `ant-` 开头的类选择器」，在其前面添加一个属性选择器 `[class*='ant-']`，如果这个选择器排在当前 rule 的第一个或者前面是一个 combinator，则再加一个通配符 `*`。
 
 [如何优雅地彻底解决 antd 全局样式问题](https://juejin.cn/post/6844904116288749581)
+
+📒 [对于“前端状态”相关问题，如何思考比较全面](https://juejin.cn/post/7180242080780779580)
+
+📒 [二十张图片彻底讲明白Webpack设计理念，以看懂为目的](https://juejin.cn/post/7170852747749621791)
+
+📒 [【第2820期】去哪儿网用户体验之端上优化实践](https://mp.weixin.qq.com/s/be-0gUtcg9o7mAbMnCsYXA)
+
+📒 [有趣的 Go HttpClient 超时机制](https://mp.weixin.qq.com/s/SA2Me6QGkzxLAfhmQ0eWmA)
 
 📒 [JavaScript 中文周刊 #68 - 如何优化 INP 指标，提升用户体验](https://mp.weixin.qq.com/s/dW85gK_5YkwLcj7TxUBHzg)
 
