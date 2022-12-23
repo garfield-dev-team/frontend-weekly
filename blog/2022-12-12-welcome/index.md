@@ -373,6 +373,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
   - ⭐️ [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - 系统设计
+  - ⭐️ [蚂蚁金服一面：十道经典面试题解析](https://mp.weixin.qq.com/s/qhsVURhXm0Ot-jWq0khfEg)
   - ⭐️ [公司新来一个同事，把优惠券系统设计的炉火纯青！](https://mp.weixin.qq.com/s/Ebh5iVsx0iExb5Wxq3tQFQ)
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
   - ⭐️ [高并发下，幂等性如何保证](https://mp.weixin.qq.com/s/crzfBEGn78nUZ5H3MF8UZw)
