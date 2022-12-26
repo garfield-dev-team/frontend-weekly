@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[1月1日内容汇总]]></title>
+            <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月1日内容汇总</link>
+            <guid>1月1日内容汇总</guid>
+            <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[📒 Go学设计模式--怕把核心代码改乱，记得用代理模式]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://mp.weixin.qq.com/s/FTXkgxkUzsHMIspCK60G4w" target="_blank" rel="noopener noreferrer">Go学设计模式--怕把核心代码改乱，记得用代理模式</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/lAIB0l666R6Zh9NAdV809g" target="_blank" rel="noopener noreferrer">Go语言中常见100问题-#25 Unexpected side effects using slice append</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[12月25日内容汇总]]></title>
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/12月25日内容汇总</link>
             <guid>12月25日内容汇总</guid>
