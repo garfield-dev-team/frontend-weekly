@@ -13,7 +13,7 @@ tags: []
 
 首先需要限定 `global.less`，手动套一层作用域：
 
-```less title="node_modules/antd/lib/style/core/global.less"
+```less title="node_modules/antd/lib/style/core/index.less"
 *[class*='ant-'] {
   @import 'global.less';
 }
