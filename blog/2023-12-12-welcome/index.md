@@ -210,6 +210,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 - ⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
 - ⭐️ [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
+- [React Native工程Monorepo改造实践](https://juejin.cn/post/7177585131861835837)
+- [【第2714期】从Multirepo到Monorepo 袋鼠云数栈前端研发效率提升探索之路](https://mp.weixin.qq.com/s/JWks8VyuXoB5zaeYdyJPxw)
 - [Monorepo，大型前端项目管理模式实践](https://mp.weixin.qq.com/s/N0CZABDD0TKTmdljH3y74A)
 - [面试官：你会看 Vite 源码吗](https://juejin.cn/post/7094984070999834655)
 - [复活了！ Lerna V6 带来了哪些新东西](https://mp.weixin.qq.com/s/6peafvVjmcF65PFSggSLYQ)
