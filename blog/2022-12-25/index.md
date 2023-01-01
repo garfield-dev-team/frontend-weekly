@@ -48,7 +48,7 @@ tags: []
 
 📒 [别乱用了，用新的。Go SliceHeader 和 StringHeader 将会被废弃！](https://mp.weixin.qq.com/s/al5zXILiKnqnsh-XrLMB6A)
 
-📒 [看了这篇你会发现，你是懂Go内存分配的](https://mp.weixin.qq.com/s/T4tk-sckA1oNcWIvp27MMA)
+⭐️ [看了这篇你会发现，你是懂Go内存分配的](https://mp.weixin.qq.com/s/T4tk-sckA1oNcWIvp27MMA)
 
 📒 [你构建的代码为什么这么大](https://juejin.cn/post/7179049172706787387)
 
