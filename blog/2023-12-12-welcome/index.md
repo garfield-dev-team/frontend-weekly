@@ -907,6 +907,8 @@ import TabItem from '@theme/TabItem';
   - [关于Go程序错误处理的一些建议](https://mp.weixin.qq.com/s/HuZn9hnHUBx3J4bAGYBYpw)
 - Golang 部署
   - 使用 Docker Desktop 搭建 k8s 集群
+  - [天呐！我用 go 从零开始写了一个 k8s 应用管理工具（附完整代码和开发过程）](https://mp.weixin.qq.com/s/MFd1R5VeEW0eLk-A4BqSQQ)
+  - [没想到在 Docker 容器中设置时区这么简单](https://mp.weixin.qq.com/s/10Ll8ipVGWg4HU4hjwILsQ)
   - [快收藏！超强图解Docker常见命令与实战！](https://mp.weixin.qq.com/s/5NTgcdhn6CiZ2tg44_T-FQ)
   - [实时可视化Go Runtime指标，这个Go库超赞](https://mp.weixin.qq.com/s/rDSKItZ8hvgjvpp4f4VzCQ)
   - [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
