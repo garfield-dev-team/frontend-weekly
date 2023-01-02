@@ -1,6 +1,6 @@
 name: Frontend Weekly
 
-concurrency: 
+concurrency:
   group: build_and_deploy
   cancel-in-progress: true
 
@@ -15,13 +15,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: https://registry.npmmirror.com/
           cache: yarn
-      
+
+      ### if use Go ###
+
+      # - name: Set up Go 1.14
+      #   uses: actions/setup-go@v2
+      #   with:
+      #     go-version: 1.14
+      #   id: go
+
       - name: Cache node_modules
         uses: actions/cache@v3
         id: cache
@@ -29,9 +38,9 @@ jobs:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
           restore-keys: ${{ runner.os }}-node-
-      
+
       ### if use pnpm ###
-      
+
       # - name: Cache ~/.pnpm-store
       #   uses: actions/cache@v3
       #   env:
@@ -58,10 +67,10 @@ jobs:
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --production --frozen-lockfile
-      
+
       - name: Build
         run: yarn build
-      
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
