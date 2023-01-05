@@ -382,6 +382,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
+  - ⭐️ [面渣逆袭：RocketMQ二十三问](https://mp.weixin.qq.com/s/mNpXpSVVVBuI59LI6vVvQA)
   - ⭐️ [刨根问底 Kafka，核心知识点大贯通](https://mp.weixin.qq.com/s/GeXtCJgo42u92FSS5V6oMQ)
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
   - [你管这破玩意儿叫 MQ](https://mp.weixin.qq.com/s/i_bwyEb8QqfVLxY-R9odag)
@@ -678,6 +679,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 - 慢 SQL 优化
+  - ⭐️ [完爆90%的性能毛病，数据库优化八大通用绝招！](https://mp.weixin.qq.com/s/0_Arz-KO3UqJij1s4DjLNw)
   - ⭐️ [公司新来个同事，MyBatis批量插入10w条数据仅用2秒，拍案叫绝！](https://mp.weixin.qq.com/s/3H9SD1dnAH0RoN-RoPXxgQ)
   - ⭐️ [一次显著的大表查询优化，从20s优化到500ms，查询分离YYDS！](https://mp.weixin.qq.com/s/OBjRKdGzwFM4PNrbMd7kIA)
   - ⭐️ [MySQL表太大，count(*)都能 502，怎么优化](https://mp.weixin.qq.com/s/UxZRGO58kTiX5wUnuzMJ9Q)
@@ -859,6 +861,7 @@ import TabItem from '@theme/TabItem';
   - [面试官：哥们Go语言互斥锁了解到什么程度了](https://mp.weixin.qq.com/s/bhze_LcFHk7Y-QB4nEQKnA)
   - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
+  - [Go语言中常见100问题-#26 slices and memory leaks](https://mp.weixin.qq.com/s/TYxqo1BniI-wfKVHQsrjjw)
   - [Go语言中常见100问题-#25 Unexpected side effects using slice append](https://mp.weixin.qq.com/s/lAIB0l666R6Zh9NAdV809g)
   - [Go语言中常见100问题-#24 Not making slice copies correctly](https://mp.weixin.qq.com/s/vZBePdCuKe12OMQOj6Rz4A)
   - [Go语言中常见100问题-#23 Not properly checking if a slice is empty](https://mp.weixin.qq.com/s/WsFGv9tcdRLP9K-NQSqimA)
