@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Golang 内存管理
+
+https://golang.design/under-the-hood/zh-cn/part2runtime/ch07alloc/basic/
+
+https://zhuanlan.zhihu.com/p/27807169
+
+https://medium.com/a-journey-with-go/go-memory-management-and-allocation-a7396d430f44
+
 📒 [【中级/高级前端】为什么我建议你一定要读一读 Tapable 源码](https://juejin.cn/post/7164175171358556173)
 
 📒 [二十张图片彻底讲明白Webpack设计理念，以看懂为目的](https://juejin.cn/post/7170852747749621791)
