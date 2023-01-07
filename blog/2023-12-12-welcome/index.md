@@ -350,6 +350,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [详解闲鱼推荐系统（长文收藏）](https://juejin.cn/post/7153878508035391502)
 - Redis 相关
   - ⭐️ ⭐️ [Redis详细入门教程](https://zhuanlan.zhihu.com/p/469102289)
+  - ⭐️ [Redis 只会用缓存？16种妙用让同事直呼牛X](https://mp.weixin.qq.com/s/fnOvw4JfwszNGVBMW0N2hw)
   - ⭐️ [深入浅出带你走进Redis！](https://mp.weixin.qq.com/s/ThVtw8TVuhxIyYxJy6sOWw)
   - ⭐️ [万字图文讲透数据库缓存一致性问题](https://mp.weixin.qq.com/s/U87wrGsx0Eop3CbF9mlTwQ)
   - ⭐️ [Redis 事务遇上 @Transactional 有大坑！！记一次 Redis 生产事故](https://mp.weixin.qq.com/s/vwx99ER-9qiH9nfwtFW1zQ)
@@ -375,6 +376,8 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [看一遍就理解：IO模型详解](https://mp.weixin.qq.com/s/bb7C6VNbq7REP9u8PsreSg)
   - ⭐️ [面试必备：零拷贝详解](https://mp.weixin.qq.com/s/qaUZ3AMA_dJkx2ZpyhJN2g)
 - 系统设计
+  - ⭐️ [高并发系统设计的15个锦囊](https://mp.weixin.qq.com/s/PPA8Iw6K2M2xVnGE-Tf6zw)
+  - ⭐️ [支付系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/5Jj-IClPhInXz7xsfUZEnQ)
   - ⭐️ [蚂蚁金服一面：十道经典面试题解析](https://mp.weixin.qq.com/s/qhsVURhXm0Ot-jWq0khfEg)
   - ⭐️ [公司新来一个同事，把优惠券系统设计的炉火纯青！](https://mp.weixin.qq.com/s/Ebh5iVsx0iExb5Wxq3tQFQ)
   - ⭐️ [网关系统就该这么设计（万能通用），稳的一批！](https://mp.weixin.qq.com/s/8GXe6sKPKk7Flbd_kNAp2Q)
