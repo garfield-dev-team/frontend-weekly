@@ -57,8 +57,8 @@ Plasmo：“它就像浏览器扩展的 Next.js” — 一个面向 React 和 Ty
 
 [Go 语言一次性定时器使用方式和实现原理](https://mp.weixin.qq.com/s/NXbYTX96hFfwYuh6gACAHg)
 
-- `new`：为变量分配存储空间
-- `make`：为复合数据类型分配存储空间
+- `new`：为变量分配存储空间，返回指针类型，一般不常用
+- `make`：为复合数据类型（`slice`、`map`、`chan`）分配存储空间
 
 在 Go 语言中，原生类型都有默认值，即类型的零值
 
@@ -103,7 +103,44 @@ Plasmo：“它就像浏览器扩展的 Next.js” — 一个面向 React 和 Ty
 
 [Golang 语言该用命名返回值吗](https://mp.weixin.qq.com/s/NbTzlvubUVUBakwKKNbcVw)
 
+总结一下：
+
+- `unsafe.Pointer` 主要用来实现 **指针类型转换**，任意指针类型 `*T` 都可以转换为 `unsafe.Pointer`，`unsafe.Pointer` 可以转换为任何类型的指针值 `*T`
+- `uintptr` 主要用来实现 **指针运算**，实际是数值类型，可以用于存储内存地址。将 `unsafe.Pointer` 转换为 `uintptr`，然后使用 `uintptr` 值进行算术运算，最后将运算结果 `uintptr` 值再转换为 `unsafe.Pointer`
+
 [Golang 语言中的非类型安全指针](https://mp.weixin.qq.com/s/MvULt7x0m4IBmz1bNzLvCQ)
+
+显式类型转换：
+
+```go
+// 整型变量省略类型，编译器根据字面量推导默认是 int
+var a = 100
+a := 100
+
+// 如果需要声明指定类型的整型变量，也可用显式类型转换，例如：
+var a = int8(100)
+b := int8(60)
+```
+
+变量声明块：
+
+```go
+var (
+    a int = 100
+    b int = 200
+)
+
+var (
+    c = 300
+    d = 3.14
+    f = true
+)
+
+var (
+    e, f, g int = 10, 20, 30
+    h, i, j string = "a", "b", "c"
+)
+```
 
 [Golang 语言的多种变量声明方式和使用场景](https://mp.weixin.qq.com/s/croxWsCnjsaPJy9zigx4Gg)
 
