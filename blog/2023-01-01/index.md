@@ -57,6 +57,20 @@ Plasmo：“它就像浏览器扩展的 Next.js” — 一个面向 React 和 Ty
 
 [Go 语言一次性定时器使用方式和实现原理](https://mp.weixin.qq.com/s/NXbYTX96hFfwYuh6gACAHg)
 
+- `new`：为变量分配存储空间
+- `make`：为复合数据类型分配存储空间
+
+在 Go 语言中，原生类型都有默认值，即类型的零值
+
+- 布尔型的零值：`false`
+- 整型的零值：`0`
+- 字符串类型的零值：`""`
+- 指针、函数、接口、Slice、Map、Channel 的零值：`nil`
+
+需要注意的是，Go 语言类型的零值初始化是递归完成的，即 **数组**、**结构体** 的每个元素都进行零值初始化。
+
+在 Go 语言中，推荐定义零值可用的结构体，不仅对程序的安全性和正确性非常重要，它还可以无需预先显式初始化即可直接使用，使 Go 程序代码更优雅。
+
 [Go 语言为什么建议定义零值可用的结构体](https://mp.weixin.qq.com/s/8Eh7e9-pX6OqFNrDqugxaA)
 
 总结一下，短变量声明在同一作用域内重复使用，只是重新赋值，不会重新创建变量（即指针还是同一个），但是如果在不同作用域（例如 `if` 语句块），就会创建一个新的变量（内存地址与之前不同）。
@@ -88,6 +102,12 @@ Plasmo：“它就像浏览器扩展的 Next.js” — 一个面向 React 和 Ty
 [Golang 语言怎么避免空指针引发的 panic](https://mp.weixin.qq.com/s/9s6YXJsZcXyfgWDYG-WZOQ)
 
 [Golang 语言该用命名返回值吗](https://mp.weixin.qq.com/s/NbTzlvubUVUBakwKKNbcVw)
+
+[Golang 语言中的非类型安全指针](https://mp.weixin.qq.com/s/MvULt7x0m4IBmz1bNzLvCQ)
+
+[Golang 语言的多种变量声明方式和使用场景](https://mp.weixin.qq.com/s/croxWsCnjsaPJy9zigx4Gg)
+
+[Golang 语言中的内置函数 make 和 new](https://mp.weixin.qq.com/s/cGWZN_2uKRyDaI75VoGEfw)
 
 [深入理解 go reflect - 反射基本原理](https://juejin.cn/post/7183132625580605498)
 
