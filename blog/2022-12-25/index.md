@@ -5,6 +5,56 @@ authors: [garfield]
 tags: []
 ---
 
+📒 相关文章推荐
+
+Dr. Axel 提出两个提案：Iterator Helpers 和 Set Methods — 本篇文章所讲的内容值得你去研究! Dr. Axel 提出了两个具有前瞻性的 ECMAScript 提案，并在本文中介绍了它们，以及解释了为什么它们会对 JavaScript 开发者有用的原因。第一个提案是关于 iterator helpers （用于处理可迭代数据的新的实用方法），第二个提案是关于 Set methods，它扩展了 ES6 的 Set 对象
+
+> https://2ality.com/2022/12/iterator-helpers.html
+
+构建同构 JS 库的五个挑战 — 在 JS 中，同构的意思就是在服务端和浏览器端通过最少的适配使用相同的代码
+
+> https://doordash.engineering/2022/12/06/five-challenges-to-building-an-isomorphic-javascript-library/
+
+Next, Nest, Nuxt… Nust? — *“这篇博客文章是为在寻找新的 JavaScript 后端框架的人准备的。”*如果这些框架的名字你分不清，那么这篇文章就是为你准备的。Marius 解释了 Next 和 Gatsby 等系统做了什么，并触及了一些不同之处
+
+> https://www.twilio.com/blog/comparing-nextjs-nestjs-nuxt-gatsby
+
+优化 INP 指标，提升用户体验 — 文章仔细介绍了INP指标，如何计算以及如何优化。INP 指标 -—  从用户交互到页面渲染下一帧的时间差，越短越好
+
+> https://web.dev/optimize-inp/
+
+我们是如何为 Monorepo 项目配置 pnpm 和 Turborepo 的
+
+> https://nhost.io/blog/how-we-configured-pnpm-and-turborepo-for-our-monorepo
+
+Node 之道：关于设计、架构与最佳实践 — “全图鸟瞰” 式的总结是非常受欢迎的。我们都在为架构设计探索新的设计思路、处理之道。作者在文中总结了在构建高质量 Node 应用程序时，所获得的所有来之不易的最佳实践
+
+> https://alexkondov.com/tao-of-node/
+
+新选型流行的 Node 开发模式与工具
+
+> https://practica.dev/blog/popular-nodejs-pattern-and-tools-to-reconsider/
+
+制作现代 npm 包的最佳实践 — 手把手引导如何基于最新的最佳实践创造自己的 npm 包。如果你已经掌握了，也值得再次访问，这是一个很好的、常看常新的资源
+
+> https://snyk.io/blog/best-practices-create-modern-npm-package/
+
+SWR v2.0: 用于数据获取的 React Hooks — SWR(Stale-While-Revalidate) 的第二个主要版本包括新的 Mutation API、改进的乐观更新 UI 功能、新的开发人员工具以及改进的对并发渲染的支持
+
+> https://swr.vercel.app/blog/swr-v2
+
+避免这些常见的 `useState` 陷阱 — “你首先需要了解 useState 的潜在问题，以便于避免它们，” 所以 Johannes 带我们用一个案例来深入分析和了解
+
+> https://profy.dev/article/react-usestate-pitfalls
+
+Josh W Comeau 更新了他的热门文章 - Why React Re-Renders
+
+> https://www.joshwcomeau.com/react/why-react-re-renders/
+
+用 Three.js 和 react-three-fiber 创建一个 3D 的圣诞体验
+
+> https://www.youtube.com/watch?v=tyNt9Qse1mg
+
 📒 [Learning Go by examples: part 7 - Create a cross-platform GUI/Desktop app in Go](https://dev.to/aurelievache/learning-go-by-examples-part-7-create-a-cross-platform-gui-desktop-app-in-go-44j1)
 
 📒 解决 Antd 样式预设影响全局样式问题
