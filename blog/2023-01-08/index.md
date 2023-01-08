@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [【第2831期】低代码技术在研发团队的应用模式探讨](https://mp.weixin.qq.com/s/M34txaazc76NcF7ovd_9lw)
+
 📒 Golang 内存管理
 
 https://golang.design/under-the-hood/zh-cn/part2runtime/ch07alloc/basic/
