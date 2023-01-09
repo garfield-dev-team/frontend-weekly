@@ -834,6 +834,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 语言代码风格规范-指南篇](https://mp.weixin.qq.com/s/rOtR8FfMpfBZrIkyRrNsfQ)
   - ⭐️ [Go 语言代码风格规范-概述篇](https://mp.weixin.qq.com/s/RCBUlu0gRuVFSQ2m8Uyycg)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
+  - ⭐️ [Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学](https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw)
   - ⭐️ [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
   - ⭐️ [Go版本大于1.13，程序里这样做错误处理才地道](https://mp.weixin.qq.com/s/SFbSAGwQgQBVWpySYF-rkw)
   - ⭐️ [面试官：net/http库知道吗？能说说优缺点吗](https://mp.weixin.qq.com/s/IelVDnMzGtT5y7hGSb_OxA)
