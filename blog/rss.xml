@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[1月15日内容汇总]]></title>
+            <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月15日内容汇总</link>
+            <guid>1月15日内容汇总</guid>
+            <pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[📒 前端食堂技术周刊第 66 期：2022 JS Rising Stars、Lightning CSS、年度最受欢迎文章]]></description>
+            <content:encoded><![CDATA[<p>📒 <a href="https://juejin.cn/post/7186611343749808183" target="_blank" rel="noopener noreferrer">前端食堂技术周刊第 66 期：2022 JS Rising Stars、Lightning CSS、年度最受欢迎文章</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/u9ANageSPThya4fA0Cq8Rw" target="_blank" rel="noopener noreferrer">写出易维护的代码｜React开发的设计模式及原则</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/IYRtsVU5VLELeRh_-7nfgg" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 82 期：Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/HfgifbdzBSOZkDb0ru0XsA" target="_blank" rel="noopener noreferrer">2022 年前端大事记</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/HbFVODpDEzEZ047kv-LYbg" target="_blank" rel="noopener noreferrer">Go1.20 新特性：context支持自定义取消原因</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw" target="_blank" rel="noopener noreferrer">Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学</a></p><p>📒 <a href="https://juejin.cn/post/7073001183123603470" target="_blank" rel="noopener noreferrer">平时的工作如何体现一个人的技术深度？</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/KMFF6bg3YspPVzjYbMsm0Q" target="_blank" rel="noopener noreferrer">【第2832期】V8 执行 JavaScript 的过程</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/0JbLDkJboDDihy-7N4MMPw" target="_blank" rel="noopener noreferrer">Golang slog 介绍</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/aLiqEuD9T8sERVrfGDSxvw" target="_blank" rel="noopener noreferrer">一文读懂 Go Http Server 原理</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/Fuc4557t3OWvJ3S2oHi1cA" target="_blank" rel="noopener noreferrer">「每周译Go」了解 Go 中的 defer</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/Zigqlbsac7vbKgnlYhGb7A" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 173 期 — 这个并发库真心好</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[1月8日内容汇总]]></title>
             <link>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月8日内容汇总</link>
             <guid>1月8日内容汇总</guid>
