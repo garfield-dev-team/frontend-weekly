@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [模块联邦在微前端架构中的实践](https://mp.weixin.qq.com/s/WXeUuUdgF_3djqBhh1siQA)
+
+📒 [【综合笔试题】难度 4.5/5，经典次短路问题](https://mp.weixin.qq.com/s/2-lu7l-4E5mwdQwbogpA4g)
+
+⭐️ [加大力度！Go 将会增强 Go1 向后兼容性](https://mp.weixin.qq.com/s/OIqgqjXEvVmDUmnRqq4PGw)
+
+⭐️ [聊聊Prometheus Gauge的增减操作实现](https://mp.weixin.qq.com/s/xQlVQsxhSdzoRBnq3RVxsw)
+
+📒 [Git操作不规范，战友提刀来相见！「文末抽奖」](https://mp.weixin.qq.com/s/43I-cHDuI0afkiPnlWmBhA)
+
 📒 [前端食堂技术周刊第 66 期：2022 JS Rising Stars、Lightning CSS、年度最受欢迎文章](https://juejin.cn/post/7186611343749808183)
 
 📒 [写出易维护的代码｜React开发的设计模式及原则](https://mp.weixin.qq.com/s/u9ANageSPThya4fA0Cq8Rw)
@@ -20,6 +30,10 @@ tags: []
 📒 [平时的工作如何体现一个人的技术深度？](https://juejin.cn/post/7073001183123603470)
 
 📒 [【第2832期】V8 执行 JavaScript 的过程](https://mp.weixin.qq.com/s/KMFF6bg3YspPVzjYbMsm0Q)
+
+⭐️ [Golang 库: 为什么 Golang slog 库不支持 Fatal](https://mp.weixin.qq.com/s/PKtrqHFTYWyAVSolKVOoBQ)
+
+⭐️ [Golang 库: golang slog 怎么设置日志 Debug 等级](https://mp.weixin.qq.com/s/Immr4DD-XA-noOEkZ6flKg)
 
 ⭐️ [Golang slog 介绍](https://mp.weixin.qq.com/s/0JbLDkJboDDihy-7N4MMPw)
 
