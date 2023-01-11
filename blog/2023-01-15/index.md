@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go 1.19.5、1.18.10 更新涉及 compiler, linker, net/http, sync/atomic](https://mp.weixin.qq.com/s/iwA4G_Cut8zm15EswUUXhQ)
+
+📒 [面试问 Dockerfile 的优化， 千万不要只会说减少层数](https://mp.weixin.qq.com/s/pen6G2aFsPfSqhKjgocVjQ)
+
+📒 [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
+
+📒 [面试官：net/http库知道吗？能说说优缺点吗](https://mp.weixin.qq.com/s/CsV1Tyr-TahCFBWZDeNFWA)
+
 ⭐️ [模块联邦在微前端架构中的实践](https://mp.weixin.qq.com/s/WXeUuUdgF_3djqBhh1siQA)
 
 📒 [【综合笔试题】难度 4.5/5，经典次短路问题](https://mp.weixin.qq.com/s/2-lu7l-4E5mwdQwbogpA4g)
