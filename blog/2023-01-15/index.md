@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 UMI 微生成器调研
+
+https://umijs.org/docs/guides/generator
+
+https://github.com/umijs/umi/blob/master/packages/preset-umi/src/commands/generators/component.ts
+
+📒 [【面试高频题】难度 3.5/5，综合最短路的 DP 问题](https://mp.weixin.qq.com/s/mAlEUwxorARP1tRoAMF7LA)
+
+📒 [我的信息流 2023.1](https://mp.weixin.qq.com/s/AJ4IBgYJ-Mq9OSICG0hRCA)
+
 ⭐️ [Go 1.19.5、1.18.10 更新涉及 compiler, linker, net/http, sync/atomic](https://mp.weixin.qq.com/s/iwA4G_Cut8zm15EswUUXhQ)
 
 📒 [面试问 Dockerfile 的优化， 千万不要只会说减少层数](https://mp.weixin.qq.com/s/pen6G2aFsPfSqhKjgocVjQ)
