@@ -1010,6 +1010,7 @@ import TabItem from '@theme/TabItem';
 ## Rust 学习
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
+- ⭐️ [Google 出品的 Rust 教程](https://github.com/google/comprehensive-rust)
 - ⭐️ [Rust 官方文档](https://doc.rust-lang.org/book/)
 - 🌛 [Rust 标准库文档](https://doc.rust-lang.org/std/)
 - 🌛 [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
