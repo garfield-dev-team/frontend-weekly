@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [了解JS静态分析，打开前端优化新思路](https://juejin.cn/post/7187944520808398906)
+
+📒 [你可能并不需要微前端](https://zhuanlan.zhihu.com/p/391248835)
+
 📒 UMI 微生成器调研
 
 https://umijs.org/docs/guides/generator
