@@ -7,6 +7,16 @@ tags: []
 
 📒 [了解JS静态分析，打开前端优化新思路](https://juejin.cn/post/7187944520808398906)
 
+📒 [用代码画一只小兔子给大家拜年啦！](https://mp.weixin.qq.com/s/D-Ma_7X1Hbg_rBHG_H5PYw)
+
+📒 [记落地vite到项目中的遇到一个bug, 最终被vite官方merge pr](https://juejin.cn/post/7184730074497679415)
+
+📒 [聊聊Go与TLS 1.3](https://mp.weixin.qq.com/s/NtBzM8l54HRVSpapKR_0sg)
+
+📒 Google 出品的 Rust 教程
+
+https://github.com/google/comprehensive-rust
+
 📒 [你可能并不需要微前端](https://zhuanlan.zhihu.com/p/391248835)
 
 📒 UMI 微生成器调研
