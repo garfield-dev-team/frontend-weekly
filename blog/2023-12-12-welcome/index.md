@@ -406,6 +406,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/yQavfvBayYbMEc7c9ObMxg)
   - [一文看懂大数据生态圈完整知识体系（文末送书）](https://mp.weixin.qq.com/s/gAhoIwPoFDlKbBmWzrHu8w)
 - 云原生监控
+  - ⭐️ [自从项目上了SkyWalking，睡觉真香！](https://mp.weixin.qq.com/s/72UbwZTxo36eJVqGq8HBgw)
   - ⭐️ [自从线上项目用了这个监控系统，睡觉真香！](https://mp.weixin.qq.com/s/D1JoTzdQnzUgX_yqT3N1BQ)
   - ⭐️ [还在服务器上捞日志？快搭建一个ELK日志系统吧，真心强大！](https://mp.weixin.qq.com/s/bSw_QP4-xMKnBTmqAjkUGA)
   - ⭐️ [主流监控系统技术选型，yyds！](https://mp.weixin.qq.com/s/GfJqTG9XYx58eh5kImyeWg)
@@ -840,6 +841,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 语言代码风格规范-指南篇](https://mp.weixin.qq.com/s/rOtR8FfMpfBZrIkyRrNsfQ)
   - ⭐️ [Go 语言代码风格规范-概述篇](https://mp.weixin.qq.com/s/RCBUlu0gRuVFSQ2m8Uyycg)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
+  - ⭐️ [Go 设计模式｜组合，一个对数据结构算法和职场都有提升的设计模式](https://mp.weixin.qq.com/s/JKWbyr4Yt7A6l1nFsANUcQ)
   - ⭐️ [Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学](https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw)
   - ⭐️ [两种 Option 编程模式的实现，Uber推荐这一种](https://mp.weixin.qq.com/s/LW8Woq5Rg4x31DbtD-_jeA)
   - ⭐️ [Go版本大于1.13，程序里这样做错误处理才地道](https://mp.weixin.qq.com/s/SFbSAGwQgQBVWpySYF-rkw)
@@ -879,6 +881,7 @@ import TabItem from '@theme/TabItem';
   - [面试官：哥们Go语言互斥锁了解到什么程度了](https://mp.weixin.qq.com/s/bhze_LcFHk7Y-QB4nEQKnA)
   - [Go工具之generate](https://mp.weixin.qq.com/s/E45dNnEURe87P709Ovu-Qw)
   - [探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/dN9G4Tnt9HgVqlNh73HNUQ)
+  - [Go语言中常见100问题-#27 Inefficient map initialization](https://mp.weixin.qq.com/s/9pfznxXKHCv-QEZBqHw1YQ)
   - [Go语言中常见100问题-#26 slices and memory leaks](https://mp.weixin.qq.com/s/TYxqo1BniI-wfKVHQsrjjw)
   - [Go语言中常见100问题-#25 Unexpected side effects using slice append](https://mp.weixin.qq.com/s/lAIB0l666R6Zh9NAdV809g)
   - [Go语言中常见100问题-#24 Not making slice copies correctly](https://mp.weixin.qq.com/s/vZBePdCuKe12OMQOj6Rz4A)
