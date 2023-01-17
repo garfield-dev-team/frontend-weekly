@@ -9,6 +9,10 @@ tags: []
 
 封面图：卷饼兔。
 
+⭐️ [掌握了这篇 Dockerfile 中的 ARG 作用域， 就算 Build 镜像 CI 入门了 【文末抽奖】](https://mp.weixin.qq.com/s/i3n0hoHRaYoDMWcC5DSQ3w)
+
+⭐️ [「Go语言进阶」并发编程详解 | 文末抽奖](https://mp.weixin.qq.com/s/irp0uBR-nJ87tZ_elMWPnA)
+
 📒 [前端食堂技术周刊第 67 期：2022 State of JS、ESLint 2022、pnpm 2022、大淘宝 Web 端技术概览](https://juejin.cn/post/7189217535839961148)
 
 📒 [MDH 前端周刊第 83 期：React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档](https://www.yuque.com/chencheng/mdh-weekly/tyvzbo1venhyi7l4)
