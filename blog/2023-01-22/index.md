@@ -9,6 +9,29 @@ tags: []
 
 封面图：卷饼兔。
 
+⭐️ 装了啥 2023
+
+- 编辑器主 WebStorm 开发项目，辅 VSCode 临时编辑项目，再辅 CotEditor 临时打开文件（注：如果是 Rust 项目，会用 VSCode）
+- WebStorm 插件只装了两个，Github Copilot、Inspection Lens，前者大幅提升编码效率，后者大幅提升编码体验
+- 编程字体用 Monolisa、Dank Mono 和 Operator Mono，一个用久了看腻了切另一个
+- Terminal 工具是 iTerm2 + zsh + oh-my-zsh 的组合，zsh 额外装了 zsh-autosuggestions 和 fast-syntax-highlighting 插件
+
+[装了啥 2023](https://mp.weixin.qq.com/s/m2HhDuFefiLt-eSB9Ux55g)
+
+📒 Golang 相关文章
+
+[Golang实现一个linux命令ls命令（命令行工具构建）](https://mp.weixin.qq.com/s/GMhYFPwAaH90gQvsTvzN_Q)
+
+[GO并发之好用的sync包](https://mp.weixin.qq.com/s/aYt-q5hsvOQYq99TnQCoCw)
+
+[Go语言原子操作](https://mp.weixin.qq.com/s/-HIQtprVGs1G5Bd3DMYQig)
+
+[Go 并发安全与锁](https://mp.weixin.qq.com/s/_xU2A4b6JvVCus7tYV3YQQ)
+
+[Go定时器的三种实现方式](https://mp.weixin.qq.com/s/GHJAUM3hiCEyi6z5KnVfMg)
+
+[10秒改struct性能直接提升15%，产品姐姐都夸我好棒](https://mp.weixin.qq.com/s/WOfwayOu5UwsZJTYLTfOuA)
+
 ⭐️ [掌握了这篇 Dockerfile 中的 ARG 作用域， 就算 Build 镜像 CI 入门了 【文末抽奖】](https://mp.weixin.qq.com/s/i3n0hoHRaYoDMWcC5DSQ3w)
 
 ⭐️ [「Go语言进阶」并发编程详解 | 文末抽奖](https://mp.weixin.qq.com/s/irp0uBR-nJ87tZ_elMWPnA)
