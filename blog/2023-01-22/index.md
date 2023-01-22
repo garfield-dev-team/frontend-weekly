@@ -38,7 +38,45 @@ tags: []
 
 📒 [前端食堂技术周刊第 67 期：2022 State of JS、ESLint 2022、pnpm 2022、大淘宝 Web 端技术概览](https://juejin.cn/post/7189217535839961148)
 
-📒 [MDH 前端周刊第 83 期：React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档](https://www.yuque.com/chencheng/mdh-weekly/tyvzbo1venhyi7l4)
+📒 MDH 前端周刊第 83 期：React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档
+
+《Type-safe React Query》，Dominik 的每篇文章都值得深入阅读。React Query 的类型可以定义在哪？1）`useQuery<Todos>`，2）`const queryFn: Promise<Todos>`，3）`axios.get<Todos>`，4）`res.data as Todos`，5）不定义。不定义怎么有类型？用 zod，然后定义 schema，schema 不仅可用于校验后端数据，还会返回类型。
+
+> https://tkdodo.eu/blog/type-safe-react-query
+
+《Data binding in React: how to work with forms in React》，johnwcomeau 的每篇文章也值得阅读，这篇比较新手向，深入解答了面试必问问题「受控和不受控」。
+
+> https://www.joshwcomeau.com/react/data-binding/
+
+《Clever Code Considered Harmful》，johnwcomeau 这周的另一篇文章。判断代码好不好的一个标准是，一个初级开发人员，一个职业生涯刚刚起步的人，会不会在理解这段代码时遇到困难？
+
+> https://www.joshwcomeau.com/career/clever-code-considered-harmful/
+
+《React JS Best Practices From The New Docs》，Sebastian Carlos 阅读完 React 新官网文档后总结的 160 条笔记。我帮我节省了大量时间，我读完他的笔记后记了 20 多条笔记。但如果有空，还是应该完整阅读 React 的新文档。
+
+> https://sebastiancarlos.medium.com/react-js-best-practices-from-the-new-docs-1c65570e785d
+
+《JavaScript Wrapped 2022》，作者整理了 TypeScript、React、Angular、Vue、SSR、Node|Deno|Bun 的 2022 发展和 2023 展望，建议熟读。
+
+> https://vived.io/javascript-wrapped-2022-frontend-weekly-vol-119/
+
+《3D in CSS》，交互式的 3D CSS 教程。主要是 4 个 CSS 属性，包括 perspective、perspectiveOrigin、translateZ 和 rotate3d。
+
+> https://garden.bradwoods.io/notes/css/3d
+
+《Building a fast, animated image gallery with Next.js》，Vercel 把 Next.js Conf 2022 的照片搬上网，同时把这套代码开源。技术栈包括 Cloudinary、Next.js 图像组件、imagemin、Framer Motion、以及用 ai 生成 alt 文本等。
+
+> https://vercel.com/blog/building-a-fast-animated-image-gallery-with-next-js
+
+《Our top Core Web Vitals recommendations for 2023》，本文 Google DevRel 团队认为在 2023 年提高 Core Web Vitals 性能的最有效方法的最佳实践集合。涉及的性能指标包括 LCP、TTFB、CLS、FID 和 INP，同时给出了每个指标提升的注意点和可执行操作。
+
+> https://web.dev/top-cwv-2023/
+
+《The hardest part of web dev》，关于 timing 的知识。其中 react 中，1）渲染函数在React更新DOM之前运行，2）useInsertionEffect回调在React更新DOM后运行，但在浏览器重新计算页面布局之前，3）useLayoutEffect回调在浏览器重新计算页面布局后运行（考虑到useInsertionEffect回调注入的任何CSS），但在浏览器重新绘制之前，4）useEffect回调在浏览器完成重绘后运行。
+
+> https://alexvipond.dev/blog/the-hardest-part-of-web-dev
+
+[MDH 前端周刊第 83 期：React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档](https://www.yuque.com/chencheng/mdh-weekly/tyvzbo1venhyi7l4)
 
 📒 [自从项目上了SkyWalking，睡觉真香！](https://mp.weixin.qq.com/s/72UbwZTxo36eJVqGq8HBgw)
 
