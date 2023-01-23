@@ -1029,6 +1029,7 @@ import TabItem from '@theme/TabItem';
 - [GitHub 搜索页面](https://github.com/search?q=&type=)
 - [MDN 文档](https://developer.mozilla.org/zh-CN/)
 - [caniuse：查询 API 兼容性](https://caniuse.com/)
+- [snyk：查询 NPM、Go、Docker 安全性](https://snyk.io/advisor/)
 - [bundlephobia：查询 NPM 包体积](https://bundlephobia.com/)
 - [Deno cheat sheet](https://oscarotero.com/deno/)
 - [React Docs Beta](https://beta.reactjs.org/learn)
