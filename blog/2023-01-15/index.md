@@ -51,7 +51,37 @@ https://github.com/umijs/umi/blob/master/packages/preset-umi/src/commands/genera
 
 📒 [写出易维护的代码｜React开发的设计模式及原则](https://mp.weixin.qq.com/s/u9ANageSPThya4fA0Cq8Rw)
 
-📒 [MDH 前端周刊第 82 期：Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒](https://mp.weixin.qq.com/s/IYRtsVU5VLELeRh_-7nfgg)
+📒 MDH 前端周刊第 82 期：Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒
+
+《Zustand vs. Signals》，作者从 DX、性能和 Devtool 三个方面了对比这两个「小众」的状态管理库，简单说就是，1）Zustand 生态和周边更好，而 Signals 性能更好和更自动，2）作者下一个大型项目的选择还是 Zustand，因为对 Signals 的实践以及用的 React 内部 API 不太方向。
+
+> https://medium.com/@kevinschaffter/zustand-vs-signals-e664bff2ce4a
+
+Evan You 写了一篇 《2022 Year In Review》，介绍 2022 总结和 2023 规划。2022 主要是默认 Vue 3、Volar 1、Vue Npm 下载量 x2、回传 Vue 3 功能的 Vue 2.7；2023 则是细粒度 Mirror 版本、类 Solid 的 Vapor Mode 编译模式等。
+
+> https://blog.vuejs.org/posts/2022-year-in-review.html
+
+《How to ship》 包含了 4 个关于产品如何准时发布的 Tips，1）明确 MAVP（最小实际可行产品）的边界，注意不是偏 DEMO 类的 MVP，2）在前者的基础上削减范围，3）搭配可灵活调整的 Deadline，4）别让自己成为团队卡点。
+
+> https://www.industrialempathy.com/posts/how-to-ship/
+
+《React ref Callback Use–Cases》，你可能不知道 ref 除了是 object 以外，还可以是 function，即 ref callback。ref callback 有一些应用场景，比如 mount 时（新增一个 list item 时）做滚动或聚焦、计算 DOM 尺寸或滚动位置、传递 DOM 给多个消费者等。
+
+> https://julesblom.com/writing/ref-callback-use-cases
+
+《A React Developer’s First Take on Solid》，一个 React 开发者对 Solid 的第一印象。1）Solid 的优点是小和快，2）同时也有一些由于引入 Proxy 以及 Solid 不同的组件渲染机制后的缺点，比如 prop 不能在函数参数里析构等，3）SolidStart 是一个测试软件，有大量粗糙的边界场景，4）会在真实项目中用吗？不会！
+
+> https://jakelazaroff.com/words/a-react-developers-first-take-on-solid/
+
+《Getting started with SolidStart》，SolidStart 入门文章，手把手教你写一个旅行 App。注：SolidStart 是基于 Solid 的元框架。
+
+> https://blog.logrocket.com/getting-started-solidstart-solid-js-framework/
+
+《JavaScript Rising Stars 2022》，一年一期，这是第 7 期，可以了解 2022 JavaScript 社区的变化，但是以 Github Star 为衡量标准，并不能完全代表其流行度。
+
+> https://risingstars.js.org/2022/zh
+
+[MDH 前端周刊第 82 期：Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒](https://mp.weixin.qq.com/s/IYRtsVU5VLELeRh_-7nfgg)
 
 📒 [2022 年前端大事记](https://mp.weixin.qq.com/s/HfgifbdzBSOZkDb0ru0XsA)
 
