@@ -811,6 +811,9 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Golang slog 介绍](https://mp.weixin.qq.com/s/0JbLDkJboDDihy-7N4MMPw)
   - ⭐️ [Golang 库: golang slog 怎么设置日志 Debug 等级](https://mp.weixin.qq.com/s/Immr4DD-XA-noOEkZ6flKg)
   - ⭐️ [Golang 库: 为什么 Golang slog 库不支持 Fatal](https://mp.weixin.qq.com/s/PKtrqHFTYWyAVSolKVOoBQ)
+  - ⭐️ [发现conc并发库一个有趣的问题](https://mp.weixin.qq.com/s/G8mEAKRYbaae_rFBVJqdeg)
+  - ⭐️ [Go 语言 Web 应用怎么使用 Nginx 部署](https://mp.weixin.qq.com/s/Rrz-UEx2SwYmyWC5rKh4Wg)
+  - ⭐️ [「Go语言进阶」并发编程详解 | 文末抽奖](https://mp.weixin.qq.com/s/irp0uBR-nJ87tZ_elMWPnA)
   - ⭐️ [Golang知识点(defer): 面试经常变量在 defer 中的值， 其实在问变量的作用域](https://mp.weixin.qq.com/s/QlzH18i72pWPm012t7d42Q)
   - ⭐️ [Go BIO/NIO探讨(1)：Gin框架中如何处理HTTP请求](https://mp.weixin.qq.com/s/VjP9Bv46x7NP6uQ7cbsqmg)
   - ⭐️ [Go BIO/NIO探讨(2)：net库对socket/bind/listen/accept的封装](https://mp.weixin.qq.com/s/x5qUJ-htS6ML1Cc8uYIDVQ)
@@ -946,6 +949,8 @@ import TabItem from '@theme/TabItem';
 - Golang 部署
   - 使用 Docker Desktop 搭建 k8s 集群
   - [天呐！我用 go 从零开始写了一个 k8s 应用管理工具（附完整代码和开发过程）](https://mp.weixin.qq.com/s/MFd1R5VeEW0eLk-A4BqSQQ)
+  - [Go 语言 Web 应用怎么使用 Nginx 部署](https://mp.weixin.qq.com/s/Rrz-UEx2SwYmyWC5rKh4Wg)
+  - [掌握了这篇 Dockerfile 中的 ARG 作用域， 就算 Build 镜像 CI 入门了 【文末抽奖】](https://mp.weixin.qq.com/s/i3n0hoHRaYoDMWcC5DSQ3w)
   - [面试问 Dockerfile 的优化， 千万不要只会说减少层数](https://mp.weixin.qq.com/s/pen6G2aFsPfSqhKjgocVjQ)
   - [没想到在 Docker 容器中设置时区这么简单](https://mp.weixin.qq.com/s/10Ll8ipVGWg4HU4hjwILsQ)
   - [快收藏！超强图解Docker常见命令与实战！](https://mp.weixin.qq.com/s/5NTgcdhn6CiZ2tg44_T-FQ)
