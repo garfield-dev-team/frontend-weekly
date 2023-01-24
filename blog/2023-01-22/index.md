@@ -32,6 +32,28 @@ tags: []
 
 [10秒改struct性能直接提升15%，产品姐姐都夸我好棒](https://mp.weixin.qq.com/s/WOfwayOu5UwsZJTYLTfOuA)
 
+📒 相关文章推荐
+
+关于未捕获 Promise 异常状态的问题 — 你可能会无感知地遇到 promise 的异常问题，Jake 就解决了这么一个关于 promise 报 unhandled promise rejection 错误的问题。
+
+> https://jakearchibald.com/2023/unhandled-rejections/
+
+关于 React 'Concurrent Mode' 的所有内容都在这 — 本文对 Concurrent Mode 进行深入的、以实例为导向的探索(并发模式已经是整合到 React 18 中的一组功能，而不是一个独特的"模式")。
+
+> https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense/
+
+使用 GitHub Copilot 编写单元测试? — 即使你觉得像 Copilot 这样的 AI 工具在编写生产代码上不太靠谱，但它可能在快速编写单元测试上有一定的作用。
+
+> https://www.strictmode.io/articles/using-github-copilot-for-testing
+
+类型安全的 React Query —— 一切都与信任有关 — 类型定义应该是值得信赖的。如果他们不是，他们“成为一个纯粹的建议”断言这篇文章建议可以做些什么来使他们成为这样。
+
+> https://tkdodo.eu/blog/type-safe-react-query
+
+Zustand vs Signals：对比 React 状态管理库 — 将最时髦的状态管理库之一——zustand 与 Signals 进行比较，后者是 Preact 团队最新发布的一个状态管理库。
+
+> https://medium.com/@kevinschaffter/zustand-vs-signals-e664bff2ce4a
+
 ⭐️ [掌握了这篇 Dockerfile 中的 ARG 作用域， 就算 Build 镜像 CI 入门了 【文末抽奖】](https://mp.weixin.qq.com/s/i3n0hoHRaYoDMWcC5DSQ3w)
 
 ⭐️ [「Go语言进阶」并发编程详解 | 文末抽奖](https://mp.weixin.qq.com/s/irp0uBR-nJ87tZ_elMWPnA)
