@@ -682,6 +682,8 @@ import TabItem from '@theme/TabItem';
 
 ## MySQL 学习
 
+- MySQL 专栏
+  - ⭐️ ⭐️ [田螺哥的MySQL专栏！25篇，真香！](https://mp.weixin.qq.com/s/G8fWBvZPy6yxAyggwwx1NA)
 - 表结构设计
   - ⭐️ [推荐一款SQL自动检查神器，再也不用担心SQL出错了！](https://mp.weixin.qq.com/s/3yHSh7djpeeYZkajkTGFKg)
   - ⭐️ [21个MySQL表设计的经验准则](https://mp.weixin.qq.com/s/sSsZ-w6WzjA_DLZfnsxD2w)
