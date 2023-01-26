@@ -9,6 +9,14 @@ tags: []
 
 题图：擅用工具的兔子工程师。
 
+⭐️ [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
+
+📒 [DevopsCamp 第一期作业: 《cobra - 02 配置文件的读取与保存（简单）》 解题答案](https://mp.weixin.qq.com/s/raiKGm4jR8xyP3mYzh425w)
+
+📒 [《DevOpsCamp作业: cobra - 01 实现编译与参数绑定（简单）》 解题答案](https://mp.weixin.qq.com/s/Zx7ryE2I7LyM6YPkr-cSdg)
+
+📒 [TS、Vue、React、SSR、Node、Deno、Bun：回顾2022，展望2023](https://mp.weixin.qq.com/s/wC9Wq7FJ_sKg1I-z8AozCQ)
+
 📒 MDH 前端周刊第 84 期：tRPC、Zod、慢 Jest、React Debounce、SSSVG
 
 《6 Common SVG Fails (and How to Fix Them)》，出自 CSS Tricks。作者梳理了 6 种常见错误（编者注：后几种感觉不常见），包括 viewbox 错误、width 和 height 缺失、无意 fill 或 stroke 的颜色、id 缺失、clipping 和 masking 冲突、命名空间缺失，并给出了针对这些问题的解法。
