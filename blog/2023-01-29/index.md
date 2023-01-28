@@ -9,6 +9,30 @@ tags: []
 
 题图：擅用工具的兔子工程师。
 
+📒 相关文章推荐
+
+修复生产版本 Node 程序的内存泄露问题 — Kent 在他的 Node 程序中遇到了各种奇怪的内存和 CPU 使用率峰值问题，于是他决定查找原因。这篇文章完整介绍了他对此的探寻过程，最戏剧性的是根本原因完全出乎他的意料。
+
+> https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app
+
+在 Go 应用中嵌入 React UI — Flipt 通过一个 Go 构建的单一二进制文件为其 web 应用提供服务，并将静态资源嵌入其中。Go 在 1.16 版本中支持原生嵌入后，帮助 Flipt 走上了一条通往 React 的道路，而且不需要 Next.js 就可以实现很好的效果。
+
+> https://www.flipt.io/blog/embedding-react-in-go
+
+在 Next.js v13 中使用异步 React — React 正在原生的支持异步，现在你可以在 Next.js 中试用它，作者提供了一个快速概览。
+
+> https://swizec.com/blog/async-react-with-nextjs-13/
+
+React Native 发布了 v0.71 — 这是一个“功能丰富”的版本，包括“默认 TypeScript 文件”，使用 Flexbox Gap 简化布局，以及受网络标准启发的可访问性、样式和事件 props。
+
+> https://reactnative.dev/blog/2023/01/12/version-071
+
+用 React Hook Form 和 Zod 构建表单 — 这是作者承诺的一系列录屏视频中的第一个，不仅涉及到开发一个集成后端 API 的表单，还涉及到开发时常遇到的一些问题。该视频的时长长达 95 分钟。
+
+> https://www.youtube.com/watch?v=FXWD_etMJWA
+
+⭐️ [lerna + dumi + eslint多包管理实践](https://juejin.cn/post/7015566240991150117)
+
 ⭐️ [PHP转Go实践：xjson解析神器「开源工具集」](https://mp.weixin.qq.com/s/rnsMes-YoZhW1Qy6Dt7quw)
 
 ⭐️ [经过99次失败后， 我总结了几点 Golang 反射的经验（附源码）](https://mp.weixin.qq.com/s/_wM8jG7CZ1vdB0k2L7SGHg)
@@ -76,6 +100,10 @@ https://www.plasmic.app/blog/how-react-server-components-work
 《为何开发人员开始喜欢tRPC啦？》。tRPC 的优点包括：1）无需再次封装，直接使用函数调用远程服务，2）与Zod深度结合，可以直接使用Zod进行数据校验，3）使用非常简单，可以用在任何框架中，4）tRPC over HTTP协议非常简单，无论客户端还是服务端实现都非常简单。
 
 > https://linux-china.davao.page/blog/2023-01-14-why-trpc/
+
+《Zod: The Next Biggest thing after Typescript》。看完这篇文章后，你可能不想再使用任何其他的验证库了！
+
+> https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh
 
 《Speeding up the JavaScript ecosystem - module resolution》，出自 marvinhagemeist。构建、测试、Lint 时有个性能大户是 module resolution，即如何找到文件，虽然规范层有规范层的解法（ESM 引用文件要带后缀），但在规范没大范围落地之前，也可以有一些解法。作者总结了几点，1）尽量避免对文件系统的调用，2）尽可能多的缓存以避免调用文件系统，3）当你使用 fs.stat 或 fs.statSync 时，总是设置 throwIfNoEntry: false，找不到文件时不抛错而是给 undefined，4）尽可能地限制向上的遍历行为。看完这篇，我给 umi 提了个 pr，调整了 webpack 配置里 extensions 的顺序。
 
