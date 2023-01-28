@@ -9,6 +9,10 @@ tags: []
 
 题图：擅用工具的兔子工程师。
 
+⭐️ [PHP转Go实践：xjson解析神器「开源工具集」](https://mp.weixin.qq.com/s/rnsMes-YoZhW1Qy6Dt7quw)
+
+⭐️ [经过99次失败后， 我总结了几点 Golang 反射的经验（附源码）](https://mp.weixin.qq.com/s/_wM8jG7CZ1vdB0k2L7SGHg)
+
 📒 前端食堂技术周刊第 68 期：Astro 2.0、Nuxt v3.1.0、Bun v0.5、TS 实现 Stage 3 Decorators 提案
 
 **Turborepo 1.7**
@@ -43,13 +47,17 @@ https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e78
 
 https://www.plasmic.app/blog/how-react-server-components-work
 
-📒 Webpack loader 配置相关
+📒 [一篇文章告诉你 golang 环境变量的所有基础操作](https://mp.weixin.qq.com/s/LV-G9HPJJlZvxVjQRLFhqQ)
 
-为什么 Webpack loader 配置都是用 `"style-loader"`、`require.resolve("style-loader")` 等方式，而不是直接 `require("style-loader")`。
+📒 [CSS 原生嵌套语法来了！](https://mp.weixin.qq.com/s/MMOc7BXHrxUZIPOvcXYLlw)
 
-在 Node 中 `require()` 实际上是一种 JIT 性质的加载，如果用 `require()` 加载比较昂贵，性能开销太大。实际上这是一种惰性加载方式，把 loader 模块代码加载推迟到需要调用该 loader 时进行，可以有效提升 Webpack 启动效率，同时如果不需要调用该 loader 则无需加载此 loader 相关模块代码。
+📒 腾讯云开发者 2022 年度热文
 
-Plugin 能否用该方式加载，不行因为 Webpack 整个编译流程都是靠 `tapable` 事件机制驱动的，必须在 Webpack 初始化阶段就提前埋入事件钩子。
+[手把手实践一个DAPP，通往Web3.0之路！](https://mp.weixin.qq.com/s/aHuCs_wLSDMcs-rcrb6tgQ)
+
+[探秘微信业务优化：DDD从入门到实践](https://mp.weixin.qq.com/s/kFjfzwTOdaKA2ym63VR3DQ)
+
+[揭秘前端眼中的Rust！](https://mp.weixin.qq.com/s/HKkt9cNZsUFdCR4nAlHeBA)
 
 ⭐️ [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
 
