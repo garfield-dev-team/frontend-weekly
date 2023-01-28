@@ -213,6 +213,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 ## PNPM && Monorepo
 
 - ⭐️ [课代表：Turborepo 笔记](https://mp.weixin.qq.com/s/beLkwHan2C8BuSArs53cIA)
+- ⭐️ [lerna + dumi + eslint多包管理实践](https://juejin.cn/post/7015566240991150117)
 - ⭐️ [组件库Monmrepo架构与开发调试环境构建](https://mp.weixin.qq.com/s/z-tKxgRPmdyR0zwc78Khgw)
 - [React Native工程Monorepo改造实践](https://juejin.cn/post/7177585131861835837)
 - [【第2714期】从Multirepo到Monorepo 袋鼠云数栈前端研发效率提升探索之路](https://mp.weixin.qq.com/s/JWks8VyuXoB5zaeYdyJPxw)
