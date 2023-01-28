@@ -308,6 +308,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [The Ultimate Guide To Software Engineering](https://dev.to/wiseai/the-ultimate-guide-to-software-engineering-545e)
 - ⭐️ [语雀桌面端技术架构实践](https://juejin.cn/post/7145014659584622629)
 - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
+- [探秘微信业务优化：DDD从入门到实践](https://mp.weixin.qq.com/s/kFjfzwTOdaKA2ym63VR3DQ)
 - [了解微前端，深入前端架构的前世今生](https://mp.weixin.qq.com/s/12BS4V6fvXkeb84XDpPnHw)
 - ⭐️ [忘了又看，看了又忘？保姆级教学，一口气教你玩转 3 种高频设计模式！](https://mp.weixin.qq.com/s/yyoaDbKsvhdZbAL8T2V-zg)
 - ⭐️ [工作中常见的 6 种设计模式，你用过几种](https://mp.weixin.qq.com/s/ocPx6Sw09ioDyz_IOWK69Q)
@@ -331,6 +332,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 
 ## 持续集成
 
+- ⭐️ [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
 - [写给前端的 K8S 上手指南](https://zhuanlan.zhihu.com/p/445217118)
 - [GitLab CI 从入门到实践](https://juejin.cn/post/7064906701941506061)
 - [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo)
@@ -500,6 +502,8 @@ import TabItem from '@theme/TabItem';
 - [astro - 静态站点构建工具](https://github.com/withastro/astro)
 - [zustand - 小型、快速可扩展的状态管理解决方案](https://github.com/pmndrs/zustand)
 - [tauri - 将前端项目打包为桌面应用，用于替代 electron](https://github.com/tauri-apps/tauri)
+- [tRPC - 方便快速的生成端对端类型安全的 API 定义](https://github.com/trpc/trpc)
+- [Drift - 一个可以自己部署的代码片段服务，基于 Next.js 13 构建](https://github.com/MaxLeiter/Drift)
 
 </TabItem>
 <TabItem value="React 生态" label="React 生态">
@@ -508,6 +512,7 @@ import TabItem from '@theme/TabItem';
 - ⭐️ [guide - 字节出品的 React 新手引导组件](https://github.com/bytedance/guide)
 - ⭐️ [react-medium-image-zoom - 受 Medium.com 启发的图片预览组件](https://github.com/rpearce/react-medium-image-zoom)
 - ⭐️ [cmdk - 一个基于 React 的快速、可组合、无风格的命令面板](https://github.com/pacocoursey/cmdk)
+- ⭐️ [nice-modal-react：来自 eBay 的模态框状态管理](https://github.com/eBay/nice-modal-react)
 
 </TabItem>
 <TabItem value="浏览器环境" label="浏览器环境">
@@ -1053,7 +1058,8 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
 - ⭐️ [Google 出品的 Rust 教程](https://github.com/google/comprehensive-rust)
-- ⭐️ [Rust 官方文档](https://doc.rust-lang.org/book/)
+- ⭐️ [揭秘前端眼中的Rust！](https://mp.weixin.qq.com/s/HKkt9cNZsUFdCR4nAlHeBA)
+- 🌛 [Rust 官方文档](https://doc.rust-lang.org/book/)
 - 🌛 [Rust 标准库文档](https://doc.rust-lang.org/std/)
 - 🌛 [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 - 🌛 [选择 Go 还是 Rust？CloudWeGo-Volo 基于 Rust 语言的探索实践](https://juejin.cn/post/7143822279992934436)
@@ -1577,3 +1583,4 @@ import TabItem from '@theme/TabItem';
 - [【🐯初/中级前端面经】中小型公司面试时都会问些什么](https://juejin.cn/post/7064740689178787871)
 - [谈谈复杂应用的状态管理（上）：为什么是 Zustand](https://juejin.cn/post/7177216308843380797)
 - [谈谈复杂应用的状态管理（下）：基于 Zustand 的渐进式状态管理实践](https://juejin.cn/post/7182462103297458236)
+- [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
