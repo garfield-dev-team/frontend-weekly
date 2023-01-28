@@ -9,6 +9,48 @@ tags: []
 
 题图：擅用工具的兔子工程师。
 
+📒 前端食堂技术周刊第 68 期：Astro 2.0、Nuxt v3.1.0、Bun v0.5、TS 实现 Stage 3 Decorators 提案
+
+**Turborepo 1.7**
+
+Turborepo 1.7 专注于改善开发者体验，为任务带来更多清晰性，主要特性如下：
+
+- 改进对持久化任务的支持，`"persistent": true`
+- 更清晰的输出，需要明确指定 `outputs`
+- 支持全局安装
+- 只显示错误的输出模式，让日志更清晰，`turbo build --output-logs=errors-only`
+
+[Turborepo 1.7](https://turbo.build/blog/turbo-1-7-0)
+
+[Turborepo 1.7 发布视频版](https://www.youtube.com/watch?v=XNf8tq9mUl0)
+
+**加速 JavaScript 生态系统之模块解析**
+
+module resolution (模块解析)有着大量的性能损耗，本文对此进行探讨并给出以下建议：
+
+- 尽可能避免调用文件系统
+- 尽可能使用缓存来表面调用文件系统
+- 使用 `fs.stat` 或者 `fs.statSync` 时，总是设置 `throwIfNoEntry: false`
+- 尽可能限制向上遍历的行为
+
+https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-2/
+
+**React 新文档中的最佳实践**
+
+https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d
+
+**React 服务器组件深度指南**
+
+https://www.plasmic.app/blog/how-react-server-components-work
+
+📒 Webpack loader 配置相关
+
+为什么 Webpack loader 配置都是用 `"style-loader"`、`require.resolve("style-loader")` 等方式，而不是直接 `require("style-loader")`。
+
+在 Node 中 `require()` 实际上是一种 JIT 性质的加载，如果用 `require()` 加载比较昂贵，性能开销太大。实际上这是一种惰性加载方式，把 loader 模块代码加载推迟到需要调用该 loader 时进行，可以有效提升 Webpack 启动效率，同时如果不需要调用该 loader 则无需加载此 loader 相关模块代码。
+
+Plugin 能否用该方式加载，不行因为 Webpack 整个编译流程都是靠 `tapable` 事件机制驱动的，必须在 Webpack 初始化阶段就提前埋入事件钩子。
+
 ⭐️ [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
 
 📒 [DevopsCamp 第一期作业: 《cobra - 02 配置文件的读取与保存（简单）》 解题答案](https://mp.weixin.qq.com/s/raiKGm4jR8xyP3mYzh425w)
