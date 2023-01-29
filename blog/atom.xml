@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2月5日内容汇总]]></title>
+        <id>https://your-docusaurus-test-site.com/frontend-weekly/blog/2月5日内容汇总</id>
+        <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/2月5日内容汇总"/>
+        <updated>2023-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📒 Typescript 严格模式有多严格]]></summary>
+        <content type="html"><![CDATA[<p>📒 <a href="https://juejin.cn/post/7193880226814754875" target="_blank" rel="noopener noreferrer">Typescript 严格模式有多严格</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/FrPX95beGa85fU0Rq4eZUw" target="_blank" rel="noopener noreferrer">一个全新的 JavaScript 事件！</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/17AmrqBGRcTQfLEaZNzkpA" target="_blank" rel="noopener noreferrer">DevopsCamp 第一期作业: 《cobra - 03 交互式命令（简单）》 解题答案</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1月29日内容汇总]]></title>
         <id>https://your-docusaurus-test-site.com/frontend-weekly/blog/1月29日内容汇总</id>
         <link href="https://your-docusaurus-test-site.com/frontend-weekly/blog/1月29日内容汇总"/>
