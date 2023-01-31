@@ -64,6 +64,18 @@ const config = {
         blogSidebarTitle: `All posts in ${2021}`,
       },
     ]),
+    [
+      "ideal-image",
+      /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
+      ({
+        quality: 70,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        // Use false to debug, but it incurs huge perf costs
+        disableInDev: true,
+      }),
+    ],
   ],
 
   presets: [
