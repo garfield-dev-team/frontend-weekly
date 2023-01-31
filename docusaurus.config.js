@@ -48,6 +48,24 @@ const config = {
         path: "./blogs/2021",
         authorsMapPath: "../authors.yml",
         showReadingTime: true,
+        // Please change this to your repo.
+        editUrl:
+          "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+        blogSidebarCount: "ALL",
+        blogSidebarTitle: "All our posts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "2022",
+        routeBasePath: "2022",
+        path: "./blogs/2022",
+        authorsMapPath: "../authors.yml",
+        showReadingTime: true,
+        // Please change this to your repo.
+        editUrl:
+          "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         blogSidebarCount: "ALL",
         blogSidebarTitle: "All our posts",
       },
@@ -60,6 +78,9 @@ const config = {
         path: "./blogs/2023",
         authorsMapPath: "../authors.yml",
         showReadingTime: true,
+        // Please change this to your repo.
+        editUrl:
+          "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         blogSidebarCount: "ALL",
         blogSidebarTitle: "All our posts",
       },
@@ -72,18 +93,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
-        blog: {
-          id: "2022",
-          routeBasePath: "2022",
-          path: "./blogs/2022",
-          authorsMapPath: "../authors.yml",
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/main/website/blog/",
-          blogSidebarCount: "ALL",
-          blogSidebarTitle: "All our posts",
-        },
+        // 不启用 preset 自带的博客功能
+        // 通过单独配置 plugin 启用
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -111,7 +123,26 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "dropdown",
+            label: "技术交流群",
+            position: "right",
+            items: [
+              {
+                to: "2023",
+                label: "2023",
+              },
+              {
+                to: "2022",
+                label: "2022",
+              },
+              {
+                to: "2021",
+                label: "2021",
+              },
+            ],
+          },
           // {
           //   type: 'dropdown',
           //   label: '技术交流群',
