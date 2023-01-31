@@ -29,6 +29,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.3.0",
     "@tsconfig/docusaurus": "^1.0.4",
+    "@types/node": "^18.11.18",
     "consola": "^2.15.3",
     "ts-node": "^10.8.1",
     "typescript": "^4.6.2"

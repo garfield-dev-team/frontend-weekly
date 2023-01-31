@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const fs = require("node:fs");
+const path = require("node:path");
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const DeployConfig = require("./deployConfig.js");
@@ -25,7 +27,14 @@ const getDeployConfig = () => {
   return DeployConfig.GH_PAGES;
 }
 
+const getAllBlogRoutes = () => {
+  const workDir = process.cwd()
+  const rootPath = path.resolve(workDir, "blogs");
+  return fs.readdirSync(rootPath).filter((item) => !["authors.yml"].includes(item));
+}
+
 const CUR_DEPLOY_ENV = getDeployConfig();
+const blogRoutes = getAllBlogRoutes();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -40,51 +49,21 @@ const config = {
   projectName: "docusaurus", // Usually your repo name.
 
   plugins: [
-    [
+    ...blogRoutes.map((item) => [
       "@docusaurus/plugin-content-blog",
       {
-        id: "2021",
-        routeBasePath: "2021",
-        path: "./blogs/2021",
+        id: item,
+        routeBasePath: item,
+        path: `./blogs/${item}`,
         authorsMapPath: "../authors.yml",
         showReadingTime: true,
         // Please change this to your repo.
         editUrl:
           "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         blogSidebarCount: "ALL",
-        blogSidebarTitle: "All our posts",
+        blogSidebarTitle: `All posts in ${2021}`,
       },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "2022",
-        routeBasePath: "2022",
-        path: "./blogs/2022",
-        authorsMapPath: "../authors.yml",
-        showReadingTime: true,
-        // Please change this to your repo.
-        editUrl:
-          "https://github.com/facebook/docusaurus/edit/main/website/blog/",
-        blogSidebarCount: "ALL",
-        blogSidebarTitle: "All our posts",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "2023",
-        routeBasePath: "2023",
-        path: "./blogs/2023",
-        authorsMapPath: "../authors.yml",
-        showReadingTime: true,
-        // Please change this to your repo.
-        editUrl:
-          "https://github.com/facebook/docusaurus/edit/main/website/blog/",
-        blogSidebarCount: "ALL",
-        blogSidebarTitle: "All our posts",
-      },
-    ],
+    ]),
   ],
 
   presets: [
@@ -102,6 +81,10 @@ const config = {
       }),
     ],
   ],
+
+  customFields: {
+    blogRoutes,
+  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -128,20 +111,10 @@ const config = {
             type: "dropdown",
             label: "技术交流群",
             position: "right",
-            items: [
-              {
-                to: "2023",
-                label: "2023",
-              },
-              {
-                to: "2022",
-                label: "2022",
-              },
-              {
-                to: "2021",
-                label: "2021",
-              },
-            ],
+            items: blogRoutes.map((item) => ({
+              to: item,
+              label: item,
+            })),
           },
           // {
           //   type: 'dropdown',
@@ -178,7 +151,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/blog",
+                to: `/${blogRoutes.at(-1)}`,
               },
             ],
           },
