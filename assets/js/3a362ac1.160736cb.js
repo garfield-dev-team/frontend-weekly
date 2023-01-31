@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1556],{65396:e=>{e.exports=JSON.parse('{"label":"CommonJS","permalink":"/frontend-weekly/2021/tags/common-js","allTagsPath":"/frontend-weekly/2021/tags","count":1}')}}]);

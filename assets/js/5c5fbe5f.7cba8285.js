@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9019],{65813:e=>{e.exports=JSON.parse('{"label":"\u7b2c\u4e09\u65b9\u5e93 lockfile","permalink":"/frontend-weekly/blog/tags/\u7b2c\u4e09\u65b9\u5e93-lockfile","allTagsPath":"/frontend-weekly/blog/tags","count":1}')}}]);

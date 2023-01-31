@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2895],{63036:e=>{e.exports=JSON.parse('{"permalink":"/frontend-weekly/blog/tags/\u673a\u5668\u5b66\u4e60","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
