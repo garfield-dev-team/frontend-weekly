@@ -43,10 +43,25 @@ const config = {
     [
       "@docusaurus/plugin-content-blog",
       {
+        id: "2021",
+        routeBasePath: "2021",
+        path: "./blogs/2021",
+        authorsMapPath: "../authors.yml",
+        showReadingTime: true,
+        blogSidebarCount: "ALL",
+        blogSidebarTitle: "All our posts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
         id: "2023",
         routeBasePath: "2023",
         path: "./blogs/2023",
         authorsMapPath: "../authors.yml",
+        showReadingTime: true,
+        blogSidebarCount: "ALL",
+        blogSidebarTitle: "All our posts",
       },
     ],
   ],
@@ -58,6 +73,10 @@ const config = {
       ({
         docs: false,
         blog: {
+          id: "2022",
+          routeBasePath: "2022",
+          path: "./blogs/2022",
+          authorsMapPath: "../authors.yml",
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
