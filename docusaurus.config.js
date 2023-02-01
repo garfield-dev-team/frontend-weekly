@@ -3,35 +3,37 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const DeployConfig = require("./deployConfig.js");
 
 /** @param  {...any} params */
 const logger = (...params) => {
-  if (process.env.NODE_ENV === 'production') {
+  if (process.env.NODE_ENV === "production") {
     console.log(...params);
   }
-}
+};
 
 const getDeployConfig = () => {
-  if (process.env.PLATFORM === 'VERCEL') {
-    logger('===app build with: VERCEL===');
+  if (process.env.PLATFORM === "VERCEL") {
+    logger("===app build with: VERCEL===");
     return DeployConfig.VERCEL;
   }
-  if (process.env.PLATFORM === 'NETLIFY') {
-    logger('===app build with: NETLIFY===');
+  if (process.env.PLATFORM === "NETLIFY") {
+    logger("===app build with: NETLIFY===");
     return DeployConfig.NETLIFY;
   }
-  logger('===app build with: GH_PAGES===');
+  logger("===app build with: GH_PAGES===");
   return DeployConfig.GH_PAGES;
-}
+};
 
 const getAllBlogRoutes = () => {
-  const workDir = process.cwd()
+  const workDir = process.cwd();
   const rootPath = path.resolve(workDir, "blogs");
-  return fs.readdirSync(rootPath).filter((item) => !["authors.yml"].includes(item));
-}
+  return fs
+    .readdirSync(rootPath)
+    .filter((item) => !["authors.yml"].includes(item));
+};
 
 const CUR_DEPLOY_ENV = getDeployConfig();
 const blogRoutes = getAllBlogRoutes();
@@ -61,7 +63,7 @@ const config = {
         editUrl:
           "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         blogSidebarCount: "ALL",
-        blogSidebarTitle: `All posts in ${2021}`,
+        blogSidebarTitle: `All posts in ${item}`,
       },
     ]),
   ],
@@ -111,10 +113,12 @@ const config = {
             type: "dropdown",
             label: "技术交流群",
             position: "right",
-            items: blogRoutes.map((item) => ({
-              to: item,
-              label: item,
-            })),
+            items: blogRoutes
+              .map((item) => ({
+                to: item,
+                label: item,
+              }))
+              .reverse(),
           },
           // {
           //   type: 'dropdown',
