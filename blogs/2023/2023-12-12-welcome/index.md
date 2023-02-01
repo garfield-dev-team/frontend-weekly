@@ -697,6 +697,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 - 慢 SQL 优化
+  - ⭐️ [美团面试：这个 SQL 语句加了哪些锁](https://mp.weixin.qq.com/s/Pi_SLqs3lwA7vWcT6lVv5g)
+  - ⭐️ [专坑同事的SQL 就这么写，性能降低100倍，不来看看](https://mp.weixin.qq.com/s/8X-MuPgS-o53XZywqi_dmA)
   - ⭐️ [完爆90%的性能毛病，数据库优化八大通用绝招！](https://mp.weixin.qq.com/s/0_Arz-KO3UqJij1s4DjLNw)
   - ⭐️ [公司新来个同事，MyBatis批量插入10w条数据仅用2秒，拍案叫绝！](https://mp.weixin.qq.com/s/3H9SD1dnAH0RoN-RoPXxgQ)
   - ⭐️ [一次显著的大表查询优化，从20s优化到500ms，查询分离YYDS！](https://mp.weixin.qq.com/s/OBjRKdGzwFM4PNrbMd7kIA)
@@ -1058,6 +1060,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ [PDF：从 JavaScript 到 Rust：新书免费发布](https://github.com/vinodotdev/node-to-rust/releases/download/v1/from-javascript-to-rust.pdf)
 - ⭐️ [Google 出品的 Rust 教程](https://github.com/google/comprehensive-rust)
+- ⭐️ [Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
 - ⭐️ [揭秘前端眼中的Rust！](https://mp.weixin.qq.com/s/HKkt9cNZsUFdCR4nAlHeBA)
 - 🌛 [Rust 官方文档](https://doc.rust-lang.org/book/)
 - 🌛 [Rust 标准库文档](https://doc.rust-lang.org/std/)
