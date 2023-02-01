@@ -9,6 +9,20 @@ tags: []
 
 题图：烟花兔。
 
+⭐️ [Go 工程化 - 如何实现 implements](https://mp.weixin.qq.com/s/6GZytsyQai0molyWiGeffg)
+
+⭐️ [「好文推荐」转Go必看 《 Go 工程化 - 面向对象，存在吗》](https://mp.weixin.qq.com/s/5tvM2x1DMJlb926TKdne_A)
+
+⭐️ [Go字符串操作不是你想的那么简单！](https://mp.weixin.qq.com/s/R_2pwdv2V1jj3zMjuUTNHw)
+
+📒 相关文章推荐
+
+[24个JavaScript循环遍历方法，你都知道吗](https://mp.weixin.qq.com/s/PIhqed9uapE_Tgx761GExQ)
+
+[JavaScript 数组方法 reduce 的妙用之处](https://mp.weixin.qq.com/s/BnQOuoHTAZ-iUJASf9pX4A)
+
+⭐️ [为什么 Go 不支持 \[\]T 转换为 \[\]interface](https://mp.weixin.qq.com/s/jsdGV31yT5AR07BzRovWVw)
+
 📒 [「Go框架」深入理解web框架的中间件运行机制](https://mp.weixin.qq.com/s/KyPe3HG8M8OyY-sDRECggQ)
 
 📒 [TypeScript 5.0 beta 发布：新版 ES 装饰器、泛型参数的常量修饰、枚举增强等](https://juejin.cn/post/7194435148329254972)
