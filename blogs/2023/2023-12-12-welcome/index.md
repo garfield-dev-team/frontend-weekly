@@ -403,6 +403,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Elasticsearch快速入门，掌握这些刚刚好！](https://juejin.cn/post/6844904117580595214)
   - ⭐️ [Elasticsearch 基础入门详文](https://mp.weixin.qq.com/s/GG_zrQlaiP2nfPOxzx_j9w)
 - 大数据相关
+  - [一文了解-云原生大数据知识地图](https://mp.weixin.qq.com/s/vua2g0_t1Y8KW4cNHSQdNw)
   - [【云原生】Hive on k8s 环境部署](https://juejin.cn/post/7149487706991493156)
   - [大数据Hadoop之——数据仓库Hive](https://juejin.cn/post/7087484692718420005)
   - [【云原生】Kubernetes（k8s）最完整版环境部署+master高可用实现](https://juejin.cn/post/7136214451678052389)
@@ -731,6 +732,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [聊聊分布式一致性！](https://mp.weixin.qq.com/s/kkSQu7zdr6x_CZRE5uW-lg)
   - ⭐️ [聊聊分布式锁](https://juejin.cn/post/7104507830522085383)
 - ORM 相关
+  - ⭐️ [MyBatis 连环 20 问，你能答对几个](https://mp.weixin.qq.com/s/R2yqW3kfesK-T5oZR2Vl2w)
   - ⭐️ [MyBatis这样用，同事直呼哇塞，堪称最佳实践！](https://mp.weixin.qq.com/s/X11OCZSEh2k5K6uYG768yQ)
 - [MySQL 三万字精华总结 + 面试100 问，和面试官扯皮绰绰有余（收藏系列）](https://juejin.cn/post/6850037271233331208)
 - [明明加了唯一索引，为什么还是产生重复数据](https://mp.weixin.qq.com/s/vRI-bFB4_IEaoCCQcMqZjw)
