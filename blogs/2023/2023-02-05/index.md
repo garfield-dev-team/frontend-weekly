@@ -9,6 +9,20 @@ tags: []
 
 题图：烟花兔。
 
+⭐️ [Taro 正式发布 3.6 版本：支持跨端路由、请求库，支持纵向拓展鸿蒙、Web 端平台插件，小程序持续集成 CI 能力升级](https://juejin.cn/post/7195491899738816571)
+
+⭐️ [深入理解 go sync.Cond](https://juejin.cn/post/7194704072136966181)
+
+📒 [React团队回应用Vite替换Create React App的建议](https://juejin.cn/post/7195398724040785976)
+
+📒 [React为什么不将Vite作为默认推荐](https://juejin.cn/post/7195395331666739256)
+
+⭐️ [将Roaring Bitmap序列化为JSON](https://mp.weixin.qq.com/s/CFwiFw00ah0rfdZyv_ppxw)
+
+📒 [Flag 2023](https://mp.weixin.qq.com/s/YTArCsZ7myYtyAt0sLSgvQ)
+
+📒 [Go 1.20 已发布！性能和构建速度上有很大提升！](https://mp.weixin.qq.com/s/EjAnKZ56sdHuDrcFdS9Rrg)
+
 ⭐️ [Go 工程化 - 如何实现 implements](https://mp.weixin.qq.com/s/6GZytsyQai0molyWiGeffg)
 
 ⭐️ [「好文推荐」转Go必看 《 Go 工程化 - 面向对象，存在吗》](https://mp.weixin.qq.com/s/5tvM2x1DMJlb926TKdne_A)
