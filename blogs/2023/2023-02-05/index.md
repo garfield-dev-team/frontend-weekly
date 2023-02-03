@@ -9,6 +9,12 @@ tags: []
 
 题图：烟花兔。
 
+📒 [10 GitHub Repositories You Should Know as a JavaScript Developer](https://dev.to/gaelgthomas/10-github-repositories-you-should-know-as-a-javascript-developer-2ji6)
+
+⭐️ [Go 高性能 - 字符串 & 切片转换提升 10 倍+](https://mp.weixin.qq.com/s/QxGMy0BZ4S06Qu0N57Tihw)
+
+⭐️ [Go 高性能 - 两种内存大小为 0 的数据类型](https://mp.weixin.qq.com/s/Z_T9q7lAp5WxeD5qt61H4Q)
+
 ⭐️ [Taro 正式发布 3.6 版本：支持跨端路由、请求库，支持纵向拓展鸿蒙、Web 端平台插件，小程序持续集成 CI 能力升级](https://juejin.cn/post/7195491899738816571)
 
 ⭐️ [深入理解 go sync.Cond](https://juejin.cn/post/7194704072136966181)
