@@ -30,8 +30,6 @@
     "@docusaurus/module-type-aliases": "^2.3.1",
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/node": "^18.11.18",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
     "consola": "^2.15.3",
     "ts-node": "^10.8.1",
     "typescript": "^4.9.4"
