@@ -21,55 +21,60 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmmirror.com/
-          cache: yarn
+          cache: pnpm
 
       ### if use Go ###
 
-      # - name: Set up Go 1.14
+      # - name: Set up Go 1.19
       #   uses: actions/setup-go@v2
       #   with:
-      #     go-version: 1.14
+      #     go-version: 1.19
       #   id: go
 
-      - name: Cache node_modules
-        uses: actions/cache@v3
-        id: cache
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
-          restore-keys: ${{ runner.os }}-node-
+      ### if use Yarn ###
 
-      ### if use pnpm ###
-
-      # - name: Cache ~/.pnpm-store
+      # - name: Cache node_modules
       #   uses: actions/cache@v3
-      #   env:
-      #     cache-name: cache-pnpm-store
+      #   id: cache
       #   with:
-      #     path: ~/.pnpm-store
-      #     key: ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-
-      #       ${{ runner.os }}-${{ matrix.node-version }}-test-
-      #       ${{ runner.os }}-
+      #     path: node_modules
+      #     key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
+      #     restore-keys: ${{ runner.os }}-node-
 
-      # - name: Setup pnpm
-      #   uses: pnpm/action-setup@v2
-      #   with:
-      #     version: latest
-
-      # - name: Install deps
-      #   run: pnpm i --frozen-lockfile
+      # - name: Install Dependencies
+      #   if: steps.cache.outputs.cache-hit != 'true'
+      #   run: yarn install --production --frozen-lockfile
 
       # - name: Build
-      #   run: pnpm build
+      #   run: yarn build
 
+      ### if use PNPM ###
+
+      - name: Cache ~/.pnpm-store
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-pnpm-store
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-${{ matrix.node-version }}-test-
+            ${{ runner.os }}-
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      # 注意 PNPM 缓存的是全局 `.pnpm-store`，工程里面 `node_modules` 只是全局 store 的 symlink
+      # 因此即使缓存命中，仍然需要运行 `pnpm install` 用于创建 symlink
+      # 此处可以加上 `--prefer-offline` 优先用本地缓存
       - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --production --frozen-lockfile
+        run: pnpm install --prod --prefer-offline --frozen-lockfile
 
       - name: Build
-        run: yarn build
+        run: pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
