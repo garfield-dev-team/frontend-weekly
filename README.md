@@ -21,13 +21,13 @@ Please note that docusaurus@2.0.1 requires Node >= 16.14.0, make sure your Node 
 ### 安装 docusaurus
 
 ```bash
-$ npx create-docusaurus@latest my-website classic --typescript --package-manager yarn
+$ npx create-docusaurus@latest my-website classic --typescript --package-manager pnpm
 ```
 
 ### 更新 docusaurus
 
 ```bash
-$ yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
+$ pnpm upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
 ```
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
