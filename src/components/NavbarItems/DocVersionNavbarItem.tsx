@@ -3,7 +3,7 @@ import DropdownNavbarItem from "@theme-original/NavbarItem/DropdownNavbarItem";
 import type { Props } from "@theme/NavbarItem/DropdownNavbarItem";
 import { useLocation } from "@docusaurus/router";
 
-const DocVersionNavbarItem = ({ mobile, items, ...props }: Props) => {
+const DocVersionNavbarItem: React.FC<Props> = ({ mobile, items, ...props }) => {
   const { pathname } = useLocation();
 
   const latest = items.at(0);
