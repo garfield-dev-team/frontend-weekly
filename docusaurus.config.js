@@ -32,7 +32,8 @@ const getAllBlogRoutes = () => {
   const rootPath = path.resolve(workDir, "blogs");
   return fs
     .readdirSync(rootPath)
-    .filter((item) => !["authors.yml"].includes(item));
+    .filter((item) => !["authors.yml"].includes(item))
+    .reverse();
 };
 
 const CUR_DEPLOY_ENV = getDeployConfig();
@@ -110,15 +111,13 @@ const config = {
         items: [
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            type: "dropdown",
-            label: "技术交流群",
+            type: "custom-doc-version-navbar-item",
             position: "right",
             items: blogRoutes
               .map((item) => ({
                 to: item,
                 label: item,
-              }))
-              .reverse(),
+              })),
           },
           // {
           //   type: 'dropdown',
@@ -155,7 +154,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: `/${blogRoutes.at(-1)}`,
+                to: `/${blogRoutes.at(0)}`,
               },
             ],
           },
