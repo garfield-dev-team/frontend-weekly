@@ -30,10 +30,12 @@ const getDeployConfig = () => {
 const getAllBlogRoutes = () => {
   const workDir = process.cwd();
   const rootPath = path.resolve(workDir, "blogs");
+  // 注意 `sort` 是 mutable 方法，会修改原数组
+  // 但是前面用了 `filter` 会返回一个新数组
   return fs
     .readdirSync(rootPath)
     .filter((item) => !["authors.yml"].includes(item))
-    .reverse();
+    .sort((a, b) => Number(b) - Number(a));
 };
 
 const CUR_DEPLOY_ENV = getDeployConfig();
