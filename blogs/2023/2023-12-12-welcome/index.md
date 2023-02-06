@@ -648,6 +648,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [实战，实现幂等的8种方案！](https://mp.weixin.qq.com/s/J0C9TJF7nVVi2cMiDBqepA)
 - [写优雅代码的45个小技巧](https://mp.weixin.qq.com/s/Jct2rnz_0ahozWNZYfZ4Qg)
 - [肝了一周总结的SpringBoot常用注解大全，看完就炉火纯青了！](https://mp.weixin.qq.com/s/PzZ31ju32-5epXpQeTZsNA)
 - [瞧瞧人家写的API接口代码，那叫一个优雅！](https://mp.weixin.qq.com/s/rSYOAuJeIXaonHvuR5O47Q)
@@ -875,6 +876,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 语言代码风格规范-概述篇](https://mp.weixin.qq.com/s/RCBUlu0gRuVFSQ2m8Uyycg)
   - ⭐️ [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
+  - ⭐️ [Go 设计模式｜项目依赖耦合度太高？可以用适配器做下优化](https://mp.weixin.qq.com/s/r8975amH-DcJkWQKytIeJQ)
   - ⭐️ [Go 设计模式｜组合，一个对数据结构算法和职场都有提升的设计模式](https://mp.weixin.qq.com/s/JKWbyr4Yt7A6l1nFsANUcQ)
   - ⭐️ [Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学](https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw)
   - ⭐️ [sourcegraph 出品的并发库 conc 详解](https://mp.weixin.qq.com/s/59cxPFHWcdnUxKyRyo8SKw)
