@@ -60,6 +60,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
 - [盘点掘金 2021 高赞 React 文章](https://juejin.cn/post/7047690546417565733)
 - [盘点掘金 2021 点赞高达 6000，收藏过万的文章](https://juejin.cn/post/7047153016771706916)
 - ⭐️ [在撸 Vue 的 ⌘+K 唤起菜单库时，我学到了很多](https://mp.weixin.qq.com/s/5AnRvwmA-U76T52FR47w8Q)
+- ⭐️ [Vue 项目性能优化 — 实践指南（网上最全 / 详细）](https://juejin.cn/post/6844903913410314247)
 - ⭐️ [\[科普文\] Vue3 到底更新了什么？](https://mp.weixin.qq.com/s/66sos7nML5rA0ZZGJ5qFIQ)
 - ⭐️ [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
 - 🌛 [我在项目中用实际用到的22个Vue优化技巧](https://juejin.cn/post/7005880217684148231)
@@ -648,6 +649,7 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [两万字盘点设计模式！](https://mp.weixin.qq.com/s/409QGKe5H7tCP1qpCiY_KA)
 - [实战，实现幂等的8种方案！](https://mp.weixin.qq.com/s/J0C9TJF7nVVi2cMiDBqepA)
 - [写优雅代码的45个小技巧](https://mp.weixin.qq.com/s/Jct2rnz_0ahozWNZYfZ4Qg)
 - [肝了一周总结的SpringBoot常用注解大全，看完就炉火纯青了！](https://mp.weixin.qq.com/s/PzZ31ju32-5epXpQeTZsNA)
@@ -1397,6 +1399,7 @@ import TabItem from '@theme/TabItem';
   - 🌛 [「上集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1Yr4y1J7oc)
   - 🌛 [「下集」React性能优化，你需要知道的一切](https://www.bilibili.com/video/BV1j44y1g74m)
   - 🌛 [Build your own React](https://pomb.us/build-your-own-react/)
+  - [Vue 项目性能优化 — 实践指南（网上最全 / 详细）](https://juejin.cn/post/6844903913410314247)
   - [「万字总结」🍒动画 + 大白话讲清楚React渲染原理](https://juejin.cn/post/7121378029682556958)
   - [React 渲染的未来](https://juejin.cn/post/7154175507280429070)
   - [React 中常见的 8 个错误，如何避免](https://mp.weixin.qq.com/s/METf8Ng6Qnsu1uWGTzan8g)
