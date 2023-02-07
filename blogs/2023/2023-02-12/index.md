@@ -9,6 +9,8 @@ tags: []
 
 题图：dannyhowe @ unsplash。
 
+⭐️ [Go 陷阱 - 错误处理三剑客](https://mp.weixin.qq.com/s/E_8ovfaAKSjHFsK85iOChA)
+
 🌟 上次给 UMI 的文档提了两个 PR 被合并，成了 UMI contributor：
 
 ![image](./Screen%20Shot%202023-02-06%20at%2011.24.37%20AM.png)
