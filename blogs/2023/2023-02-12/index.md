@@ -9,6 +9,16 @@ tags: []
 
 题图：dannyhowe @ unsplash。
 
+📒 [【面试高频题】难度 2.5/5，综合贪心的序列 DP 题](https://mp.weixin.qq.com/s/eLWhKIWkyc8yrUxwKzcanA)
+
+⭐️ [聊聊Golang饱受争议的error](https://mp.weixin.qq.com/s/q3Gr1BcrRIdxb-GVMb_R6Q)
+
+⭐️ [万字长文告诉你Go 1.20中值得关注的几个变化](https://mp.weixin.qq.com/s/Y-JxePxv9XlaX_UASlWSvQ)
+
+📒 [向 Swift 学习？Go 考虑简单字符串插值特性](https://mp.weixin.qq.com/s/GPxW8MwaxUonA1R7k9Cl6w)
+
+📒 [如何从 0 开始配置 Mac](https://mp.weixin.qq.com/s/sdBZTSOzm94Zopgr_OijOg)
+
 📒 [Understanding HTML Form Encoding: URL Encoded and Multipart Forms](https://dev.to/sidthesloth92/understanding-html-form-encoding-url-encoded-and-multipart-forms-3lpa)
 
 📒 [从 0 实现 use-context-selector](https://mp.weixin.qq.com/s/vp7Jfxh7AmseD6L1NVpvZA)
