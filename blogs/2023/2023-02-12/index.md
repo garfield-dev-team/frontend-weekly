@@ -9,6 +9,12 @@ tags: []
 
 题图：dannyhowe @ unsplash。
 
+📒 [Go 并发编程 - 数据竞态](https://mp.weixin.qq.com/s/EaZepIDHWEHRptyaZI4cGg)
+
+📒 [x/exp/maps, slices 纷纷被同意加入 Go 标准库](https://mp.weixin.qq.com/s/0G64euEYRSjc5aMF6P8wlQ)
+
+📒 [怎么把自己造的轮子发布到 Go Module上](https://mp.weixin.qq.com/s/vRWo1ZrsXlBXOrabjYtBSw)
+
 📒 [【面试高频题】难度 2.5/5，综合贪心的序列 DP 题](https://mp.weixin.qq.com/s/eLWhKIWkyc8yrUxwKzcanA)
 
 ⭐️ [聊聊Golang饱受争议的error](https://mp.weixin.qq.com/s/q3Gr1BcrRIdxb-GVMb_R6Q)
