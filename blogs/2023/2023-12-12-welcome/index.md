@@ -1646,3 +1646,7 @@ import TabItem from '@theme/TabItem';
 - [谈谈复杂应用的状态管理（下）：基于 Zustand 的渐进式状态管理实践](https://juejin.cn/post/7182462103297458236)
 - [【好文分享】基于Jira的运维发布平台的设计与实现](https://mp.weixin.qq.com/s/Bf5JNQjki9xLVzioYPy5qg)
 - [如何使用jenkins搭建一个中小企业前端项目部署环境](https://mp.weixin.qq.com/s/pDXhIMFkyMuiVHB0l9gphw)
+- [跟着来，你也可以手写VueRouter](https://juejin.cn/post/6991640600533532679)
+- [「硬核JS」图解Promise迷惑行为｜运行机制补充](https://juejin.cn/post/6997968693414084644)
+- [「前端工程四部曲」模块化的前世今生（上）](https://juejin.cn/post/7007946894605287432)
+- [「前端工程四部曲」模块化的前世今生（下）](https://juejin.cn/post/7012774158371127326)
