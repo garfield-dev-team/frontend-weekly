@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3517],{17573:e=>{e.exports=JSON.parse('{"label":"monorepo","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/monorepo","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7060],{87896:e=>{e.exports=JSON.parse('{"label":"ESLint","permalink":"/frontend-weekly/2022/tags/es-lint","allTagsPath":"/frontend-weekly/2022/tags","count":10}')}}]);

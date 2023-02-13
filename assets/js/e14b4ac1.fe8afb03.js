@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[4491],{3668:e=>{e.exports=JSON.parse('{"label":"Rollup","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/rollup","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2878],{37978:e=>{e.exports=JSON.parse('{"label":"Yarn2","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/yarn-2","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);
