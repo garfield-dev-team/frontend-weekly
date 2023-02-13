@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7589],{32260:e=>{e.exports=JSON.parse('{"label":"TypeScript","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/type-script","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":1}')}}]);

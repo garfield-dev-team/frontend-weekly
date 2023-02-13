@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[8021],{32396:e=>{e.exports=JSON.parse('{"label":"NextJS","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/next-js","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":2}')}}]);

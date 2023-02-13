@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7358],{50363:e=>{e.exports=JSON.parse('{"label":"CSS in JS","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/css-in-js","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":1}')}}]);

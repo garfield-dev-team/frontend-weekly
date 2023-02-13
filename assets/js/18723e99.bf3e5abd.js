@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[5866],{75827:e=>{e.exports=JSON.parse('{"label":"yaml","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/yaml","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":10}')}}]);

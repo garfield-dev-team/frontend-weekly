@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[833],{86689:e=>{e.exports=JSON.parse('{"label":"Prettier","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/prettier","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":10}')}}]);

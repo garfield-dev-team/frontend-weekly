@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[4061],{64376:e=>{e.exports=JSON.parse('{"label":"ESNext","permalink":"/2022/tags/es-next","allTagsPath":"/2022/tags","count":1}')}}]);

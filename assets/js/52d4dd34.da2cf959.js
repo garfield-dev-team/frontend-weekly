@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3497],{25713:e=>{e.exports=JSON.parse('{"permalink":"/2022/page/6","page":6,"postsPerPage":10,"totalPages":6,"totalCount":52,"previousPage":"/2022/page/5","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

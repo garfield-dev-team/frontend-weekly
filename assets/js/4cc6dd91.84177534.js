@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7342],{33881:e=>{e.exports=JSON.parse('{"label":"NPM","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/npm","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":2}')}}]);

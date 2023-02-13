@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[6578],{61563:e=>{e.exports=JSON.parse('{"label":"CRA","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/cra","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);

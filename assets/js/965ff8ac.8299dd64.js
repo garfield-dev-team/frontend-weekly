@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[7523],{22890:e=>{e.exports=JSON.parse('{"label":"Diff","permalink":"/2022/tags/diff","allTagsPath":"/2022/tags","count":1}')}}]);

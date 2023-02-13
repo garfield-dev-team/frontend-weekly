@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[6236],{65345:e=>{e.exports=JSON.parse('{"label":"React","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/react","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":3}')}}]);

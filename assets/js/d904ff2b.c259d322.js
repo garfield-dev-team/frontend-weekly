@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[4330],{48754:e=>{e.exports=JSON.parse('{"label":"QUIC","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/quic","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":2}')}}]);

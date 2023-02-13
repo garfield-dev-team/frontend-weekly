@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9782],{62673:e=>{e.exports=JSON.parse('{"label":"Node.js","permalink":"/2021/tags/node-js","allTagsPath":"/2021/tags","count":1}')}}]);

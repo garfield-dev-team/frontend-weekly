@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3296],{26623:s=>{s.exports=JSON.parse('{"label":"Browserslist","permalink":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/browserslist","allTagsPath":"/https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":1}')}}]);

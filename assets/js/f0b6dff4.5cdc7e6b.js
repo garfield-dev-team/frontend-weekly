@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1883],{23986:e=>{e.exports=JSON.parse('{"label":"Browserslist","permalink":"/2021/tags/browserslist","allTagsPath":"/2021/tags","count":1}')}}]);
