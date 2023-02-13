@@ -75,6 +75,14 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Upload static assets to Aliyun OSS
+        uses: garfield-dev-team/aliyun-oss-action@main
+        with:
+          endpoint: https://oss-cn-hangzhou.aliyuncs.com
+          bucket: frontend-weekly
+          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
