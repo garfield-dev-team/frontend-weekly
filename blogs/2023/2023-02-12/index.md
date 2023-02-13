@@ -9,9 +9,9 @@ tags: []
 
 题图：dannyhowe @ unsplash。
 
-📒 [Go 并发编程 - 数据竞态](https://mp.weixin.qq.com/s/EaZepIDHWEHRptyaZI4cGg)
+⭐️ [Go 并发编程 - 数据竞态](https://mp.weixin.qq.com/s/EaZepIDHWEHRptyaZI4cGg)
 
-📒 [x/exp/maps, slices 纷纷被同意加入 Go 标准库](https://mp.weixin.qq.com/s/0G64euEYRSjc5aMF6P8wlQ)
+⭐️ [x/exp/maps, slices 纷纷被同意加入 Go 标准库](https://mp.weixin.qq.com/s/0G64euEYRSjc5aMF6P8wlQ)
 
 📒 [怎么把自己造的轮子发布到 Go Module上](https://mp.weixin.qq.com/s/vRWo1ZrsXlBXOrabjYtBSw)
 
@@ -41,7 +41,32 @@ tags: []
 
 📒 [「每周译Go」了解 Go 中的指针](https://mp.weixin.qq.com/s/RjLq4wUMvh5WMl8BcUmk0g)
 
-📒 [【面试高频题】难度 1/5，简单二叉树寻值问题](https://mp.weixin.qq.com/s/hBFrHtEYRnk8P9QWmpUMIA)
+📒 【面试高频题】难度 1/5，简单二叉树寻值问题
+
+```go
+var ans, k int
+
+func kthSmallest(root *TreeNode, _k int) int {
+    k = _k
+    dfs(root)
+    return ans
+}
+
+func dfs(root *TreeNode) {
+    if root == nil || k == 0 {
+        return
+    }
+    dfs(root.Left)
+    if k--; k == 0 {
+        ans = root.Val
+    }
+    dfs(root.Right)
+}
+```
+
+常规解法是先遍历所有树节点再排序，或者遍历树节点+优先队列（看做是 top K 问题），但这两种解法都没有利用该树为二叉搜索树的特性，而我们知道，二叉搜索树的中序遍历是有序的，因此我们只需要对二叉搜索树执行中序遍历，并返回第 k 小的值即可。中序遍历有「迭代」和「递归」两种写法。
+
+[【面试高频题】难度 1/5，简单二叉树寻值问题](https://mp.weixin.qq.com/s/hBFrHtEYRnk8P9QWmpUMIA)
 
 📒 [TypeScript 5.0 将支持全新的装饰器写法！](https://mp.weixin.qq.com/s/QnWez2sEWuL8j8GVDmBNTA)
 
