@@ -46,7 +46,8 @@ const config = {
   title: "Frontend Weekly",
   tagline: "⭐️ 每周更新优质技术文章，欢迎点赞关注！",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: CUR_DEPLOY_ENV.baseUrl,
+  // baseUrl: CUR_DEPLOY_ENV.baseUrl,
+  baseUrl: "https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -115,11 +116,10 @@ const config = {
           {
             type: "custom-doc-version-navbar-item",
             position: "right",
-            items: blogRoutes
-              .map((item) => ({
-                to: item,
-                label: item,
-              })),
+            items: blogRoutes.map((item) => ({
+              to: item,
+              label: item,
+            })),
           },
           // {
           //   type: 'dropdown',
