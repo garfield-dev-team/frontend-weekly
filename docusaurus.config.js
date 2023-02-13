@@ -45,9 +45,9 @@ const blogRoutes = getAllBlogRoutes();
 const config = {
   title: "Frontend Weekly",
   tagline: "⭐️ 每周更新优质技术文章，欢迎点赞关注！",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com",
   // baseUrl: CUR_DEPLOY_ENV.baseUrl,
-  baseUrl: "https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
