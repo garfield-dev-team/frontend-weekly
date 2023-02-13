@@ -730,6 +730,7 @@ import TabItem from '@theme/TabItem';
 - 脏读、不可重复读、幻读
   - ⭐️ [美团三面：一直追问我， MySQL 幻读被彻底解决了吗](https://mp.weixin.qq.com/s/VWEKgnOWVnufz5pfvRjUWw)
 - 数据一致性
+  - ⭐️ [数据库锁的12连问，抗住！](https://mp.weixin.qq.com/s/VEU5p85aTvyBKf2XP5QTSg)
   - ⭐️ [聊聊select for update到底加了什么锁](https://mp.weixin.qq.com/s/shogIDEgXTtPVPFgsS8crw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/WzAVtmFmEMhY-MiNEgQ0fw)
   - ⭐️ [如何保障 MySQL 和 Redis 的数据一致性](https://mp.weixin.qq.com/s/lyqvv-nA_PMUc-eBuCsNTA)
@@ -879,6 +880,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 语言代码风格规范-概述篇](https://mp.weixin.qq.com/s/RCBUlu0gRuVFSQ2m8Uyycg)
   - ⭐️ [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
+  - ⭐️ [Go设计模式实战--用状态模式实现系统工作流和状态机](https://mp.weixin.qq.com/s/X9dKNO6sd-OY2VfsZpaElA)
   - ⭐️ [Go 设计模式｜项目依赖耦合度太高？可以用适配器做下优化](https://mp.weixin.qq.com/s/r8975amH-DcJkWQKytIeJQ)
   - ⭐️ [Go 设计模式｜组合，一个对数据结构算法和职场都有提升的设计模式](https://mp.weixin.qq.com/s/JKWbyr4Yt7A6l1nFsANUcQ)
   - ⭐️ [Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学](https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw)
