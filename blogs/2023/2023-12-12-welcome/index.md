@@ -1652,3 +1652,4 @@ import TabItem from '@theme/TabItem';
 - [「硬核JS」图解Promise迷惑行为｜运行机制补充](https://juejin.cn/post/6997968693414084644)
 - [「前端工程四部曲」模块化的前世今生（上）](https://juejin.cn/post/7007946894605287432)
 - [「前端工程四部曲」模块化的前世今生（下）](https://juejin.cn/post/7012774158371127326)
+- [聊聊 Ant Design V5 的主题（上）：CSSinJS 动态主题的花活](https://juejin.cn/post/7199832444836593725)
