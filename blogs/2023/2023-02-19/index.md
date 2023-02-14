@@ -9,6 +9,8 @@ tags: []
 
 题图：Bigfish x 情人节。
 
+📒 [前端食堂技术周刊第 70 期：Volar 的新开端、Lighthouse 10、良好的组件设计、React 纪录片、2022 大前端总结](https://juejin.cn/post/7199933874306089021)
+
 ⭐️ [聊聊 Ant Design V5 的主题（上）：CSSinJS 动态主题的花活](https://juejin.cn/post/7199832444836593725)
 
 ⭐️ [Go 高性能 - 字符串拼接 1000+ 倍优化](https://mp.weixin.qq.com/s/HgXLFFTpXbxKPNmIgdhmXA)
