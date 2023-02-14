@@ -9,11 +9,17 @@ tags: []
 
 题图：Bigfish x 情人节。
 
+📒 [聊聊 Ant Design V5 的主题（上）：CSSinJS 动态主题的花活](https://juejin.cn/post/7199832444836593725)
+
+⭐️ [Go 高性能 - 字符串拼接 1000+ 倍优化](https://mp.weixin.qq.com/s/HgXLFFTpXbxKPNmIgdhmXA)
+
 📒 [技术角度告诉你ChatGPT是什么？和一些深度思考](https://juejin.cn/post/7199537072301228089)
 
 📒 [闲鱼大终端UI组件库——FishUI建设之路](https://juejin.cn/post/7199508018374033445)
 
 📒 ChatGPT 相关
+
+https://huggingface.co/datasets/fka/awesome-chatgpt-prompts
 
 https://github.com/f/awesome-chatgpt-prompts
 
