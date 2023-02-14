@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2142],{39761:e=>{e.exports=JSON.parse('{"label":"Vue","permalink":"/2021/tags/vue","allTagsPath":"/2021/tags","count":1}')}}]);

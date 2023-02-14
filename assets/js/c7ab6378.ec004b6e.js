@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1359],{20103:e=>{e.exports=JSON.parse('{"label":"Rollup","permalink":"/2022/tags/rollup","allTagsPath":"/2022/tags","count":1}')}}]);

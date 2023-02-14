@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1318],{62809:e=>{e.exports=JSON.parse('{"label":"Code Review","permalink":"/2022/tags/code-review","allTagsPath":"/2022/tags","count":1}')}}]);

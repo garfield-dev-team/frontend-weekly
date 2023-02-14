@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9321],{29482:e=>{e.exports=JSON.parse('{"label":"VS Code","permalink":"/2022/tags/vs-code","allTagsPath":"/2022/tags","count":3}')}}]);

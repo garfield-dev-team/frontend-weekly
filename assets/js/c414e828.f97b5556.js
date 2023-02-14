@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[9170],{32743:e=>{e.exports=JSON.parse('{"label":"\u6784\u5efa\u5de5\u5177","permalink":"/2021/tags/\u6784\u5efa\u5de5\u5177","allTagsPath":"/2021/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[994],{39928:e=>{e.exports=JSON.parse('{"label":"CRA","permalink":"/2022/tags/cra","allTagsPath":"/2022/tags","count":1}')}}]);

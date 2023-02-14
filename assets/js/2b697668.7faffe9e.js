@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1520],{86960:e=>{e.exports=JSON.parse('{"permalink":"/2022/tags/git/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/2022/tags/git","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

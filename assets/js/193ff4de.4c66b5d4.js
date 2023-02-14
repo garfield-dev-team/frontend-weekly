@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[8819],{35432:e=>{e.exports=JSON.parse('{"permalink":"/2022/tags/vue-3","page":1,"postsPerPage":10,"totalPages":1,"totalCount":10,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

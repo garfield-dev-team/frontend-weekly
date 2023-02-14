@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3479],{91422:e=>{e.exports=JSON.parse('{"label":"Prettier","permalink":"/2022/tags/prettier","allTagsPath":"/2022/tags","count":10}')}}]);
