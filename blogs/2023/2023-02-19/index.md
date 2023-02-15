@@ -9,6 +9,14 @@ tags: []
 
 题图：Bigfish x 情人节。
 
+📒 [组件库实战——按需加载工程化](https://juejin.cn/post/7199591833522176058)
+
+📒 Go 也要过情人节，并发布了安全更新 Go 1.20.1 和 Go 1.19.6
+
+[Go 1.20.1 发布了](https://mp.weixin.qq.com/s/enYkz_1aYZlbASFpliBpcA)
+
+[Go 也要过情人节，并发布了安全更新 Go 1.20.1 和 Go 1.19.6](https://mp.weixin.qq.com/s/9ucVNxf9L7xX4Q6EUM7gnA)
+
 📒 [前端食堂技术周刊第 70 期：Volar 的新开端、Lighthouse 10、良好的组件设计、React 纪录片、2022 大前端总结](https://juejin.cn/post/7199933874306089021)
 
 ⭐️ [聊聊 Ant Design V5 的主题（上）：CSSinJS 动态主题的花活](https://juejin.cn/post/7199832444836593725)
@@ -20,6 +28,8 @@ tags: []
 📒 [闲鱼大终端UI组件库——FishUI建设之路](https://juejin.cn/post/7199508018374033445)
 
 📒 ChatGPT 相关
+
+https://platform.openai.com/docs/api-reference/completions/create#completions/create-prompt
 
 https://huggingface.co/datasets/fka/awesome-chatgpt-prompts
 
