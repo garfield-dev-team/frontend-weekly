@@ -9,6 +9,28 @@ tags: []
 
 题图：Bigfish x 情人节。
 
+📒 云原生运维相关文章
+
+[Linux 命令行工具之 jq 最佳实践](https://mp.weixin.qq.com/s/Ys4A9nGPx1T2se_eoFxVSA)
+
+[2022年 SRE、DevOps技能图谱](https://mp.weixin.qq.com/s/NarTVKrCu4KvSL3sT4YXWg)
+
+[Linux 命令工具之 grep](https://mp.weixin.qq.com/s/9_Mt2_Mg_92ObWENjchrsQ)
+
+[Linux 命令工具之 awk](https://mp.weixin.qq.com/s/OFjy_EIJKCLwF7rwAaeOFw)
+
+[Golang中的逃逸分析](https://mp.weixin.qq.com/s/QtWqnS5dCvXCYvHzIk-BrQ)
+
+[据说成功人士都是这样管理时间的](https://mp.weixin.qq.com/s/gh7ys7d9Dr52TIulhkoTMg)
+
+📒 [【面试高频题】难度 4/5，单调栈的热门运用](https://juejin.cn/post/7200408830051336248)
+
+📒 [【第2858期】React 纪录片心得 — 重新思考最佳实践](https://mp.weixin.qq.com/s/x1HGf4MNPoifIJIaLEg9uQ)
+
+⭐️ [Go 陷阱 - 缓冲区内容不输出](https://mp.weixin.qq.com/s/ntIuk0HTEfxRqZQNv0_9gA)
+
+⭐️ [百里挑 15 个 Git 技巧](https://mp.weixin.qq.com/s/5Mmd51cpGKxmm7WULNvUyw)
+
 📒 [组件库实战——按需加载工程化](https://juejin.cn/post/7199591833522176058)
 
 📒 Go 也要过情人节，并发布了安全更新 Go 1.20.1 和 Go 1.19.6
