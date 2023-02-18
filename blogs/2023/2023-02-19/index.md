@@ -13,6 +13,8 @@ tags: []
 
 [Linux 命令行工具之 jq 最佳实践](https://mp.weixin.qq.com/s/Ys4A9nGPx1T2se_eoFxVSA)
 
+[令人拍手叫绝的运维小技巧](https://mp.weixin.qq.com/s/v3mY4v6Q11MMNlg_y0SExQ)
+
 [2022年 SRE、DevOps技能图谱](https://mp.weixin.qq.com/s/NarTVKrCu4KvSL3sT4YXWg)
 
 [Linux 命令工具之 grep](https://mp.weixin.qq.com/s/9_Mt2_Mg_92ObWENjchrsQ)
