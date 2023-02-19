@@ -31,6 +31,10 @@ tags: []
 
 [据说成功人士都是这样管理时间的](https://mp.weixin.qq.com/s/gh7ys7d9Dr52TIulhkoTMg)
 
+📒 [告别“复制粘贴”，带你自己配一个Babel](https://mp.weixin.qq.com/s/nwX2rEXfGPSR3jmPNuTy_w)
+
+⭐️ [Go 陷阱 - 接口方法调用](https://mp.weixin.qq.com/s/24jpl9waFppxdmp84rX0qw)
+
 📒 [【面试高频题】难度 4/5，单调栈的热门运用](https://juejin.cn/post/7200408830051336248)
 
 📒 [【第2858期】React 纪录片心得 — 重新思考最佳实践](https://mp.weixin.qq.com/s/x1HGf4MNPoifIJIaLEg9uQ)
