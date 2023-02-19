@@ -1018,6 +1018,7 @@ import TabItem from '@theme/TabItem';
   - 🌟 [Go 程序员面试笔试宝典](https://github.com/golang-design/go-questions)
   - 🌟 [Go语言圣经（中文版）](https://books.studygolang.com/gopl-zh/)
   - 🌟 [Go语言标准库书籍](http://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
+  - 🌟 [地鼠文档](https://www.topgoer.cn/)
   - 🌟 [go语言中文文档 - 地鼠文档](https://www.topgoer.cn/docs/golang/golang-1ccjbpfstsfi1)
   - [GoLand 迎来五周年，同时发布 2022.3：有彩蛋](https://mp.weixin.qq.com/s/IvL24_7iuuRp9Y3dljHaHQ)
   - 🌟 [这可能是最权威、最全面的Go语言编码风格规范了！](https://mp.weixin.qq.com/s/jrua9iSa1Huk3UvMluVe7w)
