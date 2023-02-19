@@ -9,6 +9,12 @@ tags: []
 
 题图：Bigfish x 情人节。
 
+📒 [ChatGPT ✖️ 前端 = 有点er意思](https://juejin.cn/post/7199607659992907832)
+
+📒 [基于gpt3引擎实现CLI版本的chatgpt~（数量取胜的go语言学习法）](https://juejin.cn/post/7196700282348306490)
+
+📒 [基于qwik和iris(go)写全栈啦-短链服务（数量取胜的go语言学习法）](https://juejin.cn/post/7196322025115336759)
+
 📒 云原生运维相关文章
 
 [Linux 命令行工具之 jq 最佳实践](https://mp.weixin.qq.com/s/Ys4A9nGPx1T2se_eoFxVSA)
@@ -52,6 +58,12 @@ tags: []
 📒 [闲鱼大终端UI组件库——FishUI建设之路](https://juejin.cn/post/7199508018374033445)
 
 📒 ChatGPT 相关
+
+[AI量化投资训练营-基础班](https://bigquant.com/wiki/doc/jichu-ox6FBJMJpK)
+
+https://twitter.com/kliu128/status/1623472922374574080/
+
+https://tanstack.com/
 
 https://platform.openai.com/docs/api-reference/completions/create#completions/create-prompt
 
