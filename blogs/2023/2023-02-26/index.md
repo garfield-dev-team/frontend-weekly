@@ -59,10 +59,6 @@ Umi 团队新增一条规则，每人每周需共享 1-2 个想法，每周三�
 
 [MDH 前端周刊第 88 期：错误处理、CSS 嵌套、应用模块化、useWorker](https://mdhweekly.com/weekly/issue-0088)
 
-⭐️ [Vue3 是如何通过编译优化提升框架性能的](https://juejin.cn/post/7199994978976759868)
-
-⭐️ [我是如何优化弹窗拖拽卡顿的？内附排查和优化过程](https://juejin.cn/post/7197411581927882807)
-
 📒 [Golang 语言标准库 io 详解](https://mp.weixin.qq.com/s/ApHdIvEcki4LxLheBoB2ew)
 
 📒 [Go语言爱好者周刊：第 177 期 — Go 版 ElasticSearch](https://mp.weixin.qq.com/s/ioW72PZV3Vx0UiiKFyXcBA)
