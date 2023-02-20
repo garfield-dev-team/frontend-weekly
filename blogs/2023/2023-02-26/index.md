@@ -7,6 +7,8 @@ tags: []
 
 ![image](./image.png)
 
+题图：爱心猫。
+
 📒 [前端食堂技术周刊第 71 期：LightningCSS、State of React Native、Sandpack 2.0、ChatGPT 与前端、2023](https://juejin.cn/post/7202164243613073464)
 
 📒 [「每周译Go」在 Go 中定义方法](https://mp.weixin.qq.com/s/2pw6Rix1tDqdsrwSLEQsoQ)
