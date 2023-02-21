@@ -884,6 +884,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
   - ⭐️ [Go设计模式实战--用状态模式实现系统工作流和状态机](https://mp.weixin.qq.com/s/X9dKNO6sd-OY2VfsZpaElA)
+  - ⭐️ [外观模式，一个每天都在用，却被多数人在面试中忽视的模式](https://mp.weixin.qq.com/s/tC9xfZFJvcNEbTXHQYvT6w)
   - ⭐️ [Go 设计模式｜项目依赖耦合度太高？可以用适配器做下优化](https://mp.weixin.qq.com/s/r8975amH-DcJkWQKytIeJQ)
   - ⭐️ [Go 设计模式｜组合，一个对数据结构算法和职场都有提升的设计模式](https://mp.weixin.qq.com/s/JKWbyr4Yt7A6l1nFsANUcQ)
   - ⭐️ [Go学设计模式--装饰器和职责链，哪个模式实现中间件更科学](https://mp.weixin.qq.com/s/_e9Qa97gZvgv9n-pFB4lFw)
