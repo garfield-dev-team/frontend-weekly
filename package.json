@@ -49,10 +49,5 @@
   "engines": {
     "node": ">=16.14",
     "pnpm": ">=7.26.2"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@docusaurus/core@2.3.1": "patches/@docusaurus__core@2.3.1.patch"
-    }
   }
 }
