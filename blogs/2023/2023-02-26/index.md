@@ -9,6 +9,10 @@ tags: []
 
 题图：爱心猫
 
+📒 PNPM 如何给第三方库打补丁
+
+https://github.com/antfu/pnpm-patch-i
+
 📒 [「Go框架」iris框架中mvc使用进阶](https://mp.weixin.qq.com/s/85rJofdu2kwu41z5NANDcw)
 
 📒 [Go1.20 arena 能手动管理内存了，怎么用](https://mp.weixin.qq.com/s/mwWMOwLsiY8EtODpyEoTIg)
