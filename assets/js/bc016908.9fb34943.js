@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2010],{11182:e=>{e.exports=JSON.parse('{"label":"Vue","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/vue","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":1}')}}]);

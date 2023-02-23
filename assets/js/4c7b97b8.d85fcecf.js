@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1111],{95796:e=>{e.exports=JSON.parse('{"label":"Performance","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/performance","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);
