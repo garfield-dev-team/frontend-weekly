@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[4578],{31476:e=>{e.exports=JSON.parse('{"permalink":"/frontend-weekly/2021/tags/babel-\u63d2\u4ef6","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

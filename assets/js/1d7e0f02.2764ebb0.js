@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[283],{23187:e=>{e.exports=JSON.parse('{"label":"TypeScript","permalink":"/frontend-weekly/2023/tags/type-script","allTagsPath":"/frontend-weekly/2023/tags","count":1}')}}]);

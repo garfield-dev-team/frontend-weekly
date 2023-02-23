@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2707],{48342:e=>{e.exports=JSON.parse('{"label":"PostCSS","permalink":"/frontend-weekly/2022/tags/post-css","allTagsPath":"/frontend-weekly/2022/tags","count":1}')}}]);

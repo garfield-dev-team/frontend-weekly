@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[5244],{9359:e=>{e.exports=JSON.parse('{"label":"GitHub \u5b9a\u65f6\u4efb\u52a1","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/git-hub-\u5b9a\u65f6\u4efb\u52a1","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);

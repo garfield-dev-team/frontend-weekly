@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3683],{59565:e=>{e.exports=JSON.parse('{"label":"React Native","permalink":"/frontend-weekly/2022/tags/react-native","allTagsPath":"/frontend-weekly/2022/tags","count":1}')}}]);

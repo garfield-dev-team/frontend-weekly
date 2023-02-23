@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3356],{74578:e=>{e.exports=JSON.parse('{"label":"Golang","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/golang","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags","count":2}')}}]);

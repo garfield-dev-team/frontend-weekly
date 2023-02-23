@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[2922],{64103:e=>{e.exports=JSON.parse('{"permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2021/tags/webpack","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[3236],{86864:e=>{e.exports=JSON.parse('{"label":"\u7f51\u7edc\u76f8\u5173","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2023/tags/\u7f51\u7edc\u76f8\u5173","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2023/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[1929],{45310:e=>{e.exports=JSON.parse('{"label":"Webpack loader","permalink":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags/webpack-loader","allTagsPath":"https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/2022/tags","count":1}')}}]);
