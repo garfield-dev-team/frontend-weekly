@@ -718,6 +718,8 @@ import TabItem from '@theme/TabItem';
   - [MySQL 优化：Explain 执行计划详解](https://mp.weixin.qq.com/s/EVzU7KW9d5_254Kg4LZYQQ)
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
+- MySQL 事务
+  - ⭐️ [MySQL事务的12连问，你顶得了嘛](https://mp.weixin.qq.com/s/KEbuoasD_DOHRJiSqUgzzA)
 - MySQL 索引
   - ⭐️ [MySQL索引15连问，抗住！](https://mp.weixin.qq.com/s/d3iC_Iokrjdn392I0Y53Og)
   - ⭐️ [跟大家聊聊 MySQL 一行记录是怎么存储的](https://mp.weixin.qq.com/s/sqW51yqeAXcDs9r84UFP7A)
