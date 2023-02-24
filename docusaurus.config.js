@@ -47,6 +47,12 @@ const config = {
   tagline: "⭐️ 每周更新优质技术文章，欢迎点赞关注！",
   url: "https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com",
   baseUrl: CUR_DEPLOY_ENV.baseUrl,
+  baseUrlIssueBanner: process.env.NODE_ENV !== "production",
+  // @ts-ignore
+  staticPath:
+    process.env.NODE_ENV === "production"
+      ? "https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/"
+      : CUR_DEPLOY_ENV.baseUrl,
   // baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

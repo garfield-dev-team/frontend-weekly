@@ -1,0 +1,78 @@
+diff --git a/lib/client/serverEntry.js b/lib/client/serverEntry.js
+index 7e91df00a295f3ca128e9a7c598b39de662349a1..bfac1f9c0b56c06d8147aafe148e3b0eceaf2e41 100644
+--- a/lib/client/serverEntry.js
++++ b/lib/client/serverEntry.js
+@@ -49,7 +49,7 @@ It might also require to wrap your client code in ${chalk.cyan('`useEffect`')} h
+ }
+ // Renderer for static-site-generator-webpack-plugin (async rendering).
+ async function doRender(locals) {
+-    const { routesLocation, headTags, preBodyTags, postBodyTags, onLinksCollected, onHeadTagsCollected, baseUrl, ssrTemplate, noIndex, DOCUSAURUS_VERSION, } = locals;
++    const { routesLocation, headTags, preBodyTags, postBodyTags, onLinksCollected, onHeadTagsCollected, baseUrl, staticPath, ssrTemplate, noIndex, DOCUSAURUS_VERSION, } = locals;
+     const location = routesLocation[locals.path];
+     await preload(location);
+     const modules = new Set();
+@@ -95,7 +95,7 @@ async function doRender(locals) {
+     const scripts = (bundles.js ?? []).map((b) => b.file);
+     const renderedHtml = renderSSRTemplate(ssrTemplate, {
+         appHtml,
+-        baseUrl,
++        baseUrl: staticPath,
+         htmlAttributes,
+         bodyAttributes,
+         headTags,
+diff --git a/lib/server/configValidation.js b/lib/server/configValidation.js
+index cd9a8eb5ede2519841d3fecdf37e46a15a73d05c..425c509e9c71b492ba50b2c3f66d2b3ba0de1b55 100644
+--- a/lib/server/configValidation.js
++++ b/lib/server/configValidation.js
+@@ -128,6 +128,9 @@ exports.ConfigSchema = utils_validation_1.Joi.object({
+     baseUrl: utils_validation_1.Joi.string()
+         .required()
+         .custom((value) => (0, utils_1.addLeadingSlash)((0, utils_1.addTrailingSlash)(value))),
++    staticPath: utils_validation_1.Joi.string()
++        .required()
++        .custom((value) => (0, utils_1.addTrailingSlash)(value)),
+     baseUrlIssueBanner: utils_validation_1.Joi.boolean().default(exports.DEFAULT_CONFIG.baseUrlIssueBanner),
+     favicon: utils_validation_1.Joi.string().optional(),
+     title: utils_validation_1.Joi.string().required(),
+diff --git a/lib/webpack/base.js b/lib/webpack/base.js
+index 33719abe2ed8142e31f8767a9f243aa75e82374f..fb807fc112fa6da0a37a60af53c949d237c4aac0 100644
+--- a/lib/webpack/base.js
++++ b/lib/webpack/base.js
+@@ -34,6 +34,7 @@ function excludeJS(modulePath) {
+ exports.excludeJS = excludeJS;
+ async function createBaseConfig(props, isServer, minify = true) {
+     const { outDir, siteDir, siteConfig, siteConfigPath, baseUrl, generatedFilesDir, routesPaths, siteMetadata, plugins, } = props;
++    const { staticPath } = siteConfig;
+     const totalPages = routesPaths.length;
+     const isProd = process.env.NODE_ENV === 'production';
+     const minimizeEnabled = minify && isProd && !isServer;
+@@ -79,7 +80,7 @@ async function createBaseConfig(props, isServer, minify = true) {
+             chunkFilename: isProd
+                 ? 'assets/js/[name].[contenthash:8].js'
+                 : '[name].js',
+-            publicPath: baseUrl,
++            publicPath: staticPath,
+             hashFunction: 'xxhash64',
+         },
+         // Don't throw warning when asset created is over 250kb
+diff --git a/lib/webpack/server.js b/lib/webpack/server.js
+index 84a776dda366b21cbe726768cf222cd22989d424..dd0ea0c781c8f73a42ac0079b7b92e39723d2533 100644
+--- a/lib/webpack/server.js
++++ b/lib/webpack/server.js
+@@ -17,7 +17,7 @@ const WaitPlugin_1 = tslib_1.__importDefault(require("./plugins/WaitPlugin"));
+ const LogPlugin_1 = tslib_1.__importDefault(require("./plugins/LogPlugin"));
+ const ssr_html_template_1 = tslib_1.__importDefault(require("./templates/ssr.html.template"));
+ async function createServerConfig({ props, onLinksCollected, onHeadTagsCollected, }) {
+-    const { baseUrl, routesPaths, generatedFilesDir, headTags, preBodyTags, postBodyTags, siteConfig: { noIndex, trailingSlash, ssrTemplate }, } = props;
++    const { baseUrl, routesPaths, generatedFilesDir, headTags, preBodyTags, postBodyTags, siteConfig: { noIndex, trailingSlash, ssrTemplate, staticPath }, } = props;
+     const config = await (0, base_1.createBaseConfig)(props, true);
+     const routesLocation = {};
+     // Array of paths to be rendered. Relative to output directory
+@@ -47,6 +47,7 @@ async function createServerConfig({ props, onLinksCollected, onHeadTagsCollected
+                 entry: 'main',
+                 locals: {
+                     baseUrl,
++                    staticPath,
+                     generatedFilesDir,
+                     routesLocation,
+                     headTags,
