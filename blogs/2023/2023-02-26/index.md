@@ -9,6 +9,12 @@ tags: []
 
 题图：爱心猫
 
+📒 bun 文档网站上线了
+
+https://bun.sh/docs
+
+推荐用来跑 npm scripts，极快。
+
 📒 [封装新版axios（v0.22.0）中的取消请求](https://juejin.cn/post/7204038175768100901)
 
 📒 [微前端接入Sentry的不完美但已尽力的实践总结](https://mp.weixin.qq.com/s/kiiGlDbxrPHZpPZCDT_tMg)
