@@ -60,6 +60,11 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
+      # 注意 PNPM 需要缓存全局 `.pnpm-store`
+      # 工程里面 `node_modules` 只是全局 store 的 symlink
+      # 另外也需要缓存 `node_modules/.cache`
+      # 此目录下包含 Webpack、Babel、ESLint 编译缓存
+      # 可以用于 build 阶段的构建提速
       - name: Cache ~/.pnpm-store
         uses: actions/cache@v3
         env:
