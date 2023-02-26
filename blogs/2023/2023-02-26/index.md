@@ -9,6 +9,8 @@ tags: []
 
 题图：爱心猫
 
+📒 [封装新版axios（v0.22.0）中的取消请求](https://juejin.cn/post/7204038175768100901)
+
 📒 [微前端接入Sentry的不完美但已尽力的实践总结](https://mp.weixin.qq.com/s/kiiGlDbxrPHZpPZCDT_tMg)
 
 📒 [总是跳转到国内版(cn.bing.com)？New Bing使用全攻略](https://mp.weixin.qq.com/s/X11XwhGIRQgESrcmuwLBsw)
