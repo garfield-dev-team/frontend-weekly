@@ -9,6 +9,16 @@ tags: []
 
 题图：爱心猫
 
+📒 [微前端接入Sentry的不完美但已尽力的实践总结](https://mp.weixin.qq.com/s/kiiGlDbxrPHZpPZCDT_tMg)
+
+📒 [总是跳转到国内版(cn.bing.com)？New Bing使用全攻略](https://mp.weixin.qq.com/s/X11XwhGIRQgESrcmuwLBsw)
+
+📒 [怎么在5分钟之内跑起来一个完整项目之gin](https://mp.weixin.qq.com/s/YxCAUt0scOCMuPRfqgbz3A)
+
+⭐️ [Go 高性能 - 切片比数组快吗](https://mp.weixin.qq.com/s/FD9pKEbv55n6Gqqbh65SeQ)
+
+⭐️ [Go 高性能 - 切片预分配 N 倍+ 优化](https://mp.weixin.qq.com/s/q9XRyaVglt7rBous7XBwiw)
+
 📒 PNPM 如何给第三方库打补丁
 
 https://github.com/antfu/pnpm-patch-i
