@@ -88,10 +88,11 @@ jobs:
 
       - name: Upload static assets to Aliyun OSS
         # uses: garfield-dev-team/aliyun-oss-action@main
-        uses: docker://garfield998/aliyun-oss-action:latest
-        credentials:
-          username: garfield998
-          password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
+        container:
+          image: garfield998/aliyun-oss-action:latest
+          credentials:
+            username: garfield998
+            password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
         with:
           endpoint: https://oss-cn-hangzhou.aliyuncs.com
           bucket: frontend-weekly
