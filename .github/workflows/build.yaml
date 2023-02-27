@@ -87,7 +87,8 @@ jobs:
         run: pnpm build
 
       - name: Upload static assets to Aliyun OSS
-        uses: garfield-dev-team/aliyun-oss-action@main
+        # uses: garfield-dev-team/aliyun-oss-action@main
+        uses: docker://garfield998/aliyun-oss-action:latest
         with:
           endpoint: https://oss-cn-hangzhou.aliyuncs.com
           bucket: frontend-weekly
