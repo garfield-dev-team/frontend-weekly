@@ -12,6 +12,12 @@ jobs:
   build_and_deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
+    container:
+      image: garfield998/aliyun-oss-action:latest
+      credentials:
+        username: garfield998
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -86,11 +92,11 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: garfield998
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+      # - name: Login to Docker Hub
+      #   uses: docker/login-action@v2
+      #   with:
+      #     username: garfield998
+      #     password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
       - name: Upload static assets to Aliyun OSS
         # uses: garfield-dev-team/aliyun-oss-action@main
