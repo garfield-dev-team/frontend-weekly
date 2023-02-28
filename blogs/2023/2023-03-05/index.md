@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go 陷阱 - goroutine 竞态](https://mp.weixin.qq.com/s/TGXDI-1BoXihElvmnkyHpA)
+
+⭐️ [Go 陷阱 - interface{} 和 *interface{} 相等吗](https://mp.weixin.qq.com/s/UYWF2eHMLaHDu2Jtf-086Q)
+
+⭐️ Redis 官方 Go 客户端来了！！！
+
+Gopher 们应该都有使用过 Redis 吧，那 Go 的 Redis 客户端你用的哪一个呢？
+
+不少人可能用是 github.com/go-redis/redis，毕竟这个 Star 数最多：
+
+最近这个库被 Redis 官方”收“了，成为了 Redis 官方支持的客户端。最新版本 v9 导入地址变为：
+
+```go
+import "github.com/redis/go-redis/v9"
+```
+
+[Redis 官方 Go 客户端来了！！！](https://mp.weixin.qq.com/s/HoyK9I1gbCM_umzSczZj-w)
+
+📒 [从微信 JS-SDK 出发，一起了解 JSBridge 的神奇功能](https://mp.weixin.qq.com/s/o5xvsI2dN9iMsVT7tWWy0A)
+
+📒 [人物志｜缨缨：一个有故事的女同学](https://mp.weixin.qq.com/s/yfr1TDRGOWYmk_WmMKG_uw)
+
+⭐️ [不会「函数选项模式」的Gopher看过来~](https://mp.weixin.qq.com/s/gCM-LQob-Qj_nXGnefkrJQ)
+
 📒 [前端食堂技术周刊第 72 期：Signals 是前端框架的未来、Chrome Headless、ts-reset、magic-regexp、Bun 新文档](https://juejin.cn/post/7204670801243750458)
 
 ⭐️ [通过 React Router V6 源码，掌握前端路由](https://mp.weixin.qq.com/s/3DxZ0UdH9CKOMzfAo_x0XQ)
