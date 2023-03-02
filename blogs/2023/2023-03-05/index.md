@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 前端工程 dotfile 相关
+
+umi-fabric - 一个包含 prettier，eslint，stylelint 的配置文件合集
+
+> https://github.com/umijs/fabric
+
+tsconfig/bases - 提供各种前端工程的 `tsconfig.json` 配置
+
+> https://github.com/tsconfig/bases
+
+📒 [uni-app 黑魔法探秘 （一）——重写内置标签](https://mp.weixin.qq.com/s/VaRwMAR7OebyYdMHfDJvBQ)
+
+📒 [「Go工具箱」Pie ：一个高性能、类型安全的slice操作库](https://mp.weixin.qq.com/s/ilJwIsaKjj0rSpKOvDBFog)
+
 📒 [全网最详细 去中心化 Module Federation的实现原理](https://mp.weixin.qq.com/s/wX_eQwF3Ex_fsgRUhcB-yw)
 
 📒 [最全的React拖拽排序组件库对比研究](https://mp.weixin.qq.com/s/hwTyw4jULfUnJMXsO6mOKA)
