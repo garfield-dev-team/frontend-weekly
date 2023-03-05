@@ -29,6 +29,8 @@ tsconfig/bases - 提供各种前端工程的 `tsconfig.json` 配置
 
 ⭐️ [论文分享 | 大语言模型的 few-shot 或许会改变机器翻译的范式](https://mp.weixin.qq.com/s/HTjKOlK2RKfyYiFXvDB99g)
 
+📒 [如何使用乾坤实现微前端架构（附 vue + react 演示）](https://juejin.cn/post/7206110574995243063)
+
 ⭐️ [你说 Go 的切片原生支持并发吗](https://mp.weixin.qq.com/s/RLqjkV_1geeVkXeG9TLHFw)
 
 📒 [前端组件级别的抽象方向](https://juejin.cn/post/7156575298501214221)
