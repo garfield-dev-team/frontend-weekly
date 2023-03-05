@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [小厂内部私有Go module拉取方案3](https://mp.weixin.qq.com/s/WDw-Y8Rp4VxAa2iPKRnKKg)
+
 📒 知识星球相关文章
 
 [269 - 《基于 ChatGPT 的 URL 系统》](https://articles.zsxq.com/id_9as0i0v8ujtc.html)
@@ -24,6 +26,14 @@ umi-fabric - 一个包含 prettier，eslint，stylelint 的配置文件合集
 tsconfig/bases - 提供各种前端工程的 `tsconfig.json` 配置
 
 > https://github.com/tsconfig/bases
+
+⭐️ [论文分享 | 大语言模型的 few-shot 或许会改变机器翻译的范式](https://mp.weixin.qq.com/s/HTjKOlK2RKfyYiFXvDB99g)
+
+⭐️ [你说 Go 的切片原生支持并发吗](https://mp.weixin.qq.com/s/RLqjkV_1geeVkXeG9TLHFw)
+
+📒 [前端组件级别的抽象方向](https://juejin.cn/post/7156575298501214221)
+
+📒 [OpenAI 又放大招了，GPT3.5 API 开放使用，1分钟上手体验！](https://mp.weixin.qq.com/s/BujVQnT_C4UpG9nn9mxmzQ)
 
 📒 [uni-app 黑魔法探秘 （一）——重写内置标签](https://mp.weixin.qq.com/s/VaRwMAR7OebyYdMHfDJvBQ)
 
