@@ -1060,6 +1060,7 @@ import TabItem from '@theme/TabItem';
 - Golang 算法
   - https://github.com/fangbinwei/algorithm-practice
 - Golang 项目参考
+  - https://github.com/wangzhongyang007/goframe-shop-v2
   - https://github.com/fangbinwei/aliyun-oss-website-action
 - Golang 教程
   - https://www.w3cschool.cn/go/
