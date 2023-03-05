@@ -850,6 +850,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go BIO/NIO探讨(7)：IO多路复用之epoll](https://mp.weixin.qq.com/s/Zsh92yqK4e6mxNBLgY0Umw)
   - ⭐️ [Go BIO/NIO探讨(8)：Go netpoll 的工作机制](https://mp.weixin.qq.com/s/3_eToHvOw25JrC8-xePe_w)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
+  - ⭐️ [Go Scheduler 的 GMP 模型](https://mp.weixin.qq.com/s/1CY3E5daJ5U42orVwzCpaw)
   - ⭐️ [Golang 泛型初识](https://juejin.cn/post/7116817920209977351)
   - ⭐️ [Go 语言官方依赖注入工具 Wire 使用指北](https://mp.weixin.qq.com/s/yHB9BzEGIki1fyjYojdpYQ)
   - ⭐️ [Go 服务端开发总结](https://juejin.cn/post/7043587400131411976)
