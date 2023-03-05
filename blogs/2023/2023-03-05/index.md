@@ -7,6 +7,8 @@ tags: []
 
 📒 知识星球相关文章
 
+[269 - 《基于 ChatGPT 的 URL 系统》](https://articles.zsxq.com/id_9as0i0v8ujtc.html)
+
 [268 - 《我的 RSS 订阅》](https://articles.zsxq.com/id_ecswfdjukeww.html)
 
 [267 - 《读书笔记：交办的技术》](https://articles.zsxq.com/id_c5o6ebatt88l.html)
