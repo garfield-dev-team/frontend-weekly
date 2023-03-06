@@ -719,6 +719,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [这11条接口性能优化技巧，利好每日睡眠](https://mp.weixin.qq.com/s/3jrf1GKBBbVzcvJxqYnx9Q)
   - ⭐️ [顺丰快递：请签收MySQL灵魂十连](https://mp.weixin.qq.com/s/Y1Mh-99cgQWuCQ53wAxkUQ)
 - MySQL 事务
+  - ⭐️ [图解MySQL事务底层原理](https://mp.weixin.qq.com/s/pkJb_9mddmdYaJZ8azHSsg)
   - ⭐️ [MySQL事务的12连问，你顶得了嘛](https://mp.weixin.qq.com/s/KEbuoasD_DOHRJiSqUgzzA)
 - MySQL 索引
   - ⭐️ [MySQL索引15连问，抗住！](https://mp.weixin.qq.com/s/d3iC_Iokrjdn392I0Y53Og)
