@@ -5,6 +5,26 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Node.js Toolbox：发现 Node.js 包的一种新方法
+
+https://nodejstoolbox.com/
+
+⭐️ [Golang下的ORM框架gorm的介绍和使用](https://juejin.cn/post/6844904090196000775)
+
+📒 [浅析 SplitChunksPlugin 及代码分割的意义](https://juejin.cn/post/7207730270013980727)
+
+📒 [5W1H 带你入门 Monorepo](https://juejin.cn/post/7207689082184974394)
+
+⭐️ [面试官：请说一下如何优化结构体的性能](https://juejin.cn/post/7207477672666316856)
+
+⭐️ [Go 高性能 - 打印调用堆栈](https://mp.weixin.qq.com/s/saIRop2wq87sJQ2rbY1t5g)
+
+⭐️ [Go 高性能 - 结构体优化 (一)](https://mp.weixin.qq.com/s/5fl4Amj_d9ZXZRSgODS9PQ)
+
+⭐️ [Go 高性能 - index vs value in for](https://mp.weixin.qq.com/s/AKulRT6a4kco3uXDO_kzDQ)
+
+⭐️ [Go 高性能 - int to string](https://mp.weixin.qq.com/s/i3S7md5giuu3bqzFDBKa9Q)
+
 📒 参考云谦大佬的项目，用 ChatGPT 给前端相关文章写总结
 
 https://github.com/sorrycc/url-system
