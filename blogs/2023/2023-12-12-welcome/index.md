@@ -396,6 +396,7 @@ tags: [TypeScript, 前端框架, Webpack, 源码系列, 业务成长, 性能优�
   - ⭐️ [Redis 实现分布式锁的 7 种方案](https://mp.weixin.qq.com/s/n6IEF2OinYN3slJXqc_xgw)
   - [如何设计一个短链服务](https://mp.weixin.qq.com/s/Z0xVHgw-ZzZV-jOOOSsMUw)
 - 消息队列
+  - ⭐️ [聊聊RocketMQ存储模型](https://mp.weixin.qq.com/s/D8ptc4SCqWtaWe-ZBhwXfA)
   - ⭐️ [面渣逆袭：RocketMQ二十三问](https://mp.weixin.qq.com/s/mNpXpSVVVBuI59LI6vVvQA)
   - ⭐️ [刨根问底 Kafka，核心知识点大贯通](https://mp.weixin.qq.com/s/GeXtCJgo42u92FSS5V6oMQ)
   - ⭐️ [消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ](https://mp.weixin.qq.com/s/J0zKPTNoJgiFvNT4M9BVcg)
