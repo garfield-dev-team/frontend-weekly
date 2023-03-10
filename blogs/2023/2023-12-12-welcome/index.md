@@ -704,6 +704,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.cn/post/6844904142733836301)
   - ⭐️ [数据库表结构设计一点心得和经验](https://juejin.cn/post/7108525565157589005)
 - 慢 SQL 优化
+  - ⭐️ [SQL优化13连问，收藏好！](https://mp.weixin.qq.com/s/SBKlxcTK_kZf0s5CRtIEBA)
   - ⭐️ [美团面试：这个 SQL 语句加了哪些锁](https://mp.weixin.qq.com/s/Pi_SLqs3lwA7vWcT6lVv5g)
   - ⭐️ [专坑同事的SQL 就这么写，性能降低100倍，不来看看](https://mp.weixin.qq.com/s/8X-MuPgS-o53XZywqi_dmA)
   - ⭐️ [完爆90%的性能毛病，数据库优化八大通用绝招！](https://mp.weixin.qq.com/s/0_Arz-KO3UqJij1s4DjLNw)
