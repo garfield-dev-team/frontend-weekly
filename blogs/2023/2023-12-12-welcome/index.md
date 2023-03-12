@@ -846,6 +846,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [为什么 Go 不支持 \[\]T 转换为 \[\]interface](https://mp.weixin.qq.com/s/jsdGV31yT5AR07BzRovWVw)
   - ⭐️ [一文吃透 Go 内置 RPC 原理](https://mp.weixin.qq.com/s/ExfVdEM7_YWlQF6GhFn74A)
   - ⭐️ [Go 最细节篇｜内存回收又踩坑了](https://mp.weixin.qq.com/s/ea7LfF2jOoHOSozX-qUZLA)
+  - ⭐️ [Go Slice 扩容的这些坑你踩过吗](https://mp.weixin.qq.com/s/ylsTVohPo7x8QKAUj1uoTA)
   - ⭐️ [Go字符串操作不是你想的那么简单！](https://mp.weixin.qq.com/s/R_2pwdv2V1jj3zMjuUTNHw)
   - ⭐️ [Golang知识点(defer): 面试经常变量在 defer 中的值， 其实在问变量的作用域](https://mp.weixin.qq.com/s/QlzH18i72pWPm012t7d42Q)
   - ⭐️ [Go BIO/NIO探讨(1)：Gin框架中如何处理HTTP请求](https://mp.weixin.qq.com/s/VjP9Bv46x7NP6uQ7cbsqmg)
