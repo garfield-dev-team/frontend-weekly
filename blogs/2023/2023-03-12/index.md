@@ -47,6 +47,8 @@ https://nodejstoolbox.com/
 
 ⭐️ [Golang下的ORM框架gorm的介绍和使用](https://juejin.cn/post/6844904090196000775)
 
+⭐️ [如何使用 splitChunks 精细控制代码分割](https://juejin.cn/post/6844904103848443912)
+
 📒 [浅析 SplitChunksPlugin 及代码分割的意义](https://juejin.cn/post/7207730270013980727)
 
 📒 [5W1H 带你入门 Monorepo](https://juejin.cn/post/7207689082184974394)
