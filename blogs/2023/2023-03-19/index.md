@@ -5,7 +5,17 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [拒绝搬运文档，从实际出发介绍几个开发中用得上的TypeScript技巧](https://mp.weixin.qq.com/s/MkU1J_wAs2PEzirnfCPoGA)
+
+⭐️ [Go 高性能 - timer 内存优化到 0 分配](https://mp.weixin.qq.com/s/TmpiDZo1y61-LfWNl5-Nrw)
+
+⭐️ [Go 高性能 - defer 优化](https://mp.weixin.qq.com/s/i8ocH69cDHvjKBecpENxKA)
+
 📒 [.vue 怎么变成 .js，我们来试一试！看完会更懂 Vue 吗](https://mp.weixin.qq.com/s/okdRokwt_xDi65GxyhVnXw)
+
+⭐️ [Go 高性能 - 对象池](https://mp.weixin.qq.com/s/daF6fquIWiJ5pdaVDf0k2w)
+
+⭐️ [Go 高性能 - 切片过滤器](https://mp.weixin.qq.com/s/dUjX-H4iTHjE47vtirSbxA)
 
 ⭐️ [【译】该如何使用合理 Go 语言的 struct](https://mp.weixin.qq.com/s/A_n45ZIZphyOkSfiB1kDDA)
 
