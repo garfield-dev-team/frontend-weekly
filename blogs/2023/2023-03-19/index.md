@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go 高性能 - channel 缓冲区](https://mp.weixin.qq.com/s/mXsJePekUs8uSMNaJHd6Pg)
+
+⭐️ [Go 高性能 - singleflight 防止缓存击穿](https://mp.weixin.qq.com/s/8hDHO83po_6qFLWWj9VxAA)
+
+📒 [开源工作者福音，用 ChatGPT 评审 Pull Request，解决双手又能多提交两个commit了](https://mp.weixin.qq.com/s/jDOZqkmxwsDf13b9AJeI7A)
+
+📒 [【webpack核心库】耗时7个小时，用近50张图来学习enhance-resolve中的数据流动和插件调度机制](https://mp.weixin.qq.com/s/LL9VytDK8w9_qiRiRivtmw)
+
+⭐️ [并发编程--协同等待WaitGroup的最佳实践](https://mp.weixin.qq.com/s/ijmUmqy-Q_mDdUjGZKcLfw)
+
+⭐️ [一文搞懂Go subtest](https://mp.weixin.qq.com/s/5zoNwCWnNNunrDtu6cokqg)
+
+📒 [Webpack 最近的任意代码漏洞是怎么回事](https://mp.weixin.qq.com/s/2t45ZwYxYCLZtdUcvAUeKg)
+
+⭐️ [Go语言中部分实现的接口(技巧)](https://mp.weixin.qq.com/s/S0tGeQJ4iC_dZA9EHW5GZA)
+
+⭐️ [别乱用了，用新的。Go SliceHeader 和 StringHeader 将会被废弃！](https://mp.weixin.qq.com/s/yQVWbBQQO1yuGJLOYzPuTQ)
+
 📒 [拒绝搬运文档，从实际出发介绍几个开发中用得上的TypeScript技巧](https://mp.weixin.qq.com/s/MkU1J_wAs2PEzirnfCPoGA)
 
 ⭐️ [Go 高性能 - timer 内存优化到 0 分配](https://mp.weixin.qq.com/s/TmpiDZo1y61-LfWNl5-Nrw)
