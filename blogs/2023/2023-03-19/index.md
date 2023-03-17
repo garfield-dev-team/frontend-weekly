@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+📒 小技巧集合
+
+新学到一个省时间的技巧，随机分支，再也不需要为分支名发愁了！我写了个自定义脚本，会随机 checkout 到名为「sorrycc-xxxx」的分支。脚本大致逻辑是这样，`const length = 4;const id = (Math.random() * 1e20).toString(36).substring(0, length);await $反引号git checkout -b sorrycc-${id}反引号;`
+
+gh 命令可以在命令行里操作 github，比如提 PR、绑定 ssh key 等，相见恨晚。
+
+> https://github.com/cli/cli
+
+利用 openai 帮你写 commit 信息，可以省去部分重复劳动，适用于对 commit 信息要求不高的业务项目。
+
+> https://goonlinetools.com/snapshot/code/#42rshrrrk3gq5h171lxiu
+
+在「Privacy & Security > Developer Tools」里[把 Terminal 等开发者工具加上](https://t.me/yqtalk/249)，绕开系统的安全策略，据说可以让请求和编译更快。
+
+习惯用 [Purrple Cat](https://www.youtube.com/watch?v=bJUO1WnjXQY) 作为工作背景音。
+
+查 IP 或运营商数据可在命令行中输入「curl cip.cc」。
+
+换了个 VSCode 主题「Nako」，红色系，挺好看。
+
+📒 [dynamicgo 开源 ：基于原始字节流的高性能+动态化 Go 数据处理](https://mp.weixin.qq.com/s/Cm7CXxhxRfACf4djhinDew)
+
+⭐️ [Go语言中嵌入类型的一些重要规则，你知道多少](https://mp.weixin.qq.com/s/UUfvnzXcAgI6Hflfb5lXXg)
+
 ⭐️ [Go 高性能 - channel 缓冲区](https://mp.weixin.qq.com/s/mXsJePekUs8uSMNaJHd6Pg)
 
 ⭐️ [Go 高性能 - singleflight 防止缓存击穿](https://mp.weixin.qq.com/s/8hDHO83po_6qFLWWj9VxAA)
