@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 monorepo 相关文章
+
+[monorepo工作流基础之changesets打开与进阶](https://blog.csdn.net/qq_21567385/article/details/122361591)
+
+https://sakina.blog.csdn.net/?type=blog
+
+https://modernjs.dev/guides/topic-detail/changesets/release-pre.html
+
+⭐️ [Lazy Loading Routes in React Router 6.4+](https://remix.run/blog/lazy-loading-routes)
+
+📒 [如何规范地发布一个现代化的 NPM 包](https://mp.weixin.qq.com/s/Vy2pEKrG-N27TYVRlTvwaw)
+
+⭐️ [「Go框架」bind函数：gin框架中是如何将请求数据映射到结构体的](https://mp.weixin.qq.com/s/ldqBkRYaaXqthoC9sbOVaw)
+
+⭐️ [基于性能分析的优化预览](https://mp.weixin.qq.com/s/elsHIqDQ0yABUZXNVpjwMg)
+
+📒 [做量化交易发愁写代码？一招教你白嫖GPT-4智能编程神器](https://mp.weixin.qq.com/s/e2MnalUKgve6BRxBP2IOrA)
+
 ⭐️ [Go 语言并发模式代码模板](https://mp.weixin.qq.com/s/431YMKwRjaStanqA6juePA)
 
 ⭐️ [「从0实现React18系列」Fiber架构的实现原理](https://juejin.cn/post/7212603037667786813)
