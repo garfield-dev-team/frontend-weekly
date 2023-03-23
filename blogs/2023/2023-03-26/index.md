@@ -5,6 +5,24 @@ authors: [garfield]
 tags: []
 ---
 
+📒 基于 openai 开发 CLI 工具
+
+https://platform.openai.com/docs/guides/completion/introduction
+
+https://platform.openai.com/docs/api-reference/authentication
+
+https://github.com/sashabaranov/go-openai
+
+⭐️ [源码阅读 - 切片扩容过程](https://mp.weixin.qq.com/s/k0zwlJNFssMRh1NHA6rGcA)
+
+⭐️ [聊聊Go语言的全局变量](https://mp.weixin.qq.com/s/MI9x4YOAhbtS-xQtOS-K_A)
+
+⭐️ [「高频必考」Go并发编程面试题和答案](https://mp.weixin.qq.com/s/soaxFUjo6hEe2KSnle_LkQ)
+
+📒 [ECMAScript 2023 有哪些更新](https://mp.weixin.qq.com/s/SFMSlRafJZPljJ6cNnKVFg)
+
+⭐️ [「从0实现React18系列」Reconciler架构的双缓存树实现原理](https://juejin.cn/post/7213362704781852730)
+
 📒 monorepo 相关文章
 
 [monorepo工作流基础之changesets打开与进阶](https://blog.csdn.net/qq_21567385/article/details/122361591)
