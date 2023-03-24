@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go 内存模型](https://mp.weixin.qq.com/s/PG-3jJaoCIEccnJ3QtPXug)
+
+📒 [ChatGPT推出插件功能：可联网、可执行代码](https://mp.weixin.qq.com/s/s6wCRc_UqKf28Gc4RtZZPQ)
+
+📒 [【webpack核心库】耗时7个小时，用近50张图来学习enhance-resolve中的数据流动和插件调度机制](https://mp.weixin.qq.com/s/QcQlOscF9R0aF2x3Oe6doQ)
+
+📒 [Go每日一库之Pie ：一个高性能、类型安全的slice操作库](https://mp.weixin.qq.com/s/vdVZYEy5LznQSHI6klaCIg)
+
 📒 基于 openai 开发 CLI 工具
 
 https://platform.openai.com/docs/guides/completion/introduction
