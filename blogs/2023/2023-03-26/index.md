@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go开发命令行程序指南](https://mp.weixin.qq.com/s/8yLt0Sh18VF5ApTcuxV-Sg)
+
 ⭐️ [Go 内存模型](https://mp.weixin.qq.com/s/PG-3jJaoCIEccnJ3QtPXug)
 
 📒 [ChatGPT推出插件功能：可联网、可执行代码](https://mp.weixin.qq.com/s/s6wCRc_UqKf28Gc4RtZZPQ)
