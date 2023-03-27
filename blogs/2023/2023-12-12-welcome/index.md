@@ -909,6 +909,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
   - ⭐️ [一个 Go 程序的 Benchmark 基准分析工具](https://mp.weixin.qq.com/s/i1loQpQufni3v4Ho2J6Pgw)
   - ⭐️ [你说 Go 的切片原生支持并发吗](https://mp.weixin.qq.com/s/RLqjkV_1geeVkXeG9TLHFw)
+  - ⭐️ [Go设计模式-迭代器到底是不是一个多此一举的模式](https://mp.weixin.qq.com/s/sABibBRsC2kknbAH18oatA)
   - ⭐️ [Go设计模式--桥接模式，让代码既能多维度扩展又不会臃肿](https://mp.weixin.qq.com/s/O8shSU46TcgFPx3h7NGFAA)
   - ⭐️ [Go设计模式--享元模式，节省内存的好帮手](https://mp.weixin.qq.com/s/AZHO7R6IXFG8MguDpUNdbw)
   - ⭐️ [Go设计模式实战--用状态模式实现系统工作流和状态机](https://mp.weixin.qq.com/s/X9dKNO6sd-OY2VfsZpaElA)
