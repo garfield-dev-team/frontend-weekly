@@ -37,7 +37,7 @@ tags: []
 
 2）惰性加载。通过 profile 可以发现，npm cli 运行大部分时间其实都在加载模块。我们知道，Node 具有 JIT 特性，因此 `require` 实际上是非常昂贵的（回顾一下 `require` 加载机制）。建议按需 `require`，将 `require` 推迟到要用的时候再去加载，例如放在条件判断里面，可以显著提升 cli 启动性能（例如 Babel 插件、Webpack loader 支持配置字符串而不是传递实例，实际上也是延迟加载）；
 
-3）减小模块图。解释器在遇到 top level `import` or `require` 语句时，就会加载、解析模块（还是回顾一下 `require` 加载机制），引起大量文件 IO。与 Web 工程不同，Node 工程可以将所有代码打包到一个单文件中（`target: "node"`、禁用 Webpack 默认分包规则 `optimization.splitChunks.cacheGroups.default: false`），这样避免了模块加载开销，可以显著提升 cli 应用启动性能。
+3）减小模块图。解释器在遇到 top level `import` or `require` 语句时，就会加载、解析模块（还是回顾一下 `require` 加载机制），引起大量文件 IO。与 Web 工程不同，Node 工程可以将所有代码打包到一个单文件中（`target: "node"`、禁用 Webpack 默认分包规则 `optimization.splitChunks.cacheGroups.default: false`），这样避免了模块加载开销，可以显著提升 cli 应用启动性能。需要注意的是，如果一次性投喂代码太多，还是会影响性能，解法是和上面提到的惰性加载结合用（也就是 Node 不需要 bundle-splitting 分包，但可以用 code-splitting 做异步懒加载）。
 
 > https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/
 
