@@ -9,6 +9,39 @@ tags: []
 
 题图：Landscape illustration, Hayao Miyazaki, in the sea of flowers, clouds, fantastic sky, warm colors, simple composition。
 
+📒 相关链接
+
+推荐部署平台 Railway，可以部署 Docker 容器
+
+https://railway.app/dashboard
+
+[谁会拒绝一个免费的部署服务呢](https://mp.weixin.qq.com/s/jjmEPFwn_G4BH7df_EW2Mw)
+
+TiDB 是一个开源、云原生、分布式、与 MySQL 兼容的数据库，用于弹性规模和实时分析
+
+https://github.com/pingcap/tidb
+
+⭐️ [Go如何自动解压缩包？| 文末送书](https://mp.weixin.qq.com/s/fkRNfG6xZSkn-B-eKRBgSg)
+
+⭐️ [高并发系统设计(1): 如何实现抖音关注/粉丝列表](https://mp.weixin.qq.com/s/cIgfuumVCL4rxtNYGcQH4A)
+
+⭐️ [Go协程池(2): 如何实现协程池](https://mp.weixin.qq.com/s/ktMff61A9vvqeRGkGwQnwg)
+
+⭐️ [Go协程池(1): 线程vs协程](https://mp.weixin.qq.com/s/-qms3hEl2mNMkDN1S4ZQoQ)
+
+⭐️ [简洁而不简单的 sync.Once](https://mp.weixin.qq.com/s/S-v_A7gMoDvSDaryovb-zA)
+
+📒 axios的替代方案的思考和实践
+
+axios 存在哪些问题：
+
+- 与React、Vue等框架割裂
+- 在性能方面毫无作为（例如没有缓存、无法避免重复请求等等）
+- 臃肿的体积
+- TS 类型定义混乱（在拦截器中对响应数据进行解构，但是接口请求响应的数据还是 `AxiosResponse` 类型，需要手动用 `as` 断言）
+
+[axios的替代方案的思考和实践](https://mp.weixin.qq.com/s/bjAxC1OL4xaWZzAO0g8udw)
+
 📒 chatgpt逐字逐行回答的效果是如何实现的
 
 一句话总结：通过 `Content-Type: text/event-stream` 做流式响应。
