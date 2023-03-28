@@ -65,6 +65,8 @@ tags: []
 
 > https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/
 
+Umi 例行每周四发一版，我觉得有趣的功能包括，1）基于 Rust 实现类 es-module-lexer 解析器用于 prepare 阶段采集 import 数据，2）配置校验陆续从 joi 迁移到 zod，3）新增 umi? 命令，这是框架结合 openai 的第一个尝试，4）MFSU 支持 WASM。
+
 📒 Golang 相关文章
 
 The one-and-only, must-have, eternal Go project layout
