@@ -58,6 +58,12 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
+          # 安装最新版本的 PNPM
+          # 注意 PNPM v8 默认启用 lockfile v6
+          # 正常用 pnpm install 可以刷新 lockfile
+          # 但是 CI 环境装包会带上 `--frozen-lockfile` 参数，不刷新 lcokfile
+          # 如果 lockfile 版本不一致会直接报错
+          # 此时需要本地手动 pnpm install 刷新 lockfile 再重新构建
           version: latest
 
       - name: Get pnpm store directory
