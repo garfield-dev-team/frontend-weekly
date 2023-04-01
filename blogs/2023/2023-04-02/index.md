@@ -9,6 +9,50 @@ tags: []
 
 题图：Landscape illustration, Hayao Miyazaki, in the sea of flowers, clouds, fantastic sky, warm colors, simple composition。
 
+📒 地表最强动画基础库：framer-motion
+
+framer-motion v10.6 特性：animate api 可以控制随时停止、取消、完成。
+
+https://www.framer.com/motion/animate-function/#controls
+
+📒 PromQL 相关内容
+
+[Introduction to PromQL, the Prometheus query language](https://grafana.com/blog/2020/02/04/introduction-to-promql-the-prometheus-query-language/)
+
+https://promlabs.com/promql-cheat-sheet/
+
+[为 Apache SkyWalking 构建 Grafana Dashboard —— 原生 PromQL 支持](https://juejin.cn/post/7215454235054473277)
+
+📒 [学会 Go select 语句，轻松实现高效并发](https://mp.weixin.qq.com/s/pTw4-p_o_RXlym7qs0KYWA)
+
+⭐️ [使用go test框架驱动的自动化测试](https://mp.weixin.qq.com/s/RKshV1hu61wabq4am906PA)
+
+📒 面试遇到 性能优化 必答的 9 个点，加分
+
+几点补充：
+
+1、SPA 项目，一个路由对应一个页面，如果不做处理，项目打包后，会把所有页面打包成一个文件
+
+实际 Webpack 打包的时候，会综合考虑 chunk 大小、缓存复用率、减少模块冗余、并行请求数等因素，不一定把 Initial Chunk 打包为单文件，也可以是多个文件，但是这些文件一定是 **同步加载** 的。
+
+可以参考 `optimization.splitChunks` 内置分包规则：
+
+> https://webpack.js.org/plugins/split-chunks-plugin/#defaults
+
+2、将路由全部改成懒加载，重新打包后，首页资源拆分为 app.js 和 home.js，以及对应的 css 文件，通过路由懒加载，该项目的首页资源压缩约 52%
+
+Code-Splitting 不一定能明显优化首屏加载性能。例如 Initial Chunk 和 Async Chunk 都有一些体积较大的公共依赖，例如 `react`、`react-dom`、`react-router-dom` 等，这种情况下，即使针对每个页面组件做了懒加载，公共依赖仍会被视为同步 chunk（因为首屏加载需要依赖这些公共包），实际异步加载的只有体积很小的业务代码。
+
+当然 Code-Splitting 在特定场景下还是非常有用的，例如有上百个路由的后台管理系统，虽然每个页面的业务代码体积很小，但是首屏一次性加载几百个页面，压力还是有点大（首屏时间随业务规模线性增长）。如果做了路由懒加载，则可以按需加载当前页面的业务代码，保证首屏时间都是 `O(1)` 复杂度。
+
+3、项目打包后，发现 home.js 和 about.js 均包括了该弹框组件的代码
+
+与第一点类似，Webpack 打包的时候，不仅考虑模块冗余问题，还会考虑减少并行请求数。例如两个以上 Async Chunk 存在公共依赖，若公共依赖体积较小，则 Webpack 可能不会单独抽提 chunk，而是给每个 Async Chunk 都打包一份公共依赖，好处是可以减少网络请求数量。
+
+[面试遇到 性能优化 必答的 9 个点，加分！](https://mp.weixin.qq.com/s/ou1ny4T81iu2oUAk75ZuBQ)
+
+📒 [Go Mutex：保护并发访问共享资源的利器](https://mp.weixin.qq.com/s/y6lppalSRwLhCjS9yQYuUQ)
+
 ⭐️ [【补充代码】Go BIO/NIO探讨(3): 基于系统调用实现tcp echo server](https://mp.weixin.qq.com/s/76xvAvnFAcDUAa6fgoZRfg)
 
 📒 [「高频必考」Docker&K8S面试题和答案](https://mp.weixin.qq.com/s/9XflprrEWd_DlA3l1wAG7Q)
