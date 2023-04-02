@@ -63,8 +63,6 @@ Code-Splitting 不一定能明显优化首屏加载性能。例如 Initial Chunk
 
 ⭐️ [Go 调试工具 - delve 快速入门](https://mp.weixin.qq.com/s/57jcuLwsJbtxnkkM7_R2_A)
 
-📒 [怎么使用 Go 语言设计模式提升开发效率](https://mp.weixin.qq.com/s/EDpfm74wpahI7z1x1lSClQ)
-
 ⭐️ [Golang反射学习：手写一个RPC](https://mp.weixin.qq.com/s/PzfiMXiYjfGQFHW_0hTS4A)
 
 📒 相关链接
