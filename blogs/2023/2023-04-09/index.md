@@ -9,6 +9,14 @@ tags: []
 
 题图：Cute and adorable cartoon Korean girl, along side pet。
 
+⭐️ [「刷起来」Go必看的进阶面试题详解](https://mp.weixin.qq.com/s/2iOkW5h7x-1wdYe51vMemw)
+
+📒 [Node 中文周刊 #83 - 新的 npm 包有一半是垃圾包吗](https://mp.weixin.qq.com/s/OKpGMYsHIrak06LGmeD5JA)
+
+⭐️ [字节跳动开源 Shmipc：基于共享内存的高性能 IPC](https://mp.weixin.qq.com/s/f8SoJELaBoieePwMtRlj-Q)
+
+⭐️ [iptables 的五表五链](https://mp.weixin.qq.com/s/D0FqiY5pPE9pJ-6AFMbZWQ)
+
 📒 [前端食堂技术周刊第 77 期：三月登陆浏览器的新功能、Nuxt DevTools、pnpm v8.0.0、重新思考 React 最佳实践、CLI 脚手架工具生态](https://juejin.cn/post/7217780935536705591)
 
 📒 [有趣！深挖推特开源算法；ChatGPT封号对策汇总；ControlNet最全教程；搭建ChatGPT应用；构建开源项目阅读工作流 | ShowMeAI日报](https://juejin.cn/post/7217741020372910137)
