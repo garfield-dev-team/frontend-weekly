@@ -9,6 +9,18 @@ tags: []
 
 题图：Cute and adorable cartoon Korean girl, along side pet。
 
+📒 为什么 Python、Go 和 Rust 都不支持三元运算符
+
+[为什么 Python、Go 和 Rust 都不支持三元运算符](https://juejin.cn/post/7217755581847846967)
+
+https://go.dev/doc/faq#Does_Go_have_a_ternary_form
+
+⭐️ [深入探索Go语言的unsafe包，揭秘它的黑科技和应用场景！](https://juejin.cn/post/7218772329034661925)
+
+⭐️ [从零到一实现 Rust 的 channel 并发处理模型](https://mp.weixin.qq.com/s/lTFJPBXtU_NbZHsAUz3WHg)
+
+⭐️ [Go 性能加速器：你需要知道的 5 个诀窍和技巧](https://mp.weixin.qq.com/s/NJuOB8k86Z7Hv-xITL1Vqg)
+
 ⭐️ [「刷起来」Go必看的进阶面试题详解](https://mp.weixin.qq.com/s/2iOkW5h7x-1wdYe51vMemw)
 
 📒 [Node 中文周刊 #83 - 新的 npm 包有一半是垃圾包吗](https://mp.weixin.qq.com/s/OKpGMYsHIrak06LGmeD5JA)
