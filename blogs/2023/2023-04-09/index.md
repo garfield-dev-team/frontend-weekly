@@ -9,6 +9,20 @@ tags: []
 
 题图：Cute and adorable cartoon Korean girl, along side pet。
 
+⭐️ [Go RWMutex：高并发读多写少场景下的性能优化利器](https://juejin.cn/post/7218554163051413561)
+
+⭐️ [Go Mutex：保护并发访问共享资源的利器](https://juejin.cn/post/7215188852851097656)
+
+⭐️ [学会 Go select 语句，轻松实现高效并发](https://juejin.cn/post/7210005376653377597)
+
+⭐️ [Go 编译器优化](https://mp.weixin.qq.com/s/eWM9AvG1qXnMWF4qIwhnVQ)
+
+⭐️ [从.go文本文件到可执行文件](https://mp.weixin.qq.com/s/V5wAZcTbunU3HdS1xaWavQ)
+
+📒 [深入浅出 Kubernetes Pod 实现原理](https://mp.weixin.qq.com/s/ZZvnEH4DaFWev_O9-U0hyg)
+
+⭐️ [fasthttp 为什么比标准库快 10 倍](https://mp.weixin.qq.com/s/wMh6i3poZ0jzwO2X6H5JEQ)
+
 📒 为什么 Python、Go 和 Rust 都不支持三元运算符
 
 [为什么 Python、Go 和 Rust 都不支持三元运算符](https://juejin.cn/post/7217755581847846967)
