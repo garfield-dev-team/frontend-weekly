@@ -14,10 +14,6 @@ Netlify:
 
 > https://frontend-weekly.netlify.app/
 
-### ⚠️ Breaking Change!!! Upgrade to docusaurus@2.0.1
-
-Please note that docusaurus@2.0.1 requires Node >= 16.14.0, make sure your Node version is not out-dated. We recommand you to use the latest LTS version.
-
 ### 安装 docusaurus
 
 ```bash
@@ -26,8 +22,25 @@ $ npx create-docusaurus@latest my-website classic --typescript --package-manager
 
 ### 更新 docusaurus
 
+更新 docusaurus 核心库：
+
 ```bash
-$ pnpm upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
+$ pnpm up @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest
+
+# 可以简写如下
+$ pnpm up "@docusaurus/*" --latest
+```
+
+更新其他依赖：
+
+```bash
+$ pnpm up
+```
+
+更新 TypeScript：
+
+```bash
+$ pnpm up typescript --latest
 ```
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
