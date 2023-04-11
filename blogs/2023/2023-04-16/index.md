@@ -9,6 +9,10 @@ tags: []
 
 题图：an asian city, in the style of japanese traditional art influence。
 
+📒 [React 中文周刊 #135 - Dan Abramov 探索 React 服务端组件](https://mp.weixin.qq.com/s/gAJc3zFYAbPmGsqXMfKAZA)
+
+⭐️ [Go 环境变量 - GODEBUG 详解](https://mp.weixin.qq.com/s/AunOvSWc0g-y5DgkxwP2AQ)
+
 📒 [2023再谈前端状态管理](https://mp.weixin.qq.com/s/VGpgoMs1XAxhXPsadH1cwA)
 
 📒 [Vite 4.3 性能大幅提升！](https://mp.weixin.qq.com/s/c9yQEliLF9LR8troo0EkIw)
@@ -29,7 +33,7 @@ tags: []
 
 ⭐️ [GoLand 2023.1 正式发布，看有哪些新功能](https://mp.weixin.qq.com/s/SVMj-PvI1l-oSlxI4zaNcw)
 
-📒 MDH 前端周刊第 94 期：-10x 工程师、Next.js、WebGPU、Chakra UI、写作
+📒 MDH 前端周刊第 95 期：-10x 工程师、Next.js、WebGPU、Chakra UI、写作
 
 - Vercel [Edge Config](https://vercel.com/blog/vercel-edge-config-is-now-generally-available) 已普遍可用。
 - Nextjs [v13.3](https://nextjs.org/blog/next-13-3) 发布，新路由约定等。
@@ -51,4 +55,4 @@ tags: []
 
 > https://remix.run/blog/migrate-from-webpack
 
-[MDH 前端周刊第 94 期：-10x 工程师、Next.js、WebGPU、Chakra UI、写作](https://mdhweekly.com/weekly/issue-0095)
+[MDH 前端周刊第 95 期：-10x 工程师、Next.js、WebGPU、Chakra UI、写作](https://mdhweekly.com/weekly/issue-0095)
