@@ -9,6 +9,12 @@ tags: []
 
 题图：an asian city, in the style of japanese traditional art influence。
 
+⭐️ [singleflight 设计与实现](https://mp.weixin.qq.com/s/WayT3afVbzngdNGyvsBZyQ)
+
+📒 [🤩 如何解决 SVG 图片中字体失效的问题](https://mp.weixin.qq.com/s/urciRQ06n-hLvAF4j5DAVw)
+
+⭐️ [Go sync.Once：简约而不简单的并发利器](https://juejin.cn/post/7220797267716358199)
+
 📒 [React 中文周刊 #135 - Dan Abramov 探索 React 服务端组件](https://mp.weixin.qq.com/s/gAJc3zFYAbPmGsqXMfKAZA)
 
 ⭐️ [Go 环境变量 - GODEBUG 详解](https://mp.weixin.qq.com/s/AunOvSWc0g-y5DgkxwP2AQ)
