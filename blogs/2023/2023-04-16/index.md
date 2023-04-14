@@ -9,6 +9,8 @@ tags: []
 
 题图：an asian city, in the style of japanese traditional art influence。
 
+📒 [我问了鹅厂程序员：你们工作中怎么用ChatGPT？如何高效Prompt](https://mp.weixin.qq.com/s/L-P-QTReyijbU33ARo-BbA)
+
 📒 `sync.Once` 总结一下
 
 单例模式有两种写法，1）提前把实例创建出来，2）等到要用的时候再创建实例。用 `init` 函数可以实现第一种，借助 `sync.Once` 则可以实现第二种。
