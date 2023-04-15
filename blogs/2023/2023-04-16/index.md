@@ -9,6 +9,25 @@ tags: []
 
 题图：an asian city, in the style of japanese traditional art influence。
 
+📒 如何终止某个端口运行的进程
+
+发现 VS Code 有个 bug，终端结束 Next.js 服务（在 3000 端口运行）之后再启动，此时发现 3000 端口被占用了，自动改成 3001 端口，说明原先 Next.js 进程还在继续跑。
+
+可以用 `lsof -i` 命令查看某个端口正在运行的进程 ID：
+
+```bash
+$ lsof -i :3000
+
+COMMAND   PID       USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+node    61440   garfield   21u  IPv6 0x44c3c99e2d153375      0t0  TCP *:hbci (LISTEN)
+```
+
+找到 PID 之后，用 `kill` 命令终止进程：
+
+```bash
+$ kill 61440
+```
+
 📒 [我问了鹅厂程序员：你们工作中怎么用ChatGPT？如何高效Prompt](https://mp.weixin.qq.com/s/L-P-QTReyijbU33ARo-BbA)
 
 📒 `sync.Once` 总结一下
