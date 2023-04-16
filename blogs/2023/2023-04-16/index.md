@@ -9,6 +9,65 @@ tags: []
 
 题图：an asian city, in the style of japanese traditional art influence。
 
+⭐️ [Go 1.20.3 又是一堆安全问题，我们还是抽空更新一下吧](https://mp.weixin.qq.com/s/OKcnpx5YIeMP90dTCAd3OA)
+
+⭐️ [技术文章配图指南](https://mp.weixin.qq.com/s/dUVqudV1qei3uyiYxL9CLw)
+
+📒 2023 年如何搭建新的 React 项目
+
+1、`create-next-app`
+
+```bash
+$ pnpm create next-app@latest nextjs-app
+```
+
+2、`create-t3-app`
+
+了解了下 [T3 App 架构](https://create.t3.gg/)。T3 App 是一套全栈的技术栈，一个脚手架，包含客户端的 Next.js、Tailwind，服务端的 Prisma、Next Auth，API 侧的 tRPC。主打类型安全，所以 T3 的 T 即 Typed（类型安全）。3 个 T 分别是 React 前端、数据库客户端和 API 调用端的类型安全。
+
+![image](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221124211445.png)
+
+T3 App 的 3 个理念值得学习。1）解决问题，不添加「所有」东西，只加能解决问题的技术，2）负责任的做技术革新，在风险小的地方使用风险大的技术，3）类型安全不是可用可无，因为可以提高生产力和减少错误发生。
+
+全栈技术栈除了 T3 App，还有其他选择，见下图。图中有个变化是 Bison 也将切换 GraphQL 到 tRPC，他们还写了文章介绍他们《为啥舍弃 GraphQL 而选择 tRPC》（Why we ditched GraphQL for tRPC），主要原因是，1）可以少写一半的样板代码，2）避免不必要的代码生成，tRPC 基于类型推导，3）Client 包尺寸，GraphQL 是 tRPC 的 3.5 倍，4）tRPC 可结合 React Query 使用，Apollo 搞不太好的缓存啥的都属于基础功能。
+
+![image](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221124211544.png)
+
+tRPC [发布 10](https://trpc.io/blog/announcing-trpc-10)，似乎正在成为越来越多人的选择，不仅是 T3 App 技术栈的选择，同时 Bison 团队也写了文章介绍他们[《为啥舍弃 GraphQL 而选择 tRPC》](https://echobind.com/post/why-we-ditched-graphql-for-trpc)。
+
+Tailwind 其实不是类型安全的，需要借助编辑器辅助。比如 VSCode 要装 Tailwind CSS IntelliSense，WebStorm 则是内置支持。
+
+NextAuth 内置的是 Discord 登录，因为配置最简单，只要在 .env 里提供 token 即可，也可稍做配置切换到 github、twitter、google 等登录方式。
+
+部署时可以把数据库部署到 Railway 或 PlanetScale，然后把其余部分部署到 Vercel、Railway、Render 或 Fly。Vercel 虽然部署起来简单，但缺点也很明显，问题是在 Lambda 函数里跑 Prisma 会有明显的冷启动时间，性能不太好。
+
+本地实操跑了个 Blog 的 CURD + 部署流程，部署到 Railway 的 postgresql 数据库和 Vercel 的前端，一切顺利。
+
+文档中的「其他推荐」也值得一看，包括数据流、组件库、动画、部署和基础设施、统计等维度的推荐。
+
+```bash
+$ pnpm create t3-app@latest
+```
+
+
+参考：
+
+[Create T3 App](https://create.t3.gg/ "Create T3 App")
+
+[GitHub - t3-oss/create-t3-app: The best way to sta...](https://github.com/t3-oss/create-t3-app "GitHub - t3-oss/create-t3-app: The best way to sta...")
+
+[https://dev.to/ajcwebdev/a-first-look-at-create-t3...](https://dev.to/ajcwebdev/a-first-look-at-create-t3-app-1i8f "https://dev.to/ajcwebdev/a-first-look-at-create-t3...")
+
+[Prisma | Next-generation ORM for Node.js & TypeScr...](https://www.prisma.io/ "Prisma | Next-generation ORM for Node.js & TypeScr...")
+
+[Railway](https://railway.app/ "Railway")
+
+[Why we ditched GraphQL for tRPC](https://echobind.com/post/why-we-ditched-graphql-for-trpc "Why we ditched GraphQL for tRPC")
+
+📒 [webpack核心模块tapable源码解析](https://mp.weixin.qq.com/s/TuxhXlPxA81vtaU1y-aKcw)
+
+📒 [速度提高几百倍，记一次数据结构在实际工作中的运用](https://mp.weixin.qq.com/s/q5YDEmohyrtQ_teS0Ws7Fg)
+
 📒 如何终止某个端口运行的进程
 
 发现 VS Code 有个 bug，终端结束 Next.js 服务（在 3000 端口运行）之后再启动，此时发现 3000 端口被占用了，自动改成 3001 端口，说明原先 Next.js 进程还在继续跑。
