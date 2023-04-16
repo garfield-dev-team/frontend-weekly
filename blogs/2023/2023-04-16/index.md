@@ -49,7 +49,6 @@ NextAuth 内置的是 Discord 登录，因为配置最简单，只要在 .env �
 $ pnpm create t3-app@latest
 ```
 
-
 参考：
 
 [Create T3 App](https://create.t3.gg/ "Create T3 App")
