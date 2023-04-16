@@ -88,57 +88,6 @@ $ kill 61440
 
 📒 [我问了鹅厂程序员：你们工作中怎么用ChatGPT？如何高效Prompt](https://mp.weixin.qq.com/s/L-P-QTReyijbU33ARo-BbA)
 
-📒 `sync.Once` 总结一下
-
-单例模式有两种写法，1）提前把实例创建出来，2）等到要用的时候再创建实例。用 `init` 函数可以实现第一种，借助 `sync.Once` 则可以实现第二种。
-
-```go
-package main
-
-import (
-  "fmt"
-  "sync"
-)
-
-type Singleton struct{}
-
-var (
-  instance *Singleton
-  once     sync.Once
-)
-
-func GetInstance() *Singleton {
-  once.Do(func() {
-    instance = &Singleton{}
-  })
-  return instance
-}
-
-func main() {
-  var wg sync.WaitGroup
-
-  for i := 0; i < 5; i++ {
-    wg.Add(1)
-    go func() {
-      defer wg.Done()
-      s := GetInstance()
-      fmt.Printf("Singleton instance address: %p\n", s)
-    }()
-  }
-
-  wg.Wait()
-}
-```
-
-两点注意：
-
-- 在 `doSlow` 方法中，由于已经加锁，因此可以直接 `o.done` 访问，无需再用原子操作；
-- 在 `doSlow` 方法中，修改 `done` 的值用的是 `atomic.StoreUint32()` 原子操作，是为了让 `done` 的值修改对其他 goroutine 可见（因为 `Do` 方法访问是用 `atomic.LoadUint32()` 原子操作，不需要加锁），可以在大多数情况下避免锁竞争，提高性能。
-
-[Go sync.Once：简约而不简单的并发利器](https://juejin.cn/post/7220797267716358199)
-
-[简洁而不简单的 sync.Once](https://mp.weixin.qq.com/s/S-v_A7gMoDvSDaryovb-zA)
-
 ⭐️ [singleflight 设计与实现](https://mp.weixin.qq.com/s/WayT3afVbzngdNGyvsBZyQ)
 
 📒 [🤩 如何解决 SVG 图片中字体失效的问题](https://mp.weixin.qq.com/s/urciRQ06n-hLvAF4j5DAVw)
