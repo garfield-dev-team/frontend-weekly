@@ -9,6 +9,16 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+⭐️ [Go 语言中没有枚举类型，但是我们可以这样做](https://juejin.cn/post/7223035239072333861)
+
+📒 [React Query 完全指南，时下最热辣的请求库！](https://mp.weixin.qq.com/s/E55QGLxBQhIMn6IZAE8mNQ)
+
+📒 [React 中文周刊 #136 - “forwardRef()”： 如何将 ref 传给子组件](https://mp.weixin.qq.com/s/hHmGqeKnLOeS3FjEG5Rq_A)
+
+📒 [gin框架中如何让日志文字带颜色输出](https://mp.weixin.qq.com/s/eHtIC5egDoqx4LdAvcE5Qw)
+
+⭐️ [sync/atomic 设计与实现](https://mp.weixin.qq.com/s/lk8FgA7nFzkmN8F2fRQyvQ)
+
 ⭐️ [理解unsafe-assume-no-moving-gc包](https://mp.weixin.qq.com/s/EHSR-GFPJy5RzVDgcvoTog)
 
 📒 [做量化交易发愁写代码？一招教你白嫖GPT智能编程神器(重制版)](https://mp.weixin.qq.com/s/absG4tTPutRyi8QCvtUTaw)
