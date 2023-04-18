@@ -7,6 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "new:blog": "ts-node ./scripts/newBlog.ts",
+    "create-commit": "ts-node ./scripts/commit.ts",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
