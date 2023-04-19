@@ -9,6 +9,28 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [How I improve my skills in Typescript #2 : Mapped Type](https://dev.to/codeoz/how-i-improve-my-skills-in-typescript-2-mapped-type-dag)
+
+⭐️ [Go语言中常见100问题-#72 Forgetting about sync.Cond](https://mp.weixin.qq.com/s/RVAscpwDDGfn3eR29ucSWg)
+
+⭐️ [Golang package sync 剖析(二)： sync.WaitGroup](https://mp.weixin.qq.com/s/B2xxsPMXylatERFlBV3e1w)
+
+⭐️ [Golang package sync 剖析(三)：sync.Cond](https://mp.weixin.qq.com/s/aRVHYQkCyHRsjaIWlBJGFw)
+
+⭐️ [Golang package sync 剖析(四)：sync.Map](https://mp.weixin.qq.com/s/alCp-nzot4zf5IeFc4z-dQ)
+
+⭐️ [Golang语言标准库 sync 包的 Cond 怎么使用](https://mp.weixin.qq.com/s/OcLrO-oINk2j2w9sEJvkPw)
+
+⭐️ [Go标准库sync.Cond详解 | Gopher Daily (2021.04.13) ʕ◔ϖ◔](https://mp.weixin.qq.com/s/YD-u4XgrJ5HSodHmeQWP-Q)
+
+⭐️ [sync.WaitGroup 设计与实现](https://mp.weixin.qq.com/s/B3GCAw3qNBFfK7MJ99aXfg)
+
+📒 [实践指南-前端性能提升 270%](https://mp.weixin.qq.com/s/Rw3rSsEbHAra0MwNeMTlfQ)
+
+⭐️ [Bytes 发布 React, Visualized 教程](https://react.gg/visualized)
+
+⭐️ [Mastering React: Techniques to Take Your UI to the Next Level](https://blog.bitsrc.io/mastering-react-techniques-to-take-your-ui-to-the-next-level-a5002173904f)
+
 ⭐️ [Go 语言中没有枚举类型，但是我们可以这样做](https://juejin.cn/post/7223035239072333861)
 
 📒 [React Query 完全指南，时下最热辣的请求库！](https://mp.weixin.qq.com/s/E55QGLxBQhIMn6IZAE8mNQ)
