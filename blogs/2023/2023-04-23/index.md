@@ -9,6 +9,16 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [定制自己的文档问答机器人](https://mp.weixin.qq.com/s/mBuNGuMqC5e8GadR86Gq-Q)
+
+⭐️ [Go语言中常见100问题-#33 Making wrong assumptions during map iterations](https://mp.weixin.qq.com/s/gwsWE-NTBOs0NnsdNG4WBw)
+
+📒 [我把我的简历丢给chatGPT，他问了我这些问题](https://mp.weixin.qq.com/s/XmWvLBqIDIm4DHpWbCiYJA)
+
+⭐️ [sync.Mutex 设计与实现](https://mp.weixin.qq.com/s/D9Zgh2pm6hqqbIOkefrNcw)
+
+📒 [React的并发悖论](https://mp.weixin.qq.com/s/U75WLX49h_zaQ-rQtHwljA)
+
 📒 [How I improve my skills in Typescript #2 : Mapped Type](https://dev.to/codeoz/how-i-improve-my-skills-in-typescript-2-mapped-type-dag)
 
 ⭐️ [Go语言中常见100问题-#72 Forgetting about sync.Cond](https://mp.weixin.qq.com/s/RVAscpwDDGfn3eR29ucSWg)
