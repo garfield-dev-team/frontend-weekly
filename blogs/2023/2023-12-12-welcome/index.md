@@ -1105,6 +1105,7 @@ import TabItem from '@theme/TabItem';
   - 🌟 [Go 语言原本](https://github.com/golang-design/under-the-hood)
   - 🌟 [Go 语言原本（在线阅读）](https://golang.design/under-the-hood/)
   - 🌟 [Learn Go with tests](https://studygolang.gitbook.io/learn-go-with-tests)
+  - 🌟 [golang 编程规范 - 项目目录结构](https://makeoptim.com/golang/standards/project-layout)
   - [Go 夜读](https://github.com/talkgo/night)
   - [已入字节的大佬各厂三年Go面经](https://mp.weixin.qq.com/s/VKPSqS50Un29x30KIgB0tA)
 - Golang 算法
