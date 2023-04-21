@@ -17,11 +17,13 @@ tags: []
 
 [Happens before 原则在 Go 内存模型中的应用举例](https://mp.weixin.qq.com/s/u8pXAxs1nMgNSzAQZIK3YQ)
 
-https://go.dev/ref/mem
-
 [『每周译Go』更新Go内存模型](https://mp.weixin.qq.com/s/R9QZv-d4nl4L5ksKoz-O9w)
 
-[Golang 语言的内存模型](https://mp.weixin.qq.com/s/X4BDr_ANxiFT5MPdcL1Bhg)
+参考：
+
+https://go.dev/ref/mem
+
+https://research.swtch.com/gomm
 
 ⭐️ [sync.RWMutex 设计与实现](https://mp.weixin.qq.com/s/SkNewGFEX0KuRaHcKRxldg)
 
