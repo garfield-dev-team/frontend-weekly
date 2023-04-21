@@ -9,6 +9,24 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+⭐️ [Go 方法接收器：选择值接收器还是指针接收器](https://juejin.cn/post/7224147971834691639)
+
+⭐️ Go 内存模型
+
+[Go 内存模型](https://mp.weixin.qq.com/s/PG-3jJaoCIEccnJ3QtPXug)
+
+[Happens before 原则在 Go 内存模型中的应用举例](https://mp.weixin.qq.com/s/u8pXAxs1nMgNSzAQZIK3YQ)
+
+https://go.dev/ref/mem
+
+[『每周译Go』更新Go内存模型](https://mp.weixin.qq.com/s/R9QZv-d4nl4L5ksKoz-O9w)
+
+[Golang 语言的内存模型](https://mp.weixin.qq.com/s/X4BDr_ANxiFT5MPdcL1Bhg)
+
+⭐️ [sync.RWMutex 设计与实现](https://mp.weixin.qq.com/s/SkNewGFEX0KuRaHcKRxldg)
+
+⭐️ [Go 单元测测时尽量用 fake object](https://mp.weixin.qq.com/s/yycu10nLvpC0XiRemSy3lA)
+
 📒 [定制自己的文档问答机器人](https://mp.weixin.qq.com/s/mBuNGuMqC5e8GadR86Gq-Q)
 
 ⭐️ [Go语言中常见100问题-#33 Making wrong assumptions during map iterations](https://mp.weixin.qq.com/s/gwsWE-NTBOs0NnsdNG4WBw)
@@ -20,6 +38,14 @@ tags: []
 📒 [React的并发悖论](https://mp.weixin.qq.com/s/U75WLX49h_zaQ-rQtHwljA)
 
 📒 [How I improve my skills in Typescript #2 : Mapped Type](https://dev.to/codeoz/how-i-improve-my-skills-in-typescript-2-mapped-type-dag)
+
+📒 TypeScript 4.9 satisfies
+
+https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator
+
+[# TypeScript 4.9: satisfies operator](https://dev.to/ayc0/typescript-49-satisfies-operator-1e4i)
+
+[# Typescript’s new ‘satisfies’ operator](https://medium.com/@cefn/typescript-satisfies-6ba52e74cb2f)
 
 ⭐️ [Go语言中常见100问题-#72 Forgetting about sync.Cond](https://mp.weixin.qq.com/s/RVAscpwDDGfn3eR29ucSWg)
 
