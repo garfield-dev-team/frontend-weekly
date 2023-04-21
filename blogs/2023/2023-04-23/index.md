@@ -9,6 +9,8 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [给想玩AI的新手｜Stable Diffusion 保姆级入门手册](https://juejin.cn/post/7224326251115298876)
+
 ⭐️ [Go 方法接收器：选择值接收器还是指针接收器](https://juejin.cn/post/7224147971834691639)
 
 ⭐️ Go 内存模型
