@@ -9,6 +9,24 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [聊聊React中的隐藏彩蛋功能](https://mp.weixin.qq.com/s/Q7oZqeWfzpm-yoeVvtUpsQ)
+
+⭐️ Go内存分配与逃逸分析
+
+[一文详解Go内存分配与逃逸分析](https://juejin.cn/post/7205903144173486138)
+
+[Go 为什么性能高？ 一文带你了解“逃逸分析”](https://mp.weixin.qq.com/s/b0Ac95yDLyeK4d74AE-x_A)
+
+[先聊聊「内存分配」，再聊聊Go的「逃逸分析」](https://mp.weixin.qq.com/s/xmml8gmz88G5zjgvxlKb_A)
+
+[「刷起来」Go必看的进阶面试题详解](https://mp.weixin.qq.com/s/2iOkW5h7x-1wdYe51vMemw)
+
+[Go内存分配和逃逸分析-实践总结篇](https://mp.weixin.qq.com/s/4gFAhPCUXB7rqXJZ6ibBJQ)
+
+[通过实例理解Go逃逸分析](https://mp.weixin.qq.com/s/ALzzT1kQ3VfYQly1LT7mQw)
+
+[『每周译Go』Go如何做逃逸分析](https://mp.weixin.qq.com/s/V-gyEohnGoKJmKCHCmIoIw)
+
 📒 [给想玩AI的新手｜Stable Diffusion 保姆级入门手册](https://juejin.cn/post/7224326251115298876)
 
 ⭐️ [Go 方法接收器：选择值接收器还是指针接收器](https://juejin.cn/post/7224147971834691639)
