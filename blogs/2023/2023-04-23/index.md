@@ -9,6 +9,10 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [【第2924期】如何在 Gitlab 中使用 ChatGPT 进行 CodeReview](https://mp.weixin.qq.com/s/Dyk1cYg63oOs13f9_gf9ug)
+
+📒 [「Go框架」深入理解gin框中Context的Request和Writer对象](https://mp.weixin.qq.com/s/61i36lTKHXVyGFUseMQhBw)
+
 📒 [聊聊React中的隐藏彩蛋功能](https://mp.weixin.qq.com/s/Q7oZqeWfzpm-yoeVvtUpsQ)
 
 ⭐️ Go内存分配与逃逸分析
