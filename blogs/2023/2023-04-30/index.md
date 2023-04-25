@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ Go pprof 相关
+
+[Go 服务自动收集线上问题现场](https://mp.weixin.qq.com/s/vB9ElJCfgZeQHtB596XHpA)
+
+[go pprof实战](https://mp.weixin.qq.com/s/vZUcDzBnrru4to6TVjrnBA)
+
+[生产环境Go程序内存泄露，用pprof如何快速定位](https://mp.weixin.qq.com/s/DPQyEZzeDOoe4umbwdCwSQ)
+
+⭐️ [为什么 recover 必须在 defer 中调用](https://mp.weixin.qq.com/s/Z2AsYEQeynlUv6-H-peHVg)
+
 📒 React 相关汇总
 
 Awesome React：近 500 个 React 项目和资源 — 这是一个与 React 生态系统相关，经常更新且深入的文章和资源集合。
