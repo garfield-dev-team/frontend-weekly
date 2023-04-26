@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [快速上手 Go CGO，掌握在 Go 里写 C！](https://juejin.cn/post/7226187111330611255)
+
+📒 [在 Git 中撤消更改的 6 种方法！](https://mp.weixin.qq.com/s/gWpNtnk6KKGrfALcxL26wQ)
+
+⭐️ [Go 1.21新特性前瞻](https://mp.weixin.qq.com/s/PwSJQM7WmJeLnDDbCr78hg)
+
+📒 [一个低代码拖拽的表单编辑器，开源咯！！！](https://mp.weixin.qq.com/s/pBePHA4d1nuYsiWuaTeIGg)
+
+⭐️ [GMP 调度器（上篇）- 数据结构](https://mp.weixin.qq.com/s/8OSK8anzNPuslwt61XuNUA)
+
 ⭐️ Go pprof 相关
 
 [Go 服务自动收集线上问题现场](https://mp.weixin.qq.com/s/vB9ElJCfgZeQHtB596XHpA)
