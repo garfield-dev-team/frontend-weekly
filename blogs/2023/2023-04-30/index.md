@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [并发编程-信号量的使用方法和其实现原理](https://mp.weixin.qq.com/s/QAMgkj-pDe36leDeGigu4Q)
+
+⭐️ [并发编程--用SingleFlight合并重复请求](https://mp.weixin.qq.com/s/dlCzH96u9Qo8_p3GIIrq4Q)
+
+⭐️ [Go的atomic.Value为什么不加锁也能保证数据线程安全](https://mp.weixin.qq.com/s/GFJO03DFNy8O3HcMeEhT6g)
+
+⭐️ [Golang 五种原子性操作的用法详解](https://mp.weixin.qq.com/s/W48sjzxwjPYKgcY8DavBYA)
+
+⭐️ [Webpack4的压缩阶段的性能优化和踩坑](https://mp.weixin.qq.com/s/_MJq-88MNFyvDTxUw_lFiA)
+
+⭐️ [GMP 调度器（中篇）- 算法](https://mp.weixin.qq.com/s/RlYY6aot6FZuI1Vt-Yvjig)
+
 ⭐️ [快速上手 Go CGO，掌握在 Go 里写 C！](https://juejin.cn/post/7226187111330611255)
 
 📒 [在 Git 中撤消更改的 6 种方法！](https://mp.weixin.qq.com/s/gWpNtnk6KKGrfALcxL26wQ)
