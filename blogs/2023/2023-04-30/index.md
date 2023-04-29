@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [写给开发同学AI强化学习入门指南](https://mp.weixin.qq.com/s/sTBFnSLS-WBjMWDokH2o9A)
+
+📒 [TypeScript 5.1 beta 发布：函数返回值类型优化、Getter/Setter 类型优化、JSX 增强](https://mp.weixin.qq.com/s/zMbvYYZJVyKFNvUy9jH4_Q)
+
+📒 [TypeScript 5.0 beta 发布：新版 ES 装饰器、泛型参数的常量修饰、枚举增强等](https://mp.weixin.qq.com/s/fw1OuYQvr-ErKOUKt7v-Ow)
+
+📒 [TypeScript 4.9 beta 发布：鸽置的 ES 装饰器、satisfies 操作符、类型收窄增强、单文件级别配置等](https://mp.weixin.qq.com/s/vsRw_6ir_aQXxtTf0D_GaQ)
+
 📒 [【第2929期】React Refs: 从访问 DOM 到命令式 API](https://mp.weixin.qq.com/s/nJzyr1qmuHehpcHmIfTBfA)
 
 ⭐️ [GMP 调度器（下篇）- 线程](https://mp.weixin.qq.com/s/O_gpiw9psebf0Rg3tfa3Wg)
