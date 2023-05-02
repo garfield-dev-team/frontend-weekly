@@ -13,6 +13,85 @@ tags: []
 
 📒 [TypeScript 4.9 beta 发布：鸽置的 ES 装饰器、satisfies 操作符、类型收窄增强、单文件级别配置等](https://mp.weixin.qq.com/s/vsRw_6ir_aQXxtTf0D_GaQ)
 
+📒 ES2020 可选链语法一个注意点
+
+ES2020 中的可选链语法可以安全访问对象中的属性：
+
+```js
+obj?.prop       // optional static property access
+obj?.[expr]     // optional dynamic property access
+func?.(...args) // optional function or method call
+```
+
+实际开发中的示例如下：
+
+```tsx
+import * as React from "react";
+
+const { useCallback } = React;
+
+type IProps = {
+  value?: string;
+  onChange?: (value: string) => void;
+}
+
+const Comp: React.FC<IProps> = ({ value, onChange }) => {
+  const handleChange = useCallback((val: string) => {
+    // 调用 `onChange` 需要可选链语法
+    onChange?.(val);
+  }, []);
+
+  const resolvedValue = value || "";
+
+  return (
+    <LayoutWrapper
+      value={resolvedValue}
+      onChange={handleChange}
+    />
+  )
+}
+```
+
+最近看到同事写的代码用到可选链，结果报错了：
+
+
+```js
+// ❎ Invalid left-hand side in assignment expression.
+document.querySelector(".content-main")?.style.display = "block";
+```
+
+但是以上代码，如果不用可选链则可以正常赋值：
+
+```js
+// ✅ Correct
+document.querySelector(".content-main").style.display = "block";
+```
+
+我们可以看下 Babel 编译的结果：
+
+```js
+// 源码
+document.querySelector(".content-main")?.style.display;
+
+// 编译结果
+var _document$querySelect;
+(_document$querySelect = document.querySelector(".content-main")) === null ||
+_document$querySelect === void 0
+  ? void 0
+  : _document$querySelect.style.display;
+```
+
+
+当 `document.querySelector(".content-main")` 返回的值不为 `null` 的时候，此时原始表达式可以正常访问，也可以进行赋值。但问题就在于 `document.querySelector(".content-main")` 返回值为 `null` 的时候，可选链语法会将整个表达式的值转为 `undefined`，此时如果再赋值就相当于给 `undefined` 赋值，这个行为显然是不符合预期的。因此，需要注意，可选链语法只能访问对象属性，不能进行赋值。
+
+顺便再提两个可选链语法的细节：1）为啥用一个 `_document$querySelect` 临时变量缓存 `?.` 前面的执行结果，答案是为了避免对象属性重复访问、方法重新调用等，可以提升性能，2）为啥用 `void 0` 代替 `undefined`，个人猜测是为了更好的语义性，因为 `undefined = "aaa";` 这个赋值虽然无效，但是在非严格模式下不会报错，因为 `undefined` 实际上是 `window` 对象上的只读属性，而 `void 0 = "aaa";` 这句即使非严格模式也会报错。
+
+参考：
+
+https://babeljs.io/docs/babel-plugin-proposal-optional-chaining
+
+https://github.com/tc39/proposal-optional-chaining
+
 📒 [【第2929期】React Refs: 从访问 DOM 到命令式 API](https://mp.weixin.qq.com/s/nJzyr1qmuHehpcHmIfTBfA)
 
 ⭐️ [GMP 调度器（下篇）- 线程](https://mp.weixin.qq.com/s/O_gpiw9psebf0Rg3tfa3Wg)
