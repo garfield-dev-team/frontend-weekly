@@ -1732,3 +1732,4 @@ import TabItem from '@theme/TabItem';
 - [「从0实现React18系列」Reconciler架构的双缓存树实现原理](https://juejin.cn/post/7213362704781852730)
 - [【webpack核心库】耗时7个小时，用近50张图来学习enhance-resolve中的数据流动和插件调度机制](https://mp.weixin.qq.com/s/QcQlOscF9R0aF2x3Oe6doQ)
 - [聊聊 Ant Design V5 的主题（上）：CSSinJS 动态主题的花活](https://juejin.cn/post/7199832444836593725)
+- [写给开发同学AI强化学习入门指南](https://mp.weixin.qq.com/s/sTBFnSLS-WBjMWDokH2o9A)
