@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 Next.js 项目参考
+
+https://github.com/okisdev/ChatChat
+
+📒 [通过实现一个简易版 react-redux ，我更理解了！](https://mp.weixin.qq.com/s/_6TfZpSHPzyaeJYYL3yDSA)
+
+⭐️ [Go设计模式--命令模式](https://mp.weixin.qq.com/s/n1R1fnRZuDwlaQqsDh5y3g)
+
 📒 [TypeScript 前端工程最佳实践](https://juejin.cn/post/7179791189812445244)
 
 📒 2023年谈谈前端代码加密与混淆
