@@ -5,6 +5,77 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Java与Go到底差别在哪，谁要被时代抛弃](https://mp.weixin.qq.com/s/JkpzM06IWNb11wUaJWJn8Q)
+
+📒 [如何利用 IOC 改善工程设计：以 Eclipse Theia 为例](https://mp.weixin.qq.com/s/6_2seJyDi47GNKT-pdh05Q)
+
+⭐️ Go1.21 速览：过了一年半，slices、maps 泛型库终于要加入标准库
+
+以下是社区提供的一个泛型快速 Demo，可以跟着思考运行一下，看看自己泛型的基本使用掌握的如何。
+
+代码如下：
+
+```go
+package main
+
+import "fmt"
+
+func MapKeys[K comparable, V any](m map[K]V) []K {
+    r := make([]K, 0, len(m))
+    for k := range m {
+        r = append(r, k)
+    }
+    return r
+}
+
+type List[T any] struct {
+    head, tail *element[T]
+}
+
+type element[T any] struct {
+    next *element[T]
+    val  T
+}
+
+func (lst *List[T]) Push(v T) {
+    if lst.tail == nil {
+        lst.head = &element[T]{val: v}
+        lst.tail = lst.head
+    } else {
+        lst.tail.next = &element[T]{val: v}
+        lst.tail = lst.tail.next
+    }
+}
+
+func (lst *List[T]) GetAll() []T {
+    var elems []T
+    for e := lst.head; e != nil; e = e.next {
+        elems = append(elems, e.val)
+    }
+    return elems
+}
+
+func main() {
+    var m = map[int]string{1: "2", 2: "4", 4: "8"}
+
+    fmt.Println("keys:", MapKeys(m))
+
+    _ = MapKeys[int, string](m)
+
+    lst := List[int]{}
+    lst.Push(10)
+    lst.Push(13)
+    lst.Push(23)
+    fmt.Println("list:", lst.GetAll())
+}
+```
+
+> 注意 `map` 遍历顺序是不可预测的
+
+[Go1.21 速览：过了一年半，slices、maps 泛型库终于要加入标准库](https://mp.weixin.qq.com/s/1NuBnk8_lxmTi9N0biLa2g)
+
+⭐️ [map 设计与实现（上篇）- 数据结构](https://mp.weixin.qq.com/s/EGM-ZXnuuWOdearV_xtdcQ)
+
 📒 Next.js 项目参考
 
 https://github.com/okisdev/ChatChat
