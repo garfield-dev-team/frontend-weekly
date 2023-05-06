@@ -5,6 +5,30 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ 前端工程化相关文章
+
+[一起来看看一个体系完善的前端React组件库是如何搭建出来的！](https://mp.weixin.qq.com/s/d0zbdhTctR7L_62SaY_VJA)
+
+[干货 | 耗时缩短2/3，Taro编译打包优化实践](https://mp.weixin.qq.com/s/z4GhUr5eA-4WbxVye4hmAQ)
+
+[干货 | 30+条业务线，携程微信小程序如何协同开发](https://mp.weixin.qq.com/s/g1XhCtfIL6yy-37Y_grtEw)
+
+[干货 | 秒开率70%+，携程金融SSR应用性能监测与优化](https://mp.weixin.qq.com/s/PT4y8OMWTpIto50qnT8gmg)
+
+[干货 | 携程微信小程序如何进行Size治理](https://mp.weixin.qq.com/s/293Lbr81oUWHeJ3TGfPRdw)
+
+[干货 | 携程小程序生态之Taro跨端解决方案](https://mp.weixin.qq.com/s/iT05ZXPVYFuCQgZZF9Zu5w)
+
+[携程跨端解决方案的新选择：Taro-CRN](https://mp.weixin.qq.com/s/twfPO155bA6lgQHY_lZjbg)
+
+⭐️ [万字长文：LLM - 大语言模型发展简史](https://mp.weixin.qq.com/s/nbO0kyZ5O-oqwLYXIA6b2w)
+
+📒 [Mojo 发布引出 Go 语言重大变革提案：用 .ʕ◔ϖ◔ʔ 替代 .go​](https://mp.weixin.qq.com/s/4rox6KfGYYdYtDIHzR4tog)
+
+⭐️ [Go：值与指针](https://mp.weixin.qq.com/s/FcuXy0Vqp6aczKpNpQeFrA)
+
+⭐️ [map 设计与实现（下篇）- 扩容和 QA](https://mp.weixin.qq.com/s/r-VXF2zttg9-8eu42ApD6w)
+
 ⭐️ [Java与Go到底差别在哪，谁要被时代抛弃](https://mp.weixin.qq.com/s/JkpzM06IWNb11wUaJWJn8Q)
 
 📒 [如何利用 IOC 改善工程设计：以 Eclipse Theia 为例](https://mp.weixin.qq.com/s/6_2seJyDi47GNKT-pdh05Q)
