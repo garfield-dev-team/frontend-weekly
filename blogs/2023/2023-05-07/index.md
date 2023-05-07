@@ -33,6 +33,14 @@ tags: []
 
 📒 [如何利用 IOC 改善工程设计：以 Eclipse Theia 为例](https://mp.weixin.qq.com/s/6_2seJyDi47GNKT-pdh05Q)
 
+📒 TailwindCSS vs. UnoCSS
+
+https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53
+
+📒 React ：新增实验性 API ：useOptimisticState
+
+https://github.com/facebook/react/pull/26740
+
 ⭐️ Go1.21 速览：过了一年半，slices、maps 泛型库终于要加入标准库
 
 以下是社区提供的一个泛型快速 Demo，可以跟着思考运行一下，看看自己泛型的基本使用掌握的如何。
