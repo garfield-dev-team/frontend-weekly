@@ -23,6 +23,56 @@ tags: []
 
 [携程跨端解决方案的新选择：Taro-CRN](https://mp.weixin.qq.com/s/twfPO155bA6lgQHY_lZjbg)
 
+⭐️ LangChain 中文入门教程
+
+LangChain 是一个用于开发由语言模型驱动的应用程序的框架，主要拥有「将 LLM 模型与外部数据源进行连接」「允许与 LLM 模型进行交互」这2个能力，已经在GitHub获得35K Star，并且快速迭代中。例如可以实现一些功能：
+
+- 对超长文本进行总结
+- 构建本地知识库问答机器人
+- 使用GPT3.5模型构建油管频道问答机器人
+
+假如我们想要用 openai api 对一个段文本进行总结，我们通常的做法就是直接发给 api 让他总结。但是如果文本超过了 api 最大的 token 限制就会报错。
+
+这时，我们一般会进行对文章进行分段，比如通过 tiktoken 计算并分割，然后将各段发送给 api 进行总结，最后将各段的总结再进行一个全部的总结。
+
+如果，你用是 LangChain，他很好的帮我们处理了这个过程，使得我们编写代码变的非常简单。
+
+```py
+from langchain.document_loaders import UnstructuredFileLoader
+from langchain.chains.summarize import load_summarize_chain
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain import OpenAI
+
+# 导入文本
+loader = UnstructuredFileLoader("/content/sample_data/data/lg_test.txt")
+# 将文本转成 Document 对象
+document = loader.load()
+print(f'documents:{len(document)}')
+
+# 初始化文本分割器
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size = 500,
+    chunk_overlap = 0
+)
+
+# 切分文本
+split_documents = text_splitter.split_documents(document)
+print(f'documents:{len(split_documents)}')
+
+# 加载 llm 模型
+llm = OpenAI(model_name="text-davinci-003", max_tokens=1500)
+
+# 创建总结链
+chain = load_summarize_chain(llm, chain_type="refine", verbose=True)
+
+# 执行总结链，（为了快速演示，只总结前5段）
+chain.run(split_documents[:5])
+```
+
+参考：
+
+https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide
+
 ⭐️ [万字长文：LLM - 大语言模型发展简史](https://mp.weixin.qq.com/s/nbO0kyZ5O-oqwLYXIA6b2w)
 
 📒 [Mojo 发布引出 Go 语言重大变革提案：用 .ʕ◔ϖ◔ʔ 替代 .go​](https://mp.weixin.qq.com/s/4rox6KfGYYdYtDIHzR4tog)
