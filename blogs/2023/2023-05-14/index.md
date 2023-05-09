@@ -9,6 +9,12 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [Go1.20.4 新版本发布，修复了一个神奇的内联 BUG！](https://mp.weixin.qq.com/s/4SxJW4feEOmDVhPCOnn9fg)
+
+⭐️ [sync.Cond 设计与实现](https://mp.weixin.qq.com/s/VAx257qmOWDovmx-eTlyww)
+
+📒 [React 正式推出 Canary 版本！](https://mp.weixin.qq.com/s/m9nDlS-2j6ByVyJVZsiGaA)
+
 ⭐️ 解读 pkg.go.dev 的设计和实现
 
 [解读 pkg.go.dev 的设计和实现：设计篇](https://mp.weixin.qq.com/s/LA3KB9Rd7kRLyc3lgSGOGQ)
