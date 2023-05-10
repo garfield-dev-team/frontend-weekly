@@ -9,6 +9,76 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
+
+⭐️ [「必知必会」 Nacos 的面试题和详解](https://mp.weixin.qq.com/s/C_KpYoul8ko5yrVLMe_uQg)
+
+⭐️ 使用增强版 singleflight 合并事件推送，效果炸裂！
+
+singleflight 把每次请求定义为 call，每个 call 对象包含了一个 waitGroup，一个 val，即请求的返回值，一个 err，即请求返回的错误。
+
+```go
+type call struct {
+  wg  sync.WaitGroup
+  val interface{}
+  err error
+}
+```
+
+再定义全局的 Group，包含一个互斥锁 Mutex，一个 key 为 string，value 为 call 的 map。
+
+```go
+type Group struct {
+  mu sync.Mutex
+  m  map[string]*call
+}
+```
+
+Group 对象有一个 Do 方法，其第一个参数是 string 类型的 key，这个 key 也就是上面说的 map 的 key，相同的 key 标志着他们是相同的请求，只有相同的请求会被抑制；第二个参数是一个函数 fn，这个函数是真正要执行的函数，例如调用 MySQL；返回值比较好理解，即最终调用的返回值和错误信息。
+
+```go
+func (g *Group) Do(key string, fn func() (interface{}, error)) (interface{}, error) {
+  // 懒加载方式初始化 map
+  // 注意 map 不是并发安全的，这里用了 Mutex 保护 map 操作
+  g.mu.Lock()
+  if g.m == nil {
+    g.m = make(map[string]*call)
+  }
+
+  // 如果当前 key 存在，即相同请求正在调用中，就等它完成
+  // 完成后直接使用它的 value 和 error
+  if c, ok := g.m[key]; ok {
+    g.mu.Unlock()
+    c.wg.Wait()
+    return c.val, c.err
+  }
+
+  // 如果当前 key 不存在，即没有相同请求正在调用中
+  // 就创建一个 call 对象，并把它放进 map
+  c := new(call)
+  c.wg.Add(1)
+  g.m[key] = c
+  g.mu.Unlock()
+
+  // 接着执行 fn 函数
+  c.val, c.err = fn()
+  // 函数执行完唤醒 waitGroup
+  c.wg.Done()
+
+  // 删除 map 相应的 key
+  g.mu.Lock()
+  delete(g.m, key)
+  g.mu.Unlock()
+
+  // 返回 value 和 error
+  return c.val, c.err
+}
+```
+
+[使用增强版 singleflight 合并事件推送，效果炸裂！](https://mp.weixin.qq.com/s/PFojA2DWJF7ry9Rdu8znyA)
+
+⭐️ [Go 反射应用与三大定律](https://mp.weixin.qq.com/s/MVJZMTAgqDNIBYTgAV4orQ)
+
 📒 [Go1.20.4 新版本发布，修复了一个神奇的内联 BUG！](https://mp.weixin.qq.com/s/4SxJW4feEOmDVhPCOnn9fg)
 
 ⭐️ [sync.Cond 设计与实现](https://mp.weixin.qq.com/s/VAx257qmOWDovmx-eTlyww)
