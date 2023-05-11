@@ -9,6 +9,12 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+⭐️ [Go项目组织：在单一repo中管理多个Go module指南](https://mp.weixin.qq.com/s/IEsgLu5PFwcKppUWABA6-Q)
+
+📒 [React全新实验性Hooks：useOptimistic、useFormStatus](https://mp.weixin.qq.com/s/BgROoDNvYXRalrqMFGBhgw)
+
+⭐️ [Go 笔试 - 交叉顺序输出奇偶数](https://mp.weixin.qq.com/s/a_8X2gZi9NvGbn_sLhdI6Q)
+
 📒 [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
 
 ⭐️ [「必知必会」 Nacos 的面试题和详解](https://mp.weixin.qq.com/s/C_KpYoul8ko5yrVLMe_uQg)
