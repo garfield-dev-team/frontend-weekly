@@ -9,6 +9,24 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+⭐️ 不背锅运维相关文章
+
+[上篇：带你手工体验从写代码、编译、打包镜像、部署到K8S的全过程](https://mp.weixin.qq.com/s/YGhndR5zR-Ebf8IaKbFZiQ)
+
+[下篇：使用jenkins发布go项目到k8s，接上篇的手工体验改造为自动化发布](https://mp.weixin.qq.com/s/yJ6rkYrwn8RAMLt5uCF9mw)
+
+[值得收藏：K8S的kubectl常用命令已经按场景分好类，请您查阅](https://mp.weixin.qq.com/s/pW0vxt8k1pDk0OEz5asWGQ)
+
+[避坑：Go并发编程时，如何避免发生竞态条件和数据竞争](https://mp.weixin.qq.com/s/lYg-GdheztmkTo9mwqHGsg)
+
+[Go接口：运维开发场景中，go的接口到底怎么用](https://mp.weixin.qq.com/s/bwkK3Yw02w4szwub2B2-ig)
+
+📒 [Vue3.3 正式发布！](https://juejin.cn/post/7231853294409531449)
+
+⭐️ [容器中如何正确配置 GOMAXPROCS](https://mp.weixin.qq.com/s/Hb1Pf18kIYIfiEzCTOxebg)
+
+⭐️ [让Go代码变整洁的五个步骤](https://mp.weixin.qq.com/s/6iAUH-AszpzIcyAeKLmYmg)
+
 ⭐️ [Go项目组织：在单一repo中管理多个Go module指南](https://mp.weixin.qq.com/s/IEsgLu5PFwcKppUWABA6-Q)
 
 📒 [React全新实验性Hooks：useOptimistic、useFormStatus](https://mp.weixin.qq.com/s/BgROoDNvYXRalrqMFGBhgw)
