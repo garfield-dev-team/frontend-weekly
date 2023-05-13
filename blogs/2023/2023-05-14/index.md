@@ -9,6 +9,10 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [Webpack5构建性能优化：构建耗时从150s到60s再到10s | 京东云技术团队](https://juejin.cn/post/7231720920984125497)
+
+📒 [三十分钟掌握Webpack性能优化](https://juejin.cn/post/6844903651291447309)
+
 ⭐️ 不背锅运维相关文章
 
 [上篇：带你手工体验从写代码、编译、打包镜像、部署到K8S的全过程](https://mp.weixin.qq.com/s/YGhndR5zR-Ebf8IaKbFZiQ)
