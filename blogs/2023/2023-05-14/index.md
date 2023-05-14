@@ -9,6 +9,10 @@ tags: []
 
 题图：rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance。
 
+📒 [一文通透讲解webpack5 module federation](https://juejin.cn/post/7048125682861703181)
+
+⭐️ [一文搞懂Go错误链](https://mp.weixin.qq.com/s/D_CVrPzjP3O81EpFqLoynQ)
+
 📒 [Webpack5构建性能优化：构建耗时从150s到60s再到10s | 京东云技术团队](https://juejin.cn/post/7231720920984125497)
 
 📒 [三十分钟掌握Webpack性能优化](https://juejin.cn/post/6844903651291447309)
@@ -29,15 +33,13 @@ tags: []
 
 ⭐️ [容器中如何正确配置 GOMAXPROCS](https://mp.weixin.qq.com/s/Hb1Pf18kIYIfiEzCTOxebg)
 
-⭐️ [让Go代码变整洁的五个步骤](https://mp.weixin.qq.com/s/6iAUH-AszpzIcyAeKLmYmg)
-
 ⭐️ [Go项目组织：在单一repo中管理多个Go module指南](https://mp.weixin.qq.com/s/IEsgLu5PFwcKppUWABA6-Q)
 
 📒 [React全新实验性Hooks：useOptimistic、useFormStatus](https://mp.weixin.qq.com/s/BgROoDNvYXRalrqMFGBhgw)
 
 ⭐️ [Go 笔试 - 交叉顺序输出奇偶数](https://mp.weixin.qq.com/s/a_8X2gZi9NvGbn_sLhdI6Q)
 
-📒 [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
+⭐️ [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
 
 ⭐️ [「必知必会」 Nacos 的面试题和详解](https://mp.weixin.qq.com/s/C_KpYoul8ko5yrVLMe_uQg)
 
