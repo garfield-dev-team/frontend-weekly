@@ -9,6 +9,18 @@ tags: []
 
 题图：王国之泪。
 
+📒 [通俗直观介绍ChatGPT背后的大语言模型理论知识](https://mp.weixin.qq.com/s/IR0flZGOyul9BHuDYPnljg)
+
+⭐️ [Golang网络IO模型源码分析-goroutinue+epoll](https://mp.weixin.qq.com/s/jGrPM0UgqjZ10cXafoC0wQ)
+
+⭐️ [什么是无头浏览器？用Go模拟用户操作、实现网页浏览和截图](https://mp.weixin.qq.com/s/jctl-anqU_IyoP0FB1wtrg)
+
+📒 [Nuxt 3.5 正式发布，支持 Vue 3.3！](https://mp.weixin.qq.com/s/0JhOVqly0jbs0rwiRD_YjQ)
+
+⭐️ [翻车了，被读者找出 BUG](https://mp.weixin.qq.com/s/NBXYA6jYRgZxS2_4aUvbFQ)
+
+⭐️ [sync.Map Code Review](https://mp.weixin.qq.com/s/Q1E0Bdt0GH6b4OFsgk1Fcg)
+
 ⭐️ [一文掌握 Go 并发模式 Context 上下文](https://juejin.cn/post/7233981178101186619)
 
 ⭐️ [React 性能优化 | 包括原理、技巧、Demo、工具使用](https://juejin.cn/post/6935584878071119885)
