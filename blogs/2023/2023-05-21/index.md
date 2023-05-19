@@ -9,6 +9,12 @@ tags: []
 
 题图：王国之泪。
 
+⭐️ [掌握 GoLang 中的指针：高效代码的提示和技巧](https://mp.weixin.qq.com/s/sGVck7lOk610vBq3d7zOkw)
+
+⭐️ [通过源码分析告诉你：当访问K8S API的代码运行在POD里的容器时，在集群内是如何进行身份验证的](https://mp.weixin.qq.com/s/uRdq-1wnImObllqf2MFoqg)
+
+⭐️ [「Go工具箱」redis官网推荐的go版本的分布式锁：redsync](https://mp.weixin.qq.com/s/szXu4OJExN0tOfD1YW6YNA)
+
 📒 [通俗直观介绍ChatGPT背后的大语言模型理论知识](https://mp.weixin.qq.com/s/IR0flZGOyul9BHuDYPnljg)
 
 ⭐️ [Golang网络IO模型源码分析-goroutinue+epoll](https://mp.weixin.qq.com/s/jGrPM0UgqjZ10cXafoC0wQ)
