@@ -9,6 +9,8 @@ tags: []
 
 题图：王国之泪。
 
+⭐️ [Go与神经网络：张量运算](https://mp.weixin.qq.com/s/18SbYmKnUbNR59gFlKEULQ)
+
 ⭐️ [掌握 GoLang 中的指针：高效代码的提示和技巧](https://mp.weixin.qq.com/s/sGVck7lOk610vBq3d7zOkw)
 
 ⭐️ [通过源码分析告诉你：当访问K8S API的代码运行在POD里的容器时，在集群内是如何进行身份验证的](https://mp.weixin.qq.com/s/uRdq-1wnImObllqf2MFoqg)
