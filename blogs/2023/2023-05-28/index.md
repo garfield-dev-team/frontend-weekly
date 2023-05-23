@@ -48,6 +48,10 @@ https://huggingface.co/docs/transformers/main/model_doc/llama
 
 [NLP（九）：LLaMA, Alpaca, ColossalChat 系列模型研究](https://zhuanlan.zhihu.com/p/618695885)
 
+[使用 Google Colab 训练 Stable Diffusion LoRA 模型教程](https://blog.esonwong.com/stable-diffusion-lora-training/)
+
+https://colab.research.google.com/#scrollTo=-Rh3-Vt9Nev9
+
 ⭐️ [「Go 框架」深入理解 gin 框中 Context 的 Request 和 Writer 对象](https://juejin.cn/post/7224890694162841637)
 
 ⭐️ [Go1.22 可能会解决循环变量的坑，真好！！](https://mp.weixin.qq.com/s/N7_-WNBsTpTc4X8qTQw-Nw)
