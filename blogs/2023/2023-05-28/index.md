@@ -9,6 +9,20 @@ tags: []
 
 题图：王国之泪。
 
+⭐️ [XML 处理，Go 标准库太简单了怎么办](https://mp.weixin.qq.com/s/Neuc_hiVsVE83d47e40l6w)
+
+📒 [我用ChatGPT，给RabbitMQ加了个连接池](https://mp.weixin.qq.com/s/w1ahH87zZDpU_c_ygeTGNg)
+
+📒 [React组件封装实践：如何拆解复杂的页面](https://mp.weixin.qq.com/s/3KL0pOB8YOIfvzPKvOjhwg)
+
+📒 [现代 Web 应用 Devtools 调试技巧](https://mp.weixin.qq.com/s/u_tyq-k_IBlOBecdGN1b-g)
+
+📒 [在服务端写 React 组件是什么体验](https://mp.weixin.qq.com/s/vYVru8x3rtNFZdHkK3rCpA)
+
+⭐️ [Go 空结构体：零内存的魔力](https://mp.weixin.qq.com/s/rD3pnjWF5_Zz-r6GB0LrrA)
+
+📒 [这个线上BUG，让你彻底搞懂了MySQL的字符集，别问我咋知道的](https://mp.weixin.qq.com/s/yIwJq1K7YVWZ5i2TIbXZTg)
+
 ⭐️ LLaMA 模型调研
 
 当前 HuggingFace 已经实现了 LLaMA 模型 代码，可通过以下方式直接调用：
