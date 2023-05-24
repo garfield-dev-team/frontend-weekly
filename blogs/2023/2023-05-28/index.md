@@ -9,6 +9,59 @@ tags: []
 
 题图：王国之泪。
 
+📒 [Hook 革命！浅谈 React 新 Hook 的未来与思想](https://mp.weixin.qq.com/s/DZVMvq_wwtjjCckci-tVaQ)
+
+⭐️ [Go Sync 包：并发的 6 个关键概念](https://mp.weixin.qq.com/s/iPpWd8vjyaN2sJFwxzN9Bg)
+
+📒 Bun发布全新Bundler：比Webpack快220倍
+
+[Bun发布全新Bundler：比Webpack快220倍](https://mp.weixin.qq.com/s/q_8cdz9g3fbpvlKgZb9XVg)
+
+https://bun.sh/blog/bun-bundler
+
+⭐️ [大大大模型部署方案抛砖引玉](https://mp.weixin.qq.com/s/Zjta1GuO_NCgjGqRx6wxyA)
+
+📒 [ChatGPT和Claude 对比测试（以Review MLIR Codegen代码为例）更新官方ChatGPT的结果](https://mp.weixin.qq.com/s/DY7ivzxZzBa6eOr4e5mJPQ)
+
+⭐️ [Everything App: HuggingFace Transformers Agent](https://mp.weixin.qq.com/s/bS5frzE-QVwLMcbTHQ_rQQ)
+
+📒 [【第2950期】vite-plugin-vue-devtools：写一个Vue DevTools，让开发体验飞一会](https://mp.weixin.qq.com/s/xqasN0BXBm6EL0TqHJR_NA)
+
+⭐️ [Go timer Code Review](https://mp.weixin.qq.com/s/BMMZX4F2oatPyksZtbczuQ)
+
+📒 H5加载性能优化
+
+对于大部分用户而言，我们根本不需要把代码编译到 ES5，不仅体积大，而且运行速度慢。**我们需要做的，就是把代码编译到 ES2015+，然后为少数使用老旧浏览器的用户保留一个 ES5 标准的备胎即可。**
+
+具体的解决方法就是 `<script type="module">` 标签。
+
+支持 `<script type="module">` 的浏览器，必然支持下面的特性：
+
+- async/await
+- Promise
+- Class
+- 箭头函数、Map/Set、fetch 等等...
+
+而不支持 `<script type="module">` 的老旧浏览器，会因为无法识别这个标签，而不去加载 ES2015+ 的代码。另外老旧的浏览器同样无法识别 `nomodule` 熟悉，会自动忽略它，从而加载 ES5 标准的代码。
+
+![image](./Pasted%20image%2020230524120059.png)
+
+[# React 16 加载性能优化指南](https://zhuanlan.zhihu.com/p/37148975)
+
+[# 让老板虎躯一震的前端技术，KPI杀手](https://juejin.cn/post/6844903762704908296)
+
+📒 tcmalloc 解内存分配问题
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6722
+
+[# 深入Golang内存管理(一) TCMalloc篇](https://blog.csdn.net/qq_43188744/article/details/115355566)
+
+[# Go内存管理之TCMalloc](https://studygolang.com/articles/26304)
+
+[# TCMalloc : Thread-Caching Malloc](https://google.github.io/tcmalloc/design.html)
+
+[# Go 内存管理（二）： TCMalloc分配算法](https://zhuanlan.zhihu.com/p/305275512)
+
 ⭐️ [XML 处理，Go 标准库太简单了怎么办](https://mp.weixin.qq.com/s/Neuc_hiVsVE83d47e40l6w)
 
 📒 [我用ChatGPT，给RabbitMQ加了个连接池](https://mp.weixin.qq.com/s/w1ahH87zZDpU_c_ygeTGNg)
