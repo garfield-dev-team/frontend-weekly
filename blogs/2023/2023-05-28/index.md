@@ -9,6 +9,8 @@ tags: []
 
 题图：王国之泪。
 
+📒 [字节都在用的代码自动生成](https://juejin.cn/post/7220054775298359351)
+
 📒 [Hook 革命！浅谈 React 新 Hook 的未来与思想](https://mp.weixin.qq.com/s/DZVMvq_wwtjjCckci-tVaQ)
 
 ⭐️ [Go Sync 包：并发的 6 个关键概念](https://mp.weixin.qq.com/s/iPpWd8vjyaN2sJFwxzN9Bg)
