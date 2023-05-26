@@ -9,6 +9,14 @@ tags: []
 
 题图：王国之泪。
 
+⭐️ [不背锅运维：Go语言切片内存优化技巧和实战案例](https://juejin.cn/post/7210747150828798008)
+
+⭐️ [Go：4个场景就可以让你知道Goroutine和通道是怎么用的](https://mp.weixin.qq.com/s/bqZ6gAsOZoVEMSCeOuLbiQ)
+
+⭐️ [「Go开源包」asynq：一个基于redis的，简单、可靠、高效的分布式任务队列包](https://mp.weixin.qq.com/s/nbouC5ynfZShaTMTYiCJFA)
+
+⭐️ [goroutine 泄漏与检测](https://mp.weixin.qq.com/s/-hflcZfkYSIPers4PYJ7zQ)
+
 📒 [字节都在用的代码自动生成](https://juejin.cn/post/7220054775298359351)
 
 📒 [Hook 革命！浅谈 React 新 Hook 的未来与思想](https://mp.weixin.qq.com/s/DZVMvq_wwtjjCckci-tVaQ)
