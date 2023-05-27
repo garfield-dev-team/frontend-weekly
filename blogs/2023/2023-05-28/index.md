@@ -9,6 +9,10 @@ tags: []
 
 题图：王国之泪。
 
+📒 [支付系统就该这么设计，稳的一批！！](https://mp.weixin.qq.com/s/STk2GUJAvNhawjODLmCMpQ)
+
+⭐️ [聊聊Go语言的控制语句](https://mp.weixin.qq.com/s/2P9_nyrdZ3JqlKRIR8--7g)
+
 ⭐️ [不背锅运维：Go语言切片内存优化技巧和实战案例](https://juejin.cn/post/7210747150828798008)
 
 ⭐️ [Go：4个场景就可以让你知道Goroutine和通道是怎么用的](https://mp.weixin.qq.com/s/bqZ6gAsOZoVEMSCeOuLbiQ)
