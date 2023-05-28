@@ -119,10 +119,6 @@ https://huggingface.co/docs/transformers/main/model_doc/llama
 
 https://colab.research.google.com/#scrollTo=-Rh3-Vt9Nev9
 
-[单GPU实现99%ChatGPT性能，「原驼」火了：手机也能微调大模型](https://mp.weixin.qq.com/s/vqdGdcWyYmPKukW5jV6Pyw)
-
-[调教LLaMA类模型没那么难，LoRA将模型微调缩减到几小时](https://mp.weixin.qq.com/s/5uFIGw7TBHJA_Q26REG4OA)
-
 ⭐️ [「Go 框架」深入理解 gin 框中 Context 的 Request 和 Writer 对象](https://juejin.cn/post/7224890694162841637)
 
 ⭐️ [Go1.22 可能会解决循环变量的坑，真好！！](https://mp.weixin.qq.com/s/N7_-WNBsTpTc4X8qTQw-Nw)
