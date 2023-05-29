@@ -34,3 +34,5 @@ tags: []
 [《 JavaScript 安全: 最佳实践和提示》](https://stackdiary.com/javascript-security/)。在一个网络威胁日益复杂的时代，理解如何编写安全的 JavaScript 代码比以往任何时候都更加重要。在这篇文章中，Alex Ivanovs 解释了常见的 JavaScript 漏洞，从跨网站脚本(XSS)和跨站请求伪造(CSRF)到更复杂的问题，比如原型污染和不安全的依赖。
 
 [《Node.js 性能状况 2023》](https://blog.rafaelgss.dev/state-of-nodejs-performance-2023)。今年是2023年，我们已经发布了 Node.js v20.0。本文对不同版本的 node.js 的性能进行了比较分析。它强调了这些改进和改进，并提供了对这些更改背后原因的深入了解，而没有与其他 JavaScript 运行时进行比较。基准测试结果包含一个可重复的示例和硬件细节。使用了 AWS 专用主机。
+
+⭐️ [Go语言爱好者周刊：第 188 期 —— Go 适合开发操作系统吗](https://mp.weixin.qq.com/s/utmu-pION-IVQCnZEY7mqA)
