@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [不要写 clean code, 要写 CRISP code](https://mp.weixin.qq.com/s/MKQMHviV2fLfZJJUU_KTiA)
+
+⭐️ [channel 的 15 条规则和底层实现](https://mp.weixin.qq.com/s/AsytcOBg0XpTnPzDq7iEhQ)
+
+⭐️ [Go netpoll （下篇）- 数据接收发送和关闭](https://mp.weixin.qq.com/s/_yn2Efytq8F8ovf43di23g)
+
+📒 [【第2956期】如何编写一个友好支持 Tree-shaking 的库](https://mp.weixin.qq.com/s/ovdshkEmUF8CuN32FKwJ4Q)
+
 ⭐️ [Go 高性能 - singleflight 防止缓存击穿](https://mp.weixin.qq.com/s/TE7zu2t2SjUpGKK-Bji9_g)
 
 ⭐️ [阅读破10万的学Go建议，不管初学还是进阶Go都值得一看！](https://mp.weixin.qq.com/s/Ae_7w94wj5FTlmhUK5Kv2w)
