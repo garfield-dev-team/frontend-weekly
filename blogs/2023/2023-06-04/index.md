@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Ranking and Tuning: 解锁预训练模型库的新范式](https://mp.weixin.qq.com/s/fgmp5Cph8wIgf2IbPoHj7w)
+
+⭐️ [Golang中的25个常见错误：更好地进行go编程的综合指南](https://mp.weixin.qq.com/s/lzR_ZFxCoX2mf3wN4Ef_1A)
+
 ⭐️ [颠覆微服务架构？谷歌最新开源service weaver初体验](https://mp.weixin.qq.com/s/RnsM-bWSRBiDS4v1JcRzdg)
 
 📒 [连尤大都要借鉴的开源项目也会有一些迷惑行为](https://mp.weixin.qq.com/s/1SL_Z9q_zNufbHzvzto3iA)
