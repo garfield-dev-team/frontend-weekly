@@ -5,6 +5,28 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [识别「ChatGPT造假」，效果超越OpenAI：北大、华为的AI生成检测器来了](https://mp.weixin.qq.com/s/Ktu9BEcI_s5Jn6OvF1heAQ)
+
+⭐️ [给面试官一点小小的 gpt 震撼](https://mp.weixin.qq.com/s/yEbqNo9UfPTCxL5-RDvlPw)
+
+⭐️ [非广告| DDD 到底是银弹还是垃圾](https://mp.weixin.qq.com/s/gMjQmNvEi1o_iOFt2z7flg)
+
+⭐️ [开通个人博客啦！附带全部 Hexo + Nginx + Git 教程](https://mp.weixin.qq.com/s/mrAwE-go0vNSwrJ4g4L9Cg)
+
+⭐️ [Go error 处理最佳实践](https://mp.weixin.qq.com/s/XojOIIZfKm_wXul9eSU1tQ)
+
+⭐️ [为什么泛型使你的程序变慢](https://mp.weixin.qq.com/s/veu5W0BFmLIZ-yvs39NdUw)
+
+📒 [使用require.context实现优雅的预加载！](https://mp.weixin.qq.com/s/3_MDDSOQ2GeBsz9NtlwxcA)
+
+⭐️ [聊聊 rust trait](https://mp.weixin.qq.com/s/T7IBCimzmWI07dHD8NA-Qw)
+
+⭐️ [Go 编译器优化](https://mp.weixin.qq.com/s/eWM9AvG1qXnMWF4qIwhnVQ)
+
+⭐️ [从Go源码到可执行文件的编译过程详解](https://mp.weixin.qq.com/s/YmG5VWui9AOJonC7one6Fw)
+
+⭐️ [为什么取消了Go1.21，而采用了Go1.21.0的版本命名规则](https://mp.weixin.qq.com/s/-HXqQQcMr1CA4c6SS51yLQ)
+
 ⭐️ [Ranking and Tuning: 解锁预训练模型库的新范式](https://mp.weixin.qq.com/s/fgmp5Cph8wIgf2IbPoHj7w)
 
 ⭐️ [Golang中的25个常见错误：更好地进行go编程的综合指南](https://mp.weixin.qq.com/s/lzR_ZFxCoX2mf3wN4Ef_1A)
