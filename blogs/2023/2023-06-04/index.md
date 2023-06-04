@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go语言反射编程指南](https://mp.weixin.qq.com/s/J3hIbUaAp55l8QDuJYUQOg)
+
 ⭐️ [Go 1.21 确认添加 cmp 包以及 min, max built-in 函数](https://mp.weixin.qq.com/s/RK9DWRwpNhVuK3Gr60JtSQ)
 
 📒 [TypeScript 5.1 正式发布！](https://mp.weixin.qq.com/s/sGfVPL_QJaUflHANSc5e7w)
