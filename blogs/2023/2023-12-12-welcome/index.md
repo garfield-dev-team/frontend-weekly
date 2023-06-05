@@ -651,6 +651,8 @@ import TabItem from '@theme/TabItem';
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
 - ⭐️ ⭐️ [原创精选荟萃（2022.05.11）](https://mp.weixin.qq.com/s/1Xe16FaHWfihYjqMVWidQg)
+- [支付宝一面：如何基于Redis实现分布式锁](https://mp.weixin.qq.com/s/j1U4L06y2-8z2fSJypGG7w)
+- [Jenkins+Docker 实现一键自动化部署项目！步骤齐全，少走坑路！](https://mp.weixin.qq.com/s/va75wKPBtpp2ceL25SkIVA)
 - [两万字详解！Netty经典32连问！](https://mp.weixin.qq.com/s/njeXqkHiIsXneBholN72OQ)
 - [两万字盘点设计模式！](https://mp.weixin.qq.com/s/409QGKe5H7tCP1qpCiY_KA)
 - [实战，实现幂等的8种方案！](https://mp.weixin.qq.com/s/J0C9TJF7nVVi2cMiDBqepA)
