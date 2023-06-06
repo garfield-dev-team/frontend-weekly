@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [探究｜Go JSON 三方包哪家强](https://mp.weixin.qq.com/s/ueNuYA23F3bQTwIKU-PZ2Q)
+
 ⭐️ [超全避坑指南: 盘点 Go 的常见典型错误](https://mp.weixin.qq.com/s/XHbfPtUzkUTGF06Ao4jQYA)
 
 ⭐️ [Go1.21.0 新特性：不需要循环 delete map 元素了](https://mp.weixin.qq.com/s/rxxQhrVk3_4ZvTjsIJbstw)
