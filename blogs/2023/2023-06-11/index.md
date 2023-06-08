@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [现有React架构无法解决的问题](https://mp.weixin.qq.com/s/aNofyWZiTYgxi86I2HYH8w)
+
+📒 [完美搭配，微前端与Monorepo的架构设计](https://mp.weixin.qq.com/s/rhsYXSTC4xNRa-DMBDswVw)
+
+📒 [原来懒加载有这些玩法，你确定不看看](https://mp.weixin.qq.com/s/23SwiFRCRF11OWVFKT-L9A)
+
+⭐️ [Go 函数选项模式（Functional Options Pattern）](https://juejin.cn/post/7241938328839618597)
+
 📒 [手把手教你实现一个常用的 antd form 组件](https://mp.weixin.qq.com/s/BB9QST_I0SWIe_q5-mkFuA)
 
 ⭐️ [一图胜千言，帮你搞懂Go面试中常问的channel问题！](https://mp.weixin.qq.com/s/r4rnyXoHb5EInBpO9rhQqA)
