@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [一个好的技术头狼是怎样的](https://juejin.cn/post/7242483472044163129)
+
+📒 [鹅厂程序员的9个生存法则](https://juejin.cn/post/7237386183612678205)
+
+⭐️ [Go 1.20.5 发布有关 SUID 和 cgo 的安全修复更新](https://mp.weixin.qq.com/s/wQcAqItR7nHwLO7xnMoCGg)
+
+📒 [【第2966期】云音乐低代码 + ChatGPT 实践方案与思考](https://mp.weixin.qq.com/s/uZdnNtO7icmnw9xgY95Lvw)
+
+⭐️ [收藏！！！一图掌握 Go 中 IO 包的关系](https://mp.weixin.qq.com/s/cjQyDdIgcdzj7LOeZf21bQ)
+
 📒 [现有React架构无法解决的问题](https://mp.weixin.qq.com/s/aNofyWZiTYgxi86I2HYH8w)
 
 📒 [完美搭配，微前端与Monorepo的架构设计](https://mp.weixin.qq.com/s/rhsYXSTC4xNRa-DMBDswVw)
