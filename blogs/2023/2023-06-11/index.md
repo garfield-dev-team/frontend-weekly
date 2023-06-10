@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [网易云音乐开源的云原生应用部署平台 - Horizon](https://mp.weixin.qq.com/s/M-jyW6rzGMFHI8Q_GJDz_Q)
+
+⭐️ [借助ChatGPT快速上手ElasticSearch dsl](https://mp.weixin.qq.com/s/S76RiYdgLyIa7WAfKcR0jw)
+
+⭐️ [通过源码剖析Go的map扩容底层实现](https://juejin.cn/post/7207058392287346747)
+
 📒 [一个好的技术头狼是怎样的](https://juejin.cn/post/7242483472044163129)
 
 📒 [鹅厂程序员的9个生存法则](https://juejin.cn/post/7237386183612678205)
