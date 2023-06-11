@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [13条咒语挖掘GPT-4最大潜力，Github万星AI导师火了，网友：隔行再也不隔山了](https://mp.weixin.qq.com/s/BJpGQE4SWPBC8Ncha8XaIA)
+
+⭐️ GORM 相关文章
+
+[第二期Go开源说实录：GORM 剖析与最佳实践](https://mp.weixin.qq.com/s/Hg4K_VHbQSfArnvhiObAIw)
+
+[golang orm 框架之 gorm](https://mp.weixin.qq.com/s/DjEKztIsXD7zkp7u2E6Zag)
+
+[gorm常用使用](https://mp.weixin.qq.com/s/rwlzvXicHEvAcF9OhpEotQ)
+
+[GORM 强大的代码生成工具 —— gorm/gen](https://mp.weixin.qq.com/s/_nQKlrjEeIap3IceHyIckA)
+
 📒 [网易云音乐开源的云原生应用部署平台 - Horizon](https://mp.weixin.qq.com/s/M-jyW6rzGMFHI8Q_GJDz_Q)
 
 ⭐️ [借助ChatGPT快速上手ElasticSearch dsl](https://mp.weixin.qq.com/s/S76RiYdgLyIa7WAfKcR0jw)
