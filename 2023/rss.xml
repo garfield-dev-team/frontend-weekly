@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[6月18日内容汇总]]></title>
+            <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/6月18日内容汇总</link>
+            <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/6月18日内容汇总</guid>
+            <pubDate>Sun, 18 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[⭐️ 基于 Docker 的深度学习环境：入门篇]]></description>
+            <content:encoded><![CDATA[<p>⭐️ <a href="https://mp.weixin.qq.com/s/6Ae6SgEws5gndQwmZqkcUg" target="_blank" rel="noopener noreferrer">基于 Docker 的深度学习环境：入门篇</a></p><p>📒 <a href="https://juejin.cn/post/7243451555931521061" target="_blank" rel="noopener noreferrer">网易云音乐大前端监控体系（Corona）建设实践-开篇</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/BxKoRUTMzowo6bJ3LeRSNA" target="_blank" rel="noopener noreferrer">Go 配置管理库 Viper 怎么读取结构体嵌套的配置信息</a></p><p>📒 <a href="https://juejin.cn/post/7243413934765408315" target="_blank" rel="noopener noreferrer">如何基于 napi-rs 打造 Rust 前端工具链</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/RX8R-5o6RgPCgm9jsIzuGg" target="_blank" rel="noopener noreferrer">深入理解Render阶段Fiber树的初始化与更新</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/WB-a7W4FGXM1kypnTMEmFw" target="_blank" rel="noopener noreferrer">虚拟滚动的3种实现方式~学完直接写简历亮点上！</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/rcPsbKyM-rPz_rJIEE1NHA" target="_blank" rel="noopener noreferrer">【第2969期】FormRender 2.0 开箱即用表单方案</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/-EAH8jjj4uy1LCr_9C1ghg" target="_blank" rel="noopener noreferrer">The State Of Go 2023</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/rgecHCCgBEpSC3lOQMn9Lg" target="_blank" rel="noopener noreferrer">Go协程池(1): 线程vs协程</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/r-QE41YEmycvOldt9oaUrg" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 190 期 —— GopherChina 2023 PPT 下载</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[6月11日内容汇总]]></title>
             <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/6月11日内容汇总</link>
             <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/6月11日内容汇总</guid>
