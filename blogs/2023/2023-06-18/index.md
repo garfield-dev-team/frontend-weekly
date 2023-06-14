@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [React Server Component 从理念到原理](https://juejin.cn/post/7244452476190752829)
+
+⭐️ [一文实战K8S中的服务发现和负载均衡](https://mp.weixin.qq.com/s/cP_EsQZZ4PFpwhMbt5Ld2g)
+
+⭐️ [Go GC：了解便利背后的开销](https://mp.weixin.qq.com/s/ZLT8TBB5ibKQ4ahDEj2FHA)
+
+⭐️ [Go 内存管理概述](https://mp.weixin.qq.com/s/mhZtToQR9sdT5G5x1da2nA)
+
+📒 [或许，你根本不需要全局状态管理](https://mp.weixin.qq.com/s/pUPBYM2GxeDp6b8vHwVs9Q)
+
+📒 [项目规范：让你的代码更上一层楼](https://mp.weixin.qq.com/s/Za3FE5cpDpy5ygfrVL9TOQ)
+
 📒 [Vue和React权限控制的那些事](https://juejin.cn/post/7242677017034915899)
 
 ⭐️ Go fasthttp 相关文章
