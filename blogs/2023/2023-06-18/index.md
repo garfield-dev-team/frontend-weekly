@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [聊聊为什么 IDL 只能扩展字段而非修改](https://mp.weixin.qq.com/s/6Y40fr2qGvOxl8xX5HBCjg)
+
+📒 [【第2972期】Wukong 动态化组件能力实践](https://mp.weixin.qq.com/s/jx-ozy6lY57qmdgCG-Gu8A)
+
+⭐️ [Gin 框架是如何处理 panic 的](https://mp.weixin.qq.com/s/dUqK0-1RYtZTadHWf0s3sw)
+
+⭐️ [深入解析go channel各状态下的操作结果](https://mp.weixin.qq.com/s/fz-o9yWj1qPhdCNXSqTMtg)
+
 📒 [React Server Component 从理念到原理](https://juejin.cn/post/7244452476190752829)
 
 ⭐️ [一文实战K8S中的服务发现和负载均衡](https://mp.weixin.qq.com/s/cP_EsQZZ4PFpwhMbt5Ld2g)
