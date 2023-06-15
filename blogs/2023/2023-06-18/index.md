@@ -9,7 +9,17 @@ tags: []
 
 ⭐️ [一文实战K8S中的服务发现和负载均衡](https://mp.weixin.qq.com/s/cP_EsQZZ4PFpwhMbt5Ld2g)
 
-⭐️ [Go GC：了解便利背后的开销](https://mp.weixin.qq.com/s/ZLT8TBB5ibKQ4ahDEj2FHA)
+⭐️ Go 语言 GC 相关
+
+Go GC 使用三色标记法，在 GC 压力大时用户态 goroutine 是要 assit 协助标记对象的，每个业务goroutine都有机会参与到GC标记工作中来！并且，这种标记辅助采用的是一种补偿机制，即该业务goroutine分配的内存越多，它要辅助标记的内存就越多。
+
+如何优化 GC 的开销：
+- 减少GC次数来间接减少STW次数，缺点是以整个程序的内存开销增大为代价的，稍有不慎可能就会触发OMM killed。
+- 减少堆内存的分配和释放。GC开销大的根源在于heap object多，Go的每轮GC都是FullGC，每轮都要将所有heap object标记(mark)一遍，即便大多数heap object都是长期alive的，因此，一个直观的降低GC开销的方法就是减少heap object的数量，即减少alloc。
+
+[Go GC：了解便利背后的开销](https://mp.weixin.qq.com/s/ZLT8TBB5ibKQ4ahDEj2FHA)
+
+[真实环境下大内存 Go 服务性能优化一例](https://mp.weixin.qq.com/s/jGGCccMOx4s5asG2IXWNMQ)
 
 ⭐️ [Go 内存管理概述](https://mp.weixin.qq.com/s/mhZtToQR9sdT5G5x1da2nA)
 
