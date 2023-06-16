@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [【第2973期】携程Web组件在跨端场景的实践](https://mp.weixin.qq.com/s/2Dy5RsviZlo7SPA648Mj3g)
+
+⭐️ [sync.Pool 高性能设计之集大成者](https://mp.weixin.qq.com/s/dLzWAqM9lCln83jhkvmtMw)
+
+⭐️ [Go 1.21.0 带来了什么新特性？min 和 max 内置函数解析](https://mp.weixin.qq.com/s/pecIdGmfMPSl9p74zkZB0g)
+
+⭐️ [K8S资源限制实战：优化性能与资源管理](https://mp.weixin.qq.com/s/_UXAFif7Ij89bB0c5S-M2A)
+
+📒 [如何优雅的使用 React Context](https://juejin.cn/post/7244838033454727227)
+
 ⭐️ [聊聊为什么 IDL 只能扩展字段而非修改](https://mp.weixin.qq.com/s/6Y40fr2qGvOxl8xX5HBCjg)
 
 📒 [【第2972期】Wukong 动态化组件能力实践](https://mp.weixin.qq.com/s/jx-ozy6lY57qmdgCG-Gu8A)
