@@ -647,6 +647,24 @@ import TabItem from '@theme/TabItem';
 - [机器学习初探-线性回归](https://juejin.cn/post/6964335363787620383)
 - [机器学习进阶 - 深入思考逻辑回归](https://juejin.cn/post/6951340421658181646)
 
+## LLM 技术调研
+
+- [AI 加持的代码编写实战：快速实现 Nginx 配置格式化工具](https://mp.weixin.qq.com/s/iKtNOWkycm0FcMwnwq2M-A)
+- [让 OpenAI 更 Open，在 ChatGPT 里自由接入数据源](https://mp.weixin.qq.com/s/o-6Xg1f7SMX-BUFgXgwb8w)
+- [八十行代码实现开源的 Midjourney、Stable Diffusion “咒语”作图工具](https://mp.weixin.qq.com/s/Qo1--bFCzdNHAdesshrUuQ)
+- [模型杂谈：1.5G 显存就能运行的 RNN 14B 的开源模型（ChatRWKV）](https://mp.weixin.qq.com/s/vH5zkdQ9esiMeg3L9TYgvw)
+- [使用 Docker 和 Alpaca LoRA 对 LLaMA 65B 大模型进行 Fine-Tune](https://mp.weixin.qq.com/s/cVR9yYP8zDiVBPEo91dSSA)
+- [基于 Docker 的深度学习环境：入门篇](https://mp.weixin.qq.com/s/6Ae6SgEws5gndQwmZqkcUg)
+- [模型杂谈：使用 IN8 量化推理运行 Meta “开源泄露”的大模型（LLaMA）](https://mp.weixin.qq.com/s/6oKORqZWX7IlQFI5zbLKCw)
+- [模型杂谈：快速上手元宇宙大厂 Meta “开源泄露”的大模型（LLaMA）](https://mp.weixin.qq.com/s/vc4t7sm-BhAYtE7_J8DekQ)
+- [RSS Can：借助 V8 让 Golang 应用具备动态化能力（二）](https://mp.weixin.qq.com/s/YKzWBa9kGbzwUpy2iuPjNA)
+- [在搭载 M1 及 M2 芯片 MacBook设备上玩 Stable Diffusion 模型](https://mp.weixin.qq.com/s/UO6_L_oVe3-ocOyt6R_YTA)
+- [Linux 软件包下载加速工具：APT Proxy](https://mp.weixin.qq.com/s/_1AZ5U27JOkEaCUkAuZADQ)
+- [轻量高可用的 K8s 集群搭建方案：MicroK8s](https://mp.weixin.qq.com/s/e0x7BR2PwkTk9JWdr2hg-w)
+- [向量数据库入坑：使用 Docker 和 Milvus 快速构建本地轻量图片搜索引擎](https://mp.weixin.qq.com/s/8MppGs90WWP5sMlHFX2EUQ)
+- [向量数据库入坑：入门向量数据库 Milvus 的 Docker 工具镜像](https://mp.weixin.qq.com/s/pVYPpYRPjq7BUCahParVvw)
+- [向量数据库入坑：传统文本检索方式的降维打击，使用 Faiss 实现向量语义检索](https://mp.weixin.qq.com/s/F0YgDChHceNoOPFstnBv3Q)
+
 ## Java 相关
 
 - ⭐️ ⭐️ [100+篇原创！1900+转载！大家一起加油！](https://mp.weixin.qq.com/s/AGaxg4ymPvSnpt3dZuO9SA)
@@ -833,6 +851,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go与神经网络：张量运算](https://mp.weixin.qq.com/s/18SbYmKnUbNR59gFlKEULQ)
   - ⭐️ [聊聊Go语言的控制语句](https://mp.weixin.qq.com/s/2P9_nyrdZ3JqlKRIR8--7g)
   - ⭐️ [Go语言反射编程指南](https://mp.weixin.qq.com/s/J3hIbUaAp55l8QDuJYUQOg)
+  - ⭐️ [The State Of Go 2023](https://mp.weixin.qq.com/s/-EAH8jjj4uy1LCr_9C1ghg)
   - ⭐️ [为什么泛型使你的程序变慢](https://mp.weixin.qq.com/s/veu5W0BFmLIZ-yvs39NdUw)
   - ⭐️ [Go error 处理最佳实践](https://mp.weixin.qq.com/s/XojOIIZfKm_wXul9eSU1tQ)
   - ⭐️ [开通个人博客啦！附带全部 Hexo + Nginx + Git 教程](https://mp.weixin.qq.com/s/mrAwE-go0vNSwrJ4g4L9Cg)
@@ -901,6 +920,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go1.21 速览：骚操作 panic(nil) 将成为历史！以后别这么干了](https://mp.weixin.qq.com/s/xgJ8lPS-O84Ttne5heRa3g)
   - ⭐️ [Go1.21.0 新特性：不需要循环 delete map 元素了](https://mp.weixin.qq.com/s/rxxQhrVk3_4ZvTjsIJbstw)
   - ⭐️ [Go1.21 速览：新内置函数 clear、min、max 和新标准库包 cmp！](https://mp.weixin.qq.com/s/MorBUrzpKFhssiZWLt4o6g)
+  - ⭐️ [Go1.21 速览：go.mod 的 Go 版本号将会约束 Go 程序构建，要特别注意了！](https://mp.weixin.qq.com/s/s13EBwOExsVz_vwNEm0fvQ)
   - ⭐️ [「必知必会」 Nacos 的面试题和详解](https://mp.weixin.qq.com/s/C_KpYoul8ko5yrVLMe_uQg)
   - ⭐️ [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
   - ⭐️ [上篇：带你手工体验从写代码、编译、打包镜像、部署到K8S的全过程](https://mp.weixin.qq.com/s/YGhndR5zR-Ebf8IaKbFZiQ)
@@ -1788,3 +1808,4 @@ import TabItem from '@theme/TabItem';
 - [干货 | 携程微信小程序如何进行Size治理](https://mp.weixin.qq.com/s/293Lbr81oUWHeJ3TGfPRdw)
 - [干货 | 携程小程序生态之Taro跨端解决方案](https://mp.weixin.qq.com/s/iT05ZXPVYFuCQgZZF9Zu5w)
 - [INP 即将代替 FID 成为新的核心 Web 指标](https://mp.weixin.qq.com/s/OHbzuqUl3tL1YlpLOgEkvA)
+- [【第2973期】携程Web组件在跨端场景的实践](https://mp.weixin.qq.com/s/2Dy5RsviZlo7SPA648Mj3g)
