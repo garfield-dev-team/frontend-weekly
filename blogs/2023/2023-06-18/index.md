@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [能输出网页的AI应用来了，赶紧测评下](https://mp.weixin.qq.com/s/qSkNSmP4zKhJCilbdvMYkA)
+
+⭐️ [SIMD能力初体验](https://mp.weixin.qq.com/s/ydFRhjV70QC64N8r2zEtVA)
+
 ⭐️ [【第2973期】携程Web组件在跨端场景的实践](https://mp.weixin.qq.com/s/2Dy5RsviZlo7SPA648Mj3g)
 
 ⭐️ [sync.Pool 高性能设计之集大成者](https://mp.weixin.qq.com/s/dLzWAqM9lCln83jhkvmtMw)
