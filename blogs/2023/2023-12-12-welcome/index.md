@@ -950,6 +950,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go协程池(1): 线程vs协程](https://mp.weixin.qq.com/s/-qms3hEl2mNMkDN1S4ZQoQ)
   - ⭐️ [Go协程池(2): 如何实现协程池](https://mp.weixin.qq.com/s/ktMff61A9vvqeRGkGwQnwg)
   - ⭐️ [高并发系统设计(1): 如何实现抖音关注/粉丝列表](https://mp.weixin.qq.com/s/cIgfuumVCL4rxtNYGcQH4A)
+  - ⭐️ [SIMD能力初体验](https://mp.weixin.qq.com/s/ydFRhjV70QC64N8r2zEtVA)
   - ⭐️ [适合团队和个人项目的 Golang 编码规范](https://juejin.cn/post/7157594175846744071)
   - ⭐️ [Go Scheduler 的 GMP 模型](https://mp.weixin.qq.com/s/1CY3E5daJ5U42orVwzCpaw)
   - ⭐️ [Golang 泛型初识](https://juejin.cn/post/7116817920209977351)
