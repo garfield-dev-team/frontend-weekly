@@ -5,6 +5,18 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go 将引入标准库 v2 版本，首个动手的是：math/rand/v2！](https://mp.weixin.qq.com/s/b_TYBRIZ3-EORFYq1xRjyQ)
+
+⭐️ [瞬间高并发，goroutine执行结束后的资源占用问题](https://mp.weixin.qq.com/s/iBo-j4990paKb3Pb7Xk-2w)
+
+⭐️ [Go语言中常见100问题-#37 Inaccurate string iteration](https://mp.weixin.qq.com/s/m0WyJyd2JwQfX1SP2H-jrA)
+
+📒 [超越所有开源模型，击败 Claude、Bard，专门用于编程任务的大模型来了](https://mp.weixin.qq.com/s/WGv0geWzSdO7p0LWOvVZnw)
+
+⭐️ [死锁、活锁、饥饿、自旋锁](https://mp.weixin.qq.com/s/G2flIpgksqLVJUMTYj2l8Q)
+
+⭐️ [一个悄然崛起的AI开源项目 ！！](https://mp.weixin.qq.com/s/y1PUDUaQjHqKQxI5K8vGmA)
+
 📒 [前端食堂技术周刊第 87 期：2023 Stackoverflow、Bun v0.6.9、React 是否迎来了 Angular.js 时刻、Vercel AI](https://juejin.cn/post/7246224746005463096)
 
 ⭐️ Introducing the Vercel AI SDK
