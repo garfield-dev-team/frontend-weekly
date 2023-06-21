@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ Go 语言日志库
+
+[Go 每日一库之 logrus](https://zhuanlan.zhihu.com/p/105759117)
+
+[Awesome Logging in Go With Logrus](https://betterprogramming.pub/awesome-logging-in-go-with-logrus-70606a49f285)
+
+[Zap Logger](https://www.topgoer.com/%E9%A1%B9%E7%9B%AE/log/ZapLogger.html)
+
+[一文告诉你如何用好uber开源的zap日志库](https://tonybai.com/2021/07/14/uber-zap-advanced-usage/)
+
+⭐️ Go Concurrency Patterns
+
+https://go.dev/talks/2012/concurrency.slide#1
+
+https://go.dev/talks/2013/advconc.slide#1
+
 ⭐️ [Go 项目分层下的最佳 error 处理方式](https://mp.weixin.qq.com/s/SnaurQfXDVidrl_ihBQtDA)
 
 ⭐️ [Go 将引入标准库 v2 版本，首个动手的是：math/rand/v2！](https://mp.weixin.qq.com/s/b_TYBRIZ3-EORFYq1xRjyQ)
