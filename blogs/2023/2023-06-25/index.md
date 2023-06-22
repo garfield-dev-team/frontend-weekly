@@ -21,6 +21,12 @@ https://go.dev/talks/2012/concurrency.slide#1
 
 https://go.dev/talks/2013/advconc.slide#1
 
+⭐️ 泛型版 slice、map
+
+[Go1.21 速览：新内置函数 clear、min、max 和新标准库包 cmp！](https://mp.weixin.qq.com/s/MorBUrzpKFhssiZWLt4o6g)
+
+[Go1.21 速览：过了一年半，slices、maps 泛型库终于要加入标准库](https://mp.weixin.qq.com/s/1NuBnk8_lxmTi9N0biLa2g)
+
 ⭐️ [Go 项目分层下的最佳 error 处理方式](https://mp.weixin.qq.com/s/SnaurQfXDVidrl_ihBQtDA)
 
 ⭐️ [Go 将引入标准库 v2 版本，首个动手的是：math/rand/v2！](https://mp.weixin.qq.com/s/b_TYBRIZ3-EORFYq1xRjyQ)
