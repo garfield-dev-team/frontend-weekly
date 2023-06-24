@@ -63,7 +63,7 @@ $ npm install ai
 
 Vercel 的 AI SDK 支持互操作性，并为 OpenAI、LangChain 和 Hugging Face Inference 提供一流的支持。这意味着无论首选的 AI 模型提供商是哪个，都可以利用 Vercel AI SDK 创建前沿的流式 UI 体验。
 
-```ts
+```tsx
 import { OpenAIStream, StreamingTextResponse } from 'ai'
 import { Configuration, OpenAIApi } from 'openai-edge'
 
@@ -97,7 +97,7 @@ Vercel AI SDK 包括用于数据获取和渲染流式文本响应的 React 和 S
 
 现在，借助 `useChat` 和 `useCompletion`，构建丰富的聊天或完成接口只需要几行代码：
 
-```ts
+```tsx
 'use client'
 
 import { useChat } from 'ai/react'
