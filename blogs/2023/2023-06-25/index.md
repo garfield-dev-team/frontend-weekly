@@ -21,6 +21,8 @@ https://go.dev/talks/2012/concurrency.slide#1
 
 https://go.dev/talks/2013/advconc.slide#1
 
+https://go.dev/doc/effective_go#concurrency
+
 ⭐️ 泛型版 slice、map
 
 [Go1.21 速览：新内置函数 clear、min、max 和新标准库包 cmp！](https://mp.weixin.qq.com/s/MorBUrzpKFhssiZWLt4o6g)
