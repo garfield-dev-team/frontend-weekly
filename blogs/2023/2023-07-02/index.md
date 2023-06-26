@@ -5,6 +5,22 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [敲黑板！鹅厂程序员面试也考了这些算法知识](https://mp.weixin.qq.com/s/GwXQwJUdBi1UHdh2Q8FBMw)
+
+📒 [Go 语言类型转换的陷阱](https://mp.weixin.qq.com/s/p1n6EAid5o_knT0i0NWX_Q)
+
+⭐️ [精选8道ES高频面试题和答案，后悔没早点看](https://juejin.cn/post/7248791708334899258)
+
+📒 [”渐进式页面渲染“：详解 React Streaming 过程](https://juejin.cn/post/7248606482014896185)
+
+⭐️ [这些年在阿里学到的方法论](https://mp.weixin.qq.com/s/yPRPakU1UM5iVY-1bwiHJQ)
+
+⭐️ [Go 语言并发模式代码模板](https://mp.weixin.qq.com/s/431YMKwRjaStanqA6juePA)
+
+⭐️ [Go 并发编程 - 数据竞态](https://mp.weixin.qq.com/s/EaZepIDHWEHRptyaZI4cGg)
+
+⭐️ [Go 中线程安全 map 方案选型](https://mp.weixin.qq.com/s/kZH8wV2hy5ez0pJQAcxVUQ)
+
 ⭐️ [保护数据隐私：深入探索Golang中的SM4加密解密算法](https://juejin.cn/post/7248388270723039290)
 
 📒 2023 React 生态系统，以及我的一些吐槽
