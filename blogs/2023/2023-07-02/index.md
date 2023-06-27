@@ -5,6 +5,26 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [精选Go高频面试题和答案汇总，阅读破万，收藏230+](https://juejin.cn/post/7248995705291866169)
+
+📒 前端食堂技术周刊第 88 期：Svelte4、NestJS 10、State of CSS、Vitest 1.0 Roadmap
+
+- [Svelte 4](https://svelte.dev/blog/svelte-4) 主要是一个维护版本，为下一个版本做铺垫，包尺寸减少近 75%，依赖项从 61 个减少到 16 个，开发者体验提升。
+- [State of React 2023 先行版](https://survey.devographics.com/en-US/survey/state-of-react/2023) 先不用着急回答，答了也没用。
+- [Vitest 1.0 Roadmap](https://github.com/vitest-dev/vitest/issues/3596) Vitest 1.0 将和 Vite 5 同步发布，1.0 版本将放弃对 Vite 4 和 Vite 3 的支持，意味着将不再支持 Node.js 16。
+- [Rspack v0.2.3](https://github.com/web-infra-dev/rspack/releases/tag/0.2.3) 性能优化(依赖缓存、tree shaking)、内置 swc-loader 等。
+
+TypeScript 5.2 前瞻：
+
+- [新的关键字 using](https://www.totaltypescript.com/typescript-5-2-new-keyword-using)
+- [类型参数占位符](https://www.totaltypescript.com/type-argument-placeholders-typescript-5-2-most-discussed-feature)
+
+[前端食堂技术周刊第 88 期：Svelte4、NestJS 10、State of CSS、Vitest 1.0 Roadmap](https://juejin.cn/post/7248967382961815613)
+
+⭐️ [「Go开源包」nunu：一个快速构建应用程序的脚手架](https://juejin.cn/post/7248951438742339639)
+
+📒 [Web Components 初探：我终于学会了如何在其他框架中使用 Vue 组件](https://juejin.cn/post/7248906639705030717)
+
 ⭐️ [敲黑板！鹅厂程序员面试也考了这些算法知识](https://mp.weixin.qq.com/s/GwXQwJUdBi1UHdh2Q8FBMw)
 
 📒 [Go 语言类型转换的陷阱](https://mp.weixin.qq.com/s/p1n6EAid5o_knT0i0NWX_Q)
