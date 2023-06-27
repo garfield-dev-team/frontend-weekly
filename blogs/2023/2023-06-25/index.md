@@ -17,9 +17,17 @@ tags: []
 
 ⭐️ Go Concurrency Patterns
 
+[Go 语言并发模式代码模板](https://mp.weixin.qq.com/s/431YMKwRjaStanqA6juePA)
+
 https://go.dev/talks/2012/concurrency.slide#1
 
 https://go.dev/talks/2013/advconc.slide#1
+
+[Go Concurrency Patterns: Context](https://go.dev/blog/context)
+
+[Go Concurrency Patterns: Pipelines and cancellation](https://go.dev/blog/pipelines)
+
+[Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/concurrency-timeouts)
 
 https://go.dev/doc/effective_go#concurrency
 
