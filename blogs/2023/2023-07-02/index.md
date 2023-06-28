@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何排查 Electron V8 引发的内存 OOM 问题](https://mp.weixin.qq.com/s/w49Q1bp2DAHE84cyCf8toA)
+
+📒 [ECMAScript 2023 正式发布，有哪些新特性](https://mp.weixin.qq.com/s/5WWk553PPNzeekHQSRHn5w)
+
+⭐️ [为什么 Linux “一切皆文件”](https://mp.weixin.qq.com/s/j3hwHXVH8ONd955gSURHFg)
+
+📒 [32K star 的 Chakra UI，以及未来的展望](https://mp.weixin.qq.com/s/8VwrqeF3rSq7SKh5b10CLA)
+
+⭐️ [「Go开源包」chromedp：一个基于Chrome DevTools协议的库，支持数据采集、截取网页长图](https://mp.weixin.qq.com/s/rGPsEt-XDOayDWwLGxvcsw)
+
+⭐️ [Go 1.21的PGO正式GA，性能提升，更快更猛！](https://mp.weixin.qq.com/s/nDQR-NfhJaIwrsYaxgYtbg)
+
+⭐️ [我不允许你还没有这张《K8S容器云平台排错一览图》](https://mp.weixin.qq.com/s/lk5scDnUD0fJaEffokueYA)
+
 ⭐️ [精选Go高频面试题和答案汇总，阅读破万，收藏230+](https://juejin.cn/post/7248995705291866169)
 
 📒 前端食堂技术周刊第 88 期：Svelte4、NestJS 10、State of CSS、Vitest 1.0 Roadmap
