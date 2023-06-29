@@ -7,6 +7,12 @@ tags: []
 
 ⭐️ [Go1.21 速览：Context 可以设置取消原因和回调函数了，等的可太久了！](https://juejin.cn/post/7249913673216966714)
 
+⭐️ [Go 面试题：Go interface 的一个 “坑” 及原理分析](https://juejin.cn/post/6960888943273312263)
+
+⭐️ [Go 新关键字 any，interface{} 会成为历史吗](https://juejin.cn/post/7044752798784684063)
+
+⭐️ [为什么 Go 里值为 nil 可以调用函数](https://juejin.cn/post/7046234652968747022)
+
 📒 [如何排查 Electron V8 引发的内存 OOM 问题](https://mp.weixin.qq.com/s/w49Q1bp2DAHE84cyCf8toA)
 
 📒 [ECMAScript 2023 正式发布，有哪些新特性](https://mp.weixin.qq.com/s/5WWk553PPNzeekHQSRHn5w)
