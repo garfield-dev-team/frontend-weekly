@@ -5,6 +5,8 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go1.21 速览：Context 可以设置取消原因和回调函数了，等的可太久了！](https://juejin.cn/post/7249913673216966714)
+
 📒 [如何排查 Electron V8 引发的内存 OOM 问题](https://mp.weixin.qq.com/s/w49Q1bp2DAHE84cyCf8toA)
 
 📒 [ECMAScript 2023 正式发布，有哪些新特性](https://mp.weixin.qq.com/s/5WWk553PPNzeekHQSRHn5w)
