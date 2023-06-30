@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [K8S面试题，有57道题，呕心沥血整理并附答案，赶紧收藏！](https://mp.weixin.qq.com/s/y87y_KIGz8vn2OgLXZvDOw)
+
+⭐️ [云原生监控--VictoriaMetrics 之基础篇](https://mp.weixin.qq.com/s/Ip3pzZkcEuZftELjPpdAIw)
+
 ⭐️ [Go1.21 速览：Context 可以设置取消原因和回调函数了，等的可太久了！](https://juejin.cn/post/7249913673216966714)
 
 ⭐️ [Go 面试题：Go interface 的一个 “坑” 及原理分析](https://juejin.cn/post/6960888943273312263)
