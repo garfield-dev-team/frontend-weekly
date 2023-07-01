@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [TypeScript 5.2 beta 发布：using 关键字、装饰器元数据、元组匿名与具名元素混用](https://mp.weixin.qq.com/s/CcNuCITp46MEJzqwY2qRhw)
+
+⭐️ [Go语言开发者的Apache Arrow使用指南：内存管理](https://mp.weixin.qq.com/s/JWg8yW_lDiZQCk6bKZ5TeA)
+
 ⭐️ [K8S面试题，有57道题，呕心沥血整理并附答案，赶紧收藏！](https://mp.weixin.qq.com/s/y87y_KIGz8vn2OgLXZvDOw)
 
 ⭐️ [云原生监控--VictoriaMetrics 之基础篇](https://mp.weixin.qq.com/s/Ip3pzZkcEuZftELjPpdAIw)
