@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [干货｜携程Web组件在跨端场景的实践](https://mp.weixin.qq.com/s/tM5vjf98TuKrPcncN4cj4A)
+
+📒 [Chrome 震撼新特性：文档画中画！](https://mp.weixin.qq.com/s/GAytI88w69p7zXHFqDtgeg)
+
 📒 [TypeScript 5.2 beta 发布：using 关键字、装饰器元数据、元组匿名与具名元素混用](https://mp.weixin.qq.com/s/CcNuCITp46MEJzqwY2qRhw)
 
 ⭐️ [Go语言开发者的Apache Arrow使用指南：内存管理](https://mp.weixin.qq.com/s/JWg8yW_lDiZQCk6bKZ5TeA)
@@ -94,6 +98,16 @@ https://github.com/smallnest/talk-about-go-generics
 ⭐️ [Go语言开发者的Apache Arrow使用指南：数据类型](https://mp.weixin.qq.com/s/dyQ3WBMPF2DyaI8Dlgy8Gw)
 
 ⭐️ [「有问必答」Gopher如何优雅的对时间进行格式化](https://mp.weixin.qq.com/s/cK2KMpN4vUrlDXEkTm7Mig)
+
+⭐️ 相关文章汇总
+
+AutoAnimate：通过一行代码为应用添加动画效果——可以在页面上查看一些漂亮的示例，并且这个库可以与 React、Vue、Svelte 或原生 JavaScript 一起使用。
+
+> https://auto-animate.formkit.com/
+
+Toad Scheduler：内存中的 Node 和浏览器任务调度器——提供了比 setTimeout 或 setInterval 更多的结构，并支持类似 cron 的调度。
+
+> https://github.com/kibertoad/toad-scheduler
 
 ⭐️ Go语言爱好者周刊：第 192 期 —— 初始化大 map 的性能
 
