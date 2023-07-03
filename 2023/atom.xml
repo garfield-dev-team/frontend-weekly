@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[7月9日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月9日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月9日内容汇总"/>
+        <updated>2023-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[⭐️ 分享6个Linux必备的安全设置，建议收藏！]]></summary>
+        <content type="html"><![CDATA[<p>⭐️ <a href="https://mp.weixin.qq.com/s/H9_BYLQIewIyycJkMxo6LA" target="_blank" rel="noopener noreferrer">分享6个Linux必备的安全设置，建议收藏！</a></p><p>📒 <a href="https://mp.weixin.qq.com/s/X7vffwDcz1Otevr0OP7gOQ" target="_blank" rel="noopener noreferrer">企业级 React API 调用架构设计</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/zbvUzoa1K7AIQK-p3v-WQQ" target="_blank" rel="noopener noreferrer">Go 语言使用 XORM 操作 MySQL 的陷阱</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/xYnzVz2FDX-rNCgfKwOgAQ" target="_blank" rel="noopener noreferrer">C++/Go 调用约定的原理</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/xjkY6hJnUq5btDyJuSOZrg" target="_blank" rel="noopener noreferrer">Go 语言 iota 的神奇力量</a></p><p>⭐️ <a href="https://mp.weixin.qq.com/s/W5g7HdR1cQ-c1m05Z8umeg" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 193 期 —— Go1.21 RC 发布</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7月2日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月2日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月2日内容汇总"/>
