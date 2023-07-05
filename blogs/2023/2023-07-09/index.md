@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [如何方便的检测React项目的性能](https://mp.weixin.qq.com/s/WKGqodCLumBWkOY_knNo4A)
+
+⭐️ [Go 团队将修改 for 循环变量的语义，Go1.21 新版本即可体验！](https://mp.weixin.qq.com/s/VO0VlfGbuvZst9yD73-VDQ)
+
 ⭐️ 如何基于 IDL 生成 Go 项目模板
 
 https://dev.to/justlorain/high-performance-go-http-framework-tasting-25li
