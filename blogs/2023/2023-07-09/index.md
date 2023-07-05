@@ -5,13 +5,11 @@ authors: [garfield]
 tags: []
 ---
 
-⭐️ 基于 thrift IDL 生成服务端项目模板
+⭐️ 如何基于 IDL 生成 Go 项目模板
 
 https://dev.to/justlorain/high-performance-go-http-framework-tasting-25li
 
 https://www.cloudwego.io/docs/hertz/tutorials/toolkit/usage/usage-thrift/
-
-[聊聊为什么 IDL 只能扩展字段而非修改](https://mp.weixin.qq.com/s/6Y40fr2qGvOxl8xX5HBCjg)
 
 ⭐️ nginx 配置 HTTP/2
 
