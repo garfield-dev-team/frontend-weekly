@@ -5,6 +5,16 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Google 工作 10+ 年的感悟，有看到 Go 核心团队的影子吗](https://mp.weixin.qq.com/s/Z8kMDwuv9ZlmqvdrOu5SEQ)
+
+⭐️ [万字长文说透分布式锁](https://mp.weixin.qq.com/s/Fkga3KaU0fBv5zXM-b8JhA)
+
+⭐️ [服务架构简介](https://mp.weixin.qq.com/s/1kuLtd8rxC1xP628FgAwqw)
+
+⭐️ [使用 Linux 网络虚拟化技术探究容器网络原理](https://mp.weixin.qq.com/s/aXotIih1RkpyDTaokJjGPw)
+
+⭐️ [Go语言开发者的Apache Arrow使用指南：高级数据结构](https://mp.weixin.qq.com/s/WgeTzhP4T0AAjFssHz36UA)
+
 ⭐️ 字节跳动开源 Go HTTP 框架 Hertz 设计实践
 
 [字节跳动开源 Go HTTP 框架 Hertz 设计实践](https://mp.weixin.qq.com/s/1rBn8yAT0FvgmcuxnSdTPg)
