@@ -1211,6 +1211,7 @@ import TabItem from '@theme/TabItem';
   - [Go 语言高性能编程](https://github.com/geektutu/high-performance-go)
   - 🌟 [Go 语言原本](https://github.com/golang-design/under-the-hood)
   - 🌟 [Go 语言原本（在线阅读）](https://golang.design/under-the-hood/)
+  - 🌟 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
   - 🌟 [Learn Go with tests](https://studygolang.gitbook.io/learn-go-with-tests)
   - 🌟 [golang 编程规范 - 项目目录结构](https://makeoptim.com/golang/standards/project-layout)
   - [Go 夜读](https://github.com/talkgo/night)
