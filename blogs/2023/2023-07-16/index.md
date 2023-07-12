@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [“Rust难学”只是一个谎言](https://mp.weixin.qq.com/s/_8iBshLq-3fQOD14EtNQMg)
+
+⭐️ [Go实战：开发一个简单的gRPC Demo](https://mp.weixin.qq.com/s/rxPAcU5zhWCtRQLbh9uxKw)
+
+⭐️ [你用过 httpguts 包吗？通过 Go 1.20.6 和 Go 1.19.11 安全更新即可了解](https://mp.weixin.qq.com/s/F6vesem86riCwZhqfD1_gQ)
+
+⭐️ [微服务最重要的10个设计模式](https://mp.weixin.qq.com/s/HMKcGle4DwiKdOo0mRTa0Q)
+
 ⭐️ [Docker 制作容器镜像的时候， 一定不能 All in One 吗](https://mp.weixin.qq.com/s/oNoTfHwI0X9e3nk9iNCJ0Q)
 
 ⭐️ [Go defer 去掉闭包函数，靠谱吗](https://mp.weixin.qq.com/s/4vpgxwTEn-xjdmXF5Hj7Kw)
