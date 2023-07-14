@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [Go进阶面试题详解 | 文末送书](https://mp.weixin.qq.com/s/ldn5APfp0UooWbh4cmcM4A)
+
+⭐️ [HTTP Router 算法演进](https://mp.weixin.qq.com/s/Vnb5akB5b5kuOt7ZrZX-EQ)
+
+⭐️ [Go语言开发者的Apache Arrow使用指南：数据操作](https://mp.weixin.qq.com/s/Lxxfeqn70rfmnrGvgrxevA)
+
+📒 [一个新的React概念：Effect Event](https://mp.weixin.qq.com/s/wpn1ujDvVp_VBM0_pK1-GA)
+
 📒 [干货 | 携程商旅大前端 React Streaming 的探索之路](https://mp.weixin.qq.com/s/HUJTU5Du6318LJ7RfQNN2g)
 
 ⭐️ [go channel应用系列之控制协程数量](https://mp.weixin.qq.com/s/CUQaiZp4BrulnXvLd9ogZQ)
