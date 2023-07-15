@@ -939,6 +939,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go 将引入标准库 v2 版本，首个动手的是：math/rand/v2！](https://mp.weixin.qq.com/s/b_TYBRIZ3-EORFYq1xRjyQ)
   - ⭐️ [Go1.21 速览：Context 可以设置取消原因和回调函数了，等的可太久了！](https://juejin.cn/post/7249913673216966714)
   - ⭐️ [Go 团队将修改 for 循环变量的语义，Go1.21 新版本即可体验！](https://mp.weixin.qq.com/s/VO0VlfGbuvZst9yD73-VDQ)
+  - ⭐️ [Google 工作 10+ 年的感悟，有看到 Go 核心团队的影子吗](https://mp.weixin.qq.com/s/Z8kMDwuv9ZlmqvdrOu5SEQ)
   - ⭐️ [「必知必会」 Nacos 的面试题和详解](https://mp.weixin.qq.com/s/C_KpYoul8ko5yrVLMe_uQg)
   - ⭐️ [zookeeper到nacos的迁移实践](https://mp.weixin.qq.com/s/8XdbLrlzHhofiC089AMb1Q)
   - ⭐️ [上篇：带你手工体验从写代码、编译、打包镜像、部署到K8S的全过程](https://mp.weixin.qq.com/s/YGhndR5zR-Ebf8IaKbFZiQ)
