@@ -1519,6 +1519,7 @@ import TabItem from '@theme/TabItem';
   - [Union Find 并查集算法原理及应用](https://mp.weixin.qq.com/s/mFLCL_Dyz5-CtZMZJmOXKw)
   - [必知必会位运算技巧手册](https://mp.weixin.qq.com/s/4vHfaNnn1OpWQJcsssWWdQ)
   - [【面试高频题】难度 1.5/5，多解法经典面试题](https://juejin.cn/post/7152708637817831432)
+  - [DFS/回溯/动态规划算法的融会贯通](https://mp.weixin.qq.com/s/9Q4JAuSATq3WgN7krdGTWg)
   - [2021 公众号精选文章目录](https://mp.weixin.qq.com/s/ir1Hk06HcT8W_qz0MtyONA)
 - 看下面的文章，手写一个 Webpack
 	- [手写一个webpack，看看AST怎么用｜牛气冲天新年征文](https://juejin.cn/post/6930877602840182791)
