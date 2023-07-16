@@ -5,6 +5,12 @@ authors: [garfield]
 tags: []
 ---
 
+⭐️ [服务架构：大数据架构](https://mp.weixin.qq.com/s/Ane5iRMqYrtQMnC3TWlrwA)
+
+⭐️ [使用testify包辅助Go测试指南](https://mp.weixin.qq.com/s/LppX2mvbkgsLKkqqudehQA)
+
+⭐️ [另一种视角：我为什么放弃 Go 语言](https://mp.weixin.qq.com/s/xjjnE5hcspbNRGHP-I869A)
+
 ⭐️ [Go进阶面试题详解 | 文末送书](https://mp.weixin.qq.com/s/ldn5APfp0UooWbh4cmcM4A)
 
 ⭐️ [HTTP Router 算法演进](https://mp.weixin.qq.com/s/Vnb5akB5b5kuOt7ZrZX-EQ)
