@@ -5,6 +5,14 @@ authors: [garfield]
 tags: []
 ---
 
+📒 [架构师对于 Vue 响应式编程的思路梳理，从 RxJS 身上学到这么多](https://mp.weixin.qq.com/s/uYb6kjc0MTMbAE3jGmNfYA)
+
+⭐️ [高阶函数编程：探索Go语言中的函数一等公民](https://mp.weixin.qq.com/s/sJeXoxTSh7M9azpsbsr1rQ)
+
+⭐️ [Go 面试题：string 是线程安全的吗](https://mp.weixin.qq.com/s/4pPpHRWflkkvqrf-FlXztg)
+
+⭐️ [「Go开源包」xxhash：比标准库更快，基于xxHash算法实现的64位的整型hash值](https://mp.weixin.qq.com/s/Vkx8zzm1SjIl4IXLib3xkQ)
+
 ⭐️ [Go：使用Cobra打造强大命令行应用](https://mp.weixin.qq.com/s/im8JZV3bL9WVOn7VgArmhw)
 
 ⭐️ [开源的Datadog？可观测性平台SigNoz是否名副其实](https://mp.weixin.qq.com/s/LZ6jV_TYKnCjr8_zgTHKJg)
