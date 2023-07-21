@@ -5,6 +5,20 @@ authors: [garfield]
 tags: []
 ---
 
+🌟 [使用 Docker 快速上手官方版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/NJ1JXkAK9LTSuor0mxtz1A)
+
+⭐️ [抽丝剥茧，记一次 Go 程序性能优化之旅](https://mp.weixin.qq.com/s/rkj59gAfTcF9uI3sbUExpA)
+
+📒 [【第3005期】前端简洁架构](https://mp.weixin.qq.com/s/OQ_ySD-N4j0hyaWouvF8Sw)
+
+⭐️ [漏桶算法和令牌桶算法](https://mp.weixin.qq.com/s/Tv_i02csSoQVMj-_EDPECQ)
+
+🌟 Russ Cox 的个人博客
+
+https://research.swtch.com/coro
+
+⭐️ [美团面试：为什么MySQL不建议使用NULL作为列默认值](https://mp.weixin.qq.com/s/XAO048ZQljPXrTsmSr01LA)
+
 ⭐️ [Stable Diffusion 腾讯云云原生容器部署实践](https://mp.weixin.qq.com/s/gWCiZhHAniCzj4X2tbGPag)
 
 ⭐️ [深度好文：如何发现及处理 MySQL 主从延迟问题](https://mp.weixin.qq.com/s/Ca0qleA9XFqf1y3BiW8PfQ)
