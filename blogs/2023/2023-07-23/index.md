@@ -7,11 +7,25 @@ tags: []
 
 ## 🌟 AI 相关
 
+[Fine-tuning Stable Diffusion Models on Intel CPUs](https://huggingface.co/blog/stable-diffusion-finetuning-intel)
+
+[Deploy LLMs with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints-llm)
+
+[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)
+
 [使用 Docker 快速上手官方版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/NJ1JXkAK9LTSuor0mxtz1A)
 
 [Stable Diffusion 腾讯云云原生容器部署实践](https://mp.weixin.qq.com/s/gWCiZhHAniCzj4X2tbGPag)
 
+[一键安装！机器学习和大模型联手了！](https://mp.weixin.qq.com/s/J1ZfSC_eUX8D_al6L_QfoA)
+
 ## ⭐️ Golang 相关
+
+[服务架构：微服务架构](https://mp.weixin.qq.com/s/dOw25R2xihr0M3T27fYUSA)
+
+[OpenTelemetry：将跟踪从 Ingress-Nginx 发送到多租户 Grafana Tempo](https://mp.weixin.qq.com/s/Wbk2gGLTwaBlrfytye565w)
+
+[Rust vs Go:常用语法对比(一)](https://mp.weixin.qq.com/s/ES8RBASjUdCrsvV3ErceGg)
 
 [抽丝剥茧，记一次 Go 程序性能优化之旅](https://mp.weixin.qq.com/s/rkj59gAfTcF9uI3sbUExpA)
 
@@ -62,8 +76,6 @@ https://research.swtch.com/coro
 [「Go开源包」env：一个将系统环境变量解析到结构体的库](https://mp.weixin.qq.com/s/xt0v6snX6y5jaOy1IniwVw)
 
 [配图清新的Protobuf 编码&避坑指南](https://mp.weixin.qq.com/s/YJp2jxuBwwbPBaMWlDZG9g)
-
-[一键安装！机器学习和大模型联手了！](https://mp.weixin.qq.com/s/J1ZfSC_eUX8D_al6L_QfoA)
 
 [Go语言爱好者周刊：第 195 期 —— Go 终极教程](https://mp.weixin.qq.com/s/B9qTA0ZqViuL4KB-GX-M_w)
 
