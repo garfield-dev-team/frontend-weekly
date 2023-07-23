@@ -7,6 +7,10 @@ tags: []
 
 ## 🌟 AI 相关
 
+[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/Fo26NbtK8wFiHEGP0nhzuQ)
+
+[刷屏的Llama 2性能究竟如何](https://mp.weixin.qq.com/s/tYFP5b58WbMlP_M316mhNA)
+
 [Fine-tuning Stable Diffusion Models on Intel CPUs](https://huggingface.co/blog/stable-diffusion-finetuning-intel)
 
 [Deploy LLMs with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints-llm)
@@ -20,6 +24,8 @@ tags: []
 [一键安装！机器学习和大模型联手了！](https://mp.weixin.qq.com/s/J1ZfSC_eUX8D_al6L_QfoA)
 
 ## ⭐️ Golang 相关
+
+[Go语言开发者的Apache Arrow使用指南：扩展compute包](https://mp.weixin.qq.com/s/xBpA36wpmbO85LIHlaTXBg)
 
 [服务架构：微服务架构](https://mp.weixin.qq.com/s/dOw25R2xihr0M3T27fYUSA)
 
