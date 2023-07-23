@@ -55,6 +55,14 @@ https://research.swtch.com/coro
 
 [高阶函数编程：探索Go语言中的函数一等公民](https://mp.weixin.qq.com/s/sJeXoxTSh7M9azpsbsr1rQ)
 
+线程安全是指在多线程环境下，程序的执行能够正确地处理多个线程并发访问共享数据的情况，保证程序的正确性和可靠性。
+
+能被称之为：线程安全，需要在多个线程同时访问共享数据时，满足如下几个条件：
+
+- 不会出现数据竞争（data race）：多个线程同时对同一数据进行读写操作，导致数据不一致或未定义的行为。
+- 不会出现死锁（deadlock）：多个线程互相等待对方释放资源而无法继续执行的情况。
+- 不会出现饥饿（starvation）：某个线程因为资源分配不公而无法得到执行的情况。
+
 [Go 面试题：string 是线程安全的吗](https://mp.weixin.qq.com/s/4pPpHRWflkkvqrf-FlXztg)
 
 [「Go开源包」xxhash：比标准库更快，基于xxHash算法实现的64位的整型hash值](https://mp.weixin.qq.com/s/Vkx8zzm1SjIl4IXLib3xkQ)
