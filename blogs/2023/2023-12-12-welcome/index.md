@@ -1198,6 +1198,7 @@ import TabItem from '@theme/TabItem';
   - [「Go工具箱」重磅推荐：一个国产的，star高达12k+的操作excel的包：Excelize](https://mp.weixin.qq.com/s/zLNwq32UKaCsaAXn2BaZkw)
   - [「Go工具箱」一个让终端内容彩色化的工具：Color](https://mp.weixin.qq.com/s/Y3NGQH3hrT85O7aN7IrCIQ)
 - Golang 相关资源
+  - 🌟 [Russ Cox 的个人博客](https://research.swtch.com/)
   - 🌟 [Tony Bai 博客](https://tonybai.com/articles/)
   - 🌟 [Go 程序员面试笔试宝典](https://github.com/golang-design/go-questions)
   - 🌟 [Go语言圣经（中文版）](https://books.studygolang.com/gopl-zh/)
