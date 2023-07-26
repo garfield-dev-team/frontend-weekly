@@ -7,11 +7,29 @@ tags: []
 
 ## 🌟 AI 相关
 
+Colab 在线运行 llama-2：
+
+https://github.com/camenduru/text-generation-webui-colab
+
 [OpenAI Code Interpreter 的开源实现：GPT Code UI](https://mp.weixin.qq.com/s/6EfShSyYfPzSAnNg4duQFw)
 
 [构建能够使用 CPU 运行的 MetaAI LLaMA2 中文大模型](https://mp.weixin.qq.com/s/1ceo6oxBGjhvGwdU4qJRdQ)
 
 ## ⭐️ Golang 相关
+
+一个小技巧，如何用 openssl 生成密码：
+
+```bash
+$ openssl rand -base64 [password length]
+```
+
+[全面解读！Golang中泛型的使用](https://mp.weixin.qq.com/s/QBZ1dp0XIqMo24vVFYf1fA)
+
+[Go 1.19 中的原子指针](https://mp.weixin.qq.com/s/EGMKbpPxrtO1HToYVOYwzw)
+
+[服务治理到底治什么，10张图告诉你答案](https://mp.weixin.qq.com/s/iwUYtS_oRcNf3QMiowUYuw)
+
+[Go 语言的安全守护者：你用了吗](https://mp.weixin.qq.com/s/MLO7vTLOM-h9v-CgYpmqwg)
 
 [关于Dockerfile的最佳实践技巧](https://mp.weixin.qq.com/s/VxkHe3GI8Z-NqjDDdGuzWg)
 
