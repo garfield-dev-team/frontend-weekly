@@ -17,6 +17,66 @@ https://github.com/camenduru/text-generation-webui-colab
 
 ## ⭐️ Golang 相关
 
+本地开发如何用 Dev Container，前端工程配置参考：
+
+```yml
+version: '3'
+services:
+  node-app:
+    image: node:18-alpine
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      # 表示将当前工作目录挂载到容器内的 `/app` 目录
+      - .:/app
+      # 当容器被重新启动时，`node_modules` 目录不会被重新构建，从而加快了容器的启动速度。
+      - node_modules:/app/node_modules
+    working_dir: /app
+    command: pnpm run dev
+# 将 Docker 容器内的 `/node_modules` 目录挂载到卷上
+# 在容器重新启动时，该目录中的依赖项不会被重新构建，从而加快容器的启动速度
+volumes:
+  node_modules:
+```
+
+然后运行下面命令启动容器：
+
+```bash
+$ docker-compose up
+```
+
+Golang 工程配置参考：
+
+```yml
+version: '3'
+services:
+  go-app:
+    image: golang:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - GOPATH=/go
+      - PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
+    volumes:
+      - .:/go/src/app
+    working_dir: /go/src/app
+    command: go run main.go
+```
+
+[go channel应用系列二：协程间信息同步](https://mp.weixin.qq.com/s/ibBh9hCIXlINBh4UvH-RvA)
+
+[超越 MyBatis-Plus？来领略一下 MyBatis-Flex 的优雅魅力！](https://mp.weixin.qq.com/s/cxRcRFgKMWs9MXmo0Lbw-A)
+
+[WebStorm 2023.2 正式发布](https://mp.weixin.qq.com/s/BP7IdAEkoCuvUf8dmVf-uw)
+
+[Go可用性(七) 总结: 一张图串联可用性知识点](https://mp.weixin.qq.com/s/OXopl6FpwtE6P-k0GEP9qA)
+
+[Go 工程化(十) 如何在整洁架构中使用事务](https://mp.weixin.qq.com/s/MSwUlVGPDRBjdR-xh5cNfA)
+
+[Go 工程化(十一) 如何优雅的写出 repo 层代码](https://mp.weixin.qq.com/s/pb0P_y34N3uOhMu0SDqC2A)
+
 一个小技巧，如何用 openssl 生成密码：
 
 ```bash
