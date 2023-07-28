@@ -17,6 +17,59 @@ https://github.com/camenduru/text-generation-webui-colab
 
 ## ⭐️ Golang 相关
 
+`go install` 是 Go 语言提供的命令之一，可以将一个或多个 Go 语言源代码文件编译成可执行文件，并将可执行文件安装到 `$GOPATH/bin` 目录下。
+
+```bash
+$ go install
+```
+
+编译完成之后，可执行文件会被安装到 `$GOPATH/bin` 目录下，可以在命令行中输入可执行文件的名称（默认为 go.mod 中的包名）来运行该程序。
+
+在终端中执行以下命令，可以列出 `$GOPATH/bin` 目录下所有的可执行文件：
+
+```bash
+$ ll $GOPATH/bin
+```
+
+配置 Go 开发环境需要注意的细节。
+
+打开 `~/.zshrc` 设置 `$GOPATH` 环境变量：
+
+```bash
+export PATH=$PATH:/usr/local/go/bin
+```
+
+然后执行：
+
+```bash
+$ source ~/.zshrc
+```
+
+不过，国内特殊的环境，我们还需要做一个重要的配置，那就是 GOPROXY：
+
+```bash
+$ go env -w GOPROXY=https://goproxy.cn,https://goproxy.io,direct
+```
+
+这样可以方便的下载 golang.org/x 等包，所以，记得执行以上命令。
+
+Docker 提供了四种网络模式：
+
+- bridge 模式：默认的网络模式，使用 Docker 守护进程的 Linux 桥接实现容器间的通信。
+- host 模式：容器与宿主机共享网络，容器的网络性能非常高，但容器之间的网络隔离性不够。
+- overlay 模式：用于跨主机通信的网络模式，可以将多个 Docker 宿主机上的容器组成一个虚拟网络。
+- none 模式：容器不会配置网络，需要手动配置，通常用于特殊场景，比如只需要容器内部访问宿主机等。
+
+好奇它的工作原理的可以参考：
+
+https://dumlutimuralp.medium.com/docker-networking-intro-62d4bc163843
+
+https://collabnix.com/a-beginners-guide-to-docker-networking/
+
+[5000字，10张图，完全掌握 MySQL 事务隔离级别](https://mp.weixin.qq.com/s/Wln851vw5eqYVRGz23zcjQ)
+
+[服务架构：分层架构](https://mp.weixin.qq.com/s/CUCHUQa6lYuPhvEALdIQQg)
+
 本地开发如何用 Dev Container，前端工程配置参考：
 
 ```yml
