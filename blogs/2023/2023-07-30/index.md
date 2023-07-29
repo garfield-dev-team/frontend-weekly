@@ -7,6 +7,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[使用 Docker 快速上手 Stability AI 的 SDXL 1.0 正式版](https://mp.weixin.qq.com/s/0KeNTsbsciOQCflu-yVuvg)
+
 Colab 在线运行 llama-2：
 
 https://github.com/camenduru/text-generation-webui-colab
@@ -114,5 +116,9 @@ $ openssl rand -base64 [password length]
 [Go语言爱好者周刊：第 196 期](https://mp.weixin.qq.com/s/X_Z3YIL_iqwkg2ZKYKkT1g)
 
 ## 📒 前端相关
+
+[用Rust生成Ant-Design Table Columns | 京东云技术团队](https://juejin.cn/post/7260144602472382519)
+
+[前端简洁架构](https://mp.weixin.qq.com/s/M87FLnkeF0aYeYlz0jDYxA)
 
 [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
