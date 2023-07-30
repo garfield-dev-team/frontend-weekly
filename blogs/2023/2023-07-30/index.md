@@ -7,6 +7,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[基于 Docker 的深度学习环境：Windows 篇](https://mp.weixin.qq.com/s/U15ur0zaUaXybc_zacg78g)
+
 [使用 Docker 快速上手 Stability AI 的 SDXL 1.0 正式版](https://mp.weixin.qq.com/s/0KeNTsbsciOQCflu-yVuvg)
 
 Colab 在线运行 llama-2：
