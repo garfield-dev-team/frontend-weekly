@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8月6日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月6日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月6日内容汇总"/>
+        <updated>2023-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🌟 AI 相关]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/7HJfEvxVhatqchs5Tr09UA" target="_blank" rel="noopener noreferrer">Stable Diffusion 硬核生存指南：WebUI 中的 VAE</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/Wdh2O4cnez95x0RBpMiDvQ" target="_blank" rel="noopener noreferrer">Go语言中常见100问题-#41 substrings and memory leaks</a></p><p><a href="https://mp.weixin.qq.com/s/gQyny2PUwEacEWzdDznmew" target="_blank" rel="noopener noreferrer">OpenKruise 中 OpenKruiseGame介绍</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/IO7qtDifVtDyKfXiUcxriw" target="_blank" rel="noopener noreferrer">JavaScript 中隐秘而强大的 compose 和 pipe</a></p><p><a href="https://juejin.cn/post/7261604498924765221" target="_blank" rel="noopener noreferrer">一文吃透 React DSL 应用并从零到一实现</a></p><p><a href="https://juejin.cn/post/7261493331188449341" target="_blank" rel="noopener noreferrer">从 antDesign 来窥探移动端“滚动穿透”行为</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7月30日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月30日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/7月30日内容汇总"/>
