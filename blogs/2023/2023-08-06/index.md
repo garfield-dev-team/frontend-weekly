@@ -7,14 +7,25 @@ tags: []
 
 ## 🌟 AI 相关
 
+[Stable Diffusion 硬核生存指南：WebUI 中的 CodeFormer](https://mp.weixin.qq.com/s/nFonjSHvx0238z5_-CTIQA)
+
 [Stable Diffusion 硬核生存指南：WebUI 中的 VAE](https://mp.weixin.qq.com/s/7HJfEvxVhatqchs5Tr09UA)
 
 ## ⭐️ Golang 相关
 
+[拜托，别在 agent 中依赖 fastjson 了](https://mp.weixin.qq.com/s/ZYSiPGBQZLljZE0ESMM2tg)
+
+[一款 IDEA 插件帮你优雅转化 DTO、VO、BO、PO、DO](https://mp.weixin.qq.com/s/2tuduQxObia7nbUn5mLMRw)
+
+[制作crate并发布到Crates.io](https://mp.weixin.qq.com/s/0TJdBcwyPQQIBhGGZoqo_w)
+
+[Go 改版本号规则，主版本号终于支持第三位数字 0 了](https://mp.weixin.qq.com/s/BfW8Ra3tsv7Dv3nu3MeI0g)
+
 如何用 Docker 容器运行单节点 Kafka 环境
 
 ```yml
-version: '3'services:
+version: '3'
+services:
   zookeeper:
     image: confluentinc/cp-zookeeper
     hostname: zookeeper
@@ -50,15 +61,26 @@ $ docker-compose up -d
 $ docker exec -it kafka /bin/bash
 ```
 
-然后可以使用 Kafka 的命令行工具进行操作，例如：
+然后可以使用 Kafka 的命令行工具进行操作，例如，下面的命令会创建一个名为 test 的主题，并将其配置为单个分区和单个副本因子：
 
 ```bash
 $ kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
 ```
 
-以上会创建一个名为 test 的主题。
+使用 Kafka 命令行工具中的 `kafka-console-producer.sh` 脚本来启动一个生产者，可以将消息发送到 test 主题中。在命令行窗口中运行以下命令。当命令行提示符出现时，你可以开始输入消息。每输入一行，该消息就会被发布到 test 主题中。
 
-`kafka-topics` 是 Kafka 提供的一个命令行工具，用于管理 Kafka 集群中的主题。
+
+```bash
+$ kafka-console-producer --broker-list localhost:9092 --topic test
+```
+
+新开一个终端，使用 Kafka 命令行工具中的 `kafka-console-consumer.sh` 脚本来启动一个消费者，可以从 test 主题中接收消息。在命令行窗口中运行以下命令。该命令将打印 test 主题中的所有消息。
+
+```bash
+$ docker exec -it kafka /bin/bash
+
+$ kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning
+```
 
 推荐 GoLand 提供的 Kafka 插件：
 
