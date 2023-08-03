@@ -13,6 +13,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Go 1.21 发布已延期，昨天才发布 Go 1.20.7 和 Go 1.21rc4](https://mp.weixin.qq.com/s/eVHpY0gPjASpcnmSkceJkg)
+
+[Opentelemetry 实践分享 - Golang篇](https://mp.weixin.qq.com/s/7hU0iSDBg0z1nYZnB-61gQ)
+
+[Go项目实现日志按时间及文件大小切割并压缩](https://mp.weixin.qq.com/s/yOna3X0gq3ssACMktNQOBQ)
+
+[使用 Go 语言实现二叉搜索树](https://mp.weixin.qq.com/s/2wYRmG_AiiHYjLDEXg94Ag)
+
 [拜托，别在 agent 中依赖 fastjson 了](https://mp.weixin.qq.com/s/ZYSiPGBQZLljZE0ESMM2tg)
 
 [一款 IDEA 插件帮你优雅转化 DTO、VO、BO、PO、DO](https://mp.weixin.qq.com/s/2tuduQxObia7nbUn5mLMRw)
@@ -105,6 +113,8 @@ https://www.jetbrains.com/go/whatsnew/#:~:text=GoLand%202023.2%20offers%20improv
 [OpenKruise 中 OpenKruiseGame介绍](https://mp.weixin.qq.com/s/gQyny2PUwEacEWzdDznmew)
 
 ## 📒 前端相关
+
+[curl 上手指南，前端开发必会](https://mp.weixin.qq.com/s/tNgx65hSBGeIjvbW_5ydRQ)
 
 [JavaScript 中隐秘而强大的 compose 和 pipe](https://mp.weixin.qq.com/s/IO7qtDifVtDyKfXiUcxriw)
 
