@@ -13,6 +13,28 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[浅析bitset的实现原理:一个将非负整数映射到布尔值的位集合库](https://mp.weixin.qq.com/s/O86tQ-VfdI40jtt35E41eQ)
+
+[PromQL看这个就够了](https://mp.weixin.qq.com/s/ycsUWjxfXa4YfvC6jaqL-w)
+
+[Go Runtime功能初探](https://mp.weixin.qq.com/s/HP1075oY3xQ3CbTwZ0veeQ)
+
+[Go 性能分析工具从入门到精通](https://mp.weixin.qq.com/s/uC1EHFusa3l7uqOn80vfMg)
+
+[服务架构：Web-Queue-Worker架构](https://mp.weixin.qq.com/s/P1j0vg2FYqt1zvwPQsdtww)
+
+Golang 如何操作 Kafka
+
+[Go社区主流Kakfa客户端简要对比](https://mp.weixin.qq.com/s/iNg9rA91VRTo4mJPHRqy7Q)
+
+[一篇搞定：消息队列概念、kafka入门、Kafka Golang客户端库](https://mp.weixin.qq.com/s/SPLs4wv6XHWRIoJVjb8qZg)
+
+[Go语言如何操纵Kafka保证无消息丢失](https://mp.weixin.qq.com/s/PJfehqhbR-lEc8PzAzaJ2A)
+
+[Golang 语言中 kafka 客户端库 sarama](https://mp.weixin.qq.com/s/T3dWcf5v1cWMdNbsK3_w2A)
+
+[19.Go语言编程之Kafka基础介绍与发布订阅实践](https://mp.weixin.qq.com/s/AHj2ivAwNNVt1cdY0OVBiw)
+
 [Go 1.21 发布已延期，昨天才发布 Go 1.20.7 和 Go 1.21rc4](https://mp.weixin.qq.com/s/eVHpY0gPjASpcnmSkceJkg)
 
 [Opentelemetry 实践分享 - Golang篇](https://mp.weixin.qq.com/s/7hU0iSDBg0z1nYZnB-61gQ)
