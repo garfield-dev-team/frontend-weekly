@@ -7,6 +7,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[Stable Diffusion 硬核生存指南：WebUI 中的 GFPGAN](https://mp.weixin.qq.com/s/hZNDZuC8NO99sYvekTxLHw)
+
 [Stable Diffusion 硬核生存指南：WebUI 中的 CodeFormer](https://mp.weixin.qq.com/s/nFonjSHvx0238z5_-CTIQA)
 
 [Stable Diffusion 硬核生存指南：WebUI 中的 VAE](https://mp.weixin.qq.com/s/7HJfEvxVhatqchs5Tr09UA)
