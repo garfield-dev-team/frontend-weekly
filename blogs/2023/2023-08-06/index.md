@@ -15,6 +15,16 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Golang实现单机百万长连接服务 - 美图的三年优化经验](https://mp.weixin.qq.com/s/xavjsa4NzRiVRxyMhifCDg)
+
+[一站式Golang内存洗髓经\[Go三关典藏版\]](https://mp.weixin.qq.com/s/J3Sfo9u63aTG6IndFP-BnQ)
+
+[深入理解Golang协程调度GPM\[Go三关典藏版\]](https://mp.weixin.qq.com/s/9MfIdUdBZmfqbUYT_xrB8A)
+
+[Golang三色标记混合写屏障GC模式全分析\[Go三关典藏版\]](https://mp.weixin.qq.com/s/up1MHqYW_v_C4P6AY-sW3w)
+
+[了解go在协程调度上的改进](https://mp.weixin.qq.com/s/2ibzE46UVnO_YNtugikpPQ)
+
 [浅析bitset的实现原理:一个将非负整数映射到布尔值的位集合库](https://mp.weixin.qq.com/s/O86tQ-VfdI40jtt35E41eQ)
 
 [PromQL看这个就够了](https://mp.weixin.qq.com/s/ycsUWjxfXa4YfvC6jaqL-w)
