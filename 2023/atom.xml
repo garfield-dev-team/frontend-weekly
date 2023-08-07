@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8月13日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月13日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月13日内容汇总"/>
+        <updated>2023-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🌟 AI 相关]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://juejin.cn/post/7239058077273620536" target="_blank" rel="noopener noreferrer">图解Redis和Zookeeper分布式锁 | 京东云技术团队</a></p><p><a href="https://mp.weixin.qq.com/s/4-TIpTIaT11TbA_tmavv2Q" target="_blank" rel="noopener noreferrer">Kafka实时数据即席查询应用与实践</a></p><p><a href="https://mp.weixin.qq.com/s/15_R6YmIjOQapgo38Ikj4Q" target="_blank" rel="noopener noreferrer">证书管理：从手工到平台化</a></p><p><a href="https://mp.weixin.qq.com/s/6-5TvzvvSq68EynDJZPwHQ" target="_blank" rel="noopener noreferrer">听GPT 讲K8s源代码--pkg(七)</a></p><p><a href="https://mp.weixin.qq.com/s/4UI6gTx7ZWRPhGbm4YGGCQ" target="_blank" rel="noopener noreferrer">Gopher Daily改版了</a></p><p><a href="https://mp.weixin.qq.com/s/n_GAbJK5RFJmNVZ_7EIZRg" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 197 期 —— Go 开发者调查</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://juejin.cn/post/7264201112873730085" target="_blank" rel="noopener noreferrer">代码之外的尤雨溪：在新加坡的生活，以及如何面对黑粉</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[8月6日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月6日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月6日内容汇总"/>
