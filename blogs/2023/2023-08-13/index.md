@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[听GPT 讲K8s源代码--pkg(八)](https://mp.weixin.qq.com/s/tf_r0LsJPKJQpWI0Ym1XqQ)
+
+[业务规则引擎演变简述](https://mp.weixin.qq.com/s/3a6fwSwc7PkYO26lAzwErg)
+
 [图解Redis和Zookeeper分布式锁 | 京东云技术团队](https://juejin.cn/post/7239058077273620536)
 
 [Kafka实时数据即席查询应用与实践](https://mp.weixin.qq.com/s/4-TIpTIaT11TbA_tmavv2Q)
