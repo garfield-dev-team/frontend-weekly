@@ -7,9 +7,21 @@ tags: []
 
 ## 🌟 AI 相关
 
-
+[硬件笔记：能快速更换的散热耗材，固态硅脂](https://mp.weixin.qq.com/s/Pe00GzYeXeL1IZXSyP4_cQ)
 
 ## ⭐️ Golang 相关
+
+[服务缓存设计指南](https://mp.weixin.qq.com/s/GQWbEKbUOVNXjMrrjHUrBg)
+
+[使用 OpenTelemetry 构建可观测性 01 - 介绍](https://mp.weixin.qq.com/s/OYlIZgON8yJHpKkWKkA-lQ)
+
+[Go 1.21 新内置函数：min、max 和 clear](https://mp.weixin.qq.com/s/-Dg4CKgArCvJADka-B-8SA)
+
+[大型 Go 代码库的 3 种最佳设计模式](https://mp.weixin.qq.com/s/yHD5XKsk6emuXjcnU2JxDw)
+
+[Go1.21 那些事：泛型库、for 语义变更、统一 log/slog、WASI 等新特性，你知道多少](https://mp.weixin.qq.com/s/Nuj_cYFvBesaBbSSz5PuBg)
+
+[使用go-zero快速构建微服务](https://mp.weixin.qq.com/s/IpvR28soReYC3nNkAisteA)
 
 [听GPT 讲K8s源代码--pkg(八)](https://mp.weixin.qq.com/s/tf_r0LsJPKJQpWI0Ym1XqQ)
 
