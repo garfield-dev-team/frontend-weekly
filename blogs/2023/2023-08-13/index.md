@@ -11,6 +11,20 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[「Go面经」算法 并发模型 缓存落盘 etcd actor模型](https://mp.weixin.qq.com/s/C2kZGElYQmHz3OCb7LuYoA)
+
+[Go 1.21 延迟 8 天发布，包大小直降超过 30%](https://mp.weixin.qq.com/s/AppqqsP0cX4JVQrj8WDRoA)
+
+[Asynq: 基于Redis实现的Go生态分布式任务队列和异步处理库](https://mp.weixin.qq.com/s/n199y8JEyjuGFwUEyH2XVg)
+
+[多网卡管理高手：Multus-CNI的奇妙之旅](https://mp.weixin.qq.com/s/NXnSRl-uWNVL_bzMJmGOWQ)
+
+[又有新功能！Go 将有生成新模板的 gonew 工具链](https://mp.weixin.qq.com/s/jk7k5v9uvaNy_2fUsDjq0Q)
+
+[不想引入MQ？试试debezium](https://mp.weixin.qq.com/s/kxYJNKAEOo7VUHGgbdMjTQ)
+
+[Go程序里该不该使用 runtime.KeepAlive 这类操作](https://mp.weixin.qq.com/s/qv4y8pbWf3iBmXoJ1bXJmg)
+
 [服务缓存设计指南](https://mp.weixin.qq.com/s/GQWbEKbUOVNXjMrrjHUrBg)
 
 [使用 OpenTelemetry 构建可观测性 01 - 介绍](https://mp.weixin.qq.com/s/OYlIZgON8yJHpKkWKkA-lQ)
@@ -40,5 +54,7 @@ tags: []
 [Go语言爱好者周刊：第 197 期 —— Go 开发者调查](https://mp.weixin.qq.com/s/n_GAbJK5RFJmNVZ_7EIZRg)
 
 ## 📒 前端相关
+
+[干货 | 携程度假基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/JiJhA6AfNiGXl7p0uQ8mGA)
 
 [代码之外的尤雨溪：在新加坡的生活，以及如何面对黑粉](https://juejin.cn/post/7264201112873730085)
