@@ -11,6 +11,16 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[别再用 offset 和 limit 分页了，性能太差！](https://mp.weixin.qq.com/s/NznRURjUv37kT6HTXcuCUg)
+
+[Go 语言中的零拷贝](https://mp.weixin.qq.com/s/ytvDPx6Cii3srKPGFlPKCw)
+
+[Git 速查表：中级用户必备的 12 个 Git 命令](https://mp.weixin.qq.com/s/O7SbZDk4Ka78X5RfLxgWAQ)
+
+[浅谈 K8s Pod IP 分配机制](https://mp.weixin.qq.com/s/6PvJYjf51IiSuodg1zzVOg)
+
+[Go context.WithCancel()的使用](https://mp.weixin.qq.com/s/aWlDpSpF3Sq2z0oM8pvgKw)
+
 [「Go面经」算法 并发模型 缓存落盘 etcd actor模型](https://mp.weixin.qq.com/s/C2kZGElYQmHz3OCb7LuYoA)
 
 [Go 1.21 延迟 8 天发布，包大小直降超过 30%](https://mp.weixin.qq.com/s/AppqqsP0cX4JVQrj8WDRoA)
