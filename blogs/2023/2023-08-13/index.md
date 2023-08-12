@@ -11,6 +11,24 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Prometheus入门](https://mp.weixin.qq.com/s/-6gvR-c_maf6hWJFST9UQA)
+
+[Go项目初始化不再困扰你：gonew全方位解析](https://mp.weixin.qq.com/s/ZaDNxyewtrSuiLRF62ipYg)
+
+云原生运维相关：
+
+[基于Openresty+Lua实现微服务Api 网关](https://mp.weixin.qq.com/s/DTjP_RipSLiaRbEIOiV4iQ)
+
+[挖掘Kubernetes 弹性伸缩：扩展监控指标实现丰富弹性](https://mp.weixin.qq.com/s/_c1QnpwgxVwggfRnH4bEkA)
+
+[挖掘Kubernetes 弹性伸缩：水平 Pod 自动扩展的全部潜力](https://mp.weixin.qq.com/s/bKN-MvY7Y6V9l1GLPxeCMg)
+
+[Kubernetes运维必掌握的12个Kubectl命令](https://mp.weixin.qq.com/s/aJJxiHsBtnDg6QFmvnVHWQ)
+
+[下一代云原生网关Higress：基于Wasm开发JWT认证插件](https://mp.weixin.qq.com/s/h8n1eNjgkpAqCoeXPsg_lw)
+
+[万字长文带你看全网最详细Dockerfile教程](https://mp.weixin.qq.com/s/rJDUsOL22KPxj5YdX5Eicw)
+
 [别再用 offset 和 limit 分页了，性能太差！](https://mp.weixin.qq.com/s/NznRURjUv37kT6HTXcuCUg)
 
 [Go 语言中的零拷贝](https://mp.weixin.qq.com/s/ytvDPx6Cii3srKPGFlPKCw)
@@ -64,6 +82,8 @@ tags: []
 [Go语言爱好者周刊：第 197 期 —— Go 开发者调查](https://mp.weixin.qq.com/s/n_GAbJK5RFJmNVZ_7EIZRg)
 
 ## 📒 前端相关
+
+[探索跨端开发的常用解决方案：条件编译的实现](https://mp.weixin.qq.com/s/GX1PLIPfX9yBVkH5HWugdg)
 
 [干货 | 携程度假基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/JiJhA6AfNiGXl7p0uQ8mGA)
 
