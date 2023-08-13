@@ -1223,6 +1223,7 @@ import TabItem from '@theme/TabItem';
 - Golang 相关资源
   - 🌟 [Russ Cox 的个人博客](https://research.swtch.com/)
   - 🌟 [Tony Bai 博客](https://tonybai.com/articles/)
+  - 🌟 [Gopher Daily](https://gopherdaily.tonybai.com/)
   - 🌟 [Go 程序员面试笔试宝典](https://github.com/golang-design/go-questions)
   - 🌟 [Go语言圣经（中文版）](https://books.studygolang.com/gopl-zh/)
   - 🌟 [Go语言标准库书籍](http://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
