@@ -7,6 +7,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[🦙使用数据集微调Llama 2最简单方法 ，Llama 2 “烹饪”食谱，附colab完整笔记](https://www.bilibili.com/video/BV16X4y1L7EG/)
+
 [硬件笔记：能快速更换的散热耗材，固态硅脂](https://mp.weixin.qq.com/s/Pe00GzYeXeL1IZXSyP4_cQ)
 
 ## ⭐️ Golang 相关
