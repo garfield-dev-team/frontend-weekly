@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8月20日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月20日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月20日内容汇总"/>
+        <updated>2023-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[image]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://img.alicdn.com/imgextra/i2/O1CN016BDO2T2AAFYYZ29MB_!!6000000008162-2-tps-1200-675.png" alt="image" class="img_astN"></p><p>题图：博德之门3，上周末沉浸式体验了 20+ 小时。。</p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/biTRyEu2h8AzQaQf7Ik8nA" target="_blank" rel="noopener noreferrer">深入探索 Go 1.21.0 中的 maps 工具库</a></p><p><a href="https://mp.weixin.qq.com/s/iRgaOlFs52O2TMScu8wDzg" target="_blank" rel="noopener noreferrer">用了Go匿名结构体，搬砖效率更高，产量更足了</a></p><p><a href="https://mp.weixin.qq.com/s/QfeycEFqeqqhRKrYYL5mGA" target="_blank" rel="noopener noreferrer">go的net/http有哪些值得关注的细节</a></p><p><a href="https://mp.weixin.qq.com/s/L2-e-Q8PQt3m4p9QZKxSmg" target="_blank" rel="noopener noreferrer">Ingress企业实战：金丝雀与蓝绿发布篇</a></p><p><a href="https://mp.weixin.qq.com/s/n1LGh2QFi4QWmGD_M3hgHQ" target="_blank" rel="noopener noreferrer">Go异常处理机制panic和recover</a></p><p><a href="https://mp.weixin.qq.com/s/tcg3Azghko4Unmvar3KzXw" target="_blank" rel="noopener noreferrer">实战！使用 阿里 Arthas 工具分析 CPU 飙高</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/g5ykff33v87nb-C9rZydEQ" target="_blank" rel="noopener noreferrer">React 核心技术分析—让跨端动态化成为可能</a></p><p><a href="https://mdhweekly.com/weekly/issue-0101" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 101 期：MDH Weekly 恢复、RSC Devtool、Node 配置地狱、npm包 ESM、技术债</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[8月13日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月13日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/8月13日内容汇总"/>
