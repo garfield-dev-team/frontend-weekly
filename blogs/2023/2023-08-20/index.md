@@ -11,9 +11,27 @@ tags: []
 
 ## 🌟 AI 相关
 
+[用YOLOv8一站式解决图像分类、检测、分割……](https://juejin.cn/post/7265968581841682492)
 
+[谈谈RNN生成文本的小原理，动手实现AI写藏头诗](https://juejin.cn/post/7257922419319291960)
 
 ## ⭐️ Golang 相关
+
+[Backward Compatibility, Go 1.21, and Go 2](https://go.dev/blog/compat)
+
+[使用 uber-go/zap 实现一个极简日志系统](https://juejin.cn/post/7227352009799516197)
+
+[Docker 部署 Prometheus 实现一个极简的 QPS 监控](https://juejin.cn/post/7181812424570322981)
+
+[「Go开源」vegeta： http压力测试工具库](https://mp.weixin.qq.com/s/J0PiqTifr_rs_S2CzMRoWg)
+
+[Ingress企业实战：HTTPS证书管理与双向认证篇](https://mp.weixin.qq.com/s/h5IdoH7derfGK_oeI_pu0g)
+
+[zap 高性能设计与实现](https://mp.weixin.qq.com/s/K6yDG0Bpll_GKaZclqKoSA)
+
+[Go 将增加内置的零值标识符 zero！](https://mp.weixin.qq.com/s/o1iKbXJEikJn8BLwetvF5g)
+
+[字节二面：10Wqps会员系统，如何设计](https://mp.weixin.qq.com/s/emxCYBGjNLS05FtRKNUyrg)
 
 [深入探索 Go 1.21.0 中的 maps 工具库](https://mp.weixin.qq.com/s/biTRyEu2h8AzQaQf7Ik8nA)
 
@@ -30,5 +48,7 @@ tags: []
 ## 📒 前端相关
 
 [React 核心技术分析—让跨端动态化成为可能](https://mp.weixin.qq.com/s/g5ykff33v87nb-C9rZydEQ)
+
+[前端食堂技术周刊第 94 期：TS 5.2 RC、从零实现 RSC、Redux 迁移至 ESM 之旅、HTML 满汉全席](https://mp.weixin.qq.com/s/7xJOPT01Kcaj4KHRQjAm9A)
 
 [MDH 前端周刊第 101 期：MDH Weekly 恢复、RSC Devtool、Node 配置地狱、npm包 ESM、技术债](https://mdhweekly.com/weekly/issue-0101)
