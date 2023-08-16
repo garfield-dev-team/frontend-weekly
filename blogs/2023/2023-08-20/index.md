@@ -17,6 +17,12 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[异步请求-响应模式](https://mp.weixin.qq.com/s/YkOoLbH2P2HheQxomGsbNQ)
+
+[Ingress企业实战：URL重写与高级玩法](https://mp.weixin.qq.com/s/9dMFaxgtxPiE1wok4z43iw)
+
+[zap (附录) - FAQ](https://mp.weixin.qq.com/s/QIUsYoWpx5cf5NTt6bj3Xg)
+
 [Backward Compatibility, Go 1.21, and Go 2](https://go.dev/blog/compat)
 
 [使用 uber-go/zap 实现一个极简日志系统](https://juejin.cn/post/7227352009799516197)
