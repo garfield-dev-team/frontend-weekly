@@ -17,6 +17,22 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+Go 并发编程实战课
+
+https://time.geekbang.org/column/intro/100061801
+
+https://pursuitking.com/go_2/
+
+[吵翻了！到底该选 Rust 还是 Go，成2023年最大技术分歧](https://mp.weixin.qq.com/s/Olu_XDHGZlq7lfsPUvO3fg)
+
+[干！vivo 容器集群监控系统优化之道](https://mp.weixin.qq.com/s/kxHgNN_d83nT2LTNQyj6tg)
+
+[当 Go struct 遇上 Mutex：也许不太一样了](https://mp.weixin.qq.com/s/9LumAomY-Ql7D-tMe9vnvQ)
+
+[Go go-queue 库实现 kafka 的发布/订阅](https://mp.weixin.qq.com/s/x1KIbn9NeLyKTISzWCPIdA)
+
+[Go Mutex 之4种易错场景盘点](https://mp.weixin.qq.com/s/aXo7CEaUT_p-MGyhwzsKLg)
+
 [异步请求-响应模式](https://mp.weixin.qq.com/s/YkOoLbH2P2HheQxomGsbNQ)
 
 [Ingress企业实战：URL重写与高级玩法](https://mp.weixin.qq.com/s/9dMFaxgtxPiE1wok4z43iw)
