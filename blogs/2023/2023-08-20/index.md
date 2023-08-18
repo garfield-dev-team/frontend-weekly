@@ -17,6 +17,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kubernetes 核心概念](https://mp.weixin.qq.com/s/p-efgk_pGLx-THARhPn_sQ)
+
+[Prometheus-Operator：自定义监控](https://mp.weixin.qq.com/s/_yiB81wDtcZO81TNbMhD0w)
+
+[Golang并发模式之扇入扇出](https://mp.weixin.qq.com/s/EqvO78qplGvDdccwvqFxhA)
+
+[Go 常见并发模式实现（一）：调度后台处理任务的作业程序](https://mp.weixin.qq.com/s/wca2EfJ8r3UGz3_7DzZ30w)
+
 Go 并发编程实战课
 
 https://time.geekbang.org/column/intro/100061801
@@ -68,6 +76,10 @@ https://pursuitking.com/go_2/
 [实战！使用 阿里 Arthas 工具分析 CPU 飙高](https://mp.weixin.qq.com/s/tcg3Azghko4Unmvar3KzXw)
 
 ## 📒 前端相关
+
+[现代 React 开发必备的 13 个神库，路由、UI 组件库、拖拽、虚拟列表都齐了](https://mp.weixin.qq.com/s/o3HdKftDnlCGkcucp3aMtQ)
+
+[提高 React 项目整洁度的 21 个最佳实践](https://juejin.cn/post/7263113577152790586)
 
 [React 核心技术分析—让跨端动态化成为可能](https://mp.weixin.qq.com/s/g5ykff33v87nb-C9rZydEQ)
 
