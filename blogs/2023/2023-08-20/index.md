@@ -19,6 +19,10 @@ tags: []
 
 [Kubernetes 核心概念](https://mp.weixin.qq.com/s/p-efgk_pGLx-THARhPn_sQ)
 
+Rust 编程第一课
+
+https://time.geekbang.org/column/article/408409
+
 [Prometheus-Operator：自定义监控](https://mp.weixin.qq.com/s/_yiB81wDtcZO81TNbMhD0w)
 
 [Golang并发模式之扇入扇出](https://mp.weixin.qq.com/s/EqvO78qplGvDdccwvqFxhA)
