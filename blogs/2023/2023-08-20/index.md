@@ -17,6 +17,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[从Kafka中学习高性能系统如何设计 | 京东云技术团队](https://juejin.cn/post/7249380394457694263)
+
 [Kubernetes 核心概念](https://mp.weixin.qq.com/s/p-efgk_pGLx-THARhPn_sQ)
 
 Rust 编程第一课
