@@ -915,6 +915,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [「Go语言进阶」并发编程详解 | 文末抽奖](https://mp.weixin.qq.com/s/irp0uBR-nJ87tZ_elMWPnA)
   - ⭐️ [一文入门Go云原生微服务「爆肝6千字」](https://juejin.cn/post/7194334949011357755)
   - ⭐️ [为什么 Go 不支持 \[\]T 转换为 \[\]interface](https://mp.weixin.qq.com/s/jsdGV31yT5AR07BzRovWVw)
+  - ⭐️ [go-zero 是如何做路由管理的](https://mp.weixin.qq.com/s/uTJ1En-BXiLvH45xx0eFsA)
+  - ⭐️ [Go 语言中排序的 3 种方法](https://mp.weixin.qq.com/s/RyVc_JZJi_pTT_51mEHYiw)
   - ⭐️ [一文吃透 Go 内置 RPC 原理](https://mp.weixin.qq.com/s/ExfVdEM7_YWlQF6GhFn74A)
   - ⭐️ [Go 最细节篇｜内存回收又踩坑了](https://mp.weixin.qq.com/s/ea7LfF2jOoHOSozX-qUZLA)
   - ⭐️ [Go 最细节篇｜Go 的 nil 值判断，千方百计，还是踩坑!](https://mp.weixin.qq.com/s/BwqHMhc2WtAY_R-UffNQ4w)
