@@ -11,6 +11,18 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[13 秒插入 30 万条数据，这才是批量插入正确的姿势！](https://mp.weixin.qq.com/s/0vv1dHQBl1rz9wUrS9uQnA)
+
+[一个 MySQL 隐式转换的坑，差点把服务器搞挂了](https://mp.weixin.qq.com/s/NYqWRTOeZ_Z4IfjxBfpoaA)
+
+[除了缓存，性能优化还可以这么搞](https://mp.weixin.qq.com/s/JHYJ_CybphyQV0wMWkSYYw)
+
+[听GPT 讲Prometheus源代码--util](https://mp.weixin.qq.com/s/Aq_YsPUEz6v-35c7ocydhg)
+
+[内存分配不再神秘：深入剖析malloc函数实现原理与机制](https://mp.weixin.qq.com/s/3vuYNUytfIPWUPMNS3VvCQ)
+
+[Ingress企业实战：部署多个Ingress控制器](https://mp.weixin.qq.com/s/FQOE2cGm9Qu0x-a9-vZiWw)
+
 [Go 零值和空值的判断问题](https://mp.weixin.qq.com/s/M6b4Q7rwKSt4KNKJN7_j4g)
 
 [10张图总结并发编程最佳学习路线，上车！](https://mp.weixin.qq.com/s/Wowk6qs-wWfbBCin_RU3eQ)
@@ -36,6 +48,8 @@ tags: []
 [Prometheus-Operator：自动发现](https://mp.weixin.qq.com/s/MBA3zIvtxfdn5kTXUe2cXw)
 
 ## 📒 前端相关
+
+[提高 React 项目整洁度的 21 个最佳实践](https://mp.weixin.qq.com/s/Nu-aNpCgEgvcwwVwBfKL0w)
 
 [\[性能优化\] The Cost Of JavaScript (2017 - 2023) | JavaScript 性能优化之旅](https://mp.weixin.qq.com/s/IyyAioj8WsPsB43QsMC9VA)
 
