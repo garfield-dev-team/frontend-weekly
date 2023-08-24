@@ -11,6 +11,16 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[【面试高频题】值得仔细推敲的贪心及其证明](https://mp.weixin.qq.com/s/PUyJhEZXYlAHnfaEkcXKFw)
+
+[听GPT 讲Prometheus源代码--promql/promdb](https://mp.weixin.qq.com/s/7ytcZEJPjTlC1J0sAFlapw)
+
+[Traefik 企业实战：部署生产级Traefik篇](https://mp.weixin.qq.com/s/qeWMHk43Taj6I2EAJrnGpA)
+
+[学习gorm系列二：如何指定数据表](https://mp.weixin.qq.com/s/j9keNUU7X8l6ncyJt4WsTQ)
+
+[【全套换新】还在用mvn构建SpringBoot? 新项目都在用java17+gradle+k8s(5000字附源码)](https://juejin.cn/post/7270090543228420132)
+
 [13 秒插入 30 万条数据，这才是批量插入正确的姿势！](https://mp.weixin.qq.com/s/0vv1dHQBl1rz9wUrS9uQnA)
 
 [一个 MySQL 隐式转换的坑，差点把服务器搞挂了](https://mp.weixin.qq.com/s/NYqWRTOeZ_Z4IfjxBfpoaA)
