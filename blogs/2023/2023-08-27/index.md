@@ -11,6 +11,22 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Canal 同步数据坑太多？来试试 Logstash！](https://juejin.cn/post/7266051547719942156)
+
+[还在为MySQL数据同步Elasticsearch发愁？快来试试Canal！](https://juejin.cn/post/7262529936753049656)
+
+[Structured Logging with slog](https://go.dev/blog/slog)
+
+[使用 OpenTelemetry Collector 采集 Kubernetes 指标数据](https://mp.weixin.qq.com/s/eG5_SelTcIWnmxEOd2ke8g)
+
+[面试官：什么是大事务？小林哥：就是 很大...的...事务](https://mp.weixin.qq.com/s/bRsyGhHFTJU844CMTq7T2w)
+
+[Go语言中常见100问题-#90 Not exploring all the Go testing features](https://mp.weixin.qq.com/s/Xgs2tXmmp1S3dQI2Nay3Vg)
+
+[从 0 开发工作流引擎 003｜服务拆分](https://mp.weixin.qq.com/s/wPzvaj3vVtUHnNvNYI2Lxg)
+
+[Prometheus-Operator：告警路由配置](https://mp.weixin.qq.com/s/pRB2xJfaVqDuTV98W1aqAA)
+
 [【面试高频题】值得仔细推敲的贪心及其证明](https://mp.weixin.qq.com/s/PUyJhEZXYlAHnfaEkcXKFw)
 
 [听GPT 讲Prometheus源代码--promql/promdb](https://mp.weixin.qq.com/s/7ytcZEJPjTlC1J0sAFlapw)
@@ -58,6 +74,8 @@ tags: []
 [Prometheus-Operator：自动发现](https://mp.weixin.qq.com/s/MBA3zIvtxfdn5kTXUe2cXw)
 
 ## 📒 前端相关
+
+[不一样的"代码拆分"+"预加载"实现应用性能及体验兼得](https://mp.weixin.qq.com/s/KWYJjqwAxtOLZNnMN6J_-g)
 
 [提高 React 项目整洁度的 21 个最佳实践](https://mp.weixin.qq.com/s/Nu-aNpCgEgvcwwVwBfKL0w)
 
