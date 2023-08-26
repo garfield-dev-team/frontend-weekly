@@ -11,6 +11,26 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[《谷歌的软件工程》笔记(二)](https://mp.weixin.qq.com/s/j59HejHj5hzKovfsGdrIdg)
+
+[《谷歌的软件工程》笔记(一)](https://mp.weixin.qq.com/s/Bl3UrbgiMMsP3gxm6vnDtA)
+
+[kafka producer 在 aws 又挂了](https://mp.weixin.qq.com/s/U5Okkf9FzLxxSYcsUI2DZg)
+
+[『曹大带我学 Go 』系列文章汇总](https://mp.weixin.qq.com/s/RmEtL869Sd-FjB_73tFSaw)
+
+[曹大带我学 Go（11）—— 从 map 的 extra 字段谈起](https://mp.weixin.qq.com/s/SGv5vuh9aU2mqViC4Kj0YQ)
+
+[曹大带我学 Go（10）—— 如何给 Go 提性能优化的 pr](https://mp.weixin.qq.com/s/8R9ZLa0Xlscw6qhl-5g2Cg)
+
+[曹大带我学 Go（3）—— 如何用汇编打同事的脸](https://mp.weixin.qq.com/s/2Y3qPkysRLaWDcIyLOerZg)
+
+[曹大带我学 Go（2）—— 迷惑的 goroutine 执行顺序](https://mp.weixin.qq.com/s/WWfm7Ui7g_gGlb8XkIZigg)
+
+[曹大带我学 Go（1）——调度的本质](https://mp.weixin.qq.com/s/5E5V56wazp5gs9lrLvtopA)
+
+[深度阅读之《100 Go Mistakes and How to Avoid Them》](https://mp.weixin.qq.com/s/VnF7YrXTaK5MASacXgzRhw)
+
 [Canal 同步数据坑太多？来试试 Logstash！](https://juejin.cn/post/7266051547719942156)
 
 [还在为MySQL数据同步Elasticsearch发愁？快来试试Canal！](https://juejin.cn/post/7262529936753049656)
