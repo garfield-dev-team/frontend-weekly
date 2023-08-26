@@ -986,6 +986,7 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [Go的这个库，让你的命令行输出变得专业](https://mp.weixin.qq.com/s/4VfTjWQwNO-tlxYbUOrWZw)
   - ⭐️ [「Go开源包」asynq：一个基于redis的，简单、可靠、高效的分布式任务队列包](https://mp.weixin.qq.com/s/nbouC5ynfZShaTMTYiCJFA)
   - ⭐️ [抽丝剥茧，记一次 Go 程序性能优化之旅](https://mp.weixin.qq.com/s/HBLwocMA2vQE2uFlJ0D8Iw)
+  - ⭐️ [Go：记一次提升18倍的性能优化](https://mp.weixin.qq.com/s/1Y_A6WVslDthVjtbP9Ibvg)
   - ⭐️ [Go语言中JSON处理技巧总结](https://mp.weixin.qq.com/s/js3m_Fe6k4ys4aBSFDJhLQ)
   - ⭐️ [探究｜Go JSON 三方包哪家强](https://mp.weixin.qq.com/s/ueNuYA23F3bQTwIKU-PZ2Q)
   - ⭐️ [收藏！！！一图掌握 Go 中 IO 包的关系](https://mp.weixin.qq.com/s/cjQyDdIgcdzj7LOeZf21bQ)
