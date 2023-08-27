@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[使用 OpenTelemetry Collector 收集 Kubernetes 日志数据](https://mp.weixin.qq.com/s/vLK9rBQCx8S2n8kpFySebA)
+
 [《谷歌的软件工程》笔记(二)](https://mp.weixin.qq.com/s/j59HejHj5hzKovfsGdrIdg)
 
 [《谷歌的软件工程》笔记(一)](https://mp.weixin.qq.com/s/Bl3UrbgiMMsP3gxm6vnDtA)
