@@ -7,7 +7,7 @@ tags: []
 
 ## 🌟 AI 相关
 
-
+[发布一天，Code Llama代码能力突飞猛进，微调版HumanEval得分超GPT-4](https://mp.weixin.qq.com/s/19nANMpAB3lfySr86n1a6A)
 
 ## ⭐️ Golang 相关
 
