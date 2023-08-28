@@ -1,0 +1,42 @@
+---
+slug: 9月3日内容汇总
+title: 9月3日内容汇总
+authors: [garfield]
+tags: []
+---
+
+## 🌟 AI 相关
+
+[SDXL LoRA 模型推荐](https://mp.weixin.qq.com/s/No79iRkb5lR4nh-r11r7wQ)
+
+## ⭐️ Golang 相关
+
+[一文告诉你怎么打造对本地友好的 Kubernetes 工作环境](https://mp.weixin.qq.com/s/huCXB22q-SQrOcz6bKZnig)
+
+[一文告诉你怎么将应用搭上云原生这趟便车（上）](https://mp.weixin.qq.com/s/Dj5a4BANeuae-QHqWcoCnQ)
+
+[Go Gin 框架系列 - 入门篇](https://mp.weixin.qq.com/s/_a9d67L8l7G6EDJom1kixw)
+
+[Redis 热 key 是什么问题，如何导致的？有什么解决方案](https://mp.weixin.qq.com/s/Trr_y-UAb99qV-AGFxp-Ig)
+
+[RocketMQ 事务消息初体验](https://mp.weixin.qq.com/s/H4Lf3ldi6ES5013WDjWtRg)
+
+[Sonic: Go语言的超级JSON库，解析与编码速度狂飙](https://mp.weixin.qq.com/s/IAHEQu-N5OO-X_q-47GCsQ)
+
+[Prometheus-Operator：告警认领功能实现](https://mp.weixin.qq.com/s/EZBm9NyYNhOs0isJm0kXOw)
+
+[go-zero 的自适应熔断器](https://mp.weixin.qq.com/s/r1kTYUK_r-JalvhzAKKQwg)
+
+[万字长文，教你用go开发区块链应用](https://mp.weixin.qq.com/s/vP2IDCK4cjyIGiutCoA7Pw)
+
+[Go语言爱好者周刊：第 198 期 —— 回来了](https://mp.weixin.qq.com/s/etDsQhj8OgywHxVBnQHL8g)
+
+## 📒 前端相关
+
+[精读《算法题 - 地下城游戏》](https://mp.weixin.qq.com/s/yPmdjdKqLREYMaCbQHf3bw)
+
+[前端首屏优化 | 借助客户端能力提升 H5 首屏的 8 个手段](https://mp.weixin.qq.com/s/kYUrysBeVIqph4UAaUCNEA)
+
+[构建高性能 React Native 跨端应用—引擎与渲染](https://mp.weixin.qq.com/s/MVXde22OtRqp-evBDzFyfA)
+
+[MDH 前端周刊第 103 期：TypeScript 5.3、贝塞尔曲线、Suspense、React 并发模式](https://mdhweekly.com/weekly/issue-0103)
