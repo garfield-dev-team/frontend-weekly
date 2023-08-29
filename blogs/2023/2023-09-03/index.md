@@ -7,9 +7,17 @@ tags: []
 
 ## 🌟 AI 相关
 
+[廉价的家用工作站方案：ThinkPad 存储升级及数据迁移](https://mp.weixin.qq.com/s/RpLUTXW3BQ9ISsUgN0CKTA)
+
 [SDXL LoRA 模型推荐](https://mp.weixin.qq.com/s/No79iRkb5lR4nh-r11r7wQ)
 
 ## ⭐️ Golang 相关
+
+[Go 负责人说以后不会有 Go2 了](https://mp.weixin.qq.com/s/5kNyYJhrzigujLq1YSVjHw)
+
+[异或运算的妙用](https://mp.weixin.qq.com/s/gmihrYjKVoLpj58SOZPejA)
+
+[Traefik 企业实战：路由规则篇](https://mp.weixin.qq.com/s/L89HPzvxKrxky4M_Rq5xUQ)
 
 [一文告诉你怎么打造对本地友好的 Kubernetes 工作环境](https://mp.weixin.qq.com/s/huCXB22q-SQrOcz6bKZnig)
 
@@ -38,5 +46,7 @@ tags: []
 [前端首屏优化 | 借助客户端能力提升 H5 首屏的 8 个手段](https://mp.weixin.qq.com/s/kYUrysBeVIqph4UAaUCNEA)
 
 [构建高性能 React Native 跨端应用—引擎与渲染](https://mp.weixin.qq.com/s/MVXde22OtRqp-evBDzFyfA)
+
+[前端食堂技术周刊第 96 期：2023 CSS 状态、Nuxt 3.7、TypeScript 5.2、eBay 性能优化](https://mp.weixin.qq.com/s/gPY2FQANT3mqvrkXuqz_vQ)
 
 [MDH 前端周刊第 103 期：TypeScript 5.3、贝塞尔曲线、Suspense、React 并发模式](https://mdhweekly.com/weekly/issue-0103)
