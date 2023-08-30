@@ -13,6 +13,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[解锁Golang模板的力量：动态文本生成的初学者指南](https://mp.weixin.qq.com/s/SXQt6aPTj3VOdvu0P39mXg)
+
+[Redis 高可用篇：你管这叫 Sentinel 哨兵集群原理](https://mp.weixin.qq.com/s/y5sO7lWDM9iRVxFEzaerAQ)
+
 [Go 负责人说以后不会有 Go2 了](https://mp.weixin.qq.com/s/5kNyYJhrzigujLq1YSVjHw)
 
 [异或运算的妙用](https://mp.weixin.qq.com/s/gmihrYjKVoLpj58SOZPejA)
@@ -40,6 +44,8 @@ tags: []
 [Go语言爱好者周刊：第 198 期 —— 回来了](https://mp.weixin.qq.com/s/etDsQhj8OgywHxVBnQHL8g)
 
 ## 📒 前端相关
+
+[译：React 并发模式的基本原理](https://mp.weixin.qq.com/s/qV-GSBr32EOQhg4tYyaD1g)
 
 [精读《算法题 - 地下城游戏》](https://mp.weixin.qq.com/s/yPmdjdKqLREYMaCbQHf3bw)
 
