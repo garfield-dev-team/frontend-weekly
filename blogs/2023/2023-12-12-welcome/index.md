@@ -1283,6 +1283,7 @@ import TabItem from '@theme/TabItem';
     - 🌟 [Go 语言学习笔记](https://www.yuque.com/qyuhen/go)
     - 🌟 [GO专家编程](https://books.studygolang.com/GoExpertProgramming/)
     - 🌟 [Go 语言 101](https://go101.org/article/101.html)
+    - 🌟 [Go Optimizations 101](https://go101.org/optimizations/101.html)
     - [开源图书在线阅读 - Go语言中文网](https://books.studygolang.com/)
   - 🌟 [Go Interview](https://www.yuque.com/go-interview/set/xq5788)
   - 🌟 [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
