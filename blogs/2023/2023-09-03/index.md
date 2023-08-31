@@ -7,11 +7,21 @@ tags: []
 
 ## 🌟 AI 相关
 
+[廉价的全闪存雷电 NAS 折腾笔记：组网方案的选择](https://mp.weixin.qq.com/s/gy0_3erMjNCDskLOnI8EAg)
+
 [廉价的家用工作站方案：ThinkPad 存储升级及数据迁移](https://mp.weixin.qq.com/s/RpLUTXW3BQ9ISsUgN0CKTA)
 
 [SDXL LoRA 模型推荐](https://mp.weixin.qq.com/s/No79iRkb5lR4nh-r11r7wQ)
 
 ## ⭐️ Golang 相关
+
+[编译Go应用的黑盒挑战：无源码只有.a文件，你能搞定吗](https://mp.weixin.qq.com/s/snVLySXv4E5xMlbD153FcQ)
+
+[详解 canal 同步 MySQL 增量数据到 ES](https://mp.weixin.qq.com/s/SQGjN9ys51lmzxLbAN4oLA)
+
+[挖掘Kubernetes 弹性伸缩：利用 KEDA实现基于事件驱动的自动缩放器](https://mp.weixin.qq.com/s/Fu8kfzUhl2EyNQdxrg3uew)
+
+[SpringBoot+Redis BitMap 实现签到与统计功能](https://mp.weixin.qq.com/s/zf-iz-AtFB6IHZlIJTybrg)
 
 [解锁Golang模板的力量：动态文本生成的初学者指南](https://mp.weixin.qq.com/s/SXQt6aPTj3VOdvu0P39mXg)
 
