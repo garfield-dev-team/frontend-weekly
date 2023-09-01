@@ -15,6 +15,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Prometheus-Operator：告警自动创建钉钉群](https://mp.weixin.qq.com/s/-88x32ELYwL-1VqBqIH-eA)
+
+[Kubernetes 应用最佳实践 - 开篇](https://mp.weixin.qq.com/s/6fWdTsKe52VQtc00psrbhw)
+
+[后端思维专栏：通过层层代码去重，我又搞了一个通用模板](https://mp.weixin.qq.com/s/Jy48Zm8Ro1n8COCqYc76_g)
+
+[外卖骑手一面，也很不容易！](https://mp.weixin.qq.com/s/7YcvtQOd6CUrPEx1sFhwVw)
+
 [编译Go应用的黑盒挑战：无源码只有.a文件，你能搞定吗](https://mp.weixin.qq.com/s/snVLySXv4E5xMlbD153FcQ)
 
 [详解 canal 同步 MySQL 增量数据到 ES](https://mp.weixin.qq.com/s/SQGjN9ys51lmzxLbAN4oLA)
