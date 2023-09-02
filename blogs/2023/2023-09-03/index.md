@@ -15,6 +15,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[slog正式版来了：Go日志记录新选择！](https://mp.weixin.qq.com/s/4HN0-m8AlzSmDCuF9hYU4Q)
+
 [Prometheus-Operator：告警自动创建钉钉群](https://mp.weixin.qq.com/s/-88x32ELYwL-1VqBqIH-eA)
 
 [Kubernetes 应用最佳实践 - 开篇](https://mp.weixin.qq.com/s/6fWdTsKe52VQtc00psrbhw)
