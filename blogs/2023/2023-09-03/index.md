@@ -15,6 +15,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[【GoCN酷Go推荐】Shopify 出品的完整度最完善的 Kafka 客户端_sarama](https://mp.weixin.qq.com/s/_TBmfaVwvX5VDRe8kLReXA)
+
 [slog正式版来了：Go日志记录新选择！](https://mp.weixin.qq.com/s/4HN0-m8AlzSmDCuF9hYU4Q)
 
 [Prometheus-Operator：告警自动创建钉钉群](https://mp.weixin.qq.com/s/-88x32ELYwL-1VqBqIH-eA)
