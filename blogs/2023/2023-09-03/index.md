@@ -15,6 +15,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[腾讯 13 年，我所总结的Code Review终极大法](https://mp.weixin.qq.com/s/XrJVpErmP8wIjd_byCCmhA)
+
 [【GoCN酷Go推荐】Shopify 出品的完整度最完善的 Kafka 客户端_sarama](https://mp.weixin.qq.com/s/_TBmfaVwvX5VDRe8kLReXA)
 
 [slog正式版来了：Go日志记录新选择！](https://mp.weixin.qq.com/s/4HN0-m8AlzSmDCuF9hYU4Q)
