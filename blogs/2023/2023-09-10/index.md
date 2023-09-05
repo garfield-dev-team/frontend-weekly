@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kubernetes 应用最佳实践 - 资源请求和限制](https://mp.weixin.qq.com/s/oa9LbDqmC6DGfmbsWQIGGA)
+
+[Traefik 企业实战：TraefikService篇](https://mp.weixin.qq.com/s/MtyG7vxYKo3o9AHrbU1uQQ)
+
 [探索 Go1.21 中的 slices 包：原理，特点和示例](https://mp.weixin.qq.com/s/2tFBe6LH84dZnOcfkgX32w)
 
 [「GoCN酷Go推荐」协程池ants介绍](https://mp.weixin.qq.com/s/wGqwfX8lEifeD_VGcITmHw)
