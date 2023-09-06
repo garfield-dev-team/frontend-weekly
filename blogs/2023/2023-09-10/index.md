@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Ingress企业实战：实现GRPC与WebSocket服务访问](https://mp.weixin.qq.com/s/MhbwVmFQpTOpt0mcHVLhgw)
+
 [Kubernetes 应用最佳实践 - 资源请求和限制](https://mp.weixin.qq.com/s/oa9LbDqmC6DGfmbsWQIGGA)
 
 [Traefik 企业实战：TraefikService篇](https://mp.weixin.qq.com/s/MtyG7vxYKo3o9AHrbU1uQQ)
