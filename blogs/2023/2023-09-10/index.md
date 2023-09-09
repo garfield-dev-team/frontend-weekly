@@ -75,6 +75,8 @@ ELK Stack生产实践
 
 ## 📒 前端相关
 
+[Chrome 117 发布：新 Web 开发调试技巧都在这了！](https://mp.weixin.qq.com/s/Z-8lsdLeTqCeFZ4w2oNBjg)
+
 [/[通明境 · React架构/]通俗地讲React，优雅地理解React](https://mp.weixin.qq.com/s/ganW_F5GhQV-8s9N2y7jaw)
 
 [React-Router 6.10+KeepAlive的约定式路由最佳实践](https://mp.weixin.qq.com/s/daHYuCfstHYqAtscn5T4WQ)
