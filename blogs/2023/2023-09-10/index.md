@@ -11,6 +11,16 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[OpenTelemetry入门看这一篇就够了｜公开课](https://mp.weixin.qq.com/s/1efGTalCXGAdkbFZgRaWBA)
+
+[盘点 Go 语言的那些日志库：你用了哪个](https://mp.weixin.qq.com/s/7nK4whfh0Owwhmq_67_eYg)
+
+[Apache RocketMQ 5.0 消息进阶：如何支撑复杂的业务消息场景](https://mp.weixin.qq.com/s/LWrh-H7FLa5tZSAapUqPlQ)
+
+[你折腾一天都装不上的插件，函数计算部署 Stable Diffusion 都内置了](https://mp.weixin.qq.com/s/IfMWpUqSi2Rbhve3Tlm0VQ)
+
+[如何让 Llama2、通义千问开源大语言模型快速跑在函数计算上](https://mp.weixin.qq.com/s/nyLRxREc8yao-UdO9oV72g)
+
 [降本增效 - 应用优化 (一)](https://mp.weixin.qq.com/s/eQnd8ky9LvCzOi4QibR04w)
 
 [【面试高频题】二叉树"神级遍历"入门](https://mp.weixin.qq.com/s/ppVzFbcFB-PFWtyvPSpkVQ)
