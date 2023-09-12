@@ -7,9 +7,17 @@ tags: []
 
 ## 🌟 AI 相关
 
-
+[廉价的全闪存雷电 NAS 折腾笔记：NUC9 操作系统踩坑](https://mp.weixin.qq.com/s/kgBpsN-hsl94oz5iT9g4EA)
 
 ## ⭐️ Golang 相关
+
+[如何快速实现Prometheus告警聚合](https://mp.weixin.qq.com/s/DlOUm8FYm5TkCvotTb8umw)
+
+[Kubernetes 应用最佳实践 - 探针](https://mp.weixin.qq.com/s/MtxJ6o45oIk5C818fCZHUg)
+
+[万字+20张图剖析Spring启动时核心的12个步骤](https://mp.weixin.qq.com/s/SI-3teMfGSmIZgq_yCfhdw)
+
+[【月度刷题计划同款】从区间 DP 到卡特兰数](https://mp.weixin.qq.com/s/_38iDcZOMzmQSA7HkfuyHA)
 
 [一文带你掌握Kubernetes VPA（Pod纵向自动扩缩）](https://mp.weixin.qq.com/s/IIRNbgZ-c2bTT5z0rCBmNA)
 
