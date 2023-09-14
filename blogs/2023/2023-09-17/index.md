@@ -11,6 +11,24 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Golang高性能编程实践](https://mp.weixin.qq.com/s/VMzhyySny60zABnxlzlVjQ)
+
+[Go1.21 中的这个新包有用过吗](https://mp.weixin.qq.com/s/UAuG5_xEKHnmpfQb3mCgMw)
+
+[Kubernetes架构原来这么简单](https://mp.weixin.qq.com/s/A5M45DZ--ROQDu3mNjJlAA)
+
+[用 Go 编写简洁代码的最佳实践](https://mp.weixin.qq.com/s/iamOjb0k3M2k_FVG9W7z0A)
+
+[Go 常量为什么只支持基本数据类型](https://mp.weixin.qq.com/s/TlJFr25XNgGA7uyRtLMOlw)
+
+[【月度刷题计划同款】验证二叉树的前序序列化](https://mp.weixin.qq.com/s/fZgVh4M1Ob7IfNC9A-rizQ)
+
+[ELK 处理 Spring Boot 日志，不错！](https://mp.weixin.qq.com/s/WxZaloqAQWNg7xlmnJ4OrA)
+
+[如何设计一个无状态应用](https://mp.weixin.qq.com/s/i4OLI-s4rdS92rR-bYRnHA)
+
+[使用 Go 和 Linux Kernel 技术探究容器化原理](https://mp.weixin.qq.com/s/aasAcMhkmuDBCc-HJ9pliw)
+
 [如何快速实现Prometheus告警聚合](https://mp.weixin.qq.com/s/DlOUm8FYm5TkCvotTb8umw)
 
 [Kubernetes 应用最佳实践 - 探针](https://mp.weixin.qq.com/s/MtxJ6o45oIk5C818fCZHUg)
@@ -32,6 +50,10 @@ tags: []
 [Go语言爱好者周刊：第 200 期](https://mp.weixin.qq.com/s/uuRz7-2O7p8arA_3hu24CA)
 
 ## 📒 前端相关
+
+[G2 项目线上和线下不一致：Tree Shaking 和 sideEffects 到底该怎么用](https://mp.weixin.qq.com/s/Pa8fyk1FGd6Bq3DxGVS5aw)
+
+[竟然可以在一个项目中混用 Vue 和 React](https://mp.weixin.qq.com/s/7JpI6enUlRvL_1e_yJr4Ng)
 
 [浅谈领域驱动在前端的应⽤](https://mp.weixin.qq.com/s/WV3oztPYZyGiv4hW0--Jkw)
 
