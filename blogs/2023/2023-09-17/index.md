@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kubernetes 应用最佳实践 - init 容器和钩子函数](https://mp.weixin.qq.com/s/aNnzW3ZVeuy4QYUuPqzJ1g)
+
+[如何使用Kaniko在 Kubernetes 集群中构建容器镜像](https://mp.weixin.qq.com/s/Nz9y7QNbv4Z1BhPirxq4kA)
+
 [Golang高性能编程实践](https://mp.weixin.qq.com/s/VMzhyySny60zABnxlzlVjQ)
 
 [Go1.21 中的这个新包有用过吗](https://mp.weixin.qq.com/s/UAuG5_xEKHnmpfQb3mCgMw)
