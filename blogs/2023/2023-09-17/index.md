@@ -7,9 +7,15 @@ tags: []
 
 ## 🌟 AI 相关
 
+[硬件笔记：组装“固态 U 盘”的八年，从 100 块到 1000 块](https://mp.weixin.qq.com/s/L5KNwvQl0VxiRj_nTxB4gQ)
+
 [廉价的全闪存雷电 NAS 折腾笔记：NUC9 操作系统踩坑](https://mp.weixin.qq.com/s/kgBpsN-hsl94oz5iT9g4EA)
 
 ## ⭐️ Golang 相关
+
+[Go 语言 GC 分析](https://mp.weixin.qq.com/s/AaHk-yg8D4atbO-zVAvhKQ)
+
+[动态调整 GOGC 优化 Go 的 GC 标记 CPU 占用](https://mp.weixin.qq.com/s/XR1KAeCW930i-Qxv6N2kaA)
 
 [Kubernetes 应用最佳实践 - init 容器和钩子函数](https://mp.weixin.qq.com/s/aNnzW3ZVeuy4QYUuPqzJ1g)
 
