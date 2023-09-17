@@ -55,8 +55,6 @@ tags: []
 
 [Guava中这些Map的骚操作，让我的代码量减少了50%](https://mp.weixin.qq.com/s/Yb4UuUxcDBkDVYQo1mMBKg)
 
-[京东终面：如何打造千万级 Feed 流系统！](https://mp.weixin.qq.com/s/ceSWLSnfze57DPKW3FaiVw)
-
 [Go语言爱好者周刊：第 200 期](https://mp.weixin.qq.com/s/uuRz7-2O7p8arA_3hu24CA)
 
 ## 📒 前端相关
