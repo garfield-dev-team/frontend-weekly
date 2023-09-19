@@ -17,7 +17,7 @@ tags: []
 
 [使用Singleflight优化Go代码](https://mp.weixin.qq.com/s/j9Obe6Na25388AzeSL1dRA)
 
-结合 pprof 分析了启用 PGO 前后性能差异。比较意思的点，启用 PGO 之后性能提升最明显的竟然是 GC（`runtime.scanobject`），相比之下，业务代码的性能反而会略微下降。
+结合 pprof 分析了启用 PGO 前后性能差异。比较意思的点，启用 PGO 之后性能提升最明显的竟然是 GC（`runtime.scanobject`）。为啥可以提升 GC 性能，因为 PGO 可以分析 hot function 调用，让这些函数内联（正常编译器不一定会内联），原本一个函数返回结构体指针，会逃逸到堆内存，内联之后就分配到栈内存了，因此可以减少堆内存分配，进而减少 GC 压力。相比之下，业务代码的性能反而会略微下降。
 
 [Profile-guided optimization in Go 1.21](https://go.dev/blog/pgo)
 
