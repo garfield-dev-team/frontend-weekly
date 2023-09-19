@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Profile-guided optimization in Go 1.21](https://go.dev/blog/pgo)
+
+[Perfectly Reproducible, Verified Go Toolchains](https://go.dev/blog/rebuild)
+
 [SpringBoot 玩一玩代码混淆，防止反编译代码泄露](https://mp.weixin.qq.com/s/-1RFns_jor8kbPZ90FkgOg)
 
 [Go 项目必备：深入浅出 Wire 依赖注入工具](https://mp.weixin.qq.com/s/gC4D9CqeYAd-jPotKgIV4g)
