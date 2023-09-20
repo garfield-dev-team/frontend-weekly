@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/g-5ySYLgutEfBXfXxVUdGw)
+
+[硬核！美团秋招一面](https://mp.weixin.qq.com/s/DgeLtTdtA0nETFfb_KbqcA)
+
 [Grafana 开源了一款 eBPF 采集器 Beyla](https://mp.weixin.qq.com/s/Oj4kvUy_5LaRz4kUbBwo5Q)
 
 [Go 语言如何获取 CPU 利用率](https://mp.weixin.qq.com/s/yLVBm9IU7VY2kltUhoj8wg)
