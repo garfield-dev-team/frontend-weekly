@@ -11,6 +11,18 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[一文讲透Redis分布式锁安全问题](https://mp.weixin.qq.com/s/O8o31rRBVL1DwK-JfmurRw)
+
+[程序员新人频繁使用count(*)，被组长批评后怒怼：性能并不拉垮！](https://mp.weixin.qq.com/s/if9k3H8YP38pLE3t0lfWcg)
+
+[【树形 DP】树形 DP 的通用思路](https://mp.weixin.qq.com/s/8gftqzMj3BG0V8FOCeu5uw)
+
+[Kubernetes 应用最佳实践 - Sidecar 模式](https://mp.weixin.qq.com/s/RN0Eo1fTTLQL-UsDJvRuTA)
+
+[替代ELK：ClickHouse+Kafka+FlieBeat才是最绝的](https://mp.weixin.qq.com/s/CoW4cPWP_p26RXww6ns4gA)
+
+[开源框架中的责任链模式实践](https://mp.weixin.qq.com/s/IvPEvf1Jn3Xejh8TbH0Inw)
+
 [基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/g-5ySYLgutEfBXfXxVUdGw)
 
 [硬核！美团秋招一面](https://mp.weixin.qq.com/s/DgeLtTdtA0nETFfb_KbqcA)
