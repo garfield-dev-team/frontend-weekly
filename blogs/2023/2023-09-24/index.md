@@ -7,9 +7,19 @@ tags: []
 
 ## 🌟 AI 相关
 
-
+[从教师到学生：神奇的“知识蒸馏”之旅——原理详解篇](https://mp.weixin.qq.com/s/FsBgGGM2HlfEEG_VNjnazg)
 
 ## ⭐️ Golang 相关
+
+[【树形 DP】如何从"方向"角度理解树形 DP](https://mp.weixin.qq.com/s/YZX5i2xUX6Tr6WBQcoegdg)
+
+[用这4招 优雅的实现Spring Boot 异步线程间数据传递](https://mp.weixin.qq.com/s/_Ic7LzfIyjBPTXSPBI9c2A)
+
+[盘点 Go 语言的那些日志库：你用了哪个](https://mp.weixin.qq.com/s/gVjq59qnLjy-gwibt7Q3yw)
+
+[一文入门Istio架构原理及实战应用](https://mp.weixin.qq.com/s/JvPpEWtCH-DFji1LLpq0Ag)
+
+[降本增效 - 应用优化 (二)](https://mp.weixin.qq.com/s/8xzbiBtU5i1Z-7Mm5AFfUg)
 
 [一文讲透Redis分布式锁安全问题](https://mp.weixin.qq.com/s/O8o31rRBVL1DwK-JfmurRw)
 
