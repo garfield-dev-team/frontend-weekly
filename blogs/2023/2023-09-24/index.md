@@ -37,8 +37,6 @@ tags: []
 
 [开源框架中的责任链模式实践](https://mp.weixin.qq.com/s/IvPEvf1Jn3Xejh8TbH0Inw)
 
-[基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/g-5ySYLgutEfBXfXxVUdGw)
-
 [硬核！美团秋招一面](https://mp.weixin.qq.com/s/DgeLtTdtA0nETFfb_KbqcA)
 
 [Grafana 开源了一款 eBPF 采集器 Beyla](https://mp.weixin.qq.com/s/Oj4kvUy_5LaRz4kUbBwo5Q)
@@ -70,6 +68,8 @@ tags: []
 [Go 官方新玩具：漏洞管理和扫描，看看自己项目有没有坑](https://mp.weixin.qq.com/s/xO_w3FvNN8OeiuEYFarwGQ)
 
 ## 📒 前端相关
+
+[基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/g-5ySYLgutEfBXfXxVUdGw)
 
 [前端食堂技术周刊第 99 期：Remix 2.0、v0、2023 组件库盘点、TS Config 备忘录、Hello 算法](https://juejin.cn/post/7280007126000795700)
 
