@@ -896,6 +896,8 @@ import TabItem from '@theme/TabItem';
   - ⭐️ [曹大带我学 Go（10）—— 如何给 Go 提性能优化的 pr](https://mp.weixin.qq.com/s/8R9ZLa0Xlscw6qhl-5g2Cg)
   - ⭐️ [曹大带我学 Go（11）—— 从 map 的 extra 字段谈起](https://mp.weixin.qq.com/s/SGv5vuh9aU2mqViC4Kj0YQ)
   - ⭐️ [『曹大带我学 Go 』系列文章汇总](https://mp.weixin.qq.com/s/RmEtL869Sd-FjB_73tFSaw)
+  - ⭐️ [Go map 竟然也会发生内存泄漏](https://mp.weixin.qq.com/s/IEunJaXMfrOfPmounloYig)
+  - ⭐️ [内联函数和编译器对Go代码的优化](https://mp.weixin.qq.com/s/ujWkFUqJiY3DCWeKZeS8uw)
   - ⭐️ [深度阅读之《100 Go Mistakes and How to Avoid Them》](https://mp.weixin.qq.com/s/VnF7YrXTaK5MASacXgzRhw)
   - ⭐️ [kafka producer 在 aws 又挂了](https://mp.weixin.qq.com/s/U5Okkf9FzLxxSYcsUI2DZg)
   - ⭐️ [《谷歌的软件工程》笔记(一)](https://mp.weixin.qq.com/s/Bl3UrbgiMMsP3gxm6vnDtA)
