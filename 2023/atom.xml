@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[10月1日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月1日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月1日内容汇总"/>
+        <updated>2023-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🌟 AI 相关]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/V8EqlkEhGYVYdy086Vlz_w" target="_blank" rel="noopener noreferrer">给你一个亿的keys，Redis如何统计</a></p><p><a href="https://mp.weixin.qq.com/s/MVxmH5r0tP6sQ9WKVLoDbw" target="_blank" rel="noopener noreferrer">HyperLogLog 算法原理及其在 Redis 中的实现</a></p><p><a href="https://mp.weixin.qq.com/s/4yfVZCaJ1489ddpYD5vDQA" target="_blank" rel="noopener noreferrer">快速掌握 Go 工作区模式</a></p><p><a href="https://mp.weixin.qq.com/s/YhaAtKz2_Vgi1v-EHiUpTg" target="_blank" rel="noopener noreferrer">麻了啊！一个烂分页，踩了三个坑！</a></p><p><a href="https://mp.weixin.qq.com/s/hXp2wbZh94o4pVDdkRhUwQ" target="_blank" rel="noopener noreferrer">Go 1.21.0 新增标准库 slices 和 maps 详解</a></p><p><a href="https://mp.weixin.qq.com/s/5cvI3-t33yiyG_g2K2MQ7g" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 201 期</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mdhweekly.com/weekly/issue-0107" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 107 期：Safari 17、stylex、Svelte 5、线性代码</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[9月24日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/9月24日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/9月24日内容汇总"/>
