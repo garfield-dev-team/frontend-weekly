@@ -11,6 +11,18 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[专为小白打造—Kafka一篇文章从入门到入土 | 京东云技术团队](https://juejin.cn/post/7282691710085152825)
+
+[深入理解 RocketMQ 广播消费](https://mp.weixin.qq.com/s/ybIOev3L0cJNy36oUqnmwQ)
+
+[Kubernetes 应用最佳实践 - 亲和性和污点容忍度](https://mp.weixin.qq.com/s/HvUkJ302OUYv8rXqEwDV5w)
+
+[一文带你深入理解Kubernetes Service](https://mp.weixin.qq.com/s/BvAWVcaoJrIQLmGGEhovlw)
+
+[鹅厂练习13年Coding后，我悟了](https://mp.weixin.qq.com/s/ZQ-ZN_oUm9TPlc7ZHkEY7Q)
+
+[定了：Go 1.22将修复for循环变量错误](https://mp.weixin.qq.com/s/G3FGOUo-F-stOp5eZjq4QQ)
+
 [给你一个亿的keys，Redis如何统计](https://mp.weixin.qq.com/s/V8EqlkEhGYVYdy086Vlz_w)
 
 [HyperLogLog 算法原理及其在 Redis 中的实现](https://mp.weixin.qq.com/s/MVxmH5r0tP6sQ9WKVLoDbw)
