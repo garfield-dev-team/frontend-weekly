@@ -11,7 +11,27 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[MySQL到TiDB：Hive Metastore横向扩展之路](https://mp.weixin.qq.com/s/HYNraMBeIWM98Udw1y5-qA)
+
+[谁家面试往死里问事务啊](https://mp.weixin.qq.com/s/04NkiCx5xpvnroJQ5vXUtg)
+
+[从5s到0.5s！看看人家项目中的异步任务优化技巧，确实优雅！](https://mp.weixin.qq.com/s/wzoNdfHr0ng5Q6GdYSbROw)
+
+[使用 查询分离 后 从20s优化到500ms](https://mp.weixin.qq.com/s/-oFKOvOc6z5kVwzAjKIFrw)
+
+[业务系统架构实践总结](https://mp.weixin.qq.com/s/pNfC7klCZTKhXwC4t5V7BA)
+
+[一文了解负载均衡器、反向代理、API 网关区别](https://mp.weixin.qq.com/s/rOYfNXIeQXhiQ6B8bbdHOw)
+
+[Golang GC 从理论到针对服务的定制化应用](https://mp.weixin.qq.com/s/YM9UP-esSDNZywMneKcVYw)
+
+[Kubernetes 应用最佳实践 - 水平自动伸缩](https://mp.weixin.qq.com/s/RdfpHj7TLmUWRPMQA-IOyw)
+
+[还不会部署微服务项目？保姆级教程来啦！](https://mp.weixin.qq.com/s/GEJ5BUQ8OzXMM7Htxh9grA)
+
 [专为小白打造—Kafka一篇文章从入门到入土 | 京东云技术团队](https://juejin.cn/post/7282691710085152825)
+
+[美团二面拷打：如何设计一个优先级任务线程池](https://mp.weixin.qq.com/s/Inn3bXaML1X0PaXO9jH3dg)
 
 [深入理解 RocketMQ 广播消费](https://mp.weixin.qq.com/s/ybIOev3L0cJNy36oUqnmwQ)
 
