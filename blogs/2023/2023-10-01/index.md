@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[一个关于 i++ 和 ++i 的面试题打趴了所有人](https://mp.weixin.qq.com/s/3WXpIJuTX9ExS4cviZg1ow)
+
+[Deconstructing Type Parameters](https://go.dev/blog/deconstructing-type-parameters)
+
 [MySQL到TiDB：Hive Metastore横向扩展之路](https://mp.weixin.qq.com/s/HYNraMBeIWM98Udw1y5-qA)
 
 [谁家面试往死里问事务啊](https://mp.weixin.qq.com/s/04NkiCx5xpvnroJQ5vXUtg)
