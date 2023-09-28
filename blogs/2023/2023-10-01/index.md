@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[下单时如何保证数据一致性](https://mp.weixin.qq.com/s/y3eVdtDg-xuDbBmV9jbKdQ)
+
 [一个关于 i++ 和 ++i 的面试题打趴了所有人](https://mp.weixin.qq.com/s/3WXpIJuTX9ExS4cviZg1ow)
 
 [Deconstructing Type Parameters](https://go.dev/blog/deconstructing-type-parameters)
@@ -60,5 +62,7 @@ tags: []
 [Go语言爱好者周刊：第 201 期](https://mp.weixin.qq.com/s/5cvI3-t33yiyG_g2K2MQ7g)
 
 ## 📒 前端相关
+
+[加速 JavaScript 生态系统：Polyfills 出现问题了吗](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/)
 
 [MDH 前端周刊第 107 期：Safari 17、stylex、Svelte 5、线性代码](https://mdhweekly.com/weekly/issue-0107)
