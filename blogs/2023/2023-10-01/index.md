@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Java 8 的 Stream 不好调试？试试 IDEA 的调试神器 Stream Trace！](https://mp.weixin.qq.com/s/TpbycffUHVIbhuy8aW7D2g)
+
+[@Async注解的坑，小心](https://mp.weixin.qq.com/s/YV3Ih8IfJIRnA6Vxj62rig)
+
+[折腾一个周末，撸Nacos可真不容易](https://mp.weixin.qq.com/s/2cRfCsXe5UoK5ZoiX9xliA)
+
+[图解ReentrantLock的基石AQS源码-独占锁的获取与释放](https://mp.weixin.qq.com/s/yQwU-qQHEKvOwzEmXUm_XQ)
+
 [下单时如何保证数据一致性](https://mp.weixin.qq.com/s/y3eVdtDg-xuDbBmV9jbKdQ)
 
 [一个关于 i++ 和 ++i 的面试题打趴了所有人](https://mp.weixin.qq.com/s/3WXpIJuTX9ExS4cviZg1ow)
