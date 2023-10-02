@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kafka 架构、核心机制和场景解读](https://juejin.cn/post/7176575859686375481)
+
 [为什么 MyBatis 源码中，没有我那种 if···else](https://mp.weixin.qq.com/s/SKeniYvREuiPjmjQFL8gBA)
 
 [解密DDD：领域事件--系统解耦的终极武器](https://mp.weixin.qq.com/s/nfTrPQWmlCVjufql8Qvt3A)
