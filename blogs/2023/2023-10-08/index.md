@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Go项目目录该怎么组织？官方终于出指南了！](https://mp.weixin.qq.com/s/zT_Elyrf0GFajoTSxSHCAA)
+
 [DDD的奇幻世界：从小积木到艺术品的设计之旅](https://mp.weixin.qq.com/s/Rqsh4z3yHxVIP7yGZDzexA)
 
 [相较于RocketMQ的事务消息，本地消息表才是真正的王者](https://mp.weixin.qq.com/s/mrAVSwpufh_TgohhEvnJqQ)
@@ -30,6 +32,8 @@ tags: []
 [DDD 必备架构--六边形架构](https://mp.weixin.qq.com/s/L2PEKwbvAlA-MFfIJH2zEQ)
 
 ## 📒 前端相关
+
+[前端铜九铁十面试必备八股文——工程化](https://juejin.cn/post/7272009063406272571)
 
 [Threejs 中秋佳节感受闽南名俗 | 中秋博饼🥮🥮🥮](https://juejin.cn/post/7282692942713389117)
 
