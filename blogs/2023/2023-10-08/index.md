@@ -11,6 +11,18 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[字节三面：如何设计一个高性能短链系统](https://mp.weixin.qq.com/s/ouCBun8uGTEkbNQUjvgfSg)
+
+[40 个定时任务，带你理解 RocketMQ 设计精髓！](https://mp.weixin.qq.com/s/tgVUcBMpRMTBr5rCzmUNWA)
+
+[在Golang中玩转依赖注入-dig篇](https://mp.weixin.qq.com/s/0DRrMNkQUm3bXt5d3wMAbg)
+
+[简单聊一聊公平锁和非公平锁，parallel并行流](https://mp.weixin.qq.com/s/W52agO66oyCDDj3HCbBAMQ)
+
+[高频面试：Spring 如何解决循环依赖](https://mp.weixin.qq.com/s/VrEfTVQJXO88WrA0Nvmdrw)
+
+[Go 1.21 不仅修复了 go 命令行的安全问题，还修复了一个编译大文件的问题！](https://mp.weixin.qq.com/s/I2QIdxLS3aaE7f1_5Ebgmg)
+
 [Go项目目录该怎么组织？官方终于出指南了！](https://mp.weixin.qq.com/s/zT_Elyrf0GFajoTSxSHCAA)
 
 [DDD的奇幻世界：从小积木到艺术品的设计之旅](https://mp.weixin.qq.com/s/Rqsh4z3yHxVIP7yGZDzexA)
