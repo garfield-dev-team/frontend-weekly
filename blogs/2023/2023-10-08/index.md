@@ -11,6 +11,24 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[如何使用Higress快速实现金丝雀与蓝绿发布](https://mp.weixin.qq.com/s/vuthEXI1aQ4zw7h-8NXqjA)
+
+[Kubernetes 应用最佳实践 - 金丝雀发布](https://mp.weixin.qq.com/s/wDKxvuttcF3_IiA8Sq06WA)
+
+[分布式系统设计模式](https://mp.weixin.qq.com/s/sSwXgrHvQcjSuiy9bA8d_g)
+
+[等等， 怎么使用 SetMemoryLimit](https://mp.weixin.qq.com/s/EIuM073G7VV1rIsnTXWyEw)
+
+[Go 1.19 中atomic包的新变化](https://mp.weixin.qq.com/s/YzkPHkBCdqv-Z3APSPaDrQ)
+
+[PGO: 为你的Go程序提效5%](https://mp.weixin.qq.com/s/SSkt6YYGcqgH9kbIQH-tNg)
+
+[一个泛型的有序Go Map实现](https://mp.weixin.qq.com/s/26PlfCFLc9Giuv_7nmgxjg)
+
+[Go 1.21中 sync.Once的新扩展](https://mp.weixin.qq.com/s/SFXe1bdBu0bLuHoGEFTz8g)
+
+[怎么阻止一个Go程序退出](https://mp.weixin.qq.com/s/C2AmKZjg9CyiIDxyU0-b1Q)
+
 [字节三面：如何设计一个高性能短链系统](https://mp.weixin.qq.com/s/ouCBun8uGTEkbNQUjvgfSg)
 
 [40 个定时任务，带你理解 RocketMQ 设计精髓！](https://mp.weixin.qq.com/s/tgVUcBMpRMTBr5rCzmUNWA)
@@ -44,6 +62,12 @@ tags: []
 [DDD 必备架构--六边形架构](https://mp.weixin.qq.com/s/L2PEKwbvAlA-MFfIJH2zEQ)
 
 ## 📒 前端相关
+
+[你是否好奇，前端专家的简历怎么写](https://juejin.cn/post/7260516157786325050)
+
+[某大厂一面: 讲讲 Fiber 架构以及它是如何实现增量渲染的🥱🥱🥱](https://juejin.cn/post/7258881840823844920)
+
+[面试被问到低代码细节？听我这样吹（含架构和原理）](https://mp.weixin.qq.com/s/ZlVBv8EgV3FBg9fmuY8DDA)
 
 [前端铜九铁十面试必备八股文——工程化](https://juejin.cn/post/7272009063406272571)
 
