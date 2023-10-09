@@ -15,12 +15,6 @@ tags: []
 
 [Kubernetes 应用最佳实践 - 金丝雀发布](https://mp.weixin.qq.com/s/wDKxvuttcF3_IiA8Sq06WA)
 
-[分布式系统设计模式](https://mp.weixin.qq.com/s/sSwXgrHvQcjSuiy9bA8d_g)
-
-[等等， 怎么使用 SetMemoryLimit](https://mp.weixin.qq.com/s/EIuM073G7VV1rIsnTXWyEw)
-
-[Go 1.19 中atomic包的新变化](https://mp.weixin.qq.com/s/YzkPHkBCdqv-Z3APSPaDrQ)
-
 [PGO: 为你的Go程序提效5%](https://mp.weixin.qq.com/s/SSkt6YYGcqgH9kbIQH-tNg)
 
 [一个泛型的有序Go Map实现](https://mp.weixin.qq.com/s/26PlfCFLc9Giuv_7nmgxjg)
@@ -62,8 +56,6 @@ tags: []
 [DDD 必备架构--六边形架构](https://mp.weixin.qq.com/s/L2PEKwbvAlA-MFfIJH2zEQ)
 
 ## 📒 前端相关
-
-[你是否好奇，前端专家的简历怎么写](https://juejin.cn/post/7260516157786325050)
 
 [某大厂一面: 讲讲 Fiber 架构以及它是如何实现增量渲染的🥱🥱🥱](https://juejin.cn/post/7258881840823844920)
 
