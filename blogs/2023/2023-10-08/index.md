@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[精进云原生 – Dubbo Kubernetes 最佳实践](https://mp.weixin.qq.com/s/OZrsiv0whhq6OWq2_KrUTg)
+
 [如何使用Higress快速实现金丝雀与蓝绿发布](https://mp.weixin.qq.com/s/vuthEXI1aQ4zw7h-8NXqjA)
 
 [Kubernetes 应用最佳实践 - 金丝雀发布](https://mp.weixin.qq.com/s/wDKxvuttcF3_IiA8Sq06WA)
