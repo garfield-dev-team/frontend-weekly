@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[RocketMQ 5.0 从入门到精通](https://mp.weixin.qq.com/s/5ztAjyJ9wiRmOkZjTbOo8g)
+
+[实战！用 Arthas 定位 Spring Boot 接口的超时问题，让应用起飞～](https://mp.weixin.qq.com/s/yP6j8Fc1o53D1_aqRrYGYQ)
+
+[两个实验让我彻底弄懂了「订阅关系一致」](https://mp.weixin.qq.com/s/f3C8gppS_GbeyEzHkybWcQ)
+
+[Go 1.21.2 仅发布 5 天，又发布了 net/http2 的一个安全更新](https://mp.weixin.qq.com/s/gJFNTv_RwaDl0S6J3Z_hEA)
+
 [使用rust重写mping: 和Go版本比较](https://mp.weixin.qq.com/s/F65-LD3NweBJt-VdIuIDMw)
 
 [RabbitMQ vs Kafka，别再选错了！！！](https://mp.weixin.qq.com/s/1uD2zBZFTLvE4V7pQbmcmg)
@@ -34,6 +42,8 @@ tags: []
 [速率限制：控制服务资源利用和质量的关键工具](https://mp.weixin.qq.com/s/y4tdaaYU2MJdhLRL0PZZyg)
 
 ## 📒 前端相关
+
+[我，前端，不想卷技术了……卷下整洁架构](https://mp.weixin.qq.com/s/BmFR5aGLHfxoMH1W4J9_3A)
 
 [我不允许有人不会封装 ECharts](https://juejin.cn/post/7203594705342545957)
 
