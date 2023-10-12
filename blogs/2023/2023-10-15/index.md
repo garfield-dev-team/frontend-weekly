@@ -11,6 +11,12 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[记一次 MySQL 主从同步异常的排查记录，百转千回！](https://mp.weixin.qq.com/s/uPgmXj5ovGqoalUUg-SbLw)
+
+[Go 标准库想增加 metrics 指标，你支持吗](https://mp.weixin.qq.com/s/3NSZm-9mM8UmrQMCNEdXbA)
+
+[GitLab部署和实战教程](https://mp.weixin.qq.com/s/ROb7TKnD762Jnm7rV5VWfA)
+
 [RocketMQ 5.0 从入门到精通](https://mp.weixin.qq.com/s/5ztAjyJ9wiRmOkZjTbOo8g)
 
 [实战！用 Arthas 定位 Spring Boot 接口的超时问题，让应用起飞～](https://mp.weixin.qq.com/s/yP6j8Fc1o53D1_aqRrYGYQ)
