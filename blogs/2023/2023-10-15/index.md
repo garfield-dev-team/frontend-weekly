@@ -11,6 +11,12 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Go TLS服务端绑定证书的几种方式](https://mp.weixin.qq.com/s/P0mbc0rqt6vYhK3YeTDBrQ)
+
+[Go 夜读第 147 期：roseduan 带你了解高性能预写日志（Write Ahead Log）的设计与实现](https://mp.weixin.qq.com/s/gMBFQ88XHkwmw8pqWU1FMw)
+
+[SpringCloud 微服务架构：实现分布式系统的无缝协作](https://mp.weixin.qq.com/s/cwCQ0SryHnBzgbqa3DTkIg)
+
 [记一次 MySQL 主从同步异常的排查记录，百转千回！](https://mp.weixin.qq.com/s/uPgmXj5ovGqoalUUg-SbLw)
 
 [Go 标准库想增加 metrics 指标，你支持吗](https://mp.weixin.qq.com/s/3NSZm-9mM8UmrQMCNEdXbA)
