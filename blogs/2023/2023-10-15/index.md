@@ -55,6 +55,8 @@ tags: []
 
 ## 📒 前端相关
 
+[用 TypeScript 手写数组内置的 20 个方法！！！](https://mp.weixin.qq.com/s/he_3zr4e8rdCIAqmJsKTNA)
+
 [我，前端，不想卷技术了……卷下整洁架构](https://mp.weixin.qq.com/s/BmFR5aGLHfxoMH1W4J9_3A)
 
 [我不允许有人不会封装 ECharts](https://juejin.cn/post/7203594705342545957)
