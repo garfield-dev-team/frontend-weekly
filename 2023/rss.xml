@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[10月22日内容汇总]]></title>
+            <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月22日内容汇总</link>
+            <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月22日内容汇总</guid>
+            <pubDate>Sun, 22 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[🌟 AI 相关]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/h1foTSEnSoKkKFH2PyRuqA" target="_blank" rel="noopener noreferrer">golang select 机制</a></p><p><a href="https://mp.weixin.qq.com/s/ba4UrLSIF4bR3F-sPY12CA" target="_blank" rel="noopener noreferrer">成本最高降低70%，腾讯大规模业务集群的云原生成本优化实践！</a></p><p><a href="https://mp.weixin.qq.com/s/9nK-VvTCHWTlVZOgaTn-0w" target="_blank" rel="noopener noreferrer">Redis 只能做缓存 ？你 out了！</a></p><p><a href="https://mp.weixin.qq.com/s/3ECVnGHMhiXTxkwzpYLuxw" target="_blank" rel="noopener noreferrer">Rust并发编程 - 容器类并发原语</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/xKmVplcl-qB9idCsWYiNXg" target="_blank" rel="noopener noreferrer">Vue 源码思想在工作中的应用</a></p><p><a href="https://mdhweekly.com/weekly/issue-0109" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 109 期：Astro 3.3、桶文件、软技能、推和拉、程序员健康、No Build</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[10月15日内容汇总]]></title>
             <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月15日内容汇总</link>
             <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月15日内容汇总</guid>
