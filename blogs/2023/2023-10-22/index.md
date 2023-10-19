@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Spring技术内幕4，深度解析Spring内置作用域及其在实践中的应用](https://mp.weixin.qq.com/s/UANxlo0ia5hGYgFvumb8Zg)
+
 [EDAS 让 Spring Cloud Gateway 生产可用的二三策](https://mp.weixin.qq.com/s/zfFyae2tW3d7JrKddbEc_A)
 
 [Go中的流量限制:有效控制流量](https://mp.weixin.qq.com/s/peytDtBWiDgCzZtaT67M3A)
@@ -36,6 +38,8 @@ tags: []
 [Rust并发编程 - 容器类并发原语](https://mp.weixin.qq.com/s/3ECVnGHMhiXTxkwzpYLuxw)
 
 ## 📒 前端相关
+
+[完美搭配，微前端与Monorepo的架构设计](https://mp.weixin.qq.com/s/sO_H0KAyNhnSxn-lsSN1mw)
 
 [译：我们如何优化 Next.js 中的软件包导入](https://mp.weixin.qq.com/s/CWFyP0pfOOU-XCJ77kLr8g)
 
