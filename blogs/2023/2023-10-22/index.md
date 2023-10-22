@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kubernetes 应用最佳实践 - 优雅关闭长连接](https://mp.weixin.qq.com/s/xPuNqN9TG7YyosSh_S4dlQ)
+
+[Go 项目标准布局？Go 官方出指南了](https://mp.weixin.qq.com/s/tKp5lWlHzTZvoGugOn5MsA)
+
+[不看就落后了，Go 1.22 中更好的http router](https://mp.weixin.qq.com/s/270TlJ6pVEEuRK_NyaQXfA)
+
+[Go和C++通用性能优化黑魔法——PGO！](https://mp.weixin.qq.com/s/VhrgXnntsMCk9Ajw00clkQ)
+
 [Spring技术内幕4，深度解析Spring内置作用域及其在实践中的应用](https://mp.weixin.qq.com/s/UANxlo0ia5hGYgFvumb8Zg)
 
 [EDAS 让 Spring Cloud Gateway 生产可用的二三策](https://mp.weixin.qq.com/s/zfFyae2tW3d7JrKddbEc_A)
