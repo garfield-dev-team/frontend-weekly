@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[10月29日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月29日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月29日内容汇总"/>
+        <updated>2023-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🌟 AI 相关]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/r5_zuEX1PyJ9FXW9Uth6Lg" target="_blank" rel="noopener noreferrer">Go 语言如何获取 CPU 利用率</a></p><p><a href="https://mp.weixin.qq.com/s/ZN50aL--A7unUnZr_VjN7w" target="_blank" rel="noopener noreferrer">Go 周刊一览#1：1.22 增强 ServeMux 路由、新版本发布、新开源包等</a></p><p><a href="https://mp.weixin.qq.com/s/fV8cnzh9U3XmPWciQX1Ihg" target="_blank" rel="noopener noreferrer">Rust并发编程5 - 基本并发原语</a></p><p><a href="https://mp.weixin.qq.com/s/K2d8Ea2zj9rfzSlIkKML9g" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 202 期 — 官方出指南了</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mdhweekly.com/weekly/issue-0110" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 110 期：React Query 5、PS Web、命名、开发人员建议、useTransition</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[10月22日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月22日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月22日内容汇总"/>
