@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kubernetes - kube-proxy 代理模式工程优化](https://mp.weixin.qq.com/s/_sAPs0ckHJLt-6OaKz66sA)
+
 [Go 语言如何获取 CPU 利用率](https://mp.weixin.qq.com/s/r5_zuEX1PyJ9FXW9Uth6Lg)
 
 [Go 周刊一览#1：1.22 增强 ServeMux 路由、新版本发布、新开源包等](https://mp.weixin.qq.com/s/ZN50aL--A7unUnZr_VjN7w)
