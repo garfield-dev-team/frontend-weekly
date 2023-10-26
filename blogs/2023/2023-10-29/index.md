@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Kafka消息队列，Kafka批处理与流处理详解](https://juejin.cn/post/7294080876827344937)
+
 [Kubernetes - kube-proxy 代理模式工程优化](https://mp.weixin.qq.com/s/_sAPs0ckHJLt-6OaKz66sA)
 
 [Go 语言如何获取 CPU 利用率](https://mp.weixin.qq.com/s/r5_zuEX1PyJ9FXW9Uth6Lg)
@@ -22,5 +24,7 @@ tags: []
 [Go语言爱好者周刊：第 202 期 — 官方出指南了](https://mp.weixin.qq.com/s/K2d8Ea2zj9rfzSlIkKML9g)
 
 ## 📒 前端相关
+
+[三种虚拟列表原理与实现](https://mp.weixin.qq.com/s/g8kHbE0D7Gq6EpA6Gj2isQ)
 
 [MDH 前端周刊第 110 期：React Query 5、PS Web、命名、开发人员建议、useTransition](https://mdhweekly.com/weekly/issue-0110)
