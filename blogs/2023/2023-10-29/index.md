@@ -13,6 +13,8 @@ tags: []
 
 [Kafka消息队列，Kafka批处理与流处理详解](https://juejin.cn/post/7294080876827344937)
 
+[Dubbo 路由及负载均衡性能优化](https://mp.weixin.qq.com/s/MzGt4TovhOaCd2R3wUaXjA)
+
 [Kubernetes - kube-proxy 代理模式工程优化](https://mp.weixin.qq.com/s/_sAPs0ckHJLt-6OaKz66sA)
 
 [Go 语言如何获取 CPU 利用率](https://mp.weixin.qq.com/s/r5_zuEX1PyJ9FXW9Uth6Lg)
