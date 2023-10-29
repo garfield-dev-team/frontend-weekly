@@ -31,6 +31,8 @@ tags: []
 
 ## 📒 前端相关
 
+[前端工程化与模块化](https://mp.weixin.qq.com/s/NgGNCBw9QJ7b4CHP9R6Pvg)
+
 [三种虚拟列表原理与实现](https://mp.weixin.qq.com/s/g8kHbE0D7Gq6EpA6Gj2isQ)
 
 [MDH 前端周刊第 110 期：React Query 5、PS Web、命名、开发人员建议、useTransition](https://mdhweekly.com/weekly/issue-0110)
