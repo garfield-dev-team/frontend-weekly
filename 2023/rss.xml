@@ -29,6 +29,14 @@
             <category>Golang</category>
         </item>
         <item>
+            <title><![CDATA[11月5日内容汇总]]></title>
+            <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月5日内容汇总</link>
+            <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月5日内容汇总</guid>
+            <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[🌟 AI 相关]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/cbinCsY8-c3kjLORDoFwlg" target="_blank" rel="noopener noreferrer">给 Go 提问题？充分了解 Go 提案流程</a></p><p><a href="https://mp.weixin.qq.com/s/o8DM0HtQAuG_lsvL8wJFhA" target="_blank" rel="noopener noreferrer">像Redis作者那样，使用Go实现一个聊天服务器，不到100行代码</a></p><p><a href="https://mp.weixin.qq.com/s/L-KE9-gxPSzmXI7w79KY6w" target="_blank" rel="noopener noreferrer">Go语言爱好者周刊：第 203 期 — encoding/json 升级版你支持吗</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/RvYmHh7WH0XfOOJ9kTIizg" target="_blank" rel="noopener noreferrer">让 web 再次伟大：用 CanvasKit 实现超级丝滑的原神地图（已开源）！！！</a></p><p><a href="https://mdhweekly.com/weekly/issue-0111" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 111 期：MSW 2、Yarn 4、Next.js 14、useFormSate、WinterJS</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[10月29日内容汇总]]></title>
             <link>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月29日内容汇总</link>
             <guid>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/10月29日内容汇总</guid>
