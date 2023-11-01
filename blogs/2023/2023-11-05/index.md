@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[史上最全后台开发成长指南](https://mp.weixin.qq.com/s/NeIJmb2LsCLSQkDEs5jhTQ)
+
+[如何更直观地理解 Go 调度过程](https://mp.weixin.qq.com/s/OqnPgPqT8vYQJ_i8926Zgw)
+
+[在 Go 中管理多个数据库连接](https://mp.weixin.qq.com/s/nOhP1j_Dr0lkUMhhXKfIGQ)
+
+[动动手指，Prometheus 部署流程收入囊中](https://mp.weixin.qq.com/s/biaWIwkWzOg0lyTLj9AlDw)
+
 [iptables 以及 Go操作库](https://mp.weixin.qq.com/s/yAmwqgGunLI7WL5NrjG9vw)
 
 [给 Go 提问题？充分了解 Go 提案流程](https://mp.weixin.qq.com/s/cbinCsY8-c3kjLORDoFwlg)
@@ -20,6 +28,8 @@ tags: []
 [Go语言爱好者周刊：第 203 期 — encoding/json 升级版你支持吗](https://mp.weixin.qq.com/s/L-KE9-gxPSzmXI7w79KY6w)
 
 ## 📒 前端相关
+
+[2023年软件工程师的 Mac 工具箱](https://mp.weixin.qq.com/s/Dc4u4owXO-8oF1ciXRG9VQ)
 
 [如何让开发者丝滑的接入你的组件库](https://juejin.cn/post/7295688187753562175)
 
