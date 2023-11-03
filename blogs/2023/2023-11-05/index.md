@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[玩转 Go Slices 切片泛型库](https://mp.weixin.qq.com/s/bSgA-nIpzZmfNN7SKgOzjg)
+
+[Go etcd 的依赖问题终于解决了。。。](https://mp.weixin.qq.com/s/8aLpnGkntX2bvzNVyyxJrQ)
+
 [史上最全后台开发成长指南](https://mp.weixin.qq.com/s/NeIJmb2LsCLSQkDEs5jhTQ)
 
 [如何更直观地理解 Go 调度过程](https://mp.weixin.qq.com/s/OqnPgPqT8vYQJ_i8926Zgw)
@@ -28,6 +32,12 @@ tags: []
 [Go语言爱好者周刊：第 203 期 — encoding/json 升级版你支持吗](https://mp.weixin.qq.com/s/L-KE9-gxPSzmXI7w79KY6w)
 
 ## 📒 前端相关
+
+[Speeding up the JavaScript ecosystem - Tailwind CSS](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/)
+
+[辟殊 - Rust 在前端构建高性能前端打包工具](https://www.bilibili.com/video/BV15c411d7FZ/)
+
+[Announcing Docusaurus 3.0](https://docusaurus.io/blog/releases/3.0)
 
 [2023年软件工程师的 Mac 工具箱](https://mp.weixin.qq.com/s/Dc4u4owXO-8oF1ciXRG9VQ)
 
