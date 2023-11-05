@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[通过redis学网络(1)-用go基于epoll实现最简单网络通信框架](https://juejin.cn/post/7241730139709653029)
+
+[【升职加薪秘籍】我在服务监控方面的实践(2)-监控组件配置](https://juejin.cn/post/7259582611181797433)
+
 [玩转 Go Slices 切片泛型库](https://mp.weixin.qq.com/s/bSgA-nIpzZmfNN7SKgOzjg)
 
 [Go etcd 的依赖问题终于解决了。。。](https://mp.weixin.qq.com/s/8aLpnGkntX2bvzNVyyxJrQ)
