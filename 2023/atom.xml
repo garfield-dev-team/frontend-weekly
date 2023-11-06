@@ -32,6 +32,18 @@
         <category label="Golang" term="Golang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[11月12日内容汇总]]></title>
+        <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月12日内容汇总</id>
+        <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月12日内容汇总"/>
+        <updated>2023-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🌟 AI 相关]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_B0by" id="-ai-相关">🌟 AI 相关<a href="#-ai-相关" class="hash-link" aria-label="Direct link to 🌟 AI 相关" title="Direct link to 🌟 AI 相关">​</a></h2><h2 class="anchor anchorWithStickyNavbar_B0by" id="️-golang-相关">⭐️ Golang 相关<a href="#️-golang-相关" class="hash-link" aria-label="Direct link to ⭐️ Golang 相关" title="Direct link to ⭐️ Golang 相关">​</a></h2><p><a href="https://juejin.cn/post/7256425827330474042" target="_blank" rel="noopener noreferrer">烂大街的 RPC 项目，如何和字节面试官聊出花儿来</a></p><p><a href="https://juejin.cn/post/7171236509683548197" target="_blank" rel="noopener noreferrer">一次 Netty 代码不健壮导致的大量 CLOSE_WAIT 连接原因分析</a></p><p><a href="https://juejin.cn/post/7268663683881828413" target="_blank" rel="noopener noreferrer">应用容器化后为什么性能下降这么多</a></p><p><a href="https://mp.weixin.qq.com/s/0GDk_4b4JUPBmKWDdEbp1A" target="_blank" rel="noopener noreferrer">只改一行语句，锁这么多</a></p><p><a href="https://mp.weixin.qq.com/s/ieIeEN6kwhwFEagk2bK39Q" target="_blank" rel="noopener noreferrer">Rust并发编程番外篇: Mutex内部实现</a></p><h2 class="anchor anchorWithStickyNavbar_B0by" id="-前端相关">📒 前端相关<a href="#-前端相关" class="hash-link" aria-label="Direct link to 📒 前端相关" title="Direct link to 📒 前端相关">​</a></h2><p><a href="https://mp.weixin.qq.com/s/ohUlwznu3HrmTE_zLX976w" target="_blank" rel="noopener noreferrer">Antd Procomponent 之 proForm - 高级表单</a></p><p><a href="https://hackernoon.com/the-evolution-of-react-suspense-from-code-splitting-to-data-fetching" target="_blank" rel="noopener noreferrer">Guide to React Suspense: From Code Splitting to Data Fetching</a></p><p><a href="https://mdhweekly.com/weekly/issue-0112" target="_blank" rel="noopener noreferrer">MDH 前端周刊第 112 期：Docusaurus 3、Remix &amp; Vite、D2、React Forget</a></p>]]></content>
+        <author>
+            <name>加菲猫</name>
+            <uri>https://github.com/Jiacheng787</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[11月5日内容汇总]]></title>
         <id>https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月5日内容汇总</id>
         <link href="https://frontend-weekly.oss-cn-hangzhou.aliyuncs.com/frontend-weekly/2023/11月5日内容汇总"/>
