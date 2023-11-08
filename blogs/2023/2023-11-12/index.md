@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Apache RocketMQ，构建云原生统一消息引擎](https://mp.weixin.qq.com/s/cQAE6wjdq8ceBOGPfjMnqQ)
+
+[25张图盘点 RocketMQ 11 种消息类型！](https://mp.weixin.qq.com/s/2SIHvNQ9vRBEE4QK-66wXg)
+
+[聊聊如何在Java应用中发送短信](https://mp.weixin.qq.com/s/hwMRHrBe4WxgxPkNXixIvg)
+
+[Go1.21.4 发布了：官方图片竟然用的 loong64](https://mp.weixin.qq.com/s/uTnb9QQrFfs5jdmFmFzd7Q)
+
 [Golang面试题从浅入深高频必刷「2023版」| 文末送书](https://mp.weixin.qq.com/s/zEEheI-1UFT6DZAKbEtxIw)
 
 [盘点golang中的开发神器](https://mp.weixin.qq.com/s/gkv96bC9FLkI6jLduWlBag)
