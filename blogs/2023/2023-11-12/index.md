@@ -11,6 +11,24 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[只改一个参数让Golang GC耗时暴降到1/30！](https://mp.weixin.qq.com/s/EEDNuhEr0G4SbTzDhVBjbg)
+
+[不想引入mq？试试debezium](https://mp.weixin.qq.com/s/cF-OkAmAdSLkgGrxTr181w)
+
+[考考你，给32位系统的电脑插个8G的内存条会发生什么](https://mp.weixin.qq.com/s/-fPOGnp8RkHbS7Zxj1Ot5Q)
+
+Redis 消息队列和 Kafka 有啥区别
+
+Kafka 消息会落盘，会持久化，但是 Redis 是基于内存的消息队列，如果实例重启会导致数据丢失。Redis 如何实现高可用，有两种方式，1）生产环境会用 Redis 集群模式，有多个副本，读写操作都是针对主节点，会异步复制给从节点，保证最终一致性。假如主节点挂了，则会在从节点中选举一个新的主节点，2）Redis 也支持持久化。
+
+此外，Kafka 相对于 Redis 消息队列在吞吐量和延迟方面更为优秀（同一个 Topic 下可以有多个 Partition），可以处理更高的消息流量，并且具备较低的延迟。
+
+RPC 调用和浏览器 HTTP 请求有啥区别
+
+RPC 也称为内部调用，client 启动的时候会创建一个连接池，提前建立 tcp 链接，后续调用都复用 tcp 链接，避免频繁的 tcp 三次握手，提升性能。此外 RPC 调用还有一套服务发现机制（类似 DNS），可以直接用服务名的方式调用。由于内部调用不经过网关，因此需要在调用方实现负载均衡，比如 OpenFeign 底层基于 Ribbon 实现负载均衡。
+
+浏览器发送 HTTP 请求则需要在发送请求的时候实现 DNS 解析、TCP 三次握手等操作，一定程度上会影响性能。之前写过一个 Node 服务，在 Node 环境用 http 模块去调用其他接口，实际上会带来一定的性能开销。如果在程序频繁执行到的关键路径上，改用微服务 RPC 调用方式可以提升性能。
+
 [Apache RocketMQ，构建云原生统一消息引擎](https://mp.weixin.qq.com/s/cQAE6wjdq8ceBOGPfjMnqQ)
 
 [25张图盘点 RocketMQ 11 种消息类型！](https://mp.weixin.qq.com/s/2SIHvNQ9vRBEE4QK-66wXg)
@@ -38,6 +56,10 @@ tags: []
 [Rust并发编程番外篇: Mutex内部实现](https://mp.weixin.qq.com/s/ieIeEN6kwhwFEagk2bK39Q)
 
 ## 📒 前端相关
+
+[不是吧？async/await异常捕获你还在用try-catch～](https://mp.weixin.qq.com/s/5wd4JhZyLXL9uC4lYBgnoA)
+
+[Why You Want React Query](https://tkdodo.eu/blog/why-you-want-react-query)
 
 [Rspack 的设计背景和探索之路](https://mp.weixin.qq.com/s/jgchwpeOl5Q-fwPkndrjSg)
 
