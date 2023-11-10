@@ -11,6 +11,16 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[米哈游大数据云原生实践](https://mp.weixin.qq.com/s/VTV9J6J1J-KZlYO79M_J4g)
+
+[没用过微服务？别慌，丐版架构图，让你轻松拿捏面试官](https://mp.weixin.qq.com/s/R-w5_FCVBmesVpLNFxWNhw)
+
+[并发编程巅峰对决：Go vs Rust](https://mp.weixin.qq.com/s/K5URjtOJLKVJd8XVKoK5UQ)
+
+[Sentinel为什么这么强，我扒了扒背后的实现原理](https://mp.weixin.qq.com/s/FewOTrevjiCfooVIVwo4Xg)
+
+[写给go开发者的gRPC教程-gRPC Gateway](https://mp.weixin.qq.com/s/F132eyy08YRuA1i8wy73AQ)
+
 [只改一个参数让Golang GC耗时暴降到1/30！](https://mp.weixin.qq.com/s/EEDNuhEr0G4SbTzDhVBjbg)
 
 [不想引入mq？试试debezium](https://mp.weixin.qq.com/s/cF-OkAmAdSLkgGrxTr181w)
