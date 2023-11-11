@@ -11,6 +11,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Fourteen Years of Go](https://go.dev/blog/14years)
+
+[Go 团队发布 Go 14 周年回顾！附加更完整新特性脑图！](https://mp.weixin.qq.com/s/5jKjVbyF2R5ux0cVd8XScw)
+
 [米哈游大数据云原生实践](https://mp.weixin.qq.com/s/VTV9J6J1J-KZlYO79M_J4g)
 
 [没用过微服务？别慌，丐版架构图，让你轻松拿捏面试官](https://mp.weixin.qq.com/s/R-w5_FCVBmesVpLNFxWNhw)
@@ -20,6 +24,20 @@ tags: []
 [Sentinel为什么这么强，我扒了扒背后的实现原理](https://mp.weixin.qq.com/s/FewOTrevjiCfooVIVwo4Xg)
 
 [写给go开发者的gRPC教程-gRPC Gateway](https://mp.weixin.qq.com/s/F132eyy08YRuA1i8wy73AQ)
+
+Rust 中的异步编程模型
+
+Rust 作为一门现代的系统级编程语言，旨在提供高效、安全和可靠的异步编程能力。Rust 异步编程的目标是实现高性能、无安全漏洞的异步应用程序，同时提供简洁的语法和丰富的异步库。
+
+由于并发编程在现代社会非常重要，因此每个主流语言都对自己的并发模型进行过权衡取舍和精心设计，Rust 语言也不例外。下面的列表可以帮助大家理解不同并发模型的取舍:
+
+- **OS 线程**, 它最简单，也无需改变任何编程模型(业务/代码逻辑)，因此非常适合作为语言的原生并发模型，我们在多线程章节[3]也提到过，Rust 就选择了原生支持线程级的并发编程。但是，这种模型也有缺点，例如线程间的同步将变得更加困难，线程间的上下文切换损耗较大。使用线程池在一定程度上可以提升性能，但是对于 IO 密集的场景来说，线程池还是不够看。
+- **事件驱动(Event driven)**, 这个名词你可能比较陌生，如果说事件驱动常常跟回调( Callback )一起使用，相信大家就恍然大悟了。这种模型性能相当的好，但最大的问题就是存在回调地狱的风险：非线性的控制流和结果处理导致了数据流向和错误传播变得难以掌控，还会导致代码可维护性和可读性的大幅降低，大名鼎鼎的 JS 曾经就存在回调地狱。
+- **协程(Coroutines)**  可能是目前最火的并发模型，Go  语言的协程设计就非常优秀，这也是  Go  语言能够迅速火遍全球的杀手锏之一。协程跟线程类似，无需改变编程模型，同时，它也跟  async  类似，可以支持大量的任务并发运行。但协程抽象层次过高，导致用户无法接触到底层的细节，这对于系统编程语言和自定义异步运行时是难以接受的
+- **actor 模型**是 erlang 的杀手锏之一，它将所有并发计算分割成一个一个单元，这些单元被称为  actor , 单元之间通过消息传递的方式进行通信和数据传递，跟分布式系统的设计理念非常相像。由于  actor  模型跟现实很贴近，因此它相对来说更容易实现，但是一旦遇到流控制、失败重试等场景时，就会变得不太好用
+- **async/await**， 该模型性能高，还能支持底层编程，同时又像线程和协程那样无需过多的改变编程模型，但有得必有失，async  模型的问题就是内部实现机制过于复杂，对于用户来说，理解和使用起来也没有线程和协程简单，好在前者的复杂性开发者们已经帮我们封装好，而理解和使用起来不够简单，正是本章试图解决的问题。
+
+[Rust并发编程 - 第三章 async/await 异步编程](https://mp.weixin.qq.com/s/hnKNjqlYrdtI8ZLpJx5ufg)
 
 [只改一个参数让Golang GC耗时暴降到1/30！](https://mp.weixin.qq.com/s/EEDNuhEr0G4SbTzDhVBjbg)
 
@@ -66,6 +84,8 @@ RPC 也称为内部调用，client 启动的时候会创建一个连接池，提
 [Rust并发编程番外篇: Mutex内部实现](https://mp.weixin.qq.com/s/ieIeEN6kwhwFEagk2bK39Q)
 
 ## 📒 前端相关
+
+[2023云栖大会的新鲜事](https://juejin.cn/post/7298347391165218843)
 
 [不是吧？async/await异常捕获你还在用try-catch～](https://mp.weixin.qq.com/s/5wd4JhZyLXL9uC4lYBgnoA)
 
