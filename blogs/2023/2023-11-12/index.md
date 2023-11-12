@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[两全其美：Sidecarless 与 Sidecar 模式融合的服务网格新形态](https://mp.weixin.qq.com/s/mhRwUypGJxx1ZYiP0J2nOw)
+
 [Fourteen Years of Go](https://go.dev/blog/14years)
 
 [Go 团队发布 Go 14 周年回顾！附加更完整新特性脑图！](https://mp.weixin.qq.com/s/5jKjVbyF2R5ux0cVd8XScw)
