@@ -11,6 +11,14 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[如何真正写好Golang代码](https://mp.weixin.qq.com/s/OIHqmgK4V7Y26uYoFjsCyA)
+
+[为什么王者荣耀不使用微服务架构](https://mp.weixin.qq.com/s/dRqLjyE3B_pEg3uBTTKL-g)
+
+[Web 实时消息推送的 7 种实现方案](https://mp.weixin.qq.com/s/nD4VVzr29i_hTmbMgQ_I0w)
+
+[最新进展：Go arena 手动管理内存，鸽了！](https://mp.weixin.qq.com/s/nygLC4o0cmxjo84xXMif2A)
+
 [微服务不香了？单体化改造为我们节省上万核 CPU！](https://mp.weixin.qq.com/s/4-F0rM1KpvIpUm4CY78PMA)
 
 [Golang 编译速度为什么这么快](https://mp.weixin.qq.com/s/OGottKqNU6iEGfPoFdEsKA)
