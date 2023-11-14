@@ -11,6 +11,12 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[微服务不香了？单体化改造为我们节省上万核 CPU！](https://mp.weixin.qq.com/s/4-F0rM1KpvIpUm4CY78PMA)
+
+[Golang 编译速度为什么这么快](https://mp.weixin.qq.com/s/OGottKqNU6iEGfPoFdEsKA)
+
+[写出高质量代码的秘诀：Golang中的测试驱动开发（TDD）](https://mp.weixin.qq.com/s/pyJYEYyhcRsUOYzGvv_NTw)
+
 [实战！接口中的大事务，该如何进行优化](https://mp.weixin.qq.com/s/pLMVzx06h1ZMTfF8YOJVJQ)
 
 [用了这么多年Docker，殊不知你还有这么多弯弯绕！](https://mp.weixin.qq.com/s/zptQWV-iqrhEU1U4UFTqrg)
