@@ -7,9 +7,21 @@ tags: []
 
 ## 🌟 AI 相关
 
+[Transformer模型--模型架构](https://mp.weixin.qq.com/s/_B1oAej4NRojeA0ocytduA)
 
+[使用 Redis 构建轻量的向量数据库应用：图片搜索引擎（一）](https://mp.weixin.qq.com/s/6nLhgwsUgH3CT31ADAnNOw)
 
 ## ⭐️ Golang 相关
+
+[微服务框架之争：Quarkus 即将替代Spring Boot](https://mp.weixin.qq.com/s/kPr1HcCd_kAwZrDJiHssDQ)
+
+[关系代数、SQL语句和Go语言示例](https://mp.weixin.qq.com/s/rTMYq5Od4I7AxNI79Fp1nA)
+
+[K8S 和 容器中的退出状态码含义，看你知道几个](https://mp.weixin.qq.com/s/zNyHC-QTqQ0ExCVYfgaC8A)
+
+[Unix 编程艺术名句摘录](https://mp.weixin.qq.com/s/aeTAEh5f1uvm2x6qTt2WzQ)
+
+[从4万行代码降到1.8万，腾讯视频竟然用DDD做架构重构](https://mp.weixin.qq.com/s/DK3YM3umDfuEIvX77DHdHA)
 
 [Web 实时消息推送的 7 种实现方案](https://mp.weixin.qq.com/s/nD4VVzr29i_hTmbMgQ_I0w)
 
@@ -30,6 +42,10 @@ tags: []
 [Go语言爱好者周刊：第 204 期 —— Go 14 周年](https://mp.weixin.qq.com/s/KCxwi4FBBrS4r6_kDNi9QA)
 
 ## 📒 前端相关
+
+[不是吧？async/await异常捕获你还在用try-catch～](https://mp.weixin.qq.com/s/9xcccPM-cGlRaUAGX59Ypg)
+
+[IntersectionObserver：实现滚动动画、懒加载、虚拟列表](https://mp.weixin.qq.com/s/cEFKb1jQJSUHzZX7Jm2WRg)
 
 [Introducing GPTs。](https://openai.com/blog/introducing-gpts)OpenAI 正在推出一种新的定制版本的 ChatGPT—— GPTs。用户可创建专门用途的 GPT，无需编程知识，方便在日常生活、工作或学习等各种场景中使用，甚至可以和他人分享。用户可以在 chat.openai.com/create 上进行创建试用。ChatGPT Plus 和企业版用户今天就可以试用，包括 Canva 和 Zapier AI Actions。此外，本月晚些时候，OpenAI 将推出 GPT 商店，展示被认证的开发者的作品。在未来几个月，GPT 使用者也将有机会通过使用频率赚钱。OpenAI 表示，GPT 的所有措施都考虑到了隐私和安全，用户完全可以控制自己的数据。此外，开发者也可以将 GPT 连接到真实世界，定义自定义动作，连接到数据库，插入电子邮件，或者使用购物助手等。企业版用户也可以部署仅限内部的 GPT，满足特定使用场景，部门或具有专有数据集的需求。
 
