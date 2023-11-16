@@ -13,6 +13,18 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[解密defer语句：避免踩坑，掌握延迟执行的正确姿势](https://mp.weixin.qq.com/s/4DjoNqXkOdhvlb9mVfQqcA)
+
+[提升应用性能：Go中的同步与异步处理](https://mp.weixin.qq.com/s/LS1rAFDSZbzDF5MBG77ojA)
+
+[Prometheus 14 点实践经验分享](https://mp.weixin.qq.com/s/z2IVP26swYaTeiPTeOMoQw)
+
+[老后端被借调去写Java了，含泪总结的Java多线程编程基础](https://mp.weixin.qq.com/s/CRlHOV-8dHbcgOUl1z0Phg)
+
+[史上最全の图论圣经: 涵盖所有「存图方式」与「最短路算法」](https://mp.weixin.qq.com/s/wnRQ_9CckAmlQaAjo7q_0w)
+
+[HBase详细介绍及原理解析！](https://mp.weixin.qq.com/s/VKZbRbXeA6MfvZQYnEX3zQ)
+
 [微服务框架之争：Quarkus 即将替代Spring Boot](https://mp.weixin.qq.com/s/kPr1HcCd_kAwZrDJiHssDQ)
 
 [关系代数、SQL语句和Go语言示例](https://mp.weixin.qq.com/s/rTMYq5Od4I7AxNI79Fp1nA)
