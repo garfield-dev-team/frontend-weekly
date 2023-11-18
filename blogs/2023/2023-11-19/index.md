@@ -13,6 +13,22 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[Go语言微服务框架重磅升级：dubbo-go v3.2.0 -alpha 版本预览](https://mp.weixin.qq.com/s/515zqg_cGkqh4rtDd1PaOA)
+
+[一文告诉你让SSH 变好用的正确姿势！](https://mp.weixin.qq.com/s/mjT3EFP6dr4SQa7Mw2whwQ)
+
+[腾讯重复造轮子？我们真的需要这么多RPC框架吗](https://mp.weixin.qq.com/s/8ka62uHUk2ejyYKpIvpcSQ)
+
+[学习gorm系列七：如何高效建立数据库连接](https://mp.weixin.qq.com/s/n-HAxTXdwbMvEkhjez06_Q)
+
+[Vite 5.0 正式发布](https://mp.weixin.qq.com/s/7jX6RI5wc0bONDnmEbbMrA)
+
+[Git常用命令思维导图](https://mp.weixin.qq.com/s/Qv4MRF1pMkS9kT28QDjtaw)
+
+[实战：Nacos配置中心的Pull原理，附源码](https://mp.weixin.qq.com/s/uyUi7P50OtPwQmlaDWaxqg)
+
+[Kubernetes - CRI 概述](https://mp.weixin.qq.com/s/GgReNxcd6phFQXlp7cWgDg)
+
 [解密defer语句：避免踩坑，掌握延迟执行的正确姿势](https://mp.weixin.qq.com/s/4DjoNqXkOdhvlb9mVfQqcA)
 
 [提升应用性能：Go中的同步与异步处理](https://mp.weixin.qq.com/s/LS1rAFDSZbzDF5MBG77ojA)
@@ -54,6 +70,8 @@ tags: []
 [Go语言爱好者周刊：第 204 期 —— Go 14 周年](https://mp.weixin.qq.com/s/KCxwi4FBBrS4r6_kDNi9QA)
 
 ## 📒 前端相关
+
+[前端基建有哪些？大小公司偏重啥](https://mp.weixin.qq.com/s/3o4xUUxH5_mIxlYqX2PD6Q)
 
 [不是吧？async/await异常捕获你还在用try-catch～](https://mp.weixin.qq.com/s/9xcccPM-cGlRaUAGX59Ypg)
 
