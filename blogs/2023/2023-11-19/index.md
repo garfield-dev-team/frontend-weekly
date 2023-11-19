@@ -13,6 +13,8 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[【升职加薪秘籍】我在服务监控方面的实践(4)-日志监控](https://juejin.cn/post/7261877789306028090)
+
 [Go语言微服务框架重磅升级：dubbo-go v3.2.0 -alpha 版本预览](https://mp.weixin.qq.com/s/515zqg_cGkqh4rtDd1PaOA)
 
 [一文告诉你让SSH 变好用的正确姿势！](https://mp.weixin.qq.com/s/mjT3EFP6dr4SQa7Mw2whwQ)
