@@ -25,6 +25,8 @@ tags: []
 
 [云音乐RPC稳定性建设与实践](https://mp.weixin.qq.com/s/8blLwTDT5lGqD2BYqaNlmg)
 
+[完了，又被腾讯面试官拷打了 。。。](https://mp.weixin.qq.com/s/zkFE-YTfInlN615YR7Hd9w)
+
 [1.5万字+30张图盘点索引常见的11个知识点](https://mp.weixin.qq.com/s/d0ltqt2lkabphMjcQlNOgQ)
 
 [Go 命名规范：全面指南](https://mp.weixin.qq.com/s/k5kLELoYly1U6lFcHzbCyg)
