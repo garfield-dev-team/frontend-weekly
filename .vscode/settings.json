@@ -16,10 +16,7 @@
     "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
-    // 在保存时使用 eslint 格式化
-    "source.fixAll.eslint": true
-    // 保存时整理 import ，去掉没用的导包
-    // "source.organizeImports": true
+    "source.fixAll.eslint": "explicit"
   },
   "workbench.colorTheme": "Vitesse Black",
   "where-am-i.color": "#9cc494"
