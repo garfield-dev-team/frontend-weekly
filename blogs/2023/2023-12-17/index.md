@@ -67,6 +67,20 @@ tags: []
 
 ## 📒 后端相关
 
+[CentOS7下快速搭建K8s集群实践](https://cloud.tencent.com/developer/article/1802611)
+
+[MySQL 深入学习总结](https://blog.csdn.net/Tencent_TEG/article/details/115191332)
+
+[哈啰一面：如何优化大表的查询速度](https://juejin.cn/post/7307467803975761971)
+
+[面试官：网关如何实现限流](https://juejin.cn/post/7302787905042448393)
+
+[从零开始：使用Prometheus与Grafana搭建监控系统](https://zhuanlan.zhihu.com/p/671680216)
+
+[给祖传系统做了点 GC调优，暂停时间降低了 90% | 京东云技术团队](https://juejin.cn/post/7311623433817571365)
+
+[MYSQL 事务的底层原理 | 京东物流技术团队](https://juejin.cn/post/7300855272913240073)
+
 [直播房间服务基于CQRS的架构演进实践](https://mp.weixin.qq.com/s/3amlNXxFJdFcMWvN6uVJQA)
 
 [高并发系统设计的15个建议](https://mp.weixin.qq.com/s/CmByAs-oHZumdt1enkrhQg)
