@@ -15,6 +15,10 @@ tags: []
 
 ## ⭐️ Golang 相关
 
+[亲测体验Go语言PGO](https://mp.weixin.qq.com/s/wb8gEhMVoY2ycU1E-LesFQ)
+
+[降本增笑的P0事故背后，是开猿节流引发的代码异常吗](https://mp.weixin.qq.com/s/bvkF1X2cTvo2D2DV7vadpA)
+
 [通过实例理解API网关的主要功能特性](https://mp.weixin.qq.com/s/ubH7xCqZmlfxxyJ0R_Kvdw)
 
 [编码相关的软技能，我看了这些书](https://mp.weixin.qq.com/s/QvvBGL-VGgBzcnypB1WSEQ)
