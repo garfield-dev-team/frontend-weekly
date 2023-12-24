@@ -13,23 +13,6 @@ tags: []
 
 [用Rust刷LeetCode之58 最后一个单词的长度](https://mp.weixin.qq.com/s/e4PRZkKojI7VTHPSxoy8VA)
 
-```rs
-fn main() {
-    let len = length_of_last_word(" hello world ".to_owned());
-    println!("最后一个单词的长度为：{:?}", len);
-}
-
-pub fn length_of_last_word(s: String) -> usize {
-    let s = s.trim();
-
-    let v: Vec<&str> = s.split(' ').collect();
-
-    v.iter().for_each(|x| println!("{}", x));
-
-    v.last().unwrap().len()
-}
-```
-
 [Golang优雅实现按比例切分流量](https://juejin.cn/post/7274046488752750651)
 
 [AIOps在美团的探索与实践——事件管理篇](https://juejin.cn/post/7314975854171291683)
