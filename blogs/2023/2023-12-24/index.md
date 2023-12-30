@@ -121,6 +121,10 @@ tags: []
 
 [字节前端监控实践](https://juejin.cn/post/7195496297150709821)
 
+[如何写好一篇技术分享文章](https://mp.weixin.qq.com/s/Q7wu47fp19Hv3ei0Tux71w)
+
+[技术人如何做好业务](https://mp.weixin.qq.com/s/CPEReqH8rJvBdrCRPJEzlw)
+
 [依枫在蚂蚁的四周年](https://mp.weixin.qq.com/s/jCOmuTy7yZGTaMHyuZmYMg)
 
 [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
