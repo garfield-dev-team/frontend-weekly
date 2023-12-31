@@ -11,6 +11,12 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[2023年Go语言盘点：稳中求新，稳中求变](https://mp.weixin.qq.com/s/8B_26I_HsIUa0tpuGvAwwA)
+
+[Rust开发⼲货集(1)--迭代器与消费器](https://mp.weixin.qq.com/s/UnmIfhZ8xJTm_D2qhmxg2A)
+
+[轻松实现Go应用的优雅关闭：提升服务质量与稳定性](https://mp.weixin.qq.com/s/ERgMTjFeGhWTPDrfhJxQsg)
+
 今天把 Rust 更新到最新的 1.75 版本，跑一下 `rustup update` 这个命令就行：
 
 ```bash
@@ -88,6 +94,12 @@ cargo 1.75.0 (1d8b05cdd 2023-11-20)
 
 ## 📒 后端相关
 
+[Spring Boot 单体应用升级 Spring Cloud 微服务](https://mp.weixin.qq.com/s/4c0UpOqTkzvyAgI2gki-qw)
+
+[账号多租户架构升级与落地实践](https://mp.weixin.qq.com/s/7I6q07wVNMJ6UhFWzmKN_g)
+
+[每天100w次登陆请求, 8G 内存该如何设置JVM参数](https://mp.weixin.qq.com/s/vOwsUnpoZcznkwP_jvhpww)
+
 [从混乱到优雅：基于DDD的六边形架构的代码翻新指南 | 京东物流技术团队](https://juejin.cn/post/7300551340568641587)
 
 [从工程师到技术leader的思维升级](https://mp.weixin.qq.com/s/UwS_v2EhW2BH-pqYbyylMA)
@@ -111,6 +123,10 @@ cargo 1.75.0 (1d8b05cdd 2023-11-20)
 [监控告警系列-使用Promethues监控系统指标并进行告警通知](https://mp.weixin.qq.com/s/rKYfUckx93SYkC2UaKhNbA)
 
 ## 📒 前端相关
+
+[如何写好一份晋升PPT（附PPT模板）](https://mp.weixin.qq.com/s/1QMPfODUcH1p4pGaoO1owA)
+
+[前端DevOps平台的探索及设计理念](https://mp.weixin.qq.com/s/TBbfu8lTzcVyxRKkjgyWgQ)
 
 [​云音乐D2C设计稿转代码建设实践](https://mp.weixin.qq.com/s/Oc1f3thZYIONsF4OWWEcSw)
 
