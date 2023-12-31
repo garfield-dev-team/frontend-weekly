@@ -11,6 +11,43 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+今天把 Rust 更新到最新的 1.75 版本，跑一下 `rustup update` 这个命令就行：
+
+```bash
+$ rustup update
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: latest update on 2023-12-28, rust version 1.75.0 (82e1608df 2023-12-21)
+info: downloading component 'rust-src'
+info: downloading component 'cargo'
+info: downloading component 'clippy'
+info: downloading component 'rust-docs'
+info: downloading component 'rust-std'
+info: downloading component 'rustc'
+info: downloading component 'rustfmt'
+info: removing previous version of component 'rust-src'
+info: removing previous version of component 'cargo'
+info: removing previous version of component 'clippy'
+info: removing previous version of component 'rust-docs'
+info: removing previous version of component 'rust-std'
+info: removing previous version of component 'rustc'
+info: removing previous version of component 'rustfmt'
+info: installing component 'rust-src'
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+info: installing component 'rust-std'
+info: installing component 'rustc'
+info: installing component 'rustfmt'
+info: checking for self-update
+
+  stable-aarch64-apple-darwin updated - rustc 1.75.0 (82e1608df 2023-12-21) (from rustc 1.69.0 (84c898d65 2023-04-16))
+
+info: cleaning up downloads & tmp directories
+
+$ cargo --version
+cargo 1.75.0 (1d8b05cdd 2023-11-20)
+```
+
 [2023 文章集锦](https://mp.weixin.qq.com/s/rU8a1rR-d5kBU25XCV4_SA)
 
 [《深入理解Rust并发编程》可以下载了](https://mp.weixin.qq.com/s/H9liy4c2DKBfF5Y0VIgYbw)
