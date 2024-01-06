@@ -47,6 +47,8 @@ tags: []
 
 ## 📒 后端相关
 
+项目中遇到一个问题，需要记住弹窗频控，一般来说跟着设备走，也就是在前端缓存。如果需要以用户维度，需要怎么设计，可以用 Redis Bitmap 实现。
+
 [Redis Bitmap：实现千万级用户签到的秘密武器](https://juejin.cn/post/7273025562155466764)
 
 [这些年在阿里学到的方法论](https://mp.weixin.qq.com/s/yPRPakU1UM5iVY-1bwiHJQ)
