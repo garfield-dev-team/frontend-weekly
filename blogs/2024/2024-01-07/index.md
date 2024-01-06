@@ -13,6 +13,10 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Go 的 DDD 工程化项目实践](https://juejin.cn/post/7298160530292703244)
+
+[Rust 的所有权、借用和生命周期](https://juejin.cn/post/7279313746450235403)
+
 [Kubernetes Deployment 滚动更新实现原理](https://mp.weixin.qq.com/s/c4LWdwACitC2gH2tDu3E8g)
 
 [\[go 面试\] 分布式事务框架选择与实践](https://mp.weixin.qq.com/s/vQz2-KhRenuimU7jvHtkkQ)
@@ -42,6 +46,8 @@ tags: []
 [第一篇 旧话重提：获取和利用 goroutine id, machine id 和 process id](https://mp.weixin.qq.com/s/dePs661VzQf_yi2aHsydIA)
 
 ## 📒 后端相关
+
+[Redis Bitmap：实现千万级用户签到的秘密武器](https://juejin.cn/post/7273025562155466764)
 
 [这些年在阿里学到的方法论](https://mp.weixin.qq.com/s/yPRPakU1UM5iVY-1bwiHJQ)
 
