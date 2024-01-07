@@ -13,6 +13,14 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[小红书可观测 Metrics 架构演进，如何实现数十倍性能提升](https://mp.weixin.qq.com/s/uJ1t0B8WBBryzvbLWDfl5A)
+
+[Java与Go到底差别在哪，谁要被时代抛弃](https://mp.weixin.qq.com/s/JkpzM06IWNb11wUaJWJn8Q)
+
+[只改一个参数让Golang GC耗时暴降到1/30！](https://mp.weixin.qq.com/s/EEDNuhEr0G4SbTzDhVBjbg)
+
+[字节跳动云原生成本治理落地实践](https://mp.weixin.qq.com/s/GFYudlHBuIr_bDe6IX4mlw)
+
 [Go 的 DDD 工程化项目实践](https://juejin.cn/post/7298160530292703244)
 
 [Rust 的所有权、借用和生命周期](https://juejin.cn/post/7279313746450235403)
@@ -90,6 +98,8 @@ tags: []
 [订单场景-基于Redisson实现订单号生成](https://juejin.cn/post/7307467803975843891)
 
 ## 📒 前端相关
+
+[【第3162期】前端APM指标采集大冒险](https://mp.weixin.qq.com/s/u78Dr9DfLyCMAH8aTil5Lg)
 
 [2023年最火的前端项目出炉，竟然是它](https://mp.weixin.qq.com/s/ENkssTfPQmS5_PjdIcXpBA)
 
