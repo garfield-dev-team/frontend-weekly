@@ -17,6 +17,69 @@ tags: []
 
 [Java与Go到底差别在哪，谁要被时代抛弃](https://mp.weixin.qq.com/s/JkpzM06IWNb11wUaJWJn8Q)
 
+既然问题是 GC 占用的 CPU 过高，首先我们分析一下 CPU 热点，进一步确认一下问题。
+
+```bash
+$ go tool pprof -seconds 30 https://<测试域名>/debug/pprof/profile
+```
+
+这个命令用于进行 30s 的 CPU 性能分析，在完成之后会进入 profile 的交互工具：
+
+![Alt text](image.png)
+
+这里直接输入 top 10 可以输出 flat 占比最高的 10 个函数，可以看到 runtime.mallocgc 的 cum 占比已经达到了 15%，占用了快到 3s CPU 时间。
+
+Flat vs Cum：
+- Flat 占比是指这个函数自身的代码使用了多少 CPU，不计算子函数的耗时。
+- 而 Cum 则代表这个函数实际执行消耗了多少 CPU，也就是包括了所有的子函数（和子函数的子函数...）的耗时。
+
+交互工具这里输入 web 就会自动生成调用图（callgraph）并在浏览器里打开 ，限于文档空间这里只展示重要的部分 ：
+
+![Alt text](image-1.png)
+
+先分析一下主流程，这里业务逻辑一共占用了 54% 左右的 CPU（最上面的 endpoint.handler 方法），再往下看，其中 33% 是 RPC 调用（左下角的 client.Invoke），12% 是结果输出（右边的 endpoint.httpOutput，包括写出 HTTP Response，日志上报，监控）。剩下 9% 左右就是实际的各种业务逻辑了，因为非常分散且没有集中的点，所以图上没有显示出来。
+
+纵观这个图可以看出，除了 HTTP/RPC 网络调用占用了大部分 CPU 外，并没有其他很明显的 CPU 热点，这就让最后一个热点凸显了出来：
+
+![Alt text](image-2.png)
+
+GC 占用的 CPU 在这次 Profiling 过程中占了 15%，比业务逻辑还高！到这里基本确认，GC 一定存在某些问题。
+
+我们可以用另一个 pprof 工具 allocs 来确认猜测是否成立，这个工具会记录堆上的对象创建和内存分配，只需要把上面的 HTTP Path 最后的 profile 换成 allocs 即可：
+
+```bash
+$ go tool pprof -seconds 30 https://<测试域名>/debug/pprof/allocs
+```
+
+和 CPU Profile 不一样，Allocs 的 Profile 会记录四个不同的信息，可以输入 o 查看 sample_index 的可选值：
+
+![Alt text](image-3.png)
+
+- alloc_object：新建对象数量记录；
+- alloc_space：分配空间大小记录；
+- inuse_object：常驻内存对象数量记录；
+- inuse_space：常驻内存空间大小记录。
+
+一般来说，inuse 相关的记录可以用于排查内存泄漏，OOM 等问题。这里我们是 GC 的问题，主要和内存申请和释放有关，所以先看下 alloc_space：
+
+输入命令，sample_index=alloc_space，然后再 top 10 看下：
+
+![Alt text](image-4.png)
+
+可以发现，这 30s 一共申请了 1300M 的内存，其中绝大多数都是框架和框架组件，比如 RPC 的网络读取（consumeBytes, ReadFrame），pb 的解析和序列化（marshal），名字服务的选址（Select），日志输出（log），监控上报（ReportAttr）。也没有明显的可疑对象。
+
+我们进行一些简单计算：进行 profiling 的线上节点是 2C2G 配置，看监控单节点大约是 800 QPS 的流量，所以 30s 就是 2w4 的请求，申请了 1300M 的空间，平均一个请求就是大约 50KB 左右。
+
+这个量也比较合理，毕竟一次请求我们需要储存 HTTP 包内容，解析成结构体，还需要调用两次 RPC 接口，最后做日志写出和监控上报，最后再给出返回值，50KB 的资源使用并不算大。而且绝大多数都是框架使用，即使用对象池把业务上的一些小对象复用，对这个内存申请也影响不大。
+
+虽然这个步骤没有排查到想查的问题，但是却发现了一些其他的代码中的小问题，这里也顺便记录下。
+
+首先，上面的 top 10 看不出任何问题，但是为了保险起见，看了一下 top 20：
+
+![Alt text](image-5.png)
+
+这里有三个我们业务代码里的函数，flat 都很少，占比加起来也不到 4.5%，不过既然发现了他们 ，就深入看一下函数里各行的分配情况，看看有没有什么问题。
+
 [只改一个参数让Golang GC耗时暴降到1/30！](https://mp.weixin.qq.com/s/EEDNuhEr0G4SbTzDhVBjbg)
 
 [字节跳动云原生成本治理落地实践](https://mp.weixin.qq.com/s/GFYudlHBuIr_bDe6IX4mlw)
