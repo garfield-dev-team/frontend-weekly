@@ -83,6 +83,23 @@ tags: []
 
 ## 📒 前端相关
 
+Bun 如何设置 npm registry，有时会用到 bunx 命令，会自动下载 npm 包，因此需要配置 npm registry：
+
+```bash
+# 在根目录建一个 `.bunfig.toml` 配置文件
+$ vi $HOME/.bunfig.toml
+```
+
+写入如下内容：
+
+```toml
+[install]
+# set default registry as a string
+registry = "https://registry.npmjs.org"
+```
+
+> 参考：https://bun.sh/docs/install/registries
+
 [两个 React](https://mp.weixin.qq.com/s/AKdqtR6DWxB-c4CCmz594g)
 
 [2024 年前端预测](https://mp.weixin.qq.com/s/BO29XPm7c9VKcQT_v9lOGw)
