@@ -7,7 +7,15 @@ tags: []
 
 ## 🌟 AI 相关
 
+[中信建投 | AI前沿系列（一）：混合专家模型技术（MoE）](https://mp.weixin.qq.com/s/KpRT1MCq7ewJw_Heb5-ZrA)
+
 [《开源大模型食用指南》发布，7个小时，一杯奶茶速通大模型！](https://mp.weixin.qq.com/s/78mSLefUmZOagwZ5dMUyTg)
+
+[Stable Diffusion XL Turbo 文生图和图生图实践](https://mp.weixin.qq.com/s/0rS1qX37M-4FQT-d2DIsPw)
+
+[在 Nvidia Docker 容器编译构建显存优化加速组件 xFormers](https://mp.weixin.qq.com/s/3TgTDsUHCs8tcNLcabqukg)
+
+[Amazing OpenAI API：把非 OpenAI 模型都按 OpenAI API 调用](https://mp.weixin.qq.com/s/Tw8Yr_illbY6MQO4sAMO7g)
 
 [节省时间：AI 模型靠谱下载方案汇总](https://mp.weixin.qq.com/s/5wiz-IaGhGFlbHmRdf1TUA)
 
@@ -57,6 +65,10 @@ tags: []
 
 ## 📒 后端相关
 
+[这些年背过的面试题 — 架构设计篇](https://mp.weixin.qq.com/s/Qwj4S4r9Mayy5_HG3ubw7w)
+
+[这些年背过的面试题——Spring篇](https://mp.weixin.qq.com/s/faEtlyaNHW9AWE6LMTs4Ng)
+
 [使用懒加载 + 零拷贝后，程序的秒开率提升至99.99%](https://mp.weixin.qq.com/s/kaogMK5qz5vkfs9-BYu0Mg)
 
 [万字+20张图探秘Nacos注册中心核心实现原理](https://mp.weixin.qq.com/s/NYH6jgDOp1MwnAUyUHM5yg)
@@ -82,6 +94,10 @@ tags: []
 [增加索引 + 异步 + 不落地后，从 12h 优化到 15 min](https://mp.weixin.qq.com/s/V2p_p-KoDowlZxLN2by2Sg)
 
 ## 📒 前端相关
+
+[有了它 Antd 样式覆盖不要太爽](https://mp.weixin.qq.com/s/0Tr3tNwl2wwZ3mVqB97mQg)
+
+[一文带你从0到1做性能优化——国际化业务中台性能优化实践（上）](https://mp.weixin.qq.com/s/SZ-PHb5Mi3KnaEo3yNjR7g)
 
 Bun 如何设置 npm registry，有时会用到 bunx 命令，会自动下载 npm 包，因此需要配置 npm registry：
 
