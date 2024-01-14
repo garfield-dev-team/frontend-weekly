@@ -23,6 +23,18 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Linux 6.8 网络优化, 大量并发连接的TCP性能提高40%左右](https://mp.weixin.qq.com/s/Idp0blvp5WvKRkTw2nD1Xg)
+
+[深入探索 Rust 中的 Panic 机制](https://juejin.cn/post/7314144983018782761)
+
+[探究 Go 源码中 panic & recover 有哪些坑](https://mp.weixin.qq.com/s/362o7pgILLEWL5NYVwz9Hw)
+
+[从《100 Go Mistakes》我总结了什么](https://mp.weixin.qq.com/s/wXq3Sy1L_ElfTmhLYJiiQw)
+
+[3.深入TiDB：执行优化讲解](https://mp.weixin.qq.com/s/IRk2lA9aGAa0KAdBY4oXjA)
+
+[亲测体验Go语言模糊测试](https://mp.weixin.qq.com/s/C1YptWtsDw6YGepRpxFAQg)
+
 [Go 发布了一个非安全补丁的 Go 1.21.6](https://mp.weixin.qq.com/s/qeEO2zK7mz9JUYocHetBHA)
 
 [Go1.22 新特性：新的 math/rand/v2 库，更快更标准！](https://mp.weixin.qq.com/s/BsZeSDxHwwSzjLjfjUIgIA)
@@ -64,6 +76,8 @@ tags: []
 [学习C++20, 为Go的atomic类型插上一双翅膀](https://mp.weixin.qq.com/s/Nbc_V5v5QruZsd1PVsDQnA)
 
 ## 📒 后端相关
+
+[一张图总结架构设计的40个黄金法则](https://mp.weixin.qq.com/s/eDEjSdf93HE35ndVPpH13A)
 
 [这些年背过的面试题 — 架构设计篇](https://mp.weixin.qq.com/s/Qwj4S4r9Mayy5_HG3ubw7w)
 
