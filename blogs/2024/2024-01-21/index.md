@@ -49,6 +49,12 @@ tags: []
 
 ## 📒 后端相关
 
+[CPU中的高科技：流水线、超标量、SIMD](https://juejin.cn/post/7293122294788243467)
+
+[让你的代码运行更快：掌握零拷贝技术](https://juejin.cn/post/7307146455537238043)
+
+[电商库存系统的防超卖和高并发扣减方案 | 京东云技术团队](https://juejin.cn/post/7263124928663683132)
+
 [向上管理：让你主动汇报就这么难](https://mp.weixin.qq.com/s/FZ3oN-SARKV-BiCcuu4SLw)
 
 [RocketMQ 事务消息初体验](https://mp.weixin.qq.com/s/H4Lf3ldi6ES5013WDjWtRg)
