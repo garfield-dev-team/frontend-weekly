@@ -47,6 +47,8 @@ tags: []
 
 ## 📒 后端相关
 
+[阿里面试：Sentinel熔断降级，是如何实现的](https://mp.weixin.qq.com/s/DWwkAax0tPj2mqikffJDfg)
+
 [深度剖析：Redis分布式锁到底安全吗？看完这篇文章彻底懂了！](https://mp.weixin.qq.com/s/s8xjm1ZCKIoTGT3DCVA4aw)
 
 [搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s/T6mMDdtTfBuIiEowCpqu6Q)
