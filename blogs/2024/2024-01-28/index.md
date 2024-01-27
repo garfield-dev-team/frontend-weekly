@@ -11,6 +11,8 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[#150 Go 并发模式介绍和创新创造【Go 夜读】](https://www.bilibili.com/video/BV1Fw41177tk)
+
 [为什么 Golang Fasthttp 选择使用 slice 而非 map 存储请求数据](https://mp.weixin.qq.com/s/68Pj0mEJF2Ks9X2pVFk87g)
 
 [从 Context 看 Go 设计模式：接口、封装和并发控制](https://mp.weixin.qq.com/s/e03KFBKXUXwzvw3dVPOH-Q)
