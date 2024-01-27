@@ -11,6 +11,22 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[为什么 Golang Fasthttp 选择使用 slice 而非 map 存储请求数据](https://mp.weixin.qq.com/s/68Pj0mEJF2Ks9X2pVFk87g)
+
+[从 Context 看 Go 设计模式：接口、封装和并发控制](https://mp.weixin.qq.com/s/e03KFBKXUXwzvw3dVPOH-Q)
+
+[50 条争论的文章发生了啥：Go 标准库 encoding/json 真的慢吗](https://mp.weixin.qq.com/s/s63mY3j4oBwpQmB4r4SeWw)
+
+[Kubernetes 控制器管理总结](https://mp.weixin.qq.com/s/uyN2iHJPEjaYlQYpxTJ6bA)
+
+[使用cmux实现网络端口复用](https://mp.weixin.qq.com/s/_BQjJT8zqvWrXXdO_YR8lA)
+
+[毫巅之微---不同写法的性能差异 番外篇](https://mp.weixin.qq.com/s/LIdlk0p32iW2KDjGHGflMQ)
+
+[2024年的Rust与Go](https://mp.weixin.qq.com/s/EWq7-LYcq586U0PXaJeQHw)
+
+[Go 1.22 rc2 刚刚发布，多个新特性等着大家 forloop,math/rand/v2,增强 http routing](https://mp.weixin.qq.com/s/-mLxdZ5LXYoFKH_RinNqqw)
+
 [Go 服务网络不通？net/http自带的这个工具帮你快速定位](https://mp.weixin.qq.com/s/8_pJiuOzoQt6xyoLUX0CIw)
 
 [golang pprof 监控系列(1) —— go trace 统计原理与使用](https://mp.weixin.qq.com/s/2BY_93w8iAJOGpsCdgbGtA)
@@ -47,6 +63,18 @@ tags: []
 
 ## 📒 后端相关
 
+[SpringBoot + SpEL，轻松搞定复杂权限控制，非常优雅！](https://mp.weixin.qq.com/s/DA3HoEvCTXPDKvM5EvbXrg)
+
+[后端程序员必备：书写高质量SQL的30条建议](https://mp.weixin.qq.com/s/IPUAlBmGgsQTGqodLGECLg)
+
+[云音乐RPC稳定性建设与实践](https://mp.weixin.qq.com/s/8blLwTDT5lGqD2BYqaNlmg)
+
+[临时抱佛脚必看｜一个月速通高级系统架构设计师！](https://mp.weixin.qq.com/s/l0FJsocKibWWxxW4Uk_mxQ)
+
+[第一性原理：养猪还是读大学](https://mp.weixin.qq.com/s/azDbatL-bYqoNo08kQbVpQ)
+
+[第二遍读俞军的神作《产品方法论》，真香！](https://mp.weixin.qq.com/s/8vVU-UjbA5BFJJRBOSHgeQ)
+
 [阿里面试：Sentinel熔断降级，是如何实现的](https://mp.weixin.qq.com/s/DWwkAax0tPj2mqikffJDfg)
 
 [深度剖析：Redis分布式锁到底安全吗？看完这篇文章彻底懂了！](https://mp.weixin.qq.com/s/s8xjm1ZCKIoTGT3DCVA4aw)
@@ -72,6 +100,14 @@ tags: []
 [使用双异步后，如何保证数据一致性](https://mp.weixin.qq.com/s/2-V0Yf7sHxneKp0PJbYxBg)
 
 ## 📒 前端相关
+
+虚实之间有一期播客讲「拼多多出海的 - TEMU 增长背后黄铮的创业哲学和中企出海之路」听下来讲得很有逻辑，聊到了全托管模式如何简化，拼多多的传统技能低价，以及如何实现的低价，包括中国企业出海的几个阶段，很通俗易懂，值得学习。
+
+https://www.xiaoyuzhoufm.com/episode/657fc03f991e2ee608f54f98
+
+[React 19 即将推出的 4 个全新 Hooks，很实用！](https://mp.weixin.qq.com/s/KFUikcgNvNw15wqM2wPHJw)
+
+[我用埋点让老板安静 （埋点篇）](https://mp.weixin.qq.com/s/1L75-L5eFFjuc4w0qBkXoQ)
 
 [Rust性能很高？不，它完全顶不住我的代码](https://juejin.cn/post/7325993514701635638)
 
