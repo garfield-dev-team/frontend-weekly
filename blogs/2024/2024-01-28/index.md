@@ -107,6 +107,38 @@ tags: []
 
 https://www.xiaoyuzhoufm.com/episode/657fc03f991e2ee608f54f98
 
+当你想将 feature 分支上的多个 commit 合并到 release 分支，并且希望在 release 分支上只看到一个合并提交时，可以使用 `git merge --squash` 命令：
+
+```bash
+# 确保你在 release 分支上
+$ git checkout release
+
+# 进行 squash 合并
+$ git merge feature --squash
+
+# 在解决完所有冲突后，需要将已解决的文件添加到暂存区
+$ git add .
+
+# 提交合并结果为一个新的单个 commit（注意：这里没有自动提交，需要手动提交）
+$ git commit -m "Squashed commit from feature-branch: Implemented XYZ feature"
+```
+
+> 注意，在 GitLab 提 Merge Request，可以在 Merge Request 页面中勾选 squash commit 选项
+
+合并代码遇到冲突，想回退到合并前的状态：
+
+```bash
+$ git merge --abort
+```
+
+一个小技巧，`which` 命令可以用来查找可执行文件的路径：
+
+```bash
+$ which npm
+
+/Users/bytedance/.nvm/versions/node/v18.16.0/bin/npm
+```
+
 [React 19 即将推出的 4 个全新 Hooks，很实用！](https://mp.weixin.qq.com/s/KFUikcgNvNw15wqM2wPHJw)
 
 [我用埋点让老板安静 （埋点篇）](https://mp.weixin.qq.com/s/1L75-L5eFFjuc4w0qBkXoQ)
