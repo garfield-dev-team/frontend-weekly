@@ -65,6 +65,18 @@ tags: []
 
 ## 📒 后端相关
 
+[万字详解微服务世纪难题：如何平滑拆分单体](https://mp.weixin.qq.com/s/WaD8Go8twTF3CyoZm1ZICQ)
+
+[没用过微服务？别慌，丐版架构图，让你轻松拿捏面试官](https://mp.weixin.qq.com/s/R-w5_FCVBmesVpLNFxWNhw)
+
+[从4万行代码降到1.8万，腾讯视频竟然用DDD做架构重构](https://mp.weixin.qq.com/s/DK3YM3umDfuEIvX77DHdHA)
+
+[转转支付通道监控系统的搭建](https://mp.weixin.qq.com/s/GVZWeBay7xKniiCHjc0yeg)
+
+[微服务架构下网关的技术选型](https://mp.weixin.qq.com/s/27sPoF_p2cjgg_5Kq2hYCA)
+
+[Linux进程管理工具 Supervisor详解](https://zhuanlan.zhihu.com/p/147305277)
+
 [SpringBoot + SpEL，轻松搞定复杂权限控制，非常优雅！](https://mp.weixin.qq.com/s/DA3HoEvCTXPDKvM5EvbXrg)
 
 [后端程序员必备：书写高质量SQL的30条建议](https://mp.weixin.qq.com/s/IPUAlBmGgsQTGqodLGECLg)
@@ -138,6 +150,10 @@ $ which npm
 
 /Users/bytedance/.nvm/versions/node/v18.16.0/bin/npm
 ```
+
+[框架中的类型编程： Hono 中的模板字符串类型编程](https://juejin.cn/post/7328564786596544523)
+
+[框架中的类型编程：tRPC & Prisma 中的泛型应用](https://juejin.cn/post/7328564786596528139)
 
 [React 19 即将推出的 4 个全新 Hooks，很实用！](https://mp.weixin.qq.com/s/KFUikcgNvNw15wqM2wPHJw)
 
