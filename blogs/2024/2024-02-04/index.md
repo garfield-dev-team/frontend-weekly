@@ -19,6 +19,8 @@ tags: []
 
 [Corrective Retrieval Augmented Generation](https://arxiv.org/abs/2401.15884)
 
+[从零构建现代深度学习框架(TinyDL-0.01)](https://mp.weixin.qq.com/s/tFl0RQd3ex98_SAOIIfM_Q)
+
 [本地运行面壁智能的“贺岁模型”：MiniCPM 2B](https://mp.weixin.qq.com/s/Z0iZR6iGSBe298eK1Er1Ow)
 
 [「我在淘天做技术」2024年看AIGC是如何让1688主图焕发新春的](https://mp.weixin.qq.com/s/Ni_vVDlxBaoUcgoVORw31A)
@@ -55,6 +57,10 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Go1.22 新特性：性能提高、Trace 大修、工作区支持 vendor 等](https://mp.weixin.qq.com/s/_RHDJ1VGfqolE_Uzorosbw)
+
+[json.Marshal为什么会对[]byte类型进行base64编码处理](https://mp.weixin.qq.com/s/h8SNvIVN1bFy8gBUB63_NA)
+
 [Go调度器系列解读（二）：Go 程序启动都干了些什么](https://mp.weixin.qq.com/s/PvdZ_Ay9xgrY_SrDt-Sddw)
 
 [Go语言中的Pinner.Pin](https://mp.weixin.qq.com/s/MNuk0poC3s2tTx_DjyJAQA)
@@ -83,6 +89,10 @@ tags: []
 
 ## 📒 后端相关
 
+[8种专坑同事的 SQL 写法，性能降低100倍，不来看看](https://mp.weixin.qq.com/s/jwAawzeKq_vTTYw58rvgVA)
+
+[批量执行Redis命令的四种方式！](https://mp.weixin.qq.com/s/YF5D3RRvmVXNJ_Njsa1Txw)
+
 [阿里面试：设计一个大并发、大数据的系统架构，说说设计思路](https://mp.weixin.qq.com/s/hmO2BKuMMU8ZPxW0lj9ZHw)
 
 [码哥字节 124 篇优秀文章精选](https://mp.weixin.qq.com/s/mspeViqHosmh4kUI8S8ajA)
@@ -104,6 +114,8 @@ tags: []
 [腾讯二面：epoll性能那么高，为什么](https://mp.weixin.qq.com/s/DLmXspbokYhQ-j5tLnUMgw)
 
 ## 📒 前端相关
+
+[扩展你的前端知识库，毫无废话！](https://mp.weixin.qq.com/s/ZkMc3-T0swxjJ4yujp1R1w)
 
 [TypeScript 5.4 beta: NoInfer 类型、闭包类型分析优化、条件类型判断优化等](https://mp.weixin.qq.com/s/lRzS_ZoJhzHmuOx0HCDTnw)
 
