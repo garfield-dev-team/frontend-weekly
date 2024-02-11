@@ -11,6 +11,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries](https://arxiv.org/pdf/2401.15391.pdf)
+
 [手把手教你，从零开始实现一个稀疏混合专家架构语言模型（MoE）](https://mp.weixin.qq.com/s/fV-dnbT5g8j_B3RXgRsuZQ)
 
 [苹果为自家芯片打造开源框架MLX，实现Llama 7B并在M2 Ultra上运行](https://mp.weixin.qq.com/s/jtpXKlABXwzlN8QjzT-sPA)
