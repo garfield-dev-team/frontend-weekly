@@ -69,7 +69,7 @@ tags: []
 
 [一次由于八股文引起的内存泄漏](https://mp.weixin.qq.com/s/QGmOz8jUjNo-3xKqVcWGmg)
 
-[网易面试：请设计一个高可用性的软件架构，说明设计思路](网易面试：请设计一个高可用性的软件架构，说明设计思路)
+[网易面试：请设计一个高可用性的软件架构，说明设计思路](https://mp.weixin.qq.com/s/tNOhR16aC-cr5EqKiwbAOQ)
 
 [这些年背过的面试题——MySQL篇](https://mp.weixin.qq.com/s/L26rI11OV8hrfJVy5Yu78g)
 
