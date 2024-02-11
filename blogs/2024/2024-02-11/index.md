@@ -11,6 +11,26 @@ tags: []
 
 ## 🌟 AI 相关
 
+[手把手教你，从零开始实现一个稀疏混合专家架构语言模型（MoE）](https://mp.weixin.qq.com/s/fV-dnbT5g8j_B3RXgRsuZQ)
+
+[苹果为自家芯片打造开源框架MLX，实现Llama 7B并在M2 Ultra上运行](https://mp.weixin.qq.com/s/jtpXKlABXwzlN8QjzT-sPA)
+
+[如何用LLM和自有知识库搭建智能Agent](https://mp.weixin.qq.com/s/dSleYYKtE41RQ9AUf5ruMw)
+
+[万字详解专家混合：MoE模型](https://mp.weixin.qq.com/s/MY7sWGct2IxvDYvthY6A0g)
+
+[Prompt Engineering：大模型 PUA 指南！](https://mp.weixin.qq.com/s/JloI284hBrKyV0d2s7V3ug)
+
+[Mixtral-8x7B 模型挖坑](https://mp.weixin.qq.com/s/IxQy6UMXaFn2odVFLhEXHw)
+
+[精彩手绘全解：RAG技术，从入门到精通](https://mp.weixin.qq.com/s/BITRn0NkpaVP0niiqevUaQ)
+
+[单卡3小时训练专属大模型Agent-基于LLaMA Factory实战](https://mp.weixin.qq.com/s/qeWEEmWlomjtFP5wQxUAcg)
+
+[白话Embedding：普通人都能懂的科普文](https://mp.weixin.qq.com/s/DGeey6v3ntGhIorOd_eB3w)
+
+[Mixtral 8x7B: 超越GPT-3.5与Llama 2 70B的稀疏混合专家架构新篇章](https://mp.weixin.qq.com/s/GGY-hvcNphj4fvPxJPLLrQ)
+
 [3B模型不输7B LLaVA！北大多模态MoE模型登GitHub热榜](https://mp.weixin.qq.com/s/NSfAdIBXNzG9WNrz9jP1eA)
 
 [GPT-4推理能力暴涨32%，谷歌新型思维链效果超CoT，计算成本可降至1/40](https://mp.weixin.qq.com/s/HUW8MX2GhsdE3qFBvb1-Hg)
@@ -30,6 +50,10 @@ tags: []
 [在 Mac 运行 OpenChat 3.5 大模型，AI推理APP仅2MB 完全可移植](https://mp.weixin.qq.com/s/mmG8NQbG6fnmc4lHL1zHWQ)
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+[代码验证斯特林公式的准确性](https://mp.weixin.qq.com/s/4bd77FfQubPqdhcNJPFrsQ)
+
+[一些笔记工具工具以及memos介绍](https://mp.weixin.qq.com/s/-8IcAjN6T6LeE29p0nkqcQ)
 
 [Go 1.22.0 可称之为一次史诗级更新](https://mp.weixin.qq.com/s/vr_-5HD0hFZYHmnnisByiA)
 
@@ -52,6 +76,8 @@ tags: []
 [天天写业务代码，如何破局业务开发的本质](https://mp.weixin.qq.com/s/2I3gFQZY03OKhdJa1AVhmw)
 
 ## 📒 前端相关
+
+[瀑布流优化：我把小红书的瀑布流虚拟列表撕出来了](https://mp.weixin.qq.com/s/z5zzBWel6DooAS0bzY702g)
 
 [心遇APP站内玩法H5体验优化实践](https://mp.weixin.qq.com/s/GYtd3k0JXns1GZQyZzvHaQ)
 
