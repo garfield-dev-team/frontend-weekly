@@ -41,6 +41,9 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+
+[Go语言中常见100问题-#98 Not using Go diagnostics tooling](https://mp.weixin.qq.com/s/GwOvZYfT6Y7euZuum9868Q)
+
 [一文搞懂Go GC演进史，讲的太细致了！](https://juejin.cn/post/7317462907302461475)
 
 [Rust 中的并发模型和所有权系统](https://juejin.cn/post/7307244392564408358)
@@ -114,6 +117,8 @@ tags: []
 [结合MySQL更新流程看 undolog、redolog、binlog](https://juejin.cn/post/7269296778226597927)
 
 ## 📒 前端相关
+
+[字节跳动最热门的 15 个前端开源项目](https://mp.weixin.qq.com/s/XuigLACJa95rJ9iJQhIDDg)
 
 [刘谦春晚魔术揭秘：约瑟夫环的数学魅力，JS实现下！](https://mp.weixin.qq.com/s/PUywO7JtYuO9H0fnLGsz-w)
 
