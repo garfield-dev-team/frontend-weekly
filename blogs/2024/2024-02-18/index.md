@@ -7,6 +7,20 @@ tags: []
 
 ## 🌟 AI 相关
 
+[RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406)
+
+[RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
+
+[RAG还是微调？微软出了一份特定领域大模型应用建设流程指南](https://mp.weixin.qq.com/s/G8nKz4H3QSKBibSMYAzRvA)
+
+[谷歌全新大模型突然发布！100万token完爆GPT-4，仅靠提示词就能学会新语言](https://mp.weixin.qq.com/s/FKC7Y-05L9VfukI-3EMvZw)
+
+[扩展说明: 指令微调 Llama 2](https://mp.weixin.qq.com/s/iIIM3N1-1cE2SxBRdZ-ILg)
+
+[社区供稿 | 图解大模型推理优化之 KV Cache](https://mp.weixin.qq.com/s/6q2LmwoFG2LcN0iHoZjjqw)
+
+[大模型性能优化之Prompt工程全面梳理：从zero shot到chain of thought再到花式XOT](https://mp.weixin.qq.com/s/va1Ua3koedNWKkln4v6Vvg)
+
 [大模型RAG问答行业最佳案例及微调、推理双阶段实现模式：基于模块化(Modular)RAG自定义RAG Flow](https://mp.weixin.qq.com/s/bJRFayNByx4D3ujGcEb47A)
 
 [值得一看的大模型RAG问答总括性梳理：模块化(Modular)RAG范式的定义、构成及机遇](https://mp.weixin.qq.com/s/j07PkTCoxBzAhkyON1puPg)
@@ -59,6 +73,20 @@ tags: []
 
 ## 📒 后端相关
 
+[8种专坑同事 SQL写法，性能降低100倍，不来看看](https://mp.weixin.qq.com/s/9jKS_vW7lN3f-RwEDS7avw)
+
+[亿级推送，得物是怎么架构的](https://mp.weixin.qq.com/s/GGvBCVWSLce7Gs0Z0B8Jvg)
+
+[详解Redis三大集群模式，轻松实现高可用！](https://mp.weixin.qq.com/s/cvuz0619FadtkzmjD47llg)
+
+[阿里Java面试官：CopyOnWriteArrayList底层是怎么保证线程安全的](https://mp.weixin.qq.com/s/AMkub_c3bTk8O0NzsdW35Q)
+
+[还搞不懂ConcurrentHashMap底层源码，看这篇就够了](https://mp.weixin.qq.com/s/PlizO3EnFRmqn4Cl6nqiGA)
+
+[只需七步，教你轻松解决Redis热点Key问题](https://mp.weixin.qq.com/s/gb9nqVfqrClZ5o4-B4Eadg)
+
+[一文详解Redis中BigKey、HotKey的发现与处理](https://mp.weixin.qq.com/s/FPYE1B839_8Yk1-YSiW-1Q)
+
 [Java 十亿行数据计算，最快6秒出结果，你能吗](https://mp.weixin.qq.com/s/dpXMqMSq_ZrXOeEInxlC_Q)
 
 [从Kafka中学习高性能系统如何设计 | 京东云技术团队](https://juejin.cn/post/7249380394457694263)
@@ -86,5 +114,7 @@ tags: []
 [结合MySQL更新流程看 undolog、redolog、binlog](https://juejin.cn/post/7269296778226597927)
 
 ## 📒 前端相关
+
+[刘谦春晚魔术揭秘：约瑟夫环的数学魅力，JS实现下！](https://mp.weixin.qq.com/s/PUywO7JtYuO9H0fnLGsz-w)
 
 [我写了一个根据项目自动切换node版本的插件，再也不用手动使用命令切换了](https://mp.weixin.qq.com/s/tk_E1NP6ra0yxuSVumH6UA)
