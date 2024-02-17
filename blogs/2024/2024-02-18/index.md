@@ -76,6 +76,8 @@ tags: []
 
 ## 📒 后端相关
 
+[阿里终面：Netty 如何做到单机百万并发](https://mp.weixin.qq.com/s/j_cslpQDjVIUm1CGjk9CQQ)
+
 [8种专坑同事 SQL写法，性能降低100倍，不来看看](https://mp.weixin.qq.com/s/9jKS_vW7lN3f-RwEDS7avw)
 
 [亿级推送，得物是怎么架构的](https://mp.weixin.qq.com/s/GGvBCVWSLce7Gs0Z0B8Jvg)
