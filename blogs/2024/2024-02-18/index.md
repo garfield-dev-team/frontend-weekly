@@ -7,6 +7,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[How to Cut RAG Costs by 80% Using Prompt Compression](https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)
+
 [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406)
 
 [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
@@ -41,6 +43,7 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Leetcode 算法题解精选](https://mp.weixin.qq.com/s/ujs3PT_g7yFHVW-klzTJNQ)
 
 [Go语言中常见100问题-#98 Not using Go diagnostics tooling](https://mp.weixin.qq.com/s/GwOvZYfT6Y7euZuum9868Q)
 
