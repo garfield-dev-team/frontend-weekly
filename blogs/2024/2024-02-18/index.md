@@ -118,6 +118,12 @@ tags: []
 
 ## 📒 前端相关
 
+[致所有渴望学习Rust的人的信](https://juejin.cn/post/7275978708644511802)
+
+[前端项目里都有啥](https://juejin.cn/post/7327867132037611539)
+
+[白嫖ChatGPT4.0 (第二弹)](https://juejin.cn/post/7302310196310294580)
+
 [字节跳动最热门的 15 个前端开源项目](https://mp.weixin.qq.com/s/XuigLACJa95rJ9iJQhIDDg)
 
 [刘谦春晚魔术揭秘：约瑟夫环的数学魅力，JS实现下！](https://mp.weixin.qq.com/s/PUywO7JtYuO9H0fnLGsz-w)
