@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+![alt text](image.png)
+
+封面图：牛逼了！2月编程语言榜单：Go首次进入前十
+
 ## 🌟 AI 相关
 
 [How to Cut RAG Costs by 80% Using Prompt Compression](https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)
@@ -12,6 +16,8 @@ tags: []
 [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406)
 
 [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
+
+[大语言模型之LlaMA系列- LlaMA 2及LLaMA2_chat(上)](https://mp.weixin.qq.com/s/Nyu46KN0Hj2-r93vXVcbiQ)
 
 [RAG还是微调？微软出了一份特定领域大模型应用建设流程指南](https://mp.weixin.qq.com/s/G8nKz4H3QSKBibSMYAzRvA)
 
@@ -43,7 +49,13 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[从物理机到K8S：应用系统部署方式的演进及其影响](https://juejin.cn/post/7306806944047415332)
+
 [Leetcode 算法题解精选](https://mp.weixin.qq.com/s/ujs3PT_g7yFHVW-klzTJNQ)
+
+[牛逼了！2月编程语言榜单：Go首次进入前十](https://mp.weixin.qq.com/s/HaVmckBGakEwu-EJ5JkONg)
+
+[Go语言中常见100问题-#99 Not understanding how the GC works](https://mp.weixin.qq.com/s/fQensm55bnzPKagMEVs8Ag)
 
 [Go语言中常见100问题-#98 Not using Go diagnostics tooling](https://mp.weixin.qq.com/s/GwOvZYfT6Y7euZuum9868Q)
 
@@ -70,6 +82,10 @@ tags: []
 [14. Go调度器系列解读（一）：什么是 GMP](https://juejin.cn/post/7324931501926875170)
 
 [13. 入门 go 语言汇编，看懂 GMP 源码](https://juejin.cn/post/7319484272531701812)
+
+[8. 看 Go 源码，你需要了解 unsafe.Pointer](https://juejin.cn/post/7298645450554605568)
+
+[5. golang map 源码的逐句解读](https://juejin.cn/post/7293820517375164416)
 
 [一文搞懂Kubernetes 部署策略](https://juejin.cn/post/7319418651069743167)
 
