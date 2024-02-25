@@ -21,6 +21,8 @@ tags: []
 
 [云音乐低代码 + ChatGPT 实践方案与思考](https://mp.weixin.qq.com/s/jaIiVI636uJBOOKsXuHCpw)
 
+[🦜🕸️ LangGraph：Plan-Execute Agents 实战](https://www.bilibili.com/video/BV1vJ4m1s7Zn)
+
 [Pinecone总结一：大模型角度](https://mp.weixin.qq.com/s/G1DYQiAjUL9zphJ8ajrrtg)
 
 [使用 Hugging Face 微调 Gemma 模型](https://mp.weixin.qq.com/s/N6RI456ouuczWjyqXOSPNQ)
