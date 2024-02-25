@@ -19,6 +19,14 @@ tags: []
 
 [云音乐低代码 + ChatGPT 实践方案与思考](https://mp.weixin.qq.com/s/jaIiVI636uJBOOKsXuHCpw)
 
+[Pinecone总结一：大模型角度](https://mp.weixin.qq.com/s/G1DYQiAjUL9zphJ8ajrrtg)
+
+[使用 Hugging Face 微调 Gemma 模型](https://mp.weixin.qq.com/s/N6RI456ouuczWjyqXOSPNQ)
+
+[开源大语言模型作为 LangChain 智能体](https://mp.weixin.qq.com/s/fsvgtS3stS1cfrIT78XBCA)
+
+[200万上下文窗口创飞Gemini 1.5！微软来砸谷歌场子了（doge）](https://mp.weixin.qq.com/s/tJj0ZCX8fRS2Xcr0v85C8g)
+
 [如何利用大模型进行数据标注与知识蒸馏：兼看ActiveRAG上下文去噪的大模型RAG问答范式](https://mp.weixin.qq.com/s/idr60a1a66gdGFSZrOnC0w)
 
 [树形结构与RAG的完美结合：T-RAG方法在组织内部信息查询中的突破](https://mp.weixin.qq.com/s/NNkVs_TnaStvjWdmfrM88Q)
@@ -54,6 +62,12 @@ tags: []
 [OpenAl 视频生成模型 —— Sora技术报告解读](https://mp.weixin.qq.com/s/3reFjJNHuL8J24EyLmsSPA)
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+[etcd存储引擎之主干框架](https://mp.weixin.qq.com/s/oL_G8H_ROSF3TjtzBOGCow)
+
+[Rust 高性能编程指南](https://mp.weixin.qq.com/s/5PovYOUzHFcCU2JjDLEnnA)
+
+[Go map 加有序排序的一些挣扎](https://mp.weixin.qq.com/s/n0v8Xtz1q9XRvZuI4tPoXg)
 
 [云音乐 GitOps 最佳实践](https://mp.weixin.qq.com/s/uYmSCyTZtbSpiIL6Qet5_A)
 
