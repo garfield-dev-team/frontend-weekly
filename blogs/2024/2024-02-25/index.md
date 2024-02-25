@@ -11,6 +11,8 @@ tags: []
 
 [ACTIVERAG: Revealing the Treasures of Knowledge via Active Learning](https://arxiv.org/pdf/2402.13547.pdf)
 
+[关于Generative-Diffusion-Model的全面综述，可以作为了解sora的基础知识](https://arxiv.org/pdf/2209.02646.pdf，https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model?tab=readme-ov-file)
+
 [云音乐 CMS 平台 AIGC 实践与新特性实现总结](https://mp.weixin.qq.com/s/f2A6r5dVSBwDO_h27dlj6A)
 
 [云音乐D2C设计稿转代码建设实践](https://mp.weixin.qq.com/s/Oc1f3thZYIONsF4OWWEcSw)
