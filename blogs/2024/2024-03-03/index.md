@@ -11,6 +11,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[LangChain 实战：Agent思维](https://mp.weixin.qq.com/s/II_6lb9KjKOmz-DIgnaz7g)
+
 [详解大模型RLHF过程（配代码解读）](https://mp.weixin.qq.com/s/tl32MrTPMi0i7BN53ELb2w)
 
 [PromptFlow高质量AI应用 - 基于LLM的文档QA机器人](https://mp.weixin.qq.com/s/J8yEbS-XTJY0aFyJAl1ypA)
@@ -41,6 +43,9 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Cargo的自定义命令扩展功能](https://mp.weixin.qq.com/s/PCFDz_fVsk_6M144VpBAww)
+
+[听GPT 讲Rust源代码--compiler(2)](https://mp.weixin.qq.com/s/CXnLIoYhI1k3SNP3IWz8dQ)
 
 [元老与新秀：Go sort.Search()和sort.Find()](https://mp.weixin.qq.com/s/vg8MfMBEs8I-FQl3Nuay6Q)
 
