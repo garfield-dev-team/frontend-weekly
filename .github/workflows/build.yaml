@@ -20,10 +20,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://registry.npmmirror.com/
@@ -56,7 +56,7 @@ jobs:
       ### if use PNPM ###
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v3
         with:
           # 安装最新版本的 PNPM
           # 注意 PNPM v8 默认启用 lockfile v6
@@ -78,7 +78,7 @@ jobs:
       # 此目录下包含 Webpack、Babel、ESLint 编译缓存
       # 可以用于 build 阶段的构建提速
       - name: Cache ~/.pnpm-store
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-pnpm-store
         with:
