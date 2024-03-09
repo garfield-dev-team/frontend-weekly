@@ -19,5 +19,6 @@
     "source.fixAll.eslint": "explicit"
   },
   "workbench.colorTheme": "Vitesse Black",
-  "where-am-i.color": "#9cc494"
+  "where-am-i.color": "#9cc494",
+  "npm.packageManager": "bun"
 }
