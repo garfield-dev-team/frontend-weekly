@@ -95,7 +95,7 @@ tags: []
 
 [《k8s 到底是什么，架构是怎么样的》](https://mp.weixin.qq.com/s/dckA1ezcABndN5WSg1BOBA)。这篇文章主要讨论了 Kubernetes（k8s）及其架构，详细解释了 Kubernetes 是如何在应用服务与服务器之间充当中介层，实现了对多个服务的自动部署、扩展和管理。Kubernetes 将服务器区分为控制平面（master）和工作节点，API 服务器、调度器、控制器管理器、etcd、容器运行时、Kubelet 和 Kube 代理等组件在 Kubernetes 生态系统中负责各种任务。
 
-[《Go 泛型有没有可能在后期改为 <> 尖括号》](https://mp.weixin.qq.com/s/vjmntyGwzURz_elg27vpXg)。这篇来自陈煎鱼的技术博客名为"Go 泛型有没有可能在后期改为 \<\> 尖括号？"，主要探讨了Go语言是否可能将泛型的语法从使用方括号\[\]改为使用尖括号\<\>，并深入讨论了Go语言不使用尖括号的原因，如解析歧义和兼容性问题。同时，文章也指出，Go语言在未来似乎不太可能将泛型的语法改为尖括号。
+[《Go 泛型有没有可能在后期改为 <> 尖括号》](https://mp.weixin.qq.com/s/vjmntyGwzURz_elg27vpXg)。这篇来自陈煎鱼的技术博客名为"Go 泛型有没有可能在后期改为 `<>` 尖括号？"，主要探讨了Go语言是否可能将泛型的语法从使用方括号 `[]` 改为使用尖括号 `<>`，并深入讨论了Go语言不使用尖括号的原因，如解析歧义和兼容性问题。同时，文章也指出，Go语言在未来似乎不太可能将泛型的语法改为尖括号。
 
 [Rust中channel的使用](https://mp.weixin.qq.com/s/arI9sip-5JH9YSu45XJ83w)
 
