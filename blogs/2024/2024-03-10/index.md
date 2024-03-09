@@ -13,6 +13,8 @@ tags: []
 
 [In-context Learning with Retrieved Demonstrations for Language Models: A Survey](https://arxiv.org/abs/2401.11624)
 
+[使用 GPT4V+AI Agent 做自动 UI 测试的探索 | 京东云技术团队](https://juejin.cn/post/7316592794109198387)
+
 [Gemini修bug神了！录网页视频把代码库甩给它就行，网友坐不住了：想要访问权限](https://mp.weixin.qq.com/s/ZSDCNDRu-tCkOlC9jz2j4w)
 
 [一键开启 GPU 闲置模式，基于函数计算低成本部署 Google Gemma 模型服务](https://mp.weixin.qq.com/s/GXwftkv-UpDQSjiTMn9TFA)
@@ -97,7 +99,15 @@ tags: []
 
 [Rust中channel的使用](https://mp.weixin.qq.com/s/arI9sip-5JH9YSu45XJ83w)
 
+[K8s部署方式大全：从基础到进阶，一文带你掌握所有技巧](https://juejin.cn/post/7272006755266002959)
+
+[k8s从入门到精通 -- 更适合中国宝宝体质](https://juejin.cn/post/7301584578342289423)
+
 ## 📒 后端相关
+
+[万字+33张图探秘OpenFeign核心架构原理](https://mp.weixin.qq.com/s/NABg5tGizHsmdXgUO6NeVw)
+
+[三万字长文：如何去排查JVM内存问题](https://mp.weixin.qq.com/s/1Qe29y3nrbi39Kpaspme7Q)
 
 [如何避免MYSQL主从延迟带来的读写问题](https://mp.weixin.qq.com/s/WLPo8s_M3AzxwB3o3ehY3w)
 
