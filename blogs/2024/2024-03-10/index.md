@@ -69,17 +69,21 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[《Robust generic functions on slices》](https://go.dev/blog/generic-slice-functions)。这篇文章名为"Robust generic functions on slices"，主要探讨了Go的slices包如何提供对切片进行操作的通用函数。该文章首先介绍了如何通过类型参数，一次性为所有类型的切片编写类似slices.Index等函数，而无需针对每种不同的元素类型重新实现。随后，文章深入讲述了新的函数（如Insert, Replace，Delete等）如何修改切片，并通过详述切片在内存中的表现形式及其对垃圾回收器的影响，来帮助读者理解这些函数的工作方式和正确使用它们。文章特别指出，新的Delete函数提供了更清晰地表达程序员意图的方式，而且它不需要分配新的数组，这样就可以在适当时清除无用的元素，帮助垃圾回收。文章强调，调用这些函数后，必须认为原始切片已无效，因为底层数组已被修改。最后，文章还讨论了在处理内存泄漏和元素零值设置等问题时的策略和选项，它们在新版本Go给出的解决方案，以及这些改变可能导致的一些测试问题。此外，作者鼓励开发人员正确使用新功能，并尽量避免上述列举的陷阱。
+
+[《Routing Enhancements for Go 1.22》](https://go.dev/blog/routing-enhancements)。这篇文章名为"Routing Enhancements for Go 1.22"，主要介绍了 Go 1.22 版本中 net/http 包的路由器提供的新特性：方法匹配和通配符。这些新特性让你可以使用模式，而非 Go 代码，来表达常见的路由。这种新功能，尽管简单易懂，但要选择出多个匹配请求的最佳模式却是一项挑战。文章还详细阐释了如何在新版 Go 中使用这些新特性，以及这些引入的变化如何影响了 ServeMux 方法 handle 和 handleFunc 。此外，还描述了新模式如何更具优先级，并解释了其背后的原理。同时，为了保持新旧版本的兼容性，作者们也努力使新的模式语法能覆盖旧的，并使新的优先级规则能泛化旧的规则。总体上，这些改变是 Go 语言团队不断努力使 Go 成为构建生产系统的优秀语言的一个持续过程的一部分。
+
 [听GPT 讲Rust源代码--compiler(6)](https://mp.weixin.qq.com/s/IH1FGDpClrsnlfjg7OF3lg)
 
 [使用Apache Kafka的Golang实践指南](https://mp.weixin.qq.com/s/JCU3dwkwpMP3qMKqg9ed6g)
 
-[Go 为什么不支持从 main 包中导入函数](https://mp.weixin.qq.com/s/RFsHfFByarSRAA-f1Rs13g)
+[《Go 为什么不支持从 main 包中导入函数》](https://mp.weixin.qq.com/s/RFsHfFByarSRAA-f1Rs13g)。这篇由煎鱼撰写的文章，题为 "Go 为什么不支持从 main 包中导入函数?"，对于这个话题进行了深度解析。其首先提到，虽然Go的规范并没有明确禁止从main包中导入函数，但我们在实际运行中会被拒绝，提示main包是一个程序而非可以导入的包。这一现象的原因来自于经过多次变动的规定，如2011年移除了 "程序中的其他包都不能命名为 main" 的要求，然后在2015年又新增了限制。这样的变化主要是为了避免增加复杂度和不安全性。比如，一个函数可能会做出自己拥有完全控制权的假设，所以如果引入多个main包中的函数，可能会产生在初始化顺序、全局变量的注册等方面的冲突。这篇文章认为Go官方的做法在理论上可以解决复杂度和安全性问题，但对于有历史债务的项目，对于需要维护多个Go项目工程，相当于磨灭了一条道路，其实比较尴尬。
 
-[fasthttp是如何做到比net/http快十倍的](https://mp.weixin.qq.com/s/zxLO4IhLqQmIaUDzwwjU1w)
+[《fasthttp是如何做到比net/http快十倍的》](https://mp.weixin.qq.com/s/zxLO4IhLqQmIaUDzwwjU1w)。这篇文章讲解了fasthttp如何做到比net/http快十倍的原理。fasthttp相比于net/http在处理流程上有所差异，net/http是一个连接新建一个goroutine，当连接数非常多的时候会给系统带来一定的压力。而fasthttp则是建立了workerPool，每个workerChan在后台都会有一个Goroutine来处理其中的连接。此外，fasthttp的快速也得益于几个方面的优化：连接复用，大量使用了sync.Pool进行内存复用以及通过unsafe.Pointer指针进行\[\]byte和string转换来避免内存分配和拷贝的消耗。
 
 [《万字长文讲解Golang pprof 的使用》](https://mp.weixin.qq.com/s/fx-FTVpM3CXIPUwTC_juDQ)。这篇文章主要讲述了Golang的pprof工具的使用。pprof工具是Golang中用于性能分析的一个工具，它可以分析出cpu使用情况、内存占用、阻塞情况、线程和协程等信息。文章中详细阐述了如何使用此工具，主要有两种方式，一种是通过http接口的方式暴露出pprof的采集控制界面，另一种是在程序中通过代码来启动相应指标的采集示例。文章还详细介绍了如何解析通过这两种方式获取的输出信息。本文的主要目的是将pprof工具的使用方式用思维导图的形式展示出来，这样可以帮助读者更好地理解和使用pprof工具。
 
-[如何使用 K8s 两大利器"审计"和"事件"帮你摆脱运维困境](https://mp.weixin.qq.com/s/6xx3-qow8A5Hdp_72jswow)
+[《如何使用 K8s 两大利器"审计"和"事件"帮你摆脱运维困境》](https://mp.weixin.qq.com/s/6xx3-qow8A5Hdp_72jswow)。这篇文章主要讲述了如何使用 Kubernetes（K8s）的"审计"和"事件"功能来帮助进行日常集群运维工作。文章首先指出了运维工作中可能出现的一些问题，例如应用被删除、Apiserver负载突变、集群节点出现问题、节点自动扩容等。随后，文章进一步解释了 Kubernetes的审计和事件是如何运作的，强调了善用这两种工具可以提高集群的可观察性，为运维工作带来极大的便利。总的来说，这篇文章为运维人员提供了一种解决方案，通过使用 Kubernetes的审计和事件，可以更好地管理和监测集群的状态。
 
 [【Go 工具】竞态条件检测神器 Race Detector](https://mp.weixin.qq.com/s/lxEAFe2Ewmc8YvTqn8UcLQ)
 
@@ -87,17 +91,17 @@ tags: []
 
 [一道面试题: Top K 问题](https://mp.weixin.qq.com/s/qDFM-nVo-jeh9VdcBfMreA)
 
-[理解 Docker 容器中 UID 和 GID 的工作原理](https://mp.weixin.qq.com/s/sTd3SVh0swGTnaGugsw1SA)
+[《理解 Docker 容器中 UID 和 GID 的工作原理》](https://mp.weixin.qq.com/s/sTd3SVh0swGTnaGugsw1SA)。这篇文章详细解析了 Docker 容器中 UID 和 GID 的工作原理。首先，作者概述了用户名、组名、用户ID（UID）和组ID（GID）在容器内运行的进程与主机系统之间的映射对于构建安全系统的重要性。随后，文章分析了uid/gid在Linux系统的安全性，强调了单一内核概念以及uid/gid的分配方式。接着，作者运用实例解释了Docker运行的过程以及如何通过Dockerfile定义和启动不同用户。最后，文章讲述了如何掌控和控制容器的访问权限。在阐述以上内容的同时，文章也提供了一些实际示例来说明这些观点。
 
-[如何基于Docker镜像逆向生成Dockerfile](https://mp.weixin.qq.com/s/yUuo1IjeXY78_5u4QpkuTA)
+[《如何基于Docker镜像逆向生成Dockerfile》](https://mp.weixin.qq.com/s/yUuo1IjeXY78_5u4QpkuTA)。这篇文章介绍了如何将Docker镜像逆向生成Dockerfile。文章主要讲述了利用开源工具Dedockify的操作方法与工作原理。该工具通过Python脚本，利用存储在每个镜像层旁边的元数据，逐步遍历层级树，收集与每个层相关联的命令，重建镜像构建过程中执行的命令序列，从而得到近似的Dockerfile。不过，因为无法访问执行原始docker build命令时存在的构建上下文，如果使用了COPY或ADD指令，生成的输出可能不完全匹配原始的Dockerfile。
 
-[通过多阶段构建减小Golang镜像的大小](https://mp.weixin.qq.com/s/KkRWQyljuo86-XbBxEnGPA)
+[《通过多阶段构建减小Golang镜像的大小》](https://mp.weixin.qq.com/s/KkRWQyljuo86-XbBxEnGPA)。本篇文章主要介绍了如何通过多阶段构建减小Golang镜像的大小。首先，作者提出了一个通用的Dockerfile，并指出其生成的镜像大小超过300MB，主要因为包含了所有的Golang工具。然后，作者提出了多阶段构建的方法，它能从不同的基础镜像构建，有选择地将文件从一个阶段传递到下一个阶段，从而减小镜像大小。在本例中，通过二级构建，镜像大小已降至11.7MB。最后，还探讨了使用名为scratch的空白镜像进一步减小镜像大小的可能性，使得镜像最后降至6.34MB，但作者强调这需要慎重考虑，因为最后生成的镜像将完全没有任何工具。
 
-[《k8s 到底是什么，架构是怎么样的》](https://mp.weixin.qq.com/s/dckA1ezcABndN5WSg1BOBA)。这篇文章主要讨论了 Kubernetes（k8s）及其架构，详细解释了 Kubernetes 是如何在应用服务与服务器之间充当中介层，实现了对多个服务的自动部署、扩展和管理。Kubernetes 将服务器区分为控制平面（master）和工作节点，API 服务器、调度器、控制器管理器、etcd、容器运行时、Kubelet 和 Kube 代理等组件在 Kubernetes 生态系统中负责各种任务。
+[《k8s 到底是什么，架构是怎么样的》](https://mp.weixin.qq.com/s/dckA1ezcABndN5WSg1BOBA)。这篇文章主要讲述了 Kubernetes（K8s）的基本概念、架构和工作原理。Kubernetes，因单词过长，我们通常简化为k8s。k8s 是一种容器的协调工具，位于应用服务和服务器之间，能以策略的方式协调和管理多个应用服务。通过一个 yaml 文件的配置，可以定义应用的部署顺序等信息，自动部署应用到各个服务器上，还能让它们崩溃后自动重启，可以自动扩容和缩容。Kubernetes 的服务器分为两部分：控制平面和工作节点，前者负责控制和管理各个节点，后者则负责实际运行各个应用服务。k8s 的命令行工具为 kubectl，用于执行各类操作命令。
 
-[《Go 泛型有没有可能在后期改为 `<>` 尖括号》](https://mp.weixin.qq.com/s/vjmntyGwzURz_elg27vpXg)。这篇来自陈煎鱼的技术博客名为"Go 泛型有没有可能在后期改为 `<>` 尖括号？"，主要探讨了Go语言是否可能将泛型的语法从使用方括号 `[]` 改为使用尖括号 `<>`，并深入讨论了Go语言不使用尖括号的原因，如解析歧义和兼容性问题。同时，文章也指出，Go语言在未来似乎不太可能将泛型的语法改为尖括号。
+[《Go 泛型有没有可能在后期改为 `<>` 尖括号》](https://mp.weixin.qq.com/s/vjmntyGwzURz_elg27vpXg)。这篇文章主要讨论了Go语言在处理泛型时，为何并没有采用类似Java和C++的 `<>` 尖括号表示法，而是选择了中括号 `[]`. 首先，使用尖括号可能导致语义混淆，如 `a, b := w < x, y > (z)` 此句，如果使用尖括号，程序可能在编译阶段无法确定该行表达式的具体含义。其次，使用圆括号也会导致同样的问题，比如 `func F(T any)(v T)(r1, r2 T)`, 无法快速准确判断出参数和返回值部分。此外，Go官方也不希望使用非ASCII的字符。作者还提到社区中对Go的处理方式存在一些争议，部分社区成员认为如果使得编译器解释尖括号不再困难，就可以采用这种符号。然而，总的来说，基于已有的实践和规范，Go语言在未来可能也不会改变其泛型的表示方式。
 
-[Rust中channel的使用](https://mp.weixin.qq.com/s/arI9sip-5JH9YSu45XJ83w)
+[《Rust中channel的使用》](https://mp.weixin.qq.com/s/arI9sip-5JH9YSu45XJ83w)。这篇文章主要介绍了Rust编程语言中Channel的用法。其中，Channel是Rust中用于在不同线程间传递信息的通信机制，实现了线程间的消息传递。每个Channel由发送端和接收端两部分组成，其设计理念是“通过通信来共享内存，而非通过共享内存来通信”，以此避免了数据竞争和共享内存的复杂性。该文章进一步详细介绍了如何在Rust中创建和使用Channel，并给出了相关代码示例。最后，文章阐述了多种Channel模型，包括Rust标准库中所使用的MPSC（多生产者，单消费者）模型。
 
 [K8s部署方式大全：从基础到进阶，一文带你掌握所有技巧](https://juejin.cn/post/7272006755266002959)
 
@@ -105,15 +109,15 @@ tags: []
 
 ## 📒 后端相关
 
-[万字+33张图探秘OpenFeign核心架构原理](https://mp.weixin.qq.com/s/NABg5tGizHsmdXgUO6NeVw)
+[《万字+33张图探秘OpenFeign核心架构原理》](https://mp.weixin.qq.com/s/NABg5tGizHsmdXgUO6NeVw)。本篇文章深入探讨了SpringCloud核心组件OpenFeign的核心架构原理。文章分为四个部分，首先解释原始Feign的使用和基于SpringCloud的进化过历程；然后详细讲解了Feign底层工作原理，依赖于JDK动态代理和核心组件如Contract、Encoder、Decoder等；接下来分析了SpringCloud是如何整合Feign的，并且讨论了OpenFeign的多种配置方式及其优先级；最后，文章通过丰富的图示和代码示例，使读者可以更好地理解并运用这一工具。这篇文章对于理解和运用OpenFeign非常有帮助，无论是对于初学者还是有经验的开发者。
 
-[三万字长文：如何去排查JVM内存问题](https://mp.weixin.qq.com/s/1Qe29y3nrbi39Kpaspme7Q)
+[《三万字长文：如何去排查JVM内存问题》](https://mp.weixin.qq.com/s/1Qe29y3nrbi39Kpaspme7Q)。这篇文章是一份详尽的指导，讲述了如何排查JVM内存问题。文中首先定位了技术问题的范围，确定适用于JDK8至JDK11。接着，作者提出了系统化的排查原则，并提供了一步步的诊断流程，从基本信息收集、判断内存增长原因，到具体分析内存问题的可能来源。文章详细介绍了如何利用不同的命令和工具（如jmap、jstat、Arthas等）进行详细的分析，并根据内存使用情况，向读者展示了如何确定是堆内存问题还是堆外内存问题。总之，文章为那些需要深入理解和处理JVM内存问题的开发者和运维人员提供了宝贵的知识和技巧。
 
-[如何避免MYSQL主从延迟带来的读写问题](https://mp.weixin.qq.com/s/WLPo8s_M3AzxwB3o3ehY3w)
+[《如何避免MYSQL主从延迟带来的读写问题》](https://mp.weixin.qq.com/s/WLPo8s_M3AzxwB3o3ehY3w)。这篇文章讨论了如何处理在MySQL主从部署架构中普遍存在的主从同步延迟问题，以保持读写操作的一致性。文章首先介绍了主从延迟产生的场景及其对读写分离原则的影响。然后，详细解释了主从复制的原理，并提出了两种避免主从数据不一致的技术方案：一是使用select master_pos_wait函数来等待从库同步至特定的binlog位置点；二是在开启GTID模式的情况下，通过select wait_for_executed_gtid_set函数检查GTID集合是否已同步。这两种方法均旨在确保从库数据的准确性，从而整体上减轻主库的压力。总体上，文章为MySQL数据库管理员提供了缓解主从延迟导致的读写问题的具体实施方案。
 
-[这些年背过的面试题——ES篇](https://mp.weixin.qq.com/s/dt_14etV_2ynAmyMa_uyug)
+[《这些年背过的面试题——ES篇》](https://mp.weixin.qq.com/s/dt_14etV_2ynAmyMa_uyug)。这篇文章是一篇针对Elasticsearch(ES)的面试指南，它涵盖ES基础知识点和面试过程中常见问题。内容包括ES的功能特性介绍（如分布式架构、全文搜索、数据分析等）、主要的使用场景描述、与其他搜索引擎的对比（Lucene和Solr）、以及ES的基本概念解释。文章还详细探讨了ES的高级特性，如映射、DSL查询、聚合分析和智能搜索建议器。此外，作者还分享了关于数据索引优化的实战技巧和策略，提供了写优化、读优化和索引重建的方案，这些方案对ES数据存储和查询的性能有显著影响，最后还对Deep Paging性能问题提供了解决方法。对正在准备面试或者希望巩固ES知识的读者而言，这篇文章是一个宝贵的资源。
 
-[什么是MySQL锁？有哪些锁类型](https://mp.weixin.qq.com/s/gAJFm3q5510PfRBe4F11PQ)
+[《什么是MySQL锁？有哪些锁类型》](https://mp.weixin.qq.com/s/gAJFm3q5510PfRBe4F11PQ)。这篇文章详细地介绍了MySQL中的锁定机制及其类型。起初概述了锁的作用，即协调多进程或线程对资源的并发访问，在数据库环境下，锁对于保持事务的正确性与一致性至关重要。作者明确区分了MySQL中锁的级别，从全局锁、表锁（读锁、写锁）到元数据锁、意向锁，直到行锁的多种形式（记录锁、间隙锁和临键锁）。文中还探讨了AUTO-INC锁的作用和相关优化，举例说明了其在INSERT操作中的应用。此外，文章也涉及了如何根据不同的情况优化锁的使用以及如何避免由锁产生的性能瓶颈。这篇文章为理解MySQL的各种锁类型和锁机制提供了宝贵的信息，特别对于数据库管理员和那些需要管理并发数据访问问题的开发人员来说，具有很高的实用价值。
 
 ## 📒 前端相关
 
