@@ -13,6 +13,8 @@ tags: []
 
 [《In-context Learning with Retrieved Demonstrations for Language Models: A Survey》](https://arxiv.org/abs/2401.11624)。这篇题为 "In-context Learning with Retrieved Demonstrations for Language Models: A Survey" 的文章，主要讨论了语言模型，尤其是大型预训练语言模型如何通过获取的演示进行少量情景学习。这项技术能有效地改进学习过程的效率和可扩展性，并降低手动选择样例时的固有偏见。文章对此领域进行了广泛的研究回顾，对检索模型、检索训练过程和推理算法的不同设计选择进行了讨论和比较。
 
+[《碾压LoRA！Meta & CMU | 提出高效大模型微调方法：GaLore，内存可减少63.3%》](https://mp.weixin.qq.com/s/NUhEy0YLTjtzY3BGVXhfrw)。Meta和CMU合作提出了一种新的大模型微调方法——Gradient Low-Rank Projection（GaLore）。GaLore通过梯度的低秩投影代替权重的低秩适配，不仅支持全参数学习，而且显著降低了内存占用，减少了63.3%的内存需求。不同于LoRA的低秩权重更新，GaLore利用权重梯度的低秩特性，结合逐层权重更新和8位优化器，有效地优化了内存效率。此外，GaLore还引入了可调整的超参数，提高了其适应性。经实验验证，GaLore的表现优于LoRA，尤其是在预训练模型微调上表现更佳，为大模型训练提供了新的解决策略。
+
 [使用 GPT4V+AI Agent 做自动 UI 测试的探索 | 京东云技术团队](https://juejin.cn/post/7316592794109198387)
 
 [Gemini修bug神了！录网页视频把代码库甩给它就行，网友坐不住了：想要访问权限](https://mp.weixin.qq.com/s/ZSDCNDRu-tCkOlC9jz2j4w)
@@ -63,7 +65,7 @@ tags: []
 
 [从0开始预训练1.4b中文大模型实践](https://mp.weixin.qq.com/s/nMWTuKBnQVjgAM7Du6oOFQ)
 
-[分类算法入门：以鸢尾花数据集为例](https://mp.weixin.qq.com/s/W5W582CqxvRhF3wnKwIdiQ)
+[《分类算法入门:以鸢尾花数据集为例》](https://mp.weixin.qq.com/s/W5W582CqxvRhF3wnKwIdiQ)。这篇文章以鸢尾花数据集为例，全面而详细地阐述了机器学习中的分类算法基础知识。首先介绍了人工智能、机器学习和深度学习的基本概念，讲解了机器学习各种分类方法的理论背景。随后通过鸢尾花数据集，展示了如何使用 Python 工具（包括 pandas、sklearn、matplotlib 和 seaborn）进行数据处理、分析和可视化。文章详细讲述了决策树、逻辑回归、支持向量机、K近邻等经典的分类算法，并用图形化的方式展示了分类效果。最后，读者可以通过本文所提供的丰富学习资料来深化对机器学习分类任务的理解和应用。
 
 [《万字详解LLM Agents的现状，问题与未来》](https://mp.weixin.qq.com/s/fkRG7n4tOQKwU85xiEx0Eg)。这篇文章名为"写在跨年之前：聊聊LLM Agents的现状，问题与未来"，主要涉及到LLM Agents的当前状态，面临的问题和未来的可能发展。文章探讨了包括全参微调、Prompt Tuning、LoRA、P-Tuning等在内的SFT(Selective Fine Tuning)范畴的各种技术。其中尤其强调了对于{prompt，response}的单轮问答对的微调是最简单的SFT实现方式。具体的内容细节大概需要阅读原文才能获得更深入的理解。
 
