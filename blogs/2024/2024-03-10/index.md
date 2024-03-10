@@ -11,7 +11,7 @@ tags: []
 
 ## 🌟 AI 相关
 
-[In-context Learning with Retrieved Demonstrations for Language Models: A Survey](https://arxiv.org/abs/2401.11624)
+[《In-context Learning with Retrieved Demonstrations for Language Models: A Survey》](https://arxiv.org/abs/2401.11624)。这篇题为 "In-context Learning with Retrieved Demonstrations for Language Models: A Survey" 的文章，主要讨论了语言模型，尤其是大型预训练语言模型如何通过获取的演示进行少量情景学习。这项技术能有效地改进学习过程的效率和可扩展性，并降低手动选择样例时的固有偏见。文章对此领域进行了广泛的研究回顾，对检索模型、检索训练过程和推理算法的不同设计选择进行了讨论和比较。
 
 [使用 GPT4V+AI Agent 做自动 UI 测试的探索 | 京东云技术团队](https://juejin.cn/post/7316592794109198387)
 
@@ -19,21 +19,21 @@ tags: []
 
 [一键开启 GPU 闲置模式，基于函数计算低成本部署 Google Gemma 模型服务](https://mp.weixin.qq.com/s/GXwftkv-UpDQSjiTMn9TFA)
 
-[Yi技术报告细节分享](https://mp.weixin.qq.com/s/YDwL3dV-Fq5zcEyrL__NGw)
+[《Yi技术报告细节分享》](https://mp.weixin.qq.com/s/YDwL3dV-Fq5zcEyrL__NGw)。该文章分享了Yi模型的具体实现细节和思路，强调了模型设计围绕模型规模、数据规模和数据质量。Yi模型的预训练阶段数据处理流程包括启发式过滤、学习式过滤、聚类过滤以及去重等步骤，以提高数据质量。微调阶段，Yi模型仅采用了10K数据进行模型微调，强调数据质量胜过数量。在分词器、模型结构及微调参数方面，Yi模型采用了一系列优化措施，包括Transformer-Decoder结构、Grouped-Query Attention等。总的来说，Yi模型通过优化数据处理流程、微调策略、调整模型结构和参数等多方面实现了高效的技术实现。
 
 [重新定义大模型推理！Google | 提出SELF-DISCOVER框架，大模型可自写推理结构！](https://mp.weixin.qq.com/s/lBXwSVvRHB2Yn0fYoOkDeQ)
 
-[斯坦福 && 微软 | 发布前端代码生成大模型：Design2Code-18B，助力前端自动化！](https://mp.weixin.qq.com/s/cB5tgMUPqg8fsXjNrzQpbg)
+[《斯坦福 && 微软 | 发布前端代码生成大模型：Design2Code-18B，助力前端自动化！》](https://mp.weixin.qq.com/s/cB5tgMUPqg8fsXjNrzQpbg)。这篇文章主要介绍了一种新的前端代码生成大模型：Design2Code-18B，它可以将网页视觉设计转换成功能性代码。文章首先介绍了将网页视觉设计转换成功能性代码的挑战性和现有方法的局限性，然后提出了Design2Code基准和多模态提示方法，以激发多模态大型语言模型（如GPT-4V和Gemini）的潜力。接着，文章介绍了开源的18B微调模型Design2Code-18B，它基于CogAgent-18B，在多种数据集上进行了预训练，并使用了Huggingface发布的WebSight数据集进行微调。最后，文章展示了Design2Code-18B在Design2Code基准上的优越性能，并提供了一些未来研究方向。
 
 [可控文本生成新方法，人大&&南开 | 提出DATG架构，准确性提升19.29%，效率提升1倍](https://mp.weixin.qq.com/s/Pdp6_z_rxBl-kph41Lb8Ww)
 
-[Auto-Prompt | 大模型提示(Prompt)优化新方法IPC：可根据用户意图进行定向优化](https://mp.weixin.qq.com/s/53jEDw58dkZlJAVzr31G8A)
+[《Auto-Prompt | 大模型提示(Prompt)优化新方法IPC：可根据用户意图进行定向优化》](https://mp.weixin.qq.com/s/53jEDw58dkZlJAVzr31G8A)。这篇文章提出了一种名为 Intent-based Prompt Calibration（IPC）的系统，主要目的是通过使用合成案例样本来优化大型语言模型的提示工程。它基于模型生成的数据集进行提示优化，以解决大语言模型对给定提示的敏感性等问题。这种方法的核心思想是根据用户意图迭代细化提示。同时，文章还对 IPC 系统的整体架构和实现流程进行了详细介绍，并展示了一些实验结果。
 
-[更智能的 Agent，Plan-and-Execute Agents 计划和执行](https://mp.weixin.qq.com/s/1d2_kHEQnug9iR0cU_0nAA)
+[《更智能的 Agent，Plan-and-Execute Agents 计划和执行》](https://mp.weixin.qq.com/s/1d2_kHEQnug9iR0cU_0nAA)。这篇文章介绍了几种新型的智能 Agent 设计方法，包括 Plan-and-Execute Agents、ReWOO Agent 和 LLMCompiler。Plan-and-Execute Agent 设计法通过明确规划来优化智能 Agent 功能。ReWOO Agent 设计法凭借变量分配功能使得不必对每个任务都使用 LLM。LLMCompiler 则通过任务格式化为 DAG 来提高工具调用的效率。这些新型设计都在不同程度上优化了智能 Agent 的工作流程，提高了工作效率。
 
-[OpenAI Function Calling 与 LangChain Agent 工作原理及区别](https://mp.weixin.qq.com/s/F2s3pKycoNDT7Z-6piRHWg)
+[《OpenAI Function Calling 与 LangChain Agent 工作原理及区别》](https://mp.weixin.qq.com/s/F2s3pKycoNDT7Z-6piRHWg)。这篇文章介绍了OpenAI Function Calling 与 LangChain Agent的工作原理及它们之间的区别。文章首先列举了大型语言模型的限制，并解释了为何需要Agent。然后，文章介绍了React Agent的工作方式，通过“Reason Only”（向内求索）、“Act Only”（向外探索）和“ReAct”（内外兼修）三种模式优化模型的功能。此外，文章还以一个简单的实例，解释了如何利用ReAct Agent来解答一个包含搜索和计算两个步骤的问题，展示了其实际应用的流程。
 
-[ReAct Agent 回答 RAG 系统中的复杂问题](https://mp.weixin.qq.com/s/iM45toKEHr3_rJxuwbgp4w)
+[《ReAct Agent 回答 RAG 系统中的复杂问题》](https://mp.weixin.qq.com/s/iM45toKEHr3_rJxuwbgp4w)。这篇文章主要讲述了“ReAct Agent 用于回答 RAG 系统中复杂问题的方式”。随着输入问题的复杂度升高，使用传统的聊天机器人已不能足够有效。于是，作者提出了利用 ReAct Agent，通过自然语言模型（LLMs）逐步规划并执行处理问题的步骤，并定义功能性工具（如时间计算、文本搜索、列表长度计算、百分比变化计算等）以辅助任务完成。这种方法能够更好地干预和控制问题的解决过程，从而提高任务的完成质量。
 
 [更智能的 Agent，Plan-and-Execute Agents 计划和执行](https://mp.weixin.qq.com/s/1d2_kHEQnug9iR0cU_0nAA)
 
@@ -53,9 +53,9 @@ tags: []
 
 [尤洋教授：开源完整的Sora复现方案来了！](https://mp.weixin.qq.com/s/T9YRVRGMgkwRSTl7Movadg)
 
-[T-RAG=RAG+微调+实体识别](https://mp.weixin.qq.com/s/8WYWrHyE4oryCgO9AemImA)
+[《T-RAG=RAG+微调+实体识别》](https://mp.weixin.qq.com/s/8WYWrHyE4oryCgO9AemImA)。这篇文章名为"T-RAG=RAG+微调+实体识别"，主要介绍了T-RAG技术，这是一种将RAG架构与微调语言模型和实体树向量数据库相结合的方法，用于支持语境检索。它概述了在敏感文档的背景下如何保护数据隐私，以及如何在有限的计算资源和基于现有文档建立的小型训练数据集中保证用户提问的准确回答。文中还着重介绍了T-RAG的工作流程和实体树的作用。最后，还提出了一个新的评估指标“Correct-Verbose”，用以评价生成回复的质量。此研究不仅是理论研究，也是实践中LLM应用的经验总结，具有实际的指导意义。
 
-[高级 RAG（Self-Reflective RAG）](https://mp.weixin.qq.com/s/de3UxM9WTrHNjnOKSny0aw)
+[《高级 RAG（Self-Reflective RAG）》](https://mp.weixin.qq.com/s/de3UxM9WTrHNjnOKSny0aw)。这篇文章名为"高级 RAG(Self-Reflective RAG)"，主要介绍了Self-Reflective RAG的理念和工作流程。在基本的RAG pipeline中，我们的过程往往受限于被动的检索和生成，而实际操作中，我们需要根据生成的结果进行优化，如改变问题或筛选和排列内容。为了解决这个问题，文章介绍了一种新的自我修正框架，包括Corrective RAG(CRAG)和Self-Reflective RAG。这两种RAG都围绕着对检索和生成内容的评估和反馈进行自我修正，并通过特定标识进行调控。在一定条件下，进一步改进了RAG，使其产生更好的检索和生成效果。
 
 [RAG不够聪明？打造更强大的智能体](https://mp.weixin.qq.com/s/WuJEubctUDsAmdhHcDItAg)
 
