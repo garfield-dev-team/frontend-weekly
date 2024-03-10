@@ -5,9 +5,9 @@ authors: [garfield]
 tags: []
 ---
 
-![alt text](image.png)
+![alt text](maxresdefault.jpg)
 
-封面图：使用Redis入门Golang
+封面图：Understanding the Go runtime - Jesus Espino
 
 ## 🌟 AI 相关
 
