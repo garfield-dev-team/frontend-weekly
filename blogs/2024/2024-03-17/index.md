@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+![alt text](maxresdefault.jpg)
+
+封面图：Safe by construction - Roberto Clapis
+
 ## 🌟 AI 相关
 
 [《南洋理工发布多模态金融交易Agent，平均利润提高36%！》](https://mp.weixin.qq.com/s/QBORpQmZrumppLl81aWAxA)。本文介绍了南洋理工大学发布的多模态金融交易Agent，通过融合大语言模型（LLMs）和多模态数据处理，提高了金融交易的效益。传统基于规则的交易系统在适应市场波动方面存在不足，而基于强化学习的系统虽然适应性更好，但在处理多模态数据和可解释性方面仍面临挑战。该文中提出的FinAgent是一种先进的多模态基础代理，能够综合分析多种形式的金融数据，提供精确的市场趋势分析和决策支持。实验证明，使用FinAgent进行金融交易可以平均提高36%的利润。论文链接：[https://arxiv.org/pdf/2402.18485.pdf](https://arxiv.org/pdf/2402.18485.pdf)
