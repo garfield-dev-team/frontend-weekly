@@ -11,6 +11,10 @@ tags: []
 
 ## 🌟 AI 相关
 
+[人工智能机器学习算法总结--1.线性回归算法(单变量及多变量)](https://mp.weixin.qq.com/s/XMrbHWIUDELs8NqOEqR-aA)
+
+[RAG实践中的关键模块解析](https://zhuanlan.zhihu.com/p/682253496)
+
 [用扣子/Coze 揭秘吴恩达的4种 AI Agent 设计模式](https://mp.weixin.qq.com/s/OtdncYNt9KDE6YzDJeexFg)
 
 [国内首个AI程序员入职阿里云：专属工号AI001，KPI是一人写完公司20%代码](https://mp.weixin.qq.com/s/t_OJu1JGrzk7q8A2GAfA0g)
@@ -32,6 +36,10 @@ tags: []
 [Ollama 本地开源大模型聊天应用](https://mp.weixin.qq.com/s/aERkT93iUB8pH1m-FCESWg)
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+[Rust 多线程开发：scoped thread](https://juejin.cn/post/7325441612402098195)
+
+[Rust 解码 Protobuf 数据比 Go 慢五倍？记一次性能调优之旅](https://mp.weixin.qq.com/s/ktOGySi9HJ31G2-IOfxHZw)
 
 [Go 1.22.2 刚刚已发布，修复 http2 多个 header 导致的连接关闭](https://mp.weixin.qq.com/s/aNImZ1DCzka6PXXmaEnnQQ)
 
