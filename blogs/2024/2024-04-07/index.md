@@ -11,6 +11,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[《人工智能机器学习算法总结--2.逻辑回归算法》](https://mp.weixin.qq.com/s/C00sLxto2f5cxsmuva9VsA)。这篇文章详细介绍了逻辑回归算法，这是一种处理二分类问题的机器学习算法。文章概括了逻辑回归的定义、目标及应用，并解释了其与线性回归的不同之处。底层结构清晰地描述了逻辑回归包括的组成部分，如输入层、权重、线性组合、激活函数（Sigmoid函数）、输出层、损失函数（如交叉熵损失函数）及优化算法（如梯度下降法）。文章还阐述了数据准备、代价函数、梯度计算与模型评价的完整过程，包括特征映射、判定边界的绘制等，并提出防止过拟合的正则化技巧。
+
 [《CMAT: 与GPT3.5相媲美的1.8B Agent模型和框架》](https://mp.weixin.qq.com/s/srCgwrjlggVlSwtOzU6iQw)。本文主要介绍了一种与 GPT3.5 性能相匹那的1.8B Agent 模型和框架。提出了 TinyAgent 模型和多代理合作调整 (CMAT) 框架，通过环境反馈驱动的权重调整，增强了语言代理的能力。尤其突出了 TinyAgent-7B模型，虽然参数量不多，但是其性能达到了与 GPT-3.5 相当的水平，显示出大型语言模型在精效方面的巨大进步。同时，文章还详解了 CMAT 框架的运行机制和优势，利用高质量数据集进行训练和 LoRA 方法进行优化，显著提升了模型的性能和应用创新。
 
 [《谷歌更新Transformer架构，更节省计算资源!50%性能提升》](https://mp.weixin.qq.com/s/Xqnv2L9X4KRkfpTaw7B0SA)。Google更新了Transformer架构，发布了Mixture-of-Depths（MoD），它通过动态分配计算资源来跳过不必要的计算，大幅提高了模型的训练效率和推理速度。论文展示了使用MoD的模型在减少每次向前传播所需的FLOPs的同时，步进速度可提高50%。这种方法不仅节约了资源，更在提升性能方面展现出巨大潜力，特别是在大模型的训练和推理中，使得计算资源的分配更为精确和高效。这项研究由DeepMind和麦吉尔大学共同开展，主要贡献者是David Raposo和Adam Santoro。
@@ -38,6 +40,10 @@ tags: []
 [《Ollama 本地开源大模型聊天应用》](https://mp.weixin.qq.com/s/aERkT93iUB8pH1m-FCESWg)。文章详述如何使用Ollama在本地部署和运行开源大模型以及如何通过API调用。介绍了Ollama为前端开发者提供的Python和JS开发包，并且介绍了一些基本的使用场景和指令。以及就如何结合Streamlit这个Web框架与Ollama来快速开发一个类似ChatGPT的聊天应用，提供了嵌入式代码示例和操作步骤。总结了Ollama部署大模型的可靠性和便捷性，同时强调了结合Streamlit快速搭建Web的能力。
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+[《探索 Go 的 Fan-Out/Fan-In 模式:让并发更 easy》](https://mp.weixin.qq.com/s/ceM2RWiVtq6HJml5Y1y9lA)。本文来自 Go Official Blog，目的在于引导读者理解如何在 Go 中利用扇出（Fan-Out）和扇入（Fan-In）模式简化并发操作。扇出是指单个 goroutine 将任务分发给多个工作 goroutine；扇入则是多个工作 goroutine 完成任务后，将结果汇总到一个通道。文章解释了这种模式的优势，包括提升程序性能、简化任务管理，并使并发更易于维护。同时，文章通过代码示例展示了在 Go 应用程序中如何实施 Fan-Out/Fan-In 并发模式。
+
+[《Go 是社区驱动吗?哪种模式更好》](https://mp.weixin.qq.com/s/l4vUCYmo-kz5wdiORYKU7A)。作者煎鱼对 Go 语言是否为社区驱动的模式进行了深入探讨。文章基于 Chris Siebenmann 的观点，讨论了 Go 的发展受 Google 影响较大，且社区的声音在关键决策中并不占主导地位。举例说明了 Go Module 的引入过程如何背离社区开发的依赖管理系统。同时文章讨论了社区驱动与企业所有的开发模式差异，及其对开源项目命运的影响，指出虽然许多顶尖的开源项目背后有企业影子，但实际上可能没有一种模式是绝对优于另一种的。
 
 [《Rust 多线程开发:scoped thread》](https://juejin.cn/post/7325441612402098195)。本文由Pomelo_刘金撰写，讨论了Rust语言中scoped thread的概念和优势。Scoped thread是一种生命周期和创建它的作用域绑定的线程，与标准的`std::thread::spawn`函数创建的线程相反，不需要将数据拥有权移至线程中，允许更安全地共享父作用域的数据。文章比较了普通线程和scoped thread的特点和生命周期管理，并通过代码示例展示如何在Rust中创建和用scoped thread安全地并发处理数据。这种线程是处理Rust并发时非常有价值的模式，尤其是在多个线程间安全共享数据时。
 
