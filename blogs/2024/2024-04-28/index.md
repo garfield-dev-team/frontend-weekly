@@ -11,6 +11,12 @@ tags: []
 
 ## 🌟 AI 相关
 
+[揭秘Continually Pretrain技巧，让你的chinese llama3模型更上一层楼](https://mp.weixin.qq.com/s/IvIpgX8z_9A-iOifxFUb8w)
+
+[Phi-3：小模型，大未来！（附魔搭社区推理、微调实战教程）](https://mp.weixin.qq.com/s/pgvt5m4JnpX3kCkVI_wK8g)
+
+[图解MoE是什么，以及大模型为什么需要](https://mp.weixin.qq.com/s/wjDfKPMzrfIuU6B18KGhbQ)
+
 [【Milvus&向量搜索】落地文档搜索业务的探索](https://juejin.cn/post/7360623543920558089)
 
 [LLM能否依据角色的过去预测未来？一篇有趣的研究](https://mp.weixin.qq.com/s/wwuayFtqWuy0ByEe4HVf8w)
@@ -41,6 +47,12 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[Go 1.22 的新增功能系列之二：reflect.TypeFor](https://mp.weixin.qq.com/s/KHeTALSGMNguIKw1YzwVKA)
+
+[Go 1.22 的新增功能系列之一：cmp.Or](https://mp.weixin.qq.com/s/dLDUPDO_th3-3WTAII0_7w)
+
+[《Go语言编程技巧》 1.0 发布了](https://mp.weixin.qq.com/s/0klJo_on1e7cFVH0KVtTFg)
+
 [Effective Rust: item4 首选常用的 Error 变体](https://mp.weixin.qq.com/s/_p987Etj1xsLiowLU484Cw)
 
 [使用 GitHub Actions 构建 Golang PGO](https://mp.weixin.qq.com/s/zPg5JkAJRhTpk7YhM8YmlQ)
@@ -59,6 +71,8 @@ tags: []
 
 ## 📒 后端相关
 
+[这些年背过的面试题——Java基础及面试题篇](https://mp.weixin.qq.com/s/UbKYBb9fuYouevfBSlBJ0g)
+
 [RocketMQ为什么这么快？我从源码中扒出了10大原因！](https://mp.weixin.qq.com/s/y1-A-SHAkGdg9IOTeUtPxg)
 
 [LeetCode的基础入门](https://mp.weixin.qq.com/s/pg9N28YWFkSvAquTu35yTg)
@@ -68,6 +82,8 @@ tags: []
 [“打工人”的自我修养 - 如何在 30 秒内把“问题”讲清楚](https://mp.weixin.qq.com/s/XYiasfWaJ6rHNSch-ANBbA)
 
 ## 📒 前端相关
+
+[前端 er 如何玩转音视频流-WebRTC 技术介绍](https://mp.weixin.qq.com/s/01Lw-8sRyHYQV3_ICrR7ng)
 
 [AI+Node.js x-crawl 爬虫：为何传统爬虫已不再是数据抓取的首选](https://mp.weixin.qq.com/s/jc4K2U7PbEGicnwsEMHCaA)
 
