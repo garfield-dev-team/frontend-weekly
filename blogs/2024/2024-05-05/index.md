@@ -33,6 +33,8 @@ tags: []
 
 [《Evolving the Go Standard Library with math/rand/v2》](https://go.dev/blog/randv2)。Go 语言团队在 Go 1.22 中新增了一个 `math/rand/v2` 包，这是 Go 标准库中第一次出现采用带版本号路径的方式进行兼容性更新的实例。新版本的包重写了随机数生成器的 API，包括使用全新的生成器算法 PCG 和 ChaCha8 替换原有 Go 1 生成器，并引入了一些 API 断点变更来修复 `math/rand` 中历史上的问题。文章详述了更新的具体动机，并反思了未来包版本迭代将遵循的一般原则。这些原则包括：使用带版本号的导入路径以允许旧新版本的共存，尊重现有用户及其用法，尽可能避免不必要的变动，以及确保不会遗弃旧版本的用户。通过这些更新，Go 团队期望为今后对标准库的升级树立标杆并确立持续改进的原则。
 
+[Rust Tokio 任务取消模式](https://mp.weixin.qq.com/s/GD95hqKcHY-ynAa42jxmSA)
+
 [LangChainGo + Ollama, OpenAI, Mistral 快速构建大模型应用](https://mp.weixin.qq.com/s/_Qi5aPjdxdYLWjKXemCLzQ)
 
 [看了Kubernetes源码后，我更喜欢写Golang的单元测试了](https://juejin.cn/post/7363235196144074803)
