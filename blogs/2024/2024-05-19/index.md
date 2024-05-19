@@ -11,6 +11,8 @@ tags: []
 
 ## 🌟 AI 相关
 
+[GPT-4o团队引发OpenAI组织创新热议！应届生领衔Sora，本科生带队GPT-1，经验职级都是浮云](https://mp.weixin.qq.com/s/MZHYqwfFR0aA-hOdTSuyzQ)
+
 [生成式AI原理技术详解（二）——高级神经网络](https://mp.weixin.qq.com/s/G5NXAr9-BOjUAY4nrfKROA)
 
 [他们卷大模型，小模型交给我：千元实现多终端设备的视觉分类](https://mp.weixin.qq.com/s/Gi9Vme6khmy3UMhWnDjMrg)
@@ -76,6 +78,8 @@ tags: []
 [高并发架构的三板斧，你也可以成为架构师](https://mp.weixin.qq.com/s/AkxNqWFUoLEpJ5BDXIyxSw)
 
 ## 📒 前端相关
+
+[作为前端开发，感受下 nginx 带来的魅力！](https://mp.weixin.qq.com/s/ll6KS9fW9O_PZYmRHwuDnA)
 
 [卡顿减少 95% — 记一次React性能优化实践（性能篇）](https://mp.weixin.qq.com/s/waFMJHdqlaYbZtBEJvafMQ)
 
