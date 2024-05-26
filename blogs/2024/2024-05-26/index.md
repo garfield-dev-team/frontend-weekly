@@ -91,6 +91,8 @@ tags: []
 
 ## 📒 前端相关
 
+[node.js+AIGC：对输入的评论进行情感分析](https://mp.weixin.qq.com/s/7H6J9aH3pRHXD4nxEUwJaQ)
+
 [我使用coze做了一个云顶之弈助手，帮助我上分](https://mp.weixin.qq.com/s/4MZhKf_p4JIHOmRqAf3AuQ)
 
 [autolog.js：一个小而美的toast插件](https://mp.weixin.qq.com/s/uP-n-AknzWSOZ95LGOdVfQ)
