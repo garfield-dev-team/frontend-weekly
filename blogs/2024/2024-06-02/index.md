@@ -5,7 +5,15 @@ authors: [garfield]
 tags: []
 ---
 
+![alt text](maxresdefault.jpg)
+
+封面图：Safe by construction - Roberto Clapis
+
 ## 🌟 AI 相关
+
+[Similarity is Not All You Need: Endowing Retrieval Augmented Generation with Multi Layered Thoughts](https://huggingface.co/papers/2405.19893)
+
+[A Primer on the Inner Workings of Transformer-based Language Models](https://huggingface.co/papers/2405.00208)
 
 [解决Transformer根本缺陷，CoPE论文爆火：所有大模型都能获得巨大改进](https://mp.weixin.qq.com/s/JxB6JU6MxO3709mkg7penw)
 
@@ -24,6 +32,14 @@ tags: []
 [通过Transformers用不同的采样方法生成文本](https://mp.weixin.qq.com/s/Wx94PE_3KjwhmIB2Q0jdpQ)
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+[【一分钟快学】掌握Go语言并发编程：深入理解与精巧运用 sync.Map](https://juejin.cn/post/7343915092100431906)
+
+[挑战自我极限，用最简方式介绍从零开始构建 Kubernetes Operator](https://juejin.cn/post/7343814405442502694)
+
+[【一分钟快学】掌握Go语言：深入解析Context包与精妙的取消机制](https://juejin.cn/post/7351584333613727798)
+
+[【一分钟快学】并发编程的艺术：解锁如何在 Go 语言中的批量并发](https://juejin.cn/post/7344916114204196901)
 
 [\[Golang 1.23 前瞻\]使用 Go 实现可组合的函数迭代器](https://mp.weixin.qq.com/s/kT_yBR4l1kToawVzey7syA)
 
