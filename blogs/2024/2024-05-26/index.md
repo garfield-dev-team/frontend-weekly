@@ -63,7 +63,7 @@ tags: []
 
 [一文搞懂Kubernetes Service 网络](https://mp.weixin.qq.com/s/2t1ABjI-2IL8DMaVinikGw)
 
-[Go 夜读第 152 期：从汇编角度理解 Go 语言](https://mp.weixin.qq.com/s/rMhoj7KxhpPwUwgTkr1qtA)
+[Go 夜读第 152 期：从汇编角度理解 Go 语言](https://www.bilibili.com/video/BV14U411o7ZU)
 
 [Go团队：Go是什么](https://mp.weixin.qq.com/s/dxBnBLbUKC9GTyi6NPDdTQ)
 
