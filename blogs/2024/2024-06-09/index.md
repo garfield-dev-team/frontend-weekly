@@ -35,6 +35,10 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[\[Golang 1.23 前瞻\] unique package 介绍](https://mp.weixin.qq.com/s/i2qEvESgy2YueL1kjUCUzA)
+
+[Golang GC 基础: 三色标记清除和 STW](https://mp.weixin.qq.com/s/UsoheOJsnkUkIpwK-PdmhA)
+
 [Rust tips #41 ~ #60](https://mp.weixin.qq.com/s/92jjgtbPJ0W6pcgudfkq2A)
 
 [全球最大开源项目之一——Kubernetes诞生十周年](https://mp.weixin.qq.com/s/7bma0aoB2ZLX5F_LmvG19w)
