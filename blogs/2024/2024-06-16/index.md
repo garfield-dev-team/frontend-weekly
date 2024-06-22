@@ -29,23 +29,23 @@ tags: []
 
 [《详解LLM参数高效微调:从Adpter、PrefixTuning到LoRA》](https://mp.weixin.qq.com/s/-UAKKKxA7I_qkNm5ck5R0Q)。这篇文章详细介绍了多种大型语言模型（LLM）参数高效微调的方法，包括Adapter Tuning、Prompt Tuning、Prefix Tuning和LoRA。文章首先概述了Transformer的结构和指令微调的背景，接着总结了多种参数高效微调（PEFT）方法，如仅微调偏置项的BitFit、使用低秩矩阵分解的LoRA等。重点介绍了LoRA方法，其通过对增量参数矩阵进行低秩近似，大幅减少了微调过程中需要训练的参数数量，为LLM的微调提供了一种高效的解决方案。文章最后也描述了这些微调方法在实际中的适用范围和性能。
 
-[干货｜解锁产品迭代新速度：A/B测试在AI大模型时代的应用](https://mp.weixin.qq.com/s/T5-z6J6nDNdTETmEQHtlug)
+[《干货|解锁产品迭代新速度:A/B测试在AI大模型时代的应用》](https://mp.weixin.qq.com/s/T5-z6J6nDNdTETmEQHtlug)。这篇文章介绍了火山引擎数智平台VeDI旗下DataTester如何在AI大模型时代应用A/B测试，帮助企业在业务增长、用户转化、产品迭代等环节科学决策。通过A/B测试，企业能够快速上线、快速体验和回滚产品，在真实用户环境中验证产品效果。文章还讲述了如何利用A/B测试优化高效调优模型参数，提升产品质量和用户体验。这种数据驱动的精细化运营方法使得产品在激烈竞争中保持领先，提高产品竞争力。
 
-[港大&腾讯 | 提出SELF-TUNING学习框架，让LLM自学获取新知识，表现出色！](https://mp.weixin.qq.com/s/-FTbJYMbCyiQXyTZ6BHjaA)
+[《港大&腾讯 | 提出SELF-TUNING学习框架，让LLM自学获取新知识，表现出色!》](https://mp.weixin.qq.com/s/-FTbJYMbCyiQXyTZ6BHjaA)。本文介绍了由香港大学和腾讯共同提出的SELF-TUNING学习框架，这个框架旨在通过自学方式让大型语言模型（LLM）获取最新的知识。SELF-TUNING包括记忆、理解和自我反思三个关键方面，通过自我教学策略提高模型的知识获取和记忆能力。文中详细说明了框架的三个学习阶段及其如何使用Wiki-Newpages-2023-QA数据集测试和评估模型性能，结果显示框架在知识记忆、提取和推理方面效果显著，可避免灾难性遗忘并有效内化新知识。
 
-[Multi-Agent实践第8期：轻松拖拽搭建多智能体应用](https://mp.weixin.qq.com/s/Jj5dclm7qqzp6pR4YM3lsw)
+[《Multi-Agent实践第8期:轻松拖拽搭建多智能体应用》](https://mp.weixin.qq.com/s/Jj5dclm7qqzp6pR4YM3lsw)。这篇文章介绍了如何使用AgentScope Workstation，一个基于拖拽式构建多智能体应用的零代码开发平台。用户无需编程经验，只需从工具栏选择并拖拽组件，就能自由组合出创意独特的多智能体应用。文章详细描述了操作步骤，包括选择大模型和智能体、设置配置以及运行应用等。此外，还介绍了AgentScope的高级功能，使用户能够创建复杂工作流并实现包括代码运行、文件读写和网络搜索在内的多种任务。文章鼓励读者探索更多可能，支持AgentScope社区的发展。
 
-[用 KV 缓存量化解锁长文本生成](https://mp.weixin.qq.com/s/Iqr7UMVk9vW6tMuRK6AIOg)
+[《用 KV 缓存量化解锁长文本生成》](https://mp.weixin.qq.com/s/Iqr7UMVk9vW6tMuRK6AIOg)。这篇文章由Raushan Turganbay介绍了Hugging Face的新功能——KV缓存量化。本文详细解释了键值缓存（KV Cache）和量化的工作原理，以及它们如何在大语言模型（LLM）生成长文本时提高速度和内存效率。通过量化KV缓存，模型能在几乎不损失生成质量的前提下显著减少内存占用，从而支持更长文本的生成。研究表明，这一方法在多种基准测试数据集上的效果良好。文中还提供了KV缓存量化在具体操作步骤和代码示例，展示了如何实现这一优化。
 
-[图解 Transformer【译文】](https://mp.weixin.qq.com/s/4Myp0baqfVhIObYZvrmkVA)
+[《图解 Transformer [译]》](https://juejin.cn/post/7320082701212844044)。这篇文章由The Random Transformer编写并在掘金上翻译和发布，重点介绍了Transformer模型。Transformer利用自注意力机制显著提升了模型训练速度，适合并行处理，并在某些任务上超过传统的神经机器翻译模型。文章深入解释了Transformer的工作原理，包括编码器和解码器组件、自注意机制、多头注意力机制以及位置编码等重要概念。通过图解和简单的描述，使读者能够更轻松地理解复杂的技术细节。
 
-[LlamaFactory 一键式LLM训练、微调工具介绍与实践](https://mp.weixin.qq.com/s/zT4CwkZJkExuvivgG_h_EQ)
+[《LlamaFactory 一键式LLM训练、微调工具介绍与实践》](https://mp.weixin.qq.com/s/zT4CwkZJkExuvivgG_h_EQ)。本文介绍了LlamaFactory工具，一个封装完善的LLM微调工具。作者详细描述了LlamaFactory的架构和主要特性，强调其通过Trainer类实现训练流程，支持各种模型和多种训练方法，包括全参数微调、LoRA微调和QLoRA微调等。LlamaFactory结合先进算法如GaLore和Unsloth，大幅降低了显存占用。文章还探讨了数据准备和使用自定义数据集的步骤，并分享了工具的安装依赖和WEB-UI训练界面。LlamaFactory凭借集成化设计，提供便捷且高效的LLM微调解决方案，适合快速上手和复杂训练任务，但需用户详细了解配置参数以优化使用。
 
-[分享几个有趣的大模型（LLMs）应用场景，涉及金融分析、物联网、招聘、战术分析等](https://mp.weixin.qq.com/s/gI7qXG7qzIFsfgFjD82yDA)
+[《分享几个有趣的大模型(LLMs)应用场景，涉及金融分析、物联网、招聘、战术分析等》](https://mp.weixin.qq.com/s/gI7qXG7qzIFsfgFjD82yDA)。本文作者盘点了一些大模型（LLMs）在不同领域的应用案例。具体包括：利用MockLLM进行在线招聘面试，通过模拟面试过程提升人职匹配质量；ResearchAgent系统生成论文idea，优化科研思路；TacicAI在足球战术分析中的应用，高效提升角球战术效果；代码精细化，通过迭代改进源代码；CibyGPT处理物联网时空数据；finRobot进行高级金融分析；FactAgent用于假新闻检测和信息核查；以及基于信息检索系统的QA问答。这些案例展示了大模型在不同场景中的创新应用和潜在影响。
 
-[苹果智能炸裂登场：直接GPT-4o加持，全家桶都上生成式AI，Siri脱胎换骨](https://mp.weixin.qq.com/s/sCD2DKx9-rroCoTh1bSvBQ)
+[《苹果智能炸裂登场:直接GPT-4o加持，全家桶都上生成式AI，Siri脱胎换骨》](https://mp.weixin.qq.com/s/sCD2DKx9-rroCoTh1bSvBQ)。这篇文章介绍了苹果在WWDC 2024发布的一系列生成式AI功能，由Apple Intelligence系统驱动，集成了GPT-4o和本地大模型加云端的混合策略。Siri更新与大模型结合，增强自然语言理解。Apple Intelligence系统应用广泛，覆盖语言和图像生成，以及系统级整合功能，如文档生成和图像处理。苹果还首次引入了iPhone通话录音和iPad计算器功能。这标志着苹果在AI技术领域迈出的重要一步。
 
-[效果远超LoRA和QLoRA！PiSSA微调LLaMA-3](https://mp.weixin.qq.com/s/kpdkS1BeOwmnUiOcXxvfwA)
+[《效果远超LoRA和QLoRA!PiSSA微调LLaMA-3》](https://mp.weixin.qq.com/s/kpdkS1BeOwmnUiOcXxvfwA)。本文作者孟繁续详细介绍了如何使用PiSSA微调LLaMA-3模型。PiSSA通过不同的初始化方式，仍保持与LoRA和QLoRA相同的结构，但显著减少量化误差，提升了模型收敛速度和最终效果，并且适用于4bit量化场景。文中提供了具体的代码示例和步骤指南，展示了PiSSA的快速收敛和高效性能。作者还强调未来将在Huggingface平台上逐步共享更多模型和配置，方便用户使用和定制。PiSSA微调LLaMA-3使训练更高效，效果更优。
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
