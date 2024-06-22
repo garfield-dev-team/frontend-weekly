@@ -5,28 +5,13 @@ authors: [garfield]
 tags: []
 ---
 
-import { Carousel } from "antd";
-import "antd/es/carousel/style/index.css"
-
-<Carousel autoplay>
-
-<div>
-
 ![alt text](image-1.png)
 
 封面图："Heartfelt Doodlings" — The Web Event for Genshin Impact's new character: Sigewinne is now available.
 
-</div>
+<!-- ![alt text](image.png)
 
-<div>
-
-![alt text](image.png)
-
-封面图：Go 1.23 RC1 已经 released
-
-</div>
-
-</Carousel>
+封面图：Go 1.23 RC1 已经 released -->
 
 ## 🌟 AI 相关
 
