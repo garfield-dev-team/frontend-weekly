@@ -22,7 +22,7 @@ import "antd/es/carousel/style/index.css"
 封面图：Go 1.23 RC1 已经 released
 </div>
 
-<Carousel>
+</Carousel>
 
 ## 🌟 AI 相关
 
