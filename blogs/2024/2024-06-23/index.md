@@ -71,6 +71,8 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+[使用 Golang 实现高 IO 性能超边缘缓存服务器](https://juejin.cn/post/7380222254195834892)
+
 [揭秘Go Telemetry](https://mp.weixin.qq.com/s/lBp1qRdgzCe0etr9rRTi_A)
 
 [Go 1.23 RC1 已经 released](https://mp.weixin.qq.com/s/RWFowB1T7TZ63-GwYPXNUg)
