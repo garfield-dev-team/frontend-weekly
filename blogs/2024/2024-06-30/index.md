@@ -11,6 +11,38 @@ tags: []
 
 ## 🌟 AI 相关
 
+:::tip[技术资讯]
+
+- [OpenAI is training a new model CriticGPT, to catch bugs in GPT-4’s code and to reduce hallucinations](https://twitter.com/rohanpaul_ai/status/1806501254937313407)
+- [New 4 hour (lol) video lecture on YouTube: "Let’s reproduce GPT-2 (124M)"](https://twitter.com/karpathy/status/1799949853289804266)
+- [OmniParse：可将任何非结构化数据提取/解析为针对 LLM 应用优化的结构化、可操作数据](https://twitter.com/shao__meng/status/1806479762975752352)
+- [DB-GPT: 构建生产级别的 AI Native Agent 应用！⚡️🔥蚂蚁开源首个 GraphRAG 框架！支持图可视化和详细示例代码！](https://twitter.com/tuturetom/status/1806312637883703331)
+- [自动化数据标注更进一步！Human in the Loop 🥳 OpenAI 发布新模型 CriticGPT「LLM 评论家」并公布论文⚡️](https://twitter.com/tuturetom/status/1806507828791939098)
+- [Announcing Meta LLM Compiler: a family of models built on Meta Code Llama with additional code optimization and compiler capabilities](https://twitter.com/AIatMeta/status/1806361623831171318)
+- [Announcing llama-agents： a framework for turning your set of agent functions into microservices that can communicate via an API interface](https://twitter.com/jerryjliu0/status/1806353914125861376)
+- [力压 Llama3！最强开源模型来了！😆就在刚刚！Google I/O 柏林宣布开源 Gemma2！🔥9B/27B模型](https://twitter.com/tuturetom/status/1806360256857211364)
+- 这个 prompt 确实不错：“用逐渐增加复杂度的方式解释 XXX”
+- [Meta推出了Meta LLM 编译器（Meta Large Language Model Compiler）](https://twitter.com/aigclink/status/1806493149763932275)
+- [深度剖析字节豆包 AI](https://twitter.com/hongming731/status/1805941651405479970)
+- [Very powerful prompt: "Explain it with gradually increasing complexity."](https://twitter.com/rohanpaul_ai/status/1806100957710991670)
+- [Find all the awesome LLM Apps demo with RAG in the following Github Repo](https://twitter.com/Saboo_Shubham_/status/1805789990431211686)
+- [发现一个很不错的 AI 学习网站 Emergent Mind，通过抓取 arXiv 上 AI 最新研究论文，再用 GPT 去总结，通过分类、趋势流行度、时间来筛选，很适合学术研究，需静下心来看看](https://twitter.com/HiTw93/status/1806113714522804259)
+- [A great dataset just arrived in @huggingface](https://twitter.com/rohanpaul_ai/status/1806100283853779166)
+- [You can do A MASSIVE cost saving (up to 10x)💰 and Boost Speed by upto 100x ⚡ for your OpenAI/HuggingFace Hub/Bard/Anthropic API calls by using caching with GPTCache library](https://twitter.com/rohanpaul_ai/status/1805896032602997201)
+- [一键「代码可视化」辅助工具设计](https://twitter.com/eviljer/status/1805902754239656141)
+- [Claude官方给的这个提示库非常好，包含了从生成电子表格、创建网站到会议记录、分析推文等多种类型的高品质提示词等](https://twitter.com/aigclink/status/1805827636272546123)
+- [系统设计入门 @donne_martin 262k✨](https://twitter.com/shao__meng/status/1805397985498644972)
+- [Building Optimized RAG with LlamaIndex + DSPy](https://twitter.com/llama_index/status/1805622494130586078)
+- [RAG 十二个痛点和解决方案](https://twitter.com/shao__meng/status/1805601464922128536)
+- [看到一个全栈 DS / DA 数据分析岗位养成手册，来自一名哥大数据科学的学生 Jace 整理的，很适合数据分析科学入门学习使用，结合了不少国内的案例来分析学习](https://twitter.com/HiTw93/status/1805743777128013841)
+- [🔮 手搓 Figma 插件，接入 #Gemini Vision](https://twitter.com/eviljer/status/1805270212025209140)
+- [假如你在有意识的去学理财，这个 TradingView 会很好用，特别对于买股票的小伙伴，可以很清楚看到世界股票的排名以及各种维度的分析，比如这个「按市值计算的全球最大公司排名」，我经常用它来分析一些关注的股票很好用，从一些科学维度来看是否该买这支](https://twitter.com/HiTw93/status/1805386673968365669)
+- [🤗🤗 @huggingface Community-led Computer Vision Course](https://twitter.com/snehilsanyal/status/1804750939519357028)
+- [Claude 3.5 Sonnet's coding skills and the Artifacts are just insane. 👨‍🔧 ](https://twitter.com/rohanpaul_ai/status/1804932544263012793)
+- [GPT-4 中做思维导图，一些可行的方法参考](https://twitter.com/eviljer/status/1804837427468779879)
+
+:::
+
 [2024稀土开发者大会精彩亮点｜代码不止 掘金不停](https://mp.weixin.qq.com/s/BesgaZ-Dj0DosZks1mvuRg)
 
 [Semantic Kernel：微软开源的 LangChain 替代](https://mp.weixin.qq.com/s/ZJTfCkWOrE8omRZEhrj_3g)
@@ -37,7 +69,7 @@ tags: []
 
 [Florence-2：微软开源的轻量级视觉基础模型，吊打巨型模型！](https://mp.weixin.qq.com/s/VSx4RlyrLYbdDp3IuUF6Cw)
 
-[LLM推理引擎性能评测：vllm、lmdeploy、tensorrt-llm 请应战！](https://mp.weixin.qq.com/s/SIL1Xx_GxJOpp26k7p-VUg)
+🌟 [LLM推理引擎性能评测：vllm、lmdeploy、tensorrt-llm 请应战！](https://mp.weixin.qq.com/s/SIL1Xx_GxJOpp26k7p-VUg)
 
 [Hugging Face Accelerate 两个后端的故事：FSDP 与 DeepSpeed](https://mp.weixin.qq.com/s/hmIvSsZ2-yKEeiXUNRlTQw)
 
@@ -55,11 +87,11 @@ tags: []
 
 [耳朵没错，是声音太真了，字节豆包语音合成成果Seed-TTS技术揭秘](https://mp.weixin.qq.com/s/pAB_ezlEmUCM98n1eQX0ZQ)
 
-[我做了一个 AI 搜索引擎](https://mp.weixin.qq.com/s/25eXZi1QgGYIPpXeDzkQrg)
+🌟 [我做了一个 AI 搜索引擎](https://mp.weixin.qq.com/s/25eXZi1QgGYIPpXeDzkQrg)
 
 [大模型综述：万字长文详解AI大模型的原理、应用与未来趋势](https://mp.weixin.qq.com/s/uQ_MQwAo5FbVsaGSGKzaQA)
 
-[Qwen2大模型微调入门实战-命名实体识别（NER）任务](https://mp.weixin.qq.com/s/Cj39J18hXOAkIzHd7HAjXw)
+🌟 [Qwen2大模型微调入门实战-命名实体识别（NER）任务](https://mp.weixin.qq.com/s/Cj39J18hXOAkIzHd7HAjXw)
 
 [CodeRAG-Bench：RAG遇到了Coder，哪个模型在RAG的加持下最会写代码](https://mp.weixin.qq.com/s/V4Mg1e4I6aHsF_D9-rrQBQ)
 
@@ -84,6 +116,27 @@ tags: []
 [超越Devin！华为等| 解决接近30%的GitHub issues！最强CodeR来啦！](https://mp.weixin.qq.com/s/EOn1pKn7fo4unJm3H1xnQQ)
 
 ## ⭐️ Go & 云原生 & Rust 相关
+
+:::tip[技术资讯]
+
+- [A simple slog.Handler designed to recursively merge and de-duplicate log attributes, ensuring clean, concise, and informative log entries](https://twitter.com/golangch/status/1806352351017529544)
+- [A cloud-native vector database, storage for next-generation AI applications](https://twitter.com/golangch/status/1806703850998333532)
+- [A Go library that offers functional programming using generics](https://twitter.com/golangch/status/1806244656998404448)
+- [A Go Cookie Library "Cookies, but with structs, for happiness."](https://twitter.com/golangch/status/1806967292846080218)
+- [An interesting new Video Tutorial Series about "Build an e-commerce backend in Go"](https://twitter.com/golangch/status/1806193172076273852)
+- [Structuring Go Code for CLI Applications: Commonly Used Program Layouts for Robust Applications](https://twitter.com/golangch/status/1805943665388314905)
+- [A great article about "How Golang Compiler Works"](https://twitter.com/golangch/status/1805905133294784513)
+- [A monitoring software that makes it super-easy to monitor availability and performance of various components of your system](https://twitter.com/golangch/status/1805808975541141839)
+- [A fully production-ready solution designed to implement best practices for building performant and secure backend REST API services](https://twitter.com/golangch/status/1805802912947314713)
+- [A Go-based CLI generates runbooks with AI or from commands you provide](https://twitter.com/golangch/status/1805481161533124789)
+- [An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI](https://twitter.com/golangch/status/1805471204465148221)
+- [An interesting article "No sleep until we build the ideal pub/sub library in Go"](https://twitter.com/golangch/status/1805440695554994683)
+- [A Go web and RPC framework with lots of built-in engineering practices](https://twitter.com/golangch/status/1805227429880906187)
+- [CPU vs I/O Bound Benchmarking in Go](https://twitter.com/golangch/status/1805144296812613711)
+- [A great article about "How to Implement Two-Factor Authentication (2FA) with TOTP in Golang"](https://twitter.com/golangch/status/1804489580135014535)
+- [EntGo vs GORM vs SQLx : Benchmarking Golang ORMs](https://twitter.com/golangch/status/1804879167567057139)
+
+:::
 
 [Golang empty struct 的底层原理和其使用](https://mp.weixin.qq.com/s/yodhtxhjmiIymRHUNIQelw)
 
