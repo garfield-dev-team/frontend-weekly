@@ -11,7 +11,7 @@ tags: []
 
 ## 🌟 AI 相关
 
-:::tip[技术资讯]
+:::tip 技术资讯
 
 - [OpenAI is training a new model CriticGPT, to catch bugs in GPT-4’s code and to reduce hallucinations](https://twitter.com/rohanpaul_ai/status/1806501254937313407)
 - [New 4 hour (lol) video lecture on YouTube: "Let’s reproduce GPT-2 (124M)"](https://twitter.com/karpathy/status/1799949853289804266)
@@ -117,7 +117,7 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
-:::tip[技术资讯]
+:::tip 技术资讯
 
 - [A simple slog.Handler designed to recursively merge and de-duplicate log attributes, ensuring clean, concise, and informative log entries](https://twitter.com/golangch/status/1806352351017529544)
 - [A cloud-native vector database, storage for next-generation AI applications](https://twitter.com/golangch/status/1806703850998333532)
