@@ -162,6 +162,10 @@ tags: []
 
 :::
 
+[（九）深入解析 Go 语言 GMP 模型：并发编程的核心机制](https://juejin.cn/post/7384303275376230411)
+
+[（八）Go-Zero 数据库实战：配置、建模与业务逻辑一体化](https://juejin.cn/post/7382470660775624758)
+
 [Golang empty struct 的底层原理和其使用](https://mp.weixin.qq.com/s/yodhtxhjmiIymRHUNIQelw)
 
 [国内多个库被 rsc 钉上 Go 耻辱柱](https://mp.weixin.qq.com/s/tb10VnpdiZCLYhXZDb--kQ)
