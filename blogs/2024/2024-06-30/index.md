@@ -91,53 +91,101 @@ tags: []
   - 本文由子非AI发布，介绍了吴恩达在2024年Snowflake峰会上的演讲，探讨了Agentic AI的概念及其潜力。Agentic AI不同于传统的被动AI系统，它赋予AI主动思考、规划和执行任务的能力，通过代理型工作流程（Agentic workflow）来提升AI系统的性能。
   - 吴恩达强调，Agentic AI可以在复杂任务中分解步骤并通过迭代优化结果，展现出比下一代基础模型更大的潜力。实验表明，即使是较弱的模型在采用Agentic workflow后也能超越更强的模型，展示了Agentic AI在代码生成和视觉任务等领域的广泛应用前景。
 
-[Florence-2：微软开源的轻量级视觉基础模型，吊打巨型模型！](https://mp.weixin.qq.com/s/VSx4RlyrLYbdDp3IuUF6Cw)
+- [Florence-2:微软开源的轻量级视觉基础模型，吊打巨型模型!](https://mp.weixin.qq.com/s/VSx4RlyrLYbdDp3IuUF6Cw)
+  - 本文由子非AI撰写，介绍了微软开源的轻量级视觉基础模型Florence-2。Florence-2包含两个模型：Florence-2-base（2.3亿参数）和Florence-2-large（7.7亿参数），尽管参数规模较小，但在字幕生成、目标检测、定位和分割等多个视觉任务中表现出色，甚至超越了规模更大的模型。
+  - Florence-2采用多任务学习方法，使用大量高质量的视觉标注进行训练，解决了数据有限和缺乏统一架构的挑战。其核心优势包括轻量级架构、强大功能和统一表示。训练数据集FLD-5B包含1.26亿张图像和54亿个标注，支持多任务学习和数据驱动的智能体扩展。
 
-🌟 [LLM推理引擎性能评测：vllm、lmdeploy、tensorrt-llm 请应战！](https://mp.weixin.qq.com/s/SIL1Xx_GxJOpp26k7p-VUg)
+- 🌟 [LLM推理引擎性能评测:vllm、lmdeploy、tensorrt-llm 请应战!](https://mp.weixin.qq.com/s/SIL1Xx_GxJOpp26k7p-VUg)
+  - 本文由魔搭社区撰写，评测了三种LLM推理引擎：vllm、lmdeploy和tensorrt-llm。在单并发和多并发情况下，对不同模型和数据集的性能进行了详细对比。评测指标包括吞吐量（Throughput）、首包延迟（TTFT）、每个输出token的时间和整体请求延迟等。
+  - 结果显示，vllm在首包延迟方面表现最好，适合少量用户的高体验需求；lmdeploy在吞吐量上优势明显，适合大规模用户服务；tensorrt-llm尽管需要较高的使用成本，但在特定场景下也有其优势。文章还介绍了使用EvalScope工具进行性能压测的方法。
 
-[Hugging Face Accelerate 两个后端的故事：FSDP 与 DeepSpeed](https://mp.weixin.qq.com/s/hmIvSsZ2-yKEeiXUNRlTQw)
+- [Hugging Face Accelerate 两个后端的故事:FSDP 与 DeepSpeed](https://mp.weixin.qq.com/s/hmIvSsZ2-yKEeiXUNRlTQw)
+  - 本文由Matrix Yao翻译，介绍了Hugging Face Accelerate对DeepSpeed和PyTorch FSDP两种零冗余优化器（ZeRO）算法的集成及其差异。通过实验，作者发现DeepSpeed在损失函数收敛性方面表现更好，而FSDP需要根据GPU数量调整学习率才能达到预期效果。
+  - 文章还讨论了两种算法在混合精度训练中的处理方式，指出DeepSpeed强制将主权重保持为fp32精度，而FSDP提供了更大的灵活性。最后，作者通过吞吐量测试对比了两者在实际应用中的表现，并提供了相关的概念指南帮助用户在两者之间迁移。
 
-[独家 | 进阶RAG-提升RAG效果](https://mp.weixin.qq.com/s/ics2qC5sZe7W0T1TSnlXTw)
+- [独家 | 进阶RAG-提升RAG效果](https://mp.weixin.qq.com/s/ics2qC5sZe7W0T1TSnlXTw)
+  - 本文由黄继彦编辑，讨论了如何优化RAG（Retrieval-Augmented Generation）管道的各个部分，以提升整体性能。文章详细介绍了从Pre-Retrieval、Retrieval到Post-Retrieval的各项优化技术，包括数据清洗、添加元数据、优化索引结构、分块优化、查询重写和微调嵌入模型等。
+  - 通过这些优化技术，RAG系统可以在生成更加准确和高效的回答时，显著提高检索的相关性和响应速度。这些技术适用于各种复杂查询和信息需求，确保系统在生产环境中的高效应用。
 
-[最新决议，老黄涨薪60%！英伟达股东大会通过，可老黄在偷偷卖股票](https://mp.weixin.qq.com/s/a5jrweBfkDT64prIGCLBOg)
+- [最新决议，老黄涨薪60%!英伟达股东大会通过，可老黄在偷偷卖股票](https://mp.weixin.qq.com/s/a5jrweBfkDT64prIGCLBOg)
+  - 本文由奶茶编辑，报道了英伟达在最新股东大会上通过了CEO黄仁勋薪酬上涨60%的决议，2024财年的总薪酬将达到3416.8万美元。文章还指出，尽管薪酬上涨，黄仁勋近期却在持续出售自己持有的股票，引发了外界的诸多猜测。
+  - 文章详细记录了黄仁勋在股东大会上的发言，讨论了英伟达在自动驾驶、加速计算和生成式人工智能等领域的领先地位，并强调了英伟达对未来计算技术和工业革命的影响。同时，文章也提到英伟达在医疗保健、汽车和数字制造等行业的多元化战略。
 
-[一文梳理有效提升RAG效果的方法](https://mp.weixin.qq.com/s/HrZB4qNga69ePxJvcRiHTA)
+- [一文梳理有效提升RAG效果的方法](https://mp.weixin.qq.com/s/HrZB4qNga69ePxJvcRiHTA)
+  - 本文由黄继彦编辑，梳理了提升RAG（Retrieval-Augmented Generation）效果的方法，首先介绍了几篇关于RAG优化的论文，包括RAPTOR、Self-RAG、CRAG和Dense X Retrieval等。这些方法通过改进检索和生成过程，提高了RAG系统的准确性和可靠性。
+  - 文章还记录了一些RAG工程实践经验，如文本切割优化、查询重写和混合检索策略等。这些技术帮助RAG系统在处理复杂查询和信息需求时，提高检索的相关性和响应速度，确保系统在生产环境中的高效应用。
 
-[五个维度，详解LLM-based Agent中的规划（planning）能力](https://mp.weixin.qq.com/s/O78XDeG2uQARYAUEh4VbvQ)
+- [五个维度，详解LLM-based Agent中的规划(planning)能力](https://mp.weixin.qq.com/s/O78XDeG2uQARYAUEh4VbvQ)
+  - 本文由黄继彦编辑，详细梳理了LLM-based Agent中的规划能力，分为任务分解、规划选择、外部辅助规划、反馈和改进、记忆五个维度。每个维度都探讨了相关的研究工作和实践经验，如任务分解方法中的HuggingGPT和Chain-of-Thought (CoT)等。
+  - 文章还讨论了这些方法的优缺点及面临的挑战，包括LLM在复杂任务中的幻觉问题、生成计划的可行性及效率问题等。未来方向包括多模态环境反馈和细粒度评估，以提高LLM在实际应用中的规划能力。
 
-[更难、更好、更快、更强：LLM Leaderboard v2 现已发布](https://mp.weixin.qq.com/s/SW62l1J92xzo108-jCe9pQ)
+- [更难、更好、更快、更强:LLM Leaderboard v2 现已发布](https://mp.weixin.qq.com/s/SW62l1J92xzo108-jCe9pQ)
+  - 本文由RLHF团队撰写，介绍了Open LLM Leaderboard v2的发布背景及其改进。新版本通过更具挑战性的基准测试，如MMLU-Pro、GPQA和MuSR，解决了现有基准测试过度使用和数据污染的问题，以更好地评估大语言模型（LLMs）的实际性能。
+  - 文章还介绍了排行榜的新功能，包括使用标准化得分报告更公平的排名、更新评估套件以确保可复现性，以及引入社区投票系统和维护者推荐，帮助用户找到最有用和高质量的模型。新排行榜旨在推动开放和可复现的模型评估，促进LLM领域的持续进步。
 
-[迪士尼笑了！陈丹琦团队最新研究，打造AI"版权护盾"，AI创新不侵权](https://mp.weixin.qq.com/s/pxQzCUys3tJfRHVzIjbHsA)
+- [迪士尼笑了!陈丹琦团队最新研究，打造AI"版权护盾"，AI创新不侵权](https://mp.weixin.qq.com/s/pxQzCUys3tJfRHVzIjbHsA)
+  - 本文由陈丹琦团队撰写，介绍了普林斯顿大学计算机科学系助理教授陈丹琦及其团队开发的新方法，结合提示词重写技术与负面提示词策略，旨在生成过程中规避使用受保护的内容，既保障了创新，又尊重了知识产权，堪称AI领域的"版权护盾"。
+  - 文章还阐述了COPYCAT评估套件的使用，通过对多个主流AI模型进行测试，验证了新方法在降低生成版权角色图像风险方面的有效性，并提出了未来在保护知识产权与发挥AI创造力之间寻求平衡的可能性。
 
-[耳朵没错，是声音太真了，字节豆包语音合成成果Seed-TTS技术揭秘](https://mp.weixin.qq.com/s/pAB_ezlEmUCM98n1eQX0ZQ)
+- [耳朵没错，是声音太真了，字节豆包语音合成成果Seed-TTS技术揭秘](https://mp.weixin.qq.com/s/pAB_ezlEmUCM98n1eQX0ZQ)
+  - 本文由字节跳动豆包大模型团队撰写，介绍了其最新发布的语音生成大模型Seed-TTS。该模型能够生成几乎与真人无异的语音，包括发音瑕疵，且在模仿人类说话方面表现出色。Seed-TTS通过文本生成全新语音，并能复刻原素材的声音特征。
+  - 文章详细阐述了Seed-TTS在生成细节、自然度和稳定性上的技术挑战和解决方案，以及其在数据覆盖、模型设计和工程方面的创新。Seed-TTS的发布标志着语音生成技术的新高度，应用场景广泛，未来潜力巨大。
 
-🌟 [我做了一个 AI 搜索引擎](https://mp.weixin.qq.com/s/25eXZi1QgGYIPpXeDzkQrg)
+- 🌟 [我做了一个 AI 搜索引擎](https://mp.weixin.qq.com/s/25eXZi1QgGYIPpXeDzkQrg)
+  - 本文由ThinkAny团队撰写，介绍了他们开发的AI搜索引擎ThinkAny。文章详细描述了ThinkAny的技术架构、发展历程及其在全球市场的冷启动成功经验。ThinkAny利用RAG（检索增强生成）技术，结合多语言支持和高效的AI回答功能，目标是实现更快、更准的搜索体验。
+  - 文章还探讨了AI搜索引擎的核心要素，如准确度、响应速度和高可用性，并介绍了ThinkAny在多模式使用、多模型对话和多模态检索等方面的创新功能。作者分享了对AI搜索市场的看法，认为准确度和平台化是未来发展的关键，并强调了成本优化和差异化创新的重要性。
 
-[大模型综述：万字长文详解AI大模型的原理、应用与未来趋势](https://mp.weixin.qq.com/s/uQ_MQwAo5FbVsaGSGKzaQA)
+- [大模型综述:万字长文详解AI大模型的原理、应用与未来趋势](https://mp.weixin.qq.com/s/uQ_MQwAo5FbVsaGSGKzaQA)
+  - 本文由AI领域专家撰写，详细介绍了大语言模型（LLMs）的发展历程、独特魅力及其在现实世界中的多彩应用。文章回顾了从统计语言模型到神经语言模型再到预训练语言模型的演进过程，强调了LLMs在上下文理解、少样本学习、多模态融合、推理和问题解决以及持续学习和适应方面的强大能力。
+  - 文章还探讨了LLMs在日常生活、工作场景、教育、创意写作和商业世界中的应用，展示了其在智能手机输入法、编程助手、AI助教、创意写作辅助和客户服务等方面的广泛应用前景。通过实际案例和代码示例，文章生动展示了LLMs在各领域带来的革命性变革。
 
-🌟 [Qwen2大模型微调入门实战-命名实体识别（NER）任务](https://mp.weixin.qq.com/s/Cj39J18hXOAkIzHd7HAjXw)
+- 🌟 [Qwen2大模型微调入门实战-命名实体识别(NER)任务](https://mp.weixin.qq.com/s/Cj39J18hXOAkIzHd7HAjXw)
+  - 本文由通义千问团队撰写，介绍了如何使用阿里云通义实验室研发的Qwen2大语言模型进行命名实体识别（NER）任务的指令微调。文章详细描述了指令微调的概念及其在提升模型理解和执行特定指令能力方面的作用，并通过实际案例展示了微调后的模型在NER任务中的应用。
+  - 文章提供了从环境安装、数据准备、模型加载到训练过程的详细步骤，并介绍了如何使用SwanLab工具监控训练过程和评估模型效果。通过LoRA方法训练，Qwen2-1.5B模型能够在显存需求较低的情况下实现高精度的NER任务，展示了大模型在实际NLP应用中的强大能力和广泛前景。
 
-[CodeRAG-Bench：RAG遇到了Coder，哪个模型在RAG的加持下最会写代码](https://mp.weixin.qq.com/s/V4Mg1e4I6aHsF_D9-rrQBQ)
+- [CodeRAG-Bench:RAG遇到了Coder，哪个模型在RAG的加持下最会写代码?](https://mp.weixin.qq.com/s/V4Mg1e4I6aHsF_D9-rrQBQ)
+  - 本文由AI研究团队撰写，介绍了CodeRAG-Bench评估基准，用于检验检索增强生成（RAG）技术在代码生成任务中的效果。文章详细描述了CodeRAG-Bench的构建流程，包括编程问题分类、检索资料收集、标注标准文档和设置评估流程，并测试了多个顶尖代码生成模型在不同任务中的表现。
+  - 文章探讨了高质量上下文对代码生成的显著提升作用，但也指出了当前检索器和生成器在处理复杂上下文和整合信息方面的不足。研究发现，尽管RAG技术能提升代码生成的准确性，但仍需优化检索系统和模型处理上下文的能力，以实现更高效的代码生成。
 
-[开源模型破局OpenAI服务限制，15分钟灵活搭建RAG和Agent应用](https://mp.weixin.qq.com/s/a0EETNnbWBEzXJBaLJ_zAA)
+- [开源模型破局OpenAI服务限制，15分钟灵活搭建RAG和Agent应用](https://mp.weixin.qq.com/s/a0EETNnbWBEzXJBaLJ_zAA)
+  - 本文由AI实验团队撰写，介绍了如何在15分钟内利用开源模型替代OpenAI服务，灵活搭建RAG和Agent应用。文章通过两个实验展示了Qwen2与Ollama、LlamaIndex及LangChain的结合应用，详细描述了从环境安装、模型下载、配置文件创建到代码运行的全过程。
+  - 实验一展示了如何使用Qwen2与LlamaIndex实现RAG应用，实验二则展示了Qwen2与LangChain结合实现Agent应用。文章强调了在本地设备上快速部署和运行开源模型的便捷性，提供了详细的代码示例和步骤说明，帮助读者快速上手并实现相应功能。
 
-[7月9日生效！OpenAI将封杀不支持地区API，违规者将面临封号！](https://mp.weixin.qq.com/s/0Cv7adCioN9ZT8OaL6ifTg)
+- [7月9日生效!OpenAI将封杀不支持地区API，违规者将面临封号!](https://mp.weixin.qq.com/s/0Cv7adCioN9ZT8OaL6ifTg)
+  - 本文介绍了OpenAI将于7月9日开始封锁不支持地区的API访问，违规者将面临封号。文章指出，OpenAI检测用户使用其API的地区，并警告不支持位置的用户即将封禁“非法”流量。这一举措将导致部分开发者需要更换工具，一些“套壳”应用也会因此暴露。
+  - 此外，文章提到OpenAI在新版本的ChatGPT iOS应用中增加了高级语音模式选项，并开始alpha版本的灰度测试。该语音模式具备实时响应自然对话、感知用户情绪和视频聊天等功能，Plus用户将很快获得GPT-4o的完整版功能。
 
-[语言≠思维，大模型学不了推理：一篇Nature让AI社区炸锅了](https://mp.weixin.qq.com/s/BgMNITn5e1RGUOHQLKv7yg)
+- [语言≠思维，大模型学不了推理:一篇Nature让AI社区炸锅了](https://mp.weixin.qq.com/s/BgMNITn5e1RGUOHQLKv7yg)
+  - 这篇由麻省理工学院等机构发表在《自然》杂志上的文章指出，人类大脑生成和解析语言的神经网络并不负责形式化推理，语言主要是用于交流的工具，而不是思考的工具。文章通过神经科学和相关学科的最新证据，挑战了语言对于复杂思维的必要性。
+  - 文章引发了科技领域的广泛讨论，特别是在AI社区。研究表明，即使没有语言能力，人类仍然能够进行复杂的思维和推理。文章讨论了语言网络的特性及其在思维和认知中的作用，强调了语言和推理的平行发展而非依赖关系。
 
-[Skywork AI | 提出新框架：Q*，旨在解决大模型多步推理（Multi-step）错误问题](https://mp.weixin.qq.com/s/dDaYBhewnc9-GslzS7vv1A)
+- [Skywork AI | 提出新框架:Q*，旨在解决大模型多步推理(Multi-step)错误问题](https://mp.weixin.qq.com/s/dDaYBhewnc9-GslzS7vv1A)
+  - 本文作者提出了一个名为Q\*的新框架，旨在解决大模型在多步推理中出现的错误、幻觉和不一致陈述等问题。Q\*通过学习一个Q值模型作为启发式函数，引导LLMs选择最合适的下一步行动，无需对每个任务进行微调，从而降低计算资源开销并避免灾难性遗忘。
+  - Q\*框架在数学推理和代码生成等任务上的表现显著提升，通过深思熟虑的规划，有效帮助模型规避推理过程中的错误和逻辑不一致性。实验结果表明，Q\*在多个数据集上均取得了优异的结果。
 
-[Modelscope-Agent 增强RAG能力：（一）多策略召回、多模态召回](https://mp.weixin.qq.com/s/On_fAwP-Gjpl6QD_zXzCnQ)
+- [Modelscope-Agent 增强RAG能力:(一)多策略召回、多模态召回](https://mp.weixin.qq.com/s/On_fAwP-Gjpl6QD_zXzCnQ)
+  - 本文介绍了Modelscope-Agent通过引入llama-index来增强其在多策略和多模态召回场景中的应用能力。作者详细描述了如何通过多策略召回器混用和支持多种模态文件（如文本、图片、音频、视频）的读取和处理，提升了知识库的RAG（检索-生成）能力。
+  - 文章还展示了具体的实现方法和代码示例，说明了如何配置和使用这些新功能。通过这些增强措施，Modelscope-Agent能够在不同场景中提供更高的准确率和性能效果，满足复杂多样的应用需求。
 
-🌟 [TGI 基准测试](https://mp.weixin.qq.com/s/_fwMZnycmFWHFIxR76FJTg)
+- 🌟 [TGI 基准测试](https://mp.weixin.qq.com/s/_fwMZnycmFWHFIxR76FJTg)
+  - 本文作者Derek Thomas介绍了TGI基准测试工具，该工具能帮助用户超越简单的吞吐量指标，对TGI进行全面的性能剖析。文章详细讲解了如何利用该工具进行服务性能优化，以便根据实际需求进行调优并作出最佳决策。
+  - 文章还展示了如何在Hugging Face空间上使用TGI基准测试工具，通过具体示例和图表说明了延迟与吞吐量的关系，帮助用户理解和优化LLM推理服务的性能。
 
-[成果｜Seq1F1B：节省50%显存的长文本模型流水线并行训练技术](https://mp.weixin.qq.com/s/MJaWdar-rnYC8YnYyJsBnw)
+- [成果｜Seq1F1B：节省50%显存的长文本模型流水线并行训练技术](https://mp.weixin.qq.com/s/MJaWdar-rnYC8YnYyJsBnw)
+  - 本文作者介绍了他们与北京邮电大学团队共同开发的Seq1F1B训练技术，这是一种新的长文本模型流水线并行训练方法。Seq1F1B通过将流水线调度单元按序列切分，并提出针对序列维度的1F1B流水线并行策略和高效的序列切分方法，显著降低了流水线对显存的需求，同时减少了因空闲气泡导致的性能损失。
+  - 实验结果表明，Seq1F1B相比传统流水线方法可减少50%的显存占用，最高能支持30B GPT-2模型的64k长文本训练（不启用重计算显存优化），并在大多数情况下实现更高的训练吞吐。该技术解决了1F1B流水线在长文本训练中面临的显存瓶颈，为大语言模型的高效训练提供了新的解决方案。
 
-[Vector | Graph：蚂蚁首个开源Graph RAG框架设计解读](https://mp.weixin.qq.com/s/hd2FzO2p15ERbHe0w87J8Q)
+- [Vector | Graph:蚂蚁首个开源Graph RAG框架设计解读](https://mp.weixin.qq.com/s/hd2FzO2p15ERbHe0w87J8Q)
+  - 本文作者介绍了蚂蚁集团开发的通用开源RAG框架，该框架旨在兼容多样化的基础研究建设和工程化应用需求。文章详细阐述了从传统RAG到Graph RAG的技术演进，并提出了一个统一的架构设计，可以同时支持向量索引和图索引等多种索引形式。
+  - 作者还介绍了蚂蚁的Graph RAG开源技术方案，包括DB-GPT、OpenSPG和TuGraph等核心组件，并探讨了未来的优化方向，如改进内容索引和检索生成阶段，以及RAG向Agent架构的演化趋势。文章强调了Graph RAG作为新兴AI工程领域的潜力，并邀请开发者参与共建。
 
-🌟 [[LLM推理优化][万字]TensorRT-LLM部署调优-指北](https://mp.weixin.qq.com/s/b_-O0FoTYtANJbQvks9ghw)
+- 🌟 [[LLM推理优化][万字]TensorRT-LLM部署调优-指北](https://mp.weixin.qq.com/s/b_-O0FoTYtANJbQvks9ghw)
+  - 本文作者详细介绍了TensorRT-LLM部署过程中的性能调优技巧。文章涵盖了多个关键方面，包括Batch size相关设置、影响首Token时延的配置、custom_all_reduce的使用、Decode时延的优化、fp8/int8 KV Cache的设置、In-Flight Batching的相关配置以及bls模式的设置等。
+  - 作者还提供了如何开启debug模式的指导，并总结了TensorRT-LLM性能分析的方法。这篇文章为TensorRT-LLM的实际应用提供了全面的指导，帮助读者理解和优化LLM推理服务的性能。作者承诺长期更新文章内容，以反映最新的实践经验和遇到的问题。
 
-[超越Devin！华为等| 解决接近30%的GitHub issues！最强CodeR来啦！](https://mp.weixin.qq.com/s/EOn1pKn7fo4unJm3H1xnQQ)
+- [超越Devin!华为等| 解决接近30%的GitHub issues!最强CodeR来啦!](https://mp.weixin.qq.com/s/EOn1pKn7fo4unJm3H1xnQQ)
+  - 这篇由华为、中科院、新加坡管理大学和北京大学的研究人员撰写的文章介绍了一个名为CodeR的新框架，用于自动解决GitHub issues。CodeR采用多智能体（Multi-Agent）和预定义的任务图（Task Graph）方法，在SWE-bench-lite数据集上实现了28.33%的issue解决率，创造了新的记录。
+  - CodeR框架包含五个代理角色：经理、复现者、故障定位器、编辑器和验证者，每个角色都有特定的动作空间。关键创新在于使用结构化任务图来表示解决issue的计划，这种方法避免了大语言模型在指令遵循和长上下文处理中的问题。此外，CodeR还利用LLM生成的测试用例和现有代码库中的测试来改进故障定位和代码检索。
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
