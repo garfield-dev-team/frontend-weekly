@@ -66,6 +66,8 @@ tags: []
 
 [LLM+本地知识库？简单又没那么简单](https://juejin.cn/post/7300470358817243145)
 
+[你想要的GraphRAG的内容都在这了](https://mp.weixin.qq.com/s/LhfEfbpmoDNTfyC8wnE9xA)
+
 [2024年6月后2周重要的大语言模型论文总结：LLM进展、微调、推理和对齐](https://mp.weixin.qq.com/s/Q9rJ5eWnaMRYyAtA2C_ZTA)
 
 [RouteLLM：高效LLM路由框架，可以动态选择优化成本与响应质量的平衡](https://mp.weixin.qq.com/s/YTe-G8jlmf7DfvNr1jXmiQ)
