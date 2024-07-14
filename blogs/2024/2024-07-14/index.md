@@ -72,9 +72,9 @@ tags: []
 
 [Meta | 提出System 2蒸馏方法，Llama 2对话模型任务准确率接近100%！](https://mp.weixin.qq.com/s/pWzp9r4mWHkEtwoNatGNZg)
 
-[LLM之RAG实战（二十五）| 使用LlamaIndex和BM25重排序实践](https://mp.weixin.qq.com/s/MsRdzVxRnCWZGaN5qeSkXA)
+🌟 [LLM之RAG实战（二十五）| 使用LlamaIndex和BM25重排序实践](https://mp.weixin.qq.com/s/MsRdzVxRnCWZGaN5qeSkXA)
 
-[Hybrid Search: 利用BM25算法和语义搜索提升RAG系统性能](https://mp.weixin.qq.com/s/dK0wxP5AUxSQ_poIs-cpPQ)
+🌟 [Hybrid Search: 利用BM25算法和语义搜索提升RAG系统性能](https://mp.weixin.qq.com/s/dK0wxP5AUxSQ_poIs-cpPQ)
 
 [Lookback Lens：用注意力图检测和减轻llm的幻觉](https://mp.weixin.qq.com/s/wzqXhkFlvCeJkSGPrM9TxQ)
 
@@ -169,6 +169,8 @@ tags: []
 - [Learn how to build your own distributed key-value storage system using the etcd Raft library. Dive into the architecture and code analysis! ](https://twitter.com/TheGoDev/status/1810345348482650547)
 
 :::
+
+[盘点 Rust 中的那些天才构思](https://juejin.cn/post/7364224622679965730)
 
 [构建并运行 eBPF 应用 - Part 1](https://mp.weixin.qq.com/s/o-5Cf83RyFoMuI6Itsre5w)
 
