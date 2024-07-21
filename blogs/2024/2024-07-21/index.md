@@ -215,6 +215,8 @@ tags: []
 
 ## 📒 后端相关
 
+🌟 [如何理解：业务架构、应用架构、数据架构、技术架构与系统和复杂度](https://mp.weixin.qq.com/s/jaXXrZsKvVhodaLKb35IwA)
+
 [40 个定时任务，带你理解 RocketMQ 设计精髓！](https://mp.weixin.qq.com/s/N-evKHlpvLnRB-Yc675YSg)
 
 [Redis只能做缓存？太out了！](https://mp.weixin.qq.com/s/dxbfQ8VVR9jEjRm-kYFpyg)
