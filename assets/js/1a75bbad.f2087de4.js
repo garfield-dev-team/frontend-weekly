@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[5292],{16749:e=>{e.exports=JSON.parse('{"label":"git","permalink":"/frontend-weekly/2022/tags/git","allTagsPath":"/frontend-weekly/2022/tags","count":11}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_weekly=self.webpackChunkfrontend_weekly||[]).push([[95217],{46986:e=>{e.exports=JSON.parse('{"label":"Webpack HMR","permalink":"/frontend-weekly/2022/tags/webpack-hmr","allTagsPath":"/frontend-weekly/2022/tags","count":1}')}}]);
