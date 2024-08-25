@@ -5,7 +5,37 @@ authors: [garfield]
 tags: []
 ---
 
+![alt text](maxresdefault.jpg)
+
+封面图：Safe by construction - Roberto Clapis
+
 ## 🌟 AI 相关
+
+[RAGLAB、TC-RAG、CommunityKG-RAG、W-RAG：这周怎么这么多RAG](https://mp.weixin.qq.com/s/JqT1wteHC43h2cPlXmPOFg)
+
+[李沐重返母校，上交大秒变追星现场，大模型趋势无保留分享](https://mp.weixin.qq.com/s/mbqHqiz9H7BNmUijaPI67w)
+
+[我们给大模型去掉了“AI味”-大模型微调全链路实战](https://mp.weixin.qq.com/s/BpTOlOIk2qTnd1oBJZ4EJg)
+
+[以DeepSeek-VL为例，详解视觉语言模型原理及代码](https://mp.weixin.qq.com/s/eRvTJcplaszo3GCrx4IAfA)
+
+[用于复杂RAG任务的先进可控Agent](https://mp.weixin.qq.com/s/SDTE5LZLegXyIi3DxSRuvg)
+
+[【LLM模型微调】LLMs-PEFT[微调]-LoRA总结笔记v5.0](https://mp.weixin.qq.com/s/ltwEH5kLOjJ_OGys57vH9g)
+
+[如何用Prompt技巧激发无限创意](https://mp.weixin.qq.com/s/Qlz2iyO6dN4-MWJmIHZIiQ)
+
+[FLUX第三弹：直面天命，FLUX.1-LoRA/IP-adapter「黑神话：悟空」生图实战](https://mp.weixin.qq.com/s/7NavuJUzR7DwTZn45QfdPw)
+
+[微软「小而美」系列三连发！视觉小钢炮 PK GPT-4o，MoE 新秀力压 Llama 3.1｜AGI 掘金资讯](https://mp.weixin.qq.com/s/7Iz14lcz7eriVzFooPSF3Q)
+
+[豆包“听力”水平现场开箱！看Seed-ASR如何突破语音识别瓶颈](https://mp.weixin.qq.com/s/4eUPcojYxNWlBZCFDhop6A)
+
+[英伟达仅用380B tokens训练刷新8B模型新SoTA，剪枝和蒸馏应该这么用](https://mp.weixin.qq.com/s/RMZc-GRNktlbJw-_uh8IZA)
+
+[社区供稿 | 使用 Hugging Face 和 Milvus 构建 RAG 系统](https://mp.weixin.qq.com/s/3_VHwotNlPtv9c3WGMEnQg)
+
+[大模型厂商纷纷入局的Prompt Cache技术解析](https://mp.weixin.qq.com/s/xXlrw7kgVyD1_0rOuYm-cQ)
 
 [披上Agent盔甲的RAG，从此不再只是召回生成！](https://mp.weixin.qq.com/s/nNsJ3ZzyrP2bZUgL5oZIIw)
 
@@ -61,9 +91,40 @@ tags: []
 
 ## ⭐️ Go & 云原生 & Rust 相关
 
+:::tip 技术资讯
+
+- [QUIC协议的一些基操解释](https://www.iroh.computer/blog/closing-a-quic-connection)
+- [Rust实现的一个狭义相对论模拟](https://sogebu.github.io/special-relativity-web/20240810/#simulations)
+- [Rust中的Mutex, Atomics 和 UnsafeCell](https://leon.schuermann.io/blog/2024-08-07_rust-mutex-atomics-unsafecell_spooky-action-at-a-distance.html)。这篇文章主要讨论了Rust中的Mutex、Atomics和UnsafeCell的实现原理和相关概念:
+  - 文章通过自定义实现AtomicUsize来探讨原子操作的原理。作者发现简单使用UnsafeCell并不能实现真正的原子性,因为编译器会对其进行优化。
+  - 真正的原子操作需要使用编译器内部函数(intrinsics)来实现,这些函数不仅生成原子指令,还会告诉编译器不要对其进行优化。
+  - Mutex的实现基于UnsafeCell和一个原子整数。获取锁时使用原子的compare_exchange操作,释放锁时使用原子操作配合内存顺序(memory ordering)来保证可见性。
+  - 内存顺序(如Acquire和Release)不仅影响生成的机器指令,还会限制编译器的优化,从而保证跨线程的内存访问顺序。
+  - VolatileCell用于嵌入式系统中访问内存映射I/O。它使用volatile读写操作,但仍存在一些安全性问题。
+  - volatile操作与原子操作不同,不能建立happens-before关系。对于DMA等操作,需要额外使用内存屏障(fence)来保证顺序。
+  - 文章深入探讨了UnsafeCell、原子操作、内存顺序等概念如何在底层影响Rust的并发安全性,对理解Rust的并发模型很有帮助。
+
+:::
+
 [Range Over Function Types](https://go.dev/blog/range-functions)
 
 [Go 1.23 is released](https://go.dev/blog/go1.23)
+
+[Rust的Pin类型是用来做什么的，以及为什么它很难使用](https://juejin.cn/post/7394789388143067145)
+
+[Rust 中 @ 符号的高级应用和最佳实践](https://juejin.cn/post/7366177423774482432)
+
+[[译] Range Over Function Types](https://mp.weixin.qq.com/s/TUTvwZiIzE1LEiIs-Xhw6A)
+
+[探索 Go 标准库中的优雅设计模式：函数与接口的结合](https://mp.weixin.qq.com/s/8PyL80QJQe3tlg1MQTVwmw)
+
+[Go 入门指南：5.2. 测试多返回值函数的错误](https://mp.weixin.qq.com/s/JTjGTcPB6JL566NY3XPxuQ)
+
+[Go 项目结构的简洁实现 | GitHub 3.5k](https://mp.weixin.qq.com/s/Ivrg1_0afSRZOkY-VYs0Vg)
+
+[Go GOPATH 模式未来会怎么样，会消失吗](https://mp.weixin.qq.com/s/GLCW-6J1j9YhVqU0rrtqXQ)
+
+[Go1.23 新特性：再开后门，可以记录未捕获的 panic 和 throw 日志了！](https://mp.weixin.qq.com/s/D16riVBbnDibLueQBIQ6Pw)
 
 🌟 [Kitex Thrift Streaming 在字节跳动 Prompt 平台的实践](https://mp.weixin.qq.com/s/f6dF415o4JbzFbNoZSkOTg)
 
@@ -89,6 +150,8 @@ tags: []
 
 ## 📒 后端相关
 
+[互联网根服务器只有13台，是真的吗](https://mp.weixin.qq.com/s/Wl2xyKF3Ypjlfm5qPDNX9Q)
+
 [一线实战：运维人少，我们是如何从 0 到 1 实践 DevOps 和云原生](https://mp.weixin.qq.com/s/QwFmQDCNl83HMSc6pkQZnA)
 
 [千万级数据的全表update的正确姿势！](https://mp.weixin.qq.com/s/5q1E2whNqaM3J2dAZFQwlg)
@@ -101,4 +164,6 @@ tags: []
 
 ## 📒 前端相关
 
+[2024最新VSCode实用插件推荐，开发效率遥遥领先！超全面，快收藏~](https://mp.weixin.qq.com/s/CGcX9tZ9b1uKl7yMcS4uHQ)
 
+[把黑神话悟空视频设置为vscode背景，真的太炫酷了](https://mp.weixin.qq.com/s/QH0jK8tWlPXus2Z3EkcFQw)
