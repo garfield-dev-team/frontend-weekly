@@ -11,6 +11,16 @@ tags: []
 
 ## 🌟 AI 相关
 
+[TC-RAG: Turing-Complete RAG--图灵完备的检索增强](https://mp.weixin.qq.com/s/9VhIC5sJP_6nh_Ppfsb6UQ)
+
+🌟 [Weavel Ape超过DSPy，或将成为最好用的提示（prompt）优化工具](https://mp.weixin.qq.com/s/iV34tT-wkPddFiI92KdUWw)
+
+[小波降噪加持，xLSTM-TS 模型解码股市“天机”](https://mp.weixin.qq.com/s/OtXhTsD-44uauV9JpihcKA)
+
+[Karpathy狂赞AI代码神器Cursor，直言回不到3年前无辅助编码了，却被指「带货」](https://mp.weixin.qq.com/s/oMD7pNABpwOTnpGadhpuGw)
+
+[如何解读 Yann LeCun推文建议学生不要在大模型方向工作](https://mp.weixin.qq.com/s/JweLq9IirIL9atKl4TzLTA)
+
 [RAGLAB、TC-RAG、CommunityKG-RAG、W-RAG：这周怎么这么多RAG](https://mp.weixin.qq.com/s/JqT1wteHC43h2cPlXmPOFg)
 
 [李沐重返母校，上交大秒变追星现场，大模型趋势无保留分享](https://mp.weixin.qq.com/s/mbqHqiz9H7BNmUijaPI67w)
@@ -109,6 +119,8 @@ tags: []
 [Range Over Function Types](https://go.dev/blog/range-functions)
 
 [Go 1.23 is released](https://go.dev/blog/go1.23)
+
+[Go 1.18之后的语法新特性Quiz，你能做对几个](https://mp.weixin.qq.com/s/12CYni0M0Ek3p_lYfGhz4g)
 
 [Rust的Pin类型是用来做什么的，以及为什么它很难使用](https://juejin.cn/post/7394789388143067145)
 
