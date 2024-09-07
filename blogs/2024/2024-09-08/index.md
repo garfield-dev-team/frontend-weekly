@@ -21,8 +21,6 @@ tags: []
 
 [黑神话悟空火了，为何没人用H100打游戏?（盘点H100和4090的十点区别）](https://mp.weixin.qq.com/s/VixZaR1t7kXyf2rq6Y7zgA)
 
-[论文阅读 | Meta: System 2 Distillation](https://mp.weixin.qq.com/s/S7a6NzgkoV0jKe-6LQ2j3Q)
-
 [亚马逊最新发布的PR3框架，用元知识大幅提升LLM对知识库的回答质量](https://mp.weixin.qq.com/s/XCMm7FKAs_kOVf1lFt92Zw)
 
 [小钢炮进化，MiniCPM 3.0 开源！4B参数超GPT3.5性能，无限长文本，超强RAG三件套！模型推理、微调实战来啦！](https://mp.weixin.qq.com/s/rbrdlUTCoNoyCqiDlisexA)
