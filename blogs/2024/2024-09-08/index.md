@@ -11,6 +11,10 @@ tags: []
 
 ## 🌟 AI 相关
 
+[iText2KG：显著降低LLM构建知识图谱时的幻觉现象](https://mp.weixin.qq.com/s/H-wCjygpTJ6zsCRSf8KTWQ)
+
+[ICLR'24 | MiniLLM：大模型的知识蒸馏](https://mp.weixin.qq.com/s/erulXGhL5Q0LjZ7khcMdJQ)
+
 [小而强大，零一万物编程小能手Yi-Coder系列模型开源！](https://mp.weixin.qq.com/s/zZcysXVelYA_SlYbe_5v5A)
 
 [Open LLM集中爆发的一周，卷疯了！](https://mp.weixin.qq.com/s/qxljn6k-m0TeUcfrQdgSDw)
