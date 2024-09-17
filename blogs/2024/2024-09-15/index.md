@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ecc988bb-9168-47db-b00d-891ffa78cffe)---
+---
 slug: 9月15日内容汇总
 title: 9月15日内容汇总
 authors: [garfield]
