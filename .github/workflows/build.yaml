@@ -105,7 +105,7 @@ jobs:
       #     password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
       - name: Upload static assets to Aliyun OSS
-        uses: garfield-dev-team/aliyun-oss-action@v2
+        uses: garfield-dev-team/aliyun-oss-action@v3
         with:
           endpoint: https://oss-cn-hangzhou.aliyuncs.com
           bucket: frontend-weekly
