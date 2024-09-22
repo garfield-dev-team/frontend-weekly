@@ -148,6 +148,8 @@ tags: []
 
 :::
 
+[Rust多线程浮点数运算比Golang慢一倍](https://juejin.cn/post/7395869193494822952)
+
 [GWS 项目的秘密武器：高性能 bytes.Buffer 池设计详解](https://mp.weixin.qq.com/s/rZ3Ec4ESZvV5-hipagvs_Q)
 
 [万字解析 golang netpoll 底层原理](https://mp.weixin.qq.com/s/_FTvpvLIWfYzgNhOJgKypA)
