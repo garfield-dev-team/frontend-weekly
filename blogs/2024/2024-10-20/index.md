@@ -93,7 +93,7 @@ tags: []
 
 [Go 入门指南：11.7. 第一个例子：使用 Sorter 接口排序](https://mp.weixin.qq.com/s/9Bc2vOWYMEOlZ71wv488FA)
 
-[Go中秘而不宣的数据结构 spmc, 10倍性能于 channel](https://mp.weixin.qq.com/s/fj87oGZPkFKQiGZxhrYRVQ)
+🌟 [Go中秘而不宣的数据结构 spmc, 10倍性能于 channel](https://mp.weixin.qq.com/s/fj87oGZPkFKQiGZxhrYRVQ)
 
 [Go 入门指南：11.6. 使用方法集与接口](https://mp.weixin.qq.com/s/Uv36PXhXxSzCxEl7pKyEfA)
 
