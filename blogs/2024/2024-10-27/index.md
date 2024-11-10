@@ -5,6 +5,10 @@ authors: [garfield]
 tags: []
 ---
 
+![alt text](maxresdefault.jpg)
+
+封面图：Safe by construction - Roberto Clapis
+
 ## 🌟 AI 相关
 
 [嫌GraphRAG太慢？可以试试StructRAG](https://mp.weixin.qq.com/s/HghDlqsmmF8_7dw6t12WfQ)
